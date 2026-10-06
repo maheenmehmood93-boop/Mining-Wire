@@ -51,21 +51,38 @@ const PROVINCES = {
 };
 
 // General newspapers are only kept when a story is about mining or minerals.
-const MINING_RE = new RegExp(
+//
+// Two tiers keep everyday words from slipping through:
+//  - STRONG terms are clearly about the industry and qualify a story on their own.
+//  - WEAK terms (a metal, a stone, "minerals") are also used in health, building
+//    and technology news, so they only count when the story also uses a word from
+//    the context list (deposits, reserves, exploration, licence, exports ...).
+// Avoid bare acronyms: "PMDC" is both the Pakistan Mineral Development Corporation
+// and the Pakistan Medical and Dental Council, so only the full name is listed.
+const STRONG_MINING_RE = new RegExp(
   [
-    "\\b(?:mining|miners?|mines?|minerals?|quarr(?:y|ies)|ores?|lignite|chromite|marble|granite|gemstones?|emeralds?|copper|lithium|antimony|barite|gypsum|limestone|rock salt|salt range|rare earths?|coal|zinc|nickel|cobalt|uranium|bauxite|manganese|tungsten|graphite|potash)\\b",
+    "\\b(?:mining|miners?|mines?|quarr(?:y|ies)|ores?|lignite|chromite)\\b",
+    "\\bminerals?\\s+(?:resources?|policy|policies|sector|exploration|deposits?|wealth|development|act|rules|licen[cs]es?|concessions?|reserves?|potential|projects?)\\b",
+    "\\b(?:mines\\s+and\\s+minerals?|critical\\s+minerals?|rare\\s+earths?)\\b",
+    "\\bthar\\s+coal\\b",
+    "\\bcoal\\s+(?:mines?|mining|fields?|reserves?|deposits?|production|output)\\b",
     "\\breko\\s?-?(?:diq|dik)\\b",
-    "\\b(?:saindak|pmdc|barrick|tethyan|mari minerals)\\b",
+    "\\b(?:saindak|barrick|tethyan|mari minerals|pakistan mineral development corporation)\\b",
     "\\bgold\\s+(?:mines?|mining|deposits?|reserves?|projects?|exploration|output|production|licen[cs]es?|belt)\\b",
     "کان کنی|معدنیات|معدنی|کانوں|کوئلہ|کوئلے|تانبا|تانبے|ریکوڈک|ماربل|کرومائٹ|گرینائٹ|قیمتی پتھر",
   ].join("|"),
   "i"
 );
+const WEAK_MINING_RE =
+  /\b(?:copper|lithium|zinc|nickel|cobalt|uranium|manganese|tungsten|graphite|potash|bauxite|antimony|barite|gypsum|limestone|rock salt|salt range|marble|granite|gemstones?|emeralds?|coal|minerals?)\b/i;
+const MINING_CONTEXT_RE =
+  /\b(?:deposits?|reserves?|exploration|extraction|licen[cs]es?|leases?|concessions?|smelters?|concentrates?|exports?|royalt(?:y|ies)|geolog\w*|auctions?|tenders?)\b/i;
 // Uses of the word "mining" that have nothing to do with the industry.
 const NOT_MINING_RE = /\b(?:bitcoin|crypto(?:currency)?|data|text|digital|blockchain)\s+mining\b|\bmineral water\b/i;
 
 export function isMiningStory(hay) {
-  return MINING_RE.test(hay) && !NOT_MINING_RE.test(hay);
+  if (NOT_MINING_RE.test(hay)) return false;
+  return STRONG_MINING_RE.test(hay) || (WEAK_MINING_RE.test(hay) && MINING_CONTEXT_RE.test(hay));
 }
 
 export function findProvinces(hay, hint) {
@@ -238,7 +255,7 @@ const linkKey = (link) => link.replace(/[?#].*$/, "").replace(/\/+$/, "");
 const union = (a = [], b = []) => [...new Set([...a, ...b])];
 
 /** Combines earlier results with fresh ones; drops sources no longer in feeds.json. */
-export function mergeItems(previous, fresh, sourceNames, now = Date.now()) {
+export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepPrevious = () => true) {
   const byLink = new Map();
   const normalize = (i) => ({
     section: "",
@@ -248,7 +265,7 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now()) {
     ...i,
   });
 
-  for (const item of previous.filter((p) => sourceNames.has(p.source)).map(normalize)) {
+  for (const item of previous.filter((p) => sourceNames.has(p.source) && keepPrevious(p)).map(normalize)) {
     byLink.set(linkKey(item.link), item);
   }
   for (const item of fresh) {
@@ -305,7 +322,13 @@ async function main() {
     }
   });
 
-  const items = mergeItems(previous, fresh, new Set(feeds.map((f) => f.name)));
+  // Stories saved by earlier runs are checked again against the current rules,
+  // so a keyword fix also removes stories that were wrongly kept before.
+  const miningOnly = new Set(feeds.filter((f) => f.filter === "mining").map((f) => f.name));
+  feeds.filter((f) => f.filter !== "mining").forEach((f) => miningOnly.delete(f.name));
+  const keepPrevious = (i) => !miningOnly.has(i.source) || isMiningStory(`${i.title} ${i.summary ?? ""}`);
+
+  const items = mergeItems(previous, fresh, new Set(feeds.map((f) => f.name)), Date.now(), keepPrevious);
 
   if (items.length === 0) {
     console.error("No items collected; leaving existing data file untouched.");
