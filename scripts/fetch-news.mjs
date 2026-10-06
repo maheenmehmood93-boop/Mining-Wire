@@ -90,7 +90,15 @@ const parser = new XMLParser({
   ignoreAttributes: false,
   attributeNamePrefix: "@_",
   textNodeName: "#text",
-  processEntities: true,
+  // The default limit (1,000 entity references per file) is meant to stop
+  // malicious files, but large news feeds (Dawn, Business Recorder) exceed it
+  // with ordinary &amp; and &#8217; characters. Raise it, keeping nesting shallow.
+  processEntities: {
+    enabled: true,
+    maxTotalExpansions: 100000,
+    maxExpandedLength: 5000000,
+    maxExpansionDepth: 10,
+  },
 });
 
 const asArray = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
@@ -211,7 +219,9 @@ async function fetchFeed(feed) {
   const res = await fetch(feed.url, {
     signal: AbortSignal.timeout(TIMEOUT_MS),
     headers: {
-      "User-Agent": "MiningNewsAggregator/1.0 (+RSS reader; headline links only)",
+      // Plain, honest feed-reader identity. Some sites reject unfamiliar agent
+      // strings that don't start with the usual "Mozilla/5.0 (compatible; ...)".
+      "User-Agent": "Mozilla/5.0 (compatible; MiningWire/1.0; +https://github.com/maheenmehmood93-boop/Mining-Wire)",
       Accept: "application/rss+xml, application/atom+xml, application/xml, text/xml, */*",
     },
     redirect: "follow",
