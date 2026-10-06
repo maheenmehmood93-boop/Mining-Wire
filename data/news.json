@@ -1,9 +1,16 @@
 {
- "updated": "2026-10-06T07:15:58.822Z",
+ "updated": "2026-10-06T07:16:44.918Z",
  "sources": [
   {
    "source": "MINING.COM",
    "section": "",
+   "ok": true,
+   "items": 36,
+   "seen": 36
+  },
+  {
+   "source": "MINING.COM",
+   "section": "Pakistan",
    "ok": true,
    "items": 36,
    "seen": 36
@@ -30,19 +37,28 @@
    "seen": 12
   },
   {
-   "source": "Mining Review Africa",
+   "source": "Mining Weekly",
    "section": "",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
-   "source": "Mining Journal",
+   "source": "Global Mining Review",
    "section": "",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
-   "source": "Mining Magazine",
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "ok": true,
+   "items": 12,
+   "seen": 12
+  },
+  {
+   "source": "Mining.com.au",
    "section": "",
    "ok": false,
    "error": "HTTP 403"
@@ -111,12 +127,6 @@
    "seen": 95
   },
   {
-   "source": "APP",
-   "section": "",
-   "ok": false,
-   "error": "HTTP 403"
-  },
-  {
    "source": "Pakistan Observer",
    "section": "",
    "ok": true,
@@ -139,6 +149,21 @@
   }
  ],
  "items": [
+  {
+   "title": "Japan's Iwatani, Cosmo to develop hydrogen supply chain at Chiba refinery",
+   "link": "https://www.miningweekly.com/article/japans-iwatani-cosmo-to-develop-hydrogen-supply-chain-at-chiba-refinery-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T06:40:00.000Z",
+   "summary": "Japan's Iwatani Corporation and Cosmo Energy Holdings said on Tuesday they have made a final investment decision to jointly develop a hydrogen supply chain at Cosmo's Chiba refinery near Tokyo, with operations scheduled to start in 2030....",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
   {
    "section": "",
    "scope": "National",
@@ -447,6 +472,23 @@
    "region": "Global"
   },
   {
+   "title": "Swanson results fall short despite 6.05-g/t gold highlight",
+   "link": "https://www.canadianminingjournal.com/news/swanson-results-fall-short-despite-6-05-g-t-highlight/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T17:27:33.000Z",
+   "summary": "LaFleur Minerals (CSE: LFLR) reported additional drill results from its program on the Swanson Gold project in northwestern Quebec. The stock dropped. [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -482,6 +524,21 @@
    "region": "Global"
   },
   {
+   "title": "Electra taps Garzon Duenas to lead refinery transition",
+   "link": "https://www.canadianminingjournal.com/news/electra-taps-garzon-duenas-to-lead-refinery-transition/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T16:23:24.000Z",
+   "summary": "Electra Battery Materials (TSXV: ELBM) has named Garzon Duenas as its general manager and commissioning leader, effective Monday.&#160; Duenas will lead operational [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -495,6 +552,21 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
+  },
+  {
+   "title": "Metso wins $26M thickener modernization order in Chile",
+   "link": "https://www.canadianminingjournal.com/news/metso-wins-26m-thickener-modernization-order-in-chile/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:35:27.000Z",
+   "summary": "Metso (HEL: METSO) has signed an agreement to provide a comprehensive thickener modernization for a customer site in Chile. Valued at around [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -529,6 +601,23 @@
    "region": "Global"
   },
   {
+   "title": "Greenland advances Tanbreez rare earths project",
+   "link": "https://www.canadianminingjournal.com/news/greenland-advances-tanbreez-rare-earths-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:18:29.000Z",
+   "summary": "Critical Metals (Nasdaq: CRML) has won Greenland government approval for the mining and closure plans at its Tanbreez rare earths project, clearing [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ]
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -546,6 +635,53 @@
    "region": "Global"
   },
   {
+   "title": "Surge Battery boosts returns, cuts costs for Nevada lithium project",
+   "link": "https://www.canadianminingjournal.com/news/surge-battery-boosts-returns-cuts-costs-for-nevada-lithium-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:13:28.000Z",
+   "summary": "A new economic study for Surge Battery Metals’ (TSXV: NILI; US-OTC: NILIF) Nevada North lithium project has lifted forecast returns and reduced [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ]
+  },
+  {
+   "title": "Critical minerals: Africa wants to process, China builds",
+   "link": "https://www.globalminingreview.com/mining/05102026/critical-minerals-africa-wants-to-process-china-builds/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:00:00.000Z",
+   "summary": "Louise Margolin, Deputy Editor-in-Chief at Africa Business+ and Mining Editor at Jeune Afrique, and Ousmane Diawara, Partner Mining & Infrastructure at EY, explain how Africa is increasing its mineral processing capacity, with support from...",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Fortuna Metals advances Phase 1 drilling at Kampini, Mkanda projects in Malawi",
+   "link": "https://www.miningweekly.com/article/fortuna-metals-advances-phase-1-drilling-at-kampini-mkanda-projects-in-malawi-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:51:00.000Z",
+   "summary": "ASX-listed Fortuna Metals has started a 66-hole Phase 1 drilling programme at its Kampini rutile and graphite project, in Malawi. The targeted exploration footprint is defined by two primary licences – the Mkanda and Kampini assets – which...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -561,6 +697,36 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-5Oct26-shutterstock_2755734389-2.jpg",
    "source": "Mining Technology",
    "region": "Global"
+  },
+  {
+   "title": "Perkins starts field testing hydrogen-hybridized IOPU",
+   "link": "https://www.canadianminingjournal.com/news/perkins-starts-field-testing-hydrogen-hybridized-iopu/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:42:32.000Z",
+   "summary": "Having completed development testing, Perkins Engines Company, a subsidiary of Caterpillar (NYSE: CAT), is starting real-world implementation of its hydrogen-hybridized industrial open [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Petra appoints Questco Corporate Advisory to undertake strategic review",
+   "link": "https://www.miningweekly.com/article/petra-appoints-questco-corporate-advisory-to-undertake-strategic-review-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:18:00.000Z",
+   "summary": "London-listed Petra Diamonds, which has mining operations in South Africa, has appointed Questco Corporate Advisory to manage a strategic review on its behalf. The diamond miner last week announced that it would undertake a strategic...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -593,6 +759,53 @@
    "region": "Global"
   },
   {
+   "title": "Importance of natural diamond comeback highlighted",
+   "link": "https://www.miningweekly.com/article/importance-of-natural-diamond-comeback-highlighted-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:01:00.000Z",
+   "summary": "South Africa needs to find ways to build and sustain its alluvial diamond sector in particular, given this country’s “incredible” alluvial sector which hosts “exceptional” diamonds. Accompanying these comments to Mining Weekly by diamond...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "CCR plans $250K social investment Montreal East",
+   "link": "https://www.canadianminingjournal.com/news/ccr-plans-250k-social-investment-montreal-east/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T13:56:16.000Z",
+   "summary": "In celebration of 95 years of operations at its Canadian Copper Refinery (CCR) in Montreal, Glencore (GLEN) has announced $250,000 (US$175,424) in [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
+   "title": "Premier African Minerals to raise £1.2m for Zimbabwe project",
+   "link": "https://www.miningweekly.com/article/premier-african-minerals-to-raise-12m-for-zimbabwe-project-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T13:36:00.000Z",
+   "summary": "London-listed Premier African Minerals has completed a subscription to raise about £1.2-million before expenses through the issue of 27.52-billion new ordinary shares of nil par value in the capital of the company at an issue price of...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -610,6 +823,23 @@
    "region": "Global"
   },
   {
+   "title": "Rio Tinto, Founders Factory back five mining startups",
+   "link": "https://www.canadianminingjournal.com/news/rio-tinto-founders-factory-back-five-mining-startups/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T13:14:49.000Z",
+   "summary": "The mining tech accelerator selected copper exploration, geohazard monitoring and metals processing startups.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -625,6 +855,23 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
+  },
+  {
+   "title": "Sasol tops emerging market peers on oil-from-coal bonanza",
+   "link": "https://www.miningweekly.com/article/sasol-tops-emerging-market-peers-on-oil-from-coal-bonanza-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:59:00.000Z",
+   "summary": "This year’s oil price rally has produced one clear winner: South Africa’s Sasol is the top-performing emerging-market stock outside Asia and many analysts are betting its bull run has further to go. Sasol has handed investors dollar a...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ]
   },
   {
    "section": "Pakistan",
@@ -661,6 +908,106 @@
    "region": "Pakistan"
   },
   {
+   "title": "Founders Factory, Rio Tinto select five latest startups for Mining Tech Accelerator",
+   "link": "https://www.miningweekly.com/article/founders-factory-rio-tinto-select-five-latest-startups-for-mining-tech-accelerator-programme-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:23:00.000Z",
+   "summary": "Startup-focused investor Founders Factory and diversified miner Rio Tinto have revealed the fifth cohort joining their mining-tech accelerator - the global startup programme solving the mining industry's toughest problems by backing the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Gold retains key reserve status despite surging bond yields, central bankers say",
+   "link": "https://www.miningweekly.com/article/gold-retains-key-reserve-status-despite-surging-bond-yields-central-bankers-say-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:16:00.000Z",
+   "summary": "Gold remains a strategic reserve asset as concerns over rising government debt and geopolitical instability boost its appeal as a haven from risk, two central bankers said on Monday, even after this year's surge in bond yields. Gold prices...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Lexington names Mark Greenwood CEO, Bernard Olivier COO",
+   "link": "https://www.miningweekly.com/article/lexington-names-mark-greenwood-ceo-bernard-olivier-coo-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:13:00.000Z",
+   "summary": "Aim-listed gold exploration and development company Lexington Gold has announced that Mark Greenwood has now assumed the role of CEO, while Dr Bernard Olivier has assumed the role of COO. The company says the revised structure serves to...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Dynacor pours first gold at Galam plant in Senegal",
+   "link": "https://www.miningweekly.com/article/dynacor-pours-first-gold-at-galam-plant-in-senegal-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:13:00.000Z",
+   "summary": "TSX-listed Dynacor Group has achieved its first gold pour from the Galam pilot plant in Senegal. The company's first gold pour in Africa marks its transition into a geographically diversified gold processor.",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Electra Battery Materials appoints Duenas GM of Ontario cobalt refinery",
+   "link": "https://www.miningweekly.com/article/electra-battery-materials-appoints-duenas-gm-of-ontario-cobalt-refinery-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:04:00.000Z",
+   "summary": "TSX-V- and Nasdaq-listed Electra Battery Materials Corporation has appointed as GM of its Ontario cobalt sulphate refinery Garzon Duenas, who will lead the project from ongoing construction through commissioning, ramp-up and commercial...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Cobalt"
+   ]
+  },
+  {
+   "title": "Why rare earth elements are hiding in plain sight",
+   "link": "https://www.globalminingreview.com/mining/05102026/why-rare-earth-elements-are-hiding-in-plain-sight/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:00:00.000Z",
+   "summary": "Rare earth elements (REEs) are rising in demand amid competition for resources used in technology components. However, the supply struggle isn’t fuelled by the scarcity of metals in Earth’s crust.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ]
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -674,6 +1021,53 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
+  },
+  {
+   "title": "Riyadh set to host sixth Future Minerals Forum next year",
+   "link": "https://www.miningweekly.com/article/riyadh-set-to-host-sixth-future-minerals-forum-next-year-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T10:55:00.000Z",
+   "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources has announced that the sixth edition of the Future Minerals Forum (FMF), a global platform for shaping the future of minerals, will be held under the patronage of the Custodian of...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Tanzanian govt renews mining licences for Barrick’s North Mara gold mine",
+   "link": "https://www.miningweekly.com/article/tanzanian-govt-renews-mining-licences-for-barricks-north-mara-gold-mine-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T10:18:00.000Z",
+   "summary": "The government of Tanzania has renewed Canadian multinational company Barrick Mining Corporation’s special mining licences for the North Mara gold mine for another 15 years. The company has welcomed this decision by highlighting that the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "US Supreme Court weighs bid by oil companies to avoid climate lawsuit",
+   "link": "https://www.miningweekly.com/article/us-supreme-court-weighs-bid-by-oil-companies-to-avoid-climate-lawsuit-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T10:10:00.000Z",
+   "summary": "The US Supreme Court is set on Monday to hear a bid by oil companies ExxonMobil and Suncor Energy to thwart a lawsuit by officials in Boulder, Colorado, seeking monetary damages for harms caused by climate change, as the justices open a...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -693,6 +1087,102 @@
    "region": "Global"
   },
   {
+   "title": "Thyssenkrupp targets October 28 for listing of materials trading unit, sources say",
+   "link": "https://www.miningweekly.com/article/thyssenkrupp-targets-october-28-for-listing-of-materials-trading-unit-sources-say-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T09:55:00.000Z",
+   "summary": "Thyssenkrupp is targeting October 28 for the separate listing of its materials trading division tk accelis on the German stock exchange, according to two people familiar with the matter. The spin-off of 49% of tk accelis marks the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Vanadium Resources confirm co-production viability of iron, vanadium at South African project",
+   "link": "https://www.miningweekly.com/article/vanadium-resources-confirm-co-production-viability-of-iron-vanadium-at-south-african-project-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T09:52:00.000Z",
+   "summary": "A scoping study on ASX-listed Vanadium Resources' proposed V-Iron plant, in South Africa, has confirmed the potential for a long-term source of vanadium raw material supply to the US and allied markets. At base case prices, the V-Iron...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Neo Energy Metals advances South African uranium projects",
+   "link": "https://www.miningweekly.com/article/neo-energy-metals-advances-south-african-uranium-projects-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T09:12:00.000Z",
+   "summary": "In an update to shareholders on activities during the quarter ended September 30, LSE-listed Neo Energy Metals has announced key technical milestones and regulatory updates for its New Beisa and Henkries uranium projects, in South Africa....",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ]
+  },
+  {
+   "title": "Metso is awarded with a thickener modernisation order in Chile",
+   "link": "https://www.globalminingreview.com/mining/05102026/metso-is-awarded-with-a-thickener-modernisation-order-in-chile/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T09:00:00.000Z",
+   "summary": "Metso has entered into an agreement to provide a comprehensive thickener modernisation for a customer site in Chile.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Xcite starts drilling for uranium at historic Black Bay prospect in Saskatchewan",
+   "link": "https://www.miningweekly.com/article/xcite-starts-drilling-for-uranium-at-historic-black-bay-prospect-in-saskatchewan-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:52:00.000Z",
+   "summary": "British Columbia-based Xcite Uranium has started with a diamond drill programme in the area hosting the past-producing Black Bay uranium mine, in Saskatchewan. The 1 300 m, six-hole drill campaign will test for uranium mineralisation...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ]
+  },
+  {
+   "title": "Osmond receives maximum Spanish gov grant to develop EU's first rare earths mine",
+   "link": "https://www.miningweekly.com/article/osmond-receives-maximum-spanish-gov-grant-to-develop-eus-first-rare-earths-mine-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:39:00.000Z",
+   "summary": "ASX-listed Osmond Resources has received a €250 000 provisional grant from Ministerio para la Transición Ecológica y el Reto Demográfico, under the Spanish government's Critical Minerals Plan 2026 to 2030. Osmond is developing what will be...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ]
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -706,6 +1196,21 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
+  },
+  {
+   "title": "Egypt, South Africa launch business council to drive industry and agriculture",
+   "link": "https://www.miningweekly.com/article/egypt-south-africa-launch-business-council-to-drive-industry-and-agriculture-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:27:00.000Z",
+   "summary": "Egypt and South Africa have launched a Joint Business Council to boost trade, including in mining, agriculture, renewable energy and mobility, and economic relations between the nations. Key initiatives of the joint business council...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -751,6 +1256,88 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-2-5Oct26-shutterstock_2685417145.jpg",
    "source": "Mining Technology",
    "region": "Global"
+  },
+  {
+   "title": "Fulcrum Metals secures site for demo mine waste recovery facility in Ontario",
+   "link": "https://www.miningweekly.com/article/fulcrum-metals-secures-site-for-demo-mine-waste-recovery-facility-in-ontario-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T07:53:00.000Z",
+   "summary": "Aim-listed critical minerals recovery company Fulcrum Metals has secured a site for its standalone multi-project pilot facility in Mississauga, Ontario, The company secured an initial six-year lease for a 12 526 square feet facility, which...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Australia's Gold Mountain secures exclusive right to acquire historic tungsten mine in Brazil",
+   "link": "https://www.miningweekly.com/article/australias-gold-mountain-secures-exclusive-right-to-acquire-historic-tungsten-mine-in-brazil-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T07:33:00.000Z",
+   "summary": "ASX-listed Gold Mountain has secured an exclusive right to acquire a mine right covering 857 ha over the Malhada do Angico tungsten mine, in Brazil, which operated during World War II. The mine is adjacent to Gold Mountain's Logradouro...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Canada's Power Metallic tasks engineering consultant BBA for Nisk project PEA",
+   "link": "https://www.miningweekly.com/article/canadas-power-metallic-tasks-engineering-consultant-bba-for-nisk-project-pea-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T07:21:00.000Z",
+   "summary": "Canadian copper, nickel, gold and silver explorer Power Metallic has appointed BBA as lead engineering consultant for a preliminary economic assessment (PEA) on the Lion and Nisk Main deposits at the Nisk project, in Québec. The study,...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper",
+    "Silver",
+    "Nickel"
+   ]
+  },
+  {
+   "title": "Suncor to sell offshore Canada oil stakes to Ithaca for $842m",
+   "link": "https://www.miningweekly.com/article/suncor-to-sell-offshore-canada-oil-stakes-to-ithaca-for-842m-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T06:49:00.000Z",
+   "summary": "Canada's Suncor Energy said on Sunday it had agreed to sell its interests in three offshore oil assets to London-based Ithaca Energy ITH.L for C$1.2-billion ($841.69-million) in upfront cash. The deal covers Suncor's 48% interest in Terra...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Vietnam's Masan High-Tech seeks approval for 5% private placement to fund tungsten expansion",
+   "link": "https://www.miningweekly.com/article/vietnams-masan-high-tech-seeks-approval-for-5-private-placement-to-fund-tungsten-expansion-2026-10-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T06:42:00.000Z",
+   "summary": "Vietnamese tungsten producer Masan High-Tech Materials is seeking shareholder approval for a private placement of up to 5% of its shares to long-term investors to fund mine expansion and downstream processing, following a stake sale to the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -1008,6 +1595,21 @@
    "region": "North America"
   },
   {
+   "title": "Research, innovation key to unlocking greater critical minerals value, conference hears",
+   "link": "https://www.miningweekly.com/article/research-innovation-key-to-unlocking-greater-critical-minerals-value-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T14:15:00.000Z",
+   "summary": "Greater investment in research, innovation and collaboration by academia and industry is needed to unlock more value from Africa’s critical mineral resources, Stellenbosch University chemical engineering associate professor and African...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -1021,6 +1623,38 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America"
+  },
+  {
+   "title": "AfDB, German Ministry partner to develop Africa railway systems' regional integration",
+   "link": "https://www.miningweekly.com/article/afdb-german-ministry-partner-to-develop-africas-railway-systems-regional-integration-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:42:00.000Z",
+   "summary": "Development finance institution the African Development Bank (AfDB) Group and the German Federal Ministry for Economic Cooperation and Development (BMZ) have formed a partnership to develop Africa’s railway systems and deepen regional...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Skeleton Coast Uranium completes digitisation of historical Namibia exploration data",
+   "link": "https://www.miningweekly.com/article/skeleton-coast-uranium-completes-digitisation-of-historical-namibia-exploration-data-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:40:00.000Z",
+   "summary": "TSX-V-listed Skeleton Coast Uranium Corp has informed shareholders that metals and mining advisory firm Practara has completed the digitisation of the historical exploration data for Skeleton Coast's five exclusive prospecting licences...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ]
   },
   {
    "section": "",
@@ -1055,6 +1689,53 @@
    "region": "Global"
   },
   {
+   "title": "Glencore secures RIGI benefits for MARA project in Argentina",
+   "link": "https://www.miningweekly.com/article/glencore-secures-rigi-benefits-for-mara-project-in-argentina-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:14:00.000Z",
+   "summary": "Diversified miner Glencore has received approval for the Minera Agua Rica – Alumbrera (MARA) project under Argentina’s Incentive Regime for Large Investments (RIGI). RIGI is a national legal framework to attract multimillion-dollar...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Sponsored Q&#038;A: Erdene shifts from gold mine build to district-scale exploration",
+   "link": "https://www.canadianminingjournal.com/news/sponsored-qa-erdene-shifts-from-gold-mine-build-to-district-scale-exploration/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:12:56.000Z",
+   "summary": "Erdene Resource Development has moved into commercial production at its Bayan Khundii gold mine in Mongolia and is turning its attention back [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Sovereign director steps down",
+   "link": "https://www.miningweekly.com/article/sovereign-director-steps-down-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:05:00.000Z",
+   "summary": "Rutile and graphite miner Sovereign Metals, which is developing the Kasiya project, in Malawi, has announced the resignation of nonexecutive director and former MD Dr Julian Stephens. Stephens was MD of the company from June 2016 to...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -1068,6 +1749,21 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
+  },
+  {
+   "title": "Australian mine operators and innovators seize global opportunities as major international mining event heads to Sydney",
+   "link": "https://www.globalminingreview.com/mining/02102026/australian-mine-operators-and-innovators-seize-global-opportunities-as-major-international-mining-event-heads-to-sydney/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T12:00:00.000Z",
+   "summary": "Mine operators will take centre stage when thousands of mining industry leaders, investors, suppliers, and innovators from around the world converge on Sydney for the International Mining and Resources Conference + Expo (IMARC).",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -1087,6 +1783,21 @@
    "region": "Global"
   },
   {
+   "title": "Indonesia launches pilot commodity export monitoring platform",
+   "link": "https://www.miningweekly.com/article/indonesia-launches-pilot-commodity-export-monitoring-platform-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T10:53:00.000Z",
+   "summary": "Danantara Sumberdaya Indonesia, a company established by the Indonesian government to supervise commodity exports, has started the test phase for a new monitoring platform aimed at boosting price transparency, the firm said in a statement....",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -1100,6 +1811,103 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
+  },
+  {
+   "title": "Commodities trader Gunvor rebrands as Centalion, plans Singapore redomicile",
+   "link": "https://www.miningweekly.com/article/commodities-trader-gunvor-rebrands-as-centalion-plans-singapore-redomicile-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T09:48:00.000Z",
+   "summary": "Commodities trader Gunvor said on Friday it had rebranded as Centalion and planned to redomicile to Singapore from Cyprus, marking the latest step in the group's evolution following a management buyout completed in December 2025. The...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Glencore raises 2026 marketing profit outlook, resets long-term guidance framework",
+   "link": "https://www.miningweekly.com/article/glencore-raises-2026-marketing-profit-outlook-resets-long-term-guidance-framework-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T09:36:00.000Z",
+   "summary": "Glencore on Friday said it now expects 2026 marketing adjusted operating profit to exceed $5-billion, well above its long-term guidance, after a near-record first-half performance driven by volatile oil, gas and freight markets. The Swiss...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "First Nation ends agreements with Canadian gold explorer Spanish Mountain Gold",
+   "link": "https://www.miningweekly.com/article/first-nation-ends-agreements-with-canadian-gold-explorer-spanish-mountain-gold-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T09:32:00.000Z",
+   "summary": "Canadian exploration company Spanish Mountain Gold and the Xatśūll First Nation committed in 2012 and 2021 to support negotiations toward a relationship agreement on the company's proposed gold mine, in British Columbia, however, the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "DPM confirms Vareš operating as normal amid Constitutional Court review of land dispute",
+   "link": "https://www.miningweekly.com/article/dpm-confirms-vare-operating-as-normal-amid-constitutional-court-review-of-land-dispute-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T09:02:00.000Z",
+   "summary": "TSX- and ASX-listed DPM Metals has confirmed that operations at its underground silver mine Vareš continue to operate as normal while the Constitutional Court of Bosnia and Herzegovina has set a period of six months for relevant...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Silver"
+   ]
+  },
+  {
+   "title": "Thiess secures two-year mining services agreement with Yilgarn Iron",
+   "link": "https://www.globalminingreview.com/mining/02102026/thiess-secures-two-year-mining-services-agreement-with-yilgarn-iron/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T09:00:00.000Z",
+   "summary": "Thiess have secured a two-year, AUS$170 million contract extension with Emerald Resources at the Okvau Gold Mine in Cambodia, through our operating company MACA.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Gemstones"
+   ]
+  },
+  {
+   "title": "Mountain Province foregoes stake in Gahcho Kué amid pressures",
+   "link": "https://www.miningweekly.com/article/mountain-province-foregoes-stake-in-gahcho-ku-amid-pressures-2026-10-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T08:52:00.000Z",
+   "summary": "Canadian diamond miner Mountain Province has entered into a consensual restructuring implementation agreement with De Beers Canada, lender Dunebridge Worldwide and the beneficial holders of Mountain Province's senior secured notes due...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -1231,6 +2039,21 @@
    "region": "Global"
   },
   {
+   "title": "Canadian Mining Hall of Fame announces 2027 inductees",
+   "link": "https://www.canadianminingjournal.com/news/canadian-mining-hall-of-fame-announces-2027-inductees/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T17:32:29.000Z",
+   "summary": "The Canadian Mining Hall of Fame is pleased to welcome five new members who will be celebrated at the annual Gala Dinner [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -1246,6 +2069,41 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
+  },
+  {
+   "title": "Brazil court order shuts Sigma Lithium mine",
+   "link": "https://www.canadianminingjournal.com/news/brazil-court-order-shuts-sigma-lithium-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T17:28:45.000Z",
+   "summary": "Sigma Lithium (TSXV, Nasdaq: SGML; ASX: SAU) has halted all mining and processing at its Grota do Cirilo complex in Brazil, two [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ]
+  },
+  {
+   "title": "Vizsla drills ‘exceptional’ silver-rich interval at Palmer",
+   "link": "https://www.canadianminingjournal.com/news/vizsla-drills-exceptional-silver-rich-interval-at-palmer/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T17:28:23.000Z",
+   "summary": "Vizsla Copper (TSXV: VCU) says early drill results from its Palmer VMS project in Alaska has returned one of its highest-grade silver [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Silver"
+   ]
   },
   {
    "section": "",
@@ -1293,6 +2151,21 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
+  },
+  {
+   "title": "Why brownfield mining should be central to Britain’s critical minerals strategy",
+   "link": "https://www.globalminingreview.com/mining/01102026/why-brownfield-mining-should-be-central-to-britains-critical-minerals-strategy/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T15:00:00.000Z",
+   "summary": "Andrew Fulton, CEO, Anglesey Mining Plc, reiterates the importance of UK brownfield projects and explains how revitalising them could scope the UK industrial future.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -1375,6 +2248,21 @@
    "region": "Global"
   },
   {
+   "title": "Global Air Cylinder Wheels receives recognition for safety innovation efforts",
+   "link": "https://www.globalminingreview.com/mining/01102026/global-air-cylinder-wheels-receives-recognition-for-safety-innovation-efforts/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T12:00:00.000Z",
+   "summary": "Global Air Cylinder Wheels (GACW) wins the 2026 People’s Choice Safety Innovation Award at the Queensland Mining Industry Health and Safety Conference in Australia.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -1420,6 +2308,36 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Article-and-Youtube-thumbnail-template-9.png",
    "source": "Mining Technology",
    "region": "Global"
+  },
+  {
+   "title": "Dyno Nobel prototypes new technology to remove humans from high-risk blast zones and unlock untouchable resources",
+   "link": "https://www.globalminingreview.com/mining/01102026/dyno-nobel-prototypes-new-technology-to-remove-humans-from-high-risk-blast-zones-and-unlock-untouchable-resources/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T09:00:00.000Z",
+   "summary": "Following five years of intense R&D, global leader in explosives Dyno Nobel, has unveiled a fully autonomous system which tackles one of mining's last, manual, and safety-critical processes – the drill and blast bench.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Sandvik end-to-end resin bolting solutions for underground mining",
+   "link": "https://www.globalminingreview.com/special-reports/01102026/sandvik-end-to-end-resin-bolting-solutions-for-underground-mining/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T08:30:00.000Z",
+   "summary": "Sandvik is advancing its ground support portfolio with end-to-end resin bolting solutions designed to improve safety and productivity. By combining drilling and bolting equipment, resin technologies, chemical products, and a comprehensive...",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
   },
   {
    "section": "",
@@ -1484,6 +2402,194 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
+  },
+  {
+   "title": "CoTec and Copper Intelligence finalise Joint Venture shareholder agreement to target processing of historical copper tailings opportunities in the Democratic Republic of Congo",
+   "link": "https://www.globalminingreview.com/finance-business/30092026/cotec-and-copper-intelligence-finalise-joint-venture-shareholder-agreement-to-target-processing-of-historical-copper-tailings-opportunities-in-the-democratic-republic-of-congo/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T15:00:00.000Z",
+   "summary": "CoTec Holdings Corp. has announced that it has finalised the terms of a definitive joint venture agreement with Copper Intelligence Inc., and two third-party investment vehicles associated with the Company's CEO, Julian Treger, and...",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
+   "title": "Metso strengthens its world-leading slurry pump capabilities with new 4-MW extra-large test rig",
+   "link": "https://www.globalminingreview.com/mining/30092026/metso-strengthens-its-world-leading-slurry-pump-capabilities-with-new-4-mw-extra-large-test-rig/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T12:00:00.000Z",
+   "summary": "Metso has commissioned a new 4-MW extra-large slurry pump test rig at its Test and Training Center in Sala, Sweden.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Epiroc wins large equipment order for platinum mine in South Africa",
+   "link": "https://www.globalminingreview.com/mining/30092026/epiroc-wins-large-equipment-order-for-platinum-mine-in-south-africa/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T09:00:00.000Z",
+   "summary": "Epiroc AB, a leading productivity and sustainability partner for the mining and infrastructure industries, has won a large order for underground mining equipment from Sibanye-Stillwater for a platinum mine in South Africa.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Platinum"
+   ]
+  },
+  {
+   "title": "Beyond Autonomy",
+   "link": "https://www.globalminingreview.com/mining/29092026/beyond-autonomy/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-29T15:00:00.000Z",
+   "summary": "Mike Rikkola, Vice President, Software-Defined Vehicle and Autonomy Platforms, Komatsu, demonstrates how a leading OEM is helping define mining's next era of intelligent operations.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "EACON's autonomous solution deployed on more than 1500 battery-electric mining trucks",
+   "link": "https://www.globalminingreview.com/mining/29092026/eacons-autonomous-solution-deployed-on-more-than-1500-battery-electric-mining-trucks/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-29T12:00:00.000Z",
+   "summary": "EACON Mining Technology’s autonomous solution has now been deployed on more than 1500 battery-electric mining trucks, making battery-electric vehicles the largest single powertrain category across EACON’s autonomous fleet.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "World Gold Council appoints Paul Brink as new Chair of the Board",
+   "link": "https://www.globalminingreview.com/mining/29092026/world-gold-council-appoints-paul-brink-as-new-chair-of-the-board/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-29T09:00:00.000Z",
+   "summary": "The World Gold Council announces the appointment of Paul Brink, President and Chief Executive Officer of Franco-Nevada Corporation, as its new Chair.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Sandvik to supply 27-unit underground fleet to support Qarmet subsidiary Orken’s mechanisation in Kazakhstan",
+   "link": "https://www.globalminingreview.com/mining/28092026/sandvik-to-supply-27-unit-underground-fleet-to-support-qarmet-subsidiary-orkens-mechanisation-in-kazakhstan/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-28T15:00:00.000Z",
+   "summary": "Sandvik has received an order from Orken LLP, the iron ore division of Qarmet JSC, to supply a 27-unit underground mining fleet to support the transition from manual development to mechanised mining at its Atasu operation at the Western...",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Iron ore"
+   ]
+  },
+  {
+   "title": "Shougang Group and Rio Tinto commission an industrial-scale carbon capture trial facility for blast furnace gas",
+   "link": "https://www.globalminingreview.com/mining/28092026/shougang-group-and-rio-tinto-commission-an-industrial-scale-carbon-capture-trial-facility-for-blast-furnace-gas/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-28T12:00:00.000Z",
+   "summary": "Shougang Group and Rio Tinto have successfully built and commissioned an industrial-scale carbon capture trial facility for blast furnace gas at Shougang’s operations in China.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Fortescue’s Green Metal Project with Metso’s DRI technology successfully produces first hot metal in Australia",
+   "link": "https://www.globalminingreview.com/mining/28092026/fortescues-green-metal-project-with-metsos-dri-technology-successfully-produces-first-hot-metal-in-australia/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-28T09:00:00.000Z",
+   "summary": "Fortescue’s Christmas Creek Green Metal Project, featuring Metso’s DRI Smelting Furnace technology, has produced its first hot metal in the Pilbara, Western Australia.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Avathon selected to power an AI-native mining operating model for Barrick's North American business",
+   "link": "https://www.globalminingreview.com/mining/25092026/avathon-selected-to-power-an-ai-native-mining-operating-model-for-barricks-north-american-business/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-25T12:00:00.000Z",
+   "summary": "Avathon, a leading provider of Physical AI for industrial operations, has announced that Barrick's North American business has selected Avathon's Autonomy Platform as a strategic technology partner to transform its business.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Martin Engineering expands West African partnerships",
+   "link": "https://www.globalminingreview.com/mining/25092026/martin-engineering-expands-west-african-partnerships/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-25T09:00:00.000Z",
+   "summary": "Martin Engineering has broadened its footprint in the West African nation of Ghana by partnering with Aggrey & Associates, one of the country’s most trusted mining and industrial operations consultants.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Attacks on mining operations on the rise in Pakistan: report",
+   "link": "https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-20T18:57:53.000Z",
+   "summary": "Rising violence around resource projects threatens Pakistan’s push to draw foreign capital into its mineral sector.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Pakistan",
+   "scope": "International",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": []
   }
  ]
 }
