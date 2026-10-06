@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T13:35:21.331Z",
+ "updated": "2026-10-06T14:35:00.242Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 135
+   "seen": 143
   },
   {
    "source": "Pakistan Observer",
@@ -176,12 +176,63 @@
  ],
  "items": [
   {
-   "title": "Atomic Eagle reports strong uranium recoveries from Muntanga East",
-   "link": "https://www.miningweekly.com/article/atomic-eagle-reports-strong-uranium-recoveries-from-muntanga-east-2026-10-06",
+   "title": "Riyadh to host sixth edition of Future Minerals Forum in January 2027",
+   "link": "https://www.globalminingreview.com/mining/06102026/riyadh-to-host-sixth-edition-of-future-minerals-forum-in-january-2027/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-06T12:57:00.000Z",
-   "summary": "ASX-listed uranium exploration and development company Atomic Eagle has achieved uranium recoveries of between 81% and 86% from metallurgical test work on diamond drill core from its newly discovered Muntanga East deposit, in Zambia. The...",
+   "date": "2026-10-06T15:00:00.000Z",
+   "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources (MIM) has announced that the sixth edition of the Future Minerals Forum (FMF) will be held under the patronage of the Custodian of the Two Holy Mosques from 12 – 14 January 2027 in...",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Multotec expands Zambian manufacturing",
+   "link": "https://www.canadianminingjournal.com/news/multotec-expands-zambian-manufacturing/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T14:30:31.000Z",
+   "summary": "To celebrate its 25th anniversary, Multotec Zambia is opening a new facility which will serve as its Central Africa Regional Head Office. [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Critical minerals enter a new era of commercial supply chains",
+   "link": "https://www.globalminingreview.com/special-reports/06102026/critical-minerals-enter-a-new-era-of-commercial-supply-chains/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T14:19:00.000Z",
+   "summary": "BGN Group and Nth Cycle highlight the push to build more integrated metals supply chains",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "PwC sees opportunities to bolster mining benefits following stronger performance",
+   "link": "https://www.miningweekly.com/article/pwc-sees-opportunities-to-bolster-mining-benefits-following-stronger-performance-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T14:18:00.000Z",
+   "summary": "South Africa’s mining sector entered this year on a stronger footing, underpinned by higher platinum group metals (PGM) and gold prices, improved mineral reserve positions and growing interest in critical minerals, professional services...",
    "image": null,
    "source": "Mining Weekly",
    "section": "",
@@ -189,12 +240,74 @@
    "region": "Africa",
    "provinces": [],
    "tags": [
-    "Uranium"
+    "Gold",
+    "Platinum"
    ],
    "mining": true,
    "chagaiSecurity": false
   },
   {
+   "title": "Saldanha Iron Ore Terminal undergoes scheduled maintenance programme",
+   "link": "https://www.miningweekly.com/article/saldanha-iron-ore-terminal-undergoes-scheduled-maintenance-programme-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T13:54:00.000Z",
+   "summary": "State-owned freight transport and logistics company Transnet has announced that the Saldanha Iron Ore Terminal (IOT) has begun its yearly maintenance shutdown, which will run for 16 days from October 6 to 21. As part of its ‘Reinvent for...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Iron ore"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Komatsu marks 25 years of manufacturing at South Carolina facility",
+   "link": "https://www.canadianminingjournal.com/news/komatsu-marks-25-years-of-manufacturing-at-south-carolina-facility/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T13:40:05.000Z",
+   "summary": "Employees, partners and community members gathered on Friday at Komatsu’s (OTC: KMTUY) Newberry Manufacturing Operation (NMO) in South Carolina to celebrate 25 [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Atomic Eagle reports strong uranium recoveries from Muntanga East",
+   "link": "https://www.miningweekly.com/article/atomic-eagle-reports-strong-uranium-recoveries-from-muntanga-east-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:57:00.000Z",
+   "summary": "ASX-listed uranium exploration and development company Atomic Eagle has achieved uranium recoveries of between 81% and 86% from metallurgical testwork on diamond drill core from its newly discovered Muntanga East deposit, in Zambia. The...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "World Bank urges Guinea to use iron-ore to diversify economy",
    "link": "https://www.miningweekly.com/article/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy-2026-10-06",
    "via": "",
@@ -203,13 +316,7 @@
    "summary": "The World Bank has urged Guinea to use the revenues from the exploitation of the largest iron-ore reserve on earth to diversify and build a stronger economy. “The question we must ask ourselves is not just how much ore Guinea will export,...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -229,6 +336,12 @@
    "region": "Pakistan"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Askari completes district-scale soil programme to define new Uis priority targets",
    "link": "https://www.miningweekly.com/article/askari-completes-district-scale-soil-programme-to-define-new-uis-priority-targets-2026-10-06",
    "via": "",
@@ -237,13 +350,7 @@
    "summary": "ASX-listed Askari Metals has completed a project-wide soil geochemical sampling campaign across an exclusive prospecting licence (EPL) at its Uis project in the Erongo region of Namibia. The company says the completed survey represents an...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -1251,6 +1358,23 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
+  },
+  {
+   "title": "Sponsored: Riverside readies Mexico spinout, keeps royalties",
+   "link": "https://www.canadianminingjournal.com/news/sponsored-riverside-readies-mexico-spinout-keeps-royalties/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T18:15:11.000Z",
+   "summary": "Riverside Resources President and CEO John-Mark Staude and Vice-President for Exploration for Ravina Resources Julian Manco in conversation with The Northern Miner [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
   },
   {
    "section": "",
