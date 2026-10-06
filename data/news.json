@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T07:20:36.906Z",
+ "updated": "2026-10-06T07:21:34.714Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "Dawn",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 96
+   "seen": 97
   },
   {
    "source": "Pakistan Observer",
@@ -2746,17 +2746,8 @@
    "region": "Global"
   },
   {
-   "title": "Mining Giant Barrick slows $9 Billion Reko Diq Project citing Balochistan Security Situation",
-   "link": "https://en.dailypakistan.com.pk/30-Sep-2026/mining-giant-barrick-slows-9-billion-reko-diq-project-citing-balochistan-security-situation",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-30T10:28:01.000Z",
-   "summary": "ISLAMABAD — Pakistan moved to unlock world’s major undeveloped copper-gold deposits with Barrick, but militant violence and growing regional tensions forced the mining giant to slow development and extend its review of the nearly $9...",
-   "image": null,
-   "source": "Daily Pakistan",
    "section": "Chagai search",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -2765,7 +2756,16 @@
     "Copper"
    ],
    "mining": true,
-   "chagaiSecurity": true
+   "chagaiSecurity": true,
+   "title": "Mining Giant Barrick slows $9 Billion Reko Diq Project citing Balochistan Security Situation",
+   "link": "https://en.dailypakistan.com.pk/30-Sep-2026/mining-giant-barrick-slows-9-billion-reko-diq-project-citing-balochistan-security-situation",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T10:28:01.000Z",
+   "summary": "ISLAMABAD — Pakistan moved to unlock world’s major undeveloped copper-gold deposits with Barrick, but militant violence and growing regional tensions forced the mining giant to slow development and extend its review of the nearly $9...",
+   "image": null,
+   "source": "Daily Pakistan",
+   "region": "Pakistan"
   },
   {
    "section": "",
@@ -2840,6 +2840,14 @@
    "region": "Global"
   },
   {
+   "section": "Chagai search",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
    "title": "Two Fitna al-Hindustan Terrorists eliminated after Water Tanker Attack in Balochistan's Chagai",
    "link": "https://en.dailypakistan.com.pk/29-Sep-2026/two-fitna-al-hindustan-terrorists-eliminated-after-water-tanker-attack-in-balochistans-chagai",
    "via": "",
@@ -2848,17 +2856,18 @@
    "summary": "QUETTA – Pakistani forces have gunned down two more terrorists of ‘Fitna al-Hindustan’ in Chagai district as part of ongoing Operation Radd-ul-Fitna 3, following an attempted arson attack in the Nokcha area. According to security sources,...",
    "image": null,
    "source": "Daily Pakistan",
+   "region": "Pakistan"
+  },
+  {
    "section": "Chagai search",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
-    "Balochistan"
+    "Balochistan",
+    "Khyber Pakhtunkhwa"
    ],
    "tags": [],
    "mining": false,
-   "chagaiSecurity": true
-  },
-  {
+   "chagaiSecurity": true,
    "title": "Pakistani forces eliminate seven Indian-backed terrorists in Balochistan, KP",
    "link": "https://en.dailypakistan.com.pk/29-Sep-2026/pakistani-forces-eliminate-seven-indian-backed-terrorists-in-balochistan-kp",
    "via": "",
@@ -2867,16 +2876,7 @@
    "summary": "PESHAWAR – Security forces have killed seven terrorists in separate operations carried out in Khyber Pakhtunkhwa and Balochistan, according to security sources. In Balochistan’s Chagai district, two militants were killed during an...",
    "image": null,
    "source": "Daily Pakistan",
-   "section": "Chagai search",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [
-    "Balochistan",
-    "Khyber Pakhtunkhwa"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true
+   "region": "Pakistan"
   },
   {
    "section": "",
@@ -2983,6 +2983,14 @@
    "region": "Pakistan"
   },
   {
+   "section": "Chagai search",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
    "title": "Security forces kill 11 terrorists in Balochistan’s Pangjur, Chagai",
    "link": "https://en.dailypakistan.com.pk/19-Sep-2026/security-forces-kill-11-terrorists-in-balochistans-pangjur-chagai",
    "via": "",
@@ -2991,17 +2999,17 @@
    "summary": "QUETTA – Security forces have killed 11 terrorists in two separate operations in Balochistan under Operation Radd-ul-Fitna 3. The killed militants were affiliated with Fitna al-Hindustan as operations were conducted in Panjgur and Chagai...",
    "image": null,
    "source": "Daily Pakistan",
+   "region": "Pakistan"
+  },
+  {
    "section": "Chagai search",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
    "tags": [],
    "mining": false,
-   "chagaiSecurity": true
-  },
-  {
+   "chagaiSecurity": true,
    "title": "Security forces kill 21 Indian-sponsored militants in Balochistan",
    "link": "https://thefrontierpost.com/security-forces-kill-21-indian-sponsored-militants-in-balochistan/",
    "via": "",
@@ -3010,15 +3018,7 @@
    "summary": "F.P. Report Pakistan's security forces killed 21 militants in separate clashes in Balochistan, the military said on Tuesday. The militants were killed during operations in Nokcha in Chagai district and Ziarat Cross in Pishin district...",
    "image": null,
    "source": "The Frontier Post",
-   "section": "Chagai search",
-   "scope": "National",
-   "region": "Peshawar",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true
+   "region": "Peshawar"
   }
  ]
 }
