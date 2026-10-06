@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T15:33:33.900Z",
+ "updated": "2026-10-06T16:36:15.855Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -109,7 +109,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 150
+   "seen": 154
   },
   {
    "source": "Pakistan Observer",
@@ -193,6 +193,59 @@
    "region": "Global"
   },
   {
+   "title": "Greenland Mines authorizes $20M share buyback",
+   "link": "https://www.canadianminingjournal.com/news/greenland-mines-authorizes-20m-share-buyback/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T15:56:04.000Z",
+   "summary": "Greenland Mines (Nasdaq: GRML; FSE: HK6) announced Tuesday it has authorized a $20 million (C$28.46 million) share repurchase program. The decision follows [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "North Korea warns South Korea over border mine blast",
+   "link": "https://dailytimes.com.pk/1563397/north-korea-warns-south-korea-over-border-mine-blast/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T15:46:04.000Z",
+   "summary": "North Korea has rejected South Korea’s accusations over a border landmine blast. Pyongyang also threatened immediate and powerful counteraction against any territorial violation. The warning came after South Korea blamed North Korea for a...",
+   "image": null,
+   "source": "Daily Times",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Discovery silver project clears key Mexico hurdle",
+   "link": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T15:30:17.000Z",
+   "summary": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -210,6 +263,15 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Zinc"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Canterra grows Newfoundland copper-zinc resource 55% as grades fall",
    "link": "https://www.northernminer.com/news/canterra-grows-newfoundland-copper-zinc-resource-55-as-grades-fall/1003895475/",
    "via": "",
@@ -218,35 +280,7 @@
    "summary": "Canterra Minerals (TSXV: CTM; US-OTC: CTMCF) has increased the indicated resource at its Lundberg copper-zinc deposit in Newfoundland by 55%, delivering the “higher-confidence tonnes” it was seeking even as grades...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Copper",
-    "Zinc"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
-  },
-  {
-   "title": "Discovery silver project clears key Mexico hurdle",
-   "link": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T14:44:17.000Z",
-   "summary": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
    "section": "",
@@ -266,6 +300,12 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Congo launches geological survey in push to unlock mineral potential",
    "link": "https://www.miningweekly.com/article/congo-launches-geological-survey-in-push-to-unlock-mineral-potential-2026-10-06",
    "via": "",
@@ -274,13 +314,7 @@
    "summary": "Democratic Republic of Congo has launched a nationwide airborne geological mapping programme aimed at improving knowledge of its vast mineral reserves to reduce exploration risk and attract investment into underexplored regions, its...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -301,6 +335,25 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa"
+  },
+  {
+   "title": "Macmahon obtains two-year Daisy Milano contract extension",
+   "link": "https://www.mining-technology.com/news/macmahon-two-year-daisy-milano-extension/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T13:57:20.000Z",
+   "summary": "Macmahon has announced that its subsidiary, Macmahon Underground, secured a two-year contract extension from Vault Minerals for mining services at the Daisy Milano Gold Mine in Western Australia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-6Oct26-shutterstock_1983261650-1.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
   },
   {
    "section": "",
