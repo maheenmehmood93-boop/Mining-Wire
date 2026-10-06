@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T11:33:06.104Z",
+ "updated": "2026-10-06T12:40:05.326Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -102,15 +102,14 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
    "source": "Daily Times",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "Geo News",
@@ -124,7 +123,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 122
+   "seen": 131
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +175,29 @@
  ],
  "items": [
   {
+   "title": "North Korea warns of stronger action toward South Korea over mine blast accusations",
+   "link": "https://www.brecorder.com/news/40442912/north-korea-warns-of-stronger-action-toward-south-korea-over-mine-blast-accusations",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:32:05.000Z",
+   "summary": "SEOUL: North Korea’s Foreign Ministry rejected Tuesday’s blame from South Korea for a border landmine blast and threatened its neighbour with “immediate and powerful counteraction” for any violation of territory. The comments came a day...",
+   "image": "https://i.brecorder.com/large/2026/10/06173136e644f7f.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Jameson Cell Innovation opens new opportunities for recovery of coarse material from tailings share",
    "link": "https://www.globalminingreview.com/mining/06102026/jameson-cell-innovation-opens-new-opportunities-for-recovery-of-coarse-material-from-tailings-share/",
    "via": "",
@@ -184,15 +206,17 @@
    "summary": "Glencore Technology has successfully demonstrated a new application for the Jameson Cell.",
    "image": null,
    "source": "Global Mining Review",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Atlantic Nickel record production as underground transition advances",
    "link": "https://im-mining.com/2026/10/06/atlantic-nickel-record-production-as-underground-transition-advances/",
    "via": "",
@@ -201,17 +225,15 @@
    "summary": "Atlantic Nickel and Appian Capital Advisory Ltd have announced a record monthly performance at the company's Santa Rita nickel sulphide mine located in Bahia, Brazil. In August, Santa Rita produced a record 12,464 t of nickel concentrate...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Advanced Navigation opens US manufacturing to scale tech for GPS-denied mines",
    "link": "https://im-mining.com/2026/10/06/advanced-navigation-opens-us-manufacturing-to-scale-tech-for-gps-denied-mines/",
    "via": "",
@@ -220,15 +242,15 @@
    "summary": "In mining, every decision impacts safety, efficiency, and continuous production. Yet across the industry, some underground and surface operations remain tethered to vulnerable, legacy navigation infrastructure - relying on easily disrupted...",
    "image": null,
    "source": "International Mining",
+   "region": "Global"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Nuvau sees lower capex for Matagami",
    "link": "https://www.northernminer.com/news/nuvau-sees-lower-capex-for-matagami/1003895467/",
    "via": "",
@@ -237,15 +259,15 @@
    "summary": "An upcoming study by Nuvau Minerals (TSXV: NMC) on potentially restarting the historic Matagami base-metal operation in Quebec will extend the project’s mine life while reducing pre-production costs. Nuvau is...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "FC Graphite pushes towards first resource",
    "link": "https://www.northernminer.com/news/fc-graphite-pushes-towards-first-resource/1003895463/",
    "via": "",
@@ -254,15 +276,15 @@
    "summary": "First Canadian Graphite (TSXV: FCI; US-OTC: GRAPF) plans to start drilling its Zone 13 discovery at Lac Guéret South in Quebec next month and deliver a first resource estimate early...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Multotec expands manufacturing, assembly &#038; service support in Zambia",
    "link": "https://im-mining.com/2026/10/06/multotec-expands-manufacturing-assembly-service-support-in-zambia/",
    "via": "",
@@ -271,15 +293,18 @@
    "summary": "Multotec Zambia is marking its 25th anniversary in 2026 with the opening of a new facility which serve as the Central Africa Regional Head Office, reinforcing its long-standing commitment to the country and the region’s mining industry....",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "TNM Drill Down: Contango tops silver assays for past month",
    "link": "https://www.northernminer.com/news/tnm-drill-down-contango-tops-silver-assays-for-past-month/1003895420/",
    "via": "",
@@ -288,18 +313,18 @@
    "summary": "Canada, the United States and Mexico yielded the best silver results from Aug. 17 to Sept. 15, data compiled by The Northern Miner show. Holes from Contango Silver &#38; Gold...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
     "Silver"
    ],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Electric E-Air compressors up productivity in Mexican silver &#038; gold mines",
    "link": "https://im-mining.com/2026/10/06/electric-e-air-compressors-up-productivity-in-mexican-silver-gold-mines/",
    "via": "",
@@ -308,18 +333,15 @@
    "summary": "Minera Saucito, one of Mexico’s most productive silver and gold mines and part of Fresnillo PLC, improved its productivity by adopting more efficient electric air compressors with lower operating costs. As part of its modernisation...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Stalwart Cutifani joins intelligence firm Horizon Engage advisory board",
    "link": "https://www.miningweekly.com/article/stalwart-cutifani-joins-intelligence-firm-horizon-engage-advisory-board-2026-10-06",
    "via": "",
@@ -328,13 +350,7 @@
    "summary": "Mining veteran Mark Cutifani has joined the board of strategic intelligence and geopolitical risk analysis firm Horizon Engage in an advisory capacity. With an unparalleled career spanning four decades in the global mining industry,...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -354,6 +370,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Eskom to facilitate construction of more data centres in South Africa, Ramokgopa tells Windaba ...",
    "link": "https://www.miningweekly.com/article/eskom-to-facilitate-construction-of-more-data-centres-in-south-africa-ramokgopa-tells-windaba-delegates-2026-10-06",
    "via": "",
@@ -362,13 +384,7 @@
    "summary": "Power utility Eskom will soon make a major announcement about facilitating the construction of data centres in South Africa. This was announced by Electricity and Energy Minister Dr Kgosientsho Ramokgopa in his keynote address to the...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
