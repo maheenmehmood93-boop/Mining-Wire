@@ -1,11 +1,12 @@
 {
- "updated": "2026-10-06T06:47:01.404Z",
+ "updated": "2026-10-06T07:01:25.475Z",
  "sources": [
   {
    "source": "MINING.COM",
    "section": "",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "Mining Technology",
@@ -49,14 +50,16 @@
   {
    "source": "Dawn",
    "section": "Pakistan",
-   "ok": false,
-   "error": "Entity expansion limit exceeded: 1010 > 1000"
+   "ok": true,
+   "items": 0,
+   "seen": 30
   },
   {
    "source": "Dawn",
    "section": "Business",
-   "ok": false,
-   "error": "Entity expansion limit exceeded: 1053 > 1000"
+   "ok": true,
+   "items": 0,
+   "seen": 30
   },
   {
    "source": "The Express Tribune",
@@ -82,8 +85,9 @@
   {
    "source": "Business Recorder",
    "section": "",
-   "ok": false,
-   "error": "Entity expansion limit exceeded: 1008 > 1000"
+   "ok": true,
+   "items": 3,
+   "seen": 30
   },
   {
    "source": "Daily Times",
@@ -104,7 +108,7 @@
    "section": "",
    "ok": true,
    "items": 2,
-   "seen": 94
+   "seen": 95
   },
   {
    "source": "APP",
@@ -136,6 +140,89 @@
  ],
  "items": [
   {
+   "title": "Australian shares set for third day of gains as weaker oil boosts risk appetite",
+   "link": "https://www.brecorder.com/news/40442871/australian-shares-set-for-third-day-of-gains-as-weaker-oil-boosts-risk-appetite",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T06:23:07.000Z",
+   "summary": "Australian shares were set to rally for a third straight session on Tuesday, as falling oil prices eased inflation concerns and record Wall Street gains boosted risk appetite, lifting miners and banks. The S&P/ASX 200 index rose 0.5% to...",
+   "image": "https://i.brecorder.com/large/2026/10/061122193cc2d78.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Copper ticks up as US tech rally, easing rate-hike bets temper dollar surge",
+   "link": "https://www.brecorder.com/news/40442870/copper-ticks-up-as-us-tech-rally-easing-rate-hike-bets-temper-dollar-surge",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T06:21:28.000Z",
+   "summary": "SINGAPORE: Copper prices were marginally up on Tuesday , as a boost from a tech-driven US stock market rally and receding market bets on a Federal Reserve rate hike this month were largely offset by a stronger dollar. Benchmark three-month...",
+   "image": "https://i.brecorder.com/large/2026/10/06112116e03c893.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
+   "title": "South Korea says preparing response to force North Korean apology over DMZ blast",
+   "link": "https://www.brecorder.com/news/40442860/south-korea-says-preparing-response-to-force-north-korean-apology-over-dmz-blast",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T03:22:49.000Z",
+   "summary": "SEOUL: South Korea is preparing a response to force North Korea to apologise for ​a mine blast in the Demilitarized Zone (DMZ) that seriously wounded ‌two South Korean soldiers, a defence ministry spokesperson said on Tuesday. South Korea...",
+   "image": "https://i.brecorder.com/large/2026/10/060820541efc763.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Advanced Navigation expands US manufacturing capacity to Alabama",
+   "link": "https://www.mining.com/advanced-navigation-expands-us-manufacturing-capacity-to-alabama/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T23:46:17.000Z",
+   "summary": "Company said it is expanding manufacturing in Huntsville to build and deliver high-precision mining navigation technology.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Westwin Elements to build $502M nickel refinery in Mississippi",
+   "link": "https://www.mining.com/westwin-elements-to-build-502m-nickel-refinery-in-mississippi/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T21:27:18.000Z",
+   "summary": "Company has completed a bankable feasibility study for the Natchez site.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Northern Miner awards Sean Boyd who built Agnico Eagle on ‘culture of the heart’",
    "link": "https://www.northernminer.com/news/northern-miner-awards-sean-boyd-who-built-agnico-eagle-on-culture-of-the-heart/1003895425/",
    "via": "",
@@ -144,13 +231,15 @@
    "summary": "Sean Boyd complimented Paul Penna on his briefcase the first time the young auditor met Agnico Eagle Mines (TSX, NYSE: AEM) founder in 1983. Penna placed it on the tiny...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": []
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Colorado summit video: Giustra says gold rally is missing retail",
    "link": "https://www.northernminer.com/news/colorado-summit-video-giustra-says-gold-rally-is-missing-retail/1003895461/",
    "via": "",
@@ -159,15 +248,13 @@
    "summary": "Ordinary investors have largely sat out gold’s rally, leaving room for another leg higher while central banks keep buying on price dips, veteran mining financier Frank Giustra says. Central banks...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Ranked: September capital raisings tumble 90%",
    "link": "https://www.northernminer.com/news/ranked-september-capital-raisings-tumble-90/1003895427/",
    "via": "",
@@ -176,13 +263,15 @@
    "summary": "Mining financings fell nearly 90% year over year to $765 million (C$1 billion) in September, down 78% from August. Over the 12 months ended Sept. 30, tracked financings totalled $23.34...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": []
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
    "title": "Surge Battery boosts returns, cuts costs for Nevada lithium project",
    "link": "https://www.northernminer.com/news/surge-battery-boosts-returns-cuts-costs-for-nevada-lithium-project/1003895436/",
    "via": "",
@@ -191,15 +280,15 @@
    "summary": "A new economic study for Surge Battery Metals’ (TSXV: NILI; US-OTC: NILIF) Nevada North lithium project has lifted forecast returns and reduced expenses. Using an 8% discount rate and a...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ]
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
    "title": "Greenland advances Tanbreez rare earths project",
    "link": "https://www.northernminer.com/news/greenland-advances-tanbreez-rare-earths-project/1003895442/",
    "via": "",
@@ -208,15 +297,15 @@
    "summary": "Critical Metals (Nasdaq: CRML) has won Greenland government approval for the mining and closure plans at its Tanbreez rare earths project, clearing a major hurdle towards construction. Tanbreez, in southern...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ]
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Silver"
+   ],
    "title": "Silver shortage could flip to surplus in 2027: Deutsche",
    "link": "https://www.northernminer.com/news/silver-shortage-could-flip-to-surplus-in-2027-deutsche/1003895445/",
    "via": "",
@@ -225,15 +314,15 @@
    "summary": "Rising silver inventories and declining industrial demand could trigger a supply glut as soon as next year, Deutsche Bank says in a new report. Spot prices for silver could average...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Silver"
-   ]
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Barrick secures 15-year North Mara licences in Tanzania",
    "link": "https://www.northernminer.com/news/barrick-secures-15-year-north-mara-licences-in-tanzania/1003895450/",
    "via": "",
@@ -242,15 +331,30 @@
    "summary": "Tanzania has renewed Barrick Mining’s (TSX: ABX; NYSE: B) licences for the North Mara gold mine for 15 years, securing its operating tenure as the company weighs an expansion. North...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "title": "Investors need to take a rifle approach to decision making: consultant",
+   "link": "https://www.mining.com/investors-need-to-take-a-rifle-approach-to-decision-making-consultant/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T20:06:33.000Z",
+   "summary": "Feneck Consulting Group CEO says that investors need to be informed about all that is happening before making decisions.",
+   "image": null,
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold"
-   ]
-  },
-  {
+   ],
    "title": "Cambria targets late 2027 Premier mill restart",
    "link": "https://www.northernminer.com/news/cambria-targets-late-2027-premier-mill-restart/1003895453/",
    "via": "",
@@ -259,15 +363,15 @@
    "summary": "Cambria Gold Mines (TSXV: CAMB; US-OTC: CAMVF) is targeting another restart of the Premier gold mill in northern British Columbia for late next year after insufficient underground feed derailed its...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
    "title": "World Bank backs $1.4B for Chile’s copper giant",
    "link": "https://www.northernminer.com/news/world-bank-back-1-4b-for-chiles-copper-giant/1003895433/",
    "via": "",
@@ -276,70 +380,17 @@
    "summary": "The World Bank Group is holding up a financing structure used by Chile’s state-owned Codelco as a model for mineral-rich countries seeking to attract long-term private capital while reducing mining’s...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
+   "region": "North America"
   },
   {
-   "title": "Coal’s 2026 shock came from outside the coal market",
-   "link": "https://www.mining-technology.com/analysis/coals-2026-shock-came-from-outside-the-coal-market/",
+   "title": "Colorado summit video: Giustra says gold rally is missing retail",
+   "link": "https://www.mining.com/colorado-summit-video-giustra-says-gold-rally-is-missing-retail/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-05T16:42:17.000Z",
-   "summary": "The Strait of Hormuz disruption has reshaped coal markets in 2026, and the outlook remains uncertain as 2027 approaches.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_1902886648.jpg",
-   "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ]
-  },
-  {
-   "title": "ADENCO upgrades water infrastructure at Northern Star's KCGM Mill Expansion Project",
-   "link": "https://im-mining.com/2026/10/05/adenco-upgrades-water-infrastructure-at-northern-stars-kcgm-mill-expansion-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T15:41:30.000Z",
-   "summary": "Western Australia-based construction company ADENCO says it has completed a design and construct project for Northern Star Resources at its KCGM Operations, delivering upgrades to water infrastructure as part of the KCGM Mill Expansion...",
+   "date": "2026-10-05T19:26:18.000Z",
+   "summary": "“Gold is your hedge against all human stupidity.”",
    "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "FMF 2027 to explore global collaboration for a resilient mineral supply",
-   "link": "https://im-mining.com/2026/10/05/fmf-2027-to-explore-global-collaboration-for-a-resilient-mineral-supply/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T15:32:19.000Z",
-   "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources (MIM) has announced that the sixth edition of the Future Minerals Forum (FMF), a global platform for shaping the future of minerals, will be held under the patronage of the...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Gold Mountain signs agreement for Brazilian tungsten mine",
-   "link": "https://www.mining-technology.com/news/gold-mountain-agreement-brazilian-tungsten-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T14:49:41.000Z",
-   "summary": "Gold Mountain has signed an exclusive 12-month agreement to acquire the mining application 848.365/2011, covering the historical Malhada do Angico tungsten mine in northeast Brazil.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-5Oct26-shutterstock_2755734389-2.jpg",
-   "source": "Mining Technology",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -349,29 +400,14 @@
    ]
   },
   {
-   "title": "Sponsored: Riverside readies Mexico spinout",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-riverside-readies-mexico-spinout/1003895457/",
+   "title": "Barrick secures 15-year North Mara mining licences in Tanzania",
+   "link": "https://www.mining.com/barrick-secures-15-year-north-mara-mining-licences-in-tanzania/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-05T14:15:11.000Z",
-   "summary": "Riverside Resources President and CEO John-Mark Staude and Vice-President for Exploration for Ravina Resources Julian Manco in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is...",
+   "date": "2026-10-05T19:10:00.000Z",
+   "summary": "The latest approval removes tenure risk, leaving Barrick to reverse a sharp first-half production decline.",
    "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Power Metallic appoints BBA for Nisk Project economic study",
-   "link": "https://www.mining-technology.com/news/power-metallic-bba-nisk-project-economic-study/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T14:04:24.000Z",
-   "summary": "Power Metallic Mines has appointed BBA to lead a preliminary economic assessment covering the Lion and Nisk Main deposits at its Nisk Project in Québec, Canada.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-5-5Oct26-shutterstock_2829473981.jpg",
-   "source": "Mining Technology",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -379,63 +415,14 @@
    "tags": []
   },
   {
-   "title": "'Political orphans' bringing 'Zionist politics' to Sindh, says Bilawal",
-   "link": "https://www.geo.tv/latest/685095-bilawal-says-political-orphans-bringing-zionist-politics-to-sindh",
+   "title": "Cambria targets late 2027 Premier mill restart",
+   "link": "https://www.mining.com/cambria-targets-late-2027-premier-mill-restart/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-05T12:58:00.000Z",
-   "summary": "Pakistan Peoples Party Chairman Bilawal Bhutto Zardari addresses inauguration ceremony of Thar Coal Phase III in Thar on October 5, 2026. &mdash; Facebook/BilawalhouseMQM-P questions MDCAT's impartiality in Sindh.No Karachi candidates made...",
+   "date": "2026-10-05T17:59:22.000Z",
+   "summary": "Cambria plans to recommission the 2,500-tonne-per-day mill in the fourth quarter of 2027 and ramp it up through 2028.",
    "image": null,
-   "source": "Geo News",
-   "section": "Pakistan",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ]
-  },
-  {
-   "title": "Bilawal Bhutto inaugurates Thar Coal Phase-III expansion and Pakistan’s first coal drying unit",
-   "link": "https://arynews.tv/bilawal-bhutto-inaugurates-thar-coal-phase-iii-expansion-and-pakistans-first-coal-drying-unit",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T12:57:16.000Z",
-   "summary": "Bilawal Bhutto inaugurates Thar Coal Phase-III expansion and Pakistan’s first coal drying unit",
-   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/CM-Tharparkar.jpg",
-   "source": "ARY News",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ]
-  },
-  {
-   "title": "PMDC to act on Health Minister’s directive after legal review of MDCAT powers",
-   "link": "https://arynews.tv/pmdc-to-act-on-health-ministers-directive-after-legal-review-of-mdcat-powers",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T11:29:17.000Z",
-   "summary": "PMDC to act on Health Minister’s directive after legal review of MDCAT powers",
-   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/pmdc.jpg",
-   "source": "ARY News",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Fifth cohort of start-ups join Founders Factory’s Mining Tech Accelerator with Rio Tinto",
-   "link": "https://im-mining.com/2026/10/05/fifth-cohort-of-start-ups-join-founders-factorys-mining-tech-accelerator-with-rio-tinto/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T11:01:35.000Z",
-   "summary": "Founders Factory and Rio Tinto have revealed the fifth cohort joining their mining tech accelerator, the global start-up program solving the mining industry's toughest problems by backing the innovators building its future. The five...",
-   "image": null,
-   "source": "International Mining",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -443,14 +430,14 @@
    "tags": []
   },
   {
-   "title": "Wildsky signs LoI for Zimbabwe’s NewRidge Gold Project",
-   "link": "https://www.mining-technology.com/news/wildsky-loi-newridge-gold-project/",
+   "title": "Swanson results fall short despite 6.05-g/t gold highlight",
+   "link": "https://www.mining.com/swanson-results-fall-short-despite-6-05-g-t-gold-highlight/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-05T10:08:37.000Z",
-   "summary": "Canadian exploration company Wildsky Resources has entered into a binding letter of intent (LoI) to acquire full interest in the NewRidge Gold Project, located in Manicaland Province, Zimbabwe.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-5Oct26-shutterstock_2546222937-5.jpg",
-   "source": "Mining Technology",
+   "date": "2026-10-05T17:32:38.000Z",
+   "summary": "Although some of its holes returned encouraging grades, the results did not demonstrate strong continuity.",
+   "image": null,
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -460,368 +447,14 @@
    ]
   },
   {
-   "title": "EACON &#038; Tonly advance purpose-built, cabless auto haulage with EQ100E",
-   "link": "https://im-mining.com/2026/10/05/eacon-tonly-advance-purpose-built-cabless-auto-haulage-with-eq100e/",
+   "title": "Silver shortage could flip to surplus in 2027: Deutsche",
+   "link": "https://www.mining.com/silver-shortage-could-flip-to-surplus-in-2027-deutsche/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-05T08:36:37.000Z",
-   "summary": "What happens when a mining truck is designed for autonomous operation from the outset, rather than adapted for it later? EACON and Tonly are putting that approach to the test with the EQ100E, a cabless, battery-electric autonomous mining...",
+   "date": "2026-10-05T17:10:59.000Z",
+   "summary": "A drop in the metal’s scarcity could result in silver struggling to keep pace with gold even as they benefit from a stronger precious metals market.",
    "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Metso to repower thickeners at Chile mine site",
-   "link": "https://im-mining.com/2026/10/05/metso-to-repower-thickeners-at-chile-mine-site/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T08:16:05.000Z",
-   "summary": "Metso has entered into an agreement to provide a comprehensive thickener modernisation for a customer site in Chile, seeking to repower its thickeners to withstand higher throughput and operational demand, while increasing underflow...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "PMET and Matagami sign LoI for spodumene rail trans-shipment",
-   "link": "https://www.mining-technology.com/news/pmet-matagami-loi-spodumene-transshipment/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T08:08:10.000Z",
-   "summary": "PMET Resources has signed a letter of intent (LoI) with the City of Matagami in Quebec, Canada, concerning the transshipment of spodumene concentrate for the Shaakichiuwaanaan Project.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-1-5Oct26-shutterstock_1783477847.jpg",
-   "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Glencore secures approval for MARA project in Argentina",
-   "link": "https://www.mining-technology.com/news/glencore-approval-mara-project-argentina/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T08:00:56.000Z",
-   "summary": "Glencore has obtained approval for its Minera Agua Rica – Alumbrera (MARA) project under Argentina’s Incentive Regime for Large Investments (RIGI).",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-2-5Oct26-shutterstock_2685417145.jpg",
-   "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Macmahon secures two-year extension at Vault's Daisy Milano underground mine",
-   "link": "https://im-mining.com/2026/10/05/macmahon-secures-two-year-extension-at-vaults-daisy-milano-underground-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T05:27:49.000Z",
-   "summary": "Macmahon Holdings Limited's Macmahon Underground Pty Ltd subsidiary has been awarded a two-year contract extension by Vault Minerals Limited at the Daisy Milano Gold Mine in the Kalgoorlie region of Western Australia. Macmahon has provided...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
-  },
-  {
-   "title": "South32's Hermosa project earns mine safety award in the US",
-   "link": "https://im-mining.com/2026/10/05/south32s-hermosa-project-earns-mine-safety-award-in-the-us/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T05:18:47.000Z",
-   "summary": "South32 Hermosa has earned a 2025 Sentinels of Safety Award, the nation’s most prestigious and longest-running recognition for mine safety, in the Underground Metal Group category, it says. The award recognises Hermosa’s outstanding safety...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Glencore gets RIGI nod for $4B Argentina copper project",
-   "link": "https://www.northernminer.com/news/glencore-gets-rigi-nod-for-4b-argentina-copper-project/1003895400/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T20:30:04.000Z",
-   "summary": "Glencore (LSE: GLEN) has secured Argentine government approval for its $4 billion (C$5.7 billion) Agua Rica copper project under the country’s special investment incentive program, clearing a significant hurdle for...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
-  },
-  {
-   "title": "Freeport’s Grasberg copper mill reaches 67% after last year's mudslide",
-   "link": "https://www.northernminer.com/news/freeports-grasberg-copper-mill-reaches-67-after-last-years-mudslide/1003895414/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T19:07:49.000Z",
-   "summary": "Freeport-McMoRan (NYSE: FCX) averaged nearly two-thirds of normal milling rates at its Grasberg copper-gold complex in Indonesia during the third quarter, a year after a mudslide killed seven workers and...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Copper"
-   ]
-  },
-  {
-   "title": "Osisko plots major resource increase for Gaspé",
-   "link": "https://www.northernminer.com/news/osisko-plots-major-resource-increase-for-gaspe/1003895378/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T18:30:37.000Z",
-   "summary": "Osisko Metals (TSX: OM; US-OTC: OMZNF) expects its Gaspé copper project in Quebec to get even bigger as new drilling fills gaps in the resource and deeper mineralization is added...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
-  },
-  {
-   "title": "New $850M debt deal moves Troilus copper-gold project closer to full funding",
-   "link": "https://www.northernminer.com/news/new-850m-debt-deal-moves-troilus-copper-gold-project-closer-to-full-funding/1003895381/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T18:00:08.000Z",
-   "summary": "A new debt-financing accord brings Troilus Mining (TSX: TLG; US-OTC: CHXMF) closer to securing the entire capital needed to develop its namesake copper-gold project in Quebec. Germany’s KfW IPEX-Bank and France’s...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Copper"
-   ]
-  },
-  {
-   "title": "Pension funds use gold as bond hedge weakens",
-   "link": "https://www.northernminer.com/news/pension-funds-use-gold-as-bond-hedge-weakens/1003895408/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T16:45:08.000Z",
-   "summary": "Gold is finding a durable place in some pension-fund portfolios as investors look for protection from inflation, market shocks and the weakening diversification benefits of bonds, according to the World...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
-  },
-  {
-   "title": "Brazil mine licence system faces court test",
-   "link": "https://www.northernminer.com/news/brazil-mine-licence-system-faces-court-test/1003895404/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T15:25:50.000Z",
-   "summary": "Brazil is trying to speed up mine approvals just as its Supreme Court weighs challenges that could undo parts of the country’s new environmental licensing system. The overhaul sets national...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "TNM Drill Down: Lion One in Fiji leads gold assays for August-September",
-   "link": "https://www.northernminer.com/news/tnm-drill-down-lion-one-in-fiji-leads-assays-for-august-september/1003895388/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T14:15:40.000Z",
-   "summary": "Drilling in Fiji, Ecuador and the United States returned the top gold results for the Aug. 17 to Sept. 15 period, with assays from Lion One Metals (TSXV: LIO), Auro...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
-  },
-  {
-   "title": "Mountain Province gives De Beers 49% of Gahcho Kué",
-   "link": "https://www.northernminer.com/news/mountain-province-gives-de-beers-49-of-gahcho-kue/1003895412/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T14:00:00.000Z",
-   "summary": "Diamond-market weakness pushes the Canadian miner to shed mine liabilities and seek fresh funding for its balance sheet.",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Volta drills 68g gallium, heavy rare earths at Springer in Ontario",
-   "link": "https://www.northernminer.com/news/volta-drills-68g-gallium-heavy-rare-earths-at-springer-in-ontario/1003895395/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T13:39:24.000Z",
-   "summary": "Drilling at Volta Metals’ (CSE: VLTA) Springer project in northern Ontario cut through the centre of the deposit, returning heavy rare earth mineralization and strong gallium grades in all samples,...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ]
-  },
-  {
-   "title": "Global Air Cylinder Wheels' ASW receives safety recognition in Queensland",
-   "link": "https://im-mining.com/2026/10/02/global-air-cylinder-wheels-asw-receives-safety-recognition-in-queensland/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T10:32:04.000Z",
-   "summary": "Global Air Cylinder Wheels® (GACW), the innovator behind the patented Air Suspension Wheel® (ASW), has recently won the 2026 People’s Choice Safety Innovation Award at the Queensland Mining Industry Health and Safety Conference in...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "IMARC organisers look to match up METS companies with mining decision makers",
-   "link": "https://im-mining.com/2026/10/02/imarc-organisers-look-to-match-up-mets-companies-with-mining-decision-makers/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T08:29:39.000Z",
-   "summary": "Mine operators will take centre stage when thousands of mining industry leaders, investors, suppliers and innovators from around the world converge on Sydney for the International Mining and Resources Conference + Expo (IMARC) later this...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Toyota and BHP build on HiLux BEV trial with deployment at Goonyella Riverside",
-   "link": "https://im-mining.com/2026/10/02/toyota-and-bhp-build-on-hilux-bev-trial-with-deployment-at-goonyella-riverside/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T05:01:27.000Z",
-   "summary": "Toyota Australia and BHP say they are advancing lower-emissions technology in one of Australia's most demanding environments. Two HiLux BEVs are now operating at BHP Mitsubishi Alliance's Goonyella Riverside coal mine in Queensland,...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ]
-  },
-  {
-   "title": "BEML unveils India's first battery electric 60 t class mining truck",
-   "link": "https://im-mining.com/2026/10/02/beml-unveils-indias-first-battery-electric-60-t-class-mining-truck/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T04:36:21.000Z",
-   "summary": "BEML Ltd has unveiled India’s first indigenously designed and developed 60 t class battery electric dump truck, the BH60-EV, at its Mysuru Complex, it says marking a significant milestone in the development of high-capacity electric...",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Beaver Creek: Gold’s bond break puts juniors in play",
-   "link": "https://www.northernminer.com/news/beaver-creek-golds-bond-break-puts-juniors-in-play/1003895335/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-01T19:00:17.000Z",
-   "summary": "BEAVER CREEK, COLO. Gold has more than doubled since early 2022 even as U.S. bond yields climbed, a break investors at the Precious Metals Summit say may signal bullion is...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
-  },
-  {
-   "title": "FEATURE ARTICLE: Flotation",
-   "link": "https://im-mining.com/2026/10/01/feature-article-flotation-5/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-01T15:04:52.000Z",
-   "summary": "In the latest IM Spotlight Feature Article, Paul Moore looks at the latest developments across the flotation tech space, including Syensqo's ambition to provide flexible, real-time chemistry for flotation plants.",
-   "image": null,
-   "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
-  },
-  {
-   "title": "Riversgold submits mine plan for Kalgoorlie gold project in Australia",
-   "link": "https://www.mining-technology.com/news/riversgold-mine-plan-kalgoorlie-gold-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-01T12:54:52.000Z",
-   "summary": "Riversgold has filed a mine development and closure proposal (MDCP) for the Northern Zone open pit at its Kalgoorlie Gold Project with the Western Australian Department of Mines, Petroleum and Exploration.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-1Oct26-shutterstock_2758900711.jpg",
-   "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
-  },
-  {
-   "title": "ACDC Metals gains BLM permits for Mount Jackson drill campaign",
-   "link": "https://www.mining-technology.com/news/acdc-metals-blm-mount-jackson-drill/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-01T12:44:52.000Z",
-   "summary": "ACDC Metals has obtained environmental permitting approval from the US Bureau of Land Management (BLM) to conduct a maiden drilling campaign and geophysical survey at the Mount Jackson Gold-Silver Project in Nevada, US.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-5-1Oct26-shutterstock_2546222953-2.jpg",
-   "source": "Mining Technology",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -832,14 +465,61 @@
    ]
   },
   {
-   "title": "Lynas agrees to buy Meteoric Resources in $674m all-share deal",
-   "link": "https://www.mining-technology.com/news/lynas-to-buy-meteoric-resources-674m/",
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "title": "Coal’s 2026 shock came from outside the coal market",
+   "link": "https://www.mining-technology.com/analysis/coals-2026-shock-came-from-outside-the-coal-market/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-01T10:09:03.000Z",
-   "summary": "Australian company Lynas Rare Earths has signed a binding scheme implementation deed (SID) to acquire all shares in Meteoric Resources through a court-approved scheme of arrangement valued at approximately A$968m ($674m).",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-1Oct26-shutterstock_1902037270-1.jpg",
+   "date": "2026-10-05T16:42:17.000Z",
+   "summary": "The Strait of Hormuz disruption has reshaped coal markets in 2026, and the outlook remains uncertain as 2027 approaches.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_1902886648.jpg",
    "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "ADENCO upgrades water infrastructure at Northern Star's KCGM Mill Expansion Project",
+   "link": "https://im-mining.com/2026/10/05/adenco-upgrades-water-infrastructure-at-northern-stars-kcgm-mill-expansion-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:41:30.000Z",
+   "summary": "Western Australia-based construction company ADENCO says it has completed a design and construct project for Northern Star Resources at its KCGM Operations, delivering upgrades to water infrastructure as part of the KCGM Mill Expansion...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "FMF 2027 to explore global collaboration for a resilient mineral supply",
+   "link": "https://im-mining.com/2026/10/05/fmf-2027-to-explore-global-collaboration-for-a-resilient-mineral-supply/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:32:19.000Z",
+   "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources (MIM) has announced that the sixth edition of the Future Minerals Forum (FMF), a global platform for shaping the future of minerals, will be held under the patronage of the...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "title": "Greenland government approves Tanbreez rare earth mine plan",
+   "link": "https://www.mining.com/greenland-government-approves-tanbreez-mine-plan/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:18:29.000Z",
+   "summary": "Tanbreez ranks among the larger undeveloped heavy rare earth projects outside China.",
+   "image": null,
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -849,6 +529,903 @@
    ]
   },
   {
+   "title": "Surge Battery boosts returns, cuts costs for Nevada lithium project",
+   "link": "https://www.mining.com/surge-battery-boosts-returns-cuts-costs-for-nevada-lithium-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T15:13:28.000Z",
+   "summary": "PFS outlines a 42-year open-pit operation that would mine the claystone without blasting and process it at an on-site plant.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "Gold Mountain signs agreement for Brazilian tungsten mine",
+   "link": "https://www.mining-technology.com/news/gold-mountain-agreement-brazilian-tungsten-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:49:41.000Z",
+   "summary": "Gold Mountain has signed an exclusive 12-month agreement to acquire the mining application 848.365/2011, covering the historical Malhada do Angico tungsten mine in northeast Brazil.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-5Oct26-shutterstock_2755734389-2.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Sponsored: Riverside readies Mexico spinout",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-riverside-readies-mexico-spinout/1003895457/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:15:11.000Z",
+   "summary": "Riverside Resources President and CEO John-Mark Staude and Vice-President for Exploration for Ravina Resources Julian Manco in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Power Metallic appoints BBA for Nisk Project economic study",
+   "link": "https://www.mining-technology.com/news/power-metallic-bba-nisk-project-economic-study/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T14:04:24.000Z",
+   "summary": "Power Metallic Mines has appointed BBA to lead a preliminary economic assessment covering the Lion and Nisk Main deposits at its Nisk Project in Québec, Canada.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-5-5Oct26-shutterstock_2829473981.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "title": "Rio Tinto, Founders Factory back five mining startups",
+   "link": "https://www.mining.com/rio-tinto-founders-factory-back-five-mining-startups/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T13:14:49.000Z",
+   "summary": "The mining tech accelerator selected copper exploration, geohazard monitoring and metals processing startups.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
+   "title": "Millennial Potash targets 2029 production as US-backed Gabon project advances",
+   "link": "https://www.mining.com/millennial-potash-targets-2029-production-as-us-backed-gabon-project-advances/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T13:00:00.000Z",
+   "summary": "\"I don't want to replace Canadian potash,\" CEO said. \"Actually, I want to replace Russian potash.\"",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Potash"
+   ]
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "title": "'Political orphans' bringing 'Zionist politics' to Sindh, says Bilawal",
+   "link": "https://www.geo.tv/latest/685095-bilawal-says-political-orphans-bringing-zionist-politics-to-sindh",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:58:00.000Z",
+   "summary": "Pakistan Peoples Party Chairman Bilawal Bhutto Zardari addresses inauguration ceremony of Thar Coal Phase III in Thar on October 5, 2026. &mdash; Facebook/BilawalhouseMQM-P questions MDCAT's impartiality in Sindh.No Karachi candidates made...",
+   "image": null,
+   "source": "Geo News",
+   "region": "Pakistan"
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "title": "Bilawal Bhutto inaugurates Thar Coal Phase-III expansion and Pakistan’s first coal drying unit",
+   "link": "https://arynews.tv/bilawal-bhutto-inaugurates-thar-coal-phase-iii-expansion-and-pakistans-first-coal-drying-unit",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T12:57:16.000Z",
+   "summary": "Bilawal Bhutto inaugurates Thar Coal Phase-III expansion and Pakistan’s first coal drying unit",
+   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/CM-Tharparkar.jpg",
+   "source": "ARY News",
+   "region": "Pakistan"
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
+   "title": "PMDC to act on Health Minister’s directive after legal review of MDCAT powers",
+   "link": "https://arynews.tv/pmdc-to-act-on-health-ministers-directive-after-legal-review-of-mdcat-powers",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T11:29:17.000Z",
+   "summary": "PMDC to act on Health Minister’s directive after legal review of MDCAT powers",
+   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/pmdc.jpg",
+   "source": "ARY News",
+   "region": "Pakistan"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Fifth cohort of start-ups join Founders Factory’s Mining Tech Accelerator with Rio Tinto",
+   "link": "https://im-mining.com/2026/10/05/fifth-cohort-of-start-ups-join-founders-factorys-mining-tech-accelerator-with-rio-tinto/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T11:01:35.000Z",
+   "summary": "Founders Factory and Rio Tinto have revealed the fifth cohort joining their mining tech accelerator, the global start-up program solving the mining industry's toughest problems by backing the innovators building its future. The five...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "Wildsky signs LoI for Zimbabwe’s NewRidge Gold Project",
+   "link": "https://www.mining-technology.com/news/wildsky-loi-newridge-gold-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T10:08:37.000Z",
+   "summary": "Canadian exploration company Wildsky Resources has entered into a binding letter of intent (LoI) to acquire full interest in the NewRidge Gold Project, located in Manicaland Province, Zimbabwe.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-5Oct26-shutterstock_2546222937-5.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "EACON &#038; Tonly advance purpose-built, cabless auto haulage with EQ100E",
+   "link": "https://im-mining.com/2026/10/05/eacon-tonly-advance-purpose-built-cabless-auto-haulage-with-eq100e/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:36:37.000Z",
+   "summary": "What happens when a mining truck is designed for autonomous operation from the outset, rather than adapted for it later? EACON and Tonly are putting that approach to the test with the EQ100E, a cabless, battery-electric autonomous mining...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Metso to repower thickeners at Chile mine site",
+   "link": "https://im-mining.com/2026/10/05/metso-to-repower-thickeners-at-chile-mine-site/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:16:05.000Z",
+   "summary": "Metso has entered into an agreement to provide a comprehensive thickener modernisation for a customer site in Chile, seeking to repower its thickeners to withstand higher throughput and operational demand, while increasing underflow...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "PMET and Matagami sign LoI for spodumene rail trans-shipment",
+   "link": "https://www.mining-technology.com/news/pmet-matagami-loi-spodumene-transshipment/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:08:10.000Z",
+   "summary": "PMET Resources has signed a letter of intent (LoI) with the City of Matagami in Quebec, Canada, concerning the transshipment of spodumene concentrate for the Shaakichiuwaanaan Project.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-1-5Oct26-shutterstock_1783477847.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Glencore secures approval for MARA project in Argentina",
+   "link": "https://www.mining-technology.com/news/glencore-approval-mara-project-argentina/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T08:00:56.000Z",
+   "summary": "Glencore has obtained approval for its Minera Agua Rica – Alumbrera (MARA) project under Argentina’s Incentive Regime for Large Investments (RIGI).",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-2-5Oct26-shutterstock_2685417145.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "Macmahon secures two-year extension at Vault's Daisy Milano underground mine",
+   "link": "https://im-mining.com/2026/10/05/macmahon-secures-two-year-extension-at-vaults-daisy-milano-underground-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T05:27:49.000Z",
+   "summary": "Macmahon Holdings Limited's Macmahon Underground Pty Ltd subsidiary has been awarded a two-year contract extension by Vault Minerals Limited at the Daisy Milano Gold Mine in the Kalgoorlie region of Western Australia. Macmahon has provided...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "South32's Hermosa project earns mine safety award in the US",
+   "link": "https://im-mining.com/2026/10/05/south32s-hermosa-project-earns-mine-safety-award-in-the-us/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T05:18:47.000Z",
+   "summary": "South32 Hermosa has earned a 2025 Sentinels of Safety Award, the nation’s most prestigious and longest-running recognition for mine safety, in the Underground Metal Group category, it says. The award recognises Hermosa’s outstanding safety...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "title": "Top 50 mining companies take $264 billion hit as gold trade unwinds, lithium stocks exit",
+   "link": "https://www.mining.com/top-50-mining-companies-take-264-billion-hit-as-gold-trade-unwinds-lithium-stocks-exit/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-04T20:00:34.000Z",
+   "summary": "Gold stocks falter, copper miners ignore a record price and only one lithium producer survives in the second-worst month in the ranking's history.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper",
+    "Lithium"
+   ]
+  },
+  {
+   "title": "The top 50 biggest mining companies in the world",
+   "link": "https://www.mining.com/top-50-biggest-mining-companies/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-04T07:01:00.000Z",
+   "summary": "Gold stocks falter, copper miners ignore a record price and only one lithium producer survives in the second-worst month in the ranking's history.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper",
+    "Lithium"
+   ]
+  },
+  {
+   "title": "Pension funds use gold as bond hedge weakens",
+   "link": "https://www.mining.com/pension-funds-use-gold-as-bond-hedge-weakens/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T23:22:00.000Z",
+   "summary": "For pension funds wary of mining equities because of commodity-price swings, bullion provides exposure to the gold sector without taking on the company-specific risks of owning miners.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "title": "Why rare earth elements are hiding in plain sight",
+   "link": "https://www.mining.com/why-rare-earth-elements-are-hiding-in-plain-sight/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T21:25:20.000Z",
+   "summary": "REEs are not rare at all but rarely found in pure form.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "title": "Glencore gets RIGI nod for $4B Argentina copper project",
+   "link": "https://www.northernminer.com/news/glencore-gets-rigi-nod-for-4b-argentina-copper-project/1003895400/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T20:30:04.000Z",
+   "summary": "Glencore (LSE: GLEN) has secured Argentine government approval for its $4 billion (C$5.7 billion) Agua Rica copper project under the country’s special investment incentive program, clearing a significant hurdle for...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "title": "Freeport’s Grasberg copper mill reaches 67% after last year's mudslide",
+   "link": "https://www.northernminer.com/news/freeports-grasberg-copper-mill-reaches-67-after-last-years-mudslide/1003895414/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T19:07:49.000Z",
+   "summary": "Freeport-McMoRan (NYSE: FCX) averaged nearly two-thirds of normal milling rates at its Grasberg copper-gold complex in Indonesia during the third quarter, a year after a mudslide killed seven workers and...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "title": "Freeport’s Grasberg copper mill reaches 67% after mudslide",
+   "link": "https://www.mining.com/freeports-grasberg-copper-mill-reaches-67-after-mudslide/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T19:07:49.000Z",
+   "summary": "The company expects near-full production by the end next year.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "title": "Osisko plots major resource increase for Gaspé",
+   "link": "https://www.northernminer.com/news/osisko-plots-major-resource-increase-for-gaspe/1003895378/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T18:30:37.000Z",
+   "summary": "Osisko Metals (TSX: OM; US-OTC: OMZNF) expects its Gaspé copper project in Quebec to get even bigger as new drilling fills gaps in the resource and deeper mineralization is added...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "title": "New $850M debt deal moves Troilus copper-gold project closer to full funding",
+   "link": "https://www.northernminer.com/news/new-850m-debt-deal-moves-troilus-copper-gold-project-closer-to-full-funding/1003895381/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T18:00:08.000Z",
+   "summary": "A new debt-financing accord brings Troilus Mining (TSX: TLG; US-OTC: CHXMF) closer to securing the entire capital needed to develop its namesake copper-gold project in Quebec. Germany’s KfW IPEX-Bank and France’s...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "Pension funds use gold as bond hedge weakens",
+   "link": "https://www.northernminer.com/news/pension-funds-use-gold-as-bond-hedge-weakens/1003895408/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T16:45:08.000Z",
+   "summary": "Gold is finding a durable place in some pension-fund portfolios as investors look for protection from inflation, market shocks and the weakening diversification benefits of bonds, according to the World...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "title": "KGHM, South32 kick off $725M Sierra Gorda expansion",
+   "link": "https://www.mining.com/kghm-south32-kick-off-725m-sierra-gorda-expansion/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T15:43:00.000Z",
+   "summary": "A fourth grinding line will lift Sierra Gorda’s processing capacity by 26% with construction scheduled to begin in 2027.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Brazil mine licence system faces court test",
+   "link": "https://www.northernminer.com/news/brazil-mine-licence-system-faces-court-test/1003895404/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T15:25:50.000Z",
+   "summary": "Brazil is trying to speed up mine approvals just as its Supreme Court weighs challenges that could undo parts of the country’s new environmental licensing system. The overhaul sets national...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "TNM Drill Down: Lion One in Fiji leads gold assays for August-September",
+   "link": "https://www.northernminer.com/news/tnm-drill-down-lion-one-in-fiji-leads-assays-for-august-september/1003895388/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T14:15:40.000Z",
+   "summary": "Drilling in Fiji, Ecuador and the United States returned the top gold results for the Aug. 17 to Sept. 15 period, with assays from Lion One Metals (TSXV: LIO), Auro...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Mountain Province gives De Beers 49% of Gahcho Kué",
+   "link": "https://www.northernminer.com/news/mountain-province-gives-de-beers-49-of-gahcho-kue/1003895412/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T14:00:00.000Z",
+   "summary": "Diamond-market weakness pushes the Canadian miner to shed mine liabilities and seek fresh funding for its balance sheet.",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "title": "Volta drills 68g gallium, heavy rare earths at Springer in Ontario",
+   "link": "https://www.northernminer.com/news/volta-drills-68g-gallium-heavy-rare-earths-at-springer-in-ontario/1003895395/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:39:24.000Z",
+   "summary": "Drilling at Volta Metals’ (CSE: VLTA) Springer project in northern Ontario cut through the centre of the deposit, returning heavy rare earth mineralization and strong gallium grades in all samples,...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "title": "Controlling supply chain key to US future: DOE",
+   "link": "https://www.mining.com/controlling-supply-chain-key-to-us-future-doe/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T13:37:18.000Z",
+   "summary": "The many new investments from the US Department of Energy have one simple objective: securing the supply chain.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Petra Diamonds hit with $7.5M UK tax petition",
+   "link": "https://www.mining.com/petra-diamonds-hit-with-7-5m-uk-tax-petition/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T12:32:00.000Z",
+   "summary": "UK tax action adds another complication as the diamond miner weighs asset sales and works to refinance mounting debt.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "World Bank unlocks $1.4B for Chile’s copper giant",
+   "link": "https://www.mining.com/world-bank-unlocks-1-4b-for-chiles-copper-giant/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T11:03:00.000Z",
+   "summary": "Chile, Zambia and Argentina show how mineral wealth can attract capital, create jobs and build economies beyond the mine.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "Global Air Cylinder Wheels' ASW receives safety recognition in Queensland",
+   "link": "https://im-mining.com/2026/10/02/global-air-cylinder-wheels-asw-receives-safety-recognition-in-queensland/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T10:32:04.000Z",
+   "summary": "Global Air Cylinder Wheels® (GACW), the innovator behind the patented Air Suspension Wheel® (ASW), has recently won the 2026 People’s Choice Safety Innovation Award at the Queensland Mining Industry Health and Safety Conference in...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "IMARC organisers look to match up METS companies with mining decision makers",
+   "link": "https://im-mining.com/2026/10/02/imarc-organisers-look-to-match-up-mets-companies-with-mining-decision-makers/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T08:29:39.000Z",
+   "summary": "Mine operators will take centre stage when thousands of mining industry leaders, investors, suppliers and innovators from around the world converge on Sydney for the International Mining and Resources Conference + Expo (IMARC) later this...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "title": "Toyota and BHP build on HiLux BEV trial with deployment at Goonyella Riverside",
+   "link": "https://im-mining.com/2026/10/02/toyota-and-bhp-build-on-hilux-bev-trial-with-deployment-at-goonyella-riverside/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T05:01:27.000Z",
+   "summary": "Toyota Australia and BHP say they are advancing lower-emissions technology in one of Australia's most demanding environments. Two HiLux BEVs are now operating at BHP Mitsubishi Alliance's Goonyella Riverside coal mine in Queensland,...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "BEML unveils India's first battery electric 60 t class mining truck",
+   "link": "https://im-mining.com/2026/10/02/beml-unveils-indias-first-battery-electric-60-t-class-mining-truck/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-02T04:36:21.000Z",
+   "summary": "BEML Ltd has unveiled India’s first indigenously designed and developed 60 t class battery electric dump truck, the BH60-EV, at its Mysuru Complex, it says marking a significant milestone in the development of high-capacity electric...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "title": "Greenland Mines makes gallium, vanadium discovery at Skaergaard",
+   "link": "https://www.mining.com/greenland-mines-makes-gallium-vanadium-discovery-at-skaergaard/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T22:54:06.000Z",
+   "summary": "Potential vanadium-bearing titanomagnetite, iron, and gallium value streams are being evaluated alongside the palladium-platinum-gold flowsheet.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Platinum"
+   ]
+  },
+  {
+   "title": "Grid Metals’ atomic-clock cesium resource in Manitoba ranks second globally",
+   "link": "https://www.mining.com/grid-metals-atomic-clock-cesium-resource-in-manitoba-ranks-second-globally/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T22:03:00.000Z",
+   "summary": "The world’s largest resource of the critical metal is also in Canada.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "BC First Nation terminates agreements with Spanish Mountain Gold, shares plunge",
+   "link": "https://www.mining.com/bc-first-nation-terminates-agreements-with-spanish-mountain-gold-shares-plunge/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T20:56:11.000Z",
+   "summary": "SMG is advancing its namesake project in the province's Cariboo region.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "Beaver Creek: Gold’s bond break puts juniors in play",
+   "link": "https://www.northernminer.com/news/beaver-creek-golds-bond-break-puts-juniors-in-play/1003895335/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T19:00:17.000Z",
+   "summary": "BEAVER CREEK, COLO. Gold has more than doubled since early 2022 even as U.S. bond yields climbed, a break investors at the Precious Metals Summit say may signal bullion is...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "title": "Mountain Province Diamonds gives De Beers 49% Gahcho Kué stake",
+   "link": "https://www.mining.com/mountain-province-gives-de-beers-49-gahcho-kue-stake/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T18:00:00.000Z",
+   "summary": "Diamond-market weakness pushes the Canadian miner to shed mine liabilities and seek fresh funding for its balance sheet.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Brazil court order shuts Sigma Lithium mine",
+   "link": "https://www.mining.com/brazil-court-order-shuts-sigma-lithium-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T17:28:45.000Z",
+   "summary": "A federal judge suspended Grota do Cirilo’s environmental licences and mining operations on Sept. 4.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ]
+  },
+  {
+   "title": "Mining’s future is up for sale",
+   "link": "https://www.mining.com/minings-future-is-up-for-sale/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T16:08:00.000Z",
+   "summary": "Streaming has evolved from a niche financing tool for miners to a multibillion-dollar asset class with a thriving secondary market.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Beaver Creek: Gold’s bond break puts juniors in play",
+   "link": "https://www.mining.com/beaver-creek-golds-bond-break-puts-juniors-in-play/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T16:00:00.000Z",
+   "summary": "The divergence raises the question for mining investors.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "title": "FEATURE ARTICLE: Flotation",
+   "link": "https://im-mining.com/2026/10/01/feature-article-flotation-5/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T15:04:52.000Z",
+   "summary": "In the latest IM Spotlight Feature Article, Paul Moore looks at the latest developments across the flotation tech space, including Syensqo's ambition to provide flexible, real-time chemistry for flotation plants.",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "title": "Worker dies in accident at Codelco’s Radomiro Tomic",
+   "link": "https://www.mining.com/worker-dies-in-accident-at-codelcos-radomiro-tomic/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T14:09:00.000Z",
+   "summary": "Codelco has suspended operations in the ⁠crushing and ⁠material handling ⁠area of ​the mine where the accident ​happened.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Petra Diamonds weighs sale as market pressures mount",
+   "link": "https://www.mining.com/petra-diamonds-weighs-sale-as-market-pressures-mount/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T13:01:00.000Z",
+   "summary": "The miner is examining options to shore up liquidity as weak diamond demand continues to squeeze its finances.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "title": "Riversgold submits mine plan for Kalgoorlie gold project in Australia",
+   "link": "https://www.mining-technology.com/news/riversgold-mine-plan-kalgoorlie-gold-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T12:54:52.000Z",
+   "summary": "Riversgold has filed a mine development and closure proposal (MDCP) for the Northern Zone open pit at its Kalgoorlie Gold Project with the Western Australian Department of Mines, Petroleum and Exploration.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-1Oct26-shutterstock_2758900711.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "title": "ACDC Metals gains BLM permits for Mount Jackson drill campaign",
+   "link": "https://www.mining-technology.com/news/acdc-metals-blm-mount-jackson-drill/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T12:44:52.000Z",
+   "summary": "ACDC Metals has obtained environmental permitting approval from the US Bureau of Land Management (BLM) to conduct a maiden drilling campaign and geophysical survey at the Mount Jackson Gold-Silver Project in Nevada, US.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-5-1Oct26-shutterstock_2546222953-2.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "title": "Space miners may face an Earth-sized tax problem",
+   "link": "https://www.mining.com/space-miners-may-face-an-earth-sized-tax-problem/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T12:00:00.000Z",
+   "summary": "A proposed global tax system would share space-mining wealth while shielding early projects from crippling costs and volatility.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "DPM’s Vareš mine keeps running as concession faces review",
+   "link": "https://www.mining.com/dpms-vares-mine-keeps-running-as-concession-faces-review/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T10:49:00.000Z",
+   "summary": "Bosnian authorities have six months to review disputed land agreements, leaving mining investment facing legal scrutiny.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "title": "Lynas agrees to buy Meteoric Resources in $674m all-share deal",
+   "link": "https://www.mining-technology.com/news/lynas-to-buy-meteoric-resources-674m/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-01T10:09:03.000Z",
+   "summary": "Australian company Lynas Rare Earths has signed a binding scheme implementation deed (SID) to acquire all shares in Meteoric Resources through a court-approved scheme of arrangement valued at approximately A$968m ($674m).",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-1Oct26-shutterstock_1902037270-1.jpg",
+   "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Solar, wind and tidal for renewable fuels: what the research says",
    "link": "https://www.mining-technology.com/news/solar-wind-tidal-renewable-fuels/",
    "via": "",
@@ -857,11 +1434,71 @@
    "summary": "This episode of Energy Technology considers research into renewable energy for low-carbon fuel production pathways.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Article-and-Youtube-thumbnail-template-9.png",
    "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "title": "Texas startup awarded DoD contract for scandium recovery",
+   "link": "https://www.mining.com/texas-startup-awarded-dod-contract-for-scandium-recovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T23:40:16.000Z",
+   "summary": "The contract, Supra said, will bolster its recovery of rare earth elements from North American industrial byproducts.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ]
+  },
+  {
+   "title": "US DOE awards $29.5M for 17 National Lab mining tech projects",
+   "link": "https://www.mining.com/us-doe-awards-29-5m-for-17-national-lab-mining-tech-projects/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T22:10:50.000Z",
+   "summary": "Projects are focused on moving next-generation mining, extraction, and processing technologies from the laboratory toward field testing and commercial deployment.",
+   "image": null,
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
    "provinces": [],
    "tags": []
+  },
+  {
+   "title": "Deep Sea Minerals, Westwin partner on US polymetallic nodule processing",
+   "link": "https://www.mining.com/deep-sea-minerals-westwin-partner-on-us-polymetallic-nodule-processing/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T20:29:24.000Z",
+   "summary": "In June, Deep Sea Minerals’ application submitted under the Deep Seabed Hard Mineral Resources Act was deemed compliant by NOAA.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": []
+  },
+  {
+   "title": "Gold Fields halts Windfall work as Quebec permit lapses",
+   "link": "https://www.mining.com/gold-fields-halts-windfall-work-as-quebec-permit-lapses/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T18:02:33.000Z",
+   "summary": "Exploration permit expiration leaves its proposed $1.9 billion gold mine waiting on separate provincial environmental approval.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ]
   }
  ]
 }
