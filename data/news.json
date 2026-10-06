@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T20:34:45.265Z",
+ "updated": "2026-10-06T21:31:53.808Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -180,6 +180,45 @@
    "scope": "International",
    "provinces": [],
    "tags": [
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Discovery silver project clears key Mexico hurdle",
+   "link": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T21:10:17.000Z",
+   "summary": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Zinc"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Canterra grows Newfoundland copper-zinc resource 55% as grades fall",
+   "link": "https://www.northernminer.com/news/canterra-grows-newfoundland-copper-zinc-resource-55-as-grades-fall/1003895475/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T21:05:59.000Z",
+   "summary": "Canterra Minerals (TSXV: CTM; US-OTC: CTMCF) has increased the indicated resource at its Lundberg copper-zinc deposit in Newfoundland by 55%, delivering the “higher-confidence tonnes” it was seeking even as grades...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
     "Nickel"
    ],
    "mining": true,
@@ -188,8 +227,81 @@
    "link": "https://www.northernminer.com/news/inomin-cuts-420-metres-at-lynx-nickel-discovery/1003895493/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-06T18:06:57.000Z",
+   "date": "2026-10-06T21:00:57.000Z",
    "summary": "First-pass drilling at Inomin Mines’ (TSXV: MINE) Lynx block in central British Columbia cut 420 metres of near-surface nickel-magnesium mineralization, marking a second discovery area 10 km south of Beaver....",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Westwin to build $502M nickel refinery in Mississippi",
+   "link": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T20:55:06.000Z",
+   "summary": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals....",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Nuvau sees lower capex for Matagami",
+   "link": "https://www.northernminer.com/news/nuvau-sees-lower-capex-for-matagami/1003895467/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T20:50:24.000Z",
+   "summary": "An upcoming study by Nuvau Minerals (TSXV: NMC) on potentially restarting the historic Matagami base-metal operation in Quebec will extend the project’s mine life while reducing pre-production costs. Nuvau is...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "FC Graphite pushes towards first resource",
+   "link": "https://www.northernminer.com/news/fc-graphite-pushes-towards-first-resource/1003895463/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T20:45:08.000Z",
+   "summary": "First Canadian Graphite (TSXV: FCI; US-OTC: GRAPF) plans to start drilling its Zone 13 discovery at Lac Guéret South in Quebec next month and deliver a first resource estimate early...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "TNM Drill Down: Contango tops silver assays for past month",
+   "link": "https://www.northernminer.com/news/tnm-drill-down-contango-tops-silver-assays-for-past-month/1003895420/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T20:40:55.000Z",
+   "summary": "Canada, the United States and Mexico yielded the best silver results from Aug. 17 to Sept. 15, data compiled by The Northern Miner show. Holes from Contango Silver &#38; Gold...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America"
@@ -392,25 +504,6 @@
    "scope": "International",
    "provinces": [],
    "tags": [
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "title": "Discovery silver project clears key Mexico hurdle",
-   "link": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T15:30:17.000Z",
-   "summary": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
     "Nickel"
    ],
    "mining": true,
@@ -441,26 +534,6 @@
    "image": null,
    "source": "Global Mining Review",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper",
-    "Zinc"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "title": "Canterra grows Newfoundland copper-zinc resource 55% as grades fall",
-   "link": "https://www.northernminer.com/news/canterra-grows-newfoundland-copper-zinc-resource-55-as-grades-fall/1003895475/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T14:48:59.000Z",
-   "summary": "Canterra Minerals (TSXV: CTM; US-OTC: CTMCF) has increased the indicated resource at its Lundberg copper-zinc deposit in Newfoundland by 55%, delivering the “higher-confidence tonnes” it was seeking even as grades...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
   },
   {
    "section": "",
@@ -633,25 +706,6 @@
    "scope": "International",
    "provinces": [],
    "tags": [
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "title": "Westwin to build $502M nickel refinery in Mississippi",
-   "link": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T13:27:06.000Z",
-   "summary": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals....",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
     "Uranium"
    ],
    "mining": true,
@@ -794,40 +848,6 @@
    "tags": [],
    "mining": true,
    "chagaiSecurity": false,
-   "title": "Nuvau sees lower capex for Matagami",
-   "link": "https://www.northernminer.com/news/nuvau-sees-lower-capex-for-matagami/1003895467/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T11:15:24.000Z",
-   "summary": "An upcoming study by Nuvau Minerals (TSXV: NMC) on potentially restarting the historic Matagami base-metal operation in Quebec will extend the project’s mine life while reducing pre-production costs. Nuvau is...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "title": "FC Graphite pushes towards first resource",
-   "link": "https://www.northernminer.com/news/fc-graphite-pushes-towards-first-resource/1003895463/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T11:00:08.000Z",
-   "summary": "First Canadian Graphite (TSXV: FCI; US-OTC: GRAPF) plans to start drilling its Zone 13 discovery at Lac Guéret South in Quebec next month and deliver a first resource estimate early...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
    "title": "Multotec expands manufacturing, assembly &#038; service support in Zambia",
    "link": "https://im-mining.com/2026/10/06/multotec-expands-manufacturing-assembly-service-support-in-zambia/",
    "via": "",
@@ -837,26 +857,6 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "title": "TNM Drill Down: Contango tops silver assays for past month",
-   "link": "https://www.northernminer.com/news/tnm-drill-down-contango-tops-silver-assays-for-past-month/1003895420/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T10:45:55.000Z",
-   "summary": "Canada, the United States and Mexico yielded the best silver results from Aug. 17 to Sept. 15, data compiled by The Northern Miner show. Holes from Contango Silver &#38; Gold...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
   },
   {
    "section": "",
