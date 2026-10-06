@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T07:34:30.753Z",
+ "updated": "2026-10-06T08:35:20.896Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -102,7 +102,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "seen": 30
   },
   {
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 97
+   "seen": 102
   },
   {
    "source": "Pakistan Observer",
@@ -176,12 +176,86 @@
  ],
  "items": [
   {
-   "title": "Capital Limited positions itself as world's leading underground RC drilling contractor with MDU buy",
-   "link": "https://im-mining.com/2026/10/06/capital-limited-positions-itself-as-worlds-leading-underground-rc-drilling-contractor-with-mdu-buy/",
+   "title": "Advanced Navigation selects Huntsville to build navigation technology for America’s largest mines",
+   "link": "https://www.globalminingreview.com/mining/06102026/advanced-navigation-selects-huntsville-to-build-navigation-technology-for-americas-largest-mines/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-06T07:25:30.000Z",
-   "summary": "Capital Limited, a leading mining services company, has completed the acquisition of Metres Down Under (MDU), a leading specialist underground drilling company headquartered in Kalgoorlie-Boulder, Western Australia. The transaction...",
+   "date": "2026-10-06T09:00:00.000Z",
+   "summary": "Advanced Navigation America, the US arm of global robotics company Advanced Navigation, is expanding manufacturing in Huntsville, Alabama, to scale high-precision navigation technology designed to keep mining equipment positioned and...",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Barrick secures 15-year licence renewal for Tanzania’s North Mara",
+   "link": "https://www.mining-technology.com/news/barrick-licence-renewal-north-mara/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T08:19:49.000Z",
+   "summary": "Barrick Mining has received a 15-year renewal of the Special Mining Licences from the Tanzanian Government for its North Mara Gold Mine located in the Tarime district of the Mara region.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-1-6Oct26-shutterstock_2550280005.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Latest Lithium Ridge drilling highlights upside potential",
+   "link": "https://www.miningweekly.com/article/latest-lithium-ridge-drilling-highlights-upside-potential-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T08:13:00.000Z",
+   "summary": "London-listed and Namibia-focused Andrada Mining, a tin producer with a portfolio of critical minerals mining and exploration assets in Namibia, has announced more assay results from its Lithium Ridge project, which show high-grade lithium...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Glencore Technology makes Jameson Cell coarse particle recovery breakthrough with Antapaccay test work",
+   "link": "https://im-mining.com/2026/10/06/glencore-technology-makes-jameson-cell-coarse-particle-recovery-breakthrough-with-antapaccay-test-work/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T08:03:08.000Z",
+   "summary": "Glencore Technology has successfully demonstrated a new application for the Jameson Cell, with test work at Antapaccay's Tintaya Concentrator in Peru showing the potential to recover coarse copper-bearing particles from flotation tailings...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Specim launches new high-performance VNIR hyperspectral camera",
+   "link": "https://im-mining.com/2026/10/06/specim-launches-new-high-performance-vnir-hyperspectral-camera/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T07:52:36.000Z",
+   "summary": "Specim, a Konica Minolta company and global leader in hyperspectral imaging, has announced the launch of the Specim SX10, a new high-performance VNIR hyperspectral camera. As the second camera in the Specim SX series, the SX10 brings...",
    "image": null,
    "source": "International Mining",
    "section": "",
@@ -193,6 +267,103 @@
    "chagaiSecurity": false
   },
   {
+   "title": "Alurion confirms direct road haul viability for Amargosa bauxite shipments",
+   "link": "https://www.miningweekly.com/article/alurion-confirms-direct-road-haul-viability-for-amargosa-bauxite-shipments-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T07:46:00.000Z",
+   "summary": "ASX-listed Brazilian Rare Earths' spinoff company Alurion Resources has published an independent study that strengthens the Brazil-based Amargosa bauxite project's road-to-port export chain, supporting haulage rates up to 11.5-million...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Investment firm Heeney celebrates return of aluminium shipments from Venezuela to US",
+   "link": "https://www.miningweekly.com/article/investment-firm-heeney-celebrates-return-of-aluminium-shipments-from-venezuela-to-us-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T07:39:00.000Z",
+   "summary": "US investment firm Heeney Capital has celebrated the arrival and unloading of the first shipment of primary aluminium to the US from Venezuela in nearly a decade. The 15 000-t shipment arrived at the Port of Avondale in New Orleans,...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Capital Limited positions itself as world's leading underground RC drilling contractor with MDU buy",
+   "link": "https://im-mining.com/2026/10/06/capital-limited-positions-itself-as-worlds-leading-underground-rc-drilling-contractor-with-mdu-buy/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T07:25:30.000Z",
+   "summary": "Capital Limited, a leading mining services company, has completed the acquisition of Metres Down Under (MDU), a leading specialist underground drilling company headquartered in Kalgoorlie-Boulder, Western Australia. The transaction...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global"
+  },
+  {
+   "title": "Three-way merger between Special Project Delivery, Mobix Labs, Winner Water secures rare earths ...",
+   "link": "https://www.miningweekly.com/article/three-way-merger-between-special-project-delivery-mobix-labs-winner-water-secures-rare-earths-supply-chain-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T07:25:00.000Z",
+   "summary": "California-based supply chain builder Special Project Delivery (SPD) has entered into a definitive business combination agreement with a US-based rare earths company called Winner Water Services. SPD plans to have Winner Water join the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Tsingshan's Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
+   "link": "https://www.miningweekly.com/article/tsingshans-zimbabwe-steel-unit-partners-with-state-rail-firm-to-boost-haulage-capacity-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T07:23:00.000Z",
+   "summary": "The Zimbabwean steelmaking unit of Chinese metals giant Tsingshan Holding Group on Monday signed a partnership deal with the National Railways of Zimbabwe (NRZ) to expand capacity for coal and steel haulage, the state logistics company...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Norway's Norsk Hydro sees up to $210m hit from gas supply disruption at Alunorte",
    "link": "https://www.miningweekly.com/article/norways-norsk-hydro-sees-up-to-210m-hit-from-gas-supply-disruption-at-alunorte-2026-10-06",
    "via": "",
@@ -201,15 +372,17 @@
    "summary": "Norsk Hydro said on Monday it could take a financial hit of up to $210-million as it continues to buy gas at spot-market prices following disruptions to natural gas deliveries at its Alunorte refinery in Brazil. The Norwegian company...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Westwin Elements to invest $502m in Mississippi nickel refinery",
    "link": "https://www.miningweekly.com/article/westwin-elements-to-invest-502m-in-mississippi-nickel-refinery-2026-10-06",
    "via": "",
@@ -218,17 +391,15 @@
    "summary": "Westwin Elements said on Monday it plans to invest $502-million over five years to build a commercial-scale Class 1 nickel refinery in Natchez, Mississippi, as the US seeks to expand domestic processing of critical minerals. The company...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Vance says details of proposed Alaska LNG pipeline need to be worked out",
    "link": "https://www.miningweekly.com/article/vance-says-details-of-proposed-alaska-lng-pipeline-need-to-be-worked-out-2026-10-06",
    "via": "",
@@ -237,15 +408,17 @@
    "summary": "US Vice President JD Vance said on Monday that a long-planned liquefied natural gas (LNG) pipeline in Alaska was going to happen, but there were still some details that needed to be worked out with South Korea. Last week, US President...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Zinc"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "China turns on the export taps as LME zinc squeeze grinds on",
    "link": "https://www.miningweekly.com/article/china-turns-on-the-export-taps-as-lme-zinc-squeeze-grinds-on-2026-10-06",
    "via": "",
@@ -254,15 +427,7 @@
    "summary": "China has historically been a significant net importer of refined zinc, but that looks set to change this year. Exports surged to 40 668 tons in August, the second-highest monthly tally in almost 20 years, according to the World Bureau of...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Zinc"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
