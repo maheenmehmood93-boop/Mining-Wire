@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T10:34:16.192Z",
+ "updated": "2026-10-06T11:33:06.104Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -102,7 +102,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "seen": 30
   },
   {
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 112
+   "seen": 122
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +176,173 @@
  ],
  "items": [
   {
+   "title": "Jameson Cell Innovation opens new opportunities for recovery of coarse material from tailings share",
+   "link": "https://www.globalminingreview.com/mining/06102026/jameson-cell-innovation-opens-new-opportunities-for-recovery-of-coarse-material-from-tailings-share/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:00:00.000Z",
+   "summary": "Glencore Technology has successfully demonstrated a new application for the Jameson Cell.",
+   "image": null,
+   "source": "Global Mining Review",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Atlantic Nickel record production as underground transition advances",
+   "link": "https://im-mining.com/2026/10/06/atlantic-nickel-record-production-as-underground-transition-advances/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T11:31:36.000Z",
+   "summary": "Atlantic Nickel and Appian Capital Advisory Ltd have announced a record monthly performance at the company's Santa Rita nickel sulphide mine located in Bahia, Brazil. In August, Santa Rita produced a record 12,464 t of nickel concentrate...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Advanced Navigation opens US manufacturing to scale tech for GPS-denied mines",
+   "link": "https://im-mining.com/2026/10/06/advanced-navigation-opens-us-manufacturing-to-scale-tech-for-gps-denied-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T11:20:18.000Z",
+   "summary": "In mining, every decision impacts safety, efficiency, and continuous production. Yet across the industry, some underground and surface operations remain tethered to vulnerable, legacy navigation infrastructure - relying on easily disrupted...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Nuvau sees lower capex for Matagami",
+   "link": "https://www.northernminer.com/news/nuvau-sees-lower-capex-for-matagami/1003895467/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T11:15:24.000Z",
+   "summary": "An upcoming study by Nuvau Minerals (TSXV: NMC) on potentially restarting the historic Matagami base-metal operation in Quebec will extend the project’s mine life while reducing pre-production costs. Nuvau is...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "FC Graphite pushes towards first resource",
+   "link": "https://www.northernminer.com/news/fc-graphite-pushes-towards-first-resource/1003895463/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T11:00:08.000Z",
+   "summary": "First Canadian Graphite (TSXV: FCI; US-OTC: GRAPF) plans to start drilling its Zone 13 discovery at Lac Guéret South in Quebec next month and deliver a first resource estimate early...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Multotec expands manufacturing, assembly &#038; service support in Zambia",
+   "link": "https://im-mining.com/2026/10/06/multotec-expands-manufacturing-assembly-service-support-in-zambia/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:56:46.000Z",
+   "summary": "Multotec Zambia is marking its 25th anniversary in 2026 with the opening of a new facility which serve as the Central Africa Regional Head Office, reinforcing its long-standing commitment to the country and the region’s mining industry....",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "TNM Drill Down: Contango tops silver assays for past month",
+   "link": "https://www.northernminer.com/news/tnm-drill-down-contango-tops-silver-assays-for-past-month/1003895420/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:45:55.000Z",
+   "summary": "Canada, the United States and Mexico yielded the best silver results from Aug. 17 to Sept. 15, data compiled by The Northern Miner show. Holes from Contango Silver &#38; Gold...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Electric E-Air compressors up productivity in Mexican silver &#038; gold mines",
+   "link": "https://im-mining.com/2026/10/06/electric-e-air-compressors-up-productivity-in-mexican-silver-gold-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:43:40.000Z",
+   "summary": "Minera Saucito, one of Mexico’s most productive silver and gold mines and part of Fresnillo PLC, improved its productivity by adopting more efficient electric air compressors with lower operating costs. As part of its modernisation...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Stalwart Cutifani joins intelligence firm Horizon Engage advisory board",
+   "link": "https://www.miningweekly.com/article/stalwart-cutifani-joins-intelligence-firm-horizon-engage-advisory-board-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:40:00.000Z",
+   "summary": "Mining veteran Mark Cutifani has joined the board of strategic intelligence and geopolitical risk analysis firm Horizon Engage in an advisory capacity. With an unparalleled career spanning four decades in the global mining industry,...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Supply chain shifts are reshaping Australia’s manganese sector",
    "link": "https://www.mining-technology.com/comment/supply-chain-shifts-are-reshaping-australias-manganese-sector/",
    "via": "",
@@ -184,15 +351,32 @@
    "summary": "Australia has the manganese resources to expand supply, but shifting trade policies are changing the sector’s outlook.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_608995577.jpg",
    "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
+   "title": "Eskom to facilitate construction of more data centres in South Africa, Ramokgopa tells Windaba ...",
+   "link": "https://www.miningweekly.com/article/eskom-to-facilitate-construction-of-more-data-centres-in-south-africa-ramokgopa-tells-windaba-delegates-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:25:00.000Z",
+   "summary": "Power utility Eskom will soon make a major announcement about facilitating the construction of data centres in South Africa. This was announced by Electricity and Energy Minister Dr Kgosientsho Ramokgopa in his keynote address to the...",
+   "image": null,
+   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
    "chagaiSecurity": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Abu Dhabi firm makes offer to acquire African titanium minerals miner",
    "link": "https://www.miningweekly.com/article/abu-dhabi-firm-makes-offer-to-acquire-african-titanium-minerals-miner-2026-10-06",
    "via": "",
@@ -201,15 +385,17 @@
    "summary": "London-listed Kenmare Resources has informed shareholders that it has received a nonbinding proposal from Abu Dhabi-based International Resources Holdings (IRH) regarding a possible cash offer for the entire issued and to be issued share...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "EBRD provides up to $62m for greener Bulgarian copper mining",
    "link": "https://www.mining-technology.com/news/ebrd-62m-bulgarian-copper-mining/",
    "via": "",
@@ -218,17 +404,15 @@
    "summary": "The European Bank for Reconstruction and Development (EBRD) has agreed to lend up to €55m ($61.6m) to Asarel Medet, a copper producer operating in Bulgaria, to fund the modernisation and decarbonisation of its mining activities.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-6Oct26-shutterstock_2546222931.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Hydrogen producer Lhyfe signs latest MoU with biomethanol producer in Netherlands",
    "link": "https://www.miningweekly.com/article/hydrogen-producer-lhyfe-signs-latest-mou-with-biomethanol-producer-in-netherlands-2026-10-06",
    "via": "",
@@ -237,15 +421,15 @@
    "summary": "Green hydrogen producer Lhyfe's Netherlands subsidiary has signed a memorandum of understanding (MoU) with renewable raw materials producer Pioneer Next to explore the potential long-term supply of renewable hydrogen to Perpetual Next’s...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Australia's EQ Resources delivers meaningful Q1 tungsten output, revenue increase",
    "link": "https://www.miningweekly.com/article/australias-eq-resources-delivers-meaningful-q1-tungsten-output-revenue-increase-2026-10-06",
    "via": "",
@@ -254,15 +438,17 @@
    "summary": "ASX-listed tungsten producer EQ Resources has posted meaningful quarterly production increases at both its Barruecopardo and Mt Carbine operations, in Spain and Australia, respectively. In the three months ended September 30, tungsten...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Fulcrum Metals heading for pilot testing of Extrakt's non-cyanide gold recovery process",
    "link": "https://im-mining.com/2026/10/06/fulcrum-metals-heading-for-pilot-testing-of-extrakts-non-cyanide-gold-recovery-process/",
    "via": "",
@@ -271,17 +457,15 @@
    "summary": "Fulcrum Metals plc says it has secured the site for its standalone, multi-project pilot facility in Mississauga, Ontario, and signed a Pilot Scale Demonstration Agreement with Extrakt Process Solutions LLC and Test Design Implement...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Protecting mining’s hydraulic backbone to keep operations moving",
    "link": "https://www.mining-technology.com/sponsored/protecting-minings-hydraulic-backbone-to-keep-operations-moving/",
    "via": "",
@@ -290,15 +474,18 @@
    "summary": "Protecting hydraulics in mining machinery help prevent avoidable downtime, repairs and safety issues. Learn more here:",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_1344150749.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Barrick completes latest participatory environmental monitoring at Pueblo Viejo",
    "link": "https://www.miningweekly.com/article/barrick-completes-latest-participatory-environmental-monitoring-at-pueblo-viejo-2026-10-06",
    "via": "",
@@ -307,16 +494,7 @@
    "summary": "Global gold and copper miner Barrick Mining Corporation has completed its fifty-ninth Participatory Environmental Monitoring exercise at the Pueblo Viejo gold mine, in the Dominican Republic. This marks more than a decade of quarterly...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
