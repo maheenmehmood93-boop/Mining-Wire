@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T12:40:05.326Z",
+ "updated": "2026-10-06T13:35:21.331Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -108,8 +108,9 @@
   {
    "source": "Daily Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "Geo News",
@@ -123,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 131
+   "seen": 135
   },
   {
    "source": "Pakistan Observer",
@@ -175,6 +176,48 @@
  ],
  "items": [
   {
+   "title": "Atomic Eagle reports strong uranium recoveries from Muntanga East",
+   "link": "https://www.miningweekly.com/article/atomic-eagle-reports-strong-uranium-recoveries-from-muntanga-east-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:57:00.000Z",
+   "summary": "ASX-listed uranium exploration and development company Atomic Eagle has achieved uranium recoveries of between 81% and 86% from metallurgical test work on diamond drill core from its newly discovered Muntanga East deposit, in Zambia. The...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "World Bank urges Guinea to use iron-ore to diversify economy",
+   "link": "https://www.miningweekly.com/article/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:46:00.000Z",
+   "summary": "The World Bank has urged Guinea to use the revenues from the exploitation of the largest iron-ore reserve on earth to diversify and build a stronger economy. “The question we must ask ourselves is not just how much ore Guinea will export,...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "North Korea warns of stronger action toward South Korea over mine blast accusations",
    "link": "https://www.brecorder.com/news/40442912/north-korea-warns-of-stronger-action-toward-south-korea-over-mine-blast-accusations",
    "via": "",
@@ -183,9 +226,20 @@
    "summary": "SEOUL: North Korea’s Foreign Ministry rejected Tuesday’s blame from South Korea for a border landmine blast and threatened its neighbour with “immediate and powerful counteraction” for any violation of territory. The comments came a day...",
    "image": "https://i.brecorder.com/large/2026/10/06173136e644f7f.webp",
    "source": "Business Recorder",
+   "region": "Pakistan"
+  },
+  {
+   "title": "Askari completes district-scale soil programme to define new Uis priority targets",
+   "link": "https://www.miningweekly.com/article/askari-completes-district-scale-soil-programme-to-define-new-uis-priority-targets-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:18:00.000Z",
+   "summary": "ASX-listed Askari Metals has completed a project-wide soil geochemical sampling campaign across an exclusive prospecting licence (EPL) at its Uis project in the Erongo region of Namibia. The company says the completed survey represents an...",
+   "image": null,
+   "source": "Mining Weekly",
    "section": "",
-   "scope": "National",
-   "region": "Pakistan",
+   "scope": "International",
+   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
