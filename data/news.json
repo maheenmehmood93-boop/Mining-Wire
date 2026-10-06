@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T14:35:00.242Z",
+ "updated": "2026-10-06T15:33:33.900Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 143
+   "seen": 150
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +176,29 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "Critical minerals enter a new era of commercial supply chains",
+   "link": "https://www.globalminingreview.com/special-reports/06102026/critical-minerals-enter-a-new-era-of-commercial-supply-chains/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T16:25:00.000Z",
+   "summary": "BGN Group and Nth Cycle highlight the push to build more integrated metals supply chains",
+   "image": null,
+   "source": "Global Mining Review",
+   "region": "Global"
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Riyadh to host sixth edition of Future Minerals Forum in January 2027",
    "link": "https://www.globalminingreview.com/mining/06102026/riyadh-to-host-sixth-edition-of-future-minerals-forum-in-january-2027/",
    "via": "",
@@ -184,15 +207,54 @@
    "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources (MIM) has announced that the sixth edition of the Future Minerals Forum (FMF) will be held under the patronage of the Custodian of the Two Holy Mosques from 12 – 14 January 2027 in...",
    "image": null,
    "source": "Global Mining Review",
+   "region": "Global"
+  },
+  {
+   "title": "Canterra grows Newfoundland copper-zinc resource 55% as grades fall",
+   "link": "https://www.northernminer.com/news/canterra-grows-newfoundland-copper-zinc-resource-55-as-grades-fall/1003895475/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T14:48:59.000Z",
+   "summary": "Canterra Minerals (TSXV: CTM; US-OTC: CTMCF) has increased the indicated resource at its Lundberg copper-zinc deposit in Newfoundland by 55%, delivering the “higher-confidence tonnes” it was seeking even as grades...",
+   "image": null,
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "North America",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Copper",
+    "Zinc"
+   ],
    "mining": true,
    "chagaiSecurity": false
   },
   {
+   "title": "Discovery silver project clears key Mexico hurdle",
+   "link": "https://www.northernminer.com/news/discovery-silver-project-clears-key-mexico-hurdle/1003895471/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T14:44:17.000Z",
+   "summary": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian miner to advance its Cordero silver project toward...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Multotec expands Zambian manufacturing",
    "link": "https://www.canadianminingjournal.com/news/multotec-expands-zambian-manufacturing/",
    "via": "",
@@ -201,33 +263,36 @@
    "summary": "To celebrate its 25th anniversary, Multotec Zambia is opening a new facility which will serve as its Central Africa Regional Head Office. [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
-   "title": "Critical minerals enter a new era of commercial supply chains",
-   "link": "https://www.globalminingreview.com/special-reports/06102026/critical-minerals-enter-a-new-era-of-commercial-supply-chains/",
+   "title": "Congo launches geological survey in push to unlock mineral potential",
+   "link": "https://www.miningweekly.com/article/congo-launches-geological-survey-in-push-to-unlock-mineral-potential-2026-10-06",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-06T14:19:00.000Z",
-   "summary": "BGN Group and Nth Cycle highlight the push to build more integrated metals supply chains",
+   "date": "2026-10-06T14:30:00.000Z",
+   "summary": "Democratic Republic of Congo has launched a nationwide airborne geological mapping programme aimed at improving knowledge of its vast mineral reserves to reduce exploration risk and attract investment into underexplored regions, its...",
    "image": null,
-   "source": "Global Mining Review",
+   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
    "chagaiSecurity": false
   },
   {
-   "title": "PwC sees opportunities to bolster mining benefits following stronger performance",
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Platinum"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "title": "PwC sees opportunities for mining to bolster benefits following stronger performance",
    "link": "https://www.miningweekly.com/article/pwc-sees-opportunities-to-bolster-mining-benefits-following-stronger-performance-2026-10-06",
    "via": "",
    "viaUrl": "",
@@ -235,18 +300,17 @@
    "summary": "South Africa’s mining sector entered this year on a stronger footing, underpinned by higher platinum group metals (PGM) and gold prices, improved mineral reserve positions and growing interest in critical minerals, professional services...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Platinum"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Iron ore"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Saldanha Iron Ore Terminal undergoes scheduled maintenance programme",
    "link": "https://www.miningweekly.com/article/saldanha-iron-ore-terminal-undergoes-scheduled-maintenance-programme-2026-10-06",
    "via": "",
@@ -255,17 +319,15 @@
    "summary": "State-owned freight transport and logistics company Transnet has announced that the Saldanha Iron Ore Terminal (IOT) has begun its yearly maintenance shutdown, which will run for 16 days from October 6 to 21. As part of its ‘Reinvent for...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Iron ore"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Komatsu marks 25 years of manufacturing at South Carolina facility",
    "link": "https://www.canadianminingjournal.com/news/komatsu-marks-25-years-of-manufacturing-at-south-carolina-facility/",
    "via": "",
@@ -274,13 +336,7 @@
    "summary": "Employees, partners and community members gathered on Friday at Komatsu’s (OTC: KMTUY) Newberry Manufacturing Operation (NMO) in South Carolina to celebrate 25 [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
    "section": "",
@@ -1360,6 +1416,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Sponsored: Riverside readies Mexico spinout, keeps royalties",
    "link": "https://www.canadianminingjournal.com/news/sponsored-riverside-readies-mexico-spinout-keeps-royalties/",
    "via": "",
@@ -1368,13 +1430,7 @@
    "summary": "Riverside Resources President and CEO John-Mark Staude and Vice-President for Exploration for Ravina Resources Julian Manco in conversation with The Northern Miner [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
    "section": "",
@@ -3875,25 +3931,6 @@
    "image": null,
    "source": "Daily Pakistan",
    "region": "Pakistan"
-  },
-  {
-   "section": "Chagai search",
-   "scope": "National",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true,
-   "title": "Security forces kill 21 Indian-sponsored militants in Balochistan",
-   "link": "https://thefrontierpost.com/security-forces-kill-21-indian-sponsored-militants-in-balochistan/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-01T14:49:44.000Z",
-   "summary": "F.P. Report Pakistan's security forces killed 21 militants in separate clashes in Balochistan, the military said on Tuesday. The militants were killed during operations in Nokcha in Chagai district and Ziarat Cross in Pishin district...",
-   "image": null,
-   "source": "The Frontier Post",
-   "region": "Peshawar"
   }
  ]
 }
