@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T09:35:26.831Z",
+ "updated": "2026-10-06T10:34:16.192Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -123,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 107
+   "seen": 112
   },
   {
    "source": "Pakistan Observer",
@@ -168,11 +169,155 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   }
  ],
  "items": [
+  {
+   "title": "Supply chain shifts are reshaping Australia’s manganese sector",
+   "link": "https://www.mining-technology.com/comment/supply-chain-shifts-are-reshaping-australias-manganese-sector/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:32:22.000Z",
+   "summary": "Australia has the manganese resources to expand supply, but shifting trade policies are changing the sector’s outlook.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_608995577.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Abu Dhabi firm makes offer to acquire African titanium minerals miner",
+   "link": "https://www.miningweekly.com/article/abu-dhabi-firm-makes-offer-to-acquire-african-titanium-minerals-miner-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:06:00.000Z",
+   "summary": "London-listed Kenmare Resources has informed shareholders that it has received a nonbinding proposal from Abu Dhabi-based International Resources Holdings (IRH) regarding a possible cash offer for the entire issued and to be issued share...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "EBRD provides up to $62m for greener Bulgarian copper mining",
+   "link": "https://www.mining-technology.com/news/ebrd-62m-bulgarian-copper-mining/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:02:21.000Z",
+   "summary": "The European Bank for Reconstruction and Development (EBRD) has agreed to lend up to €55m ($61.6m) to Asarel Medet, a copper producer operating in Bulgaria, to fund the modernisation and decarbonisation of its mining activities.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-6Oct26-shutterstock_2546222931.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Hydrogen producer Lhyfe signs latest MoU with biomethanol producer in Netherlands",
+   "link": "https://www.miningweekly.com/article/hydrogen-producer-lhyfe-signs-latest-mou-with-biomethanol-producer-in-netherlands-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T09:50:00.000Z",
+   "summary": "Green hydrogen producer Lhyfe's Netherlands subsidiary has signed a memorandum of understanding (MoU) with renewable raw materials producer Pioneer Next to explore the potential long-term supply of renewable hydrogen to Perpetual Next’s...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Australia's EQ Resources delivers meaningful Q1 tungsten output, revenue increase",
+   "link": "https://www.miningweekly.com/article/australias-eq-resources-delivers-meaningful-q1-tungsten-output-revenue-increase-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T09:29:00.000Z",
+   "summary": "ASX-listed tungsten producer EQ Resources has posted meaningful quarterly production increases at both its Barruecopardo and Mt Carbine operations, in Spain and Australia, respectively. In the three months ended September 30, tungsten...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Fulcrum Metals heading for pilot testing of Extrakt's non-cyanide gold recovery process",
+   "link": "https://im-mining.com/2026/10/06/fulcrum-metals-heading-for-pilot-testing-of-extrakts-non-cyanide-gold-recovery-process/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T09:26:16.000Z",
+   "summary": "Fulcrum Metals plc says it has secured the site for its standalone, multi-project pilot facility in Mississauga, Ontario, and signed a Pilot Scale Demonstration Agreement with Extrakt Process Solutions LLC and Test Design Implement...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Protecting mining’s hydraulic backbone to keep operations moving",
+   "link": "https://www.mining-technology.com/sponsored/protecting-minings-hydraulic-backbone-to-keep-operations-moving/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T09:24:52.000Z",
+   "summary": "Protecting hydraulics in mining machinery help prevent avoidable downtime, repairs and safety issues. Learn more here:",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_1344150749.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Barrick completes latest participatory environmental monitoring at Pueblo Viejo",
+   "link": "https://www.miningweekly.com/article/barrick-completes-latest-participatory-environmental-monitoring-at-pueblo-viejo-2026-10-06",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T09:16:00.000Z",
+   "summary": "Global gold and copper miner Barrick Mining Corporation has completed its fifty-ninth Participatory Environmental Monitoring exercise at the Pueblo Viejo gold mine, in the Dominican Republic. This marks more than a decade of quarterly...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -191,6 +336,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Gemcorp joins Madagascar to raise $5bn for energy, mining",
    "link": "https://www.miningweekly.com/article/gemcorp-joins-madagascar-to-raise-5bn-for-energy-mining-2026-10-06",
    "via": "",
@@ -199,15 +350,17 @@
    "summary": "Madagascar wants to raise as much as $5-billion by teaming up with asset manager Gemcorp Capital Management to fund energy, infrastructure and mining projects in the island nation. The partnership was unveiled late last month as a key...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Critical Metals Corporation approved to operate Tanbreez through 2050",
    "link": "https://www.miningweekly.com/article/critical-metals-corporation-approved-to-operate-tanbreez-through-2050-2026-10-06",
    "via": "",
@@ -216,17 +369,17 @@
    "summary": "The government of Greenland has formally approved Nasdaq-listed Critical Metals Corporation's Mining Plan and Closure Plan for the Tanbreez rare earths project, with the approval being valid through 2050. The company now has a clear,...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "CleanTech validates Laguna Verde process flowsheet ahead of DFS",
    "link": "https://www.miningweekly.com/article/cleantech-validates-laguna-verde-process-flowsheet-ahead-of-dfs-2026-10-06",
    "via": "",
@@ -235,17 +388,15 @@
    "summary": "Aim-listed CleanTech Lithium has validated the process envisioned by the Laguna Verde prefeasibility study (PFS) to produce high-purity lithium carbonate. The company conducted a comprehensive technical programme to optimise and refine the...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Greenland approves Tanbreez mine plans through 2050",
    "link": "https://www.mining-technology.com/news/greenland-tanbreez-mine-plans-2050/",
    "via": "",
@@ -254,15 +405,15 @@
    "summary": "Critical Metals has secured formal approval from the Government of Greenland for the Mining Plan and Closure Plan at its Tanbreez project in Southern Greenland.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-2-6Oct26-shutterstock_2510066403-6.jpg",
    "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Capital enters Australian market, raises revenue guidance",
    "link": "https://www.miningweekly.com/article/capital-enters-australian-market-raises-revenue-guidance-2026-10-06",
    "via": "",
@@ -271,13 +422,7 @@
    "summary": "London-listed mining services group Capital has completed the acquisition of 100% of the share capital of Metres Down Under (MDU), a specialist underground drilling company headquartered in Kalgoorlie-Boulder, in Western Australia. Capital...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -337,6 +482,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Greenland Mines increases ownership in anorthosite producer AnorTech to 19.9%",
    "link": "https://www.miningweekly.com/article/greenland-mines-increases-ownership-in-anorthosite-producer-anortech-to-199-2026-10-06",
    "via": "",
@@ -345,13 +496,7 @@
    "summary": "Nasdaq- and Frankfurt-listed Greenland Mines has exercised in full its option to acquire an additional 9.9% stake in Canadian anorthosite producer AnorTech, which owns the Gronne Bjerg project, in Greenland, taking its ownership take to...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -2489,7 +2634,7 @@
    "via": "",
    "viaUrl": "",
    "date": "2026-10-02T09:00:00.000Z",
-   "summary": "Thiess have secured a two-year, AUS$170 million contract extension with Emerald Resources at the Okvau Gold Mine in Cambodia, through our operating company MACA.",
+   "summary": "Thiess have secured a two-year, AUS$170 million contract extension with Emerald Resources at the Okvau Gold Mine in Cambodia, through its operating company MACA.",
    "image": null,
    "source": "Global Mining Review",
    "region": "Global"
