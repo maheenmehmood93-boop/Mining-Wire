@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T19:32:44.836Z",
+ "updated": "2026-10-06T20:34:45.265Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 89
+   "seen": 90
   },
   {
    "source": "Pakistan Observer",
@@ -463,6 +463,14 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Canterra grows Newfoundland copper resource 55% as grades fall",
    "link": "https://www.mining.com/canterra-grows-newfoundland-copper-resource-55-as-grades-fall/",
    "via": "",
@@ -471,15 +479,7 @@
    "summary": "The Lundberg expansion follows almost 4,800 metres of drilling by Canterra since it acquired Buchans in 2024.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
    "section": "",
