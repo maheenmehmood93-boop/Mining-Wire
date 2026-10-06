@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T18:37:45.528Z",
+ "updated": "2026-10-06T19:32:44.836Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -123,8 +123,8 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 1,
-   "seen": 162
+   "items": 0,
+   "seen": 89
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +176,14 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Inomin cuts 420 metres at Lynx nickel discovery",
    "link": "https://www.northernminer.com/news/inomin-cuts-420-metres-at-lynx-nickel-discovery/1003895493/",
    "via": "",
@@ -184,17 +192,17 @@
    "summary": "First-pass drilling at Inomin Mines’ (TSXV: MINE) Lynx block in central British Columbia cut 420 metres of near-surface nickel-magnesium mineralization, marking a second discovery area 10 km south of Beaver....",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Beaver Creek video: Gold gains new role vs bonds",
    "link": "https://www.mining.com/beaver-creek-video-gold-gains-new-role-vs-bonds/",
    "via": "",
@@ -203,17 +211,15 @@
    "summary": "Gold’s growing role as a monetary alternative to government bonds and the U.S. dollar could mark a structural shift rather than another [...]",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "TowHaul breaks ground on Montana facility expansion",
    "link": "https://www.canadianminingjournal.com/news/towhaul-breaks-ground-on-montana-facility-expansion/",
    "via": "",
@@ -222,15 +228,15 @@
    "summary": "TowHaul, a subsidiary of Federal Signal Corp and Ground Force Worldwide, says it will break ground this week on a 1672 sq. [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Beaver Creek: Mining’s next generation takes the wheel",
    "link": "https://www.mining.com/beaver-creek-minings-next-generation-takes-the-wheel/",
    "via": "",
@@ -239,13 +245,7 @@
    "summary": "Mining is entering a generational handover as veteran founders and dealmakers begin stepping back.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
    "section": "",
@@ -267,6 +267,12 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Sponsored: Adyton grows PNG resource as Wapolu restart nears",
    "link": "https://www.canadianminingjournal.com/news/sponsored-adyton-grows-png-resource-as-wapolu-restart-nears/",
    "via": "",
@@ -275,15 +281,15 @@
    "summary": "Adyton Resources MD Tim Crossley in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Sponsored: Power Metallic puts Lion to economic test",
    "link": "https://www.canadianminingjournal.com/news/sponsored-power-metallic-puts-lion-to-economic-test/",
    "via": "",
@@ -292,15 +298,17 @@
    "summary": "Power Metallic Mines CEO Terry Lynch in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Westwin Elements to build $502M nickel refinery in Mississippi",
    "link": "https://www.canadianminingjournal.com/news/westwin-elements-to-build-502m-nickel-refinery-in-mississippi/",
    "via": "",
@@ -309,15 +317,7 @@
    "summary": "Company has completed a bankable feasibility study for the Natchez site.",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
    "section": "",
@@ -354,6 +354,12 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Greenland Mines authorizes $20M share buyback",
    "link": "https://www.mining.com/greenland-mines-authorizes-20m-share-buyback/",
    "via": "",
@@ -362,13 +368,7 @@
    "summary": "The company can repurchase up to $20 million of its outstanding common stock from time to time through open-market transactions.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
    "section": "",
@@ -463,6 +463,33 @@
    "region": "North America"
   },
   {
+   "title": "Canterra grows Newfoundland copper resource 55% as grades fall",
+   "link": "https://www.mining.com/canterra-grows-newfoundland-copper-resource-55-as-grades-fall/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T14:48:59.000Z",
+   "summary": "The Lundberg expansion follows almost 4,800 metres of drilling by Canterra since it acquired Buchans in 2024.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Discovery silver project clears key Mexico hurdle",
    "link": "https://www.mining.com/discovery-silver-project-clears-key-mexico-hurdle/",
    "via": "",
@@ -471,17 +498,17 @@
    "summary": "Mexico’s environmental department approval completed the project’s federal environmental approval process.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Silver"
    ],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "Discovery silver project clears key Mexico hurdle",
    "link": "https://www.canadianminingjournal.com/news/discovery-silver-project-clears-key-mexico-hurdle/",
    "via": "",
@@ -490,15 +517,7 @@
    "summary": "Discovery Mining (TSX: DSV, US-OTC: DSVSF) said it received two key environmental and land-use permits from the Mexican government, allowing the Canadian [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
    "section": "",
@@ -1774,6 +1793,14 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Cambria targets late 2027 Premier mill restart",
    "link": "https://www.canadianminingjournal.com/news/cambria-targets-late-2027-premier-mill-restart/",
    "via": "",
@@ -1782,15 +1809,7 @@
    "summary": "Cambria Gold Mines (TSXV: CAMB; US-OTC: CAMVF) is targeting another restart of the Premier gold mill in northern British Columbia for late [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "North America"
   },
   {
    "section": "",
