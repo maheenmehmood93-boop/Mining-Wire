@@ -85,6 +85,45 @@ export function isMiningStory(hay) {
   return STRONG_MINING_RE.test(hay) || (WEAK_MINING_RE.test(hay) && MINING_CONTEXT_RE.test(hay));
 }
 
+// Chagai security tab. A story belongs there only when it names a place in
+// Chagai district AND uses a security word, so a headline about Reko Diq
+// financing or a Quetta traffic story never shows up on it.
+const CHAGAI_RE = new RegExp(
+  [
+    "\\b(?:chagai|chaghi|chagi|dalbandin|nokkundi|nok\\s?kundi|taftan|saindak|reko\\s?-?(?:diq|dik)|ras\\s?koh|padag|amuri)\\b",
+    "چاغی|دالبندین|نوکنڈی|تفتان|سیندک|ریکوڈک|راس\\s?کوہ",
+  ].join("|"),
+  "i"
+);
+const SECURITY_RE = new RegExp(
+  [
+    "\\b(?:attacks?|attacked|terror\\w*|militants?|insurgen\\w*|separatists?|gunmen|gunmans?|firing|gunfire|shootout|encounter|ambush\\w*)\\b",
+    "\\b(?:blasts?|explosions?|explosive|bombs?|bombing|ieds?|suicide|landmines?|rockets?|drones?)\\b",
+    "\\b(?:kidnap\\w*|abduct\\w*|hostages?|killed|martyred|shaheed|injured|wounded|casualt\\w*)\\b",
+    "\\b(?:security|frontier corps|levies|police|ctd|ispr|army|military|operation|curfew|section 144|law and order|clash\\w*|protest\\w*|sit-?in|strike|blockade|road blocked|highway blocked)\\b",
+    "\\b(?:iran border|border (?:crossing|closure|closed|clash)|smuggl\\w*)\\b",
+    "دہشت|حملہ|حملے|دھماکہ|دھماکے|شہید|فائرنگ|سیکیورٹی|سکیورٹی|اغوا|مسلح|کرفیو|لیویز|پولیس",
+  ].join("|"),
+  "i"
+);
+const FC_RE = /\bFC\b/; // "FC" in capitals only (Frontier Corps)
+
+export function isChagaiSecurity(hay) {
+  return CHAGAI_RE.test(hay) && (SECURITY_RE.test(hay) || FC_RE.test(hay));
+}
+
+/**
+ * mining: shown in the main mining feed. General newspapers are only "mining"
+ * when the story passes the mining check.
+ * chagaiSecurity: shown on the Chagai security tab.
+ */
+export function classifyStory(hay, filter) {
+  return {
+    mining: filter === "mining" ? isMiningStory(hay) : true,
+    chagaiSecurity: isChagaiSecurity(hay),
+  };
+}
+
 export function findProvinces(hay, hint) {
   const found = new Set(hint ? [hint] : []);
   for (const [name, r] of Object.entries(PROVINCES)) {
@@ -223,12 +262,12 @@ export function parseFeedXml(xml, feed) {
         region: feed.region ?? "",
         provinces: findProvinces(hay, feed.province),
         tags: findCommodities(hay),
-        _relevant: feed.filter === "mining" ? isMiningStory(hay) : true,
+        ...classifyStory(hay, feed.filter),
       };
     })
     .filter((i) => i.title && i.link);
 
-  const items = all.filter((i) => i._relevant).map(({ _relevant, ...rest }) => rest);
+  const items = all.filter((i) => i.mining || i.chagaiSecurity);
   return { items, total: all.length };
 }
 
@@ -262,6 +301,8 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepP
     scope: "International",
     provinces: [],
     tags: [],
+    mining: true,
+    chagaiSecurity: false,
     ...i,
   });
 
@@ -274,7 +315,14 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepP
     byLink.set(
       key,
       old
-        ? { ...old, ...item, provinces: union(old.provinces, item.provinces), tags: union(old.tags, item.tags) }
+        ? {
+            ...old,
+            ...item,
+            provinces: union(old.provinces, item.provinces),
+            tags: union(old.tags, item.tags),
+            mining: old.mining || item.mining,
+            chagaiSecurity: old.chagaiSecurity || item.chagaiSecurity,
+          }
         : item
     );
   }
@@ -326,9 +374,13 @@ async function main() {
   // so a keyword fix also removes stories that were wrongly kept before.
   const miningOnly = new Set(feeds.filter((f) => f.filter === "mining").map((f) => f.name));
   feeds.filter((f) => f.filter !== "mining").forEach((f) => miningOnly.delete(f.name));
-  const keepPrevious = (i) => !miningOnly.has(i.source) || isMiningStory(`${i.title} ${i.summary ?? ""}`);
+  const reviewed = previous.map((i) => ({
+    ...i,
+    ...classifyStory(`${i.title} ${i.summary ?? ""}`, miningOnly.has(i.source) ? "mining" : "none"),
+  }));
+  const keepPrevious = (i) => i.mining || i.chagaiSecurity;
 
-  const items = mergeItems(previous, fresh, new Set(feeds.map((f) => f.name)), Date.now(), keepPrevious);
+  const items = mergeItems(reviewed, fresh, new Set(feeds.map((f) => f.name)), Date.now(), keepPrevious);
 
   if (items.length === 0) {
     console.error("No items collected; leaving existing data file untouched.");
