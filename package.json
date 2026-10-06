@@ -1,0 +1,16 @@
+{
+  "name": "mining-news",
+  "version": "1.0.0",
+  "description": "Free, static mining news aggregator built from publishers' public RSS feeds",
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-news.mjs",
+    "serve": "npx --yes serve ."
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

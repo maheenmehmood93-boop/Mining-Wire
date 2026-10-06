@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mining Wire</title>
+<meta name="description" content="Headlines from established mining publications and Pakistani newspapers, in one place.">
+<style>
+  :root {
+    --bg: #f6f4ef; --surface: #ffffff; --ink: #1d1b16; --muted: #6b665b;
+    --line: #e4dfd3; --accent: #8a5a12; --accent-ink: #ffffff; --chip: #efe9da;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14130f; --surface: #1d1b16; --ink: #ede9dd; --muted: #a29c8c;
+      --line: #2f2c24; --accent: #d9a441; --accent-ink: #14130f; --chip: #2a2720;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Naskh Arabic", sans-serif; }
+  a { color: inherit; }
+  header { padding: 28px 16px 8px; max-width: 980px; margin: 0 auto; }
+  h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.01em; }
+  .sub { color: var(--muted); margin: 4px 0 0; font-size: .9rem; }
+
+  .controls { max-width: 980px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+  .field { display: grid; gap: 6px; }
+  .field > .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .seg { display: flex; gap: 6px; flex-wrap: wrap; }
+  input[type=search] {
+    font: inherit; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; width: 100%;
+    background: var(--surface); color: var(--ink);
+  }
+  .chip { font: inherit; font-size: .85rem; padding: 5px 12px; border-radius: 999px;
+          border: 1px solid var(--line); background: var(--chip); color: var(--ink); cursor: pointer; }
+  .chip .n { opacity: .65; font-size: .78rem; margin-left: 4px; }
+  .chip[aria-pressed=true] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+  .chip.zero:not([aria-pressed=true]) { opacity: .45; }
+  .chip:focus-visible, summary:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .filters-row { display: grid; grid-template-columns: repeat(3, auto); gap: 14px 28px; justify-content: start; }
+  @media (max-width: 720px) { .filters-row { grid-template-columns: 1fr; } }
+
+  details.papers { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+  details.papers summary { cursor: pointer; padding: 9px 14px; font-size: .92rem; list-style-position: inside; }
+  .papers-body { padding: 4px 14px 14px; display: grid; gap: 12px; border-top: 1px solid var(--line); }
+  .papers-actions { display: flex; gap: 6px; padding-top: 10px; }
+  fieldset { border: 0; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 4px 16px; }
+  legend { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding: 0 0 4px; }
+  label.check { display: flex; gap: 8px; align-items: center; font-size: .9rem; cursor: pointer; padding: 2px 0; }
+  label.check .n { margin-left: auto; color: var(--muted); font-size: .8rem; }
+  label.check.zero { color: var(--muted); }
+
+  main { max-width: 980px; margin: 0 auto; padding: 0 16px 48px; }
+  .countbar { display: flex; gap: 12px; align-items: center; margin: 0 0 12px; }
+  .count { color: var(--muted); font-size: .85rem; margin: 0; }
+  .link { font: inherit; font-size: .85rem; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; }
+  .grid { display: grid; gap: 12px; }
+  article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
+            padding: 14px 16px; display: grid; grid-template-columns: 1fr; gap: 6px; }
+  article.has-img { grid-template-columns: 1fr 120px; column-gap: 16px; }
+  article img { width: 120px; height: 84px; object-fit: cover; border-radius: 8px; grid-row: 1 / span 5; grid-column: 2; align-self: start; background: var(--chip); }
+  .meta { font-size: .8rem; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+  .meta b { color: var(--accent); font-weight: 600; }
+  h2 { font-size: 1.05rem; margin: 0; line-height: 1.3; }
+  h2 a { text-decoration: none; }
+  h2 a:hover { text-decoration: underline; }
+  p.excerpt { margin: 0; color: var(--muted); font-size: .92rem; }
+  .tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tag { font-size: .72rem; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+  .tag.prov { background: none; border: 1px solid var(--accent); color: var(--accent); }
+  .srcline { display: flex; gap: 6px; align-items: baseline; font-size: .8rem; color: var(--muted); min-width: 0; }
+  .srcline .srclink { color: var(--accent); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+  .srcline .via { white-space: nowrap; }
+  .srcline .via a { color: inherit; }
+  .empty { padding: 48px 16px; text-align: center; color: var(--muted); }
+  footer { max-width: 980px; margin: 0 auto; padding: 0 16px 40px; color: var(--muted); font-size: .8rem; }
+  footer details { margin-top: 8px; }
+  @media (max-width: 560px) {
+    article.has-img { grid-template-columns: 1fr; }
+    article img { grid-row: auto; grid-column: auto; width: 100%; height: 160px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Mining Wire</h1>
+  <p class="sub" id="updated">Loading…</p>
+</header>
+
+<section class="controls" aria-label="Filters">
+  <input type="search" id="q" placeholder="Search headlines, e.g. lithium, Reko Diq, Chagai, marble" aria-label="Search">
+
+  <div class="filters-row">
+    <div class="field"><span class="lbl">Coverage</span><div class="seg" id="seg-scope" role="group" aria-label="Coverage"></div></div>
+    <div class="field"><span class="lbl">Period</span><div class="seg" id="seg-period" role="group" aria-label="Period"></div></div>
+    <div class="field"><span class="lbl">Province</span><div class="seg" id="seg-province" role="group" aria-label="Province"></div></div>
+  </div>
+
+  <details class="papers" id="papers">
+    <summary id="papersSummary">Newspapers</summary>
+    <div class="papers-body">
+      <div class="papers-actions">
+        <button class="chip" type="button" id="papersAll">Select all</button>
+        <button class="chip" type="button" id="papersNone">Clear</button>
+      </div>
+      <div id="papersList"></div>
+    </div>
+  </details>
+
+  <div class="field"><span class="lbl">Commodity</span><div class="seg" id="seg-commodity" role="group" aria-label="Commodity"></div></div>
+</section>
+
+<main>
+  <div class="countbar">
+    <p class="count" id="count" aria-live="polite"></p>
+    <button class="link" type="button" id="reset" hidden>Reset filters</button>
+  </div>
+  <div class="grid" id="list"></div>
+  <div class="empty" id="empty" hidden></div>
+</main>
+
+<footer>
+  <p>Headlines and short excerpts are shown with a link to the original publisher. All rights remain with the respective publishers. Stories from general newspapers are included only when they are about mining or minerals.</p>
+  <details id="status"><summary>Feed status</summary><ul id="statusList"></ul></details>
+</footer>
+
+<script>
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const DAY = 86400000;
+  const PERIODS = [
+    { value: "all", label: "Any time", ms: Infinity },
+    { value: "24h", label: "Last 24 hours", ms: DAY },
+    { value: "7d", label: "Last 7 days", ms: 7 * DAY },
+    { value: "30d", label: "Last 30 days", ms: 30 * DAY },
+  ];
+  const DEFAULTS = { q: "", scope: "", period: "7d", province: "", commodity: "" };
+
+  const state = { ...DEFAULTS, off: new Set() };
+  let items = [];
+  const segs = [];       // { update(countFn) }
+  const paperRows = [];  // { name, label, input, n }
+
+  const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const safeUrl = (u) => (/^https?:\/\//i.test(u) ? u : "#");
+
+  function ago(iso) {
+    const mins = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+    if (mins < 60) return mins + " min ago";
+    const h = Math.round(mins / 60);
+    if (h < 24) return h + " h ago";
+    const d = Math.round(h / 24);
+    return d + (d === 1 ? " day ago" : " days ago");
+  }
+
+  // Does a story pass the current filters? `o` overrides filter values so the
+  // same function can count "what would I get if I picked this option".
+  function matches(i, o = {}) {
+    const s = { ...state, ...o };
+    if (s.scope && i.scope !== s.scope) return false;
+    const win = PERIODS.find((p) => p.value === s.period).ms;
+    if (Date.now() - i._t > win) return false;
+    if (s.province && !i.provinces.includes(s.province)) return false;
+    if (s.off.has(i.source)) return false;
+    if (s.commodity && !i.tags.includes(s.commodity)) return false;
+    const q = s.q.trim().toLowerCase();
+    if (q && !i._hay.includes(q)) return false;
+    return true;
+  }
+
+  // Row of toggle buttons for one filter. Built once, updated in place so
+  // keyboard focus is not lost when the page re-renders.
+  function makeSeg(el, key, options) {
+    const buttons = options.map((opt) => {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "chip";
+      b.innerHTML = `<span class="t">${esc(opt.label)}</span><span class="n"></span>`;
+      b.onclick = () => { state[key] = opt.value; render(); };
+      el.append(b);
+      return { opt, b, n: b.querySelector(".n") };
+    });
+    segs.push({
+      update() {
+        buttons.forEach(({ opt, b, n }) => {
+          const count = items.filter((i) => matches(i, { [key]: opt.value })).length;
+          n.textContent = count;
+          b.setAttribute("aria-pressed", String(state[key] === opt.value));
+          b.classList.toggle("zero", count === 0);
+        });
+      },
+    });
+  }
+
+  function buildPapers() {
+    const names = new Map(); // source -> scope
+    items.forEach((i) => names.set(i.source, i.scope));
+    ["International", "National"].forEach((scope) => {
+      const group = [...names].filter(([, s]) => s === scope).map(([n]) => n).sort((a, b) => a.localeCompare(b));
+      if (!group.length) return;
+      const fs = document.createElement("fieldset");
+      fs.innerHTML = `<legend>${scope}</legend>`;
+      group.forEach((name) => {
+        const label = document.createElement("label");
+        label.className = "check";
+        label.innerHTML = `<input type="checkbox" checked><span>${esc(name)}</span><span class="n"></span>`;
+        const input = label.querySelector("input");
+        input.onchange = () => { input.checked ? state.off.delete(name) : state.off.add(name); render(); };
+        fs.append(label);
+        paperRows.push({ name, label, input, n: label.querySelector(".n") });
+      });
+      $("papersList").append(fs);
+    });
+    $("papersAll").onclick = () => { state.off.clear(); render(); };
+    $("papersNone").onclick = () => { paperRows.forEach((r) => state.off.add(r.name)); render(); };
+  }
+
+  function updatePapers() {
+    paperRows.forEach((r) => {
+      const count = items.filter((i) => i.source === r.name && matches(i, { off: new Set() })).length;
+      r.n.textContent = count;
+      r.input.checked = !state.off.has(r.name);
+      r.label.classList.toggle("zero", count === 0);
+    });
+    const on = paperRows.length - paperRows.filter((r) => state.off.has(r.name)).length;
+    $("papersSummary").textContent = on === paperRows.length
+      ? "Newspapers: all " + paperRows.length
+      : `Newspapers: ${on} of ${paperRows.length} selected`;
+  }
+
+  // "Source: dawn.com/news/123" link to the original article, plus the original
+  // publisher ("via Reuters") when the feed names one.
+  function sourceLine(i) {
+    if (!/^https?:\/\//i.test(i.link)) return "";
+    let label = i.link;
+    try {
+      const u = new URL(i.link);
+      label = u.hostname.replace(/^www\./, "") + (u.pathname.length > 1 ? u.pathname.replace(/\/$/, "") : "");
+    } catch (e) {}
+    const via = i.via
+      ? `<span class="via">via ${/^https?:\/\//i.test(i.viaUrl || "")
+          ? `<a href="${esc(i.viaUrl)}" target="_blank" rel="noopener noreferrer">${esc(i.via)}</a>`
+          : esc(i.via)}</span>`
+      : "";
+    return `<div class="srcline"><span>Source:</span><a class="srclink" href="${esc(i.link)}" target="_blank" rel="noopener noreferrer" title="${esc(i.link)}">${esc(label)}</a>${via}</div>`;
+  }
+
+  const isDefault = () =>
+    Object.keys(DEFAULTS).every((k) => state[k] === DEFAULTS[k]) && state.off.size === 0;
+
+  function render() {
+    segs.forEach((s) => s.update());
+    updatePapers();
+
+    const rows = items.filter((i) => matches(i));
+    $("count").textContent = rows.length + (rows.length === 1 ? " story" : " stories");
+    $("reset").hidden = isDefault();
+
+    $("list").innerHTML = rows.map((i) => `
+      <article class="${i.image ? "has-img" : ""}">
+        ${i.image ? `<img src="${esc(safeUrl(i.image))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
+        <div class="meta"><b>${esc(i.source)}</b>${i.section ? `<span>${esc(i.section)}</span>` : ""}<span>${esc(ago(i.date))}</span></div>
+        <h2 dir="auto"><a href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
+        ${i.summary ? `<p class="excerpt" dir="auto">${esc(i.summary)}</p>` : ""}
+        ${(i.provinces.length || i.tags.length) ? `<div class="tags">${
+          i.provinces.map((p) => `<span class="tag prov">${esc(p)}</span>`).join("") +
+          i.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
+        ${sourceLine(i)}
+      </article>`).join("");
+
+    $("empty").hidden = rows.length > 0;
+    if (!rows.length) $("empty").textContent = items.length
+      ? "No stories match these filters. Try a longer period or reset the filters."
+      : "No stories yet. The first refresh has not run.";
+  }
+
+  async function init() {
+    let data = { items: [], sources: [] };
+    try {
+      const res = await fetch("data/news.json", { cache: "no-cache" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      data = await res.json();
+    } catch (e) {
+      $("updated").textContent = "Could not load news data.";
+    }
+
+    items = (data.items || []).map((i) => ({
+      ...i,
+      provinces: i.provinces || [],
+      tags: i.tags || [],
+      scope: i.scope || "International",
+      _t: new Date(i.date).getTime(),
+      _hay: (i.title + " " + (i.summary || "")).toLowerCase(),
+    }));
+
+    if (data.updated) {
+      const okSources = new Set((data.sources || []).filter((s) => s.ok).map((s) => s.source));
+      $("updated").textContent = `Updated ${ago(data.updated)} · ${items.length} stories from ${okSources.size} newspapers and sites`;
+    }
+
+    makeSeg($("seg-scope"), "scope", [
+      { value: "", label: "All" }, { value: "International", label: "International" }, { value: "National", label: "National (Pakistan)" },
+    ]);
+    makeSeg($("seg-period"), "period", PERIODS.map((p) => ({ value: p.value, label: p.label })));
+    makeSeg($("seg-province"), "province", [
+      { value: "", label: "All" }, { value: "Balochistan", label: "Balochistan" }, { value: "Khyber Pakhtunkhwa", label: "Khyber Pakhtunkhwa" },
+    ]);
+
+    const counts = {};
+    items.forEach((i) => i.tags.forEach((t) => (counts[t] = (counts[t] || 0) + 1)));
+    makeSeg($("seg-commodity"), "commodity",
+      [{ value: "", label: "All" }, ...Object.keys(counts).sort((a, b) => counts[b] - counts[a]).map((t) => ({ value: t, label: t }))]);
+
+    buildPapers();
+
+    $("statusList").innerHTML = (data.sources || []).map((s) => {
+      const name = esc(s.source) + (s.section ? " (" + esc(s.section) + ")" : "");
+      return `<li>${name}: ${s.ok ? `${s.items} kept of ${s.seen ?? s.items}` : "unavailable (" + esc(s.error) + ")"}</li>`;
+    }).join("");
+
+    $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
+    $("reset").onclick = () => { Object.assign(state, DEFAULTS); state.off.clear(); $("q").value = ""; render(); };
+    render();
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>

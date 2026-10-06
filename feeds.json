@@ -1,0 +1,23 @@
+[
+  { "name": "MINING.COM", "scope": "International", "region": "Global", "url": "https://www.mining.com/feed/", "filter": "none" },
+  { "name": "Mining Technology", "scope": "International", "region": "Global", "url": "https://www.mining-technology.com/feed/", "filter": "none" },
+  { "name": "The Northern Miner", "scope": "International", "region": "North America", "url": "https://www.northernminer.com/feed/", "filter": "none" },
+  { "name": "International Mining", "scope": "International", "region": "Global", "url": "https://im-mining.com/feed/", "filter": "none" },
+  { "name": "Mining Review Africa", "scope": "International", "region": "Africa", "url": "https://www.miningreview.com/feed/", "filter": "none" },
+  { "name": "Mining Journal", "scope": "International", "region": "Global", "url": "https://www.mining-journal.com/rss", "filter": "none" },
+  { "name": "Mining Magazine", "scope": "International", "region": "Global", "url": "https://www.miningmagazine.com/feed/", "filter": "none" },
+
+  { "name": "Dawn", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/pakistan", "filter": "mining" },
+  { "name": "Dawn", "section": "Business", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/business", "filter": "mining" },
+  { "name": "The Express Tribune", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://tribune.com.pk/feed/pakistan", "filter": "mining" },
+  { "name": "The Express Tribune", "section": "Business", "scope": "National", "region": "Pakistan", "url": "https://tribune.com.pk/feed/business", "filter": "mining" },
+  { "name": "The Express Tribune", "section": "Balochistan", "scope": "National", "region": "Pakistan", "province": "Balochistan", "url": "https://tribune.com.pk/feed/balochistan", "filter": "mining" },
+  { "name": "Business Recorder", "scope": "National", "region": "Pakistan", "url": "https://www.brecorder.com/feeds/latest-news", "filter": "mining" },
+  { "name": "Daily Times", "scope": "National", "region": "Pakistan", "url": "https://dailytimes.com.pk/feed/", "filter": "mining" },
+  { "name": "Geo News", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://www.geo.tv/rss/1/1", "filter": "mining" },
+  { "name": "ARY News", "scope": "National", "region": "Pakistan", "url": "https://arynews.tv/feed/", "filter": "mining" },
+  { "name": "APP", "scope": "National", "region": "Pakistan", "url": "https://www.app.com.pk/feed/", "filter": "mining" },
+  { "name": "Pakistan Observer", "scope": "National", "region": "Pakistan", "url": "https://pakobserver.net/feed/", "filter": "mining" },
+  { "name": "The Frontier Post", "scope": "National", "region": "Peshawar", "url": "https://thefrontierpost.com/feed/", "filter": "mining" },
+  { "name": "Chitral Times", "scope": "National", "region": "Chitral", "province": "Khyber Pakhtunkhwa", "url": "https://chitraltimes.com/feed", "filter": "mining" }
+]
