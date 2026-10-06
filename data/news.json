@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T16:36:15.855Z",
+ "updated": "2026-10-06T17:31:46.934Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "Dawn",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 154
+   "seen": 159
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +176,25 @@
  ],
  "items": [
   {
+   "title": "1911 Gold hits 5 metres of 7.55 g/t gold, stock lifts",
+   "link": "https://www.canadianminingjournal.com/news/1911-gold-hits-5-metres-of-7-55-g-t-gold-stock-lifts/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T17:03:16.000Z",
+   "summary": "1911 Gold (TSXV: AUMB, OTCQX: AUMBF) has released new drill results from its True North gold project in southeast Manitoba. The stock [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -193,6 +212,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Greenland Mines authorizes $20M share buyback",
    "link": "https://www.canadianminingjournal.com/news/greenland-mines-authorizes-20m-share-buyback/",
    "via": "",
@@ -201,15 +226,15 @@
    "summary": "Greenland Mines (Nasdaq: GRML; FSE: HK6) announced Tuesday it has authorized a $20 million (C$28.46 million) share repurchase program. The decision follows [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America"
+  },
+  {
    "section": "",
-   "scope": "International",
-   "region": "North America",
+   "scope": "National",
    "provinces": [],
    "tags": [],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "North Korea warns South Korea over border mine blast",
    "link": "https://dailytimes.com.pk/1563397/north-korea-warns-south-korea-over-border-mine-blast/",
    "via": "",
@@ -218,13 +243,7 @@
    "summary": "North Korea has rejected South Korea’s accusations over a border landmine blast. Pyongyang also threatened immediate and powerful counteraction against any territorial violation. The warning came after South Korea blamed North Korea for a...",
    "image": null,
    "source": "Daily Times",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Pakistan"
   },
   {
    "section": "",
@@ -244,6 +263,25 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America"
+  },
+  {
+   "title": "Westwin plans $502m Class 1 nickel refinery in Mississippi, US",
+   "link": "https://www.mining-technology.com/news/westwin-502m-nickel-refinery-mississippi/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T15:26:15.000Z",
+   "summary": "Westwin Elements has revealed plans for a $502m investment in the next five years to develop a large-scale Class 1 nickel refinery in Natchez, Mississippi, US.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-6Oct26-shutterstock_2549253117.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
   },
   {
    "section": "",
@@ -337,6 +375,14 @@
    "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Macmahon obtains two-year Daisy Milano contract extension",
    "link": "https://www.mining-technology.com/news/macmahon-two-year-daisy-milano-extension/",
    "via": "",
@@ -345,15 +391,7 @@
    "summary": "Macmahon has announced that its subsidiary, Macmahon Underground, secured a two-year contract extension from Vault Minerals for mining services at the Daisy Milano Gold Mine in Western Australia.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-6Oct26-shutterstock_1983261650-1.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
    "section": "",
@@ -392,6 +430,25 @@
    "region": "North America"
   },
   {
+   "title": "Westwin to build $502M nickel refinery in Mississippi",
+   "link": "https://www.northernminer.com/news/westwin-to-build-502m-nickel-refinery-in-mississippi/1003895478/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T13:27:06.000Z",
+   "summary": "Westwin Elements plans to invest $502 million over five years to build a commercial-scale high-purity nickel refinery in Mississippi, as the U.S. seeks to expand domestic processing of critical minerals....",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -426,6 +483,23 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa"
+  },
+  {
+   "title": "Sponsored: Power Metallic puts Lion to economic test",
+   "link": "https://www.northernminer.com/news/sponsored-power-metallic-puts-lion-to-economic-test/1003895481/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T12:37:23.000Z",
+   "summary": "Power Metallic Mines (TSXV: PNPN; US-OTC: PNPNF) CEO Terry Lynch in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Power...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
   },
   {
    "section": "",
@@ -691,6 +765,23 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-6Oct26-shutterstock_2546222931.jpg",
    "source": "Mining Technology",
    "region": "Global"
+  },
+  {
+   "title": "Sponsored: Adyton grows PNG resource as Wapolu restart nears",
+   "link": "https://www.northernminer.com/news/sponsored-adyton-grows-png-resource-as-wapolu-restart-nears/1003895483/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-06T10:00:40.000Z",
+   "summary": "Adyton Resources (TSXV: ADY; US-OTC: ADYRF) MD Tim Crossley in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Adyton Resources...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
   },
   {
    "section": "",
