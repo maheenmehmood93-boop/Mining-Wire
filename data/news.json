@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T07:01:25.475Z",
+ "updated": "2026-10-06T07:15:58.822Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -107,7 +107,7 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "seen": 95
   },
   {
@@ -140,6 +140,10 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
    "title": "Australian shares set for third day of gains as weaker oil boosts risk appetite",
    "link": "https://www.brecorder.com/news/40442871/australian-shares-set-for-third-day-of-gains-as-weaker-oil-boosts-risk-appetite",
    "via": "",
@@ -148,13 +152,15 @@
    "summary": "Australian shares were set to rally for a third straight session on Tuesday, as falling oil prices eased inflation concerns and record Wall Street gains boosted risk appetite, lifting miners and banks. The S&P/ASX 200 index rose 0.5% to...",
    "image": "https://i.brecorder.com/large/2026/10/061122193cc2d78.webp",
    "source": "Business Recorder",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": []
+   "region": "Pakistan"
   },
   {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
    "title": "Copper ticks up as US tech rally, easing rate-hike bets temper dollar surge",
    "link": "https://www.brecorder.com/news/40442870/copper-ticks-up-as-us-tech-rally-easing-rate-hike-bets-temper-dollar-surge",
    "via": "",
@@ -163,15 +169,13 @@
    "summary": "SINGAPORE: Copper prices were marginally up on Tuesday , as a boost from a tech-driven US stock market rally and receding market bets on a Federal Reserve rate hike this month were largely offset by a stronger dollar. Benchmark three-month...",
    "image": "https://i.brecorder.com/large/2026/10/06112116e03c893.webp",
    "source": "Business Recorder",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
+   "region": "Pakistan"
   },
   {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
    "title": "South Korea says preparing response to force North Korean apology over DMZ blast",
    "link": "https://www.brecorder.com/news/40442860/south-korea-says-preparing-response-to-force-north-korean-apology-over-dmz-blast",
    "via": "",
@@ -180,13 +184,13 @@
    "summary": "SEOUL: South Korea is preparing a response to force North Korea to apologise for ​a mine blast in the Demilitarized Zone (DMZ) that seriously wounded ‌two South Korean soldiers, a defence ministry spokesperson said on Tuesday. South Korea...",
    "image": "https://i.brecorder.com/large/2026/10/060820541efc763.webp",
    "source": "Business Recorder",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": []
+   "region": "Pakistan"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Advanced Navigation expands US manufacturing capacity to Alabama",
    "link": "https://www.mining.com/advanced-navigation-expands-us-manufacturing-capacity-to-alabama/",
    "via": "",
@@ -195,13 +199,15 @@
    "summary": "Company said it is expanding manufacturing in Huntsville to build and deliver high-precision mining navigation technology.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
    "title": "Westwin Elements to build $502M nickel refinery in Mississippi",
    "link": "https://www.mining.com/westwin-elements-to-build-502m-nickel-refinery-in-mississippi/",
    "via": "",
@@ -210,13 +216,7 @@
    "summary": "Company has completed a bankable feasibility study for the Natchez site.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Nickel"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -334,6 +334,10 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Investors need to take a rifle approach to decision making: consultant",
    "link": "https://www.mining.com/investors-need-to-take-a-rifle-approach-to-decision-making-consultant/",
    "via": "",
@@ -342,11 +346,7 @@
    "summary": "Feneck Consulting Group CEO says that investors need to be informed about all that is happening before making decisions.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
    "section": "",
@@ -383,6 +383,12 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Colorado summit video: Giustra says gold rally is missing retail",
    "link": "https://www.mining.com/colorado-summit-video-giustra-says-gold-rally-is-missing-retail/",
    "via": "",
@@ -391,15 +397,13 @@
    "summary": "“Gold is your hedge against all human stupidity.”",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Barrick secures 15-year North Mara mining licences in Tanzania",
    "link": "https://www.mining.com/barrick-secures-15-year-north-mara-mining-licences-in-tanzania/",
    "via": "",
@@ -408,13 +412,13 @@
    "summary": "The latest approval removes tenure risk, leaving Barrick to reverse a sharp first-half production decline.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Cambria targets late 2027 Premier mill restart",
    "link": "https://www.mining.com/cambria-targets-late-2027-premier-mill-restart/",
    "via": "",
@@ -423,13 +427,15 @@
    "summary": "Cambria plans to recommission the 2,500-tonne-per-day mill in the fourth quarter of 2027 and ramp it up through 2028.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Swanson results fall short despite 6.05-g/t gold highlight",
    "link": "https://www.mining.com/swanson-results-fall-short-despite-6-05-g-t-gold-highlight/",
    "via": "",
@@ -438,15 +444,16 @@
    "summary": "Although some of its holes returned encouraging grades, the results did not demonstrate strong continuity.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
    "title": "Silver shortage could flip to surplus in 2027: Deutsche",
    "link": "https://www.mining.com/silver-shortage-could-flip-to-surplus-in-2027-deutsche/",
    "via": "",
@@ -455,14 +462,7 @@
    "summary": "A drop in the metal’s scarcity could result in silver struggling to keep pace with gold even as they benefit from a stronger precious metals market.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Silver"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -512,6 +512,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
    "title": "Greenland government approves Tanbreez rare earth mine plan",
    "link": "https://www.mining.com/greenland-government-approves-tanbreez-mine-plan/",
    "via": "",
@@ -520,15 +526,15 @@
    "summary": "Tanbreez ranks among the larger undeveloped heavy rare earth projects outside China.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
    "title": "Surge Battery boosts returns, cuts costs for Nevada lithium project",
    "link": "https://www.mining.com/surge-battery-boosts-returns-cuts-costs-for-nevada-lithium-project/",
    "via": "",
@@ -537,13 +543,7 @@
    "summary": "PFS outlines a 42-year open-pit operation that would mine the claystone without blasting and process it at an on-site plant.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -593,6 +593,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
    "title": "Rio Tinto, Founders Factory back five mining startups",
    "link": "https://www.mining.com/rio-tinto-founders-factory-back-five-mining-startups/",
    "via": "",
@@ -601,15 +607,15 @@
    "summary": "The mining tech accelerator selected copper exploration, geohazard monitoring and metals processing startups.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Potash"
+   ],
    "title": "Millennial Potash targets 2029 production as US-backed Gabon project advances",
    "link": "https://www.mining.com/millennial-potash-targets-2029-production-as-us-backed-gabon-project-advances/",
    "via": "",
@@ -618,13 +624,7 @@
    "summary": "\"I don't want to replace Canadian potash,\" CEO said. \"Actually, I want to replace Russian potash.\"",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Potash"
-   ]
+   "region": "Global"
   },
   {
    "section": "Pakistan",
@@ -657,21 +657,6 @@
    "date": "2026-10-05T12:57:16.000Z",
    "summary": "Bilawal Bhutto inaugurates Thar Coal Phase-III expansion and Pakistan’s first coal drying unit",
    "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/CM-Tharparkar.jpg",
-   "source": "ARY News",
-   "region": "Pakistan"
-  },
-  {
-   "section": "",
-   "scope": "National",
-   "provinces": [],
-   "tags": [],
-   "title": "PMDC to act on Health Minister’s directive after legal review of MDCAT powers",
-   "link": "https://arynews.tv/pmdc-to-act-on-health-ministers-directive-after-legal-review-of-mdcat-powers",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T11:29:17.000Z",
-   "summary": "PMDC to act on Health Minister’s directive after legal review of MDCAT powers",
-   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/pmdc.jpg",
    "source": "ARY News",
    "region": "Pakistan"
   },
@@ -800,6 +785,14 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper",
+    "Lithium"
+   ],
    "title": "Top 50 mining companies take $264 billion hit as gold trade unwinds, lithium stocks exit",
    "link": "https://www.mining.com/top-50-mining-companies-take-264-billion-hit-as-gold-trade-unwinds-lithium-stocks-exit/",
    "via": "",
@@ -808,17 +801,17 @@
    "summary": "Gold stocks falter, copper miners ignore a record price and only one lithium producer survives in the second-worst month in the ranking's history.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
     "Copper",
     "Lithium"
-   ]
-  },
-  {
+   ],
    "title": "The top 50 biggest mining companies in the world",
    "link": "https://www.mining.com/top-50-biggest-mining-companies/",
    "via": "",
@@ -827,17 +820,15 @@
    "summary": "Gold stocks falter, copper miners ignore a record price and only one lithium producer survives in the second-worst month in the ranking's history.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Copper",
-    "Lithium"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Pension funds use gold as bond hedge weakens",
    "link": "https://www.mining.com/pension-funds-use-gold-as-bond-hedge-weakens/",
    "via": "",
@@ -846,15 +837,15 @@
    "summary": "For pension funds wary of mining equities because of commodity-price swings, bullion provides exposure to the gold sector without taking on the company-specific risks of owning miners.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
    "title": "Why rare earth elements are hiding in plain sight",
    "link": "https://www.mining.com/why-rare-earth-elements-are-hiding-in-plain-sight/",
    "via": "",
@@ -863,13 +854,7 @@
    "summary": "REEs are not rare at all but rarely found in pure form.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -907,6 +892,12 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
    "title": "Freeport’s Grasberg copper mill reaches 67% after mudslide",
    "link": "https://www.mining.com/freeports-grasberg-copper-mill-reaches-67-after-mudslide/",
    "via": "",
@@ -915,13 +906,7 @@
    "summary": "The company expects near-full production by the end next year.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -976,6 +961,10 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "KGHM, South32 kick off $725M Sierra Gorda expansion",
    "link": "https://www.mining.com/kghm-south32-kick-off-725m-sierra-gorda-expansion/",
    "via": "",
@@ -984,11 +973,7 @@
    "summary": "A fourth grinding line will lift Sierra Gorda’s processing capacity by 26% with construction scheduled to begin in 2027.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
    "section": "",
@@ -1055,6 +1040,10 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Controlling supply chain key to US future: DOE",
    "link": "https://www.mining.com/controlling-supply-chain-key-to-us-future-doe/",
    "via": "",
@@ -1063,13 +1052,13 @@
    "summary": "The many new investments from the US Department of Energy have one simple objective: securing the supply chain.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Petra Diamonds hit with $7.5M UK tax petition",
    "link": "https://www.mining.com/petra-diamonds-hit-with-7-5m-uk-tax-petition/",
    "via": "",
@@ -1078,13 +1067,15 @@
    "summary": "UK tax action adds another complication as the diamond miner weighs asset sales and works to refinance mounting debt.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
    "title": "World Bank unlocks $1.4B for Chile’s copper giant",
    "link": "https://www.mining.com/world-bank-unlocks-1-4b-for-chiles-copper-giant/",
    "via": "",
@@ -1093,13 +1084,7 @@
    "summary": "Chile, Zambia and Argentina show how mineral wealth can attract capital, create jobs and build economies beyond the mine.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -1164,6 +1149,13 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Platinum"
+   ],
    "title": "Greenland Mines makes gallium, vanadium discovery at Skaergaard",
    "link": "https://www.mining.com/greenland-mines-makes-gallium-vanadium-discovery-at-skaergaard/",
    "via": "",
@@ -1172,16 +1164,13 @@
    "summary": "Potential vanadium-bearing titanomagnetite, iron, and gallium value streams are being evaluated alongside the palladium-platinum-gold flowsheet.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Platinum"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Grid Metals’ atomic-clock cesium resource in Manitoba ranks second globally",
    "link": "https://www.mining.com/grid-metals-atomic-clock-cesium-resource-in-manitoba-ranks-second-globally/",
    "via": "",
@@ -1190,13 +1179,15 @@
    "summary": "The world’s largest resource of the critical metal is also in Canada.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "BC First Nation terminates agreements with Spanish Mountain Gold, shares plunge",
    "link": "https://www.mining.com/bc-first-nation-terminates-agreements-with-spanish-mountain-gold-shares-plunge/",
    "via": "",
@@ -1205,13 +1196,7 @@
    "summary": "SMG is advancing its namesake project in the province's Cariboo region.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -1231,6 +1216,10 @@
    "region": "North America"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Mountain Province Diamonds gives De Beers 49% Gahcho Kué stake",
    "link": "https://www.mining.com/mountain-province-gives-de-beers-49-gahcho-kue-stake/",
    "via": "",
@@ -1239,13 +1228,15 @@
    "summary": "Diamond-market weakness pushes the Canadian miner to shed mine liabilities and seek fresh funding for its balance sheet.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
    "title": "Brazil court order shuts Sigma Lithium mine",
    "link": "https://www.mining.com/brazil-court-order-shuts-sigma-lithium-mine/",
    "via": "",
@@ -1254,15 +1245,13 @@
    "summary": "A federal judge suspended Grota do Cirilo’s environmental licences and mining operations on Sept. 4.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Mining’s future is up for sale",
    "link": "https://www.mining.com/minings-future-is-up-for-sale/",
    "via": "",
@@ -1271,13 +1260,15 @@
    "summary": "Streaming has evolved from a niche financing tool for miners to a multibillion-dollar asset class with a thriving secondary market.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Beaver Creek: Gold’s bond break puts juniors in play",
    "link": "https://www.mining.com/beaver-creek-golds-bond-break-puts-juniors-in-play/",
    "via": "",
@@ -1286,13 +1277,7 @@
    "summary": "The divergence raises the question for mining investors.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "Global"
   },
   {
    "section": "",
@@ -1310,6 +1295,10 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Worker dies in accident at Codelco’s Radomiro Tomic",
    "link": "https://www.mining.com/worker-dies-in-accident-at-codelcos-radomiro-tomic/",
    "via": "",
@@ -1318,13 +1307,13 @@
    "summary": "Codelco has suspended operations in the ⁠crushing and ⁠material handling ⁠area of ​the mine where the accident ​happened.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Petra Diamonds weighs sale as market pressures mount",
    "link": "https://www.mining.com/petra-diamonds-weighs-sale-as-market-pressures-mount/",
    "via": "",
@@ -1333,11 +1322,7 @@
    "summary": "The miner is examining options to shore up liquidity as weak diamond demand continues to squeeze its finances.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
    "section": "",
@@ -1375,6 +1360,10 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Space miners may face an Earth-sized tax problem",
    "link": "https://www.mining.com/space-miners-may-face-an-earth-sized-tax-problem/",
    "via": "",
@@ -1383,13 +1372,13 @@
    "summary": "A proposed global tax system would share space-mining wealth while shielding early projects from crippling costs and volatility.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "DPM’s Vareš mine keeps running as concession faces review",
    "link": "https://www.mining.com/dpms-vares-mine-keeps-running-as-concession-faces-review/",
    "via": "",
@@ -1398,11 +1387,7 @@
    "summary": "Bosnian authorities have six months to review disputed land agreements, leaving mining investment facing legal scrutiny.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
    "section": "",
@@ -1437,6 +1422,12 @@
    "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
    "title": "Texas startup awarded DoD contract for scandium recovery",
    "link": "https://www.mining.com/texas-startup-awarded-dod-contract-for-scandium-recovery/",
    "via": "",
@@ -1445,15 +1436,13 @@
    "summary": "The contract, Supra said, will bolster its recovery of rare earth elements from North American industrial byproducts.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ]
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "US DOE awards $29.5M for 17 National Lab mining tech projects",
    "link": "https://www.mining.com/us-doe-awards-29-5m-for-17-national-lab-mining-tech-projects/",
    "via": "",
@@ -1462,13 +1451,13 @@
    "summary": "Projects are focused on moving next-generation mining, extraction, and processing technologies from the laboratory toward field testing and commercial deployment.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
    "title": "Deep Sea Minerals, Westwin partner on US polymetallic nodule processing",
    "link": "https://www.mining.com/deep-sea-minerals-westwin-partner-on-us-polymetallic-nodule-processing/",
    "via": "",
@@ -1477,13 +1466,15 @@
    "summary": "In June, Deep Sea Minerals’ application submitted under the Deep Seabed Hard Mineral Resources Act was deemed compliant by NOAA.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": []
+   "region": "Global"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
    "title": "Gold Fields halts Windfall work as Quebec permit lapses",
    "link": "https://www.mining.com/gold-fields-halts-windfall-work-as-quebec-permit-lapses/",
    "via": "",
@@ -1492,13 +1483,7 @@
    "summary": "Exploration permit expiration leaves its proposed $1.9 billion gold mine waiting on separate provincial environmental approval.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ]
+   "region": "Global"
   }
  ]
 }
