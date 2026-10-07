@@ -24,5 +24,6 @@
   { "name": "The Frontier Post", "section": "Chagai search", "scope": "National", "region": "Peshawar", "url": "https://thefrontierpost.com/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "Daily Times", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://dailytimes.com.pk/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "Daily Pakistan", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://en.dailypakistan.com.pk/?s=chagai&feed=rss2", "filter": "mining" },
+  { "name": "The Balochistan Post", "section": "Balochistan", "scope": "National", "region": "Balochistan", "province": "Balochistan", "url": "https://thebalochistanpost.net/category/tbp-balochistan/balochistan/feed/", "filter": "mining" },
   { "name": "Chitral Times", "scope": "National", "region": "Chitral", "province": "Khyber Pakhtunkhwa", "url": "https://chitraltimes.com/feed", "filter": "mining" }
 ]
