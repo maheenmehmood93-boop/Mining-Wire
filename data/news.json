@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T08:11:36.117Z",
+ "updated": "2026-10-07T08:37:03.953Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -150,7 +150,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 113
+   "seen": 115
   },
   {
    "source": "Pakistan Observer",
@@ -228,6 +228,82 @@
   }
  ],
  "items": [
+  {
+   "title": "EORA Energy and Tulla Group form JV focused on mining, remote-energy projects",
+   "link": "https://im-mining.com/2026/10/07/eora-energy-and-tulla-group-form-jv-focused-on-mining-remote-energy-projects/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T08:33:48.000Z",
+   "summary": "Australian energy company EORA Energy is expanding its business beyond battery storage to become an integrated energy infrastructure developer following the formation of a joint venture with resources investor Kevin Maloney's Tulla Group....",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Sibanye confirms wage deal, strike end at remainder of US operations",
+   "link": "https://www.miningweekly.com/article/sibanye-confirms-wage-deal-strike-end-at-remainder-of-us-operations-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T08:09:00.000Z",
+   "summary": "NYSE- and JSE-listed precious metals miner Sibanye-Stillwater has confirmed its workforces at the Stillwater East mine and Columbus metallurgical facility, both in Montana, have ratified a new collective bargaining agreement with the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "IMF chief warns energy shock, growing debt and AI risks threaten global growth",
+   "link": "https://www.miningweekly.com/article/imf-chief-warns-energy-shock-growing-debt-and-ai-risks-threaten-global-growth-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T08:07:00.000Z",
+   "summary": "The global economy is under threat from persistently high energy prices, record public debt and risks from the AI investment boom, International Monetary Fund (IMF) MD Kristalina Georgieva warned on Wednesday, urging governments to...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "The world has nearly burned through its oil stockpile buffer, executives say",
+   "link": "https://www.miningweekly.com/article/the-world-has-nearly-burned-through-its-oil-stockpile-buffer-executives-say-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T08:01:00.000Z",
+   "summary": "The amount of oil in storage that is accessible to the global market is running low, industry executives said at a forum in London this week, making the market more fragile and putting upward pressure on prices. Governments and energy...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
   {
    "section": "",
    "scope": "International",
