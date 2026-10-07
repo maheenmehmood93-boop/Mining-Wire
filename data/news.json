@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T09:57:52.525Z",
+ "updated": "2026-10-07T09:58:25.016Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -314,17 +314,8 @@
    "region": "Global"
   },
   {
-   "title": "Kenzoll Capital partners with MSF Commercials to revive Namibia diamond mine",
-   "link": "https://www.miningweekly.com/article/kenzoll-capital-partners-with-msf-commercials-to-revive-namibia-diamond-mine-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:29:00.000Z",
-   "summary": "Dutch private equity and special situations investor Kenzoll Capital has partnered with MSF Commercials to restart operations at the Sperrgebiet diamond mine, formerly known as the Elizabeth Bay mine, near Lüderitz, in southern Namibia....",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -336,20 +327,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Kenzoll Capital partners with MSF Commercials to revive Namibia diamond mine",
+   "link": "https://www.miningweekly.com/article/kenzoll-capital-partners-with-msf-commercials-to-revive-namibia-diamond-mine-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T09:29:00.000Z",
+   "summary": "Dutch private equity and special situations investor Kenzoll Capital has partnered with MSF Commercials to restart operations at the Sperrgebiet diamond mine, formerly known as the Elizabeth Bay mine, near Lüderitz, in southern Namibia....",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Utah incentives bolster Anson Resources' Green River project NPV",
-   "link": "https://www.miningweekly.com/article/utah-incentives-bolster-anson-resources-green-river-project-npv-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:13:00.000Z",
-   "summary": "Utah state incentives have bolstered the base case before-tax net present value (NPV) of ASX-listed Anson Resources' Green River lithium project from $1.37-billion to $1.52-billion - or from $896-million to $1.04-billion on an after-tax...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -363,6 +354,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Utah incentives bolster Anson Resources' Green River project NPV",
+   "link": "https://www.miningweekly.com/article/utah-incentives-bolster-anson-resources-green-river-project-npv-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T09:13:00.000Z",
+   "summary": "Utah state incentives have bolstered the base case before-tax net present value (NPV) of ASX-listed Anson Resources' Green River lithium project from $1.37-billion to $1.52-billion - or from $896-million to $1.04-billion on an after-tax...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
