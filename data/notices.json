@@ -1,0 +1,74 @@
+{
+ "checked": "2026-10-07T09:59:31.947Z",
+ "sources": [
+  {
+   "id": "balochistan-mmd",
+   "authority": "Mines & Minerals Development Dept, Balochistan",
+   "pages": [
+    {
+     "url": "https://mmd.balochistan.gov.pk/tenders-notifications/",
+     "ok": false,
+     "error": "HTTP 403"
+    },
+    {
+     "url": "https://mmd.balochistan.gov.pk/news-updates/",
+     "ok": true,
+     "links": 31,
+     "kept": 0,
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "kp-minerals",
+   "authority": "Mines & Minerals Dept, Khyber Pakhtunkhwa",
+   "pages": [
+    {
+     "url": "https://kpminerals.kp.gov.pk/",
+     "ok": true,
+     "links": 0,
+     "kept": 0,
+     "note": "no links found; the page may need JavaScript to load its content"
+    }
+   ]
+  },
+  {
+   "id": "pmdc",
+   "authority": "Pakistan Mineral Development Corporation",
+   "pages": [
+    {
+     "url": "https://www.pmdc.gov.pk/tenders/",
+     "ok": false,
+     "error": "fetch failed"
+    },
+    {
+     "url": "https://www.pmdc.gov.pk/",
+     "ok": false,
+     "error": "fetch failed"
+    }
+   ]
+  },
+  {
+   "id": "energy-ministry",
+   "authority": "Ministry of Energy (Petroleum Division)",
+   "pages": [
+    {
+     "url": "https://petroleum.gov.pk/Tenders",
+     "ok": false,
+     "error": "fetch failed"
+    },
+    {
+     "url": "https://petroleum.gov.pk/Publications",
+     "ok": false,
+     "error": "fetch failed"
+    },
+    {
+     "url": "https://petroleum.gov.pk/",
+     "ok": false,
+     "error": "fetch failed"
+    }
+   ]
+  }
+ ],
+ "items": []
+}
