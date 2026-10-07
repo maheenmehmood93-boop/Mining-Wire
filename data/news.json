@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T09:51:42.054Z",
+ "updated": "2026-10-07T09:52:40.228Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -87,7 +87,66 @@
    "source": "Mining.com.au",
    "section": "Safety search",
    "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "ok": true,
+   "items": 20,
+   "seen": 20
+  },
+  {
+   "source": "GlobeNewswire",
+   "section": "Intersects",
+   "ok": true,
+   "items": 2,
+   "seen": 2
+  },
+  {
+   "source": "GlobeNewswire",
+   "section": "Mineral resource",
+   "ok": true,
+   "items": 20,
+   "seen": 20
+  },
+  {
+   "source": "GlobeNewswire",
+   "section": "Discovery",
+   "ok": false,
    "error": "no items found in feed"
+  },
+  {
+   "source": "PR Newswire",
+   "section": "Mining & metals",
+   "ok": false,
+   "error": "HTTP 404"
+  },
+  {
+   "source": "MINING.COM",
+   "section": "Exploration search",
+   "ok": true,
+   "items": 36,
+   "seen": 36
+  },
+  {
+   "source": "MINING.COM",
+   "section": "Exploration search",
+   "ok": true,
+   "items": 36,
+   "seen": 36
+  },
+  {
+   "source": "International Mining",
+   "section": "Exploration search",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "source": "Mining.com.au",
+   "section": "Exploration search",
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "Dawn",
@@ -229,6 +288,16 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
    "title": "Belmont launches gravity survey at Crackingstone uranium site",
    "link": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
    "via": "",
@@ -237,17 +306,7 @@
    "summary": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-7Oct26-shutterstock_2701153385-1.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Uranium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": ""
+   "region": "Global"
   },
   {
    "section": "",
@@ -1203,7 +1262,7 @@
    "region": "Global"
   },
   {
-   "section": "",
+   "section": "Exploration search",
    "scope": "International",
    "provinces": [],
    "tags": [
@@ -2640,6 +2699,27 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America"
+  },
+  {
+   "title": "Goldera Expands High-Grade E1 Gold Discovery with Two New Parallel Structures Ahead of Planned Q4 Drilling at Egan Gold Project",
+   "link": "https://www.mining.com/sponsored-content/goldera-expands-high-grade-e1-gold-discovery-with-two-new-parallel-structures-ahead-of-planned-q4-drilling-at-egan-gold-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-05T17:53:24.000Z",
+   "summary": "VANCOUVER, British Columbia, Oct. 05, 2026 (GLOBE NEWSWIRE) - Goldera Exploration Ltd. (“Goldera” or the “Company”) (TSX Venture Exchange: GERA) is pleased [...]",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Exploration search",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
   },
   {
    "section": "",
@@ -4537,7 +4617,7 @@
    "region": "Global"
   },
   {
-   "section": "",
+   "section": "Exploration search",
    "scope": "International",
    "provinces": [],
    "tags": [
@@ -5096,6 +5176,27 @@
    "region": "Global"
   },
   {
+   "title": "Hercules extends Idaho copper discovery",
+   "link": "https://www.mining.com/hercules-extends-idaho-copper-discovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-30T16:07:02.000Z",
+   "summary": "The drilling must establish the extent and grade of the mineralization before Hercules can assess its development potential.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Exploration search",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -5219,6 +5320,46 @@
    "region": "Global"
   },
   {
+   "title": "Kobo Resources Intersects Strong Gold Mineralisation at the Road Cut Zone with 19.0 m at 1.94 g/t Au; Northern Drilling Identifies Potential Areas for Future Resource Growth",
+   "link": "https://www.globenewswire.com/news-release/2026/09/29/3370705/0/en/kobo-resources-intersects-strong-gold-mineralisation-at-the-road-cut-zone-with-19-0-m-at-1-94-g-t-au-northern-drilling-identifies-potential-areas-for-future-resource-growth.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-29T11:30:00.000Z",
+   "summary": "Kobo Resources Intersects Strong Gold Mineralisation at the Road Cut Zone with 19.0 m at 1.94 g/t Au",
+   "image": "https://ml.globenewswire.com/Resource/Download/656354d2-4c8d-43b1-aa3f-72bc61cef38e",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Ressources Kobo recoupe une importante minéralisation aurifère dans la zone Road Cut, soit 19,0 m à 1,94 g/t Au; Le forage au nord établit des zones potentielles pour la croissance future des ressources",
+   "link": "https://www.globenewswire.com/news-release/2026/09/29/3370705/0/fr/ressources-kobo-recoupe-une-importante-min%C3%A9ralisation-aurif%C3%A8re-dans-la-zone-road-cut-soit-19-0-m-%C3%A0-1-94-g-t-au-le-forage-au-nord-%C3%A9tablit-des-zones-potentielles-pour-la-croissance-f.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-29T11:30:00.000Z",
+   "summary": "QU&#201;BEC, 29 sept. 2026 (GLOBE NEWSWIRE) -- Ressources Kobo Inc. (« Kobo » ou la « société ») ( TSX.V : KRI ) ( FWB : Q1Z ) est heureuse d’annoncer les résultats des forages au diamant réalisés dans quatorze (14) trous supplémentaires...",
+   "image": "https://ml.globenewswire.com/Resource/Download/656354d2-4c8d-43b1-aa3f-72bc61cef38e",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -5321,6 +5462,46 @@
    "image": null,
    "source": "Global Mining Review",
    "region": "Global"
+  },
+  {
+   "title": "Osisko Intersects 211 Metres Averaging 0.59% Cu at Gaspé",
+   "link": "https://www.globenewswire.com/news-release/2026/09/28/3369690/0/en/osisko-intersects-211-metres-averaging-0-59-cu-at-gasp%C3%A9.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-28T10:00:00.000Z",
+   "summary": "Osisko Metals announces additional new analytical results from the 2026 drill program at the Gaspé Copper Project in Québec.",
+   "image": "https://ml.globenewswire.com/Resource/Download/35a75f62-b952-4938-bcbe-8b151cf19b88",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Osisko recoupe 211 mètres à une teneur moyenne de 0,59 % cuivre à Mines Gaspé",
+   "link": "https://www.globenewswire.com/news-release/2026/09/28/3369690/0/fr/osisko-recoupe-211-m%C3%A8tres-%C3%A0-une-teneur-moyenne-de-0-59-cuivre-%C3%A0-mines-gasp%C3%A9.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-28T10:00:00.000Z",
+   "summary": "Incluant 28,5 mètres à une teneur moyenne de 2,31 % Cu et 11,8 g/t Ag",
+   "image": "https://ml.globenewswire.com/Resource/Download/ed5cf86d-c926-4683-90cd-9ee13f10a92f",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
   },
   {
    "section": "",
@@ -5441,6 +5622,27 @@
    "region": "Global"
   },
   {
+   "title": "Inventus Expands Shallow High-Grade Main Layer and Identifies Broad Bulk-Tonnage Gold Potential at Pardo",
+   "link": "https://www.globenewswire.com/news-release/2026/09/23/3367348/0/en/inventus-expands-shallow-high-grade-main-layer-and-identifies-broad-bulk-tonnage-gold-potential-at-pardo.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-23T11:00:00.000Z",
+   "summary": "Inventus reports results from 100 drill holes at Pardo, expanding shallow high-grade gold mineralization and identifying broader bulk-tonnage potential.",
+   "image": "https://ml.globenewswire.com/Resource/Download/b60ffb62-bdcd-4a06-8cbf-403a1fc2e987",
+   "source": "GlobeNewswire",
+   "section": "Mineral resource",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
    "section": "Pakistan",
    "scope": "International",
    "provinces": [],
@@ -5481,6 +5683,46 @@
    "region": "Pakistan"
   },
   {
+   "title": "Q&#038;A: K2 Gold assays build on California Mojave discovery",
+   "link": "https://www.mining.com/sponsored-content/qa-k2-gold-assays-build-on-california-mojave-discovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-17T17:06:17.000Z",
+   "summary": "K2 Gold’s (TSXV: KTO) Mojave project is back in focus after the company reported the first drill results from this year’s 14,000-metre [...]",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Exploration search",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "G Mining Ventures Extends High-Grade Mineralization at Gurupi and Confirms Continuity at Depth at TZ",
+   "link": "https://www.globenewswire.com/news-release/2026/09/16/3363023/0/en/g-mining-ventures-extends-high-grade-mineralization-at-gurupi-and-confirms-continuity-at-depth-at-tz.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-16T10:50:00.000Z",
+   "summary": "BROSSARD, Quebec, Sept. 16, 2026 (GLOBE NEWSWIRE) -- G Mining Ventures Corp . (“ GMIN ” or the “ Corporation ”) (TSX:GMIN | OTCQX:GMINF) today provides an update on its exploration drilling activities completed at its wholly owned Gurupi...",
+   "image": "https://ml.globenewswire.com/Resource/Download/6e410c34-0943-4985-ae46-f4e0100712d5",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
    "section": "Safety search",
    "scope": "National",
    "provinces": [
@@ -5502,6 +5744,105 @@
    "image": null,
    "source": "The Frontier Post",
    "region": "Peshawar"
+  },
+  {
+   "title": "Osisko Intersects 256 Metres Averaging 0.85% Cu at Gaspé",
+   "link": "https://www.globenewswire.com/news-release/2026/09/10/3359275/0/en/osisko-intersects-256-metres-averaging-0-85-cu-at-gasp%C3%A9.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-10T10:00:00.000Z",
+   "summary": "Osisko Metals announces new analytical results from the 2026 drill program at the Gaspé Copper Project in Eastern Québec.",
+   "image": "https://ml.globenewswire.com/Resource/Download/cc6629b2-8f34-48d3-8299-89887f8ef3c7",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Osisko recoupe 256 mètres à une teneur moyenne de 0,85 % cuivre à Mines Gaspé",
+   "link": "https://www.globenewswire.com/news-release/2026/09/10/3359275/0/fr/osisko-recoupe-256-m%C3%A8tres-%C3%A0-une-teneur-moyenne-de-0-85-cuivre-%C3%A0-mines-gasp%C3%A9.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-10T10:00:00.000Z",
+   "summary": "Incluant 28,5 mètres à une teneur moyenne de 4,74 % Cu et 27,4 g/t Ag Incluant 28,5 mètres à une teneur moyenne de 4,74 % Cu et 27,4 g/t Ag",
+   "image": "https://ml.globenewswire.com/Resource/Download/0a1c503a-c00d-417f-855e-0e43875b3bb8",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Viridian Intersects Over 50 Metres of Mineralization from Surface at Kraken Main",
+   "link": "https://www.globenewswire.com/news-release/2026/09/08/3357667/0/en/viridian-intersects-over-50-metres-of-mineralization-from-surface-at-kraken-main.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-08T12:30:00.000Z",
+   "summary": "Viridian Intersects Over 50 Metres of Mineralization from Surface at Kraken Main",
+   "image": "https://ml.globenewswire.com/Resource/Download/fb601bf5-e73c-436a-9f4d-6f52c8eca3b5",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Kobo Resources Extends Gold Mineralisation to the North at Kossou with Multiple High-Grade Drill Intercepts",
+   "link": "https://www.globenewswire.com/news-release/2026/09/03/3355794/0/en/kobo-resources-extends-gold-mineralisation-to-the-north-at-kossou-with-multiple-high-grade-drill-intercepts.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-03T11:30:00.000Z",
+   "summary": "Kobo Resources Extends Gold Mineralisation to the North at Kossou with Multiple High-Grade Drill Intercepts",
+   "image": "https://ml.globenewswire.com/Resource/Download/cc0fc7ea-df64-41e7-8611-9bd6ea30b5b4",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
+  },
+  {
+   "title": "Ressources Kobo étend la minéralisation aurifère vers le nord à Kossou grâce à plusieurs intersections de forage à haute teneur",
+   "link": "https://www.globenewswire.com/news-release/2026/09/03/3355794/0/fr/ressources-kobo-%C3%A9tend-la-min%C3%A9ralisation-aurif%C3%A8re-vers-le-nord-%C3%A0-kossou-gr%C3%A2ce-%C3%A0-plusieurs-intersections-de-forage-%C3%A0-haute-teneur.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-03T11:30:00.000Z",
+   "summary": "QU&#201;BEC, 03 sept. 2026 (GLOBE NEWSWIRE) -- Ressources Kobo Inc. (« Kobo » ou la « société ») ( TSX.V : KRI ) ( FWB : Q1Z ) est heureuse d’annoncer les résultats des forages au diamant réalisés dans sept (7) trous supplémentaires de son...",
+   "image": "https://ml.globenewswire.com/Resource/Download/cc0fc7ea-df64-41e7-8611-9bd6ea30b5b4",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": ""
   }
  ]
 }
