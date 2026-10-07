@@ -32,11 +32,22 @@ jobs:
       - name: Fetch feeds
         run: node scripts/fetch-news.mjs
 
+      # These two keep their own schedule (notices about every 5 hours, prices
+      # once a day) and a failure in either one does not stop the site updating.
+      # Clicking "Run workflow" by hand forces both to run straight away.
+      - name: Check government notice pages
+        continue-on-error: true
+        run: node scripts/watch-notices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+
+      - name: Fetch commodity prices
+        continue-on-error: true
+        run: node scripts/fetch-prices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+
       - name: Commit refreshed data
         run: |
           git config user.name "news-bot"
           git config user.email "news-bot@users.noreply.github.com"
-          git add data/news.json
+          git add data/
           git diff --staged --quiet || git commit -m "Update news data"
           git push || true
 
