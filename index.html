@@ -373,7 +373,8 @@
       let body = mine.map(card).join("");
       if (!mine.length) {
         body = `<p class="small">${sel ? "Nothing of this type." : bad === pages.length && pages.length
-          ? "Could not reach this website from the update job (see the page status below)."
+          ? "Could not reach this website from the update job, so nothing is listed here. Open it directly: " +
+            pages.map((p) => `<a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.url.replace(/^https?:\/\/(?:www\.)?/, ""))}</a>`).join(", ")
           : quiet ? "No notices could be read from this website: " + esc(quiet) + "."
           : "No notices found on the pages being watched."}</p>`;
       }
