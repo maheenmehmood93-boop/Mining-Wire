@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T12:17:31.052Z",
+ "updated": "2026-10-07T12:21:26.788Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -221,7 +221,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "seen": 10
   },
   {
@@ -247,6 +247,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Large underground mobile fleet for sale in Finsch Diamond Mine asset sale",
+   "link": "https://im-mining.com/2026/10/07/large-underground-mobile-fleet-for-sale-in-finsch-diamond-mine-asset-sale/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T12:19:23.000Z",
+   "summary": "Proceedings are well underway in the asset disposal programme for Finsch Diamond Mine (Pty) Ltd (In Business Rescue), situated near Lime Acres in the Northern Cape. Park Village Auctions (PVA) was appointed to facilitate the structured...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
