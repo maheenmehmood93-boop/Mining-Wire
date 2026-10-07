@@ -37,6 +37,9 @@
   .view[hidden] { display: none; }
   .view h3 { margin: 10px 0 0; font-size: 1rem; }
   .view .small { color: var(--muted); font-size: .85rem; margin: 0; }
+  .tablewrap { overflow-x: auto; }
+  table.prices td.wrap { white-space: normal; min-width: 200px; }
+  .view input[type=search] { max-width: 420px; }
   .tag.new { background: var(--accent); color: var(--accent-ink); }
   table.prices { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; font-size: .92rem; }
   table.prices th, table.prices td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); }
@@ -127,6 +130,8 @@
   <button class="tab" type="button" role="tab" id="tab-safety" aria-selected="false">Safety incidents<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-explore" aria-selected="false">Exploration<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-prices" aria-selected="false">Prices<span class="n"></span></button>
+  <button class="tab" type="button" role="tab" id="tab-stocks" aria-selected="false">Stock watch<span class="n"></span></button>
+  <button class="tab" type="button" role="tab" id="tab-companies" aria-selected="false">Companies<span class="n"></span></button>
 </nav>
 <div id="newsView">
 <div class="notice" id="chagaiNote" hidden>
@@ -182,6 +187,8 @@
 </div>
 
 <section class="view" id="pricesView" hidden aria-label="Commodity prices"></section>
+<section class="view" id="stocksView" hidden aria-label="Stock watch"></section>
+<section class="view" id="companiesView" hidden aria-label="Mining companies and service providers"></section>
 
 <footer>
   <p>Headlines and short excerpts are shown with a link to the original publisher. All rights remain with the respective publishers. Stories from general newspapers are included only when they are about mining or minerals, about security in Chagai district, or about a mining accident or safety alert. Exploration results are company-reported and unverified. Automated headline feed; not an official company publication.</p>
@@ -204,6 +211,10 @@
 
   const state = { ...DEFAULTS, tab: "mining", group: "country", xgroup: "country", off: new Set(), metal: "gold", range: "" };
   let prices = null;
+  let stocks = null;
+  let companies = null;
+  state.stock = ""; state.srange = "3m";
+  state.cview = "miners"; state.ccom = ""; state.ccat = ""; state.cq = "";
   let items = [];
   const segs = [];       // { update(countFn) }
   const paperRows = [];  // { name, label, input, n }
@@ -428,22 +439,120 @@
     v.querySelectorAll("[data-range]").forEach((b) => (b.onclick = () => { state.range = b.dataset.range; render(); }));
   }
 
+  // ---- Stock watch ---------------------------------------------------------
+  function stockRow(id, st) {
+    const pts = st.points || [];
+    if (!pts.length) return null;
+    const last = pts.at(-1), prev = pts.at(-2);
+    const cut = new Date(last[0]).getTime() - 30 * DAY;
+    const base = [...pts].reverse().find((p) => new Date(p[0]).getTime() <= cut);
+    return { id, ...st, last, day: prev ? (last[1] / prev[1] - 1) * 100 : null, month: base ? (last[1] / base[1] - 1) * 100 : null };
+  }
+  const pct = (v) => {
+    if (v == null) return { t: "—", c: "" };
+    const r = Math.round(v * 10) / 10;
+    return { t: `${r > 0 ? "+" : ""}${r.toFixed(1)}%`, c: !r ? "" : r > 0 ? "up" : "down" };
+  };
+
+  function renderStocks() {
+    const v = $("stocksView");
+    const all = stocks ? Object.entries(stocks.stocks || {}).map(([id, st]) => stockRow(id, st)).filter(Boolean) : [];
+    if (!all.length) {
+      v.innerHTML = `<p class="small">No share prices yet. They are collected after the site has been updated.${stocks && (stocks.sources || []).some((s) => !s.ok) ? " " + esc((stocks.sources || []).filter((s) => !s.ok).map((s) => s.name + ": " + s.error).join("; ")) : ""}</p>`;
+      return;
+    }
+    if (!all.some((r) => r.id === state.stock)) state.stock = all[0].id;
+    const cur = all.find((r) => r.id === state.stock);
+    const table = (rows) => `<div class="tablewrap"><table class="prices"><thead><tr><th>Company</th><th>Symbol</th><th class="num">Last close</th><th class="num">Day</th><th class="num">1 month</th><th>As of</th></tr></thead><tbody>${
+      rows.map((r) => { const d = pct(r.day), m = pct(r.month); return `<tr aria-selected="${r.id === state.stock}">
+        <td><button type="button" class="metal" data-stock="${esc(r.id)}">${esc(r.name)}</button><div class="small">${esc(r.full)}</div></td>
+        <td>${esc(r.symbol)}</td><td class="num">${esc(fmtPrice(r.last[1]))} ${esc(r.currency)}</td>
+        <td class="num ${d.c}">${d.t}</td><td class="num ${m.c}">${m.t}</td><td>${esc(fmtDate(r.last[0]))}</td></tr>`; }).join("")}</tbody></table></div>`;
+    const local = all.filter((r) => r.market === "PSX"), intl = all.filter((r) => r.market !== "PSX");
+    const intlMissing = (stocks.sources || []).find((s) => /Alpha Vantage/.test(s.name) && !s.ok);
+
+    const days = { "1m": 31, "3m": 93, "1y": 400 };
+    const pts = (cur.points || []).filter((p) => new Date(p[0]).getTime() >= new Date(cur.last[0]).getTime() - days[state.srange] * DAY);
+    v.innerHTML = `
+      <p class="small">End-of-day closing prices${stocks.updated ? ", updated " + esc(ago(stocks.updated)) : ""}. Select a company to see its trend.</p>
+      <h3>Pakistan (Pakistan Stock Exchange)</h3>
+      ${local.length ? table(local) : `<p class="small">No Pakistan prices yet${(stocks.sources || []).some((s) => /Pakistan Stock/.test(s.name) && !s.ok) ? ": " + esc((stocks.sources || []).find((s) => /Pakistan Stock/.test(s.name)).error) : ""}.</p>`}
+      <h3>International (US-listed shares)</h3>
+      ${intl.length ? table(intl) : `<p class="small">${intlMissing ? "International prices are switched off: " + esc(intlMissing.error) + "." : "No international prices yet."}</p>`}
+      <div class="chartbox">
+        <div class="seg" role="group" aria-label="Chart range">${[["1m", "1 month"], ["3m", "3 months"], ["1y", "1 year"]].map(([k, l]) => `<button type="button" class="chip" data-srange="${k}" aria-pressed="${state.srange === k}"><span class="t">${l}</span></button>`).join("")}</div>
+        <b>${esc(cur.name)} <span class="small">(${esc(cur.currency)}, closing price)</span></b>
+        ${pts.length >= 2 ? chartSvg(pts, `${cur.name} closing price, ${fmtDate(pts[0][0])} to ${fmtDate(pts.at(-1)[0])}`) : `<p class="small">Not enough history for this range yet.</p>`}
+      </div>
+      <p class="small">Pakistan prices come from the Pakistan Stock Exchange's public data portal; international prices from Alpha Vantage. Closing prices only, so they can be a day behind. Shown for information, not as investment advice. Oil, gas, cement and fertiliser companies are included for their links to mining and minerals in Pakistan.</p>`;
+    v.querySelectorAll("[data-stock]").forEach((b) => (b.onclick = () => { state.stock = b.dataset.stock; render(); }));
+    v.querySelectorAll("[data-srange]").forEach((b) => (b.onclick = () => { state.srange = b.dataset.srange; render(); }));
+  }
+
+  // ---- Companies -------------------------------------------------------------
+  function renderCompanies() {
+    const v = $("companiesView");
+    if (!companies) {
+      v.innerHTML = `<p class="small">The company list has not been added yet (data/companies.json).</p>`;
+      return;
+    }
+    const views = [["miners", "Largest miners"], ["pakistan", "Active in Pakistan"], ["services", "Service providers"]];
+    const q = state.cq.trim().toLowerCase();
+    const has = (o) => !q || [o.name, o.country, o.ticker, o.role, o.what, o.category, o.pakistan, (o.commodities || []).join(" ")].join(" ").toLowerCase().includes(q);
+    const link = (o) => o.url && /^https?:\/\//i.test(o.url) ? `<a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">${esc(o.name)}</a>` : esc(o.name);
+    const chips = (list, key, label) => `<div class="seg" role="group" aria-label="${label}">${["", ...list].map((x) =>
+      `<button type="button" class="chip" data-cf="${key}" data-v="${esc(x)}" aria-pressed="${state[key] === x}"><span class="t">${esc(x || "All")}</span></button>`).join("")}</div>`;
+
+    let controls = "", body = "";
+    if (state.cview === "miners") {
+      const coms = [...new Set(companies.miners.flatMap((m) => m.commodities))].sort();
+      controls = chips(coms, "ccom", "Commodity");
+      const rows = companies.miners.filter((m) => (!state.ccom || m.commodities.includes(state.ccom)) && has(m));
+      body = rows.length ? `<div class="tablewrap"><table class="prices"><thead><tr><th class="num">Rank</th><th>Company</th><th>Main commodities</th><th>Country</th><th class="num">Market cap (US$ bn)</th><th>Ticker</th></tr></thead><tbody>${
+        rows.map((m) => `<tr><td class="num">${m.rank}</td><td>${link(m)}${m.pakistan ? `<div class="small">Pakistan: ${esc(m.pakistan)}</div>` : ""}</td><td class="wrap">${m.commodities.length ? esc(m.commodities.join(", ")) : "—"}</td><td class="wrap">${esc(m.country)}</td><td class="num">${esc(m.marketCapBn.toFixed(1))}</td><td>${esc(m.ticker)}</td></tr>`).join("")}</tbody></table></div>
+        <p class="small">${esc(companies.rankSource)}</p>` : `<p class="small">No companies match.</p>`;
+    } else if (state.cview === "pakistan") {
+      const rows = (companies.pakistan || []).filter(has);
+      body = rows.length ? `<div class="tablewrap"><table class="prices"><thead><tr><th>Company</th><th>Commodities</th><th>Country</th><th>Role in Pakistan</th></tr></thead><tbody>${
+        rows.map((m) => `<tr><td>${link(m)}</td><td class="wrap">${(m.commodities || []).length ? esc(m.commodities.join(", ")) : "—"}</td><td>${esc(m.country)}</td><td class="wrap">${esc(m.role)}</td></tr>`).join("")}</tbody></table></div>
+        <p class="small">A short list of major operators and state companies. It is not complete.</p>` : `<p class="small">No companies match.</p>`;
+    } else {
+      const cats = [...new Set(companies.services.map((s) => s.category))];
+      controls = chips(cats, "ccat", "Category");
+      const rows = companies.services.filter((s) => (!state.ccat || s.category === state.ccat) && has(s));
+      body = rows.length ? cats.filter((c) => rows.some((r) => r.category === c)).map((c) => `<h3>${esc(c)}</h3><div class="tablewrap"><table class="prices"><thead><tr><th>Company</th><th>Country</th><th>What they do</th></tr></thead><tbody>${
+        rows.filter((r) => r.category === c).map((s) => `<tr><td>${link(s)}</td><td class="wrap">${esc(s.country)}</td><td class="wrap">${esc(s.what)}</td></tr>`).join("")}</tbody></table></div>`).join("")
+        + `<p class="small">${esc(companies.servicesNote || "")}</p>` : `<p class="small">No companies match.</p>`;
+    }
+    v.innerHTML = `
+      <div class="seg" role="group" aria-label="List">${views.map(([k, l]) => `<button type="button" class="chip" data-cv="${k}" aria-pressed="${state.cview === k}"><span class="t">${l}</span></button>`).join("")}</div>
+      ${controls}
+      <input type="search" id="co-q" placeholder="Search companies, countries, commodities" aria-label="Search companies" value="${esc(state.cq)}">
+      ${body}
+      <p class="small">List compiled ${esc(companies.asOf || "")}. Check each company's own website for current details.</p>`;
+    v.querySelectorAll("[data-cv]").forEach((b) => (b.onclick = () => { state.cview = b.dataset.cv; render(); }));
+    v.querySelectorAll("[data-cf]").forEach((b) => (b.onclick = () => { state[b.dataset.cf] = b.dataset.v; render(); }));
+    const input = $("co-q");
+    input.oninput = () => { state.cq = input.value; const pos = input.selectionStart; render(); const n = $("co-q"); n.focus(); n.setSelectionRange(pos, pos); };
+  }
+
   function render() {
     const chagai = state.tab === "chagai";
     const safety = state.tab === "safety";
     const explore = state.tab === "explore";
     const inTab = (t, i) => (t === "chagai" ? i.chagaiSecurity : t === "safety" ? !!i.safetyType : t === "explore" ? !!i.exType : i.mining !== false);
-    ["mining", "chagai", "safety", "explore", "prices"].forEach((t) => {
+    ["mining", "chagai", "safety", "explore", "prices", "stocks", "companies"].forEach((t) => {
       const b = $("tab-" + t);
       b.setAttribute("aria-selected", String(state.tab === t));
       b.querySelector(".n").textContent =
-        t === "prices" ? "" : items.filter((i) => inTab(t, i)).length;
+        t === "prices" || t === "stocks" ? "" : t === "companies" ? (companies?.miners?.length ?? "") : items.filter((i) => inTab(t, i)).length;
     });
-    const special = state.tab === "prices";
+    const VIEWS = { prices: renderPrices, stocks: renderStocks, companies: renderCompanies };
+    const special = state.tab in VIEWS;
     $("newsView").hidden = special;
-    $("pricesView").hidden = !special;
+    Object.keys(VIEWS).forEach((t) => ($(t + "View").hidden = state.tab !== t));
     if (special) {
-      renderPrices();
+      VIEWS[state.tab]();
       return;
     }
     $("chagaiNote").hidden = !chagai;
@@ -534,7 +643,9 @@
         return r.ok ? await r.json() : null;
       } catch (e) { return null; }
     };
-    const pData = await load("data/prices.json");
+    const [pData, sData, cData] = await Promise.all([load("data/prices.json"), load("data/stocks.json"), load("data/companies.json")]);
+    if (sData && sData.stocks) stocks = sData;
+    if (cData && Array.isArray(cData.miners)) companies = cData;
     if (pData && (pData.daily || pData.monthly)) prices = pData;
 
     if (data.updated) {
@@ -585,7 +696,7 @@
       return `<li>${name}: ${s.ok ? `${s.items} kept of ${s.seen ?? s.items}` : "unavailable (" + esc(s.error) + ")"}</li>`;
     }).join("");
 
-    $("statusList").innerHTML += (prices?.sources || []).map((s) => `<li>${esc(s.name)}: ${s.ok ? "ok" + (s.detail ? " (" + esc(s.detail) + ")" : "") : "unavailable (" + esc(s.error) + ")"}</li>`).join("");
+    $("statusList").innerHTML += [...(prices?.sources || []), ...(stocks?.sources || [])].map((s) => `<li>${esc(s.name)}: ${s.ok ? "ok" + (s.detail ? " (" + esc(s.detail) + ")" : "") : "unavailable (" + esc(s.error) + ")"}</li>`).join("");
 
     $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
     $("reset").onclick = () => { Object.assign(state, DEFAULTS, { period: TAB_PERIOD[state.tab] }); state.off.clear(); $("q").value = ""; render(); };
@@ -594,6 +705,8 @@
     $("tab-safety").onclick = () => setTab("safety");
     $("tab-explore").onclick = () => setTab("explore");
     $("tab-prices").onclick = () => setTab("prices");
+    $("tab-stocks").onclick = () => setTab("stocks");
+    $("tab-companies").onclick = () => setTab("companies");
     render();
   }
 
