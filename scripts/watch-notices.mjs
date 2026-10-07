@@ -148,14 +148,35 @@ export function mergeNotices(previous, fresh, sourceIds, now = Date.now()) {
     .slice(0, MAX_ITEMS);
 }
 
-async function fetchPage(url) {
+// "fetch failed" on its own says nothing; add the underlying cause (timeout,
+// connection refused, certificate problem ...) so the status line is useful.
+const describeError = (e) => {
+  const cause = e?.cause?.code ?? e?.cause?.message;
+  return cause ? `${e.message}: ${cause}` : String(e?.message ?? e);
+};
+
+async function fetchOnce(url) {
   const res = await fetch(url, {
     signal: AbortSignal.timeout(TIMEOUT_MS),
-    headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml" },
+    headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml", "Accept-Language": "en" },
     redirect: "follow",
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
+}
+
+async function fetchPage(url) {
+  try {
+    return await fetchOnce(url);
+  } catch (e) {
+    if (/^HTTP 4/.test(e.message)) throw new Error(describeError(e)); // refused, no point retrying
+    await new Promise((r) => setTimeout(r, 3000));
+    try {
+      return await fetchOnce(url);
+    } catch (e2) {
+      throw new Error(describeError(e2));
+    }
+  }
 }
 
 async function loadPrevious() {
