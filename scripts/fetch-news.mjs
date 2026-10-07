@@ -164,9 +164,9 @@ const COUNTRIES = [
   ["Vietnam", /\bvietnam\w*\b/i],
   ["Laos", /\blaos\b|\blao\b/i],
   ["Papua New Guinea", /\bpapua new guinea\b|\bPNG\b/i],
-  ["Australia", /\b(?:australia\w*|queensland|new south wales|nsw|pilbara|hunter valley|tasmania)\b/i],
-  ["Canada", /\b(?:canad\w*|ontario|quebec|british columbia|saskatchewan|alberta|sudbury|nunavut|yukon)\b/i],
-  ["United States", /\b(?:united states|u\.s\.a?\.?|usa|american|alaska|nevada|arizona|utah|wyoming|montana|west virginia|kentucky|appalachia\w*|msha)\b/i],
+  ["Australia", /\b(?:australia\w*|queensland|new south wales|nsw|pilbara|hunter valley|tasmania|kalgoorlie|yilgarn|murchison|gascoyne|gawler|lachlan|northern territory)\b/i],
+  ["Canada", /\b(?:canad\w*|ontario|qu[eé]bec|british columbia|saskatchewan|alberta|sudbury|nunavut|yukon|manitoba|newfoundland|labrador|new brunswick|nova scotia|northwest territories|abitibi|timmins|red lake|flin flon|val-d.or|yellowknife|james bay|thunder bay)\b/i],
+  ["United States", /\b(?:united states|u\.s\.a?\.?|usa|american|alaska|nevada|arizona|utah|wyoming|montana|idaho|colorado|california|oregon|new mexico|south dakota|minnesota|michigan|west virginia|kentucky|appalachia\w*|msha)\b/i],
   ["Mexico", /\b(?:mexic\w*|sonora|coahuila|zacatecas)\b/i],
   ["Peru", /\bperu\w*\b/i],
   ["Chile", /\b(?:chile\w*|el teniente|escondida|antofagasta)\b/i],
@@ -209,13 +209,72 @@ export function findCountry(hay, scope) {
   return scope === "National" ? "Pakistan" : "Unspecified";
 }
 
+// Exploration results tab -------------------------------------------------
+// A story qualifies when it is about copper, gold or lithium, announces a result
+// of exploration (drill results, a discovery, a resource estimate, a drilling
+// update) and uses project-level language.
+const EX_METALS = [
+  ["Copper", /\bcopper\b/i, /\b(?:Cu|CuEq)\b/],
+  ["Gold", /\bgold\b/i, /\b(?:Au|AuEq)\b/],
+  ["Lithium", /\b(?:lithium|spodumene)\b/i, /\b(?:Li2O|LCE)\b/],
+];
+const EX_TYPES = [
+  ["Discovery", /\b(?:new discovery|discover(?:s|ed|y|ies)|greenfield discovery)\b/i],
+  ["Resource estimate", /\b(?:(?:maiden |updated |initial |new )?mineral resource(?: estimate| update| upgrade)?s?|resource (?:estimate|update|upgrade)|MRE)\b/i],
+  ["Drill results", /\b(?:drill(?:ing|hole)? results?|drill holes?|intersect(?:s|ed|ing)?|intercepts?|assay results?|assays|step-?out|infill (?:drilling|results)|returns? (?:\d|high-?grade))\b/i],
+  ["Drilling update", /\b(?:(?:commences?|begins?|starts?|launch\w*|completes?|completed|initiates?|mobili[sz]\w*|resumes?|expands?)\s+(?:\w+\s+){0,3}(?:drill(?:ing)?|exploration)|drill(?:ing)? (?:program(?:me)?|campaign|update)|exploration update)\b/i],
+];
+const EX_CONTEXT_RE =
+  /\b(?:projects?|propert(?:y|ies)|prospects?|deposits?|zones?|veins?|targets?|minerali[sz]ation|drill\w*|exploration|g\/t|gpt|assays?|lode|porphyry|tenure|claims?|licen[cs]es?|tenements?|resource)\b/i;
+// "52 m @ 1.25 g/t Au", "78.5 metres grading 0.8% copper", "1.5% Li2O over 30 m"
+const GRADE_A = /(\d[\d,]*(?:\.\d+)?)\s*(?:m|metres?|meters?)\b\s*(?:@|at|of|grading|averaging|containing|with)\s*(\d+(?:\.\d+)?)\s*(g\/t|gpt|%|ppm)\s*([A-Za-z][A-Za-z0-9]{1,5})?/i;
+const GRADE_B = /(\d+(?:\.\d+)?)\s*(g\/t|gpt|%)\s*([A-Za-z][A-Za-z0-9]{1,5})?\s+over\s+(\d[\d,]*(?:\.\d+)?)\s*(?:m|metres?|meters?)\b/i;
+const METAL_WORDS = { gold: "Au", copper: "Cu", lithium: "Li" };
+
+function tidyGrade(len, grade, unit, metal) {
+  const u = unit.toLowerCase() === "gpt" ? "g/t" : unit;
+  let m = metal ?? "";
+  if (/^(?:and|with|of|over|at|from|in|to|the)$/i.test(m)) m = "";
+  m = METAL_WORDS[m.toLowerCase()] ?? m;
+  return `${len.replace(/,/g, "")} m @ ${grade}${u === "%" ? "%" : " " + u}${m ? " " + m : ""}`;
+}
+
+export function findExploration(hay) {
+  const metals = EX_METALS.filter(([, ci, cs]) => ci.test(hay) || cs.test(hay)).map(([n]) => n);
+  if (!metals.length || !EX_CONTEXT_RE.test(hay)) return null;
+  const grade = GRADE_A.exec(hay) ?? GRADE_B.exec(hay);
+  let type = "";
+  for (const [name, re] of EX_TYPES) if (re.test(hay)) { type = name; break; }
+  if (!type && grade) type = "Drill results";
+  if (!type) return null;
+  let highlight = "";
+  if (grade) {
+    const a = GRADE_A.exec(hay);
+    highlight = a ? tidyGrade(a[1], a[2], a[3], a[4]) : tidyGrade(grade[4], grade[1], grade[2], grade[3]);
+  }
+  return { type, metals, highlight };
+}
+
+const SUBREGIONS = [
+  "Ontario", "Quebec", "British Columbia", "Yukon", "Nunavut", "Newfoundland and Labrador", "Saskatchewan", "Manitoba", "Northwest Territories",
+  "Nevada", "Arizona", "Alaska", "Utah", "Idaho", "Montana", "Wyoming", "Colorado", "California",
+  "Western Australia", "Queensland", "New South Wales", "South Australia", "Tasmania", "Northern Territory",
+].map((n) => [n, new RegExp(`\\b${n.replace("Newfoundland and Labrador", "Newfoundland").replace(/ /g, "\\s+")}\\b`, "i")]);
+
+export function findRegion(hay) {
+  for (const [name, re] of SUBREGIONS) if (re.test(hay)) return name;
+  return "";
+}
+
 /**
  * mining: shown in the main mining feed. General newspapers are only "mining"
  * when the story passes the mining check.
  * chagaiSecurity: shown on the Chagai security tab.
  */
 export function classifyStory(hay, filter, scope = "International") {
-  const mining = filter === "mining" ? isMiningStory(hay) : true;
+  // "exploration" feeds (press-release wires) are only used for the exploration tab.
+  const mining = filter === "mining" ? isMiningStory(hay) : filter === "exploration" ? false : true;
+  const ex = findExploration(hay);
   // Mining publications are all about mining, so an incident word is enough;
   // general newspapers must also pass the mining check.
   const safetyType = mining ? findSafetyType(hay) : "";
@@ -224,6 +283,11 @@ export function classifyStory(hay, filter, scope = "International") {
     chagaiSecurity: isChagaiSecurity(hay),
     safetyType,
     country: safetyType ? findCountry(hay, scope) : "",
+    exType: ex?.type ?? "",
+    exMetals: ex?.metals ?? [],
+    exHighlight: ex?.highlight ?? "",
+    exCountry: ex ? findCountry(hay, "International") : "",
+    exRegion: ex ? findRegion(hay) : "",
   };
 }
 
@@ -366,11 +430,12 @@ export function parseFeedXml(xml, feed) {
         provinces: findProvinces(hay, feed.province),
         tags: findCommodities(hay),
         ...classifyStory(hay, feed.filter, feed.scope),
+        press: feed.kind === "press",
       };
     })
     .filter((i) => i.title && i.link);
 
-  const items = all.filter((i) => i.mining || i.chagaiSecurity);
+  const items = all.filter((i) => i.mining || i.chagaiSecurity || i.exType);
   return { items, total: all.length };
 }
 
@@ -408,6 +473,11 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepP
     chagaiSecurity: false,
     safetyType: "",
     country: "",
+    exType: "",
+    exMetals: [],
+    exHighlight: "",
+    exCountry: "",
+    exRegion: "",
     ...i,
   });
 
@@ -429,6 +499,8 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepP
             chagaiSecurity: old.chagaiSecurity || item.chagaiSecurity,
             safetyType: item.safetyType || old.safetyType,
             country: item.country || old.country,
+            ...(item.exType ? {} : { exType: old.exType, exMetals: old.exMetals, exHighlight: old.exHighlight, exCountry: old.exCountry, exRegion: old.exRegion }),
+            press: item.press || old.press,
           }
         : item
     );
@@ -479,13 +551,18 @@ async function main() {
 
   // Stories saved by earlier runs are checked again against the current rules,
   // so a keyword fix also removes stories that were wrongly kept before.
-  const miningOnly = new Set(feeds.filter((f) => f.filter === "mining").map((f) => f.name));
-  feeds.filter((f) => f.filter !== "mining").forEach((f) => miningOnly.delete(f.name));
+  const filtersByName = new Map();
+  feeds.forEach((f) => filtersByName.set(f.name, [...(filtersByName.get(f.name) ?? []), f.filter]));
+  // A source is "mining" / "exploration" only when every feed under that name is.
+  const filterOf = (name) => {
+    const all = filtersByName.get(name) ?? [];
+    return all.length && all.every((f) => f === "mining") ? "mining" : all.length && all.every((f) => f === "exploration") ? "exploration" : "none";
+  };
   const reviewed = previous.map((i) => ({
     ...i,
-    ...classifyStory(`${i.title} ${i.summary ?? ""}`, miningOnly.has(i.source) ? "mining" : "none", i.scope),
+    ...classifyStory(`${i.title} ${i.summary ?? ""}`, filterOf(i.source), i.scope),
   }));
-  const keepPrevious = (i) => i.mining || i.chagaiSecurity;
+  const keepPrevious = (i) => i.mining || i.chagaiSecurity || i.exType;
 
   const items = mergeItems(reviewed, fresh, new Set(feeds.map((f) => f.name)), Date.now(), keepPrevious);
 
