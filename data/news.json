@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T07:35:36.537Z",
+ "updated": "2026-10-07T08:11:05.989Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -64,6 +64,32 @@
    "error": "HTTP 403"
   },
   {
+   "source": "MINING.COM",
+   "section": "Safety search",
+   "ok": true,
+   "items": 36,
+   "seen": 36
+  },
+  {
+   "source": "MINING.COM",
+   "section": "Safety search",
+   "ok": true,
+   "items": 36,
+   "seen": 36
+  },
+  {
+   "source": "International Mining",
+   "section": "Safety search",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "source": "Mining.com.au",
+   "section": "Safety search",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
@@ -124,7 +150,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 110
+   "seen": 113
   },
   {
    "source": "Pakistan Observer",
@@ -174,6 +200,26 @@
    "seen": 10
   },
   {
+   "source": "The Frontier Post",
+   "section": "Safety search",
+   "ok": true,
+   "items": 1,
+   "seen": 10
+  },
+  {
+   "source": "Daily Times",
+   "section": "Safety search",
+   "ok": false,
+   "error": "HTTP 403"
+  },
+  {
+   "source": "Daily Pakistan",
+   "section": "Safety search",
+   "ok": true,
+   "items": 2,
+   "seen": 10
+  },
+  {
    "source": "Chitral Times",
    "section": "",
    "ok": true,
@@ -182,6 +228,116 @@
   }
  ],
  "items": [
+  {
+   "title": "Trelleborg out to optimise inflation systems for OTR tyres with Turcon SG rotary seal",
+   "link": "https://im-mining.com/2026/10/07/trelleborg-out-to-optimise-inflation-systems-for-otr-tyres-with-turcon-sg-rotary-seal/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T07:51:59.000Z",
+   "summary": "Trelleborg Sealing Solutions has launched Turcon® SG, a range of specialised sealing components engineered to optimise performance of central tyre inflation systems (CTIS) in challenging off-highway environments. Built for sectors such as...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Perseus says gold M&A activity high but deals hard to close over price uncertainty",
+   "link": "https://www.miningweekly.com/article/perseus-says-gold-ma-activity-high-but-deals-hard-to-close-over-price-uncertainty-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T07:43:00.000Z",
+   "summary": "Gold miner Perseus Mining sees strong merger and acquisition activity across the sector but expects dealmaking to remain difficult as companies struggle to agree on valuations amid volatile bullion prices, its chief executive said....",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Genesis mulls gold mine sales once Vault takeover is completed",
+   "link": "https://www.miningweekly.com/article/genesis-mulls-gold-mine-sales-once-vault-takeover-is-completed-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T07:32:00.000Z",
+   "summary": "Gold producer Genesis Minerals is looking to sell or spin off some Australian mines after it completes a takeover of Vault Minerals. “We’re in a strategic review at the moment,” Genesis executive chairperson Raleigh Finlayson said at a...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "India's biggest power producer plans more private coal buying, people say",
+   "link": "https://www.miningweekly.com/article/indias-biggest-power-producer-plans-more-private-coal-buying-people-say-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T07:28:00.000Z",
+   "summary": "India's biggest power producer, NTPC plans to buy more coal from private mining companies to overcome fuel shortages and meet rising electricity demand, two people familiar with the matter said. India is relying on thermal power to meet...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "District Metals begins diamond drilling at Sweden’s Viken Property",
+   "link": "https://www.mining-technology.com/news/district-metals-drilling-viken-property/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T07:25:33.000Z",
+   "summary": "District Metals has begun diamond drilling at its Viken Property located in central Sweden’s Jämtland County.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-1-7Oct26-shutterstock_2165762479.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Chile's Codelco probes over-inflated 2024, 2025 copper production figures",
+   "link": "https://www.miningweekly.com/article/chiles-codelco-probes-over-inflated-2024-2025-copper-production-figures-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T07:23:00.000Z",
+   "summary": "Chile's Codelco is investigating new evidence of over-reported copper production in 2024 and 2025, the State-run miner said on Tuesday, a probe that could further stoke industry concerns about the reliability of the firm's production...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -3989,7 +4145,7 @@
    "region": "Global"
   },
   {
-   "section": "",
+   "section": "Safety search",
    "scope": "International",
    "provinces": [],
    "tags": [],
@@ -4477,6 +4633,44 @@
    "region": "Global"
   },
   {
+   "title": "Union at BHP's Escondida mine in Chile refuses to pause contract talks after fatal accident",
+   "link": "https://www.mining.com/web/union-at-bhps-escondida-mine-in-chile-refuses-to-pause-contract-talks-after-fatal-accident/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-27T17:52:23.000Z",
+   "summary": "The Australian-based miner had asked for a temporary suspension of talks with supervisors and staff due to the accident.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Safety search",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "title": "Pakistan Army leads Dramatic Rescue as 3 Pulled Alive from Peshawar Coal Mine",
+   "link": "https://en.dailypakistan.com.pk/26-Sep-2026/pakistan-army-leads-dramatic-rescue-as-3-pulled-alive-from-peshawar-coal-mine",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-26T14:55:03.000Z",
+   "summary": "PESHAWAR – A rescue operation is underway after a coal mine collapsed near Pastwana Top in Peshawar’s Hassan Khel area, trapping four people underground. The incident occurred when soil and debris suddenly fell inside the mine, leaving the...",
+   "image": null,
+   "source": "Daily Pakistan",
+   "section": "Safety search",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -4509,6 +4703,23 @@
    "image": null,
    "source": "Global Mining Review",
    "region": "Global"
+  },
+  {
+   "title": "BHP halts operations at Escondida following fatal accident",
+   "link": "https://www.mining.com/fatal-accident-reported-at-bhps-escondida-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-23T19:33:29.000Z",
+   "summary": "Chile’s Sernageomin confirmed the fatal accident, and deployed a regional team to investigate.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Safety search",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
   },
   {
    "section": "Pakistan",
@@ -4545,6 +4756,27 @@
    "image": null,
    "source": "Daily Pakistan",
    "region": "Pakistan"
+  },
+  {
+   "title": "Four miners killed in Harnai coal mine gas explosion",
+   "link": "https://thefrontierpost.com/four-miners-killed-in-harnai-coal-mine-gas-explosion/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-13T17:54:15.000Z",
+   "summary": "F.P. Report HARNAI: At least four miners were killed and two others injured after a methane gas explosion in a coal mine in Harnai district of Balochistan, officials said on Sunday. Chief Mines Inspector Atif Ali said that the explosion...",
+   "image": null,
+   "source": "The Frontier Post",
+   "section": "Safety search",
+   "scope": "National",
+   "region": "Peshawar",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false
   }
  ]
 }
