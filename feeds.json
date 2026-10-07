@@ -11,18 +11,14 @@
 
   { "name": "MINING.COM", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=fatality&feed=rss2", "filter": "none" },
   { "name": "MINING.COM", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=accident&feed=rss2", "filter": "none" },
-  { "name": "International Mining", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://im-mining.com/?s=fatality&feed=rss2", "filter": "none" },
-  { "name": "Mining.com.au", "section": "Safety search", "scope": "International", "region": "Asia-Pacific", "url": "https://mining.com.au/?s=fatality&feed=rss2", "filter": "none" },
 
   { "name": "GlobeNewswire", "section": "Drill results", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/drill%20results", "filter": "exploration" },
   { "name": "GlobeNewswire", "section": "Intersects", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/intersects", "filter": "exploration" },
   { "name": "GlobeNewswire", "section": "Mineral resource", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/mineral%20resource%20estimate", "filter": "exploration" },
-  { "name": "GlobeNewswire", "section": "Discovery", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/discovery%20drilling", "filter": "exploration" },
-  { "name": "PR Newswire", "section": "Mining & metals", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.prnewswire.com/rss/energy/mining-metals-news.rss", "filter": "exploration" },
+  { "name": "GlobeNewswire", "section": "Assay results", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/assay%20results", "filter": "exploration" },
+  { "name": "GlobeNewswire", "section": "Exploration update", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/exploration%20update", "filter": "exploration" },
   { "name": "MINING.COM", "section": "Exploration search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=drill+results&feed=rss2", "filter": "none" },
   { "name": "MINING.COM", "section": "Exploration search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=discovery&feed=rss2", "filter": "none" },
-  { "name": "International Mining", "section": "Exploration search", "scope": "International", "region": "Global", "url": "https://im-mining.com/?s=drill+results&feed=rss2", "filter": "none" },
-  { "name": "Mining.com.au", "section": "Exploration search", "scope": "International", "region": "Asia-Pacific", "url": "https://mining.com.au/?s=drill+results&feed=rss2", "filter": "none" },
 
   { "name": "Dawn", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/pakistan", "filter": "mining" },
   { "name": "Dawn", "section": "Business", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/business", "filter": "mining" },
@@ -35,13 +31,10 @@
   { "name": "ARY News", "scope": "National", "region": "Pakistan", "url": "https://arynews.tv/feed/", "filter": "mining" },
   { "name": "Pakistan Observer", "scope": "National", "region": "Pakistan", "url": "https://pakobserver.net/feed/", "filter": "mining" },
   { "name": "The Frontier Post", "scope": "National", "region": "Peshawar", "url": "https://thefrontierpost.com/feed/", "filter": "mining" },
-  { "name": "Pakistan Observer", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://pakobserver.net/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "The Frontier Post", "section": "Chagai search", "scope": "National", "region": "Peshawar", "url": "https://thefrontierpost.com/?s=chagai&feed=rss2", "filter": "mining" },
-  { "name": "Daily Times", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://dailytimes.com.pk/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "Daily Pakistan", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://en.dailypakistan.com.pk/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "The Balochistan Post", "section": "Balochistan", "scope": "National", "region": "Balochistan", "province": "Balochistan", "url": "https://thebalochistanpost.net/category/tbp-balochistan/balochistan/feed/", "filter": "mining" },
   { "name": "The Frontier Post", "section": "Safety search", "scope": "National", "region": "Peshawar", "url": "https://thefrontierpost.com/?s=coal+mine&feed=rss2", "filter": "mining" },
-  { "name": "Daily Times", "section": "Safety search", "scope": "National", "region": "Pakistan", "url": "https://dailytimes.com.pk/?s=coal+mine&feed=rss2", "filter": "mining" },
   { "name": "Daily Pakistan", "section": "Safety search", "scope": "National", "region": "Pakistan", "url": "https://en.dailypakistan.com.pk/?s=coal+mine&feed=rss2", "filter": "mining" },
   { "name": "Chitral Times", "scope": "National", "region": "Chitral", "province": "Khyber Pakhtunkhwa", "url": "https://chitraltimes.com/feed", "filter": "mining" }
 ]
