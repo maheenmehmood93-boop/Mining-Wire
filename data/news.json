@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T12:43:08.695Z",
+ "updated": "2026-10-07T13:36:26.702Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -179,7 +179,7 @@
    "source": "Geo News",
    "section": "Pakistan",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 20
   },
   {
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 140
+   "seen": 145
   },
   {
    "source": "Pakistan Observer",
@@ -248,6 +248,34 @@
  ],
  "items": [
   {
+   "title": "BHP agrees to sell Kambalda nickel concentrator to Gold Fields",
+   "link": "https://im-mining.com/2026/10/07/bhp-agrees-to-sell-kambalda-nickel-concentrator-to-gold-fields/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T13:16:04.000Z",
+   "summary": "Gold Fields has entered into formal agreements to acquire BHP's nickel concentrator and associated exploration properties in Kambalda, Western Australia. Gold Fields will now undertake a detailed assessment of the assets and the...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -273,6 +301,19 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Large underground mobile fleet up for grabs in Finsch asset sale",
    "link": "https://im-mining.com/2026/10/07/large-underground-mobile-fleet-up-for-grabs-in-finsch-asset-sale/",
    "via": "",
@@ -281,9 +322,12 @@
    "summary": "Proceedings are well underway in the asset disposal programme for Finsch Diamond Mine (Pty) Ltd (In Business Rescue), situated near Lime Acres in the Northern Cape. Park Village Auctions (PVA) was appointed to facilitate the structured...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -295,9 +339,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "South Africa to establish new Commission to oversee State firms",
    "link": "https://www.miningweekly.com/article/south-africa-to-establish-new-commission-to-oversee-state-firms-2026-10-07",
    "via": "",
@@ -306,20 +347,7 @@
    "summary": "South Africa intends establishing a commission chaired by President Cyril Ramaphosa to coordinate the work of its State-owned firms after shelving plans to place them under the auspices of a holding company. The new panel will review a...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
    "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -345,6 +373,33 @@
    "image": null,
    "source": "Global Mining Review",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Antofagasta’s Centinela strike adds copper supply risk",
+   "link": "https://www.mining.com/antofagastas-centinela-strike-adds-copper-supply-risk/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T11:52:00.000Z",
+   "summary": "Labour unrest at a major Chilean mine compounds concerns over global metal availability as copper trades near record levels.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -450,17 +505,8 @@
    "press": false
   },
   {
-   "title": "Sigma Lithium jumps as Brazil court clears Grota mine restart",
-   "link": "https://www.mining.com/sigma-lithium-jumps-as-brazil-court-clears-grota-mine-restart/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T10:47:00.000Z",
-   "summary": "Appeals court lifted a September emergency order, allowing Grota do Cirilo’s restart as Sigma aims for major production boost.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -474,6 +520,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sigma Lithium jumps as Brazil court clears Grota mine restart",
+   "link": "https://www.mining.com/sigma-lithium-jumps-as-brazil-court-clears-grota-mine-restart/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T10:47:00.000Z",
+   "summary": "Appeals court lifted a September emergency order, allowing Grota do Cirilo’s restart as Sigma aims for major production boost.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -962,7 +1017,7 @@
    "via": "",
    "viaUrl": "",
    "date": "2026-10-07T08:07:00.000Z",
-   "summary": "The global economy is under threat from persistently high energy prices, record public debt and risks from the AI investment boom, International Monetary Fund (IMF) MD Kristalina Georgieva warned on Wednesday, urging governments to...",
+   "summary": "The global economy is under threat from persistently high energy prices, record public debt and risks from the AI investment boom, International Monetary Fund MD Kristalina Georgieva warned on Wednesday, urging governments to implement...",
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa"
