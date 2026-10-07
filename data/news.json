@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T22:31:52.706Z",
+ "updated": "2026-10-07T23:29:59.368Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -248,17 +248,8 @@
  ],
  "items": [
   {
-   "title": "Workers at Chile's Centinela copper mine strike after talks fail",
-   "link": "https://www.miningweekly.com/article/workers-at-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T21:44:00.000Z",
-   "summary": "Two unions at Chile's Centinela copper mine rejected further contract talks with Antofagasta Minerals on Wednesday and decided to strike after government-mediated negotiations failed to produce a deal. The risk of a strike in Chile, the...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper"
@@ -272,20 +263,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Workers at Chile's Centinela copper mine strike after talks fail",
+   "link": "https://www.miningweekly.com/article/workers-at-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T21:44:00.000Z",
+   "summary": "Two unions at Chile's Centinela copper mine rejected further contract talks with Antofagasta Minerals on Wednesday and decided to strike after government-mediated negotiations failed to produce a deal. The risk of a strike in Chile, the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Savannah Resource close to second offtake deal for Portugal lithium project",
-   "link": "https://www.miningweekly.com/article/savannah-resource-close-to-second-offtake-deal-for-portugal-lithium-project-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T21:36:00.000Z",
-   "summary": "London-listed Savannah Resources SAVS.L is close to signing a key second offtake deal for future output from its flagship Barroso lithium project in northern Portugal, with an agreement expected this quarter, CEO Emanuel Proenca said on an...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -299,6 +290,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Savannah Resource close to second offtake deal for Portugal lithium project",
+   "link": "https://www.miningweekly.com/article/savannah-resource-close-to-second-offtake-deal-for-portugal-lithium-project-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T21:36:00.000Z",
+   "summary": "London-listed Savannah Resources SAVS.L is close to signing a key second offtake deal for future output from its flagship Barroso lithium project in northern Portugal, with an agreement expected this quarter, CEO Emanuel Proenca said on an...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
