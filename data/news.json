@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T04:35:42.753Z",
+ "updated": "2026-10-07T05:34:26.958Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "Dawn",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 93
+   "seen": 98
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +176,31 @@
  ],
  "items": [
   {
+   "title": "CEMTEC and Eirich partner to deliver &#8216;comprehensive grinding solutions' for mining",
+   "link": "https://im-mining.com/2026/10/07/cemtec-and-eirich-partner-to-deliver-comprehensive-grinding-solutions-for-mining/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T05:14:04.000Z",
+   "summary": "CEMTEC and Eirich have agreed to collaborate by combining their complementary grinding technologies and expertise, bringing together two established European companies with a global presence in mining and mineral processing. CEMTEC...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Australian shares inch lower as banks and miners drag",
    "link": "https://www.brecorder.com/news/40443056/australian-shares-inch-lower-as-banks-and-miners-drag",
    "via": "",
@@ -184,15 +209,7 @@
    "summary": "Australian shares inched lower on Wednesday, as losses in banks and miners outweighed gains in gold and energy stocks, while a survey showing a sharp drop in October consumer sentiment also weighed on risk appetite. The S&P/ASX 200 index...",
    "image": "https://i.brecorder.com/large/2026/10/07085919cb3b6a4.webp",
    "source": "Business Recorder",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Pakistan"
   },
   {
    "section": "",
