@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T11:59:39.427Z",
+ "updated": "2026-10-07T12:00:50.365Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -273,6 +273,19 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "BME on engineering smarter explosive supply for African mining",
    "link": "https://im-mining.com/2026/10/07/bme-on-engineering-smarter-explosive-supply-for-african-mining/",
    "via": "",
@@ -281,9 +294,12 @@
    "summary": "BME, an Omnia Holdings company, has engineered modular, containerised emulsion plants that, it says, help address the logistical and supply chain challenges faced by remote mines by providing a secure, reliable supply of explosives on...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -295,9 +311,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "NioBay seeks partners to advance Crevier project",
    "link": "https://www.northernminer.com/news/niobay-seeks-partners-to-advance-crevier-project/1003895496/",
    "via": "",
@@ -306,20 +319,7 @@
    "summary": "Junior explorer NioBay Metals (TSXV: NBY; US-OTC: NBYCF) is looking for financial backers to speed up development of its Crevier niobium-tantalum project in northern Quebec and pave the way for...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -535,17 +535,8 @@
    "press": false
   },
   {
-   "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
-   "link": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:45:53.000Z",
-   "summary": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Geothermal-drilling-data-centres-Thumbnail.png",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -557,6 +548,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
+   "link": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T09:45:53.000Z",
+   "summary": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Geothermal-drilling-data-centres-Thumbnail.png",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
