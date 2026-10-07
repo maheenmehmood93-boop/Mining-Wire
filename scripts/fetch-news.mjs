@@ -112,15 +112,118 @@ export function isChagaiSecurity(hay) {
   return CHAGAI_RE.test(hay) && (SECURITY_RE.test(hay) || FC_RE.test(hay));
 }
 
+// Safety incidents tab ------------------------------------------------------
+// Each story gets at most one type; the first matching entry wins, so specific
+// events (collapse, tailings) take priority over the general "fatality" bucket.
+const SAFETY_TYPES = [
+  ["Collapse / cave-in", /\b(?:collaps\w*|cave[- ]?ins?|caved in|trapped|rock ?falls?|roof falls?|landslides?|mudslides?|slope failure|buried|entombed)\b/i],
+  ["Tailings / dam failure", /\b(?:tailings|dam (?:failure|collapse|breach|burst))\b/i],
+  ["Explosion / fire", /\b(?:explosions?|exploded|blasts?|methane|mine fire|underground fire|caught fire|blaze|fire (?:broke|at|in))\b/i],
+  ["Flooding", /\b(?:flood\w*|inundat\w*|water ingress)\b/i],
+  ["Gas / ventilation", /\b(?:gas leak|toxic gas|poisonous gas|carbon monoxide|asphyxia\w*|suffocat\w*|ventilation)\b/i],
+  ["Vehicle / equipment", /\b(?:haul truck|dump truck|truck|vehicle|conveyor|crane|machinery|helicopter crash|shaft accident|cage accident|winder)\b/i],
+  ["Fatality / injury", /\b(?:fatal\w*|killed|dead|died|deaths?|dies|lost (?:his|her|their) li(?:fe|ves)|injur\w*|missing miners?|miners? (?:missing|killed|died)|bodies recovered|worker death)\b/i],
+  ["Safety alert / enforcement", /\b(?:safety (?:alerts?|notices?|warnings?|probe|investigation|lapses?|breach\w*|violations?|inspections?|audits?|shutdown)|stop[- ]work|suspend(?:s|ed)? (?:operations|mining|work)|shut(?:s)? down|closure order|prohibition (?:order|notice)|fined|inspector of mines|msha|mine safety (?:regulator|inspection|audit|probe|investigation|breach))\b/i],
+];
+// Awards, conferences and product news that use the same words.
+const NOT_SAFETY_RE = /\b(?:awards?|prizes?|webinar|conference|sponsor\w*|landslide (?:victory|win)|record low|improv\w+ (?:safety|record))\b/i;
+
+// Words like "truck" or "blast" are routine in mining news, so every type except
+// the alert/enforcement one also needs a word that says something went wrong.
+const INCIDENT_RE =
+  /\b(?:accidents?|incidents?|fatal\w*|killed|dead|died|deaths?|dies|injur\w*|trap(?:s|ped)|missing|collaps\w*|cave[- ]?ins?|disaster|tragedy|tragic|rescue[ds]?|evacuat\w*|fire|explosions?|exploded|spill\w*|failure|breach\w*|burst|buried|buries|landslides?|mudslides?|lost (?:his|her|their) li(?:fe|ves))\b/i;
+
+export function findSafetyType(hay) {
+  if (NOT_SAFETY_RE.test(hay)) return "";
+  const wentWrong = INCIDENT_RE.test(hay);
+  for (const [type, re] of SAFETY_TYPES) {
+    if (re.test(hay) && (wentWrong || type === "Safety alert / enforcement")) return type;
+  }
+  return "";
+}
+
+// Country is taken from the earliest place named in the headline or excerpt.
+const COUNTRIES = [
+  ["Pakistan", new RegExp(`\\b(?:pakistan\\w*|punjab|sindh|karachi|lahore|islamabad|rawalpindi)\\b|${PROVINCES.Balochistan.en.source}|${PROVINCES["Khyber Pakhtunkhwa"].en.source}|${PROVINCES.Balochistan.ur.source}|${PROVINCES["Khyber Pakhtunkhwa"].ur.source}`, "i")],
+  ["China", /\b(?:china|chinese|shanxi|inner mongolia|guizhou|sichuan|yunnan|henan|xinjiang|shaanxi|guangxi)\b/i],
+  ["India", /\b(?:india\w*|jharkhand|odisha|chhattisgarh|meghalaya|dhanbad|assam|rajasthan|telangana)\b/i],
+  ["Indonesia", /\b(?:indonesia\w*|sulawesi|kalimantan|sumatra|papua(?! new))\b/i],
+  ["Philippines", /\b(?:philippines?|filipino|mindanao|benguet)\b/i],
+  ["Bangladesh", /\bbangladesh\w*\b/i],
+  ["Nepal", /\bnepal\w*\b/i],
+  ["Afghanistan", /\bafghan\w*\b/i],
+  ["Iran", /\b(?:iran|iranian|tabas|kerman)\b/i],
+  ["Turkey", /\b(?:turkey|t[uü]rkiye|turkish|soma|amasra|[iİ]liç)\b/i],
+  ["Kazakhstan", /\bkazakh\w*\b/i],
+  ["Mongolia", /\bmongolia\w*\b/i],
+  ["Russia", /\b(?:russia\w*|siberia\w*|kemerovo|kuzbass)\b/i],
+  ["Ukraine", /\bukrain\w*\b/i],
+  ["Poland", /\b(?:poland|polish|silesia\w*)\b/i],
+  ["Serbia", /\bserbia\w*\b/i],
+  ["Myanmar", /\b(?:myanmar|burma|burmese|hpakant)\b/i],
+  ["Vietnam", /\bvietnam\w*\b/i],
+  ["Laos", /\blaos\b|\blao\b/i],
+  ["Papua New Guinea", /\bpapua new guinea\b|\bPNG\b/i],
+  ["Australia", /\b(?:australia\w*|queensland|new south wales|nsw|pilbara|hunter valley|tasmania)\b/i],
+  ["Canada", /\b(?:canad\w*|ontario|quebec|british columbia|saskatchewan|alberta|sudbury|nunavut|yukon)\b/i],
+  ["United States", /\b(?:united states|u\.s\.a?\.?|usa|american|alaska|nevada|arizona|utah|wyoming|montana|west virginia|kentucky|appalachia\w*|msha)\b/i],
+  ["Mexico", /\b(?:mexic\w*|sonora|coahuila|zacatecas)\b/i],
+  ["Peru", /\bperu\w*\b/i],
+  ["Chile", /\b(?:chile\w*|el teniente|escondida|antofagasta)\b/i],
+  ["Colombia", /\bcolombia\w*\b/i],
+  ["Bolivia", /\bbolivia\w*\b/i],
+  ["Brazil", /\b(?:brazil\w*|minas gerais|par[aá] state|carajas)\b/i],
+  ["Argentina", /\bargentin\w*\b/i],
+  ["Ecuador", /\becuador\w*\b/i],
+  ["Venezuela", /\bvenezuela\w*\b/i],
+  ["South Africa", /\b(?:south africa\w*|gauteng|rustenburg|johannesburg|witwatersrand|limpopo|mpumalanga|northern cape|north west province|zandspruit)\b/i],
+  ["Zimbabwe", /\bzimbabwe\w*\b/i],
+  ["Zambia", /\bzambia\w*\b/i],
+  ["DR Congo", /\b(?:drc|dr congo|d\.r\. congo|democratic republic of (?:the )?congo|congo|katanga|kolwezi|lualaba|kinshasa)\b/i],
+  ["Tanzania", /\btanzania\w*\b/i],
+  ["Kenya", /\bkenya\w*\b/i],
+  ["Uganda", /\buganda\w*\b/i],
+  ["Ghana", /\bghana\w*\b/i],
+  ["Mali", /\bmali\b/i],
+  ["Burkina Faso", /\bburkina\b/i],
+  ["Niger", /\bniger\b/i],
+  ["Nigeria", /\bnigeria\w*\b/i],
+  ["Guinea", /(?<!(?:new|equatorial)\s)\bguinea\b/i],
+  ["Ivory Coast", /\b(?:ivory coast|c[oô]te d.ivoire|ivorian)\b/i],
+  ["Sudan", /(?<!south\s)\bsudan\w*\b/i],
+  ["Morocco", /\bmorocc\w*\b/i],
+  ["Saudi Arabia", /\bsaudi\b/i],
+  ["Spain", /\bspain\b|\bspanish\b/i],
+  ["Sweden", /\bsweden\b|\bswedish\b/i],
+  ["Finland", /\bfinland\b|\bfinnish\b/i],
+];
+
+export function findCountry(hay, scope) {
+  let best = "";
+  let bestAt = Infinity;
+  for (const [name, re] of COUNTRIES) {
+    const m = re.exec(hay);
+    if (m && m.index < bestAt) { best = name; bestAt = m.index; }
+  }
+  if (best) return best;
+  return scope === "National" ? "Pakistan" : "Unspecified";
+}
+
 /**
  * mining: shown in the main mining feed. General newspapers are only "mining"
  * when the story passes the mining check.
  * chagaiSecurity: shown on the Chagai security tab.
  */
-export function classifyStory(hay, filter) {
+export function classifyStory(hay, filter, scope = "International") {
+  const mining = filter === "mining" ? isMiningStory(hay) : true;
+  // Mining publications are all about mining, so an incident word is enough;
+  // general newspapers must also pass the mining check.
+  const safetyType = mining ? findSafetyType(hay) : "";
   return {
-    mining: filter === "mining" ? isMiningStory(hay) : true,
+    mining,
     chagaiSecurity: isChagaiSecurity(hay),
+    safetyType,
+    country: safetyType ? findCountry(hay, scope) : "",
   };
 }
 
@@ -262,7 +365,7 @@ export function parseFeedXml(xml, feed) {
         region: feed.region ?? "",
         provinces: findProvinces(hay, feed.province),
         tags: findCommodities(hay),
-        ...classifyStory(hay, feed.filter),
+        ...classifyStory(hay, feed.filter, feed.scope),
       };
     })
     .filter((i) => i.title && i.link);
@@ -303,6 +406,8 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepP
     tags: [],
     mining: true,
     chagaiSecurity: false,
+    safetyType: "",
+    country: "",
     ...i,
   });
 
@@ -322,6 +427,8 @@ export function mergeItems(previous, fresh, sourceNames, now = Date.now(), keepP
             tags: union(old.tags, item.tags),
             mining: old.mining || item.mining,
             chagaiSecurity: old.chagaiSecurity || item.chagaiSecurity,
+            safetyType: item.safetyType || old.safetyType,
+            country: item.country || old.country,
           }
         : item
     );
@@ -376,7 +483,7 @@ async function main() {
   feeds.filter((f) => f.filter !== "mining").forEach((f) => miningOnly.delete(f.name));
   const reviewed = previous.map((i) => ({
     ...i,
-    ...classifyStory(`${i.title} ${i.summary ?? ""}`, miningOnly.has(i.source) ? "mining" : "none"),
+    ...classifyStory(`${i.title} ${i.summary ?? ""}`, miningOnly.has(i.source) ? "mining" : "none", i.scope),
   }));
   const keepPrevious = (i) => i.mining || i.chagaiSecurity;
 
