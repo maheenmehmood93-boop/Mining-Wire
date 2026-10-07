@@ -24,8 +24,8 @@
   h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.01em; }
   .sub { color: var(--muted); margin: 4px 0 0; font-size: .9rem; }
 
-  .tabs { max-width: 980px; margin: 0 auto; padding: 8px 16px 0; display: flex; gap: 4px; border-bottom: 1px solid var(--line); }
-  .tab { font: inherit; font-size: .95rem; padding: 9px 16px; background: none; border: 0; border-bottom: 3px solid transparent;
+  .tabs { max-width: 980px; margin: 0 auto; padding: 8px 16px 0; display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; }
+  .tab { white-space: nowrap; font: inherit; font-size: .95rem; padding: 9px 16px; background: none; border: 0; border-bottom: 3px solid transparent;
          color: var(--muted); cursor: pointer; margin-bottom: -1px; }
   .tab[aria-selected=true] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
   .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
@@ -33,6 +33,26 @@
   .group-h { margin: 22px 0 4px; font-size: .95rem; display: flex; gap: 8px; align-items: baseline; }
   .group-h:first-child { margin-top: 0; }
   .group-h .n { color: var(--muted); font-size: .8rem; font-weight: 400; }
+  .view { max-width: 980px; margin: 0 auto; padding: 16px 16px 48px; display: grid; gap: 14px; }
+  .view[hidden] { display: none; }
+  .view h3 { margin: 10px 0 0; font-size: 1rem; }
+  .view .small { color: var(--muted); font-size: .85rem; margin: 0; }
+  .tag.new { background: var(--accent); color: var(--accent-ink); }
+  table.prices { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; font-size: .92rem; }
+  table.prices th, table.prices td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); }
+  table.prices th { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+  table.prices td.num, table.prices th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  table.prices tr:last-child td { border-bottom: 0; }
+  table.prices button.metal { font: inherit; background: none; border: 0; padding: 0; color: var(--ink); cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
+  table.prices tr[aria-selected=true] { background: var(--chip); }
+  .up { color: #2f7d3a; } .down { color: #b3402a; }
+  @media (prefers-color-scheme: dark) { .up { color: #6cc57a; } .down { color: #e5826d; } }
+  .chartbox { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 8px; }
+  .chartbox svg { width: 100%; height: auto; display: block; }
+  .chartbox .axis { fill: var(--muted); font-size: 11px; }
+  .chartbox .grid { stroke: var(--line); stroke-width: 1; }
+  .chartbox .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
+  .chartbox .dot { fill: var(--accent); }
   .tab .n { opacity: .65; font-size: .78rem; margin-left: 4px; }
   .notice { max-width: 980px; margin: 14px auto 0; padding: 10px 14px; border: 1px solid var(--line); border-left: 3px solid var(--accent);
             border-radius: 8px; background: var(--surface); font-size: .85rem; color: var(--muted); }
@@ -105,13 +125,21 @@
   <button class="tab" type="button" role="tab" id="tab-mining" aria-selected="true">Mining news<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-chagai" aria-selected="false">Chagai security<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-safety" aria-selected="false">Safety incidents<span class="n"></span></button>
+  <button class="tab" type="button" role="tab" id="tab-explore" aria-selected="false">Exploration<span class="n"></span></button>
+  <button class="tab" type="button" role="tab" id="tab-notices" aria-selected="false">Licences &amp; policy<span class="n"></span></button>
+  <button class="tab" type="button" role="tab" id="tab-prices" aria-selected="false">Prices<span class="n"></span></button>
 </nav>
+<div id="newsView">
 <div class="notice" id="chagaiNote" hidden>
   Headlines from the news feeds that name Chagai district (Dalbandin, Nokkundi, Taftan, Saindak, Reko Diq and nearby) together with a security-related word. Selection is automatic, so check the original report. This is not an official security advisory; use your company security team's channels for operational decisions.
 </div>
 
 <div class="notice" id="safetyNote" hidden>
   Reported accidents and safety alerts picked out of the news feeds by keyword, with the country and type worked out from the headline and excerpt. It is not a complete or verified record, early reports often change (especially casualty numbers), and some stories will land in the wrong country or type. Check the original report.
+</div>
+
+<div class="notice" id="exploreNote" hidden>
+  Drill results, discoveries, resource estimates and drilling updates for copper, gold and lithium, taken from company press releases (tagged "Press release") and mining news. The figures are the companies' own and are not independently verified. Headline intercepts are chosen by the company and say little about the average grade of a project. The country, metal and type are worked out from the headline and excerpt by keyword. This is not investment advice.
 </div>
 
 <section class="controls" aria-label="Filters">
@@ -134,6 +162,10 @@
     </div>
   </details>
 
+  <div class="field" id="f-xmetal" hidden><span class="lbl">Metal</span><div class="seg" id="seg-xmetal" role="group" aria-label="Metal"></div></div>
+  <div class="field" id="f-xcountry" hidden><span class="lbl">Country</span><div class="seg" id="seg-xcountry" role="group" aria-label="Country"></div></div>
+  <div class="field" id="f-xtype" hidden><span class="lbl">Result type</span><div class="seg" id="seg-xtype" role="group" aria-label="Result type"></div></div>
+  <div class="field" id="f-xgroup" hidden><span class="lbl">Group by</span><div class="seg" id="seg-xgroup" role="group" aria-label="Group by"></div></div>
   <div class="field" id="f-country" hidden><span class="lbl">Country</span><div class="seg" id="seg-country" role="group" aria-label="Country"></div></div>
   <div class="field" id="f-type" hidden><span class="lbl">Type</span><div class="seg" id="seg-type" role="group" aria-label="Type"></div></div>
   <div class="field" id="f-group" hidden><span class="lbl">Group by</span><div class="seg" id="seg-group" role="group" aria-label="Group by"></div></div>
@@ -148,9 +180,13 @@
   <div class="grid" id="list"></div>
   <div class="empty" id="empty" hidden></div>
 </main>
+</div>
+
+<section class="view" id="noticesView" hidden aria-label="Licences and policy"></section>
+<section class="view" id="pricesView" hidden aria-label="Commodity prices"></section>
 
 <footer>
-  <p>Headlines and short excerpts are shown with a link to the original publisher. All rights remain with the respective publishers. Stories from general newspapers are included only when they are about mining or minerals, about security in Chagai district, or about a mining accident or safety alert. Automated headline feed; not an official company publication.</p>
+  <p>Headlines and short excerpts are shown with a link to the original publisher. All rights remain with the respective publishers. Stories from general newspapers are included only when they are about mining or minerals, about security in Chagai district, or about a mining accident or safety alert. Exploration results are company-reported and unverified. Automated headline feed; not an official company publication.</p>
   <details id="status"><summary>Feed status</summary><ul id="statusList"></ul></details>
 </footer>
 
@@ -164,11 +200,13 @@
     { value: "7d", label: "Last 7 days", ms: 7 * DAY },
     { value: "30d", label: "Last 30 days", ms: 30 * DAY },
   ];
-  const DEFAULTS = { q: "", scope: "", period: "7d", province: "", commodity: "", country: "", type: "" };
+  const DEFAULTS = { q: "", scope: "", period: "7d", province: "", commodity: "", country: "", type: "", xmetal: "", xcountry: "", xtype: "" };
   // Security news is sparse, so that tab opens on a longer period.
-  const TAB_PERIOD = { mining: "7d", chagai: "30d", safety: "30d" };
+  const TAB_PERIOD = { mining: "7d", chagai: "30d", safety: "30d", explore: "7d" };
 
-  const state = { ...DEFAULTS, tab: "mining", group: "country", off: new Set() };
+  const state = { ...DEFAULTS, tab: "mining", group: "country", xgroup: "country", off: new Set(), ntype: "", metal: "gold", range: "" };
+  let notices = { items: [], sources: [], checked: null };
+  let prices = null;
   let items = [];
   const segs = [];       // { update(countFn) }
   const paperRows = [];  // { name, label, input, n }
@@ -192,15 +230,19 @@
     const s = { ...state, ...o };
     const chagai = s.tab === "chagai";
     const safety = s.tab === "safety";
-    if (chagai ? !i.chagaiSecurity : safety ? !i.safetyType : i.mining === false) return false;
+    const explore = s.tab === "explore";
+    if (chagai ? !i.chagaiSecurity : safety ? !i.safetyType : explore ? !i.exType : i.mining === false) return false;
+    if (explore && s.xmetal && !i.exMetals.includes(s.xmetal)) return false;
+    if (explore && s.xcountry && i.exCountry !== s.xcountry) return false;
+    if (explore && s.xtype && i.exType !== s.xtype) return false;
     if (safety && s.country && i.country !== s.country) return false;
     if (safety && s.type && i.safetyType !== s.type) return false;
     if (s.scope && i.scope !== s.scope) return false;
     const win = PERIODS.find((p) => p.value === s.period).ms;
     if (Date.now() - i._t > win) return false;
-    if (!chagai && !safety && s.province && !i.provinces.includes(s.province)) return false;
+    if (!chagai && !safety && !explore && s.province && !i.provinces.includes(s.province)) return false;
     if (s.off.has(i.source)) return false;
-    if (!chagai && !safety && s.commodity && !i.tags.includes(s.commodity)) return false;
+    if (!chagai && !safety && !explore && s.commodity && !i.tags.includes(s.commodity)) return false;
     const q = s.q.trim().toLowerCase();
     if (q && !i._hay.includes(q)) return false;
     return true;
@@ -288,23 +330,184 @@
 
   function setTab(tab) {
     state.tab = tab;
-    state.period = TAB_PERIOD[tab];
+    if (TAB_PERIOD[tab]) state.period = TAB_PERIOD[tab];
     render();
+  }
+
+  // ---- Licences & policy -------------------------------------------------
+  const NOTICE_TYPES = ["Tender", "Auction", "Licence", "Policy / rules", "Notification", "Other"];
+  const fmtDate = (iso) => {
+    const d = new Date(iso.length === 7 ? iso + "-01" : iso);
+    return isNaN(d) ? iso : d.toLocaleDateString("en-GB", iso.length === 7
+      ? { month: "short", year: "numeric", timeZone: "UTC" }
+      : { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
+  };
+
+  function renderNotices() {
+    const v = $("noticesView");
+    if (!notices.checked) {
+      v.innerHTML = `<p class="small">The notice watcher has not produced results yet. It checks the government pages a few times a day once the site has been updated.</p>`;
+      return;
+    }
+    const sel = state.ntype;
+    const rows = notices.items.filter((i) => !sel || i.type === sel);
+    const count = (t) => notices.items.filter((i) => !t || i.type === t).length;
+    const chips = ["", ...NOTICE_TYPES].map((t) =>
+      `<button type="button" class="chip${count(t) === 0 && t !== sel ? " zero" : ""}" data-ntype="${esc(t)}" aria-pressed="${sel === t}">${esc(t || "All")}<span class="n">${count(t)}</span></button>`).join("");
+
+    const fresh = (i) => !i.initial && Date.now() - new Date(i.firstSeen) < 7 * DAY;
+    const card = (i) => `
+      <article>
+        <div class="meta"><span class="tag prov">${esc(i.type)}</span>${fresh(i) ? `<span class="tag new">New</span>` : ""}
+          ${i.date ? `<span>Date on page: ${esc(fmtDate(i.date))}</span>` : ""}
+          <span>${i.initial ? "Listed when tracking began" : "First seen " + esc(ago(i.firstSeen))}</span></div>
+        <h2 dir="auto"><a href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
+        ${sourceLine({ link: i.url })}
+      </article>`;
+
+    const blocks = (notices.sources || []).map((src) => {
+      const mine = rows.filter((i) => i.sourceId === src.id);
+      const pages = src.pages || [];
+      const bad = pages.filter((p) => !p.ok).length;
+      const quiet = pages.map((p) => p.note).filter(Boolean)[0];
+      let body = mine.map(card).join("");
+      if (!mine.length) {
+        body = `<p class="small">${sel ? "Nothing of this type." : bad === pages.length && pages.length
+          ? "Could not reach this website from the update job (see the page status below)."
+          : quiet ? "No notices could be read from this website: " + esc(quiet) + "."
+          : "No notices found on the pages being watched."}</p>`;
+      }
+      return `<h3>${esc(src.authority)} <span class="small">· ${mine.length}</span></h3>${body}`;
+    }).join("");
+
+    const status = (notices.sources || []).map((src) => `<li><b>${esc(src.authority)}</b><ul>${(src.pages || []).map((p) =>
+      `<li><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.url)}</a>: ${p.ok
+        ? `${p.links} links read, ${p.kept} kept${p.note ? " (" + esc(p.note) + ")" : ""}`
+        : "could not be read (" + esc(p.error) + ")"}</li>`).join("")}</ul></li>`).join("");
+
+    v.innerHTML = `
+      <p class="small">New notices, tenders and auction announcements picked up from the websites of the departments and agencies below. Last checked ${esc(ago(notices.checked))}. Titles and links are read automatically from each page, so check the original notice, and the department's own website remains the official record.</p>
+      <div class="seg" role="group" aria-label="Type">${chips}</div>
+      ${blocks}
+      <details><summary class="small">Pages being watched</summary><ul class="small">${status}</ul></details>`;
+    v.querySelectorAll("[data-ntype]").forEach((b) => (b.onclick = () => { state.ntype = b.dataset.ntype; render(); }));
+  }
+
+  // ---- Prices ----------------------------------------------------------------
+  const METAL_ORDER = ["gold", "silver", "copper", "platinum", "palladium", "aluminum", "nickel", "zinc", "lead", "tin", "iron-ore", "coal"];
+  const fmtPrice = (p) => p.toLocaleString("en-US", { minimumFractionDigits: p >= 1000 ? 0 : 2, maximumFractionDigits: p >= 1000 ? 0 : 2 });
+
+  // The series used for the table: daily when we have it, otherwise the monthly average.
+  function latestOf(id) {
+    const d = prices.daily?.[id], m = prices.monthly?.[id];
+    if (d?.points?.length) {
+      const pts = d.points, last = pts.at(-1), prev = pts.at(-2);
+      return { id, name: d.name, unit: d.unit, price: last[1], when: fmtDate(last[0]), basis: "Daily", note: d.note,
+               change: prev ? (last[1] / prev[1] - 1) * 100 : null, since: prev ? "vs " + fmtDate(prev[0]) : "" };
+    }
+    if (m?.points?.length) {
+      const pts = m.points, last = pts.at(-1), prev = pts.at(-2);
+      return { id, name: m.name, unit: m.unit, price: last[1], when: fmtDate(last[0]), basis: "Monthly average", note: "World Bank Pink Sheet",
+               change: prev ? (last[1] / prev[1] - 1) * 100 : null, since: prev ? "vs " + fmtDate(prev[0]) : "" };
+    }
+    return null;
+  }
+
+  function seriesFor(id, range) {
+    if (range === "daily") return prices.daily?.[id]?.points ?? [];
+    const pts = prices.monthly?.[id]?.points ?? [];
+    return range === "5y" ? pts.slice(-60) : pts.slice(-24);
+  }
+
+  function chartSvg(points, label) {
+    const W = 640, H = 260, L = 62, R = 14, T = 14, B = 30;
+    const ys = points.map((p) => p[1]);
+    let min = Math.min(...ys), max = Math.max(...ys);
+    if (min === max) { min -= 1; max += 1; }
+    const pad = (max - min) * 0.08; min -= pad; max += pad;
+    const x = (i) => L + (points.length === 1 ? 0.5 : i / (points.length - 1)) * (W - L - R);
+    const y = (v) => T + (1 - (v - min) / (max - min)) * (H - T - B);
+    const grid = [0, 1, 2, 3].map((k) => {
+      const v = min + ((max - min) * k) / 3;
+      return `<line class="grid" x1="${L}" x2="${W - R}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}"/><text class="axis" x="${L - 6}" y="${(y(v) + 4).toFixed(1)}" text-anchor="end">${esc(fmtPrice(v))}</text>`;
+    }).join("");
+    const labelAt = (i, anchor) => `<text class="axis" x="${x(i).toFixed(1)}" y="${H - 8}" text-anchor="${anchor}">${esc(fmtDate(points[i][0]))}</text>`;
+    const mid = Math.floor((points.length - 1) / 2);
+    const xl = labelAt(0, "start") + (points.length > 2 ? labelAt(mid, "middle") : "") + (points.length > 1 ? labelAt(points.length - 1, "end") : "");
+    const path = points.map((p, i) => (i ? "L" : "M") + x(i).toFixed(1) + " " + y(p[1]).toFixed(1)).join("");
+    const hover = points.map((p, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(p[1]).toFixed(1)}" r="7" fill="transparent"><title>${esc(fmtDate(p[0]))}: ${esc(fmtPrice(p[1]))}</title></circle>`).join("");
+    const last = points.at(-1);
+    return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(label)}">${grid}<path class="line" d="${path}"/><circle class="dot" cx="${x(points.length - 1).toFixed(1)}" cy="${y(last[1]).toFixed(1)}" r="4"/>${xl}${hover}</svg>`;
+  }
+
+  function renderPrices() {
+    const v = $("pricesView");
+    if (!prices || (!prices.daily && !prices.monthly)) {
+      v.innerHTML = `<p class="small">No prices yet. They are collected once a day after the site has been updated.</p>`;
+      return;
+    }
+    const rows = METAL_ORDER.map(latestOf).filter(Boolean);
+    if (!rows.some((r) => r.id === state.metal)) state.metal = rows[0]?.id;
+    const id = state.metal;
+    const nDaily = prices.daily?.[id]?.points?.length ?? 0;
+    const nMonthly = prices.monthly?.[id]?.points?.length ?? 0;
+    const ranges = [
+      ...(nDaily >= 2 ? [{ v: "daily", l: `Daily (${nDaily} days)` }] : []),
+      ...(nMonthly >= 2 ? [{ v: "2y", l: "2 years, monthly" }, { v: "5y", l: "5 years, monthly" }] : []),
+    ];
+    let range = ranges.some((r) => r.v === state.range) ? state.range : (nDaily >= 10 ? "daily" : ranges.find((r) => r.v !== "daily")?.v ?? ranges[0]?.v);
+    const pts = range ? seriesFor(id, range) : [];
+    const cur = rows.find((r) => r.id === id);
+
+    const table = rows.map((r) => {
+      const rounded = r.change == null ? null : Math.round(r.change * 10) / 10;
+      const ch = rounded == null ? "—" : `${rounded > 0 ? "+" : ""}${rounded.toFixed(1)}%`;
+      const cls = !rounded ? "" : rounded > 0 ? "up" : "down";
+      return `<tr aria-selected="${r.id === id}">
+        <td><button type="button" class="metal" data-metal="${esc(r.id)}">${esc(r.name)}</button></td>
+        <td class="num">${esc(fmtPrice(r.price))}</td><td>${esc(r.unit)}</td>
+        <td class="num ${cls}" title="${esc(r.since)}">${ch}</td>
+        <td>${esc(r.basis)}, ${esc(r.when)}</td><td>${esc(r.note)}</td></tr>`;
+    }).join("");
+
+    v.innerHTML = `
+      <p class="small">Indicative prices, collected once a day. ${prices.updated ? "Updated " + esc(ago(prices.updated)) + "." : ""} Select a metal to see its trend.</p>
+      <table class="prices"><thead><tr><th>Metal</th><th class="num">Price</th><th>Unit</th><th class="num">Change</th><th>Basis</th><th>Source</th></tr></thead><tbody>${table}</tbody></table>
+      <div class="chartbox">
+        <div class="seg" role="group" aria-label="Chart range">${ranges.map((r) => `<button type="button" class="chip" data-range="${r.v}" aria-pressed="${r.v === range}"><span class="t">${esc(r.l)}</span></button>`).join("")}</div>
+        <b>${esc(cur?.name ?? "")} <span class="small">(${esc(cur?.unit ?? "")})</span></b>
+        ${pts.length >= 2 ? chartSvg(pts, `${cur.name} price trend, ${fmtDate(pts[0][0])} to ${fmtDate(pts.at(-1)[0])}`) : `<p class="small">Not enough history to draw a trend yet. A daily history builds up from today.</p>`}
+      </div>
+      <p class="small">Sources: spot gold, silver, platinum and palladium and COMEX copper futures from gold-api.com (daily); monthly averages for the other metals from the World Bank commodity price data (Pink Sheet), which is published once a month. Copper is a COMEX futures price converted to US dollars per tonne, so it will differ from the LME price. The LME is not used because its price data is licensed. Lithium is not shown because there is no free published source. Prices are for information only, not for trading.</p>`;
+    v.querySelectorAll("[data-metal]").forEach((b) => (b.onclick = () => { state.metal = b.dataset.metal; render(); }));
+    v.querySelectorAll("[data-range]").forEach((b) => (b.onclick = () => { state.range = b.dataset.range; render(); }));
   }
 
   function render() {
     const chagai = state.tab === "chagai";
     const safety = state.tab === "safety";
-    const inTab = (t, i) => (t === "chagai" ? i.chagaiSecurity : t === "safety" ? !!i.safetyType : i.mining !== false);
-    ["mining", "chagai", "safety"].forEach((t) => {
+    const explore = state.tab === "explore";
+    const inTab = (t, i) => (t === "chagai" ? i.chagaiSecurity : t === "safety" ? !!i.safetyType : t === "explore" ? !!i.exType : i.mining !== false);
+    ["mining", "chagai", "safety", "explore", "notices", "prices"].forEach((t) => {
       const b = $("tab-" + t);
       b.setAttribute("aria-selected", String(state.tab === t));
-      b.querySelector(".n").textContent = items.filter((i) => inTab(t, i)).length;
+      b.querySelector(".n").textContent =
+        t === "notices" ? notices.items.length || "" : t === "prices" ? "" : items.filter((i) => inTab(t, i)).length;
     });
+    const special = state.tab === "notices" || state.tab === "prices";
+    $("newsView").hidden = special;
+    $("noticesView").hidden = state.tab !== "notices";
+    $("pricesView").hidden = state.tab !== "prices";
+    if (special) {
+      if (state.tab === "notices") renderNotices(); else renderPrices();
+      return;
+    }
     $("chagaiNote").hidden = !chagai;
     $("safetyNote").hidden = !safety;
-    $("f-province").hidden = chagai || safety;
-    $("f-commodity").hidden = chagai || safety;
+    $("exploreNote").hidden = !explore;
+    $("f-province").hidden = chagai || safety || explore;
+    $("f-commodity").hidden = chagai || safety || explore;
+    ["f-xmetal", "f-xcountry", "f-xtype", "f-xgroup"].forEach((id) => ($(id).hidden = !explore));
     ["f-country", "f-type", "f-group"].forEach((id) => ($(id).hidden = !safety));
     segs.forEach((s) => s.update());
     updatePapers();
@@ -318,18 +521,23 @@
         ${i.image ? `<img src="${esc(safeUrl(i.image))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
         <div class="meta"><b>${esc(i.source)}</b>${i.section ? `<span>${esc(i.section)}</span>` : ""}<span>${esc(ago(i.date))}</span></div>
         <h2 dir="auto"><a href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
+        ${explore && i.exHighlight ? `<p class="excerpt"><b>Highlight: ${esc(i.exHighlight)}</b></p>` : ""}
         ${i.summary ? `<p class="excerpt" dir="auto">${esc(i.summary)}</p>` : ""}
-        ${(safety || i.provinces.length || i.tags.length) ? `<div class="tags">${
+        ${(safety || explore || i.provinces.length || i.tags.length) ? `<div class="tags">${
           (safety ? `<span class="tag inc">${esc(i.safetyType)}</span><span class="tag prov">${esc(i.country)}</span>` : "") +
-          (safety ? "" : i.provinces.map((p) => `<span class="tag prov">${esc(p)}</span>`).join("")) +
-          i.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>` : ""}
+          (explore ? `<span class="tag inc">${esc(i.exType)}</span>${i.exMetals.map((m) => `<span class="tag">${esc(m)}</span>`).join("")}<span class="tag prov">${esc(i.exRegion ? i.exRegion + ", " + i.exCountry : i.exCountry)}</span>${i.press ? `<span class="tag">Press release</span>` : ""}` : "") +
+          (safety || explore ? "" : i.provinces.map((p) => `<span class="tag prov">${esc(p)}</span>`).join("")) +
+          (explore ? "" : i.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join(""))}</div>` : ""}
         ${sourceLine(i)}
       </article>`;
 
-    if (safety && state.group !== "none" && rows.length) {
-      const key = state.group === "type" ? "safetyType" : "country";
+    const mode = safety ? state.group : explore ? state.xgroup : "none";
+    if (mode !== "none" && rows.length) {
+      const keyOf = safety
+        ? (i) => (mode === "type" ? i.safetyType : i.country)
+        : (i) => (mode === "type" ? i.exType : mode === "metal" ? i.exMetals[0] : i.exCountry);
       const groups = new Map();
-      rows.forEach((i) => { const k = i[key] || "Unspecified"; (groups.get(k) || groups.set(k, []).get(k)).push(i); });
+      rows.forEach((i) => { const k = keyOf(i) || "Unspecified"; (groups.get(k) || groups.set(k, []).get(k)).push(i); });
       const ordered = [...groups].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
       $("list").innerHTML = ordered.map(([name, list]) =>
         `<h3 class="group-h">${esc(name)}<span class="n">${list.length}</span></h3>` + list.map(card).join("")).join("");
@@ -340,6 +548,8 @@
     $("empty").hidden = rows.length > 0;
     if (!rows.length) $("empty").textContent = !items.length
       ? "No stories yet. The first refresh has not run."
+      : explore && isDefault()
+        ? "No exploration results in the last 7 days from the sources monitored. Try a longer period."
       : safety && isDefault()
         ? "No safety incidents in the last 30 days from the sources monitored. The feeds cover mainly mining publications and a few Pakistani papers, so incidents reported elsewhere will not appear."
       : chagai && isDefault()
@@ -362,12 +572,29 @@
       provinces: i.provinces || [],
       chagaiSecurity: !!i.chagaiSecurity,
       safetyType: i.safetyType || "",
+      exType: i.exType || "",
+      exMetals: i.exMetals || [],
+      exHighlight: i.exHighlight || "",
+      exCountry: i.exCountry || "",
+      exRegion: i.exRegion || "",
       country: i.country || "",
       tags: i.tags || [],
       scope: i.scope || "International",
       _t: new Date(i.date).getTime(),
-      _hay: (i.title + " " + (i.summary || "") + " " + (i.safetyType || "") + " " + (i.country || "")).toLowerCase(),
+      _hay: (i.title + " " + (i.summary || "") + " " + (i.safetyType || "") + " " + (i.country || "") + " " + (i.exType || "") + " " + (i.exCountry || "") + " " + (i.exRegion || "")).toLowerCase(),
     }));
+
+    const load = async (url) => {
+      try {
+        const r = await fetch(url, { cache: "no-cache" });
+        return r.ok ? await r.json() : null;
+      } catch (e) { return null; }
+    };
+    const [nData, pData] = await Promise.all([load("data/notices.json"), load("data/prices.json")]);
+    if (nData && nData.checked && Array.isArray(nData.items)) {
+      notices = { ...nData, items: nData.items.filter((i) => typeof i.url === "string"), sources: nData.sources || [] };
+    }
+    if (pData && (pData.daily || pData.monthly)) prices = pData;
 
     if (data.updated) {
       const okSources = new Set((data.sources || []).filter((s) => s.ok).map((s) => s.source));
@@ -398,6 +625,18 @@
       { value: "country", label: "Country" }, { value: "type", label: "Type" }, { value: "none", label: "Newest first" },
     ], true);
 
+    const exTally = (get) => {
+      const c = {};
+      items.forEach((i) => { if (i.exType) get(i).forEach((k) => { c[k || "Unspecified"] = (c[k || "Unspecified"] || 0) + 1; }); });
+      return Object.keys(c).sort((a, b) => c[b] - c[a] || a.localeCompare(b));
+    };
+    makeSeg($("seg-xmetal"), "xmetal", [{ value: "", label: "All" }, ...["Gold", "Copper", "Lithium"].map((m) => ({ value: m, label: m }))]);
+    makeSeg($("seg-xcountry"), "xcountry", [{ value: "", label: "All" }, ...exTally((i) => [i.exCountry]).map((c) => ({ value: c, label: c }))]);
+    makeSeg($("seg-xtype"), "xtype", [{ value: "", label: "All" }, ...["Discovery", "Drill results", "Resource estimate", "Drilling update"].map((t) => ({ value: t, label: t }))]);
+    makeSeg($("seg-xgroup"), "xgroup", [
+      { value: "country", label: "Country" }, { value: "metal", label: "Metal" }, { value: "type", label: "Result type" }, { value: "none", label: "Newest first" },
+    ], true);
+
     buildPapers();
 
     $("statusList").innerHTML = (data.sources || []).map((s) => {
@@ -405,11 +644,18 @@
       return `<li>${name}: ${s.ok ? `${s.items} kept of ${s.seen ?? s.items}` : "unavailable (" + esc(s.error) + ")"}</li>`;
     }).join("");
 
+    $("statusList").innerHTML += (notices.sources || []).flatMap((src) => (src.pages || []).map((p) =>
+      `<li>${esc(src.authority)} (notices): ${p.ok ? `${p.links} links read, ${p.kept} kept` : "unavailable (" + esc(p.error) + ")"}</li>`)).join("") +
+      (prices?.sources || []).map((s) => `<li>${esc(s.name)}: ${s.ok ? "ok" + (s.detail ? " (" + esc(s.detail) + ")" : "") : "unavailable (" + esc(s.error) + ")"}</li>`).join("");
+
     $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
     $("reset").onclick = () => { Object.assign(state, DEFAULTS, { period: TAB_PERIOD[state.tab] }); state.off.clear(); $("q").value = ""; render(); };
     $("tab-mining").onclick = () => setTab("mining");
     $("tab-chagai").onclick = () => setTab("chagai");
     $("tab-safety").onclick = () => setTab("safety");
+    $("tab-explore").onclick = () => setTab("explore");
+    $("tab-notices").onclick = () => setTab("notices");
+    $("tab-prices").onclick = () => setTab("prices");
     render();
   }
 
