@@ -14,6 +14,16 @@
   { "name": "International Mining", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://im-mining.com/?s=fatality&feed=rss2", "filter": "none" },
   { "name": "Mining.com.au", "section": "Safety search", "scope": "International", "region": "Asia-Pacific", "url": "https://mining.com.au/?s=fatality&feed=rss2", "filter": "none" },
 
+  { "name": "GlobeNewswire", "section": "Drill results", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/drill%20results", "filter": "exploration" },
+  { "name": "GlobeNewswire", "section": "Intersects", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/intersects", "filter": "exploration" },
+  { "name": "GlobeNewswire", "section": "Mineral resource", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/mineral%20resource%20estimate", "filter": "exploration" },
+  { "name": "GlobeNewswire", "section": "Discovery", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.globenewswire.com/RssFeed/keyword/discovery%20drilling", "filter": "exploration" },
+  { "name": "PR Newswire", "section": "Mining & metals", "scope": "International", "region": "Global", "kind": "press", "url": "https://www.prnewswire.com/rss/energy/mining-metals-news.rss", "filter": "exploration" },
+  { "name": "MINING.COM", "section": "Exploration search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=drill+results&feed=rss2", "filter": "none" },
+  { "name": "MINING.COM", "section": "Exploration search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=discovery&feed=rss2", "filter": "none" },
+  { "name": "International Mining", "section": "Exploration search", "scope": "International", "region": "Global", "url": "https://im-mining.com/?s=drill+results&feed=rss2", "filter": "none" },
+  { "name": "Mining.com.au", "section": "Exploration search", "scope": "International", "region": "Asia-Pacific", "url": "https://mining.com.au/?s=drill+results&feed=rss2", "filter": "none" },
+
   { "name": "Dawn", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/pakistan", "filter": "mining" },
   { "name": "Dawn", "section": "Business", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/business", "filter": "mining" },
   { "name": "The Express Tribune", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://tribune.com.pk/feed/pakistan", "filter": "mining" },
