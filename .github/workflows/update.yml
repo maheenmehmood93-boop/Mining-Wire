@@ -32,13 +32,8 @@ jobs:
       - name: Fetch feeds
         run: node scripts/fetch-news.mjs
 
-      # These two keep their own schedule (notices about every 5 hours, prices
-      # once a day) and a failure in either one does not stop the site updating.
-      # Clicking "Run workflow" by hand forces both to run straight away.
-      - name: Check government notice pages
-        continue-on-error: true
-        run: node scripts/watch-notices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
-
+      # Prices are collected once a day; a failure here does not stop the site
+      # updating. Clicking "Run workflow" by hand forces a fetch straight away.
       - name: Fetch commodity prices
         continue-on-error: true
         run: node scripts/fetch-prices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
