@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T07:34:23.563Z",
+ "updated": "2026-10-07T07:35:36.537Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "Dawn",
@@ -183,6 +183,14 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Sigma Lithium resumes operations in Brazil after court ruling",
    "link": "https://www.miningweekly.com/article/sigma-lithium-resumes-operations-in-brazil-after-court-ruling-2026-10-07",
    "via": "",
@@ -191,17 +199,18 @@
    "summary": "Lithium miner Sigma Lithium said on Tuesday it would resume mining and processing at its Grota do Cirilo project in Brazil after a federal appeals court upheld its environmental licences, reinforcing its target of reaching an annualized...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "GoldMining releases initial drill results from Yarumalito project in Colombia",
    "link": "https://www.mining-technology.com/news/goldmining-drill-results-yarumalito-colombia/",
    "via": "",
@@ -210,18 +219,18 @@
    "summary": "GoldMining has released initial assay findings from its 2026 diamond core drilling programme at the wholly owned Yarumalito Project, located in the Mid Cauca gold-copper porphyry belt in Colombia’s Antioquia region.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-2-7Oct26-shutterstock_2465499165-4.jpg",
    "source": "Mining Technology",
+   "region": "Global"
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
-    "Copper"
+    "Nickel"
    ],
    "mining": true,
-   "chagaiSecurity": false
-  },
-  {
+   "chagaiSecurity": false,
    "title": "BHP to sell Kambalda nickel concentrator, tenements to Gold Fields",
    "link": "https://www.miningweekly.com/article/bhp-to-sell-kambalda-nickel-concentrator-tenements-to-gold-fields-2026-10-07",
    "via": "",
@@ -230,18 +239,17 @@
    "summary": "Global miner BHP said on Wednesday it had agreed to sell the Kambalda Nickel Concentrator and a package of associated tenements and mineralisation rights in Western Australia to Johannesburg-listed Gold Fields. Financial terms of the...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "China's central bank adds to gold reserves for twenty-third consecutive month",
    "link": "https://www.miningweekly.com/article/chinas-central-bank-adds-to-gold-reserves-for-twenty-third-consecutive-month-2026-10-07",
    "via": "",
@@ -250,17 +258,17 @@
    "summary": "China's central bank stepped up its gold purchases in September, extending its buying streak to a twenty-third consecutive month, official data showed on Wednesday. Gold holdings by the People's Bank of China rose to 77.47-million fine...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Australia's top court backs grassroots group in landmark climate case on coal mine",
    "link": "https://www.miningweekly.com/article/australias-top-court-backs-grassroots-group-in-landmark-climate-case-on-coal-mine-2026-10-07",
    "via": "",
@@ -269,17 +277,15 @@
    "summary": "An Australian community group has won the first climate change case to come before the country's top court, with judges upholding a decision to block a two-decade extension of a coal mine in the State of New South Wales. MACH Energy had...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
    "link": "https://www.miningweekly.com/article/india-steel-ministry-unlikely-to-seek-new-curbs-on-cheap-imports-government-source-says-2026-10-07",
    "via": "",
@@ -288,15 +294,17 @@
    "summary": "India's steel ministry is unlikely to push for any new measures to curb cheap imports in the near term, turning down a request from domestic steelmakers, according to a government source with direct knowledge of the matter. India, the...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Australian uranium miners rally after Google's power deal with Constellation Energy",
    "link": "https://www.miningweekly.com/article/australian-uranium-miners-rally-after-googles-power-deal-with-constellation-energy-2026-10-07",
    "via": "",
@@ -305,17 +313,17 @@
    "summary": "Australian uranium miners logged their best session in weeks on Wednesday after Alphabet's Google agreed to buy power from US nuclear energy major Constellation Energy, potentially raising the demand for uranium. Boss Energy rose 4.6%,...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Uranium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "Indonesian coal miner Bayan shareholders increase Jhonlin share sale",
    "link": "https://www.miningweekly.com/article/indonesian-coal-miner-bayan-shareholders-increase-jhonlin-share-sale-2026-10-07",
    "via": "",
@@ -324,15 +332,7 @@
    "summary": "Indonesian coal miner Bayan Resources said late on Tuesday its biggest shareholders Low Tuck Kwong and Elaine Low increased the size of a share sale to Jhonlin Baratama to 10.08-billion shares from 10-billion. According to LSEG data,...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
-   "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Africa"
   },
   {
    "section": "",
@@ -897,6 +897,14 @@
    "region": "North America"
   },
   {
+   "section": "Balochistan",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": true,
    "title": "Balochistan: Chagai Drone Strike, Railway Track Blast and Quetta Surveillance Expansion Reflect Security Concerns",
    "link": "https://thebalochistanpost.net/2026/10/balochistan-chagai-drone-strike-railway-track-blast-and-quetta-surveillance-expansion-reflect-security-concerns/",
    "via": "",
@@ -905,15 +913,7 @@
    "summary": "Authorities in Balochistan are investigating a reported drone strike on a mining site in Chagai and an explosion on a railway track in Bakhtiarabad, while the government has simultaneously announced new security measures, including the...",
    "image": null,
    "source": "The Balochistan Post",
-   "section": "Balochistan",
-   "scope": "National",
-   "region": "Balochistan",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": true
+   "region": "Balochistan"
   },
   {
    "section": "",
@@ -1734,6 +1734,14 @@
    "region": "Global"
   },
   {
+   "section": "Balochistan",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
    "title": "Pakistani Forces Convoy Ambushed in Kalat; Fighters Block Highway in Chagai",
    "link": "https://thebalochistanpost.net/2026/10/pakistani-forces-convoy-ambushed-in-kalat-fighters-block-highway-in-chagai/",
    "via": "",
@@ -1742,15 +1750,7 @@
    "summary": "A Pakistani forces convoy was ambushed in Kalat’s Manguchar area on Monday, with local sources reporting casualties, while armed fighters blocked the Quetta–Taftan highway and set a government office on fire in Chagai. Armed fighters...",
    "image": null,
    "source": "The Balochistan Post",
-   "section": "Balochistan",
-   "scope": "National",
-   "region": "Balochistan",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true
+   "region": "Balochistan"
   },
   {
    "section": "",
@@ -2789,6 +2789,14 @@
    "region": "Africa"
   },
   {
+   "section": "Balochistan",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
    "title": "Two Pakistani Military Personnel Killed, 13 Injured in Balochistan Attacks",
    "link": "https://thebalochistanpost.net/2026/10/two-pakistani-military-personnel-killed-13-injured-in-balochistan-attacks/",
    "via": "",
@@ -2797,15 +2805,7 @@
    "summary": "At least two Pakistani military personnel were killed and 13 injured in separate attacks in Panjgur and Washuk, while an armoured vehicle was damaged in a third attack in Chagai, according to officials and local sources. Armed fighters...",
    "image": null,
    "source": "The Balochistan Post",
-   "section": "Balochistan",
-   "scope": "National",
-   "region": "Balochistan",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true
+   "region": "Balochistan"
   },
   {
    "section": "",
