@@ -1,0 +1,157 @@
+[
+  {
+    "id": "kse100",
+    "name": "KSE-100 index",
+    "full": "Pakistan Stock Exchange benchmark index",
+    "symbol": "KSE100",
+    "market": "PSX",
+    "unit": "points"
+  },
+  {
+    "id": "ogdc",
+    "name": "OGDCL",
+    "full": "Oil & Gas Development Company",
+    "symbol": "OGDC",
+    "market": "PSX"
+  },
+  {
+    "id": "ppl",
+    "name": "PPL",
+    "full": "Pakistan Petroleum Limited",
+    "symbol": "PPL",
+    "market": "PSX"
+  },
+  {
+    "id": "luck",
+    "name": "Lucky Cement",
+    "full": "Lucky Cement Limited",
+    "symbol": "LUCK",
+    "market": "PSX"
+  },
+  {
+    "id": "fatima",
+    "name": "Fatima Group",
+    "full": "Fatima Fertilizer Company",
+    "symbol": "FATIMA",
+    "market": "PSX"
+  },
+  {
+    "id": "mari",
+    "name": "Mari Energies",
+    "full": "Mari Energies Limited",
+    "symbol": "MARI",
+    "market": "PSX"
+  },
+  {
+    "id": "dgkc",
+    "name": "D.G. Khan Cement",
+    "full": "D.G. Khan Cement Company",
+    "symbol": "DGKC",
+    "market": "PSX"
+  },
+  {
+    "id": "mlcf",
+    "name": "Maple Leaf Cement",
+    "full": "Maple Leaf Cement Factory",
+    "symbol": "MLCF",
+    "market": "PSX"
+  },
+  {
+    "id": "fccl",
+    "name": "Fauji Cement",
+    "full": "Fauji Cement Company",
+    "symbol": "FCCL",
+    "market": "PSX"
+  },
+  {
+    "id": "ffc",
+    "name": "Fauji Fertilizer",
+    "full": "Fauji Fertilizer Company",
+    "symbol": "FFC",
+    "market": "PSX"
+  },
+  {
+    "id": "efert",
+    "name": "Engro Fertilizers",
+    "full": "Engro Fertilizers Limited",
+    "symbol": "EFERT",
+    "market": "PSX"
+  },
+  {
+    "id": "bhp",
+    "name": "BHP",
+    "full": "BHP Group",
+    "symbol": "BHP",
+    "market": "US"
+  },
+  {
+    "id": "rio",
+    "name": "Rio Tinto",
+    "full": "Rio Tinto",
+    "symbol": "RIO",
+    "market": "US"
+  },
+  {
+    "id": "vale",
+    "name": "Vale",
+    "full": "Vale S.A.",
+    "symbol": "VALE",
+    "market": "US"
+  },
+  {
+    "id": "fcx",
+    "name": "Freeport-McMoRan",
+    "full": "Freeport-McMoRan",
+    "symbol": "FCX",
+    "market": "US"
+  },
+  {
+    "id": "scco",
+    "name": "Southern Copper",
+    "full": "Southern Copper",
+    "symbol": "SCCO",
+    "market": "US"
+  },
+  {
+    "id": "nem",
+    "name": "Newmont",
+    "full": "Newmont Corporation",
+    "symbol": "NEM",
+    "market": "US"
+  },
+  {
+    "id": "barrick",
+    "name": "Barrick",
+    "full": "Barrick Mining (Reko Diq)",
+    "symbol": "B",
+    "market": "US"
+  },
+  {
+    "id": "aem",
+    "name": "Agnico Eagle",
+    "full": "Agnico Eagle Mines",
+    "symbol": "AEM",
+    "market": "US"
+  },
+  {
+    "id": "ccj",
+    "name": "Cameco",
+    "full": "Cameco (uranium)",
+    "symbol": "CCJ",
+    "market": "US"
+  },
+  {
+    "id": "alb",
+    "name": "Albemarle",
+    "full": "Albemarle (lithium)",
+    "symbol": "ALB",
+    "market": "US"
+  },
+  {
+    "id": "mp",
+    "name": "MP Materials",
+    "full": "MP Materials (rare earths)",
+    "symbol": "MP",
+    "market": "US"
+  }
+]
