@@ -1,0 +1,19 @@
+{
+ "updated": "2026-10-07T12:13:54.414Z",
+ "fetched": {},
+ "sources": [
+  {
+   "name": "Pakistan Stock Exchange data portal",
+   "ok": false,
+   "detail": "0 of 11 companies",
+   "error": "HTTP 404"
+  },
+  {
+   "name": "Alpha Vantage (international)",
+   "ok": false,
+   "detail": "",
+   "error": "no API key set (add the ALPHAVANTAGE_API_KEY secret)"
+  }
+ ],
+ "stocks": {}
+}
