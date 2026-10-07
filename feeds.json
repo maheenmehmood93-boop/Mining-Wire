@@ -9,6 +9,11 @@
   { "name": "Canadian Mining Journal", "scope": "International", "region": "North America", "url": "https://www.canadianminingjournal.com/feed/", "filter": "none" },
   { "name": "Mining.com.au", "scope": "International", "region": "Asia-Pacific", "url": "https://mining.com.au/feed/", "filter": "none" },
 
+  { "name": "MINING.COM", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=fatality&feed=rss2", "filter": "none" },
+  { "name": "MINING.COM", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://www.mining.com/?s=accident&feed=rss2", "filter": "none" },
+  { "name": "International Mining", "section": "Safety search", "scope": "International", "region": "Global", "url": "https://im-mining.com/?s=fatality&feed=rss2", "filter": "none" },
+  { "name": "Mining.com.au", "section": "Safety search", "scope": "International", "region": "Asia-Pacific", "url": "https://mining.com.au/?s=fatality&feed=rss2", "filter": "none" },
+
   { "name": "Dawn", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/pakistan", "filter": "mining" },
   { "name": "Dawn", "section": "Business", "scope": "National", "region": "Pakistan", "url": "https://www.dawn.com/feeds/business", "filter": "mining" },
   { "name": "The Express Tribune", "section": "Pakistan", "scope": "National", "region": "Pakistan", "url": "https://tribune.com.pk/feed/pakistan", "filter": "mining" },
@@ -25,5 +30,8 @@
   { "name": "Daily Times", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://dailytimes.com.pk/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "Daily Pakistan", "section": "Chagai search", "scope": "National", "region": "Pakistan", "url": "https://en.dailypakistan.com.pk/?s=chagai&feed=rss2", "filter": "mining" },
   { "name": "The Balochistan Post", "section": "Balochistan", "scope": "National", "region": "Balochistan", "province": "Balochistan", "url": "https://thebalochistanpost.net/category/tbp-balochistan/balochistan/feed/", "filter": "mining" },
+  { "name": "The Frontier Post", "section": "Safety search", "scope": "National", "region": "Peshawar", "url": "https://thefrontierpost.com/?s=coal+mine&feed=rss2", "filter": "mining" },
+  { "name": "Daily Times", "section": "Safety search", "scope": "National", "region": "Pakistan", "url": "https://dailytimes.com.pk/?s=coal+mine&feed=rss2", "filter": "mining" },
+  { "name": "Daily Pakistan", "section": "Safety search", "scope": "National", "region": "Pakistan", "url": "https://en.dailypakistan.com.pk/?s=coal+mine&feed=rss2", "filter": "mining" },
   { "name": "Chitral Times", "scope": "National", "region": "Chitral", "province": "Khyber Pakhtunkhwa", "url": "https://chitraltimes.com/feed", "filter": "mining" }
 ]
