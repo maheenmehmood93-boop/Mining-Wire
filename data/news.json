@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T10:09:00.238Z",
+ "updated": "2026-10-07T10:35:00.750Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 124
+   "seen": 125
   },
   {
    "source": "Pakistan Observer",
@@ -248,6 +248,33 @@
  ],
  "items": [
   {
+   "title": "ABB's power conversion system for Fortescue's North Star Junction hub",
+   "link": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T10:14:36.000Z",
+   "summary": "Fortescue is one of the world’s largest producers of iron ore, so when its emerging power network in the Pilbara, Western Australia required a power conversion system (PCS) to support a consistent, stable and reliable power supply for its...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Iron ore"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "Drill results",
    "scope": "International",
    "provinces": [],
@@ -275,6 +302,60 @@
    "source": "GlobeNewswire",
    "region": "Global",
    "press": true
+  },
+  {
+   "title": "Wesizwe places Bakubung concentrator plant on care and maintenance",
+   "link": "https://www.miningweekly.com/article/wesizwe-places-bakubung-concentrator-plant-on-care-and-maintenance-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T09:55:00.000Z",
+   "summary": "JSE-listed Wesizwe Platinum has informed shareholders that the Bakubung platinum mine concentrator plant, in the North West, has been placed on care and maintenance while the company prioritises underground infrastructure development and...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Platinum"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "ZCCM-IH gives its approval for $498m tailings leach plant at KCM in Zambia",
+   "link": "https://www.miningweekly.com/article/zccm-ih-gives-its-approval-for-498m-tailings-leach-plant-at-kcm-in-zambia-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T09:49:00.000Z",
+   "summary": "Aim-listed ZCCM Investment Holdings (ZCCM-IH) has given its shareholder approval for a new $498-million new tailings leach plant (TLP) at Konkola Copper Mines (KCM), in Zambia, in which ZCCM-IH holds a 20.6% stake. The TLP will reprocess...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
   },
   {
    "section": "",
