@@ -158,10 +158,8 @@ async function main() {
     }
   }
 
-  if (!Object.keys(stocks).length) {
-    console.log("No share prices collected; nothing written.");
-    return;
-  }
+  // Written even when nothing was collected, so the page can show why.
+  if (!Object.keys(stocks).length) console.warn("No share prices collected; writing the file so the page shows the reason.");
   await mkdir(new URL("../data/", import.meta.url), { recursive: true });
   await writeFile(OUT_FILE, JSON.stringify({ updated: new Date().toISOString(), fetched, sources, stocks }, null, 1));
   console.log("Wrote data/stocks.json");
