@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T20:34:01.965Z",
+ "updated": "2026-10-07T21:34:02.216Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -248,6 +248,31 @@
  ],
  "items": [
   {
+   "title": "Titan Mining, US Army advance strategic graphite processing plant in Alabama",
+   "link": "https://www.mining.com/titan-mining-us-army-advance-strategic-graphite-processing-plant-in-alabama/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T21:01:04.000Z",
+   "summary": "Titan Mining's subsidiary, Empire State Mines, has agreed to terms on a framework to lease roughly 97 acres at Anniston Army Depot.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -450,17 +475,8 @@
    "press": false
   },
   {
-   "title": "Rock Tech cuts lithium plant cost estimate by 54%",
-   "link": "https://www.northernminer.com/news/rock-tech-cuts-lithium-plant-cost-estimate-by-54/1003895546/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T15:35:29.000Z",
-   "summary": "Rock Tech Lithium’s (TSXV: RCK; US-OTC: RCKTF) proposed Ontario lithium refinery will cost $596 million (US$420.9 million), less than half its previous estimate, although the company hasn’t explained most of...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -474,6 +490,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rock Tech cuts lithium plant cost estimate by 54%",
+   "link": "https://www.northernminer.com/news/rock-tech-cuts-lithium-plant-cost-estimate-by-54/1003895546/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T15:35:29.000Z",
+   "summary": "Rock Tech Lithium’s (TSXV: RCK; US-OTC: RCKTF) proposed Ontario lithium refinery will cost $596 million (US$420.9 million), less than half its previous estimate, although the company hasn’t explained most of...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -610,17 +635,8 @@
    "press": false
   },
   {
-   "title": "Canada’s miners must seize political opening, Gratton says",
-   "link": "https://www.mining.com/canadas-miners-must-seize-political-opening-gratton-says/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T15:11:05.000Z",
-   "summary": "“So those that aren’t in the system, get in it. Build some more mines,” Gratton said.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -632,6 +648,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Canada’s miners must seize political opening, Gratton says",
+   "link": "https://www.mining.com/canadas-miners-must-seize-political-opening-gratton-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T15:11:05.000Z",
+   "summary": "“So those that aren’t in the system, get in it. Build some more mines,” Gratton said.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -742,6 +767,34 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Vizsla Copper logs high-grade silver at Alaska project",
+   "link": "https://www.mining.com/vizsla-copper-logs-high-grade-silver-at-alaska-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T14:59:50.000Z",
+   "summary": "The site has benefited from more than $116 million of historical investment and roughly 96,000 metres of drilling.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
