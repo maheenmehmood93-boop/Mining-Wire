@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T10:03:04.641Z",
+ "updated": "2026-10-07T10:03:41.600Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -248,17 +248,8 @@
  ],
  "items": [
   {
-   "title": "Osisko Intersects 94 Metres Averaging 1.47% Cu at Gaspé",
-   "link": "https://www.globenewswire.com/news-release/2026/10/07/3376274/0/en/osisko-intersects-94-metres-averaging-1-47-cu-at-gasp%C3%A9.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T10:00:00.000Z",
-   "summary": "Osisko Metals announces additional new analytical results from the ongoing 2026 drill program at the Gaspé Copper Project in Québec.",
-   "image": "https://ml.globenewswire.com/Resource/Download/b953d22f-24c1-454d-9f93-860dcd8f6e94",
-   "source": "GlobeNewswire",
    "section": "Drill results",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -274,6 +265,15 @@
    "exHighlight": "94 m @ 1.47% Cu",
    "exCountry": "Canada",
    "exRegion": "",
+   "title": "Osisko Intersects 94 Metres Averaging 1.47% Cu at Gaspé",
+   "link": "https://www.globenewswire.com/news-release/2026/10/07/3376274/0/en/osisko-intersects-94-metres-averaging-1-47-cu-at-gasp%C3%A9.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T10:00:00.000Z",
+   "summary": "Osisko Metals announces additional new analytical results from the ongoing 2026 drill program at the Gaspé Copper Project in Québec.",
+   "image": "https://ml.globenewswire.com/Resource/Download/b953d22f-24c1-454d-9f93-860dcd8f6e94",
+   "source": "GlobeNewswire",
+   "region": "Global",
    "press": true
   },
   {
@@ -7074,17 +7074,8 @@
    "region": "Global"
   },
   {
-   "title": "Pan Global Intersects 83 Meters of 1.74 g/t Gold, Expanding New Gold Zone at Cármenes Project, Spain",
-   "link": "https://www.globenewswire.com/news-release/2026/09/17/3363870/0/en/pan-global-intersects-83-meters-of-1-74-g-t-gold-expanding-new-gold-zone-at-c%C3%A1rmenes-project-spain.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-17T11:25:00.000Z",
-   "summary": "Results from the on-going Phase 3 drill program increase our confidence that the mineralized zones remain open for expansion in several directions.",
-   "image": "https://ml.globenewswire.com/Resource/Download/1e63bbe6-0460-4105-b6a3-7322d28861cb",
-   "source": "GlobeNewswire",
    "section": "Assay results",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -7100,6 +7091,15 @@
    "exHighlight": "83 m @ 1.74 g/t Au",
    "exCountry": "Spain",
    "exRegion": "",
+   "title": "Pan Global Intersects 83 Meters of 1.74 g/t Gold, Expanding New Gold Zone at Cármenes Project, Spain",
+   "link": "https://www.globenewswire.com/news-release/2026/09/17/3363870/0/en/pan-global-intersects-83-meters-of-1-74-g-t-gold-expanding-new-gold-zone-at-c%C3%A1rmenes-project-spain.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-17T11:25:00.000Z",
+   "summary": "Results from the on-going Phase 3 drill program increase our confidence that the mineralized zones remain open for expansion in several directions.",
+   "image": "https://ml.globenewswire.com/Resource/Download/1e63bbe6-0460-4105-b6a3-7322d28861cb",
+   "source": "GlobeNewswire",
+   "region": "Global",
    "press": true
   },
   {
@@ -7160,17 +7160,8 @@
    "press": true
   },
   {
-   "title": "Pan Global Intersects 15 Meters of 3.9 g/t Gold From Surface, Cármenes Project, Spain",
-   "link": "https://www.globenewswire.com/news-release/2026/09/09/3358520/0/en/pan-global-intersects-15-meters-of-3-9-g-t-gold-from-surface-c%C3%A1rmenes-project-spain.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-09T11:30:00.000Z",
-   "summary": "Results continue to demonstrate that gold and copper-nickel-cobalt mineralization from surface extends beyond the historical Providencia mine workings.",
-   "image": "https://ml.globenewswire.com/Resource/Download/551f67d9-0ce1-4acf-aaf6-d5060eb44ea1",
-   "source": "GlobeNewswire",
    "section": "Assay results",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -7190,6 +7181,15 @@
    "exHighlight": "15 m @ 3.9 g/t Au",
    "exCountry": "Spain",
    "exRegion": "",
+   "title": "Pan Global Intersects 15 Meters of 3.9 g/t Gold From Surface, Cármenes Project, Spain",
+   "link": "https://www.globenewswire.com/news-release/2026/09/09/3358520/0/en/pan-global-intersects-15-meters-of-3-9-g-t-gold-from-surface-c%C3%A1rmenes-project-spain.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-09-09T11:30:00.000Z",
+   "summary": "Results continue to demonstrate that gold and copper-nickel-cobalt mineralization from surface extends beyond the historical Providencia mine workings.",
+   "image": "https://ml.globenewswire.com/Resource/Download/551f67d9-0ce1-4acf-aaf6-d5060eb44ea1",
+   "source": "GlobeNewswire",
+   "region": "Global",
    "press": true
   },
   {
