@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T18:39:19.741Z",
+ "updated": "2026-10-07T19:33:38.058Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 169
+   "seen": 92
   },
   {
    "source": "Pakistan Observer",
@@ -213,9 +213,8 @@
   {
    "source": "Daily Pakistan",
    "section": "Chagai search",
-   "ok": true,
-   "items": 5,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "The Balochistan Post",
@@ -234,9 +233,8 @@
   {
    "source": "Daily Pakistan",
    "section": "Safety search",
-   "ok": true,
-   "items": 2,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "Chitral Times",
@@ -248,17 +246,8 @@
  ],
  "items": [
   {
-   "title": "Trelleborg launches pressure-activated sealing solution",
-   "link": "https://www.canadianminingjournal.com/news/trelleborg-launches-pressure-activated-sealing-solution/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T17:44:06.000Z",
-   "summary": "Trelleborg Sealing Solutions has unveiled a new range of specialized sealing components designed for challenging off-highway environments. The company says its Turcon [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -270,6 +259,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Trelleborg launches pressure-activated sealing solution",
+   "link": "https://www.canadianminingjournal.com/news/trelleborg-launches-pressure-activated-sealing-solution/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T17:44:06.000Z",
+   "summary": "Trelleborg Sealing Solutions has unveiled a new range of specialized sealing components designed for challenging off-highway environments. The company says its Turcon [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -350,6 +348,19 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Namibia diamond mine revival draws $50M investment",
    "link": "https://www.mining.com/namibia-diamond-mine-revival-draws-50m-investment/",
    "via": "",
@@ -358,9 +369,12 @@
    "summary": "Kenzoll Capital and MSF Commercials plan to revive Elizabeth Bay as Namibia grapples with a sharp diamond export slump.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -372,9 +386,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Namibia diamond mine revival draws $50M investment",
    "link": "https://www.canadianminingjournal.com/news/namibia-diamond-mine-revival-draws-50m-investment/",
    "via": "",
@@ -383,20 +394,7 @@
    "summary": "Kenzoll Capital and MSF Commercials plan to revive Elizabeth Bay as Namibia grapples with a sharp diamond export slump.",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -450,17 +448,8 @@
    "press": false
   },
   {
-   "title": "Sigma Lithium jumps after Brazil court reopens mine",
-   "link": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T15:42:00.000Z",
-   "summary": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -474,6 +463,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sigma Lithium jumps after Brazil court reopens mine",
+   "link": "https://www.northernminer.com/news/sigma-lithium-jumps-after-brazil-court-reopens-mine/1003895529/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T15:42:00.000Z",
+   "summary": "Sigma Lithium (Nasdaq, TSXV: SGML; ASX: SAU) shares rose as much as 6.7% in New York on Wednesday after a Brazilian appeals court upheld its environmental licences, clearing the company...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -580,6 +578,33 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Sponsored video: Tudor Gold expects Seabridge accord by year-end",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-tudor-gold-expects-seabridge-accord-by-year-end/1003895537/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T15:30:29.000Z",
+   "summary": "Tudor Gold President and CEO Joe Ovsenek in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Tudor Gold and produced...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -691,17 +716,8 @@
    "press": false
   },
   {
-   "title": "Vizsla Copper logs high-grade silver at Alaska project",
-   "link": "https://www.canadianminingjournal.com/news/vizsla-copper-logs-high-grade-silver-at-alaska-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T14:59:50.000Z",
-   "summary": "Vizsla Copper (TSXV: VCU; US-OTC: VCUFF) says new drilling at its Palmer copper-zinc project in southeast Alaska highlights the property’s potential for [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper",
@@ -717,6 +733,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Vizsla Copper logs high-grade silver at Alaska project",
+   "link": "https://www.canadianminingjournal.com/news/vizsla-copper-logs-high-grade-silver-at-alaska-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T14:59:50.000Z",
+   "summary": "Vizsla Copper (TSXV: VCU; US-OTC: VCUFF) says new drilling at its Palmer copper-zinc project in southeast Alaska highlights the property’s potential for [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -900,17 +925,8 @@
    "press": false
   },
   {
-   "title": "Gold ETF rush defies 8.5% gold price slide",
-   "link": "https://www.mining.com/gold-etf-rush-defies-8-5-gold-price-slide/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T14:13:26.000Z",
-   "summary": "The divergence appears to have been driven largely by futures selling rather than investors abandoning gold.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -924,6 +940,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold ETF rush defies 8.5% gold price slide",
+   "link": "https://www.mining.com/gold-etf-rush-defies-8-5-gold-price-slide/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T14:13:26.000Z",
+   "summary": "The divergence appears to have been driven largely by futures selling rather than investors abandoning gold.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -1031,6 +1056,31 @@
    "image": null,
    "source": "International Mining",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Sponsored video: AbraSilver aims to fund Diablillos this year",
+   "link": "https://www.northernminer.com/news/sponsored-video-abrasilver-aims-to-fund-diablillos-by-year-end/1003895535/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T13:00:54.000Z",
+   "summary": "AbraSilver Resource CEO John Miniotis in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by AbraSilver Resource and produced in co-operation...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -2473,7 +2523,7 @@
    "via": "",
    "viaUrl": "",
    "date": "2026-10-06T17:51:03.000Z",
-   "summary": "Gold’s growing role as a monetary alternative to government bonds and the U.S. dollar could mark a structural shift rather than another [...]",
+   "summary": "Gold’s growing role as a monetary alternative to government bonds and the U.S. dollar could mark a structural shift rather than another cyclical bull market.",
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
