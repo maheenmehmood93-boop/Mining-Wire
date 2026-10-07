@@ -126,7 +126,6 @@
   <button class="tab" type="button" role="tab" id="tab-chagai" aria-selected="false">Chagai security<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-safety" aria-selected="false">Safety incidents<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-explore" aria-selected="false">Exploration<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-notices" aria-selected="false">Licences &amp; policy<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-prices" aria-selected="false">Prices<span class="n"></span></button>
 </nav>
 <div id="newsView">
@@ -182,7 +181,6 @@
 </main>
 </div>
 
-<section class="view" id="noticesView" hidden aria-label="Licences and policy"></section>
 <section class="view" id="pricesView" hidden aria-label="Commodity prices"></section>
 
 <footer>
@@ -204,8 +202,7 @@
   // Security news is sparse, so that tab opens on a longer period.
   const TAB_PERIOD = { mining: "7d", chagai: "30d", safety: "30d", explore: "7d" };
 
-  const state = { ...DEFAULTS, tab: "mining", group: "country", xgroup: "country", off: new Set(), ntype: "", metal: "gold", range: "" };
-  let notices = { items: [], sources: [], checked: null };
+  const state = { ...DEFAULTS, tab: "mining", group: "country", xgroup: "country", off: new Set(), metal: "gold", range: "" };
   let prices = null;
   let items = [];
   const segs = [];       // { update(countFn) }
@@ -334,65 +331,12 @@
     render();
   }
 
-  // ---- Licences & policy -------------------------------------------------
-  const NOTICE_TYPES = ["Tender", "Auction", "Licence", "Policy / rules", "Notification", "Other"];
   const fmtDate = (iso) => {
     const d = new Date(iso.length === 7 ? iso + "-01" : iso);
     return isNaN(d) ? iso : d.toLocaleDateString("en-GB", iso.length === 7
       ? { month: "short", year: "numeric", timeZone: "UTC" }
       : { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
   };
-
-  function renderNotices() {
-    const v = $("noticesView");
-    if (!notices.checked) {
-      v.innerHTML = `<p class="small">The notice watcher has not produced results yet. It checks the government pages a few times a day once the site has been updated.</p>`;
-      return;
-    }
-    const sel = state.ntype;
-    const rows = notices.items.filter((i) => !sel || i.type === sel);
-    const count = (t) => notices.items.filter((i) => !t || i.type === t).length;
-    const chips = ["", ...NOTICE_TYPES].map((t) =>
-      `<button type="button" class="chip${count(t) === 0 && t !== sel ? " zero" : ""}" data-ntype="${esc(t)}" aria-pressed="${sel === t}">${esc(t || "All")}<span class="n">${count(t)}</span></button>`).join("");
-
-    const fresh = (i) => !i.initial && Date.now() - new Date(i.firstSeen) < 7 * DAY;
-    const card = (i) => `
-      <article>
-        <div class="meta"><span class="tag prov">${esc(i.type)}</span>${fresh(i) ? `<span class="tag new">New</span>` : ""}
-          ${i.date ? `<span>Date on page: ${esc(fmtDate(i.date))}</span>` : ""}
-          <span>${i.initial ? "Listed when tracking began" : "First seen " + esc(ago(i.firstSeen))}</span></div>
-        <h2 dir="auto"><a href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
-        ${sourceLine({ link: i.url })}
-      </article>`;
-
-    const blocks = (notices.sources || []).map((src) => {
-      const mine = rows.filter((i) => i.sourceId === src.id);
-      const pages = src.pages || [];
-      const bad = pages.filter((p) => !p.ok).length;
-      const quiet = pages.map((p) => p.note).filter(Boolean)[0];
-      let body = mine.map(card).join("");
-      if (!mine.length) {
-        body = `<p class="small">${sel ? "Nothing of this type." : bad === pages.length && pages.length
-          ? "Could not reach this website from the update job, so nothing is listed here. Open it directly: " +
-            pages.map((p) => `<a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.url.replace(/^https?:\/\/(?:www\.)?/, ""))}</a>`).join(", ")
-          : quiet ? "No notices could be read from this website: " + esc(quiet) + "."
-          : "No notices found on the pages being watched."}</p>`;
-      }
-      return `<h3>${esc(src.authority)} <span class="small">· ${mine.length}</span></h3>${body}`;
-    }).join("");
-
-    const status = (notices.sources || []).map((src) => `<li><b>${esc(src.authority)}</b><ul>${(src.pages || []).map((p) =>
-      `<li><a href="${esc(safeUrl(p.url))}" target="_blank" rel="noopener noreferrer">${esc(p.url)}</a>: ${p.ok
-        ? `${p.links} links read, ${p.kept} kept${p.note ? " (" + esc(p.note) + ")" : ""}`
-        : "could not be read (" + esc(p.error) + ")"}</li>`).join("")}</ul></li>`).join("");
-
-    v.innerHTML = `
-      <p class="small">New notices, tenders and auction announcements picked up from the websites of the departments and agencies below. Last checked ${esc(ago(notices.checked))}. Titles and links are read automatically from each page, so check the original notice, and the department's own website remains the official record.</p>
-      <div class="seg" role="group" aria-label="Type">${chips}</div>
-      ${blocks}
-      <details><summary class="small">Pages being watched</summary><ul class="small">${status}</ul></details>`;
-    v.querySelectorAll("[data-ntype]").forEach((b) => (b.onclick = () => { state.ntype = b.dataset.ntype; render(); }));
-  }
 
   // ---- Prices ----------------------------------------------------------------
   const METAL_ORDER = ["gold", "silver", "copper", "platinum", "palladium", "aluminum", "nickel", "zinc", "lead", "tin", "iron-ore", "coal"];
@@ -489,18 +433,17 @@
     const safety = state.tab === "safety";
     const explore = state.tab === "explore";
     const inTab = (t, i) => (t === "chagai" ? i.chagaiSecurity : t === "safety" ? !!i.safetyType : t === "explore" ? !!i.exType : i.mining !== false);
-    ["mining", "chagai", "safety", "explore", "notices", "prices"].forEach((t) => {
+    ["mining", "chagai", "safety", "explore", "prices"].forEach((t) => {
       const b = $("tab-" + t);
       b.setAttribute("aria-selected", String(state.tab === t));
       b.querySelector(".n").textContent =
-        t === "notices" ? notices.items.length || "" : t === "prices" ? "" : items.filter((i) => inTab(t, i)).length;
+        t === "prices" ? "" : items.filter((i) => inTab(t, i)).length;
     });
-    const special = state.tab === "notices" || state.tab === "prices";
+    const special = state.tab === "prices";
     $("newsView").hidden = special;
-    $("noticesView").hidden = state.tab !== "notices";
-    $("pricesView").hidden = state.tab !== "prices";
+    $("pricesView").hidden = !special;
     if (special) {
-      if (state.tab === "notices") renderNotices(); else renderPrices();
+      renderPrices();
       return;
     }
     $("chagaiNote").hidden = !chagai;
@@ -591,10 +534,7 @@
         return r.ok ? await r.json() : null;
       } catch (e) { return null; }
     };
-    const [nData, pData] = await Promise.all([load("data/notices.json"), load("data/prices.json")]);
-    if (nData && nData.checked && Array.isArray(nData.items)) {
-      notices = { ...nData, items: nData.items.filter((i) => typeof i.url === "string"), sources: nData.sources || [] };
-    }
+    const pData = await load("data/prices.json");
     if (pData && (pData.daily || pData.monthly)) prices = pData;
 
     if (data.updated) {
@@ -645,9 +585,7 @@
       return `<li>${name}: ${s.ok ? `${s.items} kept of ${s.seen ?? s.items}` : "unavailable (" + esc(s.error) + ")"}</li>`;
     }).join("");
 
-    $("statusList").innerHTML += (notices.sources || []).flatMap((src) => (src.pages || []).map((p) =>
-      `<li>${esc(src.authority)} (notices): ${p.ok ? `${p.links} links read, ${p.kept} kept` : "unavailable (" + esc(p.error) + ")"}</li>`)).join("") +
-      (prices?.sources || []).map((s) => `<li>${esc(s.name)}: ${s.ok ? "ok" + (s.detail ? " (" + esc(s.detail) + ")" : "") : "unavailable (" + esc(s.error) + ")"}</li>`).join("");
+    $("statusList").innerHTML += (prices?.sources || []).map((s) => `<li>${esc(s.name)}: ${s.ok ? "ok" + (s.detail ? " (" + esc(s.detail) + ")" : "") : "unavailable (" + esc(s.error) + ")"}</li>`).join("");
 
     $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
     $("reset").onclick = () => { Object.assign(state, DEFAULTS, { period: TAB_PERIOD[state.tab] }); state.off.clear(); $("q").value = ""; render(); };
@@ -655,7 +593,6 @@
     $("tab-chagai").onclick = () => setTab("chagai");
     $("tab-safety").onclick = () => setTab("safety");
     $("tab-explore").onclick = () => setTab("explore");
-    $("tab-notices").onclick = () => setTab("notices");
     $("tab-prices").onclick = () => setTab("prices");
     render();
   }
