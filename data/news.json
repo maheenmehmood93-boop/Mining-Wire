@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T12:21:26.788Z",
+ "updated": "2026-10-07T12:43:08.695Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 139
+   "seen": 140
   },
   {
    "source": "Pakistan Observer",
@@ -221,7 +221,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "seen": 10
   },
   {
@@ -248,8 +248,33 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Large underground mobile fleet for sale in Finsch Diamond Mine asset sale",
    "link": "https://im-mining.com/2026/10/07/large-underground-mobile-fleet-for-sale-in-finsch-diamond-mine-asset-sale/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T12:19:23.000Z",
+   "summary": "Proceedings are well underway in the asset disposal programme for Finsch Diamond Mine (Pty) Ltd (In Business Rescue), situated near Lime Acres in the Northern Cape. Park Village Auctions (PVA) was appointed to facilitate the structured...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Large underground mobile fleet up for grabs in Finsch asset sale",
+   "link": "https://im-mining.com/2026/10/07/large-underground-mobile-fleet-up-for-grabs-in-finsch-asset-sale/",
    "via": "",
    "viaUrl": "",
    "date": "2026-10-07T12:19:23.000Z",
@@ -259,6 +284,31 @@
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "South Africa to establish new Commission to oversee State firms",
+   "link": "https://www.miningweekly.com/article/south-africa-to-establish-new-commission-to-oversee-state-firms-2026-10-07",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T12:11:00.000Z",
+   "summary": "South Africa intends establishing a commission chaired by President Cyril Ramaphosa to coordinate the work of its State-owned firms after shelving plans to place them under the auspices of a holding company. The new panel will review a...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -397,6 +447,33 @@
    "image": "https://i.brecorder.com/large/2026/10/07160043db553d3.webp",
    "source": "Business Recorder",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "title": "Sigma Lithium jumps as Brazil court clears Grota mine restart",
+   "link": "https://www.mining.com/sigma-lithium-jumps-as-brazil-court-clears-grota-mine-restart/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T10:47:00.000Z",
+   "summary": "Appeals court lifted a September emergency order, allowing Grota do Cirilo’s restart as Sigma aims for major production boost.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
