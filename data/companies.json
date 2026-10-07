@@ -1,0 +1,797 @@
+{
+ "asOf": "2026-10-07",
+ "rankSource": "Ranked by market capitalisation (US$ billion), from companiesmarketcap.com, retrieved 7 October 2026. The list includes coal, potash and royalty/streaming companies. Market values change daily, so ranks move.",
+ "miners": [
+  {
+   "rank": 1,
+   "name": "BHP Group",
+   "country": "Australia",
+   "ticker": "BHP",
+   "marketCapBn": 221.1,
+   "commodities": [
+    "Iron ore",
+    "Copper",
+    "Coal",
+    "Potash"
+   ],
+   "url": "https://www.bhp.com"
+  },
+  {
+   "rank": 2,
+   "name": "Southern Copper",
+   "country": "USA (operations in Peru and Mexico)",
+   "ticker": "SCCO",
+   "marketCapBn": 172.5,
+   "commodities": [
+    "Copper",
+    "Silver",
+    "Zinc"
+   ],
+   "url": "https://www.southerncopper.com"
+  },
+  {
+   "rank": 3,
+   "name": "Rio Tinto",
+   "country": "UK / Australia",
+   "ticker": "RIO",
+   "marketCapBn": 156.0,
+   "commodities": [
+    "Iron ore",
+    "Copper",
+    "Aluminium",
+    "Lithium"
+   ],
+   "url": "https://www.riotinto.com"
+  },
+  {
+   "rank": 4,
+   "name": "China Shenhua Energy",
+   "country": "China",
+   "ticker": "601088.SS",
+   "marketCapBn": 154.6,
+   "commodities": [
+    "Coal"
+   ],
+   "url": "https://www.csec.com"
+  },
+  {
+   "rank": 5,
+   "name": "Newmont",
+   "country": "USA",
+   "ticker": "NEM",
+   "marketCapBn": 122.6,
+   "commodities": [
+    "Gold",
+    "Copper"
+   ],
+   "url": "https://www.newmont.com"
+  },
+  {
+   "rank": 6,
+   "name": "Zijin Mining",
+   "country": "China",
+   "ticker": "601899.SS",
+   "marketCapBn": 118.1,
+   "commodities": [
+    "Gold",
+    "Copper",
+    "Lithium"
+   ],
+   "url": "https://www.zijinmining.com"
+  },
+  {
+   "rank": 7,
+   "name": "Freeport-McMoRan",
+   "country": "USA",
+   "ticker": "FCX",
+   "marketCapBn": 104.2,
+   "commodities": [
+    "Copper",
+    "Gold"
+   ],
+   "url": "https://www.fcx.com"
+  },
+  {
+   "rank": 8,
+   "name": "Grupo México",
+   "country": "Mexico",
+   "ticker": "GMBXF",
+   "marketCapBn": 103.2,
+   "commodities": [
+    "Copper",
+    "Silver",
+    "Zinc"
+   ]
+  },
+  {
+   "rank": 9,
+   "name": "Agnico Eagle Mines",
+   "country": "Canada",
+   "ticker": "AEM",
+   "marketCapBn": 94.2,
+   "commodities": [
+    "Gold"
+   ],
+   "url": "https://www.agnicoeagle.com"
+  },
+  {
+   "rank": 10,
+   "name": "Glencore",
+   "country": "Switzerland",
+   "ticker": "GLCNF",
+   "marketCapBn": 89.3,
+   "commodities": [
+    "Copper",
+    "Coal",
+    "Nickel",
+    "Zinc",
+    "Cobalt"
+   ],
+   "url": "https://www.glencore.com"
+  },
+  {
+   "rank": 11,
+   "name": "Barrick Mining",
+   "country": "Canada",
+   "ticker": "B",
+   "marketCapBn": 67.0,
+   "commodities": [
+    "Gold",
+    "Copper"
+   ],
+   "url": "https://www.barrick.com",
+   "pakistan": "Reko Diq copper-gold project, Balochistan"
+  },
+  {
+   "rank": 12,
+   "name": "Ma'aden",
+   "country": "Saudi Arabia",
+   "ticker": "1211.SR",
+   "marketCapBn": 66.0,
+   "commodities": [
+    "Gold",
+    "Phosphate",
+    "Aluminium"
+   ],
+   "url": "https://www.maaden.com.sa"
+  },
+  {
+   "rank": 13,
+   "name": "Wheaton Precious Metals",
+   "country": "Canada",
+   "ticker": "WPM",
+   "marketCapBn": 62.5,
+   "commodities": [
+    "Gold",
+    "Silver"
+   ],
+   "url": "https://www.wheatonpm.com"
+  },
+  {
+   "rank": 14,
+   "name": "Vale",
+   "country": "Brazil",
+   "ticker": "VALE",
+   "marketCapBn": 59.9,
+   "commodities": [
+    "Iron ore",
+    "Nickel",
+    "Copper"
+   ],
+   "url": "https://www.vale.com"
+  },
+  {
+   "rank": 15,
+   "name": "Anglo American",
+   "country": "UK",
+   "ticker": "AAL.L",
+   "marketCapBn": 58.9,
+   "commodities": [
+    "Copper",
+    "Iron ore",
+    "PGMs",
+    "Nickel"
+   ],
+   "url": "https://www.angloamerican.com"
+  },
+  {
+   "rank": 16,
+   "name": "Antofagasta",
+   "country": "UK (operations in Chile)",
+   "ticker": "ANTO.L",
+   "marketCapBn": 50.0,
+   "commodities": [
+    "Copper"
+   ],
+   "url": "https://www.antofagasta.co.uk"
+  },
+  {
+   "rank": 17,
+   "name": "Zijin Gold International",
+   "country": "Hong Kong",
+   "ticker": "2259.HK",
+   "marketCapBn": 47.4,
+   "commodities": [
+    "Gold"
+   ]
+  },
+  {
+   "rank": 18,
+   "name": "AngloGold Ashanti",
+   "country": "South Africa",
+   "ticker": "AU",
+   "marketCapBn": 47.3,
+   "commodities": [
+    "Gold"
+   ],
+   "url": "https://www.anglogoldashanti.com"
+  },
+  {
+   "rank": 19,
+   "name": "Franco-Nevada",
+   "country": "Canada",
+   "ticker": "FNV",
+   "marketCapBn": 47.1,
+   "commodities": [
+    "Gold",
+    "Silver"
+   ],
+   "url": "https://www.franco-nevada.com"
+  },
+  {
+   "rank": 20,
+   "name": "CMOC Group",
+   "country": "China",
+   "ticker": "3993.HK",
+   "marketCapBn": 41.5,
+   "commodities": [
+    "Copper",
+    "Cobalt"
+   ],
+   "url": "https://www.cmoc.com"
+  },
+  {
+   "rank": 21,
+   "name": "Cameco",
+   "country": "Canada",
+   "ticker": "CCJ",
+   "marketCapBn": 40.5,
+   "commodities": [
+    "Uranium"
+   ],
+   "url": "https://www.cameco.com"
+  },
+  {
+   "rank": 22,
+   "name": "Fortescue",
+   "country": "Australia",
+   "ticker": "FMG.AX",
+   "marketCapBn": 34.4,
+   "commodities": [
+    "Iron ore"
+   ],
+   "url": "https://www.fmgl.com.au"
+  },
+  {
+   "rank": 23,
+   "name": "Nutrien",
+   "country": "Canada",
+   "ticker": "NTR",
+   "marketCapBn": 34.0,
+   "commodities": [
+    "Potash",
+    "Phosphate"
+   ],
+   "url": "https://www.nutrien.com"
+  },
+  {
+   "rank": 24,
+   "name": "Teck Resources",
+   "country": "Canada",
+   "ticker": "TECK",
+   "marketCapBn": 32.9,
+   "commodities": [
+    "Copper",
+    "Zinc"
+   ],
+   "url": "https://www.teck.com"
+  },
+  {
+   "rank": 25,
+   "name": "Gold Fields",
+   "country": "South Africa",
+   "ticker": "GFI",
+   "marketCapBn": 32.2,
+   "commodities": [
+    "Gold"
+   ],
+   "url": "https://www.goldfields.com"
+  },
+  {
+   "rank": 26,
+   "name": "Yankuang Energy",
+   "country": "China",
+   "ticker": "600188.SS",
+   "marketCapBn": 29.1,
+   "commodities": [
+    "Coal"
+   ]
+  },
+  {
+   "rank": 27,
+   "name": "Kinross Gold",
+   "country": "Canada",
+   "ticker": "KGC",
+   "marketCapBn": 28.2,
+   "commodities": [
+    "Gold"
+   ],
+   "url": "https://www.kinross.com"
+  },
+  {
+   "rank": 28,
+   "name": "China Coal Energy",
+   "country": "China",
+   "ticker": "601898.SS",
+   "marketCapBn": 27.3,
+   "commodities": [
+    "Coal"
+   ]
+  },
+  {
+   "rank": 29,
+   "name": "Fresnillo",
+   "country": "Mexico",
+   "ticker": "FNLPF",
+   "marketCapBn": 26.8,
+   "commodities": [
+    "Silver",
+    "Gold"
+   ],
+   "url": "https://www.fresnilloplc.com"
+  },
+  {
+   "rank": 30,
+   "name": "Coal India",
+   "country": "India",
+   "ticker": "COALINDIA.NS",
+   "marketCapBn": 26.5,
+   "commodities": [
+    "Coal"
+   ],
+   "url": "https://www.coalindia.in"
+  },
+  {
+   "rank": 31,
+   "name": "Northern Star Resources",
+   "country": "Australia",
+   "ticker": "NST.AX",
+   "marketCapBn": 24.2,
+   "commodities": [
+    "Gold"
+   ],
+   "url": "https://www.nst.com.au"
+  },
+  {
+   "rank": 32,
+   "name": "Bayan Resources",
+   "country": "Indonesia",
+   "ticker": "BYAN.JK",
+   "marketCapBn": 23.5,
+   "commodities": [
+    "Coal"
+   ]
+  },
+  {
+   "rank": 33,
+   "name": "First Quantum Minerals",
+   "country": "Canada",
+   "ticker": "FM.TO",
+   "marketCapBn": 23.4,
+   "commodities": [
+    "Copper"
+   ],
+   "url": "https://www.firstquantum.com"
+  },
+  {
+   "rank": 34,
+   "name": "Nornickel",
+   "country": "Russia",
+   "ticker": "GMKN.ME",
+   "marketCapBn": 21.2,
+   "commodities": [
+    "Nickel",
+    "PGMs",
+    "Copper"
+   ],
+   "url": "https://www.nornickel.com"
+  },
+  {
+   "rank": 35,
+   "name": "Lundin Mining",
+   "country": "Canada",
+   "ticker": "LUN.TO",
+   "marketCapBn": 20.9,
+   "commodities": [
+    "Copper",
+    "Zinc",
+    "Gold"
+   ],
+   "url": "https://www.lundinmining.com"
+  },
+  {
+   "rank": 36,
+   "name": "Royal Gold",
+   "country": "USA",
+   "ticker": "RGLD",
+   "marketCapBn": 19.9,
+   "commodities": [
+    "Gold",
+    "Silver"
+   ],
+   "url": "https://www.royalgold.com"
+  },
+  {
+   "rank": 37,
+   "name": "Industrias Peñoles",
+   "country": "Mexico",
+   "ticker": "PE&OLES.MX",
+   "marketCapBn": 19.6,
+   "commodities": [
+    "Silver",
+    "Gold",
+    "Zinc"
+   ],
+   "url": "https://www.penoles.com.mx"
+  },
+  {
+   "rank": 38,
+   "name": "Pan American Silver",
+   "country": "Canada",
+   "ticker": "PAAS",
+   "marketCapBn": 19.0,
+   "commodities": [
+    "Silver",
+    "Gold"
+   ],
+   "url": "https://www.panamericansilver.com"
+  },
+  {
+   "rank": 39,
+   "name": "China Northern Rare Earth",
+   "country": "China",
+   "ticker": "600111.SS",
+   "marketCapBn": 19.0,
+   "commodities": [
+    "Rare earths"
+   ]
+  },
+  {
+   "rank": 40,
+   "name": "Shandong Gold Mining",
+   "country": "China",
+   "ticker": "600547.SS",
+   "marketCapBn": 18.8,
+   "commodities": [
+    "Gold"
+   ]
+  }
+ ],
+ "pakistan": [
+  {
+   "name": "Barrick Mining",
+   "country": "Canada",
+   "commodities": [
+    "Copper",
+    "Gold"
+   ],
+   "role": "Developing the Reko Diq copper-gold project in Balochistan",
+   "url": "https://www.barrick.com"
+  },
+  {
+   "name": "Metallurgical Corporation of China (MCC)",
+   "country": "China",
+   "commodities": [
+    "Copper",
+    "Gold"
+   ],
+   "role": "Operates the Saindak copper-gold project in Chagai, Balochistan"
+  },
+  {
+   "name": "Kohesultan Mining Company (Koh-e-Sultan)",
+   "country": "Pakistan",
+   "commodities": [
+    "Copper"
+   ],
+   "role": "Runs the Siahdiq copper project in Chagai, Balochistan; a joint venture of Siakhkoh Mining Development and MCC Tongsin Resources, with a 5% stake held by Mari Minerals"
+  },
+  {
+   "name": "Pakistan Mineral Development Corporation (PMDC)",
+   "country": "Pakistan",
+   "commodities": [
+    "Rock salt",
+    "Coal",
+    "Gypsum"
+   ],
+   "role": "State-owned mineral development company",
+   "url": "https://www.pmdc.gov.pk"
+  },
+  {
+   "name": "Sindh Engro Coal Mining Company (SECMC)",
+   "country": "Pakistan",
+   "commodities": [
+    "Coal"
+   ],
+   "role": "Operates the Thar coal mine (Block II), Sindh"
+  }
+ ],
+ "services": [
+  {
+   "name": "Hatch",
+   "country": "Canada",
+   "category": "Consulting & engineering",
+   "what": "Engineering, project delivery and advisory for mining, metals and energy",
+   "url": "https://www.hatch.com"
+  },
+  {
+   "name": "SRK Consulting",
+   "country": "UK / South Africa",
+   "category": "Consulting & engineering",
+   "what": "Geology, resource estimation, mine planning, geotechnical and environmental consulting",
+   "url": "https://www.srk.com"
+  },
+  {
+   "name": "AMC Consultants",
+   "country": "Australia",
+   "category": "Consulting & engineering",
+   "what": "Independent mining consultants: technical studies, reserves, due diligence",
+   "url": "https://www.amcconsultants.com"
+  },
+  {
+   "name": "Ausenco",
+   "country": "Australia",
+   "category": "Consulting & engineering",
+   "what": "Engineering and project management for mineral processing and mine infrastructure",
+   "url": "https://www.ausenco.com"
+  },
+  {
+   "name": "Worley",
+   "country": "Australia",
+   "category": "Consulting & engineering",
+   "what": "Engineering and project delivery for resources, energy and chemicals",
+   "url": "https://www.worley.com"
+  },
+  {
+   "name": "Lycopodium",
+   "country": "Australia",
+   "category": "Consulting & engineering",
+   "what": "Study, design and construction management for mineral processing plants",
+   "url": "https://www.lycopodium.com"
+  },
+  {
+   "name": "Knight Piésold",
+   "country": "Canada",
+   "category": "Consulting & engineering",
+   "what": "Tailings, water and geotechnical engineering for mines",
+   "url": "https://www.knightpiesold.com"
+  },
+  {
+   "name": "WSP (includes Golder)",
+   "country": "Canada",
+   "category": "Consulting & engineering",
+   "what": "Engineering, environmental and geotechnical consulting for mining clients",
+   "url": "https://www.wsp.com"
+  },
+  {
+   "name": "Stantec",
+   "country": "Canada",
+   "category": "Consulting & engineering",
+   "what": "Engineering and environmental design, including mine infrastructure",
+   "url": "https://www.stantec.com"
+  },
+  {
+   "name": "SLR Consulting",
+   "country": "UK",
+   "category": "Consulting & engineering",
+   "what": "Environmental, social and technical consulting for the resources sector",
+   "url": "https://www.slrconsulting.com"
+  },
+  {
+   "name": "Bechtel",
+   "country": "USA",
+   "category": "Construction & EPC",
+   "what": "Engineering, procurement and construction of mines, smelters and infrastructure",
+   "url": "https://www.bechtel.com"
+  },
+  {
+   "name": "Fluor",
+   "country": "USA",
+   "category": "Construction & EPC",
+   "what": "Engineering, procurement and construction for mining and metals",
+   "url": "https://www.fluor.com"
+  },
+  {
+   "name": "China Metallurgical Group (MCC)",
+   "country": "China",
+   "category": "Construction & EPC",
+   "what": "Metallurgical engineering and construction; also operates mines overseas",
+   "url": "https://www.mcc.com.cn"
+  },
+  {
+   "name": "CIMIC Group",
+   "country": "Australia",
+   "category": "Construction & EPC",
+   "what": "Construction, engineering and mining services",
+   "url": "https://www.cimic.com.au"
+  },
+  {
+   "name": "Thiess",
+   "country": "Australia",
+   "category": "Contract mining & drilling",
+   "what": "Contract mining and mine operations; describes itself as the world's largest mining services provider",
+   "url": "https://www.thiess.com"
+  },
+  {
+   "name": "Macmahon",
+   "country": "Australia",
+   "category": "Contract mining & drilling",
+   "what": "Contract surface and underground mining",
+   "url": "https://www.macmahon.com.au"
+  },
+  {
+   "name": "Boart Longyear",
+   "country": "USA",
+   "category": "Contract mining & drilling",
+   "what": "Drilling services and drilling equipment for exploration and mining",
+   "url": "https://www.boartlongyear.com"
+  },
+  {
+   "name": "Byrnecut",
+   "country": "Australia",
+   "category": "Contract mining & drilling",
+   "what": "Underground contract mining",
+   "url": "https://www.byrnecut.com"
+  },
+  {
+   "name": "Orica",
+   "country": "Australia",
+   "category": "Explosives & consumables",
+   "what": "Commercial explosives, blasting systems and services",
+   "url": "https://www.orica.com"
+  },
+  {
+   "name": "Dyno Nobel",
+   "country": "USA / Australia",
+   "category": "Explosives & consumables",
+   "what": "Commercial explosives and initiating systems",
+   "url": "https://www.dynonobel.com"
+  },
+  {
+   "name": "Enaex",
+   "country": "Chile",
+   "category": "Explosives & consumables",
+   "what": "Ammonium nitrate, explosives and blasting services",
+   "url": "https://www.enaex.com"
+  },
+  {
+   "name": "Caterpillar",
+   "country": "USA",
+   "category": "Machinery & equipment",
+   "what": "Haul trucks, excavators, loaders, underground machines",
+   "url": "https://www.caterpillar.com"
+  },
+  {
+   "name": "Komatsu",
+   "country": "Japan",
+   "category": "Machinery & equipment",
+   "what": "Haul trucks, excavators, underground machines (includes the former Joy Global)",
+   "url": "https://www.komatsu.com"
+  },
+  {
+   "name": "Epiroc",
+   "country": "Sweden",
+   "category": "Machinery & equipment",
+   "what": "Drill rigs, loaders, underground and surface mining equipment",
+   "url": "https://www.epiroc.com"
+  },
+  {
+   "name": "Sandvik",
+   "country": "Sweden",
+   "category": "Machinery & equipment",
+   "what": "Rock drilling, cutting and crushing equipment",
+   "url": "https://home.sandvik"
+  },
+  {
+   "name": "Liebherr",
+   "country": "Switzerland / Germany",
+   "category": "Machinery & equipment",
+   "what": "Mining excavators, haul trucks and cranes",
+   "url": "https://www.liebherr.com"
+  },
+  {
+   "name": "Metso",
+   "country": "Finland",
+   "category": "Machinery & equipment",
+   "what": "Crushing, grinding and mineral processing equipment",
+   "url": "https://www.metso.com"
+  },
+  {
+   "name": "FLSmidth",
+   "country": "Denmark",
+   "category": "Machinery & equipment",
+   "what": "Mineral processing equipment and plant services",
+   "url": "https://www.flsmidth.com"
+  },
+  {
+   "name": "Weir Group",
+   "country": "UK",
+   "category": "Machinery & equipment",
+   "what": "Slurry pumps, hydrocyclones and wear parts for mining",
+   "url": "https://global.weir"
+  },
+  {
+   "name": "ALS",
+   "country": "Australia",
+   "category": "Laboratories & testing",
+   "what": "Geochemical assay laboratories and testing services",
+   "url": "https://www.alsglobal.com"
+  },
+  {
+   "name": "SGS",
+   "country": "Switzerland",
+   "category": "Laboratories & testing",
+   "what": "Inspection, sampling, assay and certification",
+   "url": "https://www.sgs.com"
+  },
+  {
+   "name": "Bureau Veritas",
+   "country": "France",
+   "category": "Laboratories & testing",
+   "what": "Inspection, minerals testing and certification",
+   "url": "https://www.bureauveritas.com"
+  },
+  {
+   "name": "Intertek",
+   "country": "UK",
+   "category": "Laboratories & testing",
+   "what": "Minerals analysis, inspection and assurance",
+   "url": "https://www.intertek.com"
+  },
+  {
+   "name": "Actlabs",
+   "country": "Canada",
+   "category": "Laboratories & testing",
+   "what": "Geochemical and assay laboratories",
+   "url": "https://www.actlabs.com"
+  },
+  {
+   "name": "Maptek",
+   "country": "Australia",
+   "category": "Software & technology",
+   "what": "Mine planning, geology and survey software",
+   "url": "https://www.maptek.com"
+  },
+  {
+   "name": "Hexagon (Mining)",
+   "country": "Sweden",
+   "category": "Software & technology",
+   "what": "Mine planning, fleet management and safety technology",
+   "url": "https://www.hexagon.com"
+  },
+  {
+   "name": "Datamine",
+   "country": "UK",
+   "category": "Software & technology",
+   "what": "Mine planning and geological modelling software",
+   "url": "https://www.dataminesoftware.com"
+  },
+  {
+   "name": "Seequent",
+   "country": "New Zealand",
+   "category": "Software & technology",
+   "what": "Geological modelling software (Leapfrog), part of Bentley Systems",
+   "url": "https://www.seequent.com"
+  }
+ ],
+ "servicesNote": "Service providers are grouped by what they supply and are not ranked. The list is a starting point, not an endorsement or a complete directory."
+}
