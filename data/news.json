@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T02:34:03.968Z",
+ "updated": "2026-10-07T03:34:59.501Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "Dawn",
