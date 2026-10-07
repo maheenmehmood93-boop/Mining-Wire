@@ -38,6 +38,20 @@ jobs:
         continue-on-error: true
         run: node scripts/fetch-prices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
 
+      # Share prices: Pakistan Stock Exchange needs nothing; the international
+      # prices need a free Alpha Vantage key saved as the ALPHAVANTAGE_API_KEY secret.
+      - name: Fetch share prices
+        continue-on-error: true
+        env:
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+        run: node scripts/fetch-stocks.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+
+      # Company ranking: refreshed about weekly from companiesmarketcap.com. If the
+      # source page cannot be read, the existing list is left as it is.
+      - name: Refresh company ranking
+        continue-on-error: true
+        run: node scripts/update-companies.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
+
       - name: Commit refreshed data
         run: |
           git config user.name "news-bot"
