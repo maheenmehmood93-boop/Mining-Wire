@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T05:34:26.958Z",
+ "updated": "2026-10-07T06:40:25.073Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "Dawn",
@@ -89,7 +89,7 @@
    "section": "Business",
    "ok": true,
    "items": 0,
-   "seen": 24
+   "seen": 25
   },
   {
    "source": "The Express Tribune",
@@ -124,7 +124,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 98
+   "seen": 105
   },
   {
    "source": "Pakistan Observer",
@@ -176,6 +176,12 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
    "title": "CEMTEC and Eirich partner to deliver &#8216;comprehensive grinding solutions' for mining",
    "link": "https://im-mining.com/2026/10/07/cemtec-and-eirich-partner-to-deliver-comprehensive-grinding-solutions-for-mining/",
    "via": "",
@@ -184,13 +190,7 @@
    "summary": "CEMTEC and Eirich have agreed to collaborate by combining their complementary grinding technologies and expertise, bringing together two established European companies with a global presence in mining and mineral processing. CEMTEC...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false
+   "region": "Global"
   },
   {
    "section": "",
