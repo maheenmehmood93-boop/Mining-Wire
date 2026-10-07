@@ -1,0 +1,42 @@
+[
+  {
+    "id": "balochistan-mmd",
+    "authority": "Mines & Minerals Development Dept, Balochistan",
+    "province": "Balochistan",
+    "filter": "none",
+    "pages": [
+      "https://mmd.balochistan.gov.pk/tenders-notifications/",
+      "https://mmd.balochistan.gov.pk/news-updates/"
+    ]
+  },
+  {
+    "id": "kp-minerals",
+    "authority": "Mines & Minerals Dept, Khyber Pakhtunkhwa",
+    "province": "Khyber Pakhtunkhwa",
+    "filter": "none",
+    "pages": [
+      "https://kpminerals.kp.gov.pk/"
+    ]
+  },
+  {
+    "id": "pmdc",
+    "authority": "Pakistan Mineral Development Corporation",
+    "province": "",
+    "filter": "none",
+    "pages": [
+      "https://www.pmdc.gov.pk/tenders/",
+      "https://www.pmdc.gov.pk/"
+    ]
+  },
+  {
+    "id": "energy-ministry",
+    "authority": "Ministry of Energy (Petroleum Division)",
+    "province": "",
+    "filter": "mining",
+    "pages": [
+      "https://petroleum.gov.pk/Tenders",
+      "https://petroleum.gov.pk/Publications",
+      "https://petroleum.gov.pk/"
+    ]
+  }
+]
