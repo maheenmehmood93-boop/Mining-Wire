@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T22:33:55.155Z",
+ "updated": "2026-10-08T23:32:24.564Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -248,17 +248,35 @@
  ],
  "items": [
   {
-   "title": "Strike could cut November output at Chile's Centinela copper mine by half, unions say",
-   "link": "https://www.miningweekly.com/article/strike-could-cut-november-output-at-chiles-centinela-copper-mine-by-half-unions-say-2026-10-09",
+   "title": "SigraFi raises $35M to connect artisanal gold to institutional markets",
+   "link": "https://www.mining.com/sigrafi-raises-35m-to-connect-artisanal-gold-to-institutional-markets/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-08T22:06:00.000Z",
-   "summary": "The full impact of a workers' strike at Antofagasta's Centinela copper mine in Chile is expected to be felt in November, when production could decrease by half, unions said on Thursday. Labor groups launched a strike on Wednesday after...",
+   "date": "2026-10-08T23:25:07.000Z",
+   "summary": "UK company purchases gold under multi-year contracts from organised artisanal and small-scale gold mining cooperatives.",
    "image": null,
-   "source": "Mining Weekly",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Copper"
@@ -272,6 +290,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Strike could cut November output at Chile's Centinela copper mine by half, unions say",
+   "link": "https://www.miningweekly.com/article/strike-could-cut-november-output-at-chiles-centinela-copper-mine-by-half-unions-say-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T22:06:00.000Z",
+   "summary": "The full impact of a workers' strike at Antofagasta's Centinela copper mine in Chile is expected to be felt in November, when production could decrease by half, unions said on Thursday. Labor groups launched a strike on Wednesday after...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
