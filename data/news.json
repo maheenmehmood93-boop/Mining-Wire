@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T00:44:57.572Z",
+ "updated": "2026-10-08T01:34:16.108Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -248,17 +248,8 @@
  ],
  "items": [
   {
-   "title": "AME report sees $23B economic boost from new Canadian mines",
-   "link": "https://www.mining.com/ame-report-sees-23b-economic-boost-from-new-canadian-mines/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T23:25:30.000Z",
-   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -270,6 +261,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "AME report sees $23B economic boost from new Canadian mines",
+   "link": "https://www.mining.com/ame-report-sees-23b-economic-boost-from-new-canadian-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T23:25:30.000Z",
+   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
