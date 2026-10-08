@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T17:34:13.800Z",
+ "updated": "2026-10-08T18:39:27.307Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 168
+   "seen": 171
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Ivanhoe copper output jumps 19% as Kamoa-Kakula rebounds",
-   "link": "https://www.mining.com/ivanhoe-copper-output-jumps-19-as-kamoa-kakula-rebounds/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T17:10:22.000Z",
-   "summary": "Higher mining rates and improved underground access at the DRC mine lift quarterly output.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -267,20 +258,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Ivanhoe copper output jumps 19% as Kamoa-Kakula rebounds",
+   "link": "https://www.mining.com/ivanhoe-copper-output-jumps-19-as-kamoa-kakula-rebounds/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T17:10:22.000Z",
+   "summary": "Higher mining rates and improved underground access at the DRC mine lift quarterly output.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Critical One plans ‘Critical Two’ spin-out for Kenora and Namibia",
-   "link": "https://www.canadianminingjournal.com/news/critical-one-plans-critical-two-spin-out-for-kenora-and-namibia/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T16:40:45.000Z",
-   "summary": "Critical One Energy (CSE: CRTL) announced its plans to transfer the Kenora uranium property in northwestern Ontario, and its uranium and copper [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper",
@@ -295,6 +286,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Critical One plans ‘Critical Two’ spin-out for Kenora and Namibia",
+   "link": "https://www.canadianminingjournal.com/news/critical-one-plans-critical-two-spin-out-for-kenora-and-namibia/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T16:40:45.000Z",
+   "summary": "Critical One Energy (CSE: CRTL) announced its plans to transfer the Kenora uranium property in northwestern Ontario, and its uranium and copper [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -402,17 +402,8 @@
    "press": false
   },
   {
-   "title": "Gold Mountain targets WWII tungsten mine in Brazil",
-   "link": "https://www.northernminer.com/news/gold-mountain-targets-wwii-tungsten-mine-in-brazil/1003895571/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T15:03:00.000Z",
-   "summary": "Gold Mountain (ASX: GMN) is weighing the revival of a Brazilian tungsten mine that began during the Second World War after securing a 12-month exclusive right to acquire the property...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -426,6 +417,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold Mountain targets WWII tungsten mine in Brazil",
+   "link": "https://www.northernminer.com/news/gold-mountain-targets-wwii-tungsten-mine-in-brazil/1003895571/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:03:00.000Z",
+   "summary": "Gold Mountain (ASX: GMN) is weighing the revival of a Brazilian tungsten mine that began during the Second World War after securing a 12-month exclusive right to acquire the property...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -984,17 +984,8 @@
    "press": false
   },
   {
-   "title": "CleanTech Lithium expands foothold in Argentina",
-   "link": "https://www.canadianminingjournal.com/news/cleantech-lithium-expands-foothold-in-argentina/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T12:03:00.000Z",
-   "summary": "New lithium brine properties near Laguna Verde offer growth potential as the developer targets exploration in 2027.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -1008,6 +999,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "CleanTech Lithium expands foothold in Argentina",
+   "link": "https://www.canadianminingjournal.com/news/cleantech-lithium-expands-foothold-in-argentina/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T12:03:00.000Z",
+   "summary": "New lithium brine properties near Laguna Verde offer growth potential as the developer targets exploration in 2027.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -1690,6 +1690,31 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
+   "press": false
+  },
+  {
+   "title": "AME report sees $23B economic boost from new Canadian mines",
+   "link": "https://www.canadianminingjournal.com/news/ame-report-sees-23b-economic-boost-from-new-canadian-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T23:26:43.000Z",
+   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
