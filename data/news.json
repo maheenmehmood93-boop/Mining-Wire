@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T18:39:27.307Z",
+ "updated": "2026-10-08T19:34:17.431Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 171
+   "seen": 87
   },
   {
    "source": "Pakistan Observer",
@@ -216,7 +216,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 10
   },
   {
@@ -242,6 +242,63 @@
   }
  ],
  "items": [
+  {
+   "title": "Miner Killed in Landslide Inside Dukki Coal Mine",
+   "link": "https://thebalochistanpost.net/2026/10/miner-killed-in-landslide-inside-dukki-coal-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T19:09:44.000Z",
+   "summary": "A miner was killed in a landslide inside a coal mine in Balochistan’s Dukki district on Thursday. Hospital sources identified the deceased as Ismail, who was buried beneath debris while working inside the mine. Rescue teams retrieved his...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Collapse / cave-in",
+   "country": "Pakistan",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Levack restart puts Magna on two-mine path",
+   "link": "https://www.northernminer.com/news/levack-restart-puts-magna-on-two-mine-path/1003895592/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T19:05:57.000Z",
+   "summary": "Magna Mining (TSX: NICU; US-OTC: MGMNF) has approved a $70-million (US$49 million) restart of its Levack nickel-copper mine near Sudbury, Ont., targeting commercial production by mid-2028. Thursday’s preliminary economic assessment...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -390,7 +447,7 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "title": "Epic outlines initial 440,000-oz McKinnon resource in Ontario",
+   "title": "Epic outlines initial 440,000-oz resource at McKinnon",
    "link": "https://www.northernminer.com/news/epic-outlines-initial-440000-oz-mckinnon-resource-in-ontario/1003895567/",
    "via": "",
    "viaUrl": "",
@@ -610,6 +667,33 @@
    "press": false
   },
   {
+   "title": "Sponsored video: Japan Gold secures $50M exploration cash boost",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-japan-gold-secures-50m-exploration-cash-boost/1003895583/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T14:15:29.000Z",
+   "summary": "Japan Gold CEO John Proust in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Japan Gold and produced in co-operation...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -634,6 +718,33 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
+   "press": false
+  },
+  {
+   "title": "Sponsored video: Westhaven and Dundee eye a new B.C. gold camp",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-westhaven-and-dundee-eye-a-new-b-c-gold-camp/1003895581/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T14:00:31.000Z",
+   "summary": "Westhaven Gold President and CEO Ken Armstrong and Dundee Corp. CEO Jonathan Goodman in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -1693,17 +1804,8 @@
    "press": false
   },
   {
-   "title": "AME report sees $23B economic boost from new Canadian mines",
-   "link": "https://www.canadianminingjournal.com/news/ame-report-sees-23b-economic-boost-from-new-canadian-mines/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T23:26:43.000Z",
-   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -1715,6 +1817,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "AME report sees $23B economic boost from new Canadian mines",
+   "link": "https://www.canadianminingjournal.com/news/ame-report-sees-23b-economic-boost-from-new-canadian-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-07T23:26:43.000Z",
+   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
