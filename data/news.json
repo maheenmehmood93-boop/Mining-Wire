@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T16:38:23.183Z",
+ "updated": "2026-10-08T17:34:13.800Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -80,37 +80,32 @@
   {
    "source": "GlobeNewswire",
    "section": "Drill results",
-   "ok": true,
-   "items": 8,
-   "seen": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Intersects",
-   "ok": true,
-   "items": 2,
-   "seen": 2
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Mineral resource",
-   "ok": true,
-   "items": 11,
-   "seen": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Assay results",
-   "ok": true,
-   "items": 10,
-   "seen": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Exploration update",
-   "ok": true,
-   "items": 13,
-   "seen": 16
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -187,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 164
+   "seen": 168
   },
   {
    "source": "Pakistan Observer",
@@ -248,17 +243,63 @@
  ],
  "items": [
   {
-   "title": "BYC Condemns Killing of Civilian in Dalbandin, Two Children in Panjgur",
-   "link": "https://thebalochistanpost.net/2026/10/byc-condemns-killing-of-civilian-in-dalbandin-two-children-in-panjgur/",
+   "title": "Ivanhoe copper output jumps 19% as Kamoa-Kakula rebounds",
+   "link": "https://www.mining.com/ivanhoe-copper-output-jumps-19-as-kamoa-kakula-rebounds/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-08T15:59:21.000Z",
-   "summary": "A 28-year-old farmer was killed and another man injured when Pakistani military personnel opened fire at a checkpoint in Dalbandin, the Baloch Yakjehti Committee (BYC) said on Thursday. In a statement, the BYC identified the man as Yasin...",
+   "date": "2026-10-08T17:10:22.000Z",
+   "summary": "Higher mining rates and improved underground access at the DRC mine lift quarterly output.",
    "image": null,
-   "source": "The Balochistan Post",
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Critical One plans ‘Critical Two’ spin-out for Kenora and Namibia",
+   "link": "https://www.canadianminingjournal.com/news/critical-one-plans-critical-two-spin-out-for-kenora-and-namibia/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T16:40:45.000Z",
+   "summary": "Critical One Energy (CSE: CRTL) announced its plans to transfer the Kenora uranium property in northwestern Ontario, and its uranium and copper [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "Balochistan",
    "scope": "National",
-   "region": "Balochistan",
    "provinces": [
     "Balochistan"
    ],
@@ -272,20 +313,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "BYC Condemns Killing of Civilian in Dalbandin, Two Children in Panjgur",
+   "link": "https://thebalochistanpost.net/2026/10/byc-condemns-killing-of-civilian-in-dalbandin-two-children-in-panjgur/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:59:21.000Z",
+   "summary": "A 28-year-old farmer was killed and another man injured when Pakistani military personnel opened fire at a checkpoint in Dalbandin, the Baloch Yakjehti Committee (BYC) said on Thursday. In a statement, the BYC identified the man as Yasin...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "region": "Balochistan",
    "press": false
   },
   {
-   "title": "TCG, Indigenous Nations partner on Ontario mining initiative",
-   "link": "https://www.canadianminingjournal.com/news/tcg-indigenous-nations-partner-on-ontario-mining-initiative/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T15:53:05.000Z",
-   "summary": "Atikameksheng Anishnawbek and Wahnapitae First Nation have partnered with Thompson Construction Group (TCG) to pursue mining and construction opportunities in northern Ontario.&#160; [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -297,6 +338,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "TCG, Indigenous Nations partner on Ontario mining initiative",
+   "link": "https://www.canadianminingjournal.com/news/tcg-indigenous-nations-partner-on-ontario-mining-initiative/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:53:05.000Z",
+   "summary": "Atikameksheng Anishnawbek and Wahnapitae First Nation have partnered with Thompson Construction Group (TCG) to pursue mining and construction opportunities in northern Ontario.&#160; [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -349,6 +399,33 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Gold Mountain targets WWII tungsten mine in Brazil",
+   "link": "https://www.northernminer.com/news/gold-mountain-targets-wwii-tungsten-mine-in-brazil/1003895571/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:03:00.000Z",
+   "summary": "Gold Mountain (ASX: GMN) is weighing the revival of a Brazilian tungsten mine that began during the Second World War after securing a 12-month exclusive right to acquire the property...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -904,6 +981,33 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "CleanTech Lithium expands foothold in Argentina",
+   "link": "https://www.canadianminingjournal.com/news/cleantech-lithium-expands-foothold-in-argentina/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T12:03:00.000Z",
+   "summary": "New lithium brine properties near Laguna Verde offer growth potential as the developer targets exploration in 2027.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
