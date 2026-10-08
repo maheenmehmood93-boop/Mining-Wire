@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T21:34:27.532Z",
+ "updated": "2026-10-08T22:33:55.155Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -80,32 +80,37 @@
   {
    "source": "GlobeNewswire",
    "section": "Drill results",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 8,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Intersects",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 2,
+   "seen": 2
   },
   {
    "source": "GlobeNewswire",
    "section": "Mineral resource",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 11,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Assay results",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 10,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Exploration update",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 13,
+   "seen": 16
   },
   {
    "source": "MINING.COM",
@@ -216,7 +221,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 10
   },
   {
@@ -242,6 +247,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Strike could cut November output at Chile's Centinela copper mine by half, unions say",
+   "link": "https://www.miningweekly.com/article/strike-could-cut-november-output-at-chiles-centinela-copper-mine-by-half-unions-say-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T22:06:00.000Z",
+   "summary": "The full impact of a workers' strike at Antofagasta's Centinela copper mine in Chile is expected to be felt in November, when production could decrease by half, unions said on Thursday. Labor groups launched a strike on Wednesday after...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -725,17 +757,8 @@
    "press": false
   },
   {
-   "title": "Molybdenum heads for 6th straight deficit, record prices: BMO",
-   "link": "https://www.mining.com/molybdenum-heads-for-6th-straight-deficit-record-prices-bmo/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T14:57:59.000Z",
-   "summary": "As no new projects exist to lift output in the short term, the trend should continue in 2027, BMO says.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -747,6 +770,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Molybdenum heads for 6th straight deficit, record prices: BMO",
+   "link": "https://www.mining.com/molybdenum-heads-for-6th-straight-deficit-record-prices-bmo/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T14:57:59.000Z",
+   "summary": "As no new projects exist to lift output in the short term, the trend should continue in 2027, BMO says.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
