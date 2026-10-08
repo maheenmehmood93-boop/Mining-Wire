@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T05:34:04.147Z",
+ "updated": "2026-10-08T06:42:31.550Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -165,7 +165,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "seen": 30
   },
   {
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 103
+   "seen": 112
   },
   {
    "source": "Pakistan Observer",
@@ -247,6 +247,60 @@
   }
  ],
  "items": [
+  {
+   "title": "Dalian iron ore hits 15-month low on thin steel margins",
+   "link": "https://www.brecorder.com/news/40443257/dalian-iron-ore-hits-15-month-low-on-thin-steel-margins",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T06:32:03.000Z",
+   "summary": "Dalian iron ore prices touched a 15-month low on Thursday, the first working day after a week-long holiday break in top consumer China, weighed down by concerns over demand prospects amid weak steel margins. By 0204 GMT, the most-traded...",
+   "image": "https://i.brecorder.com/large/2026/10/081131224037de8.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Iron ore"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Copper rallies on mine supply fears, China's return from holiday",
+   "link": "https://www.brecorder.com/news/40443246/copper-rallies-on-mine-supply-fears-chinas-return-from-holiday",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T05:53:06.000Z",
+   "summary": "SINGAPORE: Copper prices gained on Thursday , supported by expectations of Chinese restocking after the National Day holiday and concerns about supply from key mines. Benchmark three-month copper on the London Metal Exchange was up 0.96%...",
+   "image": "https://i.brecorder.com/large/2026/10/081052480801bb1.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
