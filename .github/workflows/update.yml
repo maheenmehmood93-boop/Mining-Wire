@@ -38,8 +38,8 @@ jobs:
         continue-on-error: true
         run: node scripts/fetch-prices.mjs ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
 
-      # Share prices: Pakistan Stock Exchange needs nothing; the international
-      # prices need a free Alpha Vantage key saved as the ALPHAVANTAGE_API_KEY secret.
+      # International share prices need a free Alpha Vantage key saved as the
+      # ALPHAVANTAGE_API_KEY secret. Pakistan Stock Exchange prices are not collected.
       - name: Fetch share prices
         continue-on-error: true
         env:
