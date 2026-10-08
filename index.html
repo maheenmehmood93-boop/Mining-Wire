@@ -454,11 +454,29 @@
     return { t: `${r > 0 ? "+" : ""}${r.toFixed(1)}%`, c: !r ? "" : r > 0 ? "up" : "down" };
   };
 
+  // Pakistan Stock Exchange: links only. The exchange's terms do not allow its data to be
+  // collected and republished, so each company links to its page on the exchange's own site.
+  const PSX = [
+    ["KSE-100 index", "Pakistan benchmark index", "https://dps.psx.com.pk/"],
+    ["OGDCL", "Oil & Gas Development Company", "OGDC"], ["PPL", "Pakistan Petroleum", "PPL"],
+    ["Lucky Cement", "Lucky Cement", "LUCK"], ["Fatima Group", "Fatima Fertilizer", "FATIMA"],
+    ["Mari Energies", "Mari Energies Limited", "MARI"], ["DG Khan Cement", "D.G. Khan Cement", "DGKC"],
+    ["Maple Leaf Cement", "Maple Leaf Cement Factory", "MLCF"], ["Fauji Cement", "Fauji Cement Company", "FCCL"],
+    ["Fauji Fertilizer", "Fauji Fertilizer Company", "FFC"], ["Engro Fertilizers", "Engro Fertilizers", "EFERT"],
+  ];
+
   function renderStocks() {
     const v = $("stocksView");
-    const all = stocks ? Object.entries(stocks.stocks || {}).map(([id, st]) => stockRow(id, st)).filter(Boolean) : [];
+    const all = stocks ? Object.entries(stocks.stocks || {}).filter(([, st]) => st.market !== "PSX").map(([id, st]) => stockRow(id, st)).filter(Boolean) : [];
+    const psx = `<h3>Pakistan (Pakistan Stock Exchange)</h3>
+      <p class="small">Live prices and history are on the exchange's own site. Select a company to open its page.</p>
+      <div class="tablewrap"><table class="prices"><thead><tr><th>Company</th><th>Symbol</th><th></th></tr></thead><tbody>${PSX.map(([n, full, k]) => {
+        const url = k.startsWith("http") ? k : "https://dps.psx.com.pk/company/" + k;
+        return `<tr><td>${esc(n)}<div class="small">${esc(full)}</div></td><td>${k.startsWith("http") ? "KSE100" : esc(k)}</td><td><a href="${esc(url)}" target="_blank" rel="noopener noreferrer">View on PSX</a></td></tr>`; }).join("")}</tbody></table></div>`;
+    const note = `<p class="small">International prices come from Alpha Vantage. Closing prices only, so they can be a day behind. Shown for information, not as investment advice. Oil, gas, cement and fertiliser companies are listed for their links to mining and minerals in Pakistan.</p>`;
     if (!all.length) {
-      v.innerHTML = `<p class="small">No share prices yet. They are collected after the site has been updated.${stocks && (stocks.sources || []).some((s) => !s.ok) ? " " + esc((stocks.sources || []).filter((s) => !s.ok).map((s) => s.name + ": " + s.error).join("; ")) : ""}</p>`;
+      const why = stocks && (stocks.sources || []).find((s) => !s.ok);
+      v.innerHTML = `<h3>International (US-listed shares)</h3><p class="small">${why ? "No international prices yet: " + esc(why.error) + "." : "No international prices yet. They are collected after the site has been updated."}</p>${psx}${note}`;
       return;
     }
     if (!all.some((r) => r.id === state.stock)) state.stock = all[0].id;
@@ -468,23 +486,18 @@
         <td><button type="button" class="metal" data-stock="${esc(r.id)}">${esc(r.name)}</button><div class="small">${esc(r.full)}</div></td>
         <td>${esc(r.symbol)}</td><td class="num">${esc(fmtPrice(r.last[1]))} ${esc(r.currency)}</td>
         <td class="num ${d.c}">${d.t}</td><td class="num ${m.c}">${m.t}</td><td>${esc(fmtDate(r.last[0]))}</td></tr>`; }).join("")}</tbody></table></div>`;
-    const local = all.filter((r) => r.market === "PSX"), intl = all.filter((r) => r.market !== "PSX");
-    const intlMissing = (stocks.sources || []).find((s) => /Alpha Vantage/.test(s.name) && !s.ok);
-
     const days = { "1m": 31, "3m": 93, "1y": 400 };
     const pts = (cur.points || []).filter((p) => new Date(p[0]).getTime() >= new Date(cur.last[0]).getTime() - days[state.srange] * DAY);
     v.innerHTML = `
-      <p class="small">End-of-day closing prices${stocks.updated ? ", updated " + esc(ago(stocks.updated)) : ""}. Select a company to see its trend.</p>
-      <h3>Pakistan (Pakistan Stock Exchange)</h3>
-      ${local.length ? table(local) : `<p class="small">No Pakistan prices yet${(stocks.sources || []).some((s) => /Pakistan Stock/.test(s.name) && !s.ok) ? ": " + esc((stocks.sources || []).find((s) => /Pakistan Stock/.test(s.name)).error) : ""}.</p>`}
       <h3>International (US-listed shares)</h3>
-      ${intl.length ? table(intl) : `<p class="small">${intlMissing ? "International prices are switched off: " + esc(intlMissing.error) + "." : "No international prices yet."}</p>`}
+      <p class="small">End-of-day closing prices${stocks.updated ? ", updated " + esc(ago(stocks.updated)) : ""}. Select a company to see its trend.</p>
+      ${table(all)}
       <div class="chartbox">
         <div class="seg" role="group" aria-label="Chart range">${[["1m", "1 month"], ["3m", "3 months"], ["1y", "1 year"]].map(([k, l]) => `<button type="button" class="chip" data-srange="${k}" aria-pressed="${state.srange === k}"><span class="t">${l}</span></button>`).join("")}</div>
         <b>${esc(cur.name)} <span class="small">(${esc(cur.currency)}, closing price)</span></b>
         ${pts.length >= 2 ? chartSvg(pts, `${cur.name} closing price, ${fmtDate(pts[0][0])} to ${fmtDate(pts.at(-1)[0])}`) : `<p class="small">Not enough history for this range yet.</p>`}
       </div>
-      <p class="small">Pakistan prices come from the Pakistan Stock Exchange's public data portal; international prices from Alpha Vantage. Closing prices only, so they can be a day behind. Shown for information, not as investment advice. Oil, gas, cement and fertiliser companies are included for their links to mining and minerals in Pakistan.</p>`;
+      ${psx}${note}`;
     v.querySelectorAll("[data-stock]").forEach((b) => (b.onclick = () => { state.stock = b.dataset.stock; render(); }));
     v.querySelectorAll("[data-srange]").forEach((b) => (b.onclick = () => { state.srange = b.dataset.srange; render(); }));
   }
