@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T10:36:09.437Z",
+ "updated": "2026-10-08T11:34:47.277Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -165,7 +165,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "seen": 30
   },
   {
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 132
+   "seen": 134
   },
   {
    "source": "Pakistan Observer",
@@ -248,17 +248,69 @@
  ],
  "items": [
   {
-   "title": "Micromine Pitram celebrates double gold at industry awards",
-   "link": "https://im-mining.com/2026/10/08/micromine-pitram-celebrates-double-gold-at-industry-awards/",
+   "title": "Traxys Europe S.A. and Abenójar Tungsten S.A. sign exclusive long-term offtake agreement for the El Moto tungsten project in Spain",
+   "link": "https://www.globalminingreview.com/mining/08102026/traxys-europe-sa-and-abenjar-tungsten-sa-sign-exclusive-long-term-offtake-agreement-for-the-el-moto-tungsten-project-in-spain/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-08T09:38:52.000Z",
-   "summary": "Micromine says its Pitram solution has received ‘double gold’, taking home two major industry awards in Underground Excellence for its partnership with Çayeli Bakır İşletmeleri A.Ş. (Çayeli Bakır) in Türkiye, and in Digital Transformation...",
+   "date": "2026-10-08T12:00:00.000Z",
+   "summary": "Traxys Europe S.A. and Abenójar Tungsten S.A. have announced the signing of a definitive, long-term exclusive offtake agreement for the tungsten concentrate to be produced at ABT’s El Moto tungsten project, located near Abenójar in the...",
    "image": null,
-   "source": "International Mining",
+   "source": "Global Mining Review",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Chile copper mines disruptions put 5% of production at risk",
+   "link": "https://www.mining.com/chile-copper-mines-disruptions-put-5-of-production-at-risk/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T10:56:00.000Z",
+   "summary": "New study finds labour disputes, weather, safety and geology threaten output across Chile’s biggest copper mines.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Aquitaine closes C$47m strategic financing with Kinross Gold, Alpayana",
+   "link": "https://www.miningweekly.com/article/aquitaine-closes-c47m-strategic-financing-with-kinross-gold-alpayana-2026-10-08",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T10:29:00.000Z",
+   "summary": "Vancouver-based private gold and strategic metals exploration company Aquitaine Metals has completed a nonbrokered strategic private placement with Kinross Gold Corporation and Latin American miner Alpayana, issuing an aggregate of...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold"
@@ -275,21 +327,19 @@
    "press": false
   },
   {
-   "title": "Preliminary results indicate ‘highly competitive’ capital cost for Ontario lithium ...",
-   "link": "https://www.miningweekly.com/article/preliminary-results-indicate-highly-competitive-capital-cost-for-ontario-lithium-converter-plant-2026-10-08",
+   "title": "Kenorland, Auranova launch phase four drilling at South Uchi Project",
+   "link": "https://www.mining-technology.com/news/kenorland-auranova-south-uchi-phase-4-drilling/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-08T09:25:00.000Z",
-   "summary": "TSX-V-listed Rock Tech Lithium has announced preliminary results from the ongoing definitive feasibility study (DFS) for its Red Rock converter, in Ontario, Canada. The company reports that the preliminary DFS results indicate total...",
-   "image": null,
-   "source": "Mining Weekly",
+   "date": "2026-10-08T09:45:44.000Z",
+   "summary": "Kenorland Minerals and Auranova Resources have launched the phase 4 diamond drilling at the South Uchi Project in Ontario’s Red Lake District, Canada.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-8Oct26-shutterstock_2738512655-1.jpg",
+   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
    "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
+   "tags": [],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -302,17 +352,35 @@
    "press": false
   },
   {
-   "title": "CleanTech Lithium secures 'promising' mining properties in Argentina",
-   "link": "https://www.miningweekly.com/article/cleantech-lithium-secures-promising-mining-properties-in-argentina-2026-10-08",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T09:23:00.000Z",
-   "summary": "Lithium exploration and development company CleanTech Lithium has secured \"promising\" mining properties located in the southern part of the Salar de Antofalla – a major salar in Argentina only 80 km from the company's flagship Laguna Verde...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Micromine Pitram celebrates double gold at industry awards",
+   "link": "https://im-mining.com/2026/10/08/micromine-pitram-celebrates-double-gold-at-industry-awards/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T09:38:52.000Z",
+   "summary": "Micromine says its Pitram solution has received ‘double gold’, taking home two major industry awards in Underground Excellence for its partnership with Çayeli Bakır İşletmeleri A.Ş. (Çayeli Bakır) in Türkiye, and in Digital Transformation...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -326,6 +394,42 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Preliminary results indicate ‘highly competitive’ capital cost for Ontario lithium ...",
+   "link": "https://www.miningweekly.com/article/preliminary-results-indicate-highly-competitive-capital-cost-for-ontario-lithium-converter-plant-2026-10-08",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T09:25:00.000Z",
+   "summary": "TSX-V-listed Rock Tech Lithium has announced preliminary results from the ongoing definitive feasibility study (DFS) for its Red Rock converter, in Ontario, Canada. The company reports that the preliminary DFS results indicate total...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "CleanTech Lithium secures 'promising' mining properties in Argentina",
+   "link": "https://www.miningweekly.com/article/cleantech-lithium-secures-promising-mining-properties-in-argentina-2026-10-08",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T09:23:00.000Z",
+   "summary": "Lithium exploration and development company CleanTech Lithium has secured \"promising\" mining properties located in the southern part of the Salar de Antofalla – a major salar in Argentina only 80 km from the company's flagship Laguna Verde...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -9201,35 +9305,6 @@
    "date": "2026-09-09T11:30:00.000Z",
    "summary": "Results continue to demonstrate that gold and copper-nickel-cobalt mineralization from surface extends beyond the historical Providencia mine workings.",
    "image": "https://ml.globenewswire.com/Resource/Download/551f67d9-0ce1-4acf-aaf6-d5060eb44ea1",
-   "source": "GlobeNewswire",
-   "region": "Global",
-   "press": true
-  },
-  {
-   "section": "Drill results",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": false,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Unspecified",
-   "exRegion": "",
-   "title": "Kobo Resources Extends Gold Mineralisation to the North at Kossou with Multiple High-Grade Drill Intercepts",
-   "link": "https://www.globenewswire.com/news-release/2026/09/03/3355794/0/en/kobo-resources-extends-gold-mineralisation-to-the-north-at-kossou-with-multiple-high-grade-drill-intercepts.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-03T11:30:00.000Z",
-   "summary": "Kobo Resources Extends Gold Mineralisation to the North at Kossou with Multiple High-Grade Drill Intercepts",
-   "image": "https://ml.globenewswire.com/Resource/Download/cc0fc7ea-df64-41e7-8611-9bd6ea30b5b4",
    "source": "GlobeNewswire",
    "region": "Global",
    "press": true
