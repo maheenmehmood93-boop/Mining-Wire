@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T15:37:15.709Z",
+ "updated": "2026-10-08T16:38:23.183Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 155
+   "seen": 164
   },
   {
    "source": "Pakistan Observer",
@@ -248,12 +248,39 @@
  ],
  "items": [
   {
-   "title": "TwinThread unveils AI anomaly tracker for machine operators",
-   "link": "https://www.canadianminingjournal.com/news/twinthread-unveils-ai-anomaly-tracker-for-machine-operators/",
+   "title": "BYC Condemns Killing of Civilian in Dalbandin, Two Children in Panjgur",
+   "link": "https://thebalochistanpost.net/2026/10/byc-condemns-killing-of-civilian-in-dalbandin-two-children-in-panjgur/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-08T15:21:25.000Z",
-   "summary": "TwinThread launched Anomaly Action Center on Thursday, an artificial intelligence (AI)-based platform designed to help teams resolve critical machine and program issues. [...]",
+   "date": "2026-10-08T15:59:21.000Z",
+   "summary": "A 28-year-old farmer was killed and another man injured when Pakistani military personnel opened fire at a checkpoint in Dalbandin, the Baloch Yakjehti Committee (BYC) said on Thursday. In a statement, the BYC identified the man as Yasin...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "TCG, Indigenous Nations partner on Ontario mining initiative",
+   "link": "https://www.canadianminingjournal.com/news/tcg-indigenous-nations-partner-on-ontario-mining-initiative/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:53:05.000Z",
+   "summary": "Atikameksheng Anishnawbek and Wahnapitae First Nation have partnered with Thompson Construction Group (TCG) to pursue mining and construction opportunities in northern Ontario.&#160; [...]",
    "image": null,
    "source": "Canadian Mining Journal",
    "section": "",
@@ -273,17 +300,33 @@
    "press": false
   },
   {
-   "title": "Epic outlines initial 440,000-oz McKinnon resource in Ontario",
-   "link": "https://www.northernminer.com/news/epic-outlines-initial-440000-oz-mckinnon-resource-in-ontario/1003895567/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T15:19:32.000Z",
-   "summary": "The first compliant resource for Epic Gold’s (CSE: EPG; US-OTC: NFLDF) brownfield McKinnon deposit in Ontario – part of the larger Hawkins project – outlines 440,000 oz. that mostly sit...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "TwinThread unveils AI anomaly tracker for machine operators",
+   "link": "https://www.canadianminingjournal.com/news/twinthread-unveils-ai-anomaly-tracker-for-machine-operators/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:21:25.000Z",
+   "summary": "TwinThread launched Anomaly Action Center on Thursday, an artificial intelligence (AI)-based platform designed to help teams resolve critical machine and program issues. [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold"
@@ -297,6 +340,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Epic outlines initial 440,000-oz McKinnon resource in Ontario",
+   "link": "https://www.northernminer.com/news/epic-outlines-initial-440000-oz-mckinnon-resource-in-ontario/1003895567/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T15:19:32.000Z",
+   "summary": "The first compliant resource for Epic Gold’s (CSE: EPG; US-OTC: NFLDF) brownfield McKinnon deposit in Ontario – part of the larger Hawkins project – outlines 440,000 oz. that mostly sit...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -325,17 +377,8 @@
    "press": false
   },
   {
-   "title": "Moly heads for 6th straight deficit, record prices: BMO",
-   "link": "https://www.northernminer.com/news/moly-heads-for-6th-straight-deficit-record-prices-bmo/1003895563/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T14:46:53.000Z",
-   "summary": "Molybdenum is on course for a sixth consecutive year of supply deficit in 2027, setting the stage for record prices as strong demand meets a limited pipeline of new production,...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -347,6 +390,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Moly heads for 6th straight deficit, record prices: BMO",
+   "link": "https://www.northernminer.com/news/moly-heads-for-6th-straight-deficit-record-prices-bmo/1003895563/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T14:46:53.000Z",
+   "summary": "Molybdenum is on course for a sixth consecutive year of supply deficit in 2027, setting the stage for record prices as strong demand meets a limited pipeline of new production,...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -375,17 +427,8 @@
    "press": false
   },
   {
-   "title": "Zambia says it is negotiating US minerals deal after 'decoupling' from health pact",
-   "link": "https://www.miningweekly.com/article/zambia-says-it-is-negotiating-us-minerals-deal-after-decoupling-from-health-pact-2026-10-08-1",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T14:28:00.000Z",
-   "summary": "Zambia is negotiating a critical minerals deal with the US government after \"decoupling\" it from a separate health funding agreement it signed on Thursday, its foreign minister said. \"There was this (Memorandum of Understanding) on health...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -397,20 +440,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Zambia says it is negotiating US minerals deal after 'decoupling' from health pact",
+   "link": "https://www.miningweekly.com/article/zambia-says-it-is-negotiating-us-minerals-deal-after-decoupling-from-health-pact-2026-10-08-1",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T14:28:00.000Z",
+   "summary": "Zambia is negotiating a critical minerals deal with the US government after \"decoupling\" it from a separate health funding agreement it signed on Thursday, its foreign minister said. \"There was this (Memorandum of Understanding) on health...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Ivanhoe's Congo copper production jumps 19% in third quarter",
-   "link": "https://www.miningweekly.com/article/ivanhoes-congo-copper-production-jumps-19-in-third-quarter-2026-10-08",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T14:23:00.000Z",
-   "summary": "Ivanhoe Mines reported third-quarter copper production at the Kamoa-Kakula mine in Democratic Republic of Congo rose 19% from the previous quarter, helped by higher mining rates across the complex, while its Kipushi mine registered record...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper"
@@ -424,6 +467,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Ivanhoe's Congo copper production jumps 19% in third quarter",
+   "link": "https://www.miningweekly.com/article/ivanhoes-congo-copper-production-jumps-19-in-third-quarter-2026-10-08",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T14:23:00.000Z",
+   "summary": "Ivanhoe Mines reported third-quarter copper production at the Kamoa-Kakula mine in Democratic Republic of Congo rose 19% from the previous quarter, helped by higher mining rates across the complex, while its Kipushi mine registered record...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
