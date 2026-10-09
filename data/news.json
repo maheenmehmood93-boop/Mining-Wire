@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T23:32:24.564Z",
+ "updated": "2026-10-09T00:47:18.264Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -248,17 +248,8 @@
  ],
  "items": [
   {
-   "title": "SigraFi raises $35M to connect artisanal gold to institutional markets",
-   "link": "https://www.mining.com/sigrafi-raises-35m-to-connect-artisanal-gold-to-institutional-markets/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T23:25:07.000Z",
-   "summary": "UK company purchases gold under multi-year contracts from organised artisanal and small-scale gold mining cooperatives.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -272,6 +263,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "SigraFi raises $35M to connect artisanal gold to institutional markets",
+   "link": "https://www.mining.com/sigrafi-raises-35m-to-connect-artisanal-gold-to-institutional-markets/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T23:25:07.000Z",
+   "summary": "UK company purchases gold under multi-year contracts from organised artisanal and small-scale gold mining cooperatives.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
