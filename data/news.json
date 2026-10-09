@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T04:35:43.811Z",
+ "updated": "2026-10-09T05:34:58.974Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 92
+   "seen": 97
   },
   {
    "source": "Pakistan Observer",
@@ -247,6 +247,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Superior Industries makes Titanium Seal its conveyor idler standard",
+   "link": "https://im-mining.com/2026/10/09/superior-industries-makes-titanium-seal-its-conveyor-idler-standard/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T05:07:30.000Z",
+   "summary": "Superior Industries, Inc., a US-based manufacturer and global supplier of bulk material processing and handling systems, is making its Titanium™ Seal standard on all of its conveyor idlers. Previously available as a premium option, the...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
