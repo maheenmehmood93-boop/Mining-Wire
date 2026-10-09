@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T19:33:54.989Z",
+ "updated": "2026-10-09T20:33:29.671Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -182,13 +182,14 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 75
+   "seen": 78
   },
   {
    "source": "Pakistan Observer",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
@@ -241,6 +242,58 @@
   }
  ],
  "items": [
+  {
+   "title": "Colorado summit video: Financier flags cracks in inflated tech rally",
+   "link": "https://www.northernminer.com/news/colorado-summit-video-financier-flags-cracks-in-inflated-tech-rally/1003895643/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T20:29:27.000Z",
+   "summary": "Weakening participation in the Nasdaq rally signals a possible market top, says Crescat Capital founder and CEO Kevin Smith, whose firm hedges some funds against a selloff that could also...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Rare earth recycling can bridge US supply gap as mines face long timelines, Paladin says",
+   "link": "https://www.mining.com/rare-earth-recycling-can-bridge-us-supply-gap-as-mines-face-long-timelines-paladin-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T20:20:20.000Z",
+   "summary": "Paladin currently produces about 40 metric tonnes of recovered material annually and invested over $5 million to increase capacity to 150 tonnes per year.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
