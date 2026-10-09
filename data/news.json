@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T06:42:34.205Z",
+ "updated": "2026-10-09T07:36:31.308Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -165,7 +165,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 30
   },
   {
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 101
+   "seen": 105
   },
   {
    "source": "Pakistan Observer",
@@ -248,17 +248,69 @@
  ],
  "items": [
   {
-   "title": "Australian shares climb as banks, gold stocks shine",
-   "link": "https://www.brecorder.com/news/40443416/australian-shares-climb-as-banks-gold-stocks-shine",
+   "title": "FLS wins another copper mine order in Chile for grinding tech including HPGR &#038; ball mill",
+   "link": "https://im-mining.com/2026/10/09/fls-wins-another-copper-mine-order-in-chile-for-grinding-tech-including-hpgr-ball-mill/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-09T06:21:40.000Z",
-   "summary": "Australian shares climbed on Friday as gains in banks and gold stocks outweighed losses in miners, while risk appetite improved after US President Donald Trump pledged to halt attacks on Iran ahead of November’s midterm elections. The...",
-   "image": "https://i.brecorder.com/large/2026/10/0911213107afb57.webp",
-   "source": "Business Recorder",
+   "date": "2026-10-09T07:30:54.000Z",
+   "summary": "FLSmidth (FLS) has received another major order in Chile, this time to supply core grinding technologies for the establishment of a new grinding line at a copper mine. The order marks the next phase of FLS's long-standing partnership with...",
+   "image": null,
+   "source": "International Mining",
    "section": "",
-   "scope": "National",
-   "region": "Pakistan",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "What's new and what's hot at IMARC 2026",
+   "link": "https://im-mining.com/2026/10/09/whats-new-and-whats-hot-at-imarc-2026/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T07:22:40.000Z",
+   "summary": "Australia’s Resources Minister Madeleine King has said the country is at the centre of international efforts to build stable and reliable critical material supply chains and this will never be more evident than at the International Mining...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "India gold demand slows as prices rebound; China emerges from holiday lull",
+   "link": "https://www.miningweekly.com/article/india-gold-demand-slows-as-prices-rebound-china-emerges-from-holiday-lull-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T07:06:00.000Z",
+   "summary": "Gold demand in India was sluggish this week as prices rebounded, while trading in top consumer China was subdued during the holiday-truncated trading period. In India, domestic gold prices were trading around 150 900 rupees ($1 561.87) per...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold"
@@ -272,6 +324,87 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Glencore shrugs off coal concerns ahead of Australian listing",
+   "link": "https://www.miningweekly.com/article/glencore-shrugs-off-coal-concerns-ahead-of-australian-listing-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T06:51:00.000Z",
+   "summary": "Glencore shrugged off concerns that its coal portfolio would make it unattractive to Australia’s A$4.8-trillion ($3.3-trillion) pension industry ahead of its listing in Sydney next Wednesday. The mining and commodity powerhouse is betting...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Copper rebounds as supply risks, China demand lend support",
+   "link": "https://www.brecorder.com/news/40443424/copper-rebounds-as-supply-risks-china-demand-lend-support",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T06:45:40.000Z",
+   "summary": "SINGAPORE: London copper rose on Friday , recovering most of the previous session’s losses, as mine disruptions and strong demand in top consumer China supported prices. Benchmark three-month copper on the London Metal Exchange rose 1.08%...",
+   "image": "https://i.brecorder.com/large/2026/10/09114516624516a.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Australian shares climb as banks, gold stocks shine",
+   "link": "https://www.brecorder.com/news/40443416/australian-shares-climb-as-banks-gold-stocks-shine",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T06:21:40.000Z",
+   "summary": "Australian shares climbed on Friday as gains in banks and gold stocks outweighed losses in miners, while risk appetite improved after US President Donald Trump pledged to halt attacks on Iran ahead of November’s midterm elections. The...",
+   "image": "https://i.brecorder.com/large/2026/10/0911213107afb57.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
