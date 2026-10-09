@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T18:38:01.160Z",
+ "updated": "2026-10-09T19:33:54.989Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -182,14 +182,13 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 156
+   "seen": 75
   },
   {
    "source": "Pakistan Observer",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "The Frontier Post",
@@ -299,17 +298,8 @@
    "press": false
   },
   {
-   "title": "Tax breaks could spur $1.1B more in exploration: AME",
-   "link": "https://www.mining.com/tax-breaks-could-spur-1-1b-more-in-exploration-ame/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T15:30:00.000Z",
-   "summary": "Expanding Canada’s mining tax incentives may boost exploration spending by $1.1 billion, EY estimates.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -321,6 +311,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Tax breaks could spur $1.1B more in exploration: AME",
+   "link": "https://www.mining.com/tax-breaks-could-spur-1-1b-more-in-exploration-ame/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:30:00.000Z",
+   "summary": "Expanding Canada’s mining tax incentives may boost exploration spending by $1.1 billion, EY estimates.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -906,17 +905,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Canagold nears construction decision at New Polaris",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-canagold-nears-construction-decision-at-new-polaris/1003895633/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T12:00:05.000Z",
-   "summary": "Canagold Resources CEO Catalin Kilofliski in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Canagold Resources and produced in co-operation...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -928,6 +918,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Canagold nears construction decision at New Polaris",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-canagold-nears-construction-decision-at-new-polaris/1003895633/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T12:00:05.000Z",
+   "summary": "Canagold Resources CEO Catalin Kilofliski in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Canagold Resources and produced in co-operation...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
