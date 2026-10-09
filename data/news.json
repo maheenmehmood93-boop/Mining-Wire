@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T16:35:21.507Z",
+ "updated": "2026-10-09T17:32:48.796Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 146
+   "seen": 151
   },
   {
    "source": "Pakistan Observer",
@@ -216,7 +216,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 3,
+   "items": 2,
    "seen": 10
   },
   {
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Rock Tech closes $6M private placement",
-   "link": "https://www.canadianminingjournal.com/news/rock-tech-closes-6m-private-placement/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T16:21:37.000Z",
-   "summary": "Rock Tech Lithium (TSXV: RCK) has raised $6 million (US$4.21 million) to fund a feasibility study for its Georgia Lake mine and [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -267,6 +258,44 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rock Tech closes $6M private placement",
+   "link": "https://www.canadianminingjournal.com/news/rock-tech-closes-6m-private-placement/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T16:21:37.000Z",
+   "summary": "Rock Tech Lithium (TSXV: RCK) has raised $6 million (US$4.21 million) to fund a feasibility study for its Georgia Lake mine and [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "title": "McEwen's $55M Ontario asset sale fuels gold growth plans",
+   "link": "https://www.mining.com/mcewens-55m-ontario-asset-sale-fuels-gold-growth-plans/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:45:00.000Z",
+   "summary": "Discovery Mining will acquire two Timmins-area properties as McEwen redirects capital toward its expanding mine portfolio.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Discovery",
+   "exMetals": [
+    "Gold"
+   ],
+   "exHighlight": "",
+   "exCountry": "Canada",
+   "exRegion": "Ontario",
    "press": false
   },
   {
@@ -298,6 +327,37 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Hot Chili drills shallow copper, gold at Chile discovery",
+   "link": "https://www.canadianminingjournal.com/news/hot-chili-drills-shallow-copper-gold-at-chile-discovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:19:49.000Z",
+   "summary": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Discovery",
+   "exMetals": [
+    "Copper",
+    "Gold"
+   ],
+   "exHighlight": "",
+   "exCountry": "Chile",
+   "exRegion": "",
    "press": false
   },
   {
@@ -482,6 +542,33 @@
    "press": false
   },
   {
+   "title": "World Gold Council urges miners to name refiners",
+   "link": "https://www.mining.com/gold-council-urges-miners-to-name-refiners/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T14:06:41.000Z",
+   "summary": "The framework follows a September 2023 commitment by Council members to disclose their refining partners.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -561,6 +648,33 @@
    "press": false
   },
   {
+   "title": "Lithium Triangle’s vast resources face unsolved extraction hurdles",
+   "link": "https://www.canadianminingjournal.com/news/lithium-triangles-vast-resources-face-unsolved-extraction-hurdles/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T13:53:00.000Z",
+   "summary": "A review of 43 Andean salt flats highlights how brine chemistry and water availability shape lithium development prospects.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -615,17 +729,8 @@
    "press": false
   },
   {
-   "title": "Tax breaks could spur $1.6B more in exploration: AME",
-   "link": "https://www.northernminer.com/news/tax-breaks-could-spur-1-6b-more-in-exploration-ame/1003895613/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T13:09:43.000Z",
-   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -637,6 +742,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Tax breaks could spur $1.6B more in exploration: AME",
+   "link": "https://www.northernminer.com/news/tax-breaks-could-spur-1-6b-more-in-exploration-ame/1003895613/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T13:09:43.000Z",
+   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
