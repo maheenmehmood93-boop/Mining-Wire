@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T01:36:11.632Z",
+ "updated": "2026-10-09T02:33:23.425Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -60,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -240,23 +241,15 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   }
  ],
  "items": [
   {
-   "title": "Magazine round up | 09 October 2026",
-   "link": "https://www.miningweekly.com/article/magazine-round-up-09-october-2026-2026-10-09",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T01:15:00.000Z",
-   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -268,6 +261,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Magazine round up | 09 October 2026",
+   "link": "https://www.miningweekly.com/article/magazine-round-up-09-october-2026-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T01:15:00.000Z",
+   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
