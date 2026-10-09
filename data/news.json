@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T15:35:09.919Z",
+ "updated": "2026-10-09T16:35:21.507Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -140,7 +140,7 @@
    "section": "Pakistan",
    "ok": true,
    "items": 1,
-   "seen": 38
+   "seen": 37
   },
   {
    "source": "The Express Tribune",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 140
+   "seen": 146
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,35 @@
  ],
  "items": [
   {
-   "title": "Hot Chili drills shallow copper, gold in Chile",
-   "link": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+   "title": "Rock Tech closes $6M private placement",
+   "link": "https://www.canadianminingjournal.com/news/rock-tech-closes-6m-private-placement/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-09T15:19:49.000Z",
-   "summary": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case...",
+   "date": "2026-10-09T16:21:37.000Z",
+   "summary": "Rock Tech Lithium (TSXV: RCK) has raised $6 million (US$4.21 million) to fund a feasibility study for its Georgia Lake mine and [...]",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
    "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold",
@@ -271,20 +289,20 @@
    "exHighlight": "",
    "exCountry": "Chile",
    "exRegion": "",
+   "title": "Hot Chili drills shallow copper, gold in Chile",
+   "link": "https://www.northernminer.com/news/hot-chili-drills-shallow-copper-gold-in-chile/1003895627/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:19:49.000Z",
+   "summary": "New drilling by Glencore (LSE: GLEN)-backed Hot Chili (ASX, TSX-V: HCH; US-OTC: HHLKF) has extended shallow copper-gold mineralization at its La Verde porphyry discovery in coastal Chile, strengthening the case...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "New Schneider Electric series tackles AI, energy demand and sustainability",
-   "link": "https://www.canadianminingjournal.com/news/new-schneider-electric-series-tackles-ai-energy-demand-and-sustainability/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T15:16:16.000Z",
-   "summary": "Schneider Electric Canada has announced Innovation Days Canada, a three-city event series bringing together leaders from businesses, energy, government and sports to [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -296,6 +314,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "New Schneider Electric series tackles AI, energy demand and sustainability",
+   "link": "https://www.canadianminingjournal.com/news/new-schneider-electric-series-tackles-ai-energy-demand-and-sustainability/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:16:16.000Z",
+   "summary": "Schneider Electric Canada has announced Innovation Days Canada, a three-city event series bringing together leaders from businesses, energy, government and sports to [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -324,17 +351,8 @@
    "press": false
   },
   {
-   "title": "Superior installs Titanium Sealers in all idlers",
-   "link": "https://www.canadianminingjournal.com/news/superior-installs-titanium-sealers-in-all-idlers/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T14:47:48.000Z",
-   "summary": "Superior Industries is making its Titanium Seal standard across all its conveyor idlers.&#160; First introduced in 2010, the Titanium Seal was previously [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -346,6 +364,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Superior installs Titanium Sealers in all idlers",
+   "link": "https://www.canadianminingjournal.com/news/superior-installs-titanium-sealers-in-all-idlers/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T14:47:48.000Z",
+   "summary": "Superior Industries is making its Titanium Seal standard across all its conveyor idlers.&#160; First introduced in 2010, the Titanium Seal was previously [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -376,17 +403,8 @@
    "press": false
   },
   {
-   "title": "EC names 46 projects to strengthen critical raw material supply",
-   "link": "https://www.mining-technology.com/news/ec-46-projects-raw-material-supply/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T14:12:54.000Z",
-   "summary": "The European Commission (EC) has selected 46 new Strategic Projects in 16 Member States aimed at improving the European Union’s (EU) access to critical raw materials.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-9Oct26-shutterstock_2515443601-1.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -398,6 +416,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "EC names 46 projects to strengthen critical raw material supply",
+   "link": "https://www.mining-technology.com/news/ec-46-projects-raw-material-supply/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T14:12:54.000Z",
+   "summary": "The European Commission (EC) has selected 46 new Strategic Projects in 16 Member States aimed at improving the European Union’s (EU) access to critical raw materials.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-9Oct26-shutterstock_2515443601-1.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
@@ -507,17 +534,8 @@
    "press": false
   },
   {
-   "title": "Lithium Triangle’s vast resources face unsolved extraction hurdles",
-   "link": "https://www.mining.com/lithium-triangles-vast-resources-face-unsolved-extraction-hurdles/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T13:53:00.000Z",
-   "summary": "A review of 43 Andean salt flats highlights how brine chemistry and water availability shape lithium development prospects.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -531,6 +549,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lithium Triangle’s vast resources face unsolved extraction hurdles",
+   "link": "https://www.mining.com/lithium-triangles-vast-resources-face-unsolved-extraction-hurdles/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T13:53:00.000Z",
+   "summary": "A review of 43 Andean salt flats highlights how brine chemistry and water availability shape lithium development prospects.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -585,6 +612,31 @@
    "image": null,
    "source": "The Balochistan Post",
    "region": "Balochistan",
+   "press": false
+  },
+  {
+   "title": "Tax breaks could spur $1.6B more in exploration: AME",
+   "link": "https://www.northernminer.com/news/tax-breaks-could-spur-1-6b-more-in-exploration-ame/1003895613/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T13:09:43.000Z",
+   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
