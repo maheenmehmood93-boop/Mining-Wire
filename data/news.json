@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T00:47:18.264Z",
+ "updated": "2026-10-09T01:36:11.632Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,9 +32,8 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": true,
-   "items": 12,
-   "seen": 12
+   "ok": false,
+   "error": "HTTP 415"
   },
   {
    "source": "Mining Weekly",
@@ -61,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -241,12 +240,36 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "HTTP 415"
   }
  ],
  "items": [
+  {
+   "title": "Magazine round up | 09 October 2026",
+   "link": "https://www.miningweekly.com/article/magazine-round-up-09-october-2026-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T01:15:00.000Z",
+   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
