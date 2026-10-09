@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T10:36:03.835Z",
+ "updated": "2026-10-09T11:32:35.112Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -165,7 +165,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 115
+   "seen": 119
   },
   {
    "source": "Pakistan Observer",
@@ -248,19 +248,21 @@
  ],
  "items": [
   {
-   "title": "Ghana to replace draft mining bill with revised version, sources say",
-   "link": "https://www.miningweekly.com/article/ghana-to-replace-draft-mining-bill-with-revised-version-sources-say-2026-10-09",
+   "title": "Critical One engages Micon for independent review at Kenora Property",
+   "link": "https://www.globalminingreview.com/mining/09102026/critical-one-engages-micon-for-independent-review-at-kenora-property/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-09T10:22:00.000Z",
-   "summary": "Ghana is expected to replace a draft mining bill before Parliament with a revised version that restores a maximum 20-year mining lease term and clarifies provisions that have raised concerns among miners, three people familiar with the...",
+   "date": "2026-10-09T12:00:00.000Z",
+   "summary": "Critical One Energy Inc. has announced that it has engaged Micon International Limited to complete an independent technical review of the company’s 100%-owned Kenora Uranium Property in northwestern Ontario.",
    "image": null,
-   "source": "Mining Weekly",
+   "source": "Global Mining Review",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Uranium"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -273,12 +275,12 @@
    "press": false
   },
   {
-   "title": "EU grants strategic status to $2.4bn KGHM copper projects",
-   "link": "https://www.miningweekly.com/article/eu-grants-strategic-status-to-24bn-kghm-copper-projects-2026-10-09",
+   "title": "Magna Mining approves restart of Levack copper mine",
+   "link": "https://www.miningweekly.com/article/magna-mining-approves-restart-of-levack-copper-mine-2026-10-09",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-09T10:15:00.000Z",
-   "summary": "The European Commission has designated two major investments by Polish copper producer KGHM Polska Miedz as strategic projects under the EU's Critical Raw Materials Act (CRMA), the company said on Friday, as the bloc races to diversify...",
+   "date": "2026-10-09T10:41:00.000Z",
+   "summary": "Canadian base metals miner Magna Mining has formally approved the plan to restart its fully-permitted Levack copper mine, in the Sudbury Basin, in northeastern Ontario, following the positive results of a preliminary economic assessment...",
    "image": null,
    "source": "Mining Weekly",
    "section": "",
@@ -300,17 +302,60 @@
    "press": false
   },
   {
-   "title": "SignaFi secures $35m facility to buy gold from African, South American artisinal miners",
-   "link": "https://www.miningweekly.com/article/signafi-secures-35m-facility-to-buy-gold-from-african-south-american-artisinal-miners-2026-10-09",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T10:08:00.000Z",
-   "summary": "UK-headquartered gold offtake company SignaFi, which buys gold under multiyear contracts from organised artisanal and small-scale gold mining (ASGM) cooperatives and aggregators, has secured a $35-million credit facility from a consortium...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Ghana to replace draft mining bill with revised version, sources say",
+   "link": "https://www.miningweekly.com/article/ghana-to-replace-draft-mining-bill-with-revised-version-sources-say-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T10:22:00.000Z",
+   "summary": "Ghana is expected to replace a draft mining bill before Parliament with a revised version that restores a maximum 20-year mining lease term and clarifies provisions that have raised concerns among miners, three people familiar with the...",
+   "image": null,
+   "source": "Mining Weekly",
    "region": "Africa",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "EU grants strategic status to $2.4bn KGHM copper projects",
+   "link": "https://www.miningweekly.com/article/eu-grants-strategic-status-to-24bn-kghm-copper-projects-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T10:15:00.000Z",
+   "summary": "The European Commission has designated two major investments by Polish copper producer KGHM Polska Miedz as strategic projects under the EU's Critical Raw Materials Act (CRMA), the company said on Friday, as the bloc races to diversify...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold"
@@ -324,20 +369,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "SignaFi secures $35m facility to buy gold from African, South American artisanal miners",
+   "link": "https://www.miningweekly.com/article/signafi-secures-35m-facility-to-buy-gold-from-african-south-american-artisinal-miners-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T10:08:00.000Z",
+   "summary": "UK-headquartered gold offtake company SignaFi, which buys gold under multiyear contracts from organised artisanal and small-scale gold mining (ASGM) cooperatives and aggregators, has secured a $35-million credit facility from a consortium...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "US agency to do more equity investing in Africa, official says",
-   "link": "https://www.miningweekly.com/article/us-agency-to-do-more-equity-investing-in-africa-official-says-2026-10-09",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T09:19:00.000Z",
-   "summary": "The US International ​Development Finance Corp (DFC) plans to increase direct equity investments, including in Africa and the critical minerals sector, the agency's Africa head said, as the US steps up efforts to counter China's dominance...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -349,20 +394,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "US agency to do more equity investing in Africa, official says",
+   "link": "https://www.miningweekly.com/article/us-agency-to-do-more-equity-investing-in-africa-official-says-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T09:19:00.000Z",
+   "summary": "The US International ​Development Finance Corp (DFC) plans to increase direct equity investments, including in Africa and the critical minerals sector, the agency's Africa head said, as the US steps up efforts to counter China's dominance...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Torngat Metals appoints new CEO",
-   "link": "https://www.miningweekly.com/article/torngat-metals-appoints-new-ceo-2026-10-09",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T09:11:00.000Z",
-   "summary": "Canadian rare earth development company Torngat Metals has appointed Michael McCann CEO, with effect from October 13. The company states that he joins the company at a pivotal stage in the development of its Strange Lake project, in...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -376,6 +421,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Torngat Metals appoints new CEO",
+   "link": "https://www.miningweekly.com/article/torngat-metals-appoints-new-ceo-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T09:11:00.000Z",
+   "summary": "Canadian rare earth development company Torngat Metals has appointed Michael McCann CEO, with effect from October 13. The company states that he joins the company at a pivotal stage in the development of its Strange Lake project, in...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -531,6 +585,19 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Green iron-ore, alluvial diamonds, climate change make headlines",
    "link": "https://www.miningweekly.com/article/green-iron-ore-alluvial-diamonds-climate-change-make-headlines-2026-10-09",
    "via": "",
@@ -539,9 +606,12 @@
    "summary": "Mining Weekly Editor Martin Creamer talks about the opportunities that green iron-ore has for South Africa; South Africa’s alluvial diamond sector; and the urgency in tackling climate change challenge.",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -553,9 +623,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Hertha Metals begins construction on US iron plant",
    "link": "https://www.mining-technology.com/news/hertha-metals-construction-us-iron-plant/",
    "via": "",
@@ -564,20 +631,7 @@
    "summary": "Hertha Metals has started construction on its first commercial high-purity iron facility in Conroe, Texas, marking the opening of the first modern iron and steel innovation complex in the US.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-2-9Oct26-Hertha_Metals_Team_Photo.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -1252,17 +1306,8 @@
    "press": false
   },
   {
-   "title": "Iron ore bucks Hormuz disruption as supply disputes shift to China",
-   "link": "https://www.mining-technology.com/analysis/iron-ore-bucks-hormuz-disruption-as-supply-disputes-shift-to-china/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T16:00:00.000Z",
-   "summary": "Iron ore supplies have been disrupted by Hormuz tensions, while China’s procurement strategy is reshaping commerce with Australian suppliers.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/09/shutterstock_418727038.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -1276,6 +1321,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Iron ore bucks Hormuz disruption as supply disputes shift to China",
+   "link": "https://www.mining-technology.com/analysis/iron-ore-bucks-hormuz-disruption-as-supply-disputes-shift-to-china/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-08T16:00:00.000Z",
+   "summary": "Iron ore supplies have been disrupted by Hormuz tensions, while China’s procurement strategy is reshaping commerce with Australian suppliers.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/09/shutterstock_418727038.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
