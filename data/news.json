@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T11:32:35.112Z",
+ "updated": "2026-10-09T12:40:36.922Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -172,7 +172,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -187,7 +187,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 119
+   "seen": 123
   },
   {
    "source": "Pakistan Observer",
@@ -248,20 +248,20 @@
  ],
  "items": [
   {
-   "title": "Critical One engages Micon for independent review at Kenora Property",
-   "link": "https://www.globalminingreview.com/mining/09102026/critical-one-engages-micon-for-independent-review-at-kenora-property/",
+   "title": "CleanTech Lithium expands foothold in Argentina",
+   "link": "https://www.northernminer.com/news/cleantech-lithium-expands-foothold-in-argentina/1003895600/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-09T12:00:00.000Z",
-   "summary": "Critical One Energy Inc. has announced that it has engaged Micon International Limited to complete an independent technical review of the company’s 100%-owned Kenora Uranium Property in northwestern Ontario.",
+   "date": "2026-10-09T12:15:00.000Z",
+   "summary": "CleanTech Lithium (LSE: CTL) has secured options to add two lithium brine properties in Argentina’s Salar de Antofalla, expanding its footprint near the flagship Laguna Verde project. The company signed...",
    "image": null,
-   "source": "Global Mining Review",
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "North America",
    "provinces": [],
    "tags": [
-    "Uranium"
+    "Lithium"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -275,17 +275,96 @@
    "press": false
   },
   {
-   "title": "Magna Mining approves restart of Levack copper mine",
-   "link": "https://www.miningweekly.com/article/magna-mining-approves-restart-of-levack-copper-mine-2026-10-09",
+   "title": "Iran reports powerful blasts near oil tankers in Hormuz",
+   "link": "https://dailytimes.com.pk/1564800/iran-reports-powerful-blasts-near-oil-tankers-in-hormuz/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-09T10:41:00.000Z",
-   "summary": "Canadian base metals miner Magna Mining has formally approved the plan to restart its fully-permitted Levack copper mine, in the Sudbury Basin, in northeastern Ontario, following the positive results of a preliminary economic assessment...",
+   "date": "2026-10-09T12:06:04.000Z",
+   "summary": "Several powerful explosions were reported in the Strait of Hormuz on Thursday, raising concerns that oil tankers may have struck naval mines. Iran’s state broadcaster IRIB reported the incident, citing military sources familiar with the...",
    "image": null,
-   "source": "Mining Weekly",
+   "source": "Daily Times",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Explosion / fire",
+   "country": "Iran",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Critical One engages Micon for independent review at Kenora Property",
+   "link": "https://www.globalminingreview.com/mining/09102026/critical-one-engages-micon-for-independent-review-at-kenora-property/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T12:00:00.000Z",
+   "summary": "Critical One Energy Inc. has announced that it has engaged Micon International Limited to complete an independent technical review of the company’s 100%-owned Kenora Uranium Property in northwestern Ontario.",
+   "image": null,
+   "source": "Global Mining Review",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "title": "UK scientists turn to biology in search for cleaner lithium",
+   "link": "https://www.northernminer.com/news/uk-scientists-turn-to-biology-in-search-for-cleaner-lithium/1003895598/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T12:00:00.000Z",
+   "summary": "Researchers at the University of Birmingham are leading a £6.2-million ($8.2-million) project to develop protein-based membranes that could make lithium extraction more selective and potentially less energy-intensive. The three-year...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "EU puts KGHM's $2.4B copper projects on fast track",
+   "link": "https://www.mining.com/eu-puts-kghms-2-4b-copper-projects-on-fast-track/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T10:53:00.000Z",
+   "summary": "Brussels gives two Polish investments priority designation as Europe seeks to expand domestic metals supply and processing.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -299,6 +378,33 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Magna Mining approves restart of Levack copper mine",
+   "link": "https://www.miningweekly.com/article/magna-mining-approves-restart-of-levack-copper-mine-2026-10-09",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T10:41:00.000Z",
+   "summary": "Canadian base metals miner Magna Mining has formally approved the plan to restart its fully-permitted Levack copper mine, in the Sudbury Basin, in northeastern Ontario, following the positive results of a preliminary economic assessment...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -378,6 +484,33 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
+   "press": false
+  },
+  {
+   "title": "FLSmidth secures $54m order for copper mine project in Chile",
+   "link": "https://www.mining-technology.com/news/flsmidth-54m-order-copper-mine-chile/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T10:05:01.000Z",
+   "summary": "Danish mining equipment company FLSmidth (FLS) has received an order valued at approximately DKr360m ($54m) to supply crushing and grinding equipment for a copper mine expansion project in Northern Chile.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-9Oct26-shutterstock_1565664820.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
