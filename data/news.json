@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T21:33:44.875Z",
+ "updated": "2026-10-09T22:33:45.685Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -140,7 +140,7 @@
    "section": "Pakistan",
    "ok": true,
    "items": 1,
-   "seen": 37
+   "seen": 38
   },
   {
    "source": "The Express Tribune",
@@ -270,17 +270,8 @@
    "press": false
   },
   {
-   "title": "EU fast-tracks KGHM’s $3.46B Polish copper projects",
-   "link": "https://www.northernminer.com/news/eu-fast-tracks-kghms-3-46b-polish-copper-projects/1003895652/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T21:10:00.000Z",
-   "summary": "The European Commission has granted strategic status to two copper projects worth a combined more than 9.5 billion zlotys ($3.46 billion) being developed by Polish state-controlled producer KGHM Polska Miedz...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -294,6 +285,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "EU fast-tracks KGHM’s $3.46B Polish copper projects",
+   "link": "https://www.northernminer.com/news/eu-fast-tracks-kghms-3-46b-polish-copper-projects/1003895652/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T21:10:00.000Z",
+   "summary": "The European Commission has granted strategic status to two copper projects worth a combined more than 9.5 billion zlotys ($3.46 billion) being developed by Polish state-controlled producer KGHM Polska Miedz...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -372,17 +372,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Canagold nears build decision at New Polaris",
-   "link": "https://www.canadianminingjournal.com/news/sponsored-video-canagold-nears-build-decision-at-new-polaris/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T20:53:01.000Z",
-   "summary": "Canagold Resources CEO Catalin Kilofliski in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -394,6 +385,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Canagold nears build decision at New Polaris",
+   "link": "https://www.canadianminingjournal.com/news/sponsored-video-canagold-nears-build-decision-at-new-polaris/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T20:53:01.000Z",
+   "summary": "Canagold Resources CEO Catalin Kilofliski in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -428,6 +428,21 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Sponsored video: Barton Gold targets richer starter pits at Tunkillia",
    "link": "https://www.canadianminingjournal.com/news/sponsored-video-barton-gold-targets-richer-starter-pits-at-tunkillia/",
    "via": "",
@@ -436,9 +451,12 @@
    "summary": "Barton Gold CEO Alexander Scanlon in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -452,9 +470,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Sponsored video: Westhaven and Dundee eye a new B.C. gold camp",
    "link": "https://www.canadianminingjournal.com/news/sponsored-video-westhaven-and-dundee-eye-a-new-b-c-gold-camp/",
    "via": "",
@@ -463,9 +478,12 @@
    "summary": "Westhaven Gold President and CEO Ken Armstrong and Dundee Corp. CEO Jonathan Goodman in conversation with The Northern Miner Western Editor Henry [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -479,9 +497,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Sponsored video: Japan Gold secures $50M exploration cash boost",
    "link": "https://www.canadianminingjournal.com/news/sponsored-video-japan-gold-secures-50m-exploration-cash-boost/",
    "via": "",
@@ -490,22 +505,7 @@
    "summary": "Japan Gold CEO John Proust in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid [...]",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -615,17 +615,8 @@
    "press": false
   },
   {
-   "title": "Water, chemistry challenge Lithium Triangle growth",
-   "link": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T20:00:00.000Z",
-   "summary": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -639,6 +630,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Water, chemistry challenge Lithium Triangle growth",
+   "link": "https://www.northernminer.com/news/water-chemistry-challenge-lithium-triangle-growth/1003895641/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T20:00:00.000Z",
+   "summary": "Argentina, Bolivia and Chile hold about 43% of the world’s identified lithium resources, but differences in brine chemistry and water availability complicate efforts to turn the Lithium Triangle’s geological wealth...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
