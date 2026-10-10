@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T00:45:43.273Z",
+ "updated": "2026-10-10T01:34:45.174Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -776,6 +776,31 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Pushing crushing capabilities: how digitalisation is improving comminution",
+   "link": "https://www.mining-technology.com/features/pushing-crushing-capabilities-how-digitalisation-is-improving-comminution/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:05:30.000Z",
+   "summary": "Digitalisation is giving miners greater visibility and control across comminution, but how operators integrate technologies will be critical.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Anglo-American-2-scaled.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
