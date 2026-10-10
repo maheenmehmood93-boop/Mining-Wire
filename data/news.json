@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:31:51.334Z",
+ "updated": "2026-10-10T22:31:41.665Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "China’s central bank adds to gold reserves for 23rd consecutive month",
-   "link": "https://www.brecorder.com/news/40443587/chinas-central-bank-adds-to-gold-reserves-for-23rd-consecutive-month",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-10T21:21:50.000Z",
-   "summary": "BEIJING: China’s central bank stepped up its gold purchases in September, extending its buying streak to a 23rd consecutive month, official data showed on Wednesday. Gold holdings by the People’s Bank of China rose to 77.47 million fine...",
-   "image": "https://i.brecorder.com/large/2026/10/11003827a80e599.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [
     "Gold"
@@ -267,6 +258,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "China’s central bank adds to gold reserves for 23rd consecutive month",
+   "link": "https://www.brecorder.com/news/40443587/chinas-central-bank-adds-to-gold-reserves-for-23rd-consecutive-month",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-10T21:21:50.000Z",
+   "summary": "BEIJING: China’s central bank stepped up its gold purchases in September, extending its buying streak to a 23rd consecutive month, official data showed on Wednesday. Gold holdings by the People’s Bank of China rose to 77.47 million fine...",
+   "image": "https://i.brecorder.com/large/2026/10/11003827a80e599.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
