@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T12:38:44.933Z",
+ "updated": "2026-10-10T13:32:57.117Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 120
+   "seen": 123
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Chagai: Customs Official Among Five Passengers Abducted After Bus Breaks Down",
+   "link": "https://thebalochistanpost.net/2026/10/chagai-customs-official-among-five-passengers-abducted-after-bus-breaks-down/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-10T12:33:57.000Z",
+   "summary": "Armed&#160;men&#160;have&#160;allegedly&#160;abducted&#160;five&#160;passengers,&#160;including&#160;a&#160;Pakistan&#160;Customs&#160;official,&#160;after&#160;a&#160;passenger&#160;bus&#160;travelling&#160;from&#160;Quetta&#160;to&#160;Da...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
