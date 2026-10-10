@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T05:32:35.512Z",
+ "updated": "2026-10-10T06:39:47.588Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,9 +32,8 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": true,
-   "items": 12,
-   "seen": 12
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "Mining Weekly",
@@ -182,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 83
+   "seen": 89
   },
   {
    "source": "Pakistan Observer",
