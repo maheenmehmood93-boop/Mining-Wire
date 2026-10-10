@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T06:39:47.588Z",
+ "updated": "2026-10-10T07:33:12.190Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -60,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 89
+   "seen": 93
   },
   {
    "source": "Pakistan Observer",
