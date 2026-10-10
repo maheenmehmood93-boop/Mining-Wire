@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T01:34:45.174Z",
+ "updated": "2026-10-10T02:34:00.747Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -779,17 +779,8 @@
    "press": false
   },
   {
-   "title": "Pushing crushing capabilities: how digitalisation is improving comminution",
-   "link": "https://www.mining-technology.com/features/pushing-crushing-capabilities-how-digitalisation-is-improving-comminution/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T15:05:30.000Z",
-   "summary": "Digitalisation is giving miners greater visibility and control across comminution, but how operators integrate technologies will be critical.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Anglo-American-2-scaled.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -801,6 +792,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Pushing crushing capabilities: how digitalisation is improving comminution",
+   "link": "https://www.mining-technology.com/features/pushing-crushing-capabilities-how-digitalisation-is-improving-comminution/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:05:30.000Z",
+   "summary": "Digitalisation is giving miners greater visibility and control across comminution, but how operators integrate technologies will be critical.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Anglo-American-2-scaled.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
