@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T18:37:18.099Z",
+ "updated": "2026-10-11T19:32:04.353Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 116
+   "seen": 47
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Geopolitical risk drives capital to private sector: analyst",
-   "link": "https://www.mining.com/geopolitical-risk-drives-capital-to-private-sector-analyst/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-11T17:44:57.000Z",
-   "summary": "Market-cycle analyst Martin Armstrong warns political instability could accelerate capital flows and fuel a gold rally.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -267,6 +258,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Geopolitical risk drives capital to private sector: analyst",
+   "link": "https://www.mining.com/geopolitical-risk-drives-capital-to-private-sector-analyst/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-11T17:44:57.000Z",
+   "summary": "Market-cycle analyst Martin Armstrong warns political instability could accelerate capital flows and fuel a gold rally.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -859,6 +859,37 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Hot Chili drills shallow copper, gold at Chile discovery",
+   "link": "https://www.mining.com/hot-chili-drills-shallow-copper-gold-at-chile-discovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:19:49.000Z",
+   "summary": "The goal is to use ore from La Verde to feed a planned processing plant for Costa Fuego to cut costs.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "Exploration search",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Discovery",
+   "exMetals": [
+    "Copper",
+    "Gold"
+   ],
+   "exHighlight": "",
+   "exCountry": "Chile",
+   "exRegion": "",
    "press": false
   },
   {
