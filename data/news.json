@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T19:32:04.353Z",
+ "updated": "2026-10-11T20:33:10.584Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 47
+   "seen": 49
   },
   {
    "source": "Pakistan Observer",
@@ -195,7 +195,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -242,6 +242,31 @@
   }
  ],
  "items": [
+  {
+   "title": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says",
+   "link": "https://thefrontierpost.com/at-least-72-sudanese-artisanal-miners-killed-in-strike-rights-monitor-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-11T19:58:04.000Z",
+   "summary": "(Reuters) : At least 72 artisanal miners were killed in an airstrike in ​northern Sudan on Saturday, rights monitor Emergency Lawyers ‌said on Sunday, in the second such incident in several months. Emergency Lawyers blamed the Egyptian air...",
+   "image": null,
+   "source": "The Frontier Post",
+   "section": "",
+   "scope": "National",
+   "region": "Peshawar",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Fatality / injury",
+   "country": "Sudan",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -862,17 +887,8 @@
    "press": false
   },
   {
-   "title": "Hot Chili drills shallow copper, gold at Chile discovery",
-   "link": "https://www.mining.com/hot-chili-drills-shallow-copper-gold-at-chile-discovery/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T15:19:49.000Z",
-   "summary": "The goal is to use ore from La Verde to feed a planned processing plant for Costa Fuego to cut costs.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "Exploration search",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -890,6 +906,15 @@
    "exHighlight": "",
    "exCountry": "Chile",
    "exRegion": "",
+   "title": "Hot Chili drills shallow copper, gold at Chile discovery",
+   "link": "https://www.mining.com/hot-chili-drills-shallow-copper-gold-at-chile-discovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-09T15:19:49.000Z",
+   "summary": "The goal is to use ore from La Verde to feed a planned processing plant for Costa Fuego to cut costs.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
