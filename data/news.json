@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T20:33:10.584Z",
+ "updated": "2026-10-11T21:33:09.666Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 49
+   "seen": 50
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says",
-   "link": "https://thefrontierpost.com/at-least-72-sudanese-artisanal-miners-killed-in-strike-rights-monitor-says/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-11T19:58:04.000Z",
-   "summary": "(Reuters) : At least 72 artisanal miners were killed in an airstrike in ​northern Sudan on Saturday, rights monitor Emergency Lawyers ‌said on Sunday, in the second such incident in several months. Emergency Lawyers blamed the Egyptian air...",
-   "image": null,
-   "source": "The Frontier Post",
    "section": "",
    "scope": "National",
-   "region": "Peshawar",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +256,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "At least 72 Sudanese artisanal miners killed in strike, rights monitor says",
+   "link": "https://thefrontierpost.com/at-least-72-sudanese-artisanal-miners-killed-in-strike-rights-monitor-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-11T19:58:04.000Z",
+   "summary": "(Reuters) : At least 72 artisanal miners were killed in an airstrike in ​northern Sudan on Saturday, rights monitor Emergency Lawyers ‌said on Sunday, in the second such incident in several months. Emergency Lawyers blamed the Egyptian air...",
+   "image": null,
+   "source": "The Frontier Post",
+   "region": "Peshawar",
    "press": false
   },
   {
