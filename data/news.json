@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T03:35:29.616Z",
+ "updated": "2026-10-11T04:34:41.022Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 72
+   "seen": 76
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Balochistan CM Bugti assures opposition on mines, minerals, forest land",
-   "link": "https://www.dawn.com/news/2036249/balochistan-cm-bugti-assures-opposition-on-mines-minerals-forest-land",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-11T03:06:23.000Z",
-   "summary": "• Khetran condemns wrapping of Dr Lehri’s body in banned outfit’s flag • Opposition seeks implementation of madressah bill commitments under 26th Amendment QUETTA: Balochistan Chief Minister Mir Sarfraz Bugti assured the provincial...",
-   "image": "https://i.dawn.com/large/2026/10/110806057647a12.webp",
-   "source": "Dawn",
    "section": "Pakistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -267,6 +258,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Balochistan CM Bugti assures opposition on mines, minerals, forest land",
+   "link": "https://www.dawn.com/news/2036249/balochistan-cm-bugti-assures-opposition-on-mines-minerals-forest-land",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-11T03:06:23.000Z",
+   "summary": "• Khetran condemns wrapping of Dr Lehri’s body in banned outfit’s flag • Opposition seeks implementation of madressah bill commitments under 26th Amendment QUETTA: Balochistan Chief Minister Mir Sarfraz Bugti assured the provincial...",
+   "image": "https://i.dawn.com/large/2026/10/110806057647a12.webp",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
