@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T17:32:11.121Z",
+ "updated": "2026-10-11T18:37:18.099Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 114
+   "seen": 116
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Geopolitical risk drives capital to private sector: analyst",
+   "link": "https://www.mining.com/geopolitical-risk-drives-capital-to-private-sector-analyst/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-11T17:44:57.000Z",
+   "summary": "Market-cycle analyst Martin Armstrong warns political instability could accelerate capital flows and fuel a gold rally.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "Pakistan",
    "scope": "National",
