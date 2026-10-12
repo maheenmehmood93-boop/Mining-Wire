@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T17:35:52.171Z",
+ "updated": "2026-10-12T18:40:37.543Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 131
+   "seen": 134
   },
   {
    "source": "Pakistan Observer",
@@ -216,7 +216,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -242,6 +242,33 @@
   }
  ],
  "items": [
+  {
+   "title": "EnergyX inks 10-year, $2B lithium offtake deal with Trafigura",
+   "link": "https://www.mining.com/energyx-inks-10-year-2b-lithium-offtake-deal-with-trafigura/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T17:40:02.000Z",
+   "summary": "The deal covers lithium products from both Black Giant in Chile project Lonestar in Texas.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
