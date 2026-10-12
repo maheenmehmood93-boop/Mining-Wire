@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T13:13:04.161Z",
+ "updated": "2026-10-12T13:48:13.210Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -138,20 +138,23 @@
   {
    "source": "The Express Tribune",
    "section": "Pakistan",
-   "ok": false,
-   "error": "no items found in feed"
+   "ok": true,
+   "items": 1,
+   "seen": 38
   },
   {
    "source": "The Express Tribune",
    "section": "Business",
-   "ok": false,
-   "error": "no items found in feed"
+   "ok": true,
+   "items": 0,
+   "seen": 25
   },
   {
    "source": "The Express Tribune",
    "section": "Balochistan",
-   "ok": false,
-   "error": "no items found in feed"
+   "ok": true,
+   "items": 2,
+   "seen": 19
   },
   {
    "source": "Business Recorder",
@@ -179,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 108
+   "seen": 113
   },
   {
    "source": "Pakistan Observer",
@@ -240,17 +243,33 @@
  ],
  "items": [
   {
-   "title": "Falco vies for environmental OK",
-   "link": "https://www.northernminer.com/news/falco-vies-for-environmental-ok/1003895648/",
+   "title": "LGMG holds Global Mining Customer Service Festival in Ordos",
+   "link": "https://im-mining.com/2026/10/12/lgmg-holds-global-mining-customer-service-festival-in-ordos/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T13:00:02.000Z",
-   "summary": "After eight years in environmental review, Falco Resources (TSXV: FPC) expects Quebec to sign off on Horne 5 by year-end — a decision that would unlock a gold and critical...",
+   "date": "2026-10-12T13:26:26.000Z",
+   "summary": "From October 9th to 11th, Lingong Heavy Machinery (LGMG)'s first Global Mining Customer Service Festival was held in Ordos, Inner Mongolia. A total of more than 500 people, including government and association leaders, industry experts,...",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold"
@@ -264,6 +283,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Falco vies for environmental OK",
+   "link": "https://www.northernminer.com/news/falco-vies-for-environmental-ok/1003895648/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T13:00:02.000Z",
+   "summary": "After eight years in environmental review, Falco Resources (TSXV: FPC) expects Quebec to sign off on Horne 5 by year-end — a decision that would unlock a gold and critical...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
