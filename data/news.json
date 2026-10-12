@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T15:38:47.018Z",
+ "updated": "2026-10-12T16:36:27.325Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 123
+   "seen": 129
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,17 @@
  ],
  "items": [
   {
-   "title": "Spotlight: Exploration in Quebec",
-   "link": "https://www.northernminer.com/news/spotlight-exploration-in-quebec/1003895623/",
+   "title": "Africa's first non-ferrous mining TBM advances further at NFCA's Chambishi",
+   "link": "https://im-mining.com/2026/10/12/africas-first-non-ferrous-mining-tbm-advances-further-at-nfcas-chambishi/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T15:15:54.000Z",
-   "summary": "Quebec accounts for about 20% of Canada’s mining production and has some of the most diverse mineral resources in North America. Here’s a look at four companies with interesting projects...",
+   "date": "2026-10-12T15:47:03.000Z",
+   "summary": "Africa's first non-ferrous metal mining TBM - China Nonferrous Metals No. 2 - was jointly built by CRCC subsidiary China Railway Construction Heavy Industry (CRCHI) and China Metallurgical Corporation 15, with the companies also providing...",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +265,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Spotlight: Exploration in Quebec",
+   "link": "https://www.northernminer.com/news/spotlight-exploration-in-quebec/1003895623/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T15:15:54.000Z",
+   "summary": "Quebec accounts for about 20% of Canada’s mining production and has some of the most diverse mineral resources in North America. Here’s a look at four companies with interesting projects...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -296,17 +321,8 @@
    "press": false
   },
   {
-   "title": "Women hold just 12% of top mining jobs in Australia: report",
-   "link": "https://www.mining.com/women-hold-just-12-of-top-mining-jobs-in-australia-report/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T15:00:00.000Z",
-   "summary": "Research exposes a leadership gap in mining despite faster promotions for women and potential financial gains.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -318,6 +334,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Women hold just 12% of top mining jobs in Australia: report",
+   "link": "https://www.mining.com/women-hold-just-12-of-top-mining-jobs-in-australia-report/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T15:00:00.000Z",
+   "summary": "Research exposes a leadership gap in mining despite faster promotions for women and potential financial gains.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -348,6 +373,33 @@
    "press": false
   },
   {
+   "title": "VHM, Mitsui agree non-binding term sheet for Goschen HMC offtake",
+   "link": "https://www.mining-technology.com/news/vhm-mitsui-term-sheet-goschen-offtake/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T13:32:50.000Z",
+   "summary": "VHM has signed a non-binding term sheet with Mitsui for the purchase of heavy mineral concentrate (HMC) from VHM’s Goschen rare earths and mineral sands project located in Victoria, Australia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-12Oct26-shutterstock_2594719725-2.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -370,6 +422,34 @@
    "image": null,
    "source": "International Mining",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "KEFI resumes work at Tulu Kapi gold project in Ethiopia",
+   "link": "https://www.mining-technology.com/news/kefi-resumes-work-tulu-kapi-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T13:26:01.000Z",
+   "summary": "KEFI Gold and Copper has announced the recommencement of development activities at the Tulu Kapi Gold Project in Ethiopia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-12Oct26-shutterstock_2812280739.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -400,17 +480,8 @@
    "press": false
   },
   {
-   "title": "Lynas plans Brazil rare earths plant with state support",
-   "link": "https://www.mining.com/lynas-plans-brazil-rare-earths-plant-with-state-support/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T12:45:00.000Z",
-   "summary": "Brazilian officials see the proposed separation facility as a regional processing hub, with BNDES considering financing.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -424,6 +495,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lynas plans Brazil rare earths plant with state support",
+   "link": "https://www.mining.com/lynas-plans-brazil-rare-earths-plant-with-state-support/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T12:45:00.000Z",
+   "summary": "Brazilian officials see the proposed separation facility as a regional processing hub, with BNDES considering financing.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
