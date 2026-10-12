@@ -56,6 +56,33 @@
   .chartbox .grid { stroke: var(--line); stroke-width: 1; }
   .chartbox .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
   .chartbox .dot { fill: var(--accent); }
+  .pxctl { display: grid; gap: 10px; }
+  .pxsels { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
+  .pxsel { display: grid; gap: 4px; }
+  .pxsel .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .pxsel select { font: inherit; font-size: .9rem; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); width: 100%; }
+  .pxmap svg { width: 100%; max-height: 520px; display: block; margin: 0 auto; border-radius: 8px; }
+  .pxmap .sea { fill: var(--surface); }
+  .pxmap .land { fill: var(--chip); stroke: var(--line); vector-effect: non-scaling-stroke; stroke-width: .6px; }
+  .pxmap .gl { stroke: var(--line); stroke-width: .5px; vector-effect: non-scaling-stroke; opacity: .7; pointer-events: none; }
+  .pxmap .gt { fill: var(--muted); pointer-events: none; }
+  .pxmap .dl { fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; vector-effect: non-scaling-stroke; pointer-events: none; }
+  .pxmap .pd { fill: var(--accent); fill-opacity: .6; stroke: var(--surface); stroke-width: .5px; vector-effect: non-scaling-stroke; cursor: pointer; }
+  .pxmap .pu { fill: var(--muted); fill-opacity: .55; cursor: pointer; }
+  .pxmap .sel { fill-opacity: 1; stroke: var(--ink); stroke-width: 2px; vector-effect: non-scaling-stroke; }
+  .pxd { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 10px; }
+  .pxd-h { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .pxd-h .link { margin-left: auto; }
+  .pxdl { display: grid; grid-template-columns: minmax(120px, 190px) 1fr; gap: 6px 14px; margin: 0; font-size: .92rem; }
+  .pxdl dt { color: var(--muted); font-size: .8rem; }
+  .pxdl dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+  .pxp { border-top: 1px solid var(--line); padding-top: 8px; }
+  @media (max-width: 560px) { .pxdl { grid-template-columns: 1fr; gap: 0; } .pxdl dd { margin-bottom: 8px; } }
+  table.pxtable tbody tr { cursor: pointer; }
+  table.pxtable button.sorter { font: inherit; text-transform: inherit; letter-spacing: inherit; color: inherit; font-weight: inherit; background: none; border: 0; padding: 0; cursor: pointer; white-space: nowrap; }
+  table.pxtable th, table.pxtable td { padding: 8px 8px; }
+  table.pxtable td.num { white-space: nowrap; }
+  p.more { text-align: center; margin: 0; }
   .tab .n { opacity: .65; font-size: .78rem; margin-left: 4px; }
   .notice { max-width: 980px; margin: 14px auto 0; padding: 10px 14px; border: 1px solid var(--line); border-left: 3px solid var(--accent);
             border-radius: 8px; background: var(--surface); font-size: .85rem; color: var(--muted); }
@@ -129,6 +156,7 @@
   <button class="tab" type="button" role="tab" id="tab-chagai" aria-selected="false">Chagai security<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-safety" aria-selected="false">Safety incidents<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-explore" aria-selected="false">Exploration<span class="n"></span></button>
+  <button class="tab" type="button" role="tab" id="tab-porphyry" aria-selected="false">Porphyry<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-prices" aria-selected="false">Prices<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-stocks" aria-selected="false">Stock watch<span class="n"></span></button>
   <button class="tab" type="button" role="tab" id="tab-companies" aria-selected="false">Companies<span class="n"></span></button>
@@ -186,6 +214,7 @@
 </main>
 </div>
 
+<section class="view" id="porphyryView" hidden aria-label="Porphyry deposits"></section>
 <section class="view" id="pricesView" hidden aria-label="Commodity prices"></section>
 <section class="view" id="stocksView" hidden aria-label="Stock watch"></section>
 <section class="view" id="companiesView" hidden aria-label="Mining companies and service providers"></section>
@@ -502,6 +531,231 @@
     v.querySelectorAll("[data-srange]").forEach((b) => (b.onclick = () => { state.srange = b.dataset.srange; render(); }));
   }
 
+  // ---- Porphyry deposits ---------------------------------------------------------
+  // Data: USGS global database of porphyry copper deposits and prospects (public domain).
+  // Loaded the first time the tab is opened, because the file is large.
+  const PX = { rows: null, meta: null, land: "", projects: {}, status: "idle", ix: {}, app: false };
+  state.px = { q: "", country: "", kind: "", tectonic: "", era: "", stage: "", gt: false, sort: "cuContained", dir: -1, shown: 50, sel: null, view: "world" };
+
+  const PX_VIEWS = {
+    world: ["World", -180, -80, 360, 135],
+    chagai: ["Chagai belt", 60.9, -30.1, 4.4, 1.65],
+    andes: ["Americas south", -85, -13, 55, 68],
+    namerica: ["North America", -165, -72, 120, 57],
+    europe: ["Europe and Middle East", -12, -62, 88, 52],
+    asia: ["Asia and Pacific", 55, -55, 125, 67],
+  };
+
+  async function pxLoad() {
+    if (PX.status !== "idle") return;
+    PX.status = "loading";
+    const get = async (u) => { try { const r = await fetch(u, { cache: "no-cache" }); return r.ok ? await r.json() : null; } catch (e) { return null; } };
+    const [d, w, p] = await Promise.all([get("data/porphyry.json"), get("data/world.json"), get("data/porphyry-projects.json")]);
+    if (!d || !Array.isArray(d.rows)) { PX.status = "error"; }
+    else {
+      PX.meta = d.meta;
+      PX.ix = Object.fromEntries(d.cols.map((c, i) => [c, i]));
+      PX.rows = d.rows.map((r, id) => { const o = { id }; d.cols.forEach((c, i) => (o[c] = r[i])); return o; });
+      PX.land = (w && w.d) || "";
+      PX.projects = (p && p.projects) || {};
+      PX.projectsAsOf = p && p.asOf;
+      PX.rows.forEach((o) => { o.project = PX.projects[o.name + "|" + o.country] || null; });
+      PX.status = "ready";
+    }
+    if (state.tab === "porphyry") render();
+  }
+
+  const pxNum = (v, d = 1) => (v == null ? "—" : v.toLocaleString("en-US", { maximumFractionDigits: d, minimumFractionDigits: 0 }));
+  const pxTonnage = (v) => (v == null ? "—" : pxNum(v, v >= 100 ? 0 : 1));
+  const pxCu = (v) => (v == null ? "—" : pxNum(v, v >= 10 ? 0 : v >= 1 ? 1 : 2));
+  const pxAge = (r) => (r.ageMa == null ? "—" : pxNum(r.ageMa, r.ageMa >= 100 ? 0 : 1));
+
+  function pxFiltered() {
+    const s = state.px, q = s.q.trim().toLowerCase();
+    return PX.rows.filter((r) =>
+      (!s.country || r.country === s.country) && (!s.kind || r.kind === s.kind) && (!s.tectonic || r.tectonic === s.tectonic) &&
+      (!s.era || r.era === s.era) && (!s.gt || r.cuContained != null) &&
+      (!s.stage || (r.project && r.project.stage === s.stage)) &&
+      (!q || (r.name + " " + r.country + " " + (r.project ? r.project.owner + " " + r.project.stage : "")).toLowerCase().includes(q)));
+  }
+
+  function pxSorted(rows) {
+    const k = state.px.sort, dir = state.px.dir;
+    return [...rows].sort((a, b) => {
+      const x = k === "stage" ? a.project?.stage ?? null : a[k], y = k === "stage" ? b.project?.stage ?? null : b[k];
+      if (x == null && y == null) return a.name.localeCompare(b.name);
+      if (x == null) return 1;           // missing values always last
+      if (y == null) return -1;
+      return (typeof x === "string" ? x.localeCompare(y) : x - y) * dir || a.name.localeCompare(b.name);
+    });
+  }
+
+  const pxCsv = (rows) => {
+    const cols = [["name", "Deposit"], ["country", "Country"], ["lat", "Latitude"], ["lon", "Longitude"], ["type", "Deposit type"], ["tectonic", "Tectonic setting"], ["ageMa", "Age (Ma)"],
+      ["tonnage", "Ore (Mt)"], ["cu", "Cu (%)"], ["mo", "Mo (%)"], ["au", "Au (g/t)"], ["ag", "Ag (g/t)"], ["cuContained", "Contained Cu (Mt, calculated)"], ["gtRef", "Grade and tonnage source"], ["comments", "Comments"]];
+    const cell = (v) => { const t = v == null ? "" : String(v); return /[",\n]/.test(t) ? '"' + t.replace(/"/g, '""') + '"' : t; };
+    return [cols.map((c) => cell(c[1])).join(","), ...rows.map((r) => cols.map((c) => cell(r[c[0]])).join(","))].join("\n");
+  };
+
+  function pxMap(rows) {
+    const s = state.px;
+    let vb = PX_VIEWS[s.view] || PX_VIEWS.world;
+    if (s.view === "fit" && rows.length) {
+      const la = rows.map((r) => r.lat), lo = rows.map((r) => r.lon);
+      let x0 = Math.min(...lo), x1 = Math.max(...lo), y0 = Math.min(...la), y1 = Math.max(...la);
+      const w = Math.max(x1 - x0, 3), h = Math.max(y1 - y0, 1.5);
+      const k = Math.max(w * 0.12, h * 0.12, 0.4);
+      vb = ["Fit", x0 - k, -(y1 + k), w + 2 * k, h + 2 * k];
+    }
+    const [, x, y, w, h] = vb;
+    const f = Math.pow(w / 360, 0.75); // dots grow a little when zoomed in, but not in proportion
+    const selId = s.sel;
+    const fs = +(w * 0.012).toFixed(3); // about 11px on screen
+    const step = w > 200 ? 30 : w > 60 ? 10 : w > 20 ? 5 : w > 8 ? 2 : w > 3 ? 1 : 0.5;
+    const near = (v) => Math.round(v * 100) / 100;
+    let grid = "";
+    for (let lo = Math.ceil(x / step) * step; lo <= x + w + 1e-9; lo += step) {
+      const v = near(lo);
+      grid += `<line class="gl" x1="${v}" y1="${y}" x2="${v}" y2="${y + h}"/><text class="gt" x="${near(v + fs * 0.3)}" y="${near(y + h - fs * 0.4)}" font-size="${fs}">${Math.abs(v)}°${v < 0 ? "W" : "E"}</text>`;
+    }
+    for (let la = Math.ceil(-(y + h) / step) * step; la <= -y + 1e-9; la += step) {
+      const v = near(la);
+      grid += `<line class="gl" x1="${x}" y1="${-v}" x2="${x + w}" y2="${-v}"/><text class="gt" x="${near(x + fs * 0.3)}" y="${near(-v - fs * 0.3)}" font-size="${fs}">${Math.abs(v)}°${v < 0 ? "S" : "N"}</text>`;
+    }
+    const labelled = rows.length <= 60 && w < 40; // names only for deposits with figures, and the selected one
+    let marks = "", labels = "";
+    rows.forEach((r) => {
+      const known = r.cuContained != null;
+      const rad = (known ? 0.9 + 0.28 * Math.sqrt(r.cuContained) : 0.9) * f;
+      const label = `${r.name}, ${r.country}` + (known ? `: about ${pxCu(r.cuContained)} Mt contained copper` : "");
+      marks += `<circle class="${known ? "pd" : "pu"}${r.id === selId ? " sel" : ""}" cx="${r.lon}" cy="${-r.lat}" r="${rad.toFixed(3)}" data-px="${r.id}"><title>${esc(label)}</title></circle>`;
+      if (labelled && (known || r.id === selId)) labels += `<text class="dl" x="${near(r.lon + rad * 1.3)}" y="${near(-r.lat + fs * 0.3)}" font-size="${fs}">${esc(r.name)}</text>`;
+    });
+    return `<svg viewBox="${x} ${y} ${w} ${h}" role="img" aria-label="Map of ${rows.length} porphyry deposits and prospects" style="aspect-ratio:${(w / h).toFixed(3)}">
+      <rect x="${x}" y="${y}" width="${w}" height="${h}" class="sea"/>
+      <path class="land" d="${PX.land}"/>${grid}${marks}${labels}</svg>`;
+  }
+
+  function pxDetail(r) {
+    const row = (k, v) => (v == null || v === "" ? "" : `<dt>${esc(k)}</dt><dd>${v}</dd>`);
+    const p = r.project;
+    const age = r.ageMa == null ? null : `${esc(pxAge(r))} Ma${r.ageUnc != null ? " ± " + esc(pxNum(r.ageUnc, 2)) : ""}` +
+      (r.ageType ? ` (${esc(r.ageType.toLowerCase())})` : "");
+    const gt = r.tonnage != null || r.cu != null || r.au != null;
+    const osm = `https://www.openstreetmap.org/?mlat=${r.lat}&mlon=${r.lon}#map=9/${r.lat}/${r.lon}`;
+    return `<article class="pxd" aria-live="polite">
+      <div class="pxd-h"><h2>${esc(r.name)}</h2><span class="tag">${esc(r.country)}</span>${p ? `<span class="tag inc">${esc(p.stage)}</span>` : ""}<button type="button" class="link" id="pxClose">Close</button></div>
+      <dl class="pxdl">
+        ${row("Location", `${esc(r.lat.toFixed(4))}, ${esc(r.lon.toFixed(4))} <a href="${esc(osm)}" target="_blank" rel="noopener noreferrer">map</a>${r.locRef ? `<div class="small">Source: ${esc(r.locRef)}</div>` : ""}`)}
+        ${row("Deposit type", r.type ? esc(r.type) + (r.subtype ? ` <span class="small">(${esc(r.subtype.toLowerCase())} intrusions)</span>` : "") : null)}
+        ${row("Tectonic setting", r.tectonic ? esc(r.tectonic) + (r.tectRef ? `<div class="small">Source: ${esc(r.tectRef)}</div>` : "") : null)}
+        ${row("Age of mineralisation", age ? age + `<div class="small">${[r.ageMethod && "Method: " + r.ageMethod, r.ageMineral && "Mineral: " + r.ageMineral, r.ageBasis && "Basis: " + r.ageBasis, r.ageText && "Published: " + r.ageText].filter(Boolean).map(esc).join(" · ")}${r.ageRef ? `<br>Source: ${esc(r.ageRef)}` : ""}</div>` : r.strat ? esc(r.strat) + ` <span class="small">(stratigraphic age only)</span>` : null)}
+        ${gt ? row("Ore tonnage", r.tonnage != null ? esc(pxTonnage(r.tonnage)) + " Mt" : null) +
+          row("Grade", [r.cu != null && "Cu " + pxNum(r.cu, 3) + " %", r.mo != null && "Mo " + pxNum(r.mo, 4) + " %", r.au != null && "Au " + pxNum(r.au, 3) + " g/t", r.ag != null && "Ag " + pxNum(r.ag, 2) + " g/t"].filter(Boolean).map(esc).join(" · ")) +
+          row("Contained copper", r.cuContained != null ? esc(pxCu(r.cuContained)) + " Mt <span class=\"small\">(calculated: tonnage × Cu grade)</span>" : null) : row("Grade and tonnage", "Not published in the database")}
+        ${gt && r.gtRef ? row("Grade and tonnage source", esc(r.gtRef)) : ""}
+        ${row("Notes in the database", r.comments ? esc(r.comments) : null)}
+        ${row("Entered from", r.dbSource ? esc(r.dbSource) : null)}
+      </dl>
+      ${p ? `<div class="pxp"><h3>Project information${PX.projectsAsOf ? ` <span class="small">checked ${esc(fmtDate(PX.projectsAsOf))}</span>` : ""}</h3><dl class="pxdl">
+        ${row("Stage", esc(p.stage))}${row("Owner", p.owner ? esc(p.owner) : null)}${row("Status", p.note ? esc(p.note) : null)}
+        ${row("Sources", (p.sources || []).map((s) => `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.title)}</a>`).join("<br>"))}</dl></div>`
+        : `<p class="small">Project stage and ownership are not part of this database${Object.keys(PX.projects).length ? " and have not been added for this deposit" : ""}.</p>`}
+    </article>`;
+  }
+
+  function renderPorphyry() {
+    const v = $("porphyryView");
+    if (PX.status === "idle") { pxLoad(); }
+    if (PX.status !== "ready") {
+      v.innerHTML = `<p class="small">${PX.status === "error" ? "The porphyry data could not be loaded. It is refreshed from data/porphyry.json; check that the file is published with the site." : "Loading porphyry deposits…"}</p>`;
+      PX.app = false;
+      return;
+    }
+    const s = state.px;
+    if (!PX.app) {
+      const opts = (key, label) => {
+        const m = new Map();
+        PX.rows.forEach((r) => r[key] && m.set(r[key], (m.get(r[key]) || 0) + 1));
+        const list = [...m].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+        return `<label class="pxsel"><span class="lbl">${label}</span><select data-pxf="${key}"><option value="">All (${list.length})</option>${list.map(([k, n]) => `<option value="${esc(k)}">${esc(k)} (${n})</option>`).join("")}</select></label>`;
+      };
+      const stages = [...new Set(PX.rows.map((r) => r.project?.stage).filter(Boolean))];
+      v.innerHTML = `
+        <p class="small" id="pxIntro"></p>
+        <div class="pxctl">
+          <input type="search" id="pxQ" placeholder="Search by deposit or country, e.g. Reko Diq, Chile" aria-label="Search deposits">
+          <div class="pxsels">${opts("country", "Country")}${opts("kind", "Deposit type")}${opts("tectonic", "Tectonic setting")}${opts("era", "Age")}
+            ${stages.length ? `<label class="pxsel"><span class="lbl">Project stage</span><select data-pxf="stage"><option value="">All</option>${stages.map((x) => `<option>${esc(x)}</option>`).join("")}</select></label>` : ""}</div>
+          <label class="check"><input type="checkbox" id="pxGt"> Only deposits with published tonnage and grade</label>
+        </div>
+        <div class="countbar"><p class="count" id="pxCount" aria-live="polite"></p><button class="link" type="button" id="pxReset" hidden>Reset filters</button><button class="link" type="button" id="pxCsv">Download these as CSV</button></div>
+        <div class="chartbox pxmap">
+          <div class="seg" id="pxViews" role="group" aria-label="Map area"></div>
+          <div id="pxMapBox"></div>
+          <p class="small">Each dot is a deposit or prospect. Larger dots have published tonnage and grade, sized by contained copper; small grey dots have none. Select a dot for details. Coastlines are simplified.</p>
+        </div>
+        <div id="pxDetail"></div>
+        <div class="tablewrap"><table class="prices pxtable"><thead id="pxHead"></thead><tbody id="pxBody"></tbody></table></div>
+        <p class="more"><button class="chip" type="button" id="pxMore">Show more</button></p>
+        <p class="small" id="pxCite"></p>`;
+      $("pxQ").oninput = (e) => { s.q = e.target.value; s.shown = 50; pxUpdate(); };
+      v.querySelectorAll("[data-pxf]").forEach((el) => (el.onchange = () => { s.shown = 50; s[el.dataset.pxf] = el.value; if (el.dataset.pxf === "country") s.view = el.value ? "fit" : "world"; pxUpdate(); }));
+      $("pxGt").onchange = (e) => { s.gt = e.target.checked; s.shown = 50; pxUpdate(); };
+      $("pxReset").onclick = () => { Object.assign(s, { q: "", country: "", kind: "", tectonic: "", tectonic: "", era: "", stage: "", gt: false, shown: 50, view: "world" }); $("pxQ").value = ""; v.querySelectorAll("[data-pxf]").forEach((el) => (el.value = "")); $("pxGt").checked = false; pxUpdate(); };
+      $("pxMore").onclick = () => { s.shown += 100; pxUpdate(); };
+      $("pxCsv").onclick = () => {
+        const rows = pxSorted(pxFiltered());
+        if (!window.URL || !URL.createObjectURL) return;
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(new Blob(["﻿" + pxCsv(rows)], { type: "text/csv" }));
+        a.download = "porphyry-deposits.csv";
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      };
+      v.addEventListener("click", (e) => {
+        const dot = e.target.closest && e.target.closest("[data-px]");
+        if (dot) { s.sel = Number(dot.dataset.px); pxUpdate(true); return; }
+        const sort = e.target.closest && e.target.closest("[data-pxs]");
+        if (sort) { const k = sort.dataset.pxs; if (s.sort === k) s.dir = -s.dir; else { s.sort = k; s.dir = ["name", "country", "tectonic", "stage"].includes(k) ? 1 : -1; } pxUpdate(); return; }
+        const view = e.target.closest && e.target.closest("[data-pxv]");
+        if (view) { s.view = view.dataset.pxv; pxUpdate(); return; }
+        const row = e.target.closest && e.target.closest("[data-pxr]");
+        if (row) { s.sel = Number(row.dataset.pxr); pxUpdate(true); return; }
+        if (e.target.id === "pxClose") { s.sel = null; pxUpdate(); }
+      });
+      PX.app = true;
+    }
+    pxUpdate();
+  }
+
+  function pxUpdate(scrollToDetail) {
+    const s = state.px, v = $("porphyryView");
+    const rows = pxFiltered();
+    const hasGt = PX.rows.filter((r) => r.cuContained != null).length;
+    $("pxIntro").textContent = `${PX.rows.length.toLocaleString("en-US")} porphyry copper deposits and prospects in ${new Set(PX.rows.map((r) => r.country)).size} countries from the USGS global database; ${hasGt.toLocaleString("en-US")} have published tonnage and grade. Tonnage and grade are the figures compiled in that database from many dates and reporting standards, not current company reserves or resources.`;
+    const filtered = !!(s.q || s.country || s.kind || s.tectonic || s.era || s.stage || s.gt);
+    $("pxCount").textContent = filtered ? `${rows.length.toLocaleString("en-US")} of ${PX.rows.length.toLocaleString("en-US")} deposits` : `${PX.rows.length.toLocaleString("en-US")} deposits`;
+    $("pxReset").hidden = !filtered;
+    const viewBtns = [...Object.entries(PX_VIEWS).map(([k, a]) => [k, a[0]]), ["fit", "Fit to results"]];
+    $("pxViews").innerHTML = viewBtns.map(([k, l]) => `<button type="button" class="chip" data-pxv="${k}" aria-pressed="${s.view === k}"><span class="t">${esc(l)}</span></button>`).join("");
+    $("pxMapBox").innerHTML = rows.length ? pxMap(rows) : `<p class="small">No deposits match these filters.</p>`;
+    const sel = s.sel != null ? PX.rows[s.sel] : null;
+    $("pxDetail").innerHTML = sel ? pxDetail(sel) : "";
+    const withStage = Object.keys(PX.projects).length > 0;
+    const cols = [["name", "Deposit"], ["country", "Country"], ["kind", "Type"], ["tectonic", "Tectonic setting"], ["ageMa", "Age (Ma)", 1], ["tonnage", "Ore (Mt)", 1], ["cu", "Cu %", 1], ["au", "Au g/t", 1], ["cuContained", "Cu in ore (Mt)", 1]];
+    if (withStage) cols.splice(2, 0, ["stage", "Stage"]);
+    $("pxHead").innerHTML = `<tr>${cols.map(([k, l, num]) => `<th class="${num ? "num" : ""}" aria-sort="${s.sort === k ? (s.dir > 0 ? "ascending" : "descending") : "none"}"><button type="button" class="sorter" data-pxs="${k}">${esc(l)}${s.sort === k ? (s.dir > 0 ? " ▲" : " ▼") : ""}</button></th>`).join("")}</tr>`;
+    const sorted = pxSorted(rows), shown = sorted.slice(0, s.shown);
+    $("pxBody").innerHTML = shown.map((r) => `<tr data-pxr="${r.id}" aria-selected="${r.id === s.sel}"><td><button type="button" class="metal">${esc(r.name)}</button></td><td>${esc(r.country)}</td>${withStage ? `<td>${r.project ? esc(r.project.stage) : "—"}</td>` : ""}<td>${esc(r.kind)}</td><td>${esc(r.tectonic || "—")}</td><td class="num">${esc(pxAge(r))}</td><td class="num">${esc(pxTonnage(r.tonnage))}</td><td class="num">${esc(pxCu(r.cu == null ? null : r.cu))}</td><td class="num">${esc(r.au == null ? "—" : pxNum(r.au, 2))}</td><td class="num">${esc(pxCu(r.cuContained))}</td></tr>`).join("");
+    $("pxMore").hidden = sorted.length <= shown.length;
+    $("pxMore").textContent = `Show more (${(sorted.length - shown.length).toLocaleString("en-US")} left)`;
+    const m = PX.meta || {};
+    $("pxCite").innerHTML = `Source: ${esc(m.authors)}, ${esc(m.year)}, ${esc(m.title)}, ${esc(m.publisher)}, <a href="${esc(safeUrl(m.doi))}" target="_blank" rel="noopener noreferrer">${esc(m.doi)}</a>. ${esc(m.licence)}; ${esc(m.asOf)}. Contained copper is calculated here as ore tonnage times copper grade.`;
+    $("tab-porphyry").querySelector(".n").textContent = PX.rows.length.toLocaleString("en-US");
+    if (scrollToDetail && sel && v.scrollIntoView) { const d = $("pxDetail"); if (d.scrollIntoView) d.scrollIntoView({ block: "nearest", behavior: "smooth" }); }
+  }
+
   // ---- Companies -------------------------------------------------------------
   function renderCompanies() {
     const v = $("companiesView");
@@ -554,13 +808,13 @@
     const safety = state.tab === "safety";
     const explore = state.tab === "explore";
     const inTab = (t, i) => (t === "chagai" ? i.chagaiSecurity : t === "safety" ? !!i.safetyType : t === "explore" ? !!i.exType : i.mining !== false);
-    ["mining", "chagai", "safety", "explore", "prices", "stocks", "companies"].forEach((t) => {
+    ["mining", "chagai", "safety", "explore", "porphyry", "prices", "stocks", "companies"].forEach((t) => {
       const b = $("tab-" + t);
       b.setAttribute("aria-selected", String(state.tab === t));
       b.querySelector(".n").textContent =
-        t === "prices" || t === "stocks" ? "" : t === "companies" ? (companies?.miners?.length ?? "") : items.filter((i) => inTab(t, i)).length;
+        t === "porphyry" ? (PX.rows ? PX.rows.length.toLocaleString("en-US") : "") : t === "prices" || t === "stocks" ? "" : t === "companies" ? (companies?.miners?.length ?? "") : items.filter((i) => inTab(t, i)).length;
     });
-    const VIEWS = { prices: renderPrices, stocks: renderStocks, companies: renderCompanies };
+    const VIEWS = { porphyry: renderPorphyry, prices: renderPrices, stocks: renderStocks, companies: renderCompanies };
     const special = state.tab in VIEWS;
     $("newsView").hidden = special;
     Object.keys(VIEWS).forEach((t) => ($(t + "View").hidden = state.tab !== t));
@@ -717,6 +971,7 @@
     $("tab-chagai").onclick = () => setTab("chagai");
     $("tab-safety").onclick = () => setTab("safety");
     $("tab-explore").onclick = () => setTab("explore");
+    $("tab-porphyry").onclick = () => setTab("porphyry");
     $("tab-prices").onclick = () => setTab("prices");
     $("tab-stocks").onclick = () => setTab("stocks");
     $("tab-companies").onclick = () => setTab("companies");
