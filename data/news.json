@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T16:36:27.325Z",
+ "updated": "2026-10-12T17:35:52.171Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 129
+   "seen": 131
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Africa's first non-ferrous mining TBM advances further at NFCA's Chambishi",
-   "link": "https://im-mining.com/2026/10/12/africas-first-non-ferrous-mining-tbm-advances-further-at-nfcas-chambishi/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T15:47:03.000Z",
-   "summary": "Africa's first non-ferrous metal mining TBM - China Nonferrous Metals No. 2 - was jointly built by CRCC subsidiary China Railway Construction Heavy Industry (CRCHI) and China Metallurgical Corporation 15, with the companies also providing...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +256,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Africa's first non-ferrous mining TBM advances further at NFCA's Chambishi",
+   "link": "https://im-mining.com/2026/10/12/africas-first-non-ferrous-mining-tbm-advances-further-at-nfcas-chambishi/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T15:47:03.000Z",
+   "summary": "Africa's first non-ferrous metal mining TBM - China Nonferrous Metals No. 2 - was jointly built by CRCC subsidiary China Railway Construction Heavy Industry (CRCHI) and China Metallurgical Corporation 15, with the companies also providing...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -373,17 +373,8 @@
    "press": false
   },
   {
-   "title": "VHM, Mitsui agree non-binding term sheet for Goschen HMC offtake",
-   "link": "https://www.mining-technology.com/news/vhm-mitsui-term-sheet-goschen-offtake/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T13:32:50.000Z",
-   "summary": "VHM has signed a non-binding term sheet with Mitsui for the purchase of heavy mineral concentrate (HMC) from VHM’s Goschen rare earths and mineral sands project located in Victoria, Australia.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-12Oct26-shutterstock_2594719725-2.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -397,6 +388,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "VHM, Mitsui agree non-binding term sheet for Goschen HMC offtake",
+   "link": "https://www.mining-technology.com/news/vhm-mitsui-term-sheet-goschen-offtake/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T13:32:50.000Z",
+   "summary": "VHM has signed a non-binding term sheet with Mitsui for the purchase of heavy mineral concentrate (HMC) from VHM’s Goschen rare earths and mineral sands project located in Victoria, Australia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-12Oct26-shutterstock_2594719725-2.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
@@ -425,17 +425,8 @@
    "press": false
   },
   {
-   "title": "KEFI resumes work at Tulu Kapi gold project in Ethiopia",
-   "link": "https://www.mining-technology.com/news/kefi-resumes-work-tulu-kapi-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T13:26:01.000Z",
-   "summary": "KEFI Gold and Copper has announced the recommencement of development activities at the Tulu Kapi Gold Project in Ethiopia.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-12Oct26-shutterstock_2812280739.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -450,6 +441,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "KEFI resumes work at Tulu Kapi gold project in Ethiopia",
+   "link": "https://www.mining-technology.com/news/kefi-resumes-work-tulu-kapi-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T13:26:01.000Z",
+   "summary": "KEFI Gold and Copper has announced the recommencement of development activities at the Tulu Kapi Gold Project in Ethiopia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-12Oct26-shutterstock_2812280739.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
