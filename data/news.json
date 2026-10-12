@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T11:38:33.109Z",
+ "updated": "2026-10-12T12:26:13.736Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -139,7 +139,7 @@
    "source": "The Express Tribune",
    "section": "Pakistan",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 429"
   },
   {
    "source": "The Express Tribune",
@@ -179,7 +179,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 100
+   "seen": 105
   },
   {
    "source": "Pakistan Observer",
@@ -240,6 +240,19 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Metso expands distributor partnership with KrossKonsult in Norway",
    "link": "https://www.globalminingreview.com/mining/12102026/metso-expands-distributor-partnership-with-krosskonsult-in-norway/",
    "via": "",
@@ -248,9 +261,12 @@
    "summary": "Metso has expanded its long-standing partnership with KrossKonsult AB and its Norwegian subsidiary, KrossKonsult Norway AS, to further strengthen equipment availability and customer service for the aggregates market in Norway.",
    "image": null,
    "source": "Global Mining Review",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -262,9 +278,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Techking outlines work with Boonray on tyre development for autonomous mining",
    "link": "https://im-mining.com/2026/10/12/techking-outlines-work-with-boonray-on-tyre-development-for-autonomous-mining/",
    "via": "",
@@ -273,34 +286,12 @@
    "summary": "As mining trucks become more electric and autonomous, tyre development faces new challenges. Changes in torque delivery, operating cycles and vehicle utilisation mean that tyre requirements increasingly depend on how the machine, haul road...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "Sponsored video: Barton Gold targets richer starter pits at Tunkillia",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-barton-gold-targets-richer-starter-pits-at-tunkillia/1003895635/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T11:00:00.000Z",
-   "summary": "Barton Gold CEO Alexander Scanlon in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Barton Gold and produced in co-operation...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -314,20 +305,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Barton Gold targets richer starter pits at Tunkillia",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-barton-gold-targets-richer-starter-pits-at-tunkillia/1003895635/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T11:00:00.000Z",
+   "summary": "Barton Gold CEO Alexander Scanlon in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Barton Gold and produced in co-operation...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "Arkle announces first phase drilling results from Namibia uranium project",
-   "link": "https://www.miningweekly.com/article/arkle-announces-first-phase-drilling-results-from-namibia-uranium-project-2026-10-12",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T10:54:00.000Z",
-   "summary": "London-listed Arkle Resources has announced the results of the first phase of drilling at its paleochannel targets on EPL 8995, which is part of the company's Erongo uranium project, in Namibia, with assays from its primary ULG target to...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -341,20 +332,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Arkle announces first phase drilling results from Namibia uranium project",
+   "link": "https://www.miningweekly.com/article/arkle-announces-first-phase-drilling-results-from-namibia-uranium-project-2026-10-12",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T10:54:00.000Z",
+   "summary": "London-listed Arkle Resources has announced the results of the first phase of drilling at its paleochannel targets on EPL 8995, which is part of the company's Erongo uranium project, in Namibia, with assays from its primary ULG target to...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Codelco partially halts El Teniente mine after landslide",
-   "link": "https://www.mining-technology.com/news/codelco-partially-halts-el-teniente-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T09:52:52.000Z",
-   "summary": "Codelco has partially suspended operations at the El Teniente mine in Chile following a landslide that killed two workers, reported Reuters.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-12Oct26-shutterstock_2126607890.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -366,20 +357,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Codelco partially halts El Teniente mine after landslide",
+   "link": "https://www.mining-technology.com/news/codelco-partially-halts-el-teniente-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T09:52:52.000Z",
+   "summary": "Codelco has partially suspended operations at the El Teniente mine in Chile following a landslide that killed two workers, reported Reuters.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-12Oct26-shutterstock_2126607890.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "The race for AI is becoming a race for critical minerals",
-   "link": "https://www.mining-technology.com/analysis/the-race-for-ai-is-becoming-a-race-for-critical-minerals/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T09:48:57.000Z",
-   "summary": "As demand for AI infrastructure grows, access to rare earths and processing capacity is emerging as a strategic issue. Op-ed",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_4203527693.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -393,6 +384,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "The race for AI is becoming a race for critical minerals",
+   "link": "https://www.mining-technology.com/analysis/the-race-for-ai-is-becoming-a-race-for-critical-minerals/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T09:48:57.000Z",
+   "summary": "As demand for AI infrastructure grows, access to rare earths and processing capacity is emerging as a strategic issue. Op-ed",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_4203527693.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
