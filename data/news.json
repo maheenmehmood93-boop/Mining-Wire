@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T13:00:34.149Z",
+ "updated": "2026-10-12T13:13:04.161Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -139,19 +139,19 @@
    "source": "The Express Tribune",
    "section": "Pakistan",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "The Express Tribune",
    "section": "Business",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "The Express Tribune",
    "section": "Balochistan",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "Business Recorder",
@@ -240,17 +240,35 @@
  ],
  "items": [
   {
-   "title": "Aluminium rebounds from 8-month low, copper hits two-week peak",
-   "link": "https://www.brecorder.com/news/40443822/aluminium-rebounds-from-8-month-low-copper-hits-two-week-peak",
+   "title": "Falco vies for environmental OK",
+   "link": "https://www.northernminer.com/news/falco-vies-for-environmental-ok/1003895648/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T12:29:36.000Z",
-   "summary": "LONDON: Aluminium prices touched an eight-month low on Monday as a strong dollar pressured sentiment, while copper climbed to its highest in more than two weeks due to worries over mine supply disruptions. Benchmark three-month aluminium...",
-   "image": "https://i.brecorder.com/large/2026/10/12172855d5864c1.webp",
-   "source": "Business Recorder",
+   "date": "2026-10-12T13:00:02.000Z",
+   "summary": "After eight years in environmental review, Falco Resources (TSXV: FPC) expects Quebec to sign off on Horne 5 by year-end — a decision that would unlock a gold and critical...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [
     "Copper"
@@ -264,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Aluminium rebounds from 8-month low, copper hits two-week peak",
+   "link": "https://www.brecorder.com/news/40443822/aluminium-rebounds-from-8-month-low-copper-hits-two-week-peak",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T12:29:36.000Z",
+   "summary": "LONDON: Aluminium prices touched an eight-month low on Monday as a strong dollar pressured sentiment, while copper climbed to its highest in more than two weeks due to worries over mine supply disruptions. Benchmark three-month aluminium...",
+   "image": "https://i.brecorder.com/large/2026/10/12172855d5864c1.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
