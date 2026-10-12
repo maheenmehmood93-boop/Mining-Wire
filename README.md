@@ -33,6 +33,16 @@ Collects exploration announcements for **copper, gold and lithium**: drill resul
 
 Sources are company press releases from newswire feeds (marked "Press release"; in `feeds.json` they have `"kind": "press"` and `"filter": "exploration"`, which keeps them off the main mining tab) plus search feeds on the mining publications. The figures are the companies' own and are not verified. The rules are `EX_METALS`, `EX_TYPES` and the grade patterns in `scripts/fetch-news.mjs`. To follow a company directly, add its investor-relations RSS feed to `feeds.json` the same way.
 
+## Porphyry tab
+
+A searchable reference to 2,394 porphyry copper deposits and prospects in 68 countries, with a world map, filters (country, deposit type, tectonic setting, age, whether tonnage and grade are published), a sortable table, a detail view for each deposit and a CSV download of whatever is filtered. The Chagai belt has its own map view.
+
+The data is the USGS data release *A global database of porphyry copper deposits and prospects* (Magnin, Graham, Huston and Eglington, 2025, https://doi.org/10.5066/P14CCESQ), which is public domain. The original CSV is kept in `source/porphyry-usgs-2025.csv`, and `node scripts/build-porphyry.mjs` converts it into `data/porphyry.json` (the page reads that file the first time the tab is opened). Nothing is fetched automatically: the database is a one-off compilation and USGS plans no updates. If a newer release appears, replace the CSV and run the script again.
+
+The database holds location, age, classification, tectonic setting and grade and tonnage. Tonnage and grade are the compiled figures, from many dates and reporting standards, not current company reserves or resources. Contained copper is calculated on the page as ore tonnage times copper grade. Project stage, owner and status are not in the database. They can be added in `data/porphyry-projects.json`, in the form `{ "asOf": "2026-10-12", "projects": { "Reko Diq|Pakistan": { "stage": "Development", "owner": "...", "note": "...", "sources": [{ "title": "...", "url": "https://..." }] } } }` (the key is the deposit name and country exactly as the table shows them). When that file exists the page shows a Stage column, a stage filter and a "Project information" box with source links for those deposits.
+
+`data/world.json` is the simplified coastline (Natural Earth 110m, public domain).
+
 ## Prices tab
 
 `scripts/fetch-prices.mjs` runs once a day. Gold, silver, platinum and palladium spot prices and COMEX copper futures come from gold-api.com, and a daily history builds up in `data/prices.json`. Monthly averages for copper, aluminium, nickel, zinc, lead, tin, iron ore and Australian coal come from the World Bank Pink Sheet workbook, which gives the 2-year and 5-year trend charts straight away. The LME official prices are not used (redistribution needs an LME data licence; the Prices tab links to the LME page) and lithium is not shown (no free source).
