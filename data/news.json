@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T03:57:55.649Z",
+ "updated": "2026-10-12T03:58:57.189Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "fetch failed"
   },
   {
    "source": "MINING.COM",
@@ -215,9 +215,8 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": true,
-   "items": 1,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "The Frontier Post",
