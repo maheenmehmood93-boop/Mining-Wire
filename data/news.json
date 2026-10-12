@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T12:26:13.736Z",
+ "updated": "2026-10-12T13:00:34.149Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -139,19 +139,19 @@
    "source": "The Express Tribune",
    "section": "Pakistan",
    "ok": false,
-   "error": "HTTP 429"
+   "error": "HTTP 403"
   },
   {
    "source": "The Express Tribune",
    "section": "Business",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "The Express Tribune",
    "section": "Balochistan",
    "ok": false,
-   "error": "HTTP 429"
+   "error": "HTTP 403"
   },
   {
    "source": "Business Recorder",
@@ -179,7 +179,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 105
+   "seen": 108
   },
   {
    "source": "Pakistan Observer",
@@ -239,6 +239,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Aluminium rebounds from 8-month low, copper hits two-week peak",
+   "link": "https://www.brecorder.com/news/40443822/aluminium-rebounds-from-8-month-low-copper-hits-two-week-peak",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T12:29:36.000Z",
+   "summary": "LONDON: Aluminium prices touched an eight-month low on Monday as a strong dollar pressured sentiment, while copper climbed to its highest in more than two weeks due to worries over mine supply disruptions. Benchmark three-month aluminium...",
+   "image": "https://i.brecorder.com/large/2026/10/12172855d5864c1.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
