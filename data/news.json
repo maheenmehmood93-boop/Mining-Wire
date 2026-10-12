@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T19:34:39.106Z",
+ "updated": "2026-10-12T20:36:52.628Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 91
+   "seen": 92
   },
   {
    "source": "Pakistan Observer",
