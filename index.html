@@ -86,7 +86,7 @@
   .up { color: #2f7d3a; } .down { color: #b3402a; }
   @media (prefers-color-scheme: dark) { .up { color: #6cc57a; } .down { color: #e5826d; } }
   .chartbox { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 8px; }
-  .chartbox svg { width: 100%; height: auto; display: block; }
+  .chartbox > svg { width: 100%; height: auto; display: block; }
   .chartbox .axis { fill: var(--muted); font-size: 11px; }
   .chartbox .grid { stroke: var(--line); stroke-width: 1; }
   .chartbox .line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; }
@@ -96,8 +96,10 @@
   .pxsel { display: grid; gap: 4px; }
   .pxsel .lbl { font-size: .8rem; font-weight: 600; color: var(--muted); }
   .pxsel select { font: inherit; font-size: .9rem; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); width: 100%; }
+  .pxleaf { height: 540px; border-radius: 8px; isolation: isolate; background: var(--chip); }
+  @media (max-width: 560px) { .pxleaf { height: 400px; } }
   .pxmap .mapscroll { overflow-x: auto; border-radius: 8px; }
-  .pxmap svg { width: 100%; min-width: 640px; max-height: 640px; display: block; margin: 0 auto; border-radius: 8px; }
+  .pxmap .mapscroll > svg { width: 100%; min-width: 640px; max-height: 640px; display: block; margin: 0 auto; border-radius: 8px; }
   .pxmap .sea { fill: var(--surface); }
   .pxmap .land { fill: var(--chip); stroke: var(--line); vector-effect: non-scaling-stroke; stroke-width: .6px; }
   .pxmap .gl { stroke: var(--line); stroke-width: .5px; vector-effect: non-scaling-stroke; opacity: .7; pointer-events: none; }
@@ -664,11 +666,37 @@
     asia: ["Asia and Pacific", 55, -55, 125, 67],
   };
 
+  // Leaflet (map library) is fetched from unpkg with an integrity hash the first time the
+  // tab opens. If it cannot be loaded, the page falls back to the simple built-in map.
+  function loadLeaflet() {
+    return new Promise((resolve) => {
+      if (window.L && L.map) return resolve(true);
+      const css = document.createElement("link");
+      css.rel = "stylesheet"; css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+      css.integrity = "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="; css.crossOrigin = "";
+      const sc = document.createElement("script");
+      sc.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+      sc.integrity = "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="; sc.crossOrigin = "";
+      sc.onload = () => resolve(!!(window.L && L.map));
+      sc.onerror = () => resolve(false);
+      document.head.append(css, sc);
+      setTimeout(() => resolve(!!(window.L && L.map)), 10000);
+    });
+  }
+
   async function pxLoad() {
     if (PX.status !== "idle") return;
     PX.status = "loading";
+    const leafP = loadLeaflet();
     const get = async (u) => { try { const r = await fetch(u, { cache: "no-cache" }); return r.ok ? await r.json() : null; } catch (e) { return null; } };
     const [d, w, p] = await Promise.all([get("data/porphyry.json"), get("data/world.json"), get("data/porphyry-projects.json")]);
+    // Wait briefly for the map library so the page does not show the simple map first; if it is
+    // slow or blocked, show the simple map now and switch when the library arrives.
+    const grace = /jsdom/i.test(navigator.userAgent) ? 0 : 1500;
+    PX.leaflet = await Promise.race([leafP, new Promise((r) => setTimeout(() => r(false), grace))]);
+    leafP.then((ok) => {
+      if (ok && !PX.leaflet) { PX.leaflet = true; if (PX.status === "ready") { PX.app = false; if (state.tab === "porphyry") render(); } }
+    });
     if (!d || !Array.isArray(d.rows)) { PX.status = "error"; }
     else {
       PX.meta = d.meta;
@@ -714,6 +742,71 @@
     const cell = (v) => { const t = v == null ? "" : String(v); return /[",\n]/.test(t) ? '"' + t.replace(/"/g, '""') + '"' : t; };
     return [cols.map((c) => cell(c[1])).join(","), ...rows.map((r) => cols.map((c) => cell(r[c[0]])).join(","))].join("\n");
   };
+
+  const earthUrl = (r) => `https://earth.google.com/web/@${r.lat},${r.lon},0a,6000d,35y,0h,0t,0r`;
+  const gmapsUrl = (r) => `https://www.google.com/maps/@?api=1&map_action=map&center=${r.lat},${r.lon}&zoom=14&basemap=satellite`;
+
+  const STAGE_VAR = { "operating": "--s-op", "under construction": "--s-uc", "development": "--s-dev", "permitting": "--s-perm", "exploration": "--s-exp", "care and maintenance": "--s-care" };
+  const cssVar = (n) => getComputedStyle(document.documentElement).getPropertyValue(n).trim() || "#888";
+
+  // KML file for Google Earth: one placemark per deposit in the current selection.
+  function pxKml(rows) {
+    const x = (t) => String(t ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    const kmlColour = (hex) => { const h = hex.replace("#", ""); return "ff" + h.slice(4, 6) + h.slice(2, 4) + h.slice(0, 2); };
+    const fallback = { "--s-op": "#1b8a6b", "--s-uc": "#d2691e", "--s-dev": "#d4a017", "--s-perm": "#3f7fbf", "--s-exp": "#8e6bbf", "--s-care": "#8c8274" };
+    const styles = Object.entries(STAGE_VAR).map(([st, v]) => `<Style id="s-${st.replace(/ /g, "-")}"><IconStyle><color>${kmlColour(fallback[v])}</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><scale>0.8</scale></LabelStyle></Style>`).join("")
+      + `<Style id="s-other"><IconStyle><color>ff2a62b4</color><scale>0.7</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle><LabelStyle><scale>0</scale></LabelStyle></Style>`;
+    const pm = rows.map((r) => {
+      const p = r.project;
+      const lines = [r.country, r.type, p && "Stage: " + p.stage, p && p.owner && "Owner: " + p.owner, r.tonnage != null && "Ore: " + pxTonnage(r.tonnage) + " Mt", r.cu != null && "Cu: " + pxNum(r.cu, 3) + " %", r.cuContained != null && "Contained copper (calculated): " + pxCu(r.cuContained) + " Mt", p && p.note, "Source: USGS porphyry copper database (Magnin and others, 2025)" ].filter(Boolean);
+      return `<Placemark><name>${x(r.name)}</name><styleUrl>#${p ? "s-" + String(p.stage).toLowerCase().replace(/[^a-z0-9]+/g, "-") : "s-other"}</styleUrl><description>${x(lines.join("\n"))}</description><Point><coordinates>${r.lon},${r.lat},0</coordinates></Point></Placemark>`;
+    }).join("");
+    return `<?xml version="1.0" encoding="UTF-8"?><kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>Porphyry copper deposits (Mining Wire)</name>${styles}${pm}</Document></kml>`;
+  }
+
+  // ---- Interactive map (Leaflet). Built once; markers are replaced on every update. ----
+  function pxLeafInit() {
+    const box = $("pxMapBox");
+    box.classList.remove("mapscroll");
+    box.innerHTML = `<div id="pxLeaf" class="pxleaf" role="application" aria-label="Interactive map of porphyry deposits. Drag to move, scroll or use the plus and minus buttons to zoom."></div>`;
+    const map = L.map("pxLeaf", { minZoom: 2, worldCopyJump: true, preferCanvas: true, zoomSnap: 0.5 });
+    const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" });
+    const sat = L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", { maxZoom: 18, attribution: "Imagery &copy; Esri, Maxar, Earthstar Geographics" });
+    osm.addTo(map);
+    L.control.layers({ "Map": osm, "Satellite": sat }, null, { position: "topright", collapsed: false }).addTo(map);
+    PX.map = map; PX.layer = L.layerGroup().addTo(map); PX.canvas = L.canvas({ padding: 0.5 }); PX.viewKey = null;
+    map.setView([20, 40], 2);
+  }
+
+  function pxLeafUpdate(rows) {
+    const s = state.px, map = PX.map;
+    map.invalidateSize();
+    PX.layer.clearLayers();
+    const ink = cssVar("--ink"), surface = cssVar("--surface"), copper = cssVar("--copper"), muted = cssVar("--muted");
+    const ordered = [...rows].sort((a, b) => (a.project ? 1 : 0) - (b.project ? 1 : 0) || (a.id === s.sel ? 1 : 0) - (b.id === s.sel ? 1 : 0));
+    ordered.forEach((r) => {
+      const known = r.cuContained != null, p = r.project;
+      const radius = Math.max(known ? 3 + 1.1 * Math.sqrt(r.cuContained) : 3, p ? 7 : 0);
+      const fill = p ? cssVar(STAGE_VAR[String(p.stage).toLowerCase()] || "--muted") : known ? copper : muted;
+      const sel = r.id === s.sel;
+      const m = L.circleMarker([r.lat, r.lon], { renderer: PX.canvas, radius: Math.min(radius, 22), fillColor: fill, fillOpacity: p ? 0.95 : known ? 0.6 : 0.5, color: sel || p ? ink : surface, weight: sel ? 3 : p ? 1.5 : 0.5 });
+      m.bindTooltip(esc(r.name) + ", " + esc(r.country) + (p ? " (" + esc(p.stage) + ")" : known ? ": about " + pxCu(r.cuContained) + " Mt contained copper" : ""), { direction: "top" });
+      m.on("click", () => { s.sel = r.id; pxUpdate(true); });
+      m.addTo(PX.layer);
+    });
+    // Move the view only when the chosen area or the set of results changes, so panning is not undone.
+    const key = s.view === "fit" ? "fit:" + rows.length + ":" + s.country + ":" + s.kind + ":" + s.q : s.view;
+    if (key !== PX.viewKey) {
+      PX.viewKey = key;
+      if (s.view === "fit" && rows.length) {
+        const b = L.latLngBounds(rows.map((r) => [r.lat, r.lon]));
+        map.fitBounds(b, { padding: [30, 30], maxZoom: 9, animate: false });
+      } else {
+        const v = PX_VIEWS[s.view] || PX_VIEWS.world;
+        map.fitBounds([[-(v[2] + v[4]), v[1]], [-v[2], v[1] + v[3]]], { padding: [6, 6], animate: false });
+      }
+    }
+  }
 
   function pxMap(rows) {
     const s = state.px;
@@ -765,7 +858,7 @@
     return `<article class="pxd" aria-live="polite">
       <div class="pxd-h"><h2>${esc(r.name)}</h2><span class="tag">${esc(r.country)}</span>${p ? `<span class="tag inc">${esc(p.stage)}</span>` : ""}<button type="button" class="link" id="pxClose">Close</button></div>
       <dl class="pxdl">
-        ${row("Location", `${esc(r.lat.toFixed(4))}, ${esc(r.lon.toFixed(4))} <a href="${esc(osm)}" target="_blank" rel="noopener noreferrer">map</a>${r.locRef ? `<div class="small">Source: ${esc(r.locRef)}</div>` : ""}`)}
+        ${row("Location", `${esc(r.lat.toFixed(4))}, ${esc(r.lon.toFixed(4))}<div class="small"><a href="${esc(earthUrl(r))}" target="_blank" rel="noopener noreferrer">Open in Google Earth</a> · <a href="${esc(gmapsUrl(r))}" target="_blank" rel="noopener noreferrer">Google Maps satellite</a> · <a href="${esc(osm)}" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></div>${r.locRef ? `<div class="small">Source: ${esc(r.locRef)}</div>` : ""}`)}
         ${row("Deposit type", r.type ? esc(r.type) + (r.subtype ? ` <span class="small">(${esc(r.subtype.toLowerCase())} intrusions)</span>` : "") : null)}
         ${row("Tectonic setting", r.tectonic ? esc(r.tectonic) + (r.tectRef ? `<div class="small">Source: ${esc(r.tectRef)}</div>` : "") : null)}
         ${row("Age of mineralisation", age ? age + `<div class="small">${[r.ageMethod && "Method: " + r.ageMethod, r.ageMineral && "Mineral: " + r.ageMineral, r.ageBasis && "Basis: " + r.ageBasis, r.ageText && "Published: " + r.ageText].filter(Boolean).map(esc).join(" · ")}${r.ageRef ? `<br>Source: ${esc(r.ageRef)}` : ""}</div>` : r.strat ? esc(r.strat) + ` <span class="small">(stratigraphic age only)</span>` : null)}
@@ -811,12 +904,12 @@
             ${stages.length ? `<label class="pxsel"><span class="lbl">Project stage</span><select data-pxf="stage"><option value="">All</option>${stages.map((x) => `<option>${esc(x)}</option>`).join("")}</select></label>` : ""}</div>
           <label class="check"><input type="checkbox" id="pxGt"> Only deposits with published tonnage and grade</label>
         </div>
-        <div class="countbar"><p class="count" id="pxCount" aria-live="polite"></p><button class="link" type="button" id="pxReset" hidden>Reset filters</button><button class="link" type="button" id="pxCsv">Download these as CSV</button></div>
+        <div class="countbar"><p class="count" id="pxCount" aria-live="polite"></p><button class="link" type="button" id="pxReset" hidden>Reset filters</button><button class="link" type="button" id="pxCsv">Download these as CSV</button><button class="link" type="button" id="pxKml">Download for Google Earth (KML)</button></div>
         <div class="chartbox pxmap">
           <div class="seg" id="pxViews" role="group" aria-label="Map area"></div>
           <div class="legend" id="pxLegend"></div>
           <div class="mapscroll" id="pxMapBox"></div>
-          <p class="small">Each dot is a deposit or prospect. Larger dots have published tonnage and grade, sized by contained copper; small grey dots have none. Outlined dots are major projects, coloured by stage. Select a dot for details. Coastlines are simplified.</p>
+          <p class="small">Each dot is a deposit or prospect. Larger dots have published tonnage and grade, sized by contained copper; small grey dots have none. Outlined dots are major projects, coloured by stage. Drag to move and scroll or use the buttons to zoom; choose Satellite at the top right for imagery. Select a dot for details and a link to Google Earth.</p>
         </div>
         <div id="pxDetail"></div>
         <div class="tablewrap"><table class="prices pxtable"><thead id="pxHead"></thead><tbody id="pxBody"></tbody></table></div>
@@ -841,13 +934,23 @@
         a.click();
         setTimeout(() => URL.revokeObjectURL(a.href), 2000);
       };
+      $("pxKml").onclick = () => {
+        const rows = pxSorted(pxFiltered());
+        if (!window.URL || !URL.createObjectURL) return;
+        const a = document.createElement("a");
+        a.href = URL.createObjectURL(new Blob([pxKml(rows)], { type: "application/vnd.google-earth.kml+xml" }));
+        a.download = "porphyry-deposits.kml";
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+      };
+      if (PX.leaflet) pxLeafInit();
       v.addEventListener("click", (e) => {
         const dot = e.target.closest && e.target.closest("[data-px]");
         if (dot) { s.sel = Number(dot.dataset.px); pxUpdate(true); return; }
         const sort = e.target.closest && e.target.closest("[data-pxs]");
         if (sort) { const k = sort.dataset.pxs; if (s.sort === k) s.dir = -s.dir; else { s.sort = k; s.dir = ["name", "country", "tectonic", "stage"].includes(k) ? 1 : -1; } pxUpdate(); return; }
         const view = e.target.closest && e.target.closest("[data-pxv]");
-        if (view) { s.view = view.dataset.pxv; pxUpdate(); return; }
+        if (view) { s.view = view.dataset.pxv; PX.viewKey = null; pxUpdate(); return; }
         const row = e.target.closest && e.target.closest("[data-pxr]");
         if (row) { s.sel = Number(row.dataset.pxr); pxUpdate(true); return; }
         if (e.target.id === "pxClose") { s.sel = null; pxUpdate(); }
@@ -870,7 +973,8 @@
     $("pxBadge").textContent = nPx ? String(nPx) : "";
     const viewBtns = [...Object.entries(PX_VIEWS).map(([k, a]) => [k, a[0]]), ["fit", "Fit to results"]];
     $("pxViews").innerHTML = viewBtns.map(([k, l]) => `<button type="button" class="chip" data-pxv="${k}" aria-pressed="${s.view === k}"><span class="t">${esc(l)}</span></button>`).join("");
-    $("pxMapBox").innerHTML = rows.length ? pxMap(rows) : `<p class="small">No deposits match these filters.</p>`;
+    if (PX.leaflet && PX.map) pxLeafUpdate(rows);
+    else $("pxMapBox").innerHTML = rows.length ? pxMap(rows) : `<p class="small">No deposits match these filters.</p>`;
     const ORDER = ["operating", "under construction", "development", "permitting", "exploration", "care and maintenance"];
     const stagesIn = [...new Set(PX.rows.map((r) => r.project?.stage).filter(Boolean))].sort((a, b) => (ORDER.indexOf(a.toLowerCase()) + 1 || 99) - (ORDER.indexOf(b.toLowerCase()) + 1 || 99));
     const stageColour = { "operating": "--s-op", "under construction": "--s-uc", "development": "--s-dev", "permitting": "--s-perm", "exploration": "--s-exp", "care and maintenance": "--s-care" };
