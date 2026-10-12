@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T13:48:13.210Z",
+ "updated": "2026-10-12T14:43:15.347Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 113
+   "seen": 116
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,63 @@
  ],
  "items": [
   {
-   "title": "LGMG holds Global Mining Customer Service Festival in Ordos",
-   "link": "https://im-mining.com/2026/10/12/lgmg-holds-global-mining-customer-service-festival-in-ordos/",
+   "title": "Eldorado Gold’s Skouries Mine designated as a strategic project under the EU Critical Raw Materials Act",
+   "link": "https://www.globalminingreview.com/mining/12102026/eldorado-golds-skouries-mine-designated-as-a-strategic-project-under-the-eu-critical-raw-materials-act/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T13:26:26.000Z",
-   "summary": "From October 9th to 11th, Lingong Heavy Machinery (LGMG)'s first Global Mining Customer Service Festival was held in Ordos, Inner Mongolia. A total of more than 500 people, including government and association leaders, industry experts,...",
+   "date": "2026-10-12T15:00:00.000Z",
+   "summary": "Eldorado Gold Corporation has announced that the European Commission has designated its Skouries copper-gold mine in northern Greece as a Strategic Project under the European Union’s Critical Raw Materials Act.",
    "image": null,
-   "source": "International Mining",
+   "source": "Global Mining Review",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Gold remains under pressure as Middle East tensions persist",
+   "link": "https://www.miningweekly.com/article/gold-remains-under-pressure-as-middle-east-tensions-persist-2026-10-12",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T14:12:00.000Z",
+   "summary": "Precious metals and technology company Heraeus Precious Metals says gold has remained under pressure as continued tensions in the Middle East push oil prices higher. In its latest ‘Precious Appraisal’, Heraeus notes that the gold price has...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +311,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "LGMG holds Global Mining Customer Service Festival in Ordos",
+   "link": "https://im-mining.com/2026/10/12/lgmg-holds-global-mining-customer-service-festival-in-ordos/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T13:26:26.000Z",
+   "summary": "From October 9th to 11th, Lingong Heavy Machinery (LGMG)'s first Global Mining Customer Service Festival was held in Ordos, Inner Mongolia. A total of more than 500 people, including government and association leaders, industry experts,...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -344,6 +399,31 @@
    "image": null,
    "source": "Global Mining Review",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Governments turn mining data into billions in revenue",
+   "link": "https://www.mining.com/governments-turn-mining-data-into-billions-in-revenue/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T11:30:00.000Z",
+   "summary": "Transparency rules are reshaping mining deals, exposing illicit flows and giving governments more leverage over resource wealth.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
