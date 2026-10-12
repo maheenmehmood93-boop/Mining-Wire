@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T02:36:50.087Z",
+ "updated": "2026-10-12T03:39:50.439Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -188,7 +188,7 @@
    "source": "Pakistan Observer",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Turning salt into gold",
-   "link": "https://pakobserver.net/turning-salt-into-gold/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T02:00:52.000Z",
-   "summary": "&#160; Pakistan’s pink salt is among its most distinctive mineral resources, yet much of its economic potential remains untapped. Extracted…",
-   "image": null,
-   "source": "Pakistan Observer",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [
     "Gold"
@@ -267,6 +258,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Turning salt into gold",
+   "link": "https://pakobserver.net/turning-salt-into-gold/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T02:00:52.000Z",
+   "summary": "&#160; Pakistan’s pink salt is among its most distinctive mineral resources, yet much of its economic potential remains untapped. Extracted…",
+   "image": null,
+   "source": "Pakistan Observer",
+   "region": "Pakistan",
    "press": false
   },
   {
