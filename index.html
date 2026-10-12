@@ -4,31 +4,66 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mining Wire</title>
-<meta name="description" content="Headlines from established mining publications and Pakistani newspapers, in one place.">
+<meta name="description" content="Mining news, prices and project data for Pakistan and the world, in one place.">
 <style>
   :root {
-    --bg: #f6f4ef; --surface: #ffffff; --ink: #1d1b16; --muted: #6b665b;
-    --line: #e4dfd3; --accent: #8a5a12; --accent-ink: #ffffff; --chip: #efe9da;
+    --bg: #eff2f0; --surface: #ffffff; --ink: #141c1e; --muted: #576467;
+    --line: #d9dfdd; --accent: #1b6b58; --accent-ink: #ffffff; --chip: #e4eae8;
+    --copper: #b4622a; --mh: #18211f; --mh-ink: #e8efec; --mh-muted: #9fb2ab;
+    --s-op: #1b8a6b; --s-uc: #d2691e; --s-dev: #d4a017; --s-perm: #3f7fbf; --s-exp: #8e6bbf; --s-care: #8c8274;
+    --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #14130f; --surface: #1d1b16; --ink: #ede9dd; --muted: #a29c8c;
-      --line: #2f2c24; --accent: #d9a441; --accent-ink: #14130f; --chip: #2a2720;
+      --bg: #0e1413; --surface: #172120; --ink: #e4ece9; --muted: #98a8a3;
+      --line: #263230; --accent: #4fc3a1; --accent-ink: #0c1513; --chip: #1f2b29;
+      --copper: #e0884a; --mh: #0a0f0e; --mh-ink: #e8efec; --mh-muted: #8fa39c;
+      --s-op: #3ecf9f; --s-uc: #f08a3c; --s-dev: #e8bd3a; --s-perm: #6aa6e6; --s-exp: #b394e6; --s-care: #aaa095;
     }
   }
   * { box-sizing: border-box; }
   body { margin: 0; background: var(--bg); color: var(--ink);
          font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Naskh Arabic", sans-serif; }
   a { color: inherit; }
-  header { padding: 28px 16px 8px; max-width: 980px; margin: 0 auto; }
-  h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.01em; }
-  .sub { color: var(--muted); margin: 4px 0 0; font-size: .9rem; }
+  .mh { position: relative; overflow: hidden; background: var(--mh); color: var(--mh-ink); }
+  .mh-map { position: absolute; inset: 0 0 0 auto; width: 78%; height: 100%; pointer-events: none;
+            -webkit-mask-image: linear-gradient(90deg, transparent, #000 22%); mask-image: linear-gradient(90deg, transparent, #000 22%); }
+  .mh-map .land { fill: rgba(255,255,255,.1); stroke: rgba(255,255,255,.24); stroke-width: .5px; vector-effect: non-scaling-stroke; }
+  .mh-map .pin { fill: #e0884a; stroke: #18211f; stroke-width: 1.2px; vector-effect: non-scaling-stroke; }
+  .mh-map .ring { fill: none; stroke: #e0884a; stroke-width: 1px; vector-effect: non-scaling-stroke; opacity: .7; }
+  .mh-map .pl { fill: #f3c9a6; font-size: 3.2px; font-family: system-ui, sans-serif; }
+  .mh-in { position: relative; max-width: 980px; margin: 0 auto; padding: 30px 16px 22px; display: grid; gap: 18px; }
+  h1 { margin: 0; font: 700 2.1rem/1.1 var(--serif); letter-spacing: -0.01em; }
+  .tagline { margin: 6px 0 0; color: var(--mh-muted); font-size: 1rem; max-width: 46ch; }
+  .sub { color: var(--mh-muted); margin: 0; font-size: .82rem; }
+  .stats { display: grid; grid-template-columns: repeat(4, minmax(0, auto)); gap: 0; margin: 0; justify-content: start; }
+  .stat { padding: 0 24px 0 0; margin-right: 24px; border-right: 1px solid rgba(255,255,255,.14); min-width: 0; }
+  .stat:last-child { border-right: 0; margin-right: 0; padding-right: 0; }
+  .stat dt { font-size: .78rem; color: var(--mh-muted); margin: 0 0 2px; }
+  .stat dd { margin: 0; font-size: 1.25rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .stat dd small { font-size: .78rem; font-weight: 500; color: var(--mh-muted); margin-left: 4px; }
+  .mh .up { color: #6cc57a; } .mh .down { color: #e5826d; }
+  @media (max-width: 680px) {
+    .stats { grid-template-columns: 1fr 1fr; gap: 14px 0; }
+    .stat { border-right: 0; margin-right: 0; padding-right: 12px; }
+    .mh-map { width: 100%; opacity: .4; }
+    .mh-map .pl { display: none; }
+    h1 { font-size: 1.7rem; }
+  }
 
-  .tabs { max-width: 980px; margin: 0 auto; padding: 8px 16px 0; display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; }
-  .tab { white-space: nowrap; font: inherit; font-size: .95rem; padding: 9px 16px; background: none; border: 0; border-bottom: 3px solid transparent;
-         color: var(--muted); cursor: pointer; margin-bottom: -1px; }
-  .tab[aria-selected=true] { color: var(--ink); border-bottom-color: var(--accent); font-weight: 600; }
+  .nav { background: var(--surface); border-bottom: 1px solid var(--line); }
+  .nav-in { max-width: 980px; margin: 0 auto; padding: 0 16px; display: flex; gap: 20px; align-items: stretch; flex-wrap: wrap; }
+  .sects { display: flex; gap: 4px; padding: 10px 0; }
+  .sect { font: inherit; font-size: .92rem; font-weight: 600; padding: 6px 14px; border-radius: 999px; border: 0; background: none; color: var(--muted); cursor: pointer; }
+  .sect[aria-pressed=true] { background: var(--accent); color: var(--accent-ink); }
+  .sect:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .tabs { display: flex; gap: 2px; overflow-x: auto; flex: 1; min-width: 0; }
+  .tab { white-space: nowrap; font: inherit; font-size: .95rem; padding: 12px 14px; background: none; border: 0; border-bottom: 3px solid transparent;
+         color: var(--muted); cursor: pointer; }
+  .tab[hidden] { display: none; }
+  .tab[aria-selected=true] { color: var(--ink); border-bottom-color: var(--copper); font-weight: 600; }
   .tab:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+  @media (max-width: 680px) { .nav-in { gap: 0; } .tabs { flex-basis: 100%; border-top: 1px solid var(--line); margin: 0 -16px; padding: 0 16px; } }
   .tag.inc { background: var(--accent); color: var(--accent-ink); }
   .group-h { margin: 22px 0 4px; font-size: .95rem; display: flex; gap: 8px; align-items: baseline; }
   .group-h:first-child { margin-top: 0; }
@@ -43,7 +78,7 @@
   .tag.new { background: var(--accent); color: var(--accent-ink); }
   table.prices { width: 100%; border-collapse: collapse; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; font-size: .92rem; }
   table.prices th, table.prices td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); }
-  table.prices th { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 600; }
+  table.prices th { font-size: .8rem; color: var(--muted); font-weight: 600; }
   table.prices td.num, table.prices th.num { text-align: right; font-variant-numeric: tabular-nums; }
   table.prices tr:last-child td { border-bottom: 0; }
   table.prices button.metal { font: inherit; background: none; border: 0; padding: 0; color: var(--ink); cursor: pointer; text-align: left; text-decoration: underline dotted; text-underline-offset: 3px; }
@@ -59,15 +94,23 @@
   .pxctl { display: grid; gap: 10px; }
   .pxsels { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; }
   .pxsel { display: grid; gap: 4px; }
-  .pxsel .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .pxsel .lbl { font-size: .8rem; font-weight: 600; color: var(--muted); }
   .pxsel select { font: inherit; font-size: .9rem; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--ink); width: 100%; }
-  .pxmap svg { width: 100%; max-height: 520px; display: block; margin: 0 auto; border-radius: 8px; }
+  .pxmap .mapscroll { overflow-x: auto; border-radius: 8px; }
+  .pxmap svg { width: 100%; min-width: 640px; max-height: 640px; display: block; margin: 0 auto; border-radius: 8px; }
   .pxmap .sea { fill: var(--surface); }
   .pxmap .land { fill: var(--chip); stroke: var(--line); vector-effect: non-scaling-stroke; stroke-width: .6px; }
   .pxmap .gl { stroke: var(--line); stroke-width: .5px; vector-effect: non-scaling-stroke; opacity: .7; pointer-events: none; }
   .pxmap .gt { fill: var(--muted); pointer-events: none; }
   .pxmap .dl { fill: var(--ink); paint-order: stroke; stroke: var(--surface); stroke-width: 3px; vector-effect: non-scaling-stroke; pointer-events: none; }
-  .pxmap .pd { fill: var(--accent); fill-opacity: .6; stroke: var(--surface); stroke-width: .5px; vector-effect: non-scaling-stroke; cursor: pointer; }
+  .pxmap .pd { fill: var(--copper); fill-opacity: .55; stroke: var(--surface); stroke-width: .5px; vector-effect: non-scaling-stroke; cursor: pointer; }
+  .pxmap .pr { fill-opacity: .95; stroke: var(--ink); stroke-width: 1.2px; }
+  .pxmap .st-operating { fill: var(--s-op); } .pxmap .st-under-construction { fill: var(--s-uc); } .pxmap .st-development { fill: var(--s-dev); }
+  .pxmap .st-permitting { fill: var(--s-perm); } .pxmap .st-exploration { fill: var(--s-exp); } .pxmap .st-care-and-maintenance { fill: var(--s-care); }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .82rem; color: var(--muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend i { width: .8em; height: .8em; border-radius: 50%; background: var(--c); border: 1.5px solid var(--ink); display: inline-block; }
+  .legend i.plain { border-color: transparent; opacity: .6; }
   .pxmap .pu { fill: var(--muted); fill-opacity: .55; cursor: pointer; }
   .pxmap .sel { fill-opacity: 1; stroke: var(--ink); stroke-width: 2px; vector-effect: non-scaling-stroke; }
   .pxd { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; display: grid; gap: 10px; }
@@ -88,8 +131,17 @@
             border-radius: 8px; background: var(--surface); font-size: .85rem; color: var(--muted); }
   .notice[hidden], .field[hidden] { display: none; }
   .controls { max-width: 980px; margin: 0 auto; padding: 16px; display: grid; gap: 14px; }
+  .searchrow { display: flex; gap: 10px; align-items: stretch; }
+  .searchrow input[type=search] { flex: 1; min-width: 0; max-width: none; }
+  .filterbtn { font: inherit; font-size: .9rem; font-weight: 600; padding: 0 14px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; white-space: nowrap; display: inline-flex; gap: 6px; align-items: center; }
+  .filterbtn[aria-expanded=true] { border-color: var(--accent); }
+  .filterbtn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .filterbtn .badge { background: var(--copper); color: #fff; border-radius: 999px; font-size: .72rem; min-width: 1.35em; height: 1.35em; display: inline-grid; place-items: center; padding: 0 5px; }
+  .filterbtn .badge:empty { display: none; }
+  .panel { display: grid; gap: 14px; padding: 14px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  .panel[hidden] { display: none; }
   .field { display: grid; gap: 6px; }
-  .field > .lbl { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
+  .field > .lbl { font-size: .8rem; font-weight: 600; color: var(--muted); }
   .seg { display: flex; gap: 6px; flex-wrap: wrap; }
   input[type=search] {
     font: inherit; padding: 9px 12px; border: 1px solid var(--line); border-radius: 8px; width: 100%;
@@ -109,7 +161,7 @@
   .papers-body { padding: 4px 14px 14px; display: grid; gap: 12px; border-top: 1px solid var(--line); }
   .papers-actions { display: flex; gap: 6px; padding-top: 10px; }
   fieldset { border: 0; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 4px 16px; }
-  legend { font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); padding: 0 0 4px; }
+  legend { font-size: .8rem; font-weight: 600; color: var(--muted); padding: 0 0 4px; }
   label.check { display: flex; gap: 8px; align-items: center; font-size: .9rem; cursor: pointer; padding: 2px 0; }
   label.check .n { margin-left: auto; color: var(--muted); font-size: .8rem; }
   label.check.zero { color: var(--muted); }
@@ -119,18 +171,29 @@
   .count { color: var(--muted); font-size: .85rem; margin: 0; }
   .link { font: inherit; font-size: .85rem; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; text-decoration: underline; }
   .grid { display: grid; gap: 12px; }
-  article { background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
-            padding: 14px 16px; display: grid; grid-template-columns: 1fr; gap: 6px; }
+  article { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--line); border-radius: 10px;
+            padding: 14px 16px 14px 18px; display: grid; grid-template-columns: 1fr; gap: 6px; }
+  article.k-chagai { border-left-color: #b3402a; }
+  article.k-safety { border-left-color: #d49a1c; }
+  article.k-explore { border-left-color: var(--accent); }
+  article.k-mining { border-left-color: var(--accent); }
+  article.lead { padding: 18px 20px 18px 22px; gap: 8px; }
+  article.lead h2 { font-size: 1.55rem; line-height: 1.2; }
+  article.lead.has-img { grid-template-columns: 1fr 200px; }
+  article.lead img { width: 200px; height: 140px; }
   article.has-img { grid-template-columns: 1fr 120px; column-gap: 16px; }
   article img { width: 120px; height: 84px; object-fit: cover; border-radius: 8px; grid-row: 1 / span 5; grid-column: 2; align-self: start; background: var(--chip); }
   .meta { font-size: .8rem; color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
   .meta b { color: var(--accent); font-weight: 600; }
-  h2 { font-size: 1.05rem; margin: 0; line-height: 1.3; }
+  h2 { font: 650 1.2rem/1.28 var(--serif); margin: 0; }
   h2 a { text-decoration: none; }
   h2 a:hover { text-decoration: underline; }
   p.excerpt { margin: 0; color: var(--muted); font-size: .92rem; }
   .tags { display: flex; gap: 6px; flex-wrap: wrap; }
-  .tag { font-size: .72rem; padding: 2px 8px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+  .tag { font-size: .76rem; padding: 2px 9px; border-radius: 999px; background: var(--chip); color: var(--muted); }
+  .tag[data-c]::before { content: ""; display: inline-block; width: .55em; height: .55em; border-radius: 50%; margin-right: 5px; background: var(--c, var(--muted)); }
+  .tag[data-c=copper] { --c: #b4622a; } .tag[data-c=gold] { --c: #c9a227; } .tag[data-c=silver] { --c: #9aa5ad; } .tag[data-c=lithium] { --c: #5b9bd1; }
+  .tag[data-c=coal] { --c: #4a4f52; } .tag[data-c=iron] { --c: #a0432d; } .tag[data-c=nickel] { --c: #6f9b8e; } .tag[data-c=zinc] { --c: #8d9fb3; } .tag[data-c=uranium] { --c: #7cb342; }
   .tag.prov { background: none; border: 1px solid var(--accent); color: var(--accent); }
   .srcline { display: flex; gap: 6px; align-items: baseline; font-size: .8rem; color: var(--muted); min-width: 0; }
   .srcline .srclink { color: var(--accent); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
@@ -140,27 +203,44 @@
   footer { max-width: 980px; margin: 0 auto; padding: 0 16px 40px; color: var(--muted); font-size: .8rem; }
   footer details { margin-top: 8px; }
   @media (max-width: 560px) {
-    article.has-img { grid-template-columns: 1fr; }
-    article img { grid-row: auto; grid-column: auto; width: 100%; height: 160px; }
+    article.has-img, article.lead.has-img { grid-template-columns: 1fr; }
+    article img, article.lead img { grid-row: auto; grid-column: auto; width: 100%; height: 160px; }
+    article.lead h2 { font-size: 1.3rem; }
   }
 </style>
 </head>
 <body>
-<header>
-  <h1>Mining Wire</h1>
-  <p class="sub" id="updated">Loading…</p>
+<header class="mh">
+  <svg class="mh-map" id="mhMap" viewBox="10 -52 160 70" preserveAspectRatio="xMidYMid slice" aria-hidden="true"></svg>
+  <div class="mh-in">
+    <div>
+      <h1>Mining Wire</h1>
+      <p class="tagline">Mining news, prices and project data for Pakistan and the world.</p>
+    </div>
+    <dl class="stats" id="stats" hidden></dl>
+    <p class="sub" id="updated">Loading…</p>
+  </div>
 </header>
 
-<nav class="tabs" role="tablist" aria-label="Sections">
-  <button class="tab" type="button" role="tab" id="tab-mining" aria-selected="true">Mining news<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-chagai" aria-selected="false">Chagai security<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-safety" aria-selected="false">Safety incidents<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-explore" aria-selected="false">Exploration<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-porphyry" aria-selected="false">Porphyry<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-prices" aria-selected="false">Prices<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-stocks" aria-selected="false">Stock watch<span class="n"></span></button>
-  <button class="tab" type="button" role="tab" id="tab-companies" aria-selected="false">Companies<span class="n"></span></button>
-</nav>
+<div class="nav">
+  <div class="nav-in">
+    <div class="sects" role="group" aria-label="Sections">
+      <button class="sect" type="button" id="sect-news" aria-pressed="true">News</button>
+      <button class="sect" type="button" id="sect-projects" aria-pressed="false">Projects</button>
+      <button class="sect" type="button" id="sect-markets" aria-pressed="false">Markets</button>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Pages">
+      <button class="tab" type="button" role="tab" id="tab-mining" aria-selected="true">Mining news<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-chagai" aria-selected="false">Chagai security<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-safety" aria-selected="false">Safety incidents<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-explore" aria-selected="false">Exploration<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-porphyry" aria-selected="false" hidden>Porphyry deposits<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-companies" aria-selected="false" hidden>Companies<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-prices" aria-selected="false" hidden>Commodity prices<span class="n"></span></button>
+      <button class="tab" type="button" role="tab" id="tab-stocks" aria-selected="false" hidden>Stock watch<span class="n"></span></button>
+    </nav>
+  </div>
+</div>
 <div id="newsView">
 <div class="notice" id="chagaiNote" hidden>
   Headlines from the news feeds that name Chagai district (Dalbandin, Nokkundi, Taftan, Saindak, Reko Diq and nearby) together with a security-related word. Selection is automatic, so check the original report. This is not an official security advisory; use your company security team's channels for operational decisions.
@@ -174,11 +254,15 @@
   Drill results, discoveries, resource estimates and drilling updates for copper, gold and lithium, taken from company press releases (tagged "Press release") and mining news. The figures are the companies' own and are not independently verified. Headline intercepts are chosen by the company and say little about the average grade of a project. The country, metal and type are worked out from the headline and excerpt by keyword. This is not investment advice.
 </div>
 
-<section class="controls" aria-label="Filters">
-  <input type="search" id="q" placeholder="Search headlines, e.g. lithium, Reko Diq, Chagai, marble" aria-label="Search">
+<section class="controls" aria-label="Search and filters">
+  <div class="searchrow">
+    <input type="search" id="q" placeholder="Search headlines, e.g. lithium, Reko Diq, Chagai, marble" aria-label="Search">
+    <button class="filterbtn" type="button" id="filterToggle" aria-expanded="false" aria-controls="filterPanel">Filters<span class="badge" id="filterBadge"></span></button>
+  </div>
+  <div class="panel" id="filterPanel" hidden>
 
   <div class="filters-row">
-    <div class="field"><span class="lbl">Coverage</span><div class="seg" id="seg-scope" role="group" aria-label="Coverage"></div></div>
+    <div class="field" id="f-scope"><span class="lbl">Coverage</span><div class="seg" id="seg-scope" role="group" aria-label="Coverage"></div></div>
     <div class="field"><span class="lbl">Period</span><div class="seg" id="seg-period" role="group" aria-label="Period"></div></div>
     <div class="field" id="f-province"><span class="lbl">Province</span><div class="seg" id="seg-province" role="group" aria-label="Province"></div></div>
   </div>
@@ -202,6 +286,7 @@
   <div class="field" id="f-type" hidden><span class="lbl">Type</span><div class="seg" id="seg-type" role="group" aria-label="Type"></div></div>
   <div class="field" id="f-group" hidden><span class="lbl">Group by</span><div class="seg" id="seg-group" role="group" aria-label="Group by"></div></div>
   <div class="field" id="f-commodity"><span class="lbl">Commodity</span><div class="seg" id="seg-commodity" role="group" aria-label="Commodity"></div></div>
+  </div>
 </section>
 
 <main>
@@ -365,10 +450,43 @@
     Object.keys(DEFAULTS).every((k) => (k === "period" ? TAB_PERIOD[state.tab] : DEFAULTS[k]) === state[k]) &&
     state.off.size === 0;
 
+  const SECTIONS = { news: ["mining", "chagai", "safety", "explore"], projects: ["porphyry", "companies"], markets: ["prices", "stocks"] };
+  const sectOf = (tab) => Object.keys(SECTIONS).find((k) => SECTIONS[k].includes(tab));
+
   function setTab(tab) {
     state.tab = tab;
     if (TAB_PERIOD[tab]) state.period = TAB_PERIOD[tab];
+    if (tab === "chagai") state.scope = ""; // Chagai stories are not split by coverage
     render();
+  }
+
+  // Filters other than the search box that differ from their starting values.
+  function activeFilters() {
+    let n = Object.keys(DEFAULTS).filter((k) => k !== "q" && (k === "period" ? TAB_PERIOD[state.tab] : DEFAULTS[k]) !== state[k]).length;
+    if (state.off.size) n++;
+    return n;
+  }
+
+  // ---- Masthead ----------------------------------------------------------------
+  function renderMasthead(projectsCount) {
+    const d = $("stats");
+    const day = items.filter((i) => i.mining !== false && Date.now() - i._t <= DAY).length;
+    const chagai = items.filter((i) => i.chagaiSecurity && Date.now() - i._t <= 30 * DAY).length;
+    const cu = prices ? latestOf("copper") : null;
+    const stat = (k, v) => `<div class="stat"><dt>${esc(k)}</dt><dd>${v}</dd></div>`;
+    let html = stat("Mining stories, last 24 hours", String(day)) + stat("Chagai stories, last 30 days", String(chagai));
+    if (cu) {
+      const r = cu.change == null ? null : Math.round(cu.change * 10) / 10;
+      html += stat("Copper", `${esc(fmtPrice(cu.price))}<small>${esc(cu.unit)}</small>${r == null ? "" : ` <small class="${r > 0 ? "up" : r < 0 ? "down" : ""}">${r > 0 ? "+" : ""}${r.toFixed(1)}%</small>`}`);
+    }
+    if (projectsCount) html += stat("Projects with stage and owner", String(projectsCount));
+    d.innerHTML = html;
+    d.hidden = !items.length;
+  }
+
+  function renderMhMap(landPath) {
+    if (!landPath) return;
+    $("mhMap").innerHTML = `<path class="land" d="${landPath}"/><circle class="ring" cx="62.5" cy="-29.2" r="3.2"/><circle class="pin" cx="62.5" cy="-29.2" r="1.3"/><text class="pl" x="66.5" y="-27.6">Chagai</text>`;
   }
 
   const fmtDate = (iso) => {
@@ -624,12 +742,13 @@
     }
     const labelled = rows.length <= 60 && w < 40; // names only for deposits with figures, and the selected one
     let marks = "", labels = "";
-    rows.forEach((r) => {
+    const slug = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    [...rows].sort((a, b) => (a.project ? 1 : 0) - (b.project ? 1 : 0)).forEach((r) => {
       const known = r.cuContained != null;
-      const rad = (known ? 0.9 + 0.28 * Math.sqrt(r.cuContained) : 0.9) * f;
+      const rad = Math.max(known ? 0.9 + 0.28 * Math.sqrt(r.cuContained) : 0.9, r.project ? 1.7 : 0) * f;
       const label = `${r.name}, ${r.country}` + (known ? `: about ${pxCu(r.cuContained)} Mt contained copper` : "");
-      marks += `<circle class="${known ? "pd" : "pu"}${r.id === selId ? " sel" : ""}" cx="${r.lon}" cy="${-r.lat}" r="${rad.toFixed(3)}" data-px="${r.id}"><title>${esc(label)}</title></circle>`;
-      if (labelled && (known || r.id === selId)) labels += `<text class="dl" x="${near(r.lon + rad * 1.3)}" y="${near(-r.lat + fs * 0.3)}" font-size="${fs}">${esc(r.name)}</text>`;
+      marks += `<circle class="${known || r.project ? "pd" : "pu"}${r.project ? " pr st-" + slug(r.project.stage) : ""}${r.id === selId ? " sel" : ""}" cx="${r.lon}" cy="${-r.lat}" r="${rad.toFixed(3)}" data-px="${r.id}"><title>${esc(label)}</title></circle>`;
+      if ((labelled && (known || r.id === selId)) || (w < 12 && (r.project || r.id === selId))) labels += `<text class="dl" x="${near(r.lon + rad * 1.3)}" y="${near(-r.lat + fs * 0.3)}" font-size="${fs}">${esc(r.name)}</text>`;
     });
     return `<svg viewBox="${x} ${y} ${w} ${h}" role="img" aria-label="Map of ${rows.length} porphyry deposits and prospects" style="aspect-ratio:${(w / h).toFixed(3)}">
       <rect x="${x}" y="${y}" width="${w}" height="${h}" class="sea"/>
@@ -683,8 +802,11 @@
       const stages = [...new Set(PX.rows.map((r) => r.project?.stage).filter(Boolean))];
       v.innerHTML = `
         <p class="small" id="pxIntro"></p>
-        <div class="pxctl">
-          <input type="search" id="pxQ" placeholder="Search by deposit or country, e.g. Reko Diq, Chile" aria-label="Search deposits">
+        <div class="searchrow">
+          <input type="search" id="pxQ" placeholder="Search by deposit, owner or country, e.g. Reko Diq, Chile" aria-label="Search deposits">
+          <button class="filterbtn" type="button" id="pxFilterToggle" aria-expanded="false" aria-controls="pxPanel">Filters<span class="badge" id="pxBadge"></span></button>
+        </div>
+        <div class="panel pxctl" id="pxPanel" hidden>
           <div class="pxsels">${opts("country", "Country")}${opts("kind", "Deposit type")}${opts("tectonic", "Tectonic setting")}${opts("era", "Age")}
             ${stages.length ? `<label class="pxsel"><span class="lbl">Project stage</span><select data-pxf="stage"><option value="">All</option>${stages.map((x) => `<option>${esc(x)}</option>`).join("")}</select></label>` : ""}</div>
           <label class="check"><input type="checkbox" id="pxGt"> Only deposits with published tonnage and grade</label>
@@ -692,13 +814,19 @@
         <div class="countbar"><p class="count" id="pxCount" aria-live="polite"></p><button class="link" type="button" id="pxReset" hidden>Reset filters</button><button class="link" type="button" id="pxCsv">Download these as CSV</button></div>
         <div class="chartbox pxmap">
           <div class="seg" id="pxViews" role="group" aria-label="Map area"></div>
-          <div id="pxMapBox"></div>
-          <p class="small">Each dot is a deposit or prospect. Larger dots have published tonnage and grade, sized by contained copper; small grey dots have none. Select a dot for details. Coastlines are simplified.</p>
+          <div class="legend" id="pxLegend"></div>
+          <div class="mapscroll" id="pxMapBox"></div>
+          <p class="small">Each dot is a deposit or prospect. Larger dots have published tonnage and grade, sized by contained copper; small grey dots have none. Outlined dots are major projects, coloured by stage. Select a dot for details. Coastlines are simplified.</p>
         </div>
         <div id="pxDetail"></div>
         <div class="tablewrap"><table class="prices pxtable"><thead id="pxHead"></thead><tbody id="pxBody"></tbody></table></div>
         <p class="more"><button class="chip" type="button" id="pxMore">Show more</button></p>
         <p class="small" id="pxCite"></p>`;
+      $("pxFilterToggle").onclick = () => {
+        const open = $("pxPanel").hidden;
+        $("pxPanel").hidden = !open;
+        $("pxFilterToggle").setAttribute("aria-expanded", String(open));
+      };
       $("pxQ").oninput = (e) => { s.q = e.target.value; s.shown = 50; pxUpdate(); };
       v.querySelectorAll("[data-pxf]").forEach((el) => (el.onchange = () => { s.shown = 50; s[el.dataset.pxf] = el.value; if (el.dataset.pxf === "country") s.view = el.value ? "fit" : "world"; pxUpdate(); }));
       $("pxGt").onchange = (e) => { s.gt = e.target.checked; s.shown = 50; pxUpdate(); };
@@ -733,13 +861,22 @@
     const s = state.px, v = $("porphyryView");
     const rows = pxFiltered();
     const hasGt = PX.rows.filter((r) => r.cuContained != null).length;
-    $("pxIntro").textContent = `${PX.rows.length.toLocaleString("en-US")} porphyry copper deposits and prospects in ${new Set(PX.rows.map((r) => r.country)).size} countries from the USGS global database; ${hasGt.toLocaleString("en-US")} have published tonnage and grade. Tonnage and grade are the figures compiled in that database from many dates and reporting standards, not current company reserves or resources.`;
+    const nProj = Object.keys(PX.projects).length;
+    $("pxIntro").textContent = `${PX.rows.length.toLocaleString("en-US")} porphyry copper deposits and prospects in ${new Set(PX.rows.map((r) => r.country)).size} countries (USGS database); ${hasGt.toLocaleString("en-US")} have published tonnage and grade${nProj ? `, and ${nProj} major projects have stage, owner and status added` : ""}. Tonnage and grade are compiled figures from many dates and reporting standards, not current company reserves or resources.`;
     const filtered = !!(s.q || s.country || s.kind || s.tectonic || s.era || s.stage || s.gt);
     $("pxCount").textContent = filtered ? `${rows.length.toLocaleString("en-US")} of ${PX.rows.length.toLocaleString("en-US")} deposits` : `${PX.rows.length.toLocaleString("en-US")} deposits`;
     $("pxReset").hidden = !filtered;
+    const nPx = [s.country, s.kind, s.tectonic, s.era, s.stage, s.gt].filter(Boolean).length;
+    $("pxBadge").textContent = nPx ? String(nPx) : "";
     const viewBtns = [...Object.entries(PX_VIEWS).map(([k, a]) => [k, a[0]]), ["fit", "Fit to results"]];
     $("pxViews").innerHTML = viewBtns.map(([k, l]) => `<button type="button" class="chip" data-pxv="${k}" aria-pressed="${s.view === k}"><span class="t">${esc(l)}</span></button>`).join("");
     $("pxMapBox").innerHTML = rows.length ? pxMap(rows) : `<p class="small">No deposits match these filters.</p>`;
+    const ORDER = ["operating", "under construction", "development", "permitting", "exploration", "care and maintenance"];
+    const stagesIn = [...new Set(PX.rows.map((r) => r.project?.stage).filter(Boolean))].sort((a, b) => (ORDER.indexOf(a.toLowerCase()) + 1 || 99) - (ORDER.indexOf(b.toLowerCase()) + 1 || 99));
+    const stageColour = { "operating": "--s-op", "under construction": "--s-uc", "development": "--s-dev", "permitting": "--s-perm", "exploration": "--s-exp", "care and maintenance": "--s-care" };
+    $("pxLegend").innerHTML = stagesIn.length
+      ? stagesIn.map((st) => `<span><i style="--c: var(${stageColour[st.toLowerCase()] || "--muted"})"></i>${esc(st)}</span>`).join("") + `<span><i class="plain" style="--c: var(--copper)"></i>Other deposits</span>`
+      : "";
     const sel = s.sel != null ? PX.rows[s.sel] : null;
     $("pxDetail").innerHTML = sel ? pxDetail(sel) : "";
     const withStage = Object.keys(PX.projects).length > 0;
@@ -808,8 +945,11 @@
     const safety = state.tab === "safety";
     const explore = state.tab === "explore";
     const inTab = (t, i) => (t === "chagai" ? i.chagaiSecurity : t === "safety" ? !!i.safetyType : t === "explore" ? !!i.exType : i.mining !== false);
+    const sect = sectOf(state.tab);
+    Object.keys(SECTIONS).forEach((k) => $("sect-" + k).setAttribute("aria-pressed", String(k === sect)));
     ["mining", "chagai", "safety", "explore", "porphyry", "prices", "stocks", "companies"].forEach((t) => {
       const b = $("tab-" + t);
+      b.hidden = !SECTIONS[sect].includes(t);
       b.setAttribute("aria-selected", String(state.tab === t));
       b.querySelector(".n").textContent =
         t === "porphyry" ? (PX.rows ? PX.rows.length.toLocaleString("en-US") : "") : t === "prices" || t === "stocks" ? "" : t === "companies" ? (companies?.miners?.length ?? "") : items.filter((i) => inTab(t, i)).length;
@@ -825,6 +965,7 @@
     $("chagaiNote").hidden = !chagai;
     $("safetyNote").hidden = !safety;
     $("exploreNote").hidden = !explore;
+    $("f-scope").hidden = chagai;
     $("f-province").hidden = chagai || safety || explore;
     $("f-commodity").hidden = chagai || safety || explore;
     ["f-xmetal", "f-xcountry", "f-xtype", "f-xgroup"].forEach((id) => ($(id).hidden = !explore));
@@ -835,9 +976,13 @@
     const rows = items.filter((i) => matches(i));
     $("count").textContent = rows.length + (rows.length === 1 ? " story" : " stories");
     $("reset").hidden = isDefault();
+    const nf = activeFilters();
+    $("filterBadge").textContent = nf ? String(nf) : "";
+    $("filterToggle").setAttribute("aria-label", nf ? `Filters, ${nf} active` : "Filters");
 
-    const card = (i) => `
-      <article class="${i.image ? "has-img" : ""}">
+    const kind = chagai ? "k-chagai" : safety ? "k-safety" : explore ? "k-explore" : "k-mining";
+    const card = (i, n) => `
+      <article class="${kind}${i.image ? " has-img" : ""}${n === 0 && (state.tab === "mining" || chagai) && !state.q ? " lead" : ""}">
         ${i.image ? `<img src="${esc(safeUrl(i.image))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : ""}
         <div class="meta"><b>${esc(i.source)}</b>${i.section ? `<span>${esc(i.section)}</span>` : ""}<span>${esc(ago(i.date))}</span></div>
         <h2 dir="auto"><a href="${esc(safeUrl(i.link))}" target="_blank" rel="noopener noreferrer">${esc(i.title)}</a></h2>
@@ -845,9 +990,9 @@
         ${i.summary ? `<p class="excerpt" dir="auto">${esc(i.summary)}</p>` : ""}
         ${(safety || explore || i.provinces.length || i.tags.length) ? `<div class="tags">${
           (safety ? `<span class="tag inc">${esc(i.safetyType)}</span><span class="tag prov">${esc(i.country)}</span>` : "") +
-          (explore ? `<span class="tag inc">${esc(i.exType)}</span>${i.exMetals.map((m) => `<span class="tag">${esc(m)}</span>`).join("")}<span class="tag prov">${esc(i.exRegion ? i.exRegion + ", " + i.exCountry : i.exCountry)}</span>${i.press ? `<span class="tag">Press release</span>` : ""}` : "") +
+          (explore ? `<span class="tag inc">${esc(i.exType)}</span>${i.exMetals.map((m) => `<span class="tag" data-c="${esc(String(m).toLowerCase())}">${esc(m)}</span>`).join("")}<span class="tag prov">${esc(i.exRegion ? i.exRegion + ", " + i.exCountry : i.exCountry)}</span>${i.press ? `<span class="tag">Press release</span>` : ""}` : "") +
           (safety || explore ? "" : i.provinces.map((p) => `<span class="tag prov">${esc(p)}</span>`).join("")) +
-          (explore ? "" : i.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join(""))}</div>` : ""}
+          (explore ? "" : i.tags.map((t) => `<span class="tag" data-c="${esc(String(t).toLowerCase())}">${esc(t)}</span>`).join(""))}</div>` : ""}
         ${sourceLine(i)}
       </article>`;
 
@@ -860,9 +1005,9 @@
       rows.forEach((i) => { const k = keyOf(i) || "Unspecified"; (groups.get(k) || groups.set(k, []).get(k)).push(i); });
       const ordered = [...groups].sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]));
       $("list").innerHTML = ordered.map(([name, list]) =>
-        `<h3 class="group-h">${esc(name)}<span class="n">${list.length}</span></h3>` + list.map(card).join("")).join("");
+        `<h3 class="group-h">${esc(name)}<span class="n">${list.length}</span></h3>` + list.map((i) => card(i, -1)).join("")).join("");
     } else {
-      $("list").innerHTML = rows.map(card).join("");
+      $("list").innerHTML = rows.map((i, n) => card(i, n)).join("");
     }
 
     $("empty").hidden = rows.length > 0;
@@ -911,6 +1056,7 @@
       } catch (e) { return null; }
     };
     const [pData, sData, cData] = await Promise.all([load("data/prices.json"), load("data/stocks.json"), load("data/companies.json")]);
+    const [wData, jData] = await Promise.all([load("data/world.json"), load("data/porphyry-projects.json")]);
     if (sData && sData.stocks) stocks = sData;
     if (cData && Array.isArray(cData.miners)) companies = cData;
     if (pData && (pData.daily || pData.monthly)) prices = pData;
@@ -919,6 +1065,9 @@
       const okSources = new Set((data.sources || []).filter((s) => s.ok).map((s) => s.source));
       $("updated").textContent = `Updated ${ago(data.updated)} · ${items.length} stories from ${okSources.size} newspapers and sites`;
     }
+
+    renderMhMap(wData && wData.d);
+    renderMasthead(jData && jData.projects ? Object.keys(jData.projects).length : 0);
 
     makeSeg($("seg-scope"), "scope", [
       { value: "", label: "All" }, { value: "International", label: "International" }, { value: "National", label: "National (Pakistan)" },
@@ -967,6 +1116,12 @@
 
     $("q").addEventListener("input", (e) => { state.q = e.target.value; render(); });
     $("reset").onclick = () => { Object.assign(state, DEFAULTS, { period: TAB_PERIOD[state.tab] }); state.off.clear(); $("q").value = ""; render(); };
+    $("filterToggle").onclick = () => {
+      const open = $("filterPanel").hidden;
+      $("filterPanel").hidden = !open;
+      $("filterToggle").setAttribute("aria-expanded", String(open));
+    };
+    Object.keys(SECTIONS).forEach((k) => ($("sect-" + k).onclick = () => { if (sectOf(state.tab) !== k) setTab(SECTIONS[k][0]); }));
     $("tab-mining").onclick = () => setTab("mining");
     $("tab-chagai").onclick = () => setTab("chagai");
     $("tab-safety").onclick = () => setTab("safety");
