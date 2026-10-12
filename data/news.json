@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T05:36:40.757Z",
+ "updated": "2026-10-12T06:48:44.654Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -160,7 +160,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "seen": 30
   },
   {
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 59
+   "seen": 66
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,60 @@
  ],
  "items": [
   {
-   "title": "Sedgman to take on Savannah Resources Barroso lithium FEED contract",
-   "link": "https://im-mining.com/2026/10/12/sedgman-to-take-on-savannah-resources-barroso-lithium-feed-contract/",
+   "title": "Iron ore rises on expected Chinese steel mill restocking",
+   "link": "https://www.brecorder.com/news/40443790/iron-ore-rises-on-expected-chinese-steel-mill-restocking",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T05:07:45.000Z",
-   "summary": "Sedgman has been awarded the Front-End Engineering and Design (FEED) contract for the lithium concentrator plant at Savannah Resources' Barroso lithium project in Portugal. The contract builds on Sedgman's previous involvement with the...",
-   "image": null,
-   "source": "International Mining",
+   "date": "2026-10-12T06:26:46.000Z",
+   "summary": "Iron ore prices rose on Monday , supported by expectations of restocking by Chinese steelmakers following a week-long holiday, although prospects of increased supply capped gains. The most-traded iron ore contract on China’s Dalian...",
+   "image": "https://i.brecorder.com/large/2026/10/121126184037de8.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Iron ore"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Australian shares climb as investors gear up for miners' production reports",
+   "link": "https://www.brecorder.com/news/40443786/australian-shares-climb-as-investors-gear-up-for-miners-production-reports",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T06:17:41.000Z",
+   "summary": "Australian shares climbed to their highest level in more than a week on Monday as mining and technology stocks gained, while investors awaited a busy slate of quarterly production reports, including Rio Tinto’s update due on Wednesday. The...",
+   "image": "https://i.brecorder.com/large/2026/10/12111728238a70b.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -267,6 +310,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sedgman to take on Savannah Resources Barroso lithium FEED contract",
+   "link": "https://im-mining.com/2026/10/12/sedgman-to-take-on-savannah-resources-barroso-lithium-feed-contract/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T05:07:45.000Z",
+   "summary": "Sedgman has been awarded the Front-End Engineering and Design (FEED) contract for the lithium concentrator plant at Savannah Resources' Barroso lithium project in Portugal. The contract builds on Sedgman's previous involvement with the...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -297,17 +349,8 @@
    "press": false
   },
   {
-   "title": "Raisani seeks disclosure of opposition proposals",
-   "link": "https://tribune.com.pk/story/2634374/raisani-seeks-disclosure-of-opposition-proposals",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-11T23:08:46.000Z",
-   "summary": "Says Mines and Minerals Act passed without opp's knowing, effectively hands Balochistan's natural resources to federal",
-   "image": null,
-   "source": "The Express Tribune",
    "section": "Balochistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -321,6 +364,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Raisani seeks disclosure of opposition proposals",
+   "link": "https://tribune.com.pk/story/2634374/raisani-seeks-disclosure-of-opposition-proposals",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-11T23:08:46.000Z",
+   "summary": "Says Mines and Minerals Act passed without opp's knowing, effectively hands Balochistan's natural resources to federal",
+   "image": null,
+   "source": "The Express Tribune",
+   "region": "Pakistan",
    "press": false
   },
   {
