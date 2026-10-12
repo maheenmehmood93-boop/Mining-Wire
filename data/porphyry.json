@@ -1,0 +1,865 @@
+{
+ "asOf": "2026-10-12",
+ "projects": {
+  "Los Bronces-Rio Blanco|Chile": {
+   "stage": "Operating",
+   "owner": "Anglo American 50.1%",
+   "note": "Los Bronces produced 94,500 t copper in H1 2026, up 18% on H1 2025, after the second plant restarted early in the year; ore grade 0.48% (Anglo American Q2 2026 production report). Anglo American and Teck have agreed to merge; as of 31 Aug 2026 the deal was still awaiting Chinese regulatory approval.",
+   "sources": [
+    {
+     "title": "Anglo American Production Report, Q2 ended 30 June 2026",
+     "url": "https://nsx.com.na/production-report-for-the-second-quarter-ended-30-june-2026/"
+    },
+    {
+     "title": "Miningreporters: Glencore, Anglo-Teck merger and Collahuasi (31 Aug 2026)",
+     "url": "https://www.miningreporters.com/noticia/news/2026/08/glencore-anglo-teck-copper-merger-chile-collahuasi"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Escondida|Chile": {
+   "stage": "Operating",
+   "owner": "BHP 57.5%",
+   "note": "Per BHP's FY2026 operational review (year to 30 June 2026), Escondida produced 1,261 kt copper on a 100% basis. FY2027 guidance is 1,000-1,100 kt. A headline dated 9 Oct 2026 reports labour mediation with supervisors without agreement after Escondida withdrew proposed shift changes; details not confirmed.",
+   "sources": [
+    {
+     "title": "BHP Operational Review for the year ended 30 June 2026",
+     "url": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2026/260716_bhpoperationalreviewfortheyearended30june2026.pdf"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "El Teniente|Chile": {
+   "stage": "Operating",
+   "owner": "Codelco",
+   "note": "H1 2026 output was 126.4 kt, down 26.5%, still affected by the gradual restart after the 2025 accident. Andes Norte construction was suspended in August 2026 as a safety measure (Codelco report to 30 June 2026).",
+   "sources": [
+    {
+     "title": "Codelco Operational and Financial Report, 30 June 2026",
+     "url": "https://www.codelco.com/sites/site/docs/20260601/20260601161122/operational_and_financial_report_june_30__2026.pdf"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "Collahuasi|Chile": {
+   "stage": "Operating",
+   "owner": "Anglo American 44%; Glencore 44%",
+   "note": "Anglo American's 44% share was 81,400 t copper in H1 2026 (-2%). In May 2026 a tribunal set aside the desalination plant's environmental authorization; operations use other water sources (Q2 2026 report). Anglo American and Teck have agreed to merge; as of 31 Aug 2026 the deal was still awaiting Chinese regulatory approval.",
+   "sources": [
+    {
+     "title": "Anglo American Production Report, Q2 ended 30 June 2026",
+     "url": "https://nsx.com.na/production-report-for-the-second-quarter-ended-30-june-2026/"
+    },
+    {
+     "title": "Glencore: Copper",
+     "url": "https://www.glencore.com/what-we-do/metals-and-minerals/copper"
+    },
+    {
+     "title": "Miningreporters: Glencore, Anglo-Teck merger and Collahuasi (31 Aug 2026)",
+     "url": "https://www.miningreporters.com/noticia/news/2026/08/glencore-anglo-teck-copper-merger-chile-collahuasi"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Chuquicamata|Chile": {
+   "stage": "Operating",
+   "owner": "Codelco",
+   "note": "Production was 90.0 kt in H1 2026, down 22.0%, due to lower feed and grades during underground conveyor belt maintenance, which the report says was completed in June (Codelco report to 30 June 2026).",
+   "sources": [
+    {
+     "title": "Codelco Operational and Financial Report, 30 June 2026",
+     "url": "https://www.codelco.com/sites/site/docs/20260601/20260601161122/operational_and_financial_report_june_30__2026.pdf"
+    }
+   ],
+   "asOf": "2026-06"
+  },
+  "Radomiro Tomic|Chile": {
+   "stage": "Operating",
+   "owner": "Codelco",
+   "note": "Production was 147.9 kt in H1 2026, up 6.2%, attributed to higher oxide ore grades after a transition to a new mining phase (Codelco report to 30 June 2026).",
+   "sources": [
+    {
+     "title": "Codelco Operational and Financial Report, 30 June 2026",
+     "url": "https://www.codelco.com/sites/site/docs/20260601/20260601161122/operational_and_financial_report_june_30__2026.pdf"
+    }
+   ],
+   "asOf": "2026-06"
+  },
+  "Quebrada Blanca|Chile": {
+   "stage": "Operating",
+   "owner": "Teck 60% (indirect); Sumitomo Metal Mining and Sumitomo Corporation 30% collectively (indirect); Codelco 10% (non-funding)",
+   "note": "Q2 2026 copper production was 55,800 t, with recoveries of 83.3%; Teck reports a third consecutive quarter of stable performance and is evaluating accelerating tailings facility work (Teck Q2 2026 release). Anglo American and Teck have agreed to merge; as of 31 Aug 2026 the deal was still awaiting Chinese regulatory approval.",
+   "sources": [
+    {
+     "title": "Teck Q2 2026 results press release",
+     "url": "https://www.bnnbloomberg.ca/press-releases/2026/07/23/teck-reports-unaudited-second-quarter-results-for-2026/"
+    },
+    {
+     "title": "Teck: Quebrada Blanca operation page",
+     "url": "https://www.teck.com/operations/chile/operations/quebrada-blanca"
+    },
+    {
+     "title": "Miningreporters: Glencore, Anglo-Teck merger and Collahuasi (31 Aug 2026)",
+     "url": "https://www.miningreporters.com/noticia/news/2026/08/glencore-anglo-teck-copper-merger-chile-collahuasi"
+    }
+   ],
+   "asOf": "2026-07-23"
+  },
+  "Centinela|Chile": {
+   "stage": "Operating",
+   "owner": "Antofagasta 70%; Marubeni Corporation 30% (per March 2024 announcement)",
+   "note": "H1 2026 copper production was 97,100 t, down 16%. The Second Concentrator project is underway, with construction and commissioning targeted for 2027 (Antofagasta H1 2026 results).",
+   "sources": [
+    {
+     "title": "Antofagasta plc Half Year Results, six months ended 30 June 2026",
+     "url": "https://data.fca.org.uk/artefacts/NSM/RNS/a74ead84-0008-42a9-b7e5-16f2b249decc.html"
+    },
+    {
+     "title": "Antofagasta announcement: Centinela Second Concentrator financing (Mar 2024)",
+     "url": "https://mfn.se/rns/a/antofagasta/centinela-second-concentrator-financing-ea83d0e3"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "Spence|Chile": {
+   "stage": "Operating",
+   "owner": "BHP 100%",
+   "note": "Operating; Pampa Norte (Spence and Cerro Colorado) produced 212.6 kt in FY2026. Concentrator upgrade and chalcopyrite leaching projects were sanctioned in June 2026 (BHP FY2026 operational review).",
+   "sources": [
+    {
+     "title": "BHP Operational Review for the year ended 30 June 2026",
+     "url": "https://www.bhp.com/-/media/documents/media/reports-and-presentations/2026/260716_bhpoperationalreviewfortheyearended30june2026.pdf"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "El Abra|Chile": {
+   "stage": "Operating",
+   "owner": "Freeport-McMoRan 51%; Codelco 49%",
+   "note": "Operating; Q2 2026 copper production was 47 million lb. An environmental impact study for a possible large mill expansion was submitted in March 2026 and is under review (FCX Q2 2026 release).",
+   "sources": [
+    {
+     "title": "Freeport-McMoRan Q2 2026 results (8-K exhibit 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000033/a2q2026exhibit991.htm"
+    },
+    {
+     "title": "Codelco Operational and Financial Report, 30 June 2026",
+     "url": "https://www.codelco.com/sites/site/docs/20260601/20260601161122/operational_and_financial_report_june_30__2026.pdf"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Ministro Hales|Chile": {
+   "stage": "Operating",
+   "owner": "Codelco",
+   "note": "Production was 52.7 kt in H1 2026, down 21.1%, attributed to lower ore grades and recovery after the 2025 slope failures and a haul truck fleet stoppage (Codelco report to 30 June 2026).",
+   "sources": [
+    {
+     "title": "Codelco Operational and Financial Report, 30 June 2026",
+     "url": "https://www.codelco.com/sites/site/docs/20260601/20260601161122/operational_and_financial_report_june_30__2026.pdf"
+    }
+   ],
+   "asOf": "2026-06"
+  },
+  "Cerro Verde (Santa Rosa)|Peru": {
+   "stage": "Operating",
+   "owner": "Freeport-McMoRan 55.08%; SMM Cerro Verde Netherlands B.V. 21.0%; Compañia de Minas Buenaventura S.A.A. 19.58%; other stockholders (Lima Stock Exchange) 4.34%",
+   "note": "Open-pit copper-molybdenum mine in operation since the 1970s; 0.9 billion lb copper produced in 2025 per Freeport 10-K. The 10-K text read does not mention a Santa Rosa project.",
+   "sources": [
+    {
+     "title": "Freeport-McMoRan Form 10-K for FY2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000012/fcx-20251231.htm"
+    }
+   ],
+   "asOf": "2025-12"
+  },
+  "Antamina|Peru": {
+   "stage": "Operating",
+   "owner": "BHP 33.75%; Glencore 33.75%; Teck 22.5%; Mitsubishi Corporation 10%",
+   "note": "Operating. Teck reports 2025 production of 86 thousand tonnes copper (its 22.5% share). Glencore reports H1 2026 attributable copper of 83.2kt on its 33.75% share, citing mine sequencing.",
+   "sources": [
+    {
+     "title": "Teck - Antamina operations page",
+     "url": "https://www.teck.com/operations/peru/operations/antamina/"
+    },
+    {
+     "title": "Glencore 2026 Half-Year Report",
+     "url": "https://www.glencore.com/.rest/api/v1/documents/static/98cf0f2a-ede7-4ced-9539-061198c3b6be/GLEN-2026-Half-Year-Report.pdf"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "Las Bambas (Chalcobamba)|Peru": {
+   "stage": "Operating",
+   "owner": "MMG Limited 62.5%; remaining 37.5% held by non-controlling interests (partners not named in the source read)",
+   "note": "Operating; H1 2026 copper in concentrate was 210,195 t per MMG interim results. Ore comes from Chalcobamba and Ferrobamba pits; waste stripping continues at Chalcobamba Phase 2. 2026 guidance 380,000-400,000 t copper. Operations were suspended after a fatal incident on 18 Aug 2026 (two workers) and resumed on 21 Aug (MMG announcement).",
+   "sources": [
+    {
+     "title": "MMG 2026 Interim Results announcement",
+     "url": "https://www.mmg.com/content/uploads/2026/08/e_2026-08-11-Interim-Results.pdf"
+    },
+    {
+     "title": "Metal.com: MMG confirms Las Bambas operations resumed from 21 Aug (25 Aug 2026)",
+     "url": "https://news.metal.com/newscontent/104078579-mmg-confirms-las-bambas-operations-resumed-from-august-21"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "Quellaveco|Peru": {
+   "stage": "Operating",
+   "owner": "Anglo American 60%; Mitsubishi Corporation 40% (held through Anglo American Quellaveco S.A.)",
+   "note": "Operating; copper output was 75,000 t in Q2 2026 (down 2% year on year on lower grade) and 148,400 t in H1 2026. Anglo American Copper Peru 2026 guidance is 310,000-340,000 t.",
+   "sources": [
+    {
+     "title": "Quellaveco NI 43-101 Technical Report (effective 3 Nov 2025), Teck Form 6-K exhibit",
+     "url": "https://www.sec.gov/Archives/edgar/data/886986/000110465925109333/tm2527845d9_ex99-1.htm"
+    },
+    {
+     "title": "Energiminas: Quellaveco production at 148,400 t to June (11 Aug 2026)",
+     "url": "https://energiminas.com/2026/08/11/produccion-de-quellaveco-se-situa-en-las-148-400-toneladas-a-junio/"
+    },
+    {
+     "title": "Reporte Minero: Anglo American Q2 2026 copper production",
+     "url": "https://www.reporteminero.cl/noticia/noticias/2026/07/anglo-american-produccion-cobre-segundo-trimestre-2026"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "Toquepala|Peru": {
+   "stage": "Operating",
+   "owner": "Southern Copper Corporation (Peru operations run through its SPCC Peru Branch); Grupo Mexico owned 88.9% of Southern Copper's capital stock at 31 Dec 2025",
+   "note": "Operating. Peruvian copper output fell 12% year on year in Q2 2026 on lower grades and recoveries, per the Q2 2026 earnings call; Toquepala accounts for most of the shortfall after Cuajone. Southern Copper 2026 guidance 917,000 t copper (all mines).",
+   "sources": [
+    {
+     "title": "Southern Copper Form 10-K for FY2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926021492/scco-20251231x10k.htm"
+    },
+    {
+     "title": "Southern Copper Q2 2026 earnings call (31 Jul 2026)",
+     "url": "https://southerncoppercorp.com/wp-content/uploads/2026/08/cc260731.pdf"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Cuajone|Peru": {
+   "stage": "Operating",
+   "owner": "Southern Copper Corporation (Peru operations run through its SPCC Peru Branch); Grupo Mexico owned 88.9% of Southern Copper's capital stock at 31 Dec 2025",
+   "note": "Operating; the 10-K says facilities were operating at full capacity after the 2022 protests. Per the Q2 2026 call, lower grades and recoveries cut Cuajone output by about 35,000 t year on year.",
+   "sources": [
+    {
+     "title": "Southern Copper Form 10-K for FY2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926021492/scco-20251231x10k.htm"
+    },
+    {
+     "title": "Southern Copper Q2 2026 earnings call (31 Jul 2026)",
+     "url": "https://southerncoppercorp.com/wp-content/uploads/2026/08/cc260731.pdf"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Toromocho|Peru": {
+   "stage": "Operating",
+   "owner": "Aluminum Corp. of China (Chinalco), through Chinalco Peru; no percentage stated in the sources read",
+   "note": "Operating open-pit mine in Junin. A roughly US$1.7 billion expansion is approved: capacity to rise from 117,000 to 170,000 t/day and a molybdenum circuit added, with more than US$700 million over three years (April 2026 reports).",
+   "sources": [
+    {
+     "title": "Mining.com: Chinalco bets $700M on Peru mine turnaround (17 Apr 2026)",
+     "url": "https://www.mining.com/chinalco-bets-700m-on-peru-mine-turnaround/"
+    },
+    {
+     "title": "Andina: Peru boosts critical minerals output through Toromocho expansion (14 Apr 2026)",
+     "url": "https://andina.pe/ingles/noticia-peru-boosts-critical-minerals-output-through-toromocho-project-expansion-1071239.aspx"
+    },
+    {
+     "title": "Mining Reporters: Chinalco US$1.7 billion Toromocho expansion (Apr 2026)",
+     "url": "https://www.miningreporters.com/noticia/news/2026/04/chinalco-1-7-billion-toromocho-expansion-peru"
+    }
+   ],
+   "asOf": "2026-04"
+  },
+  "Constancia|Peru": {
+   "stage": "Operating",
+   "owner": "Hudbay Minerals 100%",
+   "note": "Operating open-pit mine; 2025 production was 85,155 t copper. Mining at the Pampacancha pit ended in Q4 2025 and pebble crushers are planned for 2026. Mine life to 2040 per Hudbay's AIF dated March 2026.",
+   "sources": [
+    {
+     "title": "Hudbay Annual Information Form (Form 40-F FY2025 exhibit)",
+     "url": "https://www.sec.gov/Archives/edgar/data/1322422/000106299326001648/exhibit99-1.htm"
+    }
+   ],
+   "asOf": "2026-03"
+  },
+  "Tia Maria (Cachuyo)|Peru": {
+   "stage": "Under construction",
+   "owner": "Southern Copper Corporation (Peru operations run through its SPCC Peru Branch); Grupo Mexico owned 88.9% of Southern Copper's capital stock at 31 Dec 2025",
+   "note": "Project was 42% complete at end of June 2026, with US$693 million invested of about US$1.8 billion expected total spend. Start-up is guided for the second half of 2027 per the Q2 2026 call.",
+   "sources": [
+    {
+     "title": "Southern Copper Q2 2026 earnings call (31 Jul 2026)",
+     "url": "https://southerncoppercorp.com/wp-content/uploads/2026/08/cc260731.pdf"
+    },
+    {
+     "title": "Southern Copper Form 10-K for FY2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926021492/scco-20251231x10k.htm"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Cobre Panama|Panama": {
+   "stage": "Care and maintenance",
+   "owner": "First Quantum 90% (partnership with KOMIR), per 2024 annual report",
+   "note": "Mine has been idle since late 2023. Stockpile processing began in 2026 (first mill circuit commissioned May; 3,216 t copper in Q2; site workforce about 3,000 by end-June). The long-term ownership structure is not settled: reports say Panama is weighing a state-miner partnership or a lease back to First Quantum. An environmental audit found 87.7% compliance; a ministerial committee is reviewing it and First Quantum has suspended its arbitration claim while talks continue (Mining.com, 29 Jul 2026).",
+   "sources": [
+    {
+     "title": "First Quantum Q2 2026 MD&A (as of 28 Jul 2026)",
+     "url": "https://www.first-quantum.com/wp-content/uploads/2026/07/2026-Q2-FQM-Managements-Discussion-Analysis-FINAL.pdf"
+    },
+    {
+     "title": "First Quantum 2024 Annual Report (ownership)",
+     "url": "https://www.first-quantum.com/document/2024-annual-report-2"
+    },
+    {
+     "title": "Mining.com: First Quantum adds 1,000 jobs as Cobre Panama restart nears (29 Jul 2026)",
+     "url": "https://www.mining.com/first-quantum-adds-1000-jobs-as-cobre-panama-restart-nears/"
+    }
+   ],
+   "asOf": "2026-07-29"
+  },
+  "Taca Taca|Argentina": {
+   "stage": "Permitting",
+   "owner": "First Quantum 100%, per 2024 annual report",
+   "note": "Greenfield project in Salta. Updated NI 43-101 report filed 19 Feb 2026; mining ESIA approval expected in 2026 and the RIGI application is being finalized, per Q2 2026 MD&A. Bloomberg-sourced reports (15 Jul 2026) say First Quantum is exploring the sale of a minority stake; early stage, not confirmed by the company.",
+   "sources": [
+    {
+     "title": "First Quantum Q2 2026 MD&A (as of 28 Jul 2026)",
+     "url": "https://www.first-quantum.com/wp-content/uploads/2026/07/2026-Q2-FQM-Managements-Discussion-Analysis-FINAL.pdf"
+    },
+    {
+     "title": "First Quantum 2024 Annual Report (ownership)",
+     "url": "https://www.first-quantum.com/document/2024-annual-report-2"
+    },
+    {
+     "title": "First Quantum corporate deck, RBC conference (11 Jun 2026)",
+     "url": "https://www.first-quantum.com/wp-content/uploads/2026/06/First-Quantum-Corporate-Deck-RBC-FINAL.pdf"
+    },
+    {
+     "title": "Reporte Minero: First Quantum explores minority stake sale (15 Jul 2026)",
+     "url": "https://www.reporteminero.cl/noticia/noticias/2026/07/first-quantum-venta-participacion-taca-taca-argentina"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Josemaria|Argentina": {
+   "stage": "Development",
+   "owner": "Vicuña joint arrangement: Lundin Mining 50%; BHP 50%",
+   "note": "Pre-sanction. Lundin targets a Stage 1 sanction decision as early as end 2026, with capex from 2027; Stage 1 capital estimate US$7.1 billion (Feb 2026 study). RIGI approval received June 2026; early earthworks under way.",
+   "sources": [
+    {
+     "title": "Lundin Mining Q2 2026 results (5 Aug 2026)",
+     "url": "https://lundinmining.mediaroom.com/2026-08-05-Lundin-Mining-Reports-Second-Quarter-2026-Results-Strong-Operational-Performance-Generated-Near-Record-Revenue-and-Free-Cash-Flow?asPDF=1"
+    },
+    {
+     "title": "Reporte Minero: Lundin construction 2027, Josemaria (14 Apr 2026)",
+     "url": "https://www.reporteminero.cl/noticia/noticias/2026/04/lundin-2027-construccion-josemaria-us-7000-millones-vicuna"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "Los Azules|Argentina": {
+   "stage": "Development",
+   "owner": "McEwen Copper Inc. 100%; its shareholders: McEwen Inc 46.3%, Stellantis 18.2%, Nuton/Rio Tinto Venture 17.2%, Rob McEwen 13%, Victor Smorgon Group 3%, others 2.3%",
+   "note": "2025 feasibility study done and RIGI approval reported in 2026. Company targets a final investment decision by end 2026 and construction in early 2027; construction has not started (Aug 2026). FID work program about 27% complete at 10 Aug 2026, completion targeted for Q4; first production targeted for 2030, subject to financing and approvals.",
+   "sources": [
+    {
+     "title": "Mining Weekly: Los Azules copper project update (15 May 2026)",
+     "url": "https://www.miningweekly.com/article/los-azules-copper-project-argentina-update-2026-05-15"
+    },
+    {
+     "title": "Ambito: Los Azules secures power supply, advances mine (6 Aug 2026)",
+     "url": "https://www.ambito.com/energia/los-azules-asegura-el-suministro-electrico-mendoza-y-acelera-el-desarrollo-su-mina-cobre-n6307041"
+    },
+    {
+     "title": "Miningreporters: McEwen Copper, Los Azules investment decision (10 Aug 2026)",
+     "url": "https://www.miningreporters.com/noticia/news/2026/08/mcewen-copper-los-azules-argentina-investment-decision"
+    }
+   ],
+   "asOf": "2026-08"
+  },
+  "El Pachon|Argentina": {
+   "stage": "Development",
+   "owner": "Glencore (no percentage stated in the sources read)",
+   "note": "Glencore groups El Pachón with MARA as development projects in its H1 2026 report. The project site reports the 2025-26 campaign concluded; an article cites 21,246 m drilled in 53 holes.",
+   "sources": [
+    {
+     "title": "Glencore 2026 Half-Year Report",
+     "url": "https://www.glencore.com/.rest/api/v1/documents/static/98cf0f2a-ede7-4ced-9539-061198c3b6be/GLEN-2026-Half-Year-Report.pdf"
+    },
+    {
+     "title": "Glencore Pachón project website",
+     "url": "https://www.elpachon.com.ar"
+    },
+    {
+     "title": "iProfesional: Glencore accelerates MARA (14 Sep 2026)",
+     "url": "https://www.iprofesional.com/energia/464140-glencore-acelera-mara-invertira-us4500-millones-y-generara-empleo"
+    }
+   ],
+   "asOf": "2026-09"
+  },
+  "Agua Rica (MARA)|Argentina": {
+   "stage": "Permitting",
+   "owner": "Glencore, through Minera Alumbrera Limited and Minera Agua Rica LLC; no percentages stated in the sources read",
+   "note": "Glencore announced RIGI approval for MARA on 2 Oct 2026. Environmental impact report for the exploitation phase was filed in Catamarca (Sept 2026 article); feasibility engineering began in 2026; estimated investment about US$4.5 billion. No final investment decision announced. Plans to use the Alumbrera plant, whose own restart is expected to produce in H2 2027.",
+   "sources": [
+    {
+     "title": "iProfesional: Glencore accelerates MARA (14 Sep 2026)",
+     "url": "https://www.iprofesional.com/energia/464140-glencore-acelera-mara-invertira-us4500-millones-y-generara-empleo"
+    },
+    {
+     "title": "Glencore 2026 Half-Year Report",
+     "url": "https://www.glencore.com/.rest/api/v1/documents/static/98cf0f2a-ede7-4ced-9539-061198c3b6be/GLEN-2026-Half-Year-Report.pdf"
+    },
+    {
+     "title": "Glencore: receives RIGI approval for Agua Rica / MARA (2 Oct 2026)",
+     "url": "https://www.glencore.com/media-and-insights/news/glencore-receives-rigi-approval-for-agua-rica--mara"
+    }
+   ],
+   "asOf": "2026-10-02"
+  },
+  "Morenci-Metcalf|United States": {
+   "stage": "Operating",
+   "owner": "Freeport-McMoRan 72% (undivided joint venture interest)",
+   "note": "Producing; Q2 2026 copper production was 117 million lbs per FCX's second-quarter 2026 results (23 Jul 2026). FCX is testing an internally developed leach additive at scale.",
+   "sources": [
+    {
+     "title": "Freeport-McMoRan Q2 2026 results press release (Exhibit 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000033/a2q2026exhibit991.htm"
+    },
+    {
+     "title": "Freeport-McMoRan third-quarter 2026 operational update, 2 Oct 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000043/fcx_261002.htm"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Bingham Canyon|United States": {
+   "stage": "Operating",
+   "owner": "Rio Tinto 100% (Kennecott)",
+   "note": "Operating; Q1 2026 refined copper was 34kt, down 20% year on year. Open pit stripping continues through 2027, with sustainable ore from the second pushback expected in H2 2027 (Rio Tinto Q1 2026).",
+   "sources": [
+    {
+     "title": "Rio Tinto first quarter 2026 operations review (Form 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000863064/000086306426000022/ex1d21rt1q26results.htm"
+    }
+   ],
+   "asOf": "2026-04"
+  },
+  "Resolution|United States": {
+   "stage": "Permitting",
+   "owner": "Rio Tinto 55% (operator), BHP 45%",
+   "note": "Land exchange completed after a 13 Mar 2026 Ninth Circuit ruling. About $500m is planned over two years for drilling and early works; further studies, engagement and permitting are still needed before construction (Mar 2026).",
+   "sources": [
+    {
+     "title": "Rio Tinto first quarter 2026 operations review (Form 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000863064/000086306426000022/ex1d21rt1q26results.htm"
+    },
+    {
+     "title": "Mining Weekly: Land swap unlocks next phase of Resolution Copper, 17 Mar 2026",
+     "url": "https://www.miningweekly.com/article/land-swap-unlocks-next-phase-of-rio-tinto-and-bhps-resolution-copper-project-2026-03-17"
+    }
+   ],
+   "asOf": "2026-04"
+  },
+  "Pebble|United States": {
+   "stage": "Permitting",
+   "owner": "Northern Dynasty Minerals Ltd. (percentage not stated in the sources opened)",
+   "note": "Northern Dynasty describes Pebble as in federal permitting. Oral arguments were held 25 Jun 2026 in its Alaska federal court case seeking withdrawal of the EPA veto; no ruling was reported as of the 26 Jun 2026 release. Northern Miner reports the US Department of Justice filed a brief in the Alaska case supporting the EPA veto (date not confirmed; article paywalled).",
+   "sources": [
+    {
+     "title": "Northern Dynasty Minerals website (project overview)",
+     "url": "https://www.northerndynastyminerals.com/"
+    },
+    {
+     "title": "Northern Dynasty news release, 26 Jun 2026: oral arguments held (Stockwatch)",
+     "url": "https://wwww.stockwatch.com/News/Item/Z-C!NDM-3836348/C/NDM?fmt=orig"
+    },
+    {
+     "title": "Northern Miner: Northern Dynasty tumbles on DOJ brief backing Pebble veto",
+     "url": "https://secure.northernminer.com/news/northern-dynasty-tumbles-on-doj-backing-pebble-veto/1003887901"
+    }
+   ],
+   "asOf": "2026-06"
+  },
+  "Safford|United States": {
+   "stage": "Operating",
+   "owner": "Freeport-McMoRan 100%",
+   "note": "Producing; Q2 2026 copper production was 82 million lbs. FCX expects to finish pre-feasibility studies on a potential expansion in the Safford/Lone Star district during 2026 (Q2 2026 results, 23 Jul 2026).",
+   "sources": [
+    {
+     "title": "Freeport-McMoRan Q2 2026 results press release (Exhibit 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000033/a2q2026exhibit991.htm"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Bagdad|United States": {
+   "stage": "Operating",
+   "owner": "Freeport-McMoRan 100%",
+   "note": "Producing; Q2 2026 copper production was 35 million lbs. FCX is evaluating a project to more than double concentrator capacity and plans a decision by year-end 2026 (Q2 results 23 Jul 2026; Q3 update 2 Oct 2026).",
+   "sources": [
+    {
+     "title": "Freeport-McMoRan Q2 2026 results press release (Exhibit 99.1)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000033/a2q2026exhibit991.htm"
+    },
+    {
+     "title": "Freeport-McMoRan third-quarter 2026 operational update, 2 Oct 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000043/fcx_261002.htm"
+    }
+   ],
+   "asOf": "2026-10"
+  },
+  "Cananea (Buenavista del Cobre)|Mexico": {
+   "stage": "Operating",
+   "owner": "Minera Mexico (Southern Copper owns 99.998%); Grupo Mexico, through Americas Mining Corporation, held 88.9% of Southern Copper at 31 Dec 2025",
+   "note": "Southern Copper's 2025 10-K lists the Buenavista open-pit unit as operating, with two copper concentrators, a zinc concentrator and two SX-EW plants running. No curtailment is mentioned.",
+   "sources": [
+    {
+     "title": "Southern Copper Corporation Form 10-K for FY2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/1001838/000110465926021492/scco-20251231x10k.htm"
+    }
+   ],
+   "asOf": "2026-02"
+  },
+  "Highland Valley|Canada": {
+   "stage": "Operating",
+   "owner": "Teck 100%",
+   "note": "Operating; 127 thousand tonnes produced in 2025. The Mine Life Extension (sanctioned 23 Jul 2025) is in execution and would extend life from 2028 to 2046 (Teck 2025 annual report, Feb 2026). Teck-Anglo merger was pending then. Anglo American and Teck have agreed to merge; as of 31 Aug 2026 the deal was still awaiting Chinese regulatory approval.",
+   "sources": [
+    {
+     "title": "Teck 2025 Annual Report (Form 6-K exhibit)",
+     "url": "https://www.sec.gov/Archives/edgar/data/886986/000095014226000706/eh260751304_ex9901.pdf"
+    },
+    {
+     "title": "Teck: Highland Valley Copper operation page",
+     "url": "https://www.teck.com/operations/canada/operations/highland-valley-copper"
+    },
+    {
+     "title": "Miningreporters: Glencore, Anglo-Teck merger and Collahuasi (31 Aug 2026)",
+     "url": "https://www.miningreporters.com/noticia/news/2026/08/glencore-anglo-teck-copper-merger-chile-collahuasi"
+    }
+   ],
+   "asOf": "2026-02"
+  },
+  "Red Chris|Canada": {
+   "stage": "Operating",
+   "owner": "Newmont (operator) and Imperial Metals 30%",
+   "note": "Operating open-pit mine. Key B.C. approvals for the planned block cave were received in June 2026; no final investment decision had been made as of Newmont's Q2 2026 release (23 Jul 2026). The Government of Canada committed $500 million (currency not stated in the source) to the block cave transition (3 Jul 2026); Newmont is completing a definitive feasibility study and the joint venture still needs internal approvals. Imperial's 30% is confirmed in Engineering News.",
+   "sources": [
+    {
+     "title": "Newmont Q2 2026 earnings release (Form 8-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001164727/000116472726000034/newmontq22026earningsrelea.htm"
+    },
+    {
+     "title": "Mining Weekly: Red Chris gets key approval for block cave transition, 22 Jun 2026",
+     "url": "https://www.miningweekly.com/article/newmonts-red-chris-mine-gets-key-approval-for-block-cave-transition-2026-06-22"
+    },
+    {
+     "title": "Engineering News: Newmont, Imperial bag support for Red Chris expansion (3 Jul 2026)",
+     "url": "https://www.engineeringnews.co.za/article/newmont-imperial-metals-bags-500m-canadian-gov-support-for-red-chris-expansion-2026-07-03"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Galore Creek|Canada": {
+   "stage": "Development",
+   "owner": "Newmont 50%; Teck 50%",
+   "note": "Per the Galore Creek Mining Corporation project sheet (file dated Apr 2026; page itself undated), an updated prefeasibility study is ongoing and the project holds an existing Environmental Assessment Certificate.",
+   "sources": [
+    {
+     "title": "Galore Creek Mining Corporation two-page project summary",
+     "url": "https://www.gcmc.ca/wp-content/uploads/2025/01/GCMC-2-Pager_20260407-compressed.pdf"
+    }
+   ],
+   "asOf": "2026-04"
+  },
+  "Mount Milligan|Canada": {
+   "stage": "Operating",
+   "owner": "Centerra Gold 100%",
+   "note": "Operating; Q2 2026 gold production 38,175 oz and copper 13.1 million lbs. A Sept 2025 pre-feasibility study extended mine life to 2045; a 10% throughput increase is planned from 2028 (Centerra Q2 2026).",
+   "sources": [
+    {
+     "title": "Centerra Gold Q2 2026 results release (Form 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001854640/000117184326004952/exh_991.htm"
+    },
+    {
+     "title": "Centerra Gold: Mount Milligan operation page",
+     "url": "https://www.centerragold.com/operations/mount-milligan/"
+    }
+   ],
+   "asOf": "2026-07"
+  },
+  "Gibraltar|Canada": {
+   "stage": "Operating",
+   "owner": "Taseko Mines Limited (described as the wholly-owned Gibraltar mine in its Q1 2026 MD&A)",
+   "note": "Operating; Q1 2026 copper production was 29.9 million lbs, and 2026 guidance is 110 to 115 million lbs (Taseko Q1 2026 MD&A). Taseko agreed in 2024 to buy the remaining 12.5% from Dowa and Furukawa.",
+   "sources": [
+    {
+     "title": "Taseko Mines Q1 2026 MD&A (Form 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000878518/000106299326002375/exhibit99-2.htm"
+    },
+    {
+     "title": "Taseko news release: Taseko acquires 100% of Gibraltar Mine, 25 Mar 2024",
+     "url": "https://www.trekormetals.com/investors/news/taseko-acquires-100-of-gibraltar-mine"
+    }
+   ],
+   "asOf": "2026-05"
+  },
+  "Grasberg|Indonesia": {
+   "stage": "Operating",
+   "owner": "Freeport-McMoRan 48.76%; MIND ID and PT Indonesia Papua Metal Dan Mineral 51.24% combined (PT Freeport Indonesia)",
+   "note": "Operating; block cave restarting after the Sept 2025 mud rush. Q3 2026 mill ore averaged about 140,000 t/d, roughly 67% of pre-incident rates; smelter restarted late Aug 2026 (FCX, 2 Oct 2026).",
+   "sources": [
+    {
+     "title": "Freeport-McMoRan Form 8-K, 2 Oct 2026",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000831259/000083125926000043/fcx_261002.htm"
+    },
+    {
+     "title": "Freeport-McMoRan Form 10-K for FY2025",
+     "url": "https://www.sec.gov/Archives/edgar/data/831259/000083125926000012/fcx-20251231.htm"
+    }
+   ],
+   "asOf": "2026-10-02"
+  },
+  "Oyu Tolgoi|Mongolia": {
+   "stage": "Operating",
+   "owner": "Rio Tinto 66%; Erdenes Oyu Tolgoi (Government of Mongolia) 34%",
+   "note": "Operating; underground ramp-up continues. Rio Tinto reported H1 2026 copper in concentrates of 198.5 kt and says ramp-up is on track (Q2 2026 results, 15 Jul 2026).",
+   "sources": [
+    {
+     "title": "Rio Tinto second quarter 2026 production results (Form 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000863064/000086306426000035/ex991results.htm"
+    },
+    {
+     "title": "Mining.com: Rio Tinto secures direct control of Oyu Tolgoi (Dec 2022)",
+     "url": "https://www.mining.com/rio-tinto-secures-direct-control-of-oyu-tolgoi-mine/"
+    },
+    {
+     "title": "Rio Tinto 6-K, 30 Jun 2026 (ownership 66% / 34%; shareholder loan rate)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0000863064/000086306426000033/ex9d30mongolialoanrate_mr.htm"
+    }
+   ],
+   "asOf": "2026-07-15"
+  },
+  "Batu Hijau|Indonesia": {
+   "stage": "Operating",
+   "owner": "PT Amman Mineral Nusa Tenggara (AMNT), a subsidiary of PT Amman Mineral Internasional Tbk; percentages not stated",
+   "note": "Operating. Phase 8 mining began in 2025 and is expected to extend mine life to 2030 (2025 annual report). A Sept 2026 report on H1 2026 results says mine life ends 2031-2032, with stockpile processing after.",
+   "sources": [
+    {
+     "title": "PT Amman Mineral Internasional 2025 annual report",
+     "url": "https://minedocs.com/33/PT-Amman-Mineral-AR-2025.pdf"
+    },
+    {
+     "title": "IDN Financials: AMMN H1 2026 results, Elang to replace Batu Hijau (21 Sep 2026)",
+     "url": "https://www.idnfinancials.com/news/69169/ammn-profit-soars-435-prepares-elang-to-replace-batu-hijau"
+    }
+   ],
+   "asOf": "2026-09-21"
+  },
+  "Elang-Dodo|Indonesia": {
+   "stage": "Development",
+   "owner": "PT Amman Mineral Nusa Tenggara (AMNT), a subsidiary of PT Amman Mineral Internasional Tbk; percentages not stated",
+   "note": "AMNT is developing Elang as Batu Hijau's successor. A Sept 2026 report on H1 2026 results says a JORC update was done in Q3 2026, final investment decision is targeted for 2027 and first ore for 2031-2032.",
+   "sources": [
+    {
+     "title": "PT Amman Mineral Internasional 2025 annual report",
+     "url": "https://minedocs.com/33/PT-Amman-Mineral-AR-2025.pdf"
+    },
+    {
+     "title": "IDN Financials: AMMN H1 2026 results, Elang to replace Batu Hijau (21 Sep 2026)",
+     "url": "https://www.idnfinancials.com/news/69169/ammn-profit-soars-435-prepares-elang-to-replace-batu-hijau"
+    }
+   ],
+   "asOf": "2026-09-21"
+  },
+  "Tampakan Group|Philippines": {
+   "stage": "Development",
+   "owner": "Sagittarius Mines Inc. holds the FTAA; percentages not stated. Dominion Holdings merger would give it 100% of voting rights in SMI (pending approval)",
+   "note": "Undeveloped deposit. Dominion Holdings shareholders approved a merger on 14 Sep 2026 to take control of Sagittarius Mines; SEC approval is pending. Oct 2025: developer was seeking a partner, production not expected before 2028.",
+   "sources": [
+    {
+     "title": "Context.ph: Dominion shareholders clear merger for Tampakan control (15 Sep 2026)",
+     "url": "https://context.ph/2026/09/15/dominion-shareholders-clear-merger-for-tampakan-control/"
+    },
+    {
+     "title": "Context.ph: Dominion board approves merger with Tampakan project owner (20 Aug 2026)",
+     "url": "https://context.ph/2026/08/20/dominion-holdings-board-approves-merger-with-tampakan-copper-gold-project-owner/"
+    },
+    {
+     "title": "Mining.com: Sagittarius seeks partner for Tampakan (22 Oct 2025)",
+     "url": "https://www.mining.com/?p=1191206"
+    }
+   ],
+   "asOf": "2026-09-15"
+  },
+  "Golpu (Wafi epithermal)|Papua New Guinea": {
+   "stage": "Permitting",
+   "owner": "Harmony Gold 35%; Newmont 35%; PNG 30% (per Miningmx; PNG described as holding an option to buy up to 30% from the partners) (single press source; confirm against company filings)",
+   "note": "Special mining lease not yet granted after nearly 18 years; a government-led mediation process is under way. Miningmx says production would be 2031 at the earliest if the lease were awarded in 2026 (25 Mar 2026).",
+   "sources": [
+    {
+     "title": "Miningmx: Harmony Gold seeks end to 18-year PNG deadlock (25 Mar 2026)",
+     "url": "https://miningmx.com/news/gold/2026-03-25-harmony-gold-seeks-end-to-18-year-png-deadlock/"
+    }
+   ],
+   "asOf": "2026-03-25"
+  },
+  "Frieda River|Papua New Guinea": {
+   "stage": "Permitting",
+   "owner": "PanAust, a subsidiary of Guangdong Rising Holding Group; percentages not stated",
+   "note": "PanAust is preparing a Special Mining Lease application; six environmental permits were reported awarded. Plans cited: detailed design by 2028, construction in 2029, ore production in 2035 (Business Advantage PNG, Oct 2025).",
+   "sources": [
+    {
+     "title": "Business Advantage PNG: PanAust Frieda River (15 Oct 2025)",
+     "url": "https://www.businessadvantagepng.com/?p=45023"
+    },
+    {
+     "title": "MRA and PanAust joint press release (30 Oct 2023)",
+     "url": "https://mra.gov.pg/?p=23500"
+    }
+   ],
+   "asOf": "2025-10-15"
+  },
+  "Panguna-Bougainville|Papua New Guinea": {
+   "stage": "Exploration",
+   "owner": "Bougainville Copper Limited (holder of EL01); BCL shares: ABG owns or controls about 72.9%",
+   "note": "ABG's registrar told BCL in June 2026 that its rights under the exploration licence are suspended under new mining law; a 25-year mining licence went to Bougainville Minerals Ltd. BCL is considering its position.",
+   "sources": [
+    {
+     "title": "Asia Pacific Report: BCL takes stock after Panguna licence setback (23 Jun 2026)",
+     "url": "https://asiapacificreport.nz/2026/06/23/bougainville-copper-limited-takes-stock-after-panguna-licence-setback/"
+    },
+    {
+     "title": "Bougainville Copper Ltd ASX announcement incl. Appendix 4E (2 Mar 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260303/pdf/06x012kz9991jd.pdf"
+    }
+   ],
+   "asOf": "2026-06-23"
+  },
+  "Cadia East-Cadia Far East|Australia": {
+   "stage": "Operating",
+   "owner": "Newmont 100%",
+   "note": "Operating. A seismic event on 19 Jun 2026 led to evacuation of underground staff with no injuries reported; operations resumed over the weekend after a staged restart (Newmont, 21 Jun 2026). Q2 2026 output was 34 koz gold and 7 kt copper. Panel Cave 1-2 development is under way.",
+   "sources": [
+    {
+     "title": "Newmont operations: Cadia",
+     "url": "https://operations.newmont.com/australia/cadia"
+    },
+    {
+     "title": "Newmont Q2 2026 operating statistics",
+     "url": "https://s24.q4cdn.com/382246808/files/doc_earnings/2026/q2/generic/Newmont-Q2-2026-Operating-Statistics_Final.pdf"
+    },
+    {
+     "title": "Newmont: Update on Cadia Operations (21 Jun 2026)",
+     "url": "https://www.newmont.com/investors/news-release/news-details/2026/Update-on-Cadia-Operations/default.aspx"
+    }
+   ],
+   "asOf": "2026-06-21"
+  },
+  "Northparkes district (includes Endeavour -22 -26 -27 and -48)|Australia": {
+   "stage": "Operating",
+   "owner": "Evolution Mining 80%",
+   "note": "Operating. Production from the E48 sub-level cave has started; the Board approved E22 block cave development in Feb 2026 (Evolution FY26 results, 19 Aug 2026).",
+   "sources": [
+    {
+     "title": "Evolution Mining FY26 full year results, ASX announcement (19 Aug 2026)",
+     "url": "https://announcements.asx.com.au/asxpdf/20260819/pdf/072xcrcr9rmwyt.pdf"
+    }
+   ],
+   "asOf": "2026-08-19"
+  },
+  "Kalmakyr (Almalyk district)|Uzbekistan": {
+   "stage": "Operating",
+   "owner": "Almalyk Mining and Metallurgical Complex (Almalyk MMC); percentages not stated",
+   "note": "Company page describes Kalmakyr as its main open-pit mine, with 35.8 Mt of ore mined in 2023. Interfax reported a new 60 Mtpa-ore copper concentrator launched in Mar 2026 at Almalyk.",
+   "sources": [
+    {
+     "title": "Almalyk MMC: Kalmakyr mine page",
+     "url": "https://agmk.uz/en/news/kombinatning-qalmoqqiri"
+    },
+    {
+     "title": "Interfax: Almalyk copper plant launch (16 Mar 2026)",
+     "url": "https://interfax.com/newsroom/top-stories/116637/"
+    }
+   ],
+   "asOf": "2026-03-16"
+  },
+  "Aktogay (Aktogai)|Kazakhstan": {
+   "stage": "Operating",
+   "owner": "KAZ Minerals International FZCO (Dubai-registered operator per its report); ownership percentages not stated",
+   "note": "Operating. Aktogay H1 2026 payable copper was 114.3 kt; Q2 2026 output rose 5% on the prior quarter on higher throughput (KAZ Minerals Q2 2026 production report, 11 Aug 2026).",
+   "sources": [
+    {
+     "title": "KAZ Minerals Q2 2026 production report (11 Aug 2026)",
+     "url": "https://www.kazminerals.com/app/uploads/2026/08/KAZ-Minerals_-Q2-2026-Production-Report_ENG.pdf"
+    }
+   ],
+   "asOf": "2026-08-11"
+  },
+  "Bozshakol (Boshchekul)|Kazakhstan": {
+   "stage": "Operating",
+   "owner": "KAZ Minerals International FZCO (Dubai-registered operator per its report); ownership percentages not stated",
+   "note": "Operating. Bozshakol H1 2026 payable copper was 44.7 kt; output was 6% below H1 2025 on lower processing volumes (KAZ Minerals Q2 2026 production report, 11 Aug 2026).",
+   "sources": [
+    {
+     "title": "KAZ Minerals Q2 2026 production report (11 Aug 2026)",
+     "url": "https://www.kazminerals.com/app/uploads/2026/08/KAZ-Minerals_-Q2-2026-Production-Report_ENG.pdf"
+    }
+   ],
+   "asOf": "2026-08-11"
+  },
+  "Reko Diq|Pakistan": {
+   "stage": "Under construction",
+   "owner": "Barrick 50%; Government of Balochistan 25% (15% fully funded, 10% free carried); three federal state-owned enterprises 25% combined",
+   "note": "Under construction at a reduced pace. On 2 Apr 2026 Barrick said it would slow development and continue the project review until mid-2027, covering security, capital, financing, scope and timeline, and expects significant increases to the capital budget and timeline. Earlier targets were first production at end-2028. On 30 Sep 2026 the CEO said security needs to improve before full construction proceeds; no new timeline given. On 10 May 2026 Pakistan's information ministry said Barrick's chairman reaffirmed commitment to the project.",
+   "asOf": "2026-10-01",
+   "sources": [
+    {
+     "title": "Barrick: Reko Diq operation page",
+     "url": "https://www.barrick.com/English/operations/reko-diq/default.aspx"
+    },
+    {
+     "title": "Barrick: Barrick Provides an Update on Reko Diq (2 Apr 2026)",
+     "url": "https://www.barrick.com/English/news/news-details/2026/barrick-provides-an-update-on-reko-diq/default.aspx"
+    },
+    {
+     "title": "ProPakistani: Barrick delays full Reko Diq construction over security concerns (30 Sep 2026)",
+     "url": "https://propakistani.pk/2026/09/30/barrick-delays-full-reko-diq-construction-over-security-concerns/"
+    },
+    {
+     "title": "Arab News: Pakistan says Barrick has reaffirmed commitment to Reko Diq (10 May 2026)",
+     "url": "https://www.arabnews.pk/node/2643052"
+    }
+   ]
+  },
+  "Saindak (Sindak)|Pakistan": {
+   "stage": "Operating",
+   "owner": "Saindak Metals Limited (government-owned); operated by MCC (China) under a lease first signed in 2001 and extended in 2022. No ownership percentages published in the sources read",
+   "note": "Operating, but under security pressure. A letter dated 29 Jun 2026 from the managing director reportedly warned the energy ministry that operations could become unsustainable within about a month because insurgent violence was disrupting supply routes. The operator called the shutdown report factually incorrect and said no shutdown is possible; the government ordered extra security (Reuters/Arab News, 15 Jul 2026). Output figures were not published. Most production is exported to China.",
+   "asOf": "2026-07-15",
+   "sources": [
+    {
+     "title": "Arab News / Reuters: Pakistan pledges more security for China-run mine (15 Jul 2026)",
+     "url": "https://www.arabnews.pk/pakistan/pakistan-pledges-more-security-for-china-run-mine-after-insurgency-warning-2651035"
+    },
+    {
+     "title": "Miningmx: Insurgency threatens major China-backed Pakistan mine",
+     "url": "https://www.miningmx.com/trending/65908-insurgency-threatens-major-china-backed-pakistan-mine/"
+    },
+    {
+     "title": "Profit: ECC allows extension of lease for Saindak Copper Gold Project (2022)",
+     "url": "https://profit.pakistantoday.com.pk/?p=137918"
+    }
+   ]
+  }
+ }
+}
