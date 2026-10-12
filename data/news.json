@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T14:43:15.347Z",
+ "updated": "2026-10-12T15:38:47.018Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 116
+   "seen": 123
   },
   {
    "source": "Pakistan Observer",
@@ -195,7 +195,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -243,17 +243,33 @@
  ],
  "items": [
   {
-   "title": "Eldorado Gold’s Skouries Mine designated as a strategic project under the EU Critical Raw Materials Act",
-   "link": "https://www.globalminingreview.com/mining/12102026/eldorado-golds-skouries-mine-designated-as-a-strategic-project-under-the-eu-critical-raw-materials-act/",
+   "title": "Spotlight: Exploration in Quebec",
+   "link": "https://www.northernminer.com/news/spotlight-exploration-in-quebec/1003895623/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T15:00:00.000Z",
-   "summary": "Eldorado Gold Corporation has announced that the European Commission has designated its Skouries copper-gold mine in northern Greece as a Strategic Project under the European Union’s Critical Raw Materials Act.",
+   "date": "2026-10-12T15:15:54.000Z",
+   "summary": "Quebec accounts for about 20% of Canada’s mining production and has some of the most diverse mineral resources in North America. Here’s a look at four companies with interesting projects...",
    "image": null,
-   "source": "Global Mining Review",
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold",
@@ -268,20 +284,45 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Eldorado Gold’s Skouries Mine designated as a strategic project under the EU Critical Raw Materials Act",
+   "link": "https://www.globalminingreview.com/mining/12102026/eldorado-golds-skouries-mine-designated-as-a-strategic-project-under-the-eu-critical-raw-materials-act/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T15:00:00.000Z",
+   "summary": "Eldorado Gold Corporation has announced that the European Commission has designated its Skouries copper-gold mine in northern Greece as a Strategic Project under the European Union’s Critical Raw Materials Act.",
+   "image": null,
+   "source": "Global Mining Review",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Gold remains under pressure as Middle East tensions persist",
-   "link": "https://www.miningweekly.com/article/gold-remains-under-pressure-as-middle-east-tensions-persist-2026-10-12",
+   "title": "Women hold just 12% of top mining jobs in Australia: report",
+   "link": "https://www.mining.com/women-hold-just-12-of-top-mining-jobs-in-australia-report/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-12T14:12:00.000Z",
-   "summary": "Precious metals and technology company Heraeus Precious Metals says gold has remained under pressure as continued tensions in the Middle East push oil prices higher. In its latest ‘Precious Appraisal’, Heraeus notes that the gold price has...",
+   "date": "2026-10-12T15:00:00.000Z",
+   "summary": "Research exposes a leadership gap in mining despite faster promotions for women and potential financial gains.",
    "image": null,
-   "source": "Mining Weekly",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold"
@@ -295,6 +336,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold remains under pressure as Middle East tensions persist",
+   "link": "https://www.miningweekly.com/article/gold-remains-under-pressure-as-middle-east-tensions-persist-2026-10-12",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T14:12:00.000Z",
+   "summary": "Precious metals and technology company Heraeus Precious Metals says gold has remained under pressure as continued tensions in the Middle East push oil prices higher. In its latest ‘Precious Appraisal’, Heraeus notes that the gold price has...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -350,6 +400,33 @@
    "press": false
   },
   {
+   "title": "Lynas plans Brazil rare earths plant with state support",
+   "link": "https://www.mining.com/lynas-plans-brazil-rare-earths-plant-with-state-support/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T12:45:00.000Z",
+   "summary": "Brazilian officials see the proposed separation facility as a regional processing hub, with BNDES considering financing.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
    "provinces": [],
@@ -402,17 +479,8 @@
    "press": false
   },
   {
-   "title": "Governments turn mining data into billions in revenue",
-   "link": "https://www.mining.com/governments-turn-mining-data-into-billions-in-revenue/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T11:30:00.000Z",
-   "summary": "Transparency rules are reshaping mining deals, exposing illicit flows and giving governments more leverage over resource wealth.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -424,6 +492,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Governments turn mining data into billions in revenue",
+   "link": "https://www.mining.com/governments-turn-mining-data-into-billions-in-revenue/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T11:30:00.000Z",
+   "summary": "Transparency rules are reshaping mining deals, exposing illicit flows and giving governments more leverage over resource wealth.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
