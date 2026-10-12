@@ -103,3 +103,7 @@ To see all Balochistan stories from a regional feed, not only mining ones, set t
 - Only headlines, ~240-character excerpts and links are stored, not full articles.
 - The mining keyword list and the province place names are in `scripts/fetch-news.mjs`. Add terms there if you see stories being missed or wrongly included.
 - Some publishers change their feed addresses. If a source stops appearing, check its status line and update the `url`.
+
+### Porphyry map
+
+The map is interactive (Leaflet 1.9.4, loaded from unpkg with integrity hashes the first time the tab opens). Basemaps are OpenStreetMap and Esri World Imagery (satellite), each with its attribution shown on the map. Each deposit links to Google Earth and Google Maps, and "Download for Google Earth (KML)" exports the deposits currently selected. If the library cannot be loaded (for example a blocked network), the page falls back to a simple built-in map without zoom.
