@@ -5,6 +5,8 @@
   "type": "module",
   "scripts": {
     "fetch": "node scripts/fetch-news.mjs",
+    "prices": "node scripts/fetch-prices.mjs --force",
+    "porphyry": "node scripts/build-porphyry.mjs",
     "serve": "npx --yes serve ."
   },
   "dependencies": {
