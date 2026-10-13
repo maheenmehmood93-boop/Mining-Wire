@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T20:51:28.443Z",
+ "updated": "2026-10-13T21:46:50.445Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 93
+   "seen": 95
   },
   {
    "source": "Pakistan Observer",
@@ -269,17 +269,8 @@
    "press": false
   },
   {
-   "title": "Women hold just 12% of top Australian mining jobs",
-   "link": "https://www.northernminer.com/news/women-hold-just-12-of-top-australian-mining-jobs/1003895690/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T19:30:15.000Z",
-   "summary": "Women in Australia’s mining industry are promoted at higher rates than men but remain underrepresented in its most senior leadership positions, according to new research released Tuesday. CEO and head-of-business...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Women hold just 12% of top Australian mining jobs",
+   "link": "https://www.northernminer.com/news/women-hold-just-12-of-top-australian-mining-jobs/1003895690/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T19:30:15.000Z",
+   "summary": "Women in Australia’s mining industry are promoted at higher rates than men but remain underrepresented in its most senior leadership positions, according to new research released Tuesday. CEO and head-of-business...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -450,6 +450,33 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "SSR to buy Roxmore for $464M, boosts value of Nevada gold mine",
+   "link": "https://www.mining.com/ssr-to-buy-roxmore-for-464m-boosts-value-of-nevada-gold-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T17:59:12.000Z",
+   "summary": "The deal would strengthen SSR’s position among the largest US gold producers while building a long-term production hub in Nevada.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
