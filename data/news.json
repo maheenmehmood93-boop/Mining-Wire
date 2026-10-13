@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T23:33:53.054Z",
+ "updated": "2026-10-13T00:49:25.387Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -61,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -160,7 +160,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Hertha Metals breaks ground on $100M US commercial plant for magnet-grade iron",
-   "link": "https://www.mining.com/hertha-metals-breaks-ground-on-100m-us-commercial-plant-for-magnet-grade-iron/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T23:27:42.000Z",
-   "summary": "The plant will run on domestic iron ore, primarily from Minnesota's Iron Range, and Texas natural gas.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -267,20 +258,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Hertha Metals breaks ground on $100M US plant for magnet-grade iron",
+   "link": "https://www.mining.com/hertha-metals-breaks-ground-on-100m-us-commercial-plant-for-magnet-grade-iron/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T23:27:42.000Z",
+   "summary": "The plant will run on domestic iron ore, primarily from Minnesota's Iron Range, and Texas natural gas.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "BLF Claims Three Pakistani Soldiers Killed in 10 Operations, Pays Tribute to 14 Fighters",
-   "link": "https://thebalochistanpost.net/2026/10/blf-claims-three-pakistani-soldiers-killed-in-10-operations-pays-tribute-to-14-fighters/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-12T22:21:57.000Z",
-   "summary": "The Balochistan Liberation Front (BLF) on Sunday claimed responsibility for 10 operations across Balochistan, saying three Pakistani military personnel were killed, while its women’s unit joined a highway blockade in Chagai and several...",
-   "image": null,
-   "source": "The Balochistan Post",
    "section": "Balochistan",
    "scope": "National",
-   "region": "Balochistan",
    "provinces": [
     "Balochistan"
    ],
@@ -294,6 +285,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "BLF Claims Three Pakistani Soldiers Killed in 10 Operations, Pays Tribute to 14 Fighters",
+   "link": "https://thebalochistanpost.net/2026/10/blf-claims-three-pakistani-soldiers-killed-in-10-operations-pays-tribute-to-14-fighters/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-12T22:21:57.000Z",
+   "summary": "The Balochistan Liberation Front (BLF) on Sunday claimed responsibility for 10 operations across Balochistan, saying three Pakistani military personnel were killed, while its women’s unit joined a highway blockade in Chagai and several...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "region": "Balochistan",
    "press": false
   },
   {
