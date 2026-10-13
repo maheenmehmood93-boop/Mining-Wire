@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T05:37:32.350Z",
+ "updated": "2026-10-13T06:47:08.837Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -60,7 +61,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -139,7 +140,7 @@
    "section": "Pakistan",
    "ok": true,
    "items": 1,
-   "seen": 37
+   "seen": 38
   },
   {
    "source": "The Express Tribune",
@@ -159,7 +160,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 99
+   "seen": 106
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +242,56 @@
   }
  ],
  "items": [
+  {
+   "title": "Australian shares slip as miners, tech stocks drag; RBA minutes in focus",
+   "link": "https://www.brecorder.com/news/40443963/australian-shares-slip-as-miners-tech-stocks-drag-rba-minutes-in-focus",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T06:17:16.000Z",
+   "summary": "Australian shares inched lower on Tuesday, dragged down by losses in miners and technology stocks, as investors awaited minutes from the Reserve Bank of Australia’s September meeting for clues on the interest-rate outlook. The S&P/ASX 200...",
+   "image": "https://i.brecorder.com/large/2026/10/131117083be2d8c.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "AusIMM’s Australian Mining Week to showcase Australia’s global resources leadership",
+   "link": "https://im-mining.com/2026/10/13/ausimms-australian-mining-week-to-showcase-australias-global-resources-leadership/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T05:01:17.000Z",
+   "summary": "AusIMM’s annual flagship Australian Mining Week has commenced in London, convening decision makers and executives from global mining, finance, government and advisory organisations to showcase Australia’s resources leadership and expertise...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
