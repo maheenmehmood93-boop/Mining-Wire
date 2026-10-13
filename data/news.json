@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T12:47:27.862Z",
+ "updated": "2026-10-13T13:44:03.442Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 140
+   "seen": 141
   },
   {
    "source": "Pakistan Observer",
@@ -242,20 +242,20 @@
  ],
  "items": [
   {
-   "title": "Lux seeks $7M to advance Quebec gold project",
-   "link": "https://www.northernminer.com/news/lux-seeks-7m-to-advance-quebec-gold-project/1003895656/",
+   "title": "Hindalco partners with Vi Buisness to deploy private network at Baphlimali mine",
+   "link": "https://im-mining.com/2026/10/13/hindalco-partners-with-vi-buisness-to-deploy-private-network-at-baphlimali-mine/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-13T12:45:47.000Z",
-   "summary": "Lux Metals (TSXV: LXM) is planning to seek about $7 million (US$5 million) in flow-through financing this fall to carry its La Grande gold project in northern Quebec towards a...",
+   "date": "2026-10-13T13:31:46.000Z",
+   "summary": "Vi Business, the enterprise arm of leading telecom operator Vi, has announced a strategic partnership with Hindalco Industries Limited, a global leader in aluminium and copper, to deploy a dedicated private network at Hindalco’s Baphlimali...",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
    "provinces": [],
    "tags": [
-    "Gold"
+    "Copper"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -269,17 +269,62 @@
    "press": false
   },
   {
-   "title": "TRIM upgrading critical infrastructure on the iron-ore export line",
-   "link": "https://www.miningweekly.com/article/trim-upgrading-critical-infrastructure-on-the-iron-ore-export-line-2026-10-13",
+   "title": "Neotech Metals appoints DRA for Hecla-Kilmer resource estimate",
+   "link": "https://www.mining-technology.com/news/neotech-dra-hecla-kilmer-resource-estimate/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-13T12:09:00.000Z",
-   "summary": "The State-owned Transnet Rail Infrastructure Manager (TRIM) says extensive maintenance and renewal work is under way along the 861 km iron-ore export line stretching from Sishen, in the Northern Cape, to the Port of Saldanha Bay, in the...",
-   "image": null,
-   "source": "Mining Weekly",
+   "date": "2026-10-13T13:05:15.000Z",
+   "summary": "Neotech Metals has signed an agreement with DRA Global to carry out the first National Instrument 43-101 compliant mineral resource estimate (MRE) and a preliminary economic assessment (PEA) for its Hecla-Kilmer Rare Earth project in...",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-5-13Oct26-shutterstock_2363395167-6.jpg",
+   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Lux seeks $7M to advance Quebec gold project",
+   "link": "https://www.northernminer.com/news/lux-seeks-7m-to-advance-quebec-gold-project/1003895656/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T12:45:47.000Z",
+   "summary": "Lux Metals (TSXV: LXM) is planning to seek about $7 million (US$5 million) in flow-through financing this fall to carry its La Grande gold project in northern Quebec towards a...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,6 +336,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "TRIM upgrading critical infrastructure on the iron-ore export line",
+   "link": "https://www.miningweekly.com/article/trim-upgrading-critical-infrastructure-on-the-iron-ore-export-line-2026-10-13",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T12:09:00.000Z",
+   "summary": "The State-owned Transnet Rail Infrastructure Manager (TRIM) says extensive maintenance and renewal work is under way along the 861 km iron-ore export line stretching from Sishen, in the Northern Cape, to the Port of Saldanha Bay, in the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -318,6 +372,33 @@
    "image": "https://i.brecorder.com/large/2026/10/13160225504ec85.webp",
    "source": "Business Recorder",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "title": "Chile copper supply under pressure as disruptions mount",
+   "link": "https://www.mining.com/chile-copper-supply-under-pressure-as-disruptions-mount/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T11:01:00.000Z",
+   "summary": "Extreme weather, labour disputes and operational setbacks are testing Chile's copper industry as analysts question price gains.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
