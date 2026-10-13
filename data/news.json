@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T22:46:52.218Z",
+ "updated": "2026-10-13T23:42:46.005Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -158,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -234,23 +235,15 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   }
  ],
  "items": [
   {
-   "title": "Electra Battery Materials partners with WMC to finance Ontario cobalt refinery",
-   "link": "https://www.mining.com/electra-battery-materials-partners-with-wmc-to-finance-ontario-cobalt-refinery/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T21:47:16.000Z",
-   "summary": "Electra last year launched an early works program, signaling a restart of North America’s first and only cobalt sulfate refinery.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Cobalt"
@@ -264,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Electra Battery Materials partners with WMC to finance Ontario cobalt refinery",
+   "link": "https://www.mining.com/electra-battery-materials-partners-with-wmc-to-finance-ontario-cobalt-refinery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T21:47:16.000Z",
+   "summary": "Electra last year launched an early works program, signaling a restart of North America’s first and only cobalt sulfate refinery.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
