@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T21:46:50.445Z",
+ "updated": "2026-10-13T22:46:52.218Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,9 +32,8 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": true,
-   "items": 12,
-   "seen": 12
+   "ok": false,
+   "error": "HTTP 415"
   },
   {
    "source": "Mining Weekly",
@@ -60,7 +59,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -235,12 +234,38 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "HTTP 415"
   }
  ],
  "items": [
+  {
+   "title": "Electra Battery Materials partners with WMC to finance Ontario cobalt refinery",
+   "link": "https://www.mining.com/electra-battery-materials-partners-with-wmc-to-finance-ontario-cobalt-refinery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T21:47:16.000Z",
+   "summary": "Electra last year launched an early works program, signaling a restart of North America’s first and only cobalt sulfate refinery.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Cobalt"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -453,17 +478,8 @@
    "press": false
   },
   {
-   "title": "SSR to buy Roxmore for $464M, boosts value of Nevada gold mine",
-   "link": "https://www.mining.com/ssr-to-buy-roxmore-for-464m-boosts-value-of-nevada-gold-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T17:59:12.000Z",
-   "summary": "The deal would strengthen SSR’s position among the largest US gold producers while building a long-term production hub in Nevada.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -477,6 +493,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "SSR to buy Roxmore for $464M, boosts value of Nevada gold mine",
+   "link": "https://www.mining.com/ssr-to-buy-roxmore-for-464m-boosts-value-of-nevada-gold-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T17:59:12.000Z",
+   "summary": "The deal would strengthen SSR’s position among the largest US gold producers while building a long-term production hub in Nevada.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
