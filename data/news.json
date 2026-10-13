@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T10:38:46.466Z",
+ "updated": "2026-10-13T11:37:31.471Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 127
+   "seen": 134
   },
   {
    "source": "Pakistan Observer",
@@ -242,19 +242,21 @@
  ],
  "items": [
   {
-   "title": "Haultrax HX Coach brings operational coaching insights into its FMS",
-   "link": "https://im-mining.com/2026/10/13/haultrax-hx-coach-brings-operational-coaching-insights-into-its-fms/",
+   "title": "Copper edges up on mine supply disruption, tight stocks",
+   "link": "https://www.brecorder.com/news/40444002/copper-edges-up-on-mine-supply-disruption-tight-stocks",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-13T10:21:41.000Z",
-   "summary": "For more than 15 years, Haultrax says it has worked alongside mining operations to improve the way their fleets perform, combining technology with on-site operational expertise, coaching and training. Now, the company is bringing that...",
-   "image": null,
-   "source": "International Mining",
+   "date": "2026-10-13T11:02:38.000Z",
+   "summary": "Copper prices rose for a third straight session on Tuesday as persistent concerns over a supply shortage kept the metal within striking distance of an all-time peak. Benchmark three-month copper on the London Metal Exchange was up 0.1% at...",
+   "image": "https://i.brecorder.com/large/2026/10/13160225504ec85.webp",
+   "source": "Business Recorder",
    "section": "",
-   "scope": "International",
-   "region": "Global",
+   "scope": "National",
+   "region": "Pakistan",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Copper"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -267,14 +269,14 @@
    "press": false
   },
   {
-   "title": "First Au signs binding deal to buy Ida Valley gold project",
-   "link": "https://www.mining-technology.com/news/first-au-to-buy-ida-valley-project/",
+   "title": "EPC Groupe expands activities in Senegal via major contract with Sabodala mine",
+   "link": "https://im-mining.com/2026/10/13/epc-groupe-expands-activities-in-senegal-via-major-contract-with-sabodala-mine/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-13T09:49:03.000Z",
-   "summary": "First Au has signed a binding agreement to acquire the Ida Valley Project, consisting of two gold exploration tenements in Western Australia.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-13Oct26-shutterstock_2763654033.jpg",
-   "source": "Mining Technology",
+   "date": "2026-10-13T10:55:50.000Z",
+   "summary": "EPC Groupe has announced that EPC Mineex Sénégal has been awarded a contract for the supply of explosives and associated services for Endeavour’s Sabodala mine, one of the largest gold mines in West Africa. Under this contract, worth...",
+   "image": null,
+   "source": "International Mining",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -294,17 +296,60 @@
    "press": false
   },
   {
-   "title": "South Africa's August mining output down 12.7% y/y on lower PGMs, coal, iron-ore production",
-   "link": "https://www.miningweekly.com/article/south-africas-august-mining-output-down-127-yy-on-the-back-of-lower-pgms-coal-iron-ore-prroduction-2026-10-13",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T09:43:00.000Z",
-   "summary": "Statistics South Africa (Stats SA) reports that the country's mining production decreased by 12.7% year-on-year in August, with platinum group metals (PGMs), coal and iron-ore having made the largest negative contributions. PGMs production...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Haultrax HX Coach brings operational coaching insights into its FMS",
+   "link": "https://im-mining.com/2026/10/13/haultrax-hx-coach-brings-operational-coaching-insights-into-its-fms/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T10:21:41.000Z",
+   "summary": "For more than 15 years, Haultrax says it has worked alongside mining operations to improve the way their fleets perform, combining technology with on-site operational expertise, coaching and training. Now, the company is bringing that...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "First Au signs binding deal to buy Ida Valley gold project",
+   "link": "https://www.mining-technology.com/news/first-au-to-buy-ida-valley-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T09:49:03.000Z",
+   "summary": "First Au has signed a binding agreement to acquire the Ida Valley Project, consisting of two gold exploration tenements in Western Australia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-13Oct26-shutterstock_2763654033.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Coal",
@@ -319,20 +364,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "South Africa's August mining output down 12.7% y/y on lower PGMs, coal, iron-ore production",
+   "link": "https://www.miningweekly.com/article/south-africas-august-mining-output-down-127-yy-on-the-back-of-lower-pgms-coal-iron-ore-prroduction-2026-10-13",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T09:43:00.000Z",
+   "summary": "Statistics South Africa (Stats SA) reports that the country's mining production decreased by 12.7% year-on-year in August, with platinum group metals (PGMs), coal and iron-ore having made the largest negative contributions. PGMs production...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Canadian miner Green Shift sells Los Altares uranium project to fellow Canadian miner",
-   "link": "https://www.miningweekly.com/article/canadian-miner-green-shift-sells-los-altares-uranium-project-to-fellow-canadian-miner-2026-10-13",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T09:40:00.000Z",
-   "summary": "Canadian miners Green Shift Commodities and Myriad Uranium Corporation have reached a definitive share purchase agreement whereby Myriad will acquire all of the issued and outstanding shares of Buenavida Metales, Green Shift's wholly-owned...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -346,6 +391,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Canadian miner Green Shift sells Los Altares uranium project to fellow Canadian miner",
+   "link": "https://www.miningweekly.com/article/canadian-miner-green-shift-sells-los-altares-uranium-project-to-fellow-canadian-miner-2026-10-13",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T09:40:00.000Z",
+   "summary": "Canadian miners Green Shift Commodities and Myriad Uranium Corporation have reached a definitive share purchase agreement whereby Myriad will acquire all of the issued and outstanding shares of Buenavida Metales, Green Shift's wholly-owned...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
