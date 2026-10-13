@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T18:44:59.286Z",
+ "updated": "2026-10-13T19:48:59.624Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 175
+   "seen": 93
   },
   {
    "source": "Pakistan Observer",
@@ -242,37 +242,12 @@
  ],
  "items": [
   {
-   "title": "JPMorgan names critical minerals chief for $1.5T push",
-   "link": "https://www.northernminer.com/news/jpmorgan-names-critical-minerals-chief-for-1-5t-push/1003895681/",
+   "title": "Colorado summit video: Hathaway puts reserves first",
+   "link": "https://www.northernminer.com/news/colorado-summit-video-hathaway-puts-reserves-first/1003895687/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-13T18:15:52.000Z",
-   "summary": "JPMorganChase (NYSE: JPM) has appointed Andrew Frame to lead critical minerals investment efforts under its $1.5-trillion (C$2.1 trillion) Security and Resiliency Initiative (SRI), placing him at the centre of a...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "SSR to buy Roxmore for $464M, boosts value of Nevada gold mine",
-   "link": "https://www.northernminer.com/news/ssr-to-buy-roxmore-for-464m-boosts-value-of-nevada-gold-mine/1003895677/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T17:59:12.000Z",
-   "summary": "SSR Mining (TSX, Nasdaq: SSRM) agreed to buy Nevada-focused explorer Roxmore Resources (TSX: RM) for $464 million (C$660.1 million) as it released an updated report for the nearby Marigold mine...",
+   "date": "2026-10-13T19:15:24.000Z",
+   "summary": "Cash-rich gold producers should put reserve replacement first and avoid diluting shareholders as they invest in growth, Sprott Asset Management Managing Partner John Hathaway says. Hathaway favours share buybacks when...",
    "image": null,
    "source": "The Northern Miner",
    "section": "",
@@ -291,6 +266,58 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "JPMorgan names critical minerals chief for $1.5T push",
+   "link": "https://www.northernminer.com/news/jpmorgan-names-critical-minerals-chief-for-1-5t-push/1003895681/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T18:15:52.000Z",
+   "summary": "JPMorganChase (NYSE: JPM) has appointed Andrew Frame to lead critical minerals investment efforts under its $1.5-trillion (C$2.1 trillion) Security and Resiliency Initiative (SRI), placing him at the centre of a...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "SSR to buy Roxmore for $464M, boosts value of Nevada gold mine",
+   "link": "https://www.northernminer.com/news/ssr-to-buy-roxmore-for-464m-boosts-value-of-nevada-gold-mine/1003895677/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T17:59:12.000Z",
+   "summary": "SSR Mining (TSX, Nasdaq: SSRM) agreed to buy Nevada-focused explorer Roxmore Resources (TSX: RM) for $464 million (C$660.1 million) as it released an updated report for the nearby Marigold mine...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -421,17 +448,8 @@
    "press": false
   },
   {
-   "title": "JPMorgan names critical minerals chief for $1.5T push",
-   "link": "https://www.mining.com/jpmorgan-names-critical-minerals-chief-for-1-5t-push/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T15:54:00.000Z",
-   "summary": "Andrew Frame will oversee investments of up to $10 billion to strengthen supply chains, expand manufacturing and advance strategic technologies.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -443,6 +461,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "JPMorgan names critical minerals chief for $1.5T push",
+   "link": "https://www.mining.com/jpmorgan-names-critical-minerals-chief-for-1-5t-push/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T15:54:00.000Z",
+   "summary": "Andrew Frame will oversee investments of up to $10 billion to strengthen supply chains, expand manufacturing and advance strategic technologies.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -471,17 +498,8 @@
    "press": false
   },
   {
-   "title": "Air strike kills at least 72 miners in Sudan, rights group says",
-   "link": "https://www.mining.com/air-strike-kills-at-least-72-miners-in-sudan-rights-group-says/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T15:24:06.000Z",
-   "summary": "Located near Sudan’s disputed border with Egypt, Jabal al-Uqaydat is a mountainous, traditional gold-mining region.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -495,6 +513,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Air strike kills at least 72 miners in Sudan, rights group says",
+   "link": "https://www.mining.com/air-strike-kills-at-least-72-miners-in-sudan-rights-group-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T15:24:06.000Z",
+   "summary": "Located near Sudan’s disputed border with Egypt, Jabal al-Uqaydat is a mountainous, traditional gold-mining region.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -536,7 +563,7 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "title": "Explosives: The overlooked risk that could halt mines",
+   "title": "Explosives: the overlooked risk that could halt mines",
    "link": "https://www.mining.com/explosives-the-overlooked-risk-that-could-halt-mines/",
    "via": "",
    "viaUrl": "",
@@ -602,17 +629,8 @@
    "press": false
   },
   {
-   "title": "Fortuna logs high-grade gold in Senegal, extends depth",
-   "link": "https://www.mining.com/fortuna-logs-high-grade-gold-in-senegal-extends-depth/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T15:02:23.000Z",
-   "summary": "Diamba Sud is among the key development assets that Fortuna is counting on to lift annual output.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -626,6 +644,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Fortuna logs high-grade gold in Senegal, extends depth",
+   "link": "https://www.mining.com/fortuna-logs-high-grade-gold-in-senegal-extends-depth/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T15:02:23.000Z",
+   "summary": "Diamba Sud is among the key development assets that Fortuna is counting on to lift annual output.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -657,17 +684,8 @@
    "press": false
   },
   {
-   "title": "Eldorado’s Skouries mine wins EU strategic status",
-   "link": "https://www.canadianminingjournal.com/news/eldorados-skouries-mine-wins-eu-strategic-status/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T14:57:55.000Z",
-   "summary": "The copper-gold mine is among the 46 selected for faster permitting and funding to strengthen the EU domestic supply chain.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
@@ -682,6 +700,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Eldorado’s Skouries mine wins EU strategic status",
+   "link": "https://www.canadianminingjournal.com/news/eldorados-skouries-mine-wins-eu-strategic-status/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T14:57:55.000Z",
+   "summary": "The copper-gold mine is among the 46 selected for faster permitting and funding to strengthen the EU domestic supply chain.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -763,6 +790,34 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-13Oct26-12-10-2026-trafigura-signs-10-year-lithium-offtake-agreement-with-energyx.jpg",
    "source": "Mining Technology",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Sponsored video: Skeena targets January commissioning at Eskay Creek",
+   "link": "https://www.northernminer.com/news/sponsored-video-skeena-targets-january-commissioning-at-eskay-creek/1003895692/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T14:00:05.000Z",
+   "summary": "Skeena Gold and Silver President &#38; CEO Randy Reichertin conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Skeena Gold and...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
