@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T11:37:31.471Z",
+ "updated": "2026-10-13T12:47:27.862Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 134
+   "seen": 140
   },
   {
    "source": "Pakistan Observer",
@@ -242,44 +242,17 @@
  ],
  "items": [
   {
-   "title": "Copper edges up on mine supply disruption, tight stocks",
-   "link": "https://www.brecorder.com/news/40444002/copper-edges-up-on-mine-supply-disruption-tight-stocks",
+   "title": "Lux seeks $7M to advance Quebec gold project",
+   "link": "https://www.northernminer.com/news/lux-seeks-7m-to-advance-quebec-gold-project/1003895656/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-13T11:02:38.000Z",
-   "summary": "Copper prices rose for a third straight session on Tuesday as persistent concerns over a supply shortage kept the metal within striking distance of an all-time peak. Benchmark three-month copper on the London Metal Exchange was up 0.1% at...",
-   "image": "https://i.brecorder.com/large/2026/10/13160225504ec85.webp",
-   "source": "Business Recorder",
-   "section": "",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "EPC Groupe expands activities in Senegal via major contract with Sabodala mine",
-   "link": "https://im-mining.com/2026/10/13/epc-groupe-expands-activities-in-senegal-via-major-contract-with-sabodala-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T10:55:50.000Z",
-   "summary": "EPC Groupe has announced that EPC Mineex Sénégal has been awarded a contract for the supply of explosives and associated services for Endeavour’s Sabodala mine, one of the largest gold mines in West Africa. Under this contract, worth...",
+   "date": "2026-10-13T12:45:47.000Z",
+   "summary": "Lux Metals (TSXV: LXM) is planning to seek about $7 million (US$5 million) in flow-through financing this fall to carry its La Grande gold project in northern Quebec towards a...",
    "image": null,
-   "source": "International Mining",
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -293,6 +266,85 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "TRIM upgrading critical infrastructure on the iron-ore export line",
+   "link": "https://www.miningweekly.com/article/trim-upgrading-critical-infrastructure-on-the-iron-ore-export-line-2026-10-13",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T12:09:00.000Z",
+   "summary": "The State-owned Transnet Rail Infrastructure Manager (TRIM) says extensive maintenance and renewal work is under way along the 861 km iron-ore export line stretching from Sishen, in the Northern Cape, to the Port of Saldanha Bay, in the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Copper edges up on mine supply disruption, tight stocks",
+   "link": "https://www.brecorder.com/news/40444002/copper-edges-up-on-mine-supply-disruption-tight-stocks",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T11:02:38.000Z",
+   "summary": "Copper prices rose for a third straight session on Tuesday as persistent concerns over a supply shortage kept the metal within striking distance of an all-time peak. Benchmark three-month copper on the London Metal Exchange was up 0.1% at...",
+   "image": "https://i.brecorder.com/large/2026/10/13160225504ec85.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "EPC Groupe expands activities in Senegal via major contract with Sabodala mine",
+   "link": "https://im-mining.com/2026/10/13/epc-groupe-expands-activities-in-senegal-via-major-contract-with-sabodala-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T10:55:50.000Z",
+   "summary": "EPC Groupe has announced that EPC Mineex Sénégal has been awarded a contract for the supply of explosives and associated services for Endeavour’s Sabodala mine, one of the largest gold mines in West Africa. Under this contract, worth...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
