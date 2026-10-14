@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T17:49:02.089Z",
+ "updated": "2026-10-14T18:58:57.826Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -166,7 +166,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 164
+   "seen": 168
   },
   {
    "source": "Pakistan Observer",
@@ -229,7 +229,7 @@
    "source": "Daily Pakistan",
    "section": "Safety search",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "seen": 10
   },
   {
@@ -242,17 +242,17 @@
  ],
  "items": [
   {
-   "title": "Acquire integrates GIM Suite, Envirosys to streamline workflow",
-   "link": "https://www.canadianminingjournal.com/news/acquire-integrates-gim-suite-envirosys-to-streamline-workflow/",
+   "title": "Achakzai warns governor's rule will next be imposed in Sindh, over water and mines",
+   "link": "https://www.dawn.com/news/2037156/achakzai-warns-governors-rule-will-next-be-imposed-in-sindh-over-water-and-mines",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T17:23:08.000Z",
-   "summary": "Acquire Technology Solutions has integrated its GIM Suite geological data platform with its Envirosys environmental management system to reduce duplication and speed-up [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
+   "date": "2026-10-14T18:56:03.000Z",
+   "summary": "Opposition Leader in the National Assembly Mehmood Khan Achakzai warned on Wednesday that governor’s rule would be imposed next in Sindh over the “occupation of water, mines and streams”, urging the Centre to give provinces their rights...",
+   "image": "https://i.dawn.com/large/2026/10/14232925a390e3e.webp",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +264,56 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Trump claims major oil and gas exploration will begin in Greenland",
+   "link": "https://dailytimes.com.pk/1567244/trump-claims-major-oil-and-gas-exploration-will-begin-in-greenland/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T18:16:31.000Z",
+   "summary": "US President Donald Trump has claimed that major oil, gas and mineral exploration is set to begin in Greenland. In a post on Truth Social on Wednesday, he described the Danish Arctic territory as “our new and beautiful Greenland.” However,...",
+   "image": null,
+   "source": "Daily Times",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Acquire integrates GIM Suite, Envirosys to streamline workflow",
+   "link": "https://www.canadianminingjournal.com/news/acquire-integrates-gim-suite-envirosys-to-streamline-workflow/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T17:23:08.000Z",
+   "summary": "Acquire Technology Solutions has integrated its GIM Suite geological data platform with its Envirosys environmental management system to reduce duplication and speed-up [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -292,17 +342,35 @@
    "press": false
   },
   {
-   "title": "Flexicon releases new box dumper with non-contact locking system",
-   "link": "https://www.canadianminingjournal.com/news/flexicon-releases-new-box-dumper-with-non-contact-locking-system/",
+   "title": "Equinox gold output jumps 34% after Orla merger",
+   "link": "https://www.mining.com/equinox-gold-output-jumps-34-after-orla-merger/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T17:04:40.000Z",
-   "summary": "Flexicon, a Pennsylvania-based bulk material handling solutions manufacturer, has unveiled its new TIP-TITE Box Dumper. It is designed to transfer materials from [...]",
+   "date": "2026-10-14T17:06:00.000Z",
+   "summary": "Canadian mines boost quarterly production as the expanded North American miner targets a stronger finish to 2026.",
    "image": null,
-   "source": "Canadian Mining Journal",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -314,6 +382,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Flexicon releases new box dumper with non-contact locking system",
+   "link": "https://www.canadianminingjournal.com/news/flexicon-releases-new-box-dumper-with-non-contact-locking-system/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T17:04:40.000Z",
+   "summary": "Flexicon, a Pennsylvania-based bulk material handling solutions manufacturer, has unveiled its new TIP-TITE Box Dumper. It is designed to transfer materials from [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -628,17 +705,8 @@
    "press": false
   },
   {
-   "title": "Gold miners’ earnings surge but valuations lag: Sprott",
-   "link": "https://www.mining.com/gold-miners-earnings-surge-but-valuations-lag-sprott/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T14:42:18.000Z",
-   "summary": "Miners need to decide if stronger earnings and balance sheets will survive bullion-price volatility and production costs.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -652,6 +720,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold miners’ earnings surge but valuations lag: Sprott",
+   "link": "https://www.mining.com/gold-miners-earnings-surge-but-valuations-lag-sprott/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T14:42:18.000Z",
+   "summary": "Miners need to decide if stronger earnings and balance sheets will survive bullion-price volatility and production costs.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -705,17 +782,8 @@
    "press": false
   },
   {
-   "title": "Global copper surplus to more than triple by 2027: ICSG",
-   "link": "https://www.canadianminingjournal.com/news/global-copper-surplus-to-more-than-triple-by-2027-icsg/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T14:28:48.000Z",
-   "summary": "Refined metal output is set to rebound next year as new smelting capacity comes online, outpacing consumption growth.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -729,6 +797,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Global copper surplus to more than triple by 2027: ICSG",
+   "link": "https://www.canadianminingjournal.com/news/global-copper-surplus-to-more-than-triple-by-2027-icsg/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T14:28:48.000Z",
+   "summary": "Refined metal output is set to rebound next year as new smelting capacity comes online, outpacing consumption growth.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -1071,17 +1148,8 @@
    "press": false
   },
   {
-   "title": "Rinehart-backed Arafura expands US rare earths deal by 70%",
-   "link": "https://www.mining.com/rinehart-backed-arafura-expands-us-rare-earths-deal-by-70/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T10:44:00.000Z",
-   "summary": "The Australian government and US buyers have secured supply from the Nolans project targeting first output in 2029.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -1095,6 +1163,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rinehart-backed Arafura expands US rare earths deal by 70%",
+   "link": "https://www.mining.com/rinehart-backed-arafura-expands-us-rare-earths-deal-by-70/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T10:44:00.000Z",
+   "summary": "The Australian government and US buyers have secured supply from the Nolans project targeting first output in 2029.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
