@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T20:49:03.200Z",
+ "updated": "2026-10-14T21:48:20.839Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 83
+   "seen": 84
   },
   {
    "source": "Pakistan Observer",
@@ -215,7 +215,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -241,6 +241,56 @@
   }
  ],
  "items": [
+  {
+   "title": "Canadian Chrome Company launches First Nations advisory committee",
+   "link": "https://www.mining.com/canadian-chrome-company-launches-first-nations-advisory-committee/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T21:30:00.000Z",
+   "summary": "The committee is aimed at increasing First Nations participation with regards to CCC’s Ring of Fire assets in Ontario.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Boron One boosts Serbia project economics in updated study",
+   "link": "https://www.mining.com/boron-one-boosts-serbia-project-economics-in-updated-study/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T21:10:00.000Z",
+   "summary": "Canadian explorer has outlined a higher projected return, annual revenue and after-tax net present value.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -269,17 +319,8 @@
    "press": false
   },
   {
-   "title": "BHP averts strike at world’s biggest copper mine",
-   "link": "https://www.northernminer.com/news/bhp-averts-strike-at-worlds-biggest-copper-mine-2/1003895736/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T20:35:00.000Z",
-   "summary": "BHP (ASX, LSE: BHP) and the supervisors’ union at its Escondida mine in Chile have reached a preliminary agreement to avert a strike at the world’s largest copper operation. Members...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -293,6 +334,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "BHP averts strike at world’s biggest copper mine",
+   "link": "https://www.northernminer.com/news/bhp-averts-strike-at-worlds-biggest-copper-mine-2/1003895736/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T20:35:00.000Z",
+   "summary": "BHP (ASX, LSE: BHP) and the supervisors’ union at its Escondida mine in Chile have reached a preliminary agreement to avert a strike at the world’s largest copper operation. Members...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -349,16 +399,16 @@
   },
   {
    "title": "Hycroft hits bonanza gold grades at Nevada mine",
-   "link": "https://www.northernminer.com/news/hycroft-hits-bonanza-gold-grades-at-nevada-mine/1003895749/",
+   "link": "https://www.mining.com/hycroft-hits-bonanza-gold-grades-at-nevada-mine/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T20:20:19.000Z",
-   "summary": "Hycroft Mining (Nasdaq: HYMC) drilled the highest gold grades yet at its Nevada mine, extending a high-grade zone it’s assessing for underground production. Hole H26D-6175A cut 19.6 metres grading 30.49...",
+   "date": "2026-10-14T20:25:19.000Z",
+   "summary": "Underground mining could bring richer material into production ahead of a much larger open-pit development, though Hycroft hasn’t established its economics.",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -372,6 +422,33 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Hycroft hits bonanza gold grades at Nevada mine",
+   "link": "https://www.northernminer.com/news/hycroft-hits-bonanza-gold-grades-at-nevada-mine/1003895749/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T20:20:19.000Z",
+   "summary": "Hycroft Mining (Nasdaq: HYMC) drilled the highest gold grades yet at its Nevada mine, extending a high-grade zone it’s assessing for underground production. Hole H26D-6175A cut 19.6 metres grading 30.49...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -453,17 +530,8 @@
    "press": false
   },
   {
-   "title": "Sponsored forum video: Resolute targets first gold at Doropo in 2028",
-   "link": "https://www.northernminer.com/news/sponsored-forum-video-resolute-targets-first-gold-at-doropo-in-2028/1003895733/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T20:00:02.000Z",
-   "summary": "Sponsored: Resolute builds explosives plant to steady Syama Resolute Mining MD and CEO Chris Eger in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -477,6 +545,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored forum video: Resolute targets first gold at Doropo in 2028",
+   "link": "https://www.northernminer.com/news/sponsored-forum-video-resolute-targets-first-gold-at-doropo-in-2028/1003895733/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T20:00:02.000Z",
+   "summary": "Sponsored: Resolute builds explosives plant to steady Syama Resolute Mining MD and CEO Chris Eger in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -507,6 +584,19 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Mining productivity stalls despite advances in automation and AI, says McKinsey",
    "link": "https://www.mining-technology.com/news/mining-productivity-stalls-despite-advances-in-automation-and-ai-says-mckinsey/",
    "via": "",
@@ -515,9 +605,12 @@
    "summary": "McKinsey finds mining productivity stagnating despite advances in automation and AI, as haulage adoption diverges and exploration costs soar.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_2477259447.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
    "region": "Global",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -529,9 +622,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Achakzai sees governor's rule next being imposed in Sindh, over water and mines",
    "link": "https://www.dawn.com/news/2037156/achakzai-sees-governors-rule-next-being-imposed-in-sindh-over-water-and-mines",
    "via": "",
@@ -540,20 +630,7 @@
    "summary": "Opposition Leader in the National Assembly Mehmood Khan Achakzai warned on Wednesday that governor’s rule would be imposed next in Sindh over the “occupation of water, mines and streams”, urging the Centre to give provinces their rights...",
    "image": "https://i.dawn.com/large/2026/10/14232925a390e3e.webp",
    "source": "Dawn",
-   "section": "Pakistan",
-   "scope": "National",
    "region": "Pakistan",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -994,17 +1071,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Liberty Gold eyes debt to fund Blackpine build",
-   "link": "https://www.northernminer.com/news/sponsored-video-liberty-gold-eyes-debt-to-fund-blackpine-build/1003895743/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T14:17:08.000Z",
-   "summary": "Liberty Gold VP Project Development Tyler Cole in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Liberty Gold and produced...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -1018,6 +1086,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Liberty Gold eyes debt to fund Blackpine build",
+   "link": "https://www.northernminer.com/news/sponsored-video-liberty-gold-eyes-debt-to-fund-blackpine-build/1003895743/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T14:17:08.000Z",
+   "summary": "Liberty Gold VP Project Development Tyler Cole in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Liberty Gold and produced...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
