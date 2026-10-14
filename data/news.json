@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:48:20.839Z",
+ "updated": "2026-10-14T22:46:20.494Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -242,6 +242,19 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Canadian Chrome Company launches First Nations advisory committee",
    "link": "https://www.mining.com/canadian-chrome-company-launches-first-nations-advisory-committee/",
    "via": "",
@@ -250,9 +263,12 @@
    "summary": "The committee is aimed at increasing First Nations participation with regards to CCC’s Ring of Fire assets in Ontario.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +280,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Boron One boosts Serbia project economics in updated study",
    "link": "https://www.mining.com/boron-one-boosts-serbia-project-economics-in-updated-study/",
    "via": "",
@@ -275,20 +288,7 @@
    "summary": "Canadian explorer has outlined a higher projected return, annual revenue and after-tax net present value.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -398,17 +398,8 @@
    "press": false
   },
   {
-   "title": "Hycroft hits bonanza gold grades at Nevada mine",
-   "link": "https://www.mining.com/hycroft-hits-bonanza-gold-grades-at-nevada-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T20:25:19.000Z",
-   "summary": "Underground mining could bring richer material into production ahead of a much larger open-pit development, though Hycroft hasn’t established its economics.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -422,6 +413,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Hycroft hits bonanza gold grades at Nevada mine",
+   "link": "https://www.mining.com/hycroft-hits-bonanza-gold-grades-at-nevada-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T20:25:19.000Z",
+   "summary": "Underground mining could bring richer material into production ahead of a much larger open-pit development, though Hycroft hasn’t established its economics.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
