@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T13:51:42.728Z",
+ "updated": "2026-10-14T14:50:20.369Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 142
+   "seen": 151
   },
   {
    "source": "Pakistan Observer",
@@ -242,12 +242,12 @@
  ],
  "items": [
   {
-   "title": "Major adds polyurethane dams to FLEX-MAT portfolio",
-   "link": "https://www.canadianminingjournal.com/news/major-adds-polyurethane-dams-to-flex-mat-portfolio/",
+   "title": "Seequent unveils AI-solution for drill core analysis",
+   "link": "https://www.canadianminingjournal.com/news/seequent-unveils-ai-solution-for-drill-core-analysis/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T13:48:03.000Z",
-   "summary": "MAJOR has launched its new FLEX-MAT polyurethane dams to bolster its existing wire screen media offering. In mineral processing, dams are used [...]",
+   "date": "2026-10-14T14:33:06.000Z",
+   "summary": "Seequent, a subsidiary of Bentley Systems (NASDAQ: BSY), has launched an artificial intelligence (AI)-based image analysis add-on to its Imago platform, a [...]",
    "image": null,
    "source": "Canadian Mining Journal",
    "section": "",
@@ -267,17 +267,35 @@
    "press": false
   },
   {
-   "title": "Siemens Gamesa and TKF trace aluminium upstream with Digital Product Passports",
-   "link": "https://im-mining.com/2026/10/14/siemens-gamesa-and-tkf-trace-aluminium-upstream-with-digital-product-passports/",
+   "title": "Global copper surplus to more than triple by 2027: ICSG",
+   "link": "https://www.mining.com/global-copper-surplus-to-more-than-triple-by-2027-icsg/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T13:21:59.000Z",
-   "summary": "The IRBC Agreement for the Renewable Energy Sector has completed a collaborative project exploring how transparency and traceability can be strengthened in the raw material supply chains that support the renewable energy transition. The...",
+   "date": "2026-10-14T14:26:34.000Z",
+   "summary": "Refined metal output is set to rebound next year as new smelting capacity comes online, outpacing consumption growth.",
    "image": null,
-   "source": "International Mining",
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -289,6 +307,40 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Major adds polyurethane dams to FLEX-MAT portfolio",
+   "link": "https://www.canadianminingjournal.com/news/major-adds-polyurethane-dams-to-flex-mat-portfolio/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T13:48:03.000Z",
+   "summary": "MAJOR has launched its new FLEX-MAT polyurethane dams to bolster its existing wire screen media offering. In mineral processing, dams are used [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Siemens Gamesa and TKF trace aluminium upstream with Digital Product Passports",
+   "link": "https://im-mining.com/2026/10/14/siemens-gamesa-and-tkf-trace-aluminium-upstream-with-digital-product-passports/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T13:21:59.000Z",
+   "summary": "The IRBC Agreement for the Renewable Energy Sector has completed a collaborative project exploring how transparency and traceability can be strengthened in the raw material supply chains that support the renewable energy transition. The...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -317,17 +369,8 @@
    "press": false
   },
   {
-   "title": "Deep-sea mining faces surprise risk of rocks catching fire",
-   "link": "https://www.mining.com/deep-sea-mining-faces-surprise-risk-of-rocks-catching-fire/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T12:01:00.000Z",
-   "summary": "USGS researchers found unstable sulfide minerals can ignite during processing, raising new safety concerns for ocean mining.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -339,6 +382,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Deep-sea mining faces surprise risk of rocks catching fire",
+   "link": "https://www.mining.com/deep-sea-mining-faces-surprise-risk-of-rocks-catching-fire/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T12:01:00.000Z",
+   "summary": "USGS researchers found unstable sulfide minerals can ignite during processing, raising new safety concerns for ocean mining.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -1587,17 +1639,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Skeena targets January commissioning at Eskay Creek",
-   "link": "https://www.canadianminingjournal.com/news/sponsored-video-skeena-targets-january-commissioning-at-eskay-creek/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T20:05:19.000Z",
-   "summary": "Skeena Gold and Silver President &#38; CEO Randy Reichertin conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
@@ -1612,6 +1655,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Skeena targets January commissioning at Eskay Creek",
+   "link": "https://www.canadianminingjournal.com/news/sponsored-video-skeena-targets-january-commissioning-at-eskay-creek/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T20:05:19.000Z",
+   "summary": "Skeena Gold and Silver President &#38; CEO Randy Reichertin conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
