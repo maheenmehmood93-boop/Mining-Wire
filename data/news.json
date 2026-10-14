@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T18:58:57.826Z",
+ "updated": "2026-10-14T19:48:05.530Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,9 +179,8 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 168
+   "ok": false,
+   "error": "HTTP 500"
   },
   {
    "source": "Pakistan Observer",
@@ -215,7 +214,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -242,17 +241,8 @@
  ],
  "items": [
   {
-   "title": "Achakzai warns governor's rule will next be imposed in Sindh, over water and mines",
-   "link": "https://www.dawn.com/news/2037156/achakzai-warns-governors-rule-will-next-be-imposed-in-sindh-over-water-and-mines",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T18:56:03.000Z",
-   "summary": "Opposition Leader in the National Assembly Mehmood Khan Achakzai warned on Wednesday that governor’s rule would be imposed next in Sindh over the “occupation of water, mines and streams”, urging the Centre to give provinces their rights...",
-   "image": "https://i.dawn.com/large/2026/10/14232925a390e3e.webp",
-   "source": "Dawn",
    "section": "Pakistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +254,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Achakzai warns governor's rule will next be imposed in Sindh, over water and mines",
+   "link": "https://www.dawn.com/news/2037156/achakzai-warns-governors-rule-will-next-be-imposed-in-sindh-over-water-and-mines",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T19:17:26.000Z",
+   "summary": "Opposition Leader in the National Assembly Mehmood Khan Achakzai warned on Wednesday that governor’s rule would be imposed next in Sindh over the “occupation of water, mines and streams”, urging the Centre to give provinces their rights...",
+   "image": "https://i.dawn.com/large/2026/10/14232925a390e3e.webp",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Trump claims major oil and gas exploration will begin in Greenland",
    "link": "https://dailytimes.com.pk/1567244/trump-claims-major-oil-and-gas-exploration-will-begin-in-greenland/",
    "via": "",
@@ -275,20 +287,7 @@
    "summary": "US President Donald Trump has claimed that major oil, gas and mineral exploration is set to begin in Greenland. In a post on Truth Social on Wednesday, he described the Danish Arctic territory as “our new and beautiful Greenland.” However,...",
    "image": null,
    "source": "Daily Times",
-   "section": "",
-   "scope": "National",
    "region": "Pakistan",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -342,17 +341,8 @@
    "press": false
   },
   {
-   "title": "Equinox gold output jumps 34% after Orla merger",
-   "link": "https://www.mining.com/equinox-gold-output-jumps-34-after-orla-merger/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T17:06:00.000Z",
-   "summary": "Canadian mines boost quarterly production as the expanded North American miner targets a stronger finish to 2026.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -366,6 +356,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Equinox gold output jumps 34% after Orla merger",
+   "link": "https://www.mining.com/equinox-gold-output-jumps-34-after-orla-merger/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T17:06:00.000Z",
+   "summary": "Canadian mines boost quarterly production as the expanded North American miner targets a stronger finish to 2026.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
