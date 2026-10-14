@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T13:00:36.194Z",
+ "updated": "2026-10-14T13:51:42.728Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 138
+   "seen": 142
   },
   {
    "source": "Pakistan Observer",
@@ -242,14 +242,14 @@
  ],
  "items": [
   {
-   "title": "World’s biggest manganese producer faces China cost hurdle in battery push",
-   "link": "https://www.northernminer.com/news/worlds-biggest-manganese-producer-faces-china-cost-hurdle-in-battery-push/1003895707/",
+   "title": "Major adds polyurethane dams to FLEX-MAT portfolio",
+   "link": "https://www.canadianminingjournal.com/news/major-adds-polyurethane-dams-to-flex-mat-portfolio/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T12:45:31.000Z",
-   "summary": "South Africa, the world’s largest manganese producer, is expanding into battery materials but needs buyers willing to pay more than Chinese suppliers charge. Privately held Manganese Metal Co. (MMC) has...",
+   "date": "2026-10-14T13:48:03.000Z",
+   "summary": "MAJOR has launched its new FLEX-MAT polyurethane dams to bolster its existing wire screen media offering. In mineral processing, dams are used [...]",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
    "region": "North America",
@@ -267,17 +267,83 @@
    "press": false
   },
   {
-   "title": "Paladin advances Canadian project; Namibian output falls on maintenance shut",
-   "link": "https://www.miningweekly.com/article/paladin-advances-canadian-project-namibian-output-falls-on-maintenance-shut-2026-10-14",
+   "title": "Siemens Gamesa and TKF trace aluminium upstream with Digital Product Passports",
+   "link": "https://im-mining.com/2026/10/14/siemens-gamesa-and-tkf-trace-aluminium-upstream-with-digital-product-passports/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-14T11:47:00.000Z",
-   "summary": "ASX- and TSX-listed uranium producer Paladin Energy reports that its Langer Heinrich uranium mine (LHM), in Namibia, produced one-million pounds of triuranium octoxide (U3O8) for the quarter ended September 30, compared with the...",
+   "date": "2026-10-14T13:21:59.000Z",
+   "summary": "The IRBC Agreement for the Renewable Energy Sector has completed a collaborative project exploring how transparency and traceability can be strengthened in the raw material supply chains that support the renewable energy transition. The...",
    "image": null,
-   "source": "Mining Weekly",
+   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "World’s biggest manganese producer faces China cost hurdle in battery push",
+   "link": "https://www.northernminer.com/news/worlds-biggest-manganese-producer-faces-china-cost-hurdle-in-battery-push/1003895707/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T12:45:31.000Z",
+   "summary": "South Africa, the world’s largest manganese producer, is expanding into battery materials but needs buyers willing to pay more than Chinese suppliers charge. Privately held Manganese Metal Co. (MMC) has...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Deep-sea mining faces surprise risk of rocks catching fire",
+   "link": "https://www.mining.com/deep-sea-mining-faces-surprise-risk-of-rocks-catching-fire/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T12:01:00.000Z",
+   "summary": "USGS researchers found unstable sulfide minerals can ignite during processing, raising new safety concerns for ocean mining.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -291,6 +357,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Paladin advances Canadian project; Namibian output falls on maintenance shut",
+   "link": "https://www.miningweekly.com/article/paladin-advances-canadian-project-namibian-output-falls-on-maintenance-shut-2026-10-14",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T11:47:00.000Z",
+   "summary": "ASX- and TSX-listed uranium producer Paladin Energy reports that its Langer Heinrich uranium mine (LHM), in Namibia, produced one-million pounds of triuranium octoxide (U3O8) for the quarter ended September 30, compared with the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -398,17 +473,8 @@
    "press": false
   },
   {
-   "title": "BHP averts strike at world’s biggest copper mine",
-   "link": "https://www.mining.com/bhp-averts-strike-at-worlds-biggest-copper-mine-2/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T10:56:00.000Z",
-   "summary": "A tentative labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -422,6 +488,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "BHP averts strike at world’s biggest copper mine",
+   "link": "https://www.mining.com/bhp-averts-strike-at-worlds-biggest-copper-mine-2/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T10:56:00.000Z",
+   "summary": "A tentative labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -504,17 +579,8 @@
    "press": false
   },
   {
-   "title": "Resources Watch",
-   "link": "https://www.miningweekly.com/article/resources-watch-2026-10-14",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T10:07:00.000Z",
-   "summary": "This week: Jonathan Oppenheimer emphasises urgency of tackling climate change challenge and, importance of natural diamond comeback highlighted",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -526,6 +592,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Resources Watch",
+   "link": "https://www.miningweekly.com/article/resources-watch-2026-10-14",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-14T10:07:00.000Z",
+   "summary": "This week: Jonathan Oppenheimer emphasises urgency of tackling climate change challenge and, importance of natural diamond comeback highlighted",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -1509,6 +1584,34 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Sponsored video: Skeena targets January commissioning at Eskay Creek",
+   "link": "https://www.canadianminingjournal.com/news/sponsored-video-skeena-targets-january-commissioning-at-eskay-creek/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T20:05:19.000Z",
+   "summary": "Skeena Gold and Silver President &#38; CEO Randy Reichertin conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
