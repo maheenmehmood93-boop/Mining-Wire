@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T01:00:39.380Z",
+ "updated": "2026-10-14T01:45:11.236Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Lawrence Tech launches $100,000 critical materials innovation challenge",
-   "link": "https://www.mining.com/lawrence-tech-launches-100000-critical-materials-innovation-challenge/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T23:53:55.000Z",
-   "summary": "The program will identify, evaluate, commercialize and scale breakthrough technologies that strengthen the US critical materials and rare earth element automotive supply chain.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lawrence Tech launches $100,000 critical materials innovation challenge",
+   "link": "https://www.mining.com/lawrence-tech-launches-100000-critical-materials-innovation-challenge/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-13T23:53:55.000Z",
+   "summary": "The program will identify, evaluate, commercialize and scale breakthrough technologies that strengthen the US critical materials and rare earth element automotive supply chain.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
