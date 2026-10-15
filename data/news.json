@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T10:51:18.524Z",
+ "updated": "2026-10-15T11:49:35.172Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 113
+   "seen": 116
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Trader Mercuria backs mine tailings, rehabilitation project in Australia",
-   "link": "https://www.miningweekly.com/article/trader-mercuria-backs-mine-tailings-rehabilitation-project-in-australia-2026-10-15",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-15T10:09:00.000Z",
-   "summary": "Switzerland-headquartered commodity trader Mercuria Group has signed a prepayment and offtake agreement with Australian miner Heritage Minerals to support a restart of the Mount Morgan gold operation, in Queensland, during the fourth...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold"
@@ -266,9 +257,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Trader Mercuria backs mine tailings, rehabilitation project in Australia",
+   "link": "https://www.miningweekly.com/article/trader-mercuria-backs-mine-tailings-rehabilitation-project-in-australia-2026-10-15",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T10:09:00.000Z",
+   "summary": "Switzerland-headquartered commodity trader Mercuria Group has signed a prepayment and offtake agreement with Australian miner Heritage Minerals to support a restart of the Mount Morgan gold operation, in Queensland, during the fourth...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Luxury giant Richemont and Signet in talks to join bidder for De Beers",
    "link": "https://www.miningweekly.com/article/luxury-giant-richemont-and-signet-in-talks-to-join-bidder-for-de-beers-2026-10-15",
    "via": "",
@@ -277,9 +290,12 @@
    "summary": "Luxury giant Richemont and US retailer Signet Jewelers are in talks to join a consortium that’s in prime position to buy diamond miner De Beers, according to five people familiar with the matter. The emergence of support from the owner of...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,9 +307,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Metal power producer Amaero announces $20m IPO on Nasdaq",
    "link": "https://www.miningweekly.com/article/metal-power-producer-amaero-announces-20m-ipo-on-nasdaq-2026-10-15",
    "via": "",
@@ -302,9 +315,12 @@
    "summary": "US-based, ASX-listed producer of high-value refractory and titanium alloy spherical metal powders Amaero has announced the pricing of its initial public offering (IPO) on Nasdaq. The company is pricing 4.7-million shares at an initial...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -316,9 +332,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Focus Graphite tasks firm to fully engineer vital access road corridor for Lac Knife",
    "link": "https://www.miningweekly.com/article/focus-graphite-tasks-firm-to-fully-engineer-vital-access-road-corridor-for-lac-knife-2026-10-15",
    "via": "",
@@ -327,9 +340,12 @@
    "summary": "TSX-V-listed Focus Graphite has tasked Construction & Expertise PG to undertake geotechnical investigations and detailed engineering on a proposed all-season access road to its flagship Lac Kife graphite project. The appointment marks an...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -341,9 +357,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "ARM welcomes judgment on Pula Group litigation",
    "link": "https://www.miningweekly.com/article/arm-welcomes-judgment-on-pula-group-litigation-2026-10-15",
    "via": "",
@@ -352,20 +365,7 @@
    "summary": "JSE-listed African Rainbow Minerals (ARM) has welcomed the judgment of the High Court of Tanzania, on October 9, in which the Tanzanian Court struck out a lawsuit by the Pula group of companies against ARM and others, seeking damages of...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
    "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -2022,7 +2022,7 @@
    "via": "",
    "viaUrl": "",
    "date": "2026-10-14T10:56:00.000Z",
-   "summary": "A tentative labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide.",
+   "summary": "An eleventh-hour labour agreement reached at the Chilean operation eases immediate supply concerns as mining disruptions mount nationwide.",
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
