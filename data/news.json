@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T11:49:35.172Z",
+ "updated": "2026-10-15T13:03:29.028Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 116
+   "seen": 122
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,87 @@
   }
  ],
  "items": [
+  {
+   "title": "Richemont, Signet weigh joining De Beers consortium bid",
+   "link": "https://www.mining.com/richemont-signet-weigh-joining-de-beers-consortium-bid/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T12:43:11.000Z",
+   "summary": "The luxury group and US retailer are evaluating roles in the bid for De Beers, as Anglo seeks to sell the diamond miner for about $1 billion.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Valterra joins Northam as a buyer of Tharisa PGM concentrate",
+   "link": "https://www.miningweekly.com/article/valterra-joins-northam-as-a-buyer-of-tharisa-pgm-concentrate-2026-10-15",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T12:06:00.000Z",
+   "summary": "Johannesburg- and London-listed mining and metals group Tharisa’s wholly-owned subsidiary Tharisa Minerals has agreed to sell 50% of the platinum group metal (PGM) concentrate produced at its Tharisa mine, in South Africa’s North West...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Platinum"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "TNM Drill Down: Pecoy leads recent copper assays",
+   "link": "https://www.northernminer.com/news/tnm-drill-down-pecoy-leads-recent-copper-assays/1003895729/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T12:00:24.000Z",
+   "summary": "Peru, Canada and Colombia yielded the best copper drill results from Aug. 17 to Sept. 15, according to data compiled by The Northern Miner. Intervals from Pecoy Copper (TSXV: PCU),...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Drill results",
+   "exMetals": [
+    "Copper"
+   ],
+   "exHighlight": "",
+   "exCountry": "Peru",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
