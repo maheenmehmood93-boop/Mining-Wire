@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T14:51:00.571Z",
+ "updated": "2026-10-15T15:52:03.664Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -180,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 132
+   "seen": 137
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +242,125 @@
  ],
  "items": [
   {
+   "title": "Erdene eyes $687M build for Mongolia moly project",
+   "link": "https://www.northernminer.com/news/erdene-eyes-687m-build-for-mongolia-moly-project/1003895759/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T15:16:41.000Z",
+   "summary": "Erdene Resource Development (TSX: ERD; US-OTC: ERDCF) has outlined a $687-million (C$976-million) development plan for its Zuun Mod molybdenum-copper project in southwestern Mongolia, expanding its ambitions beyond the nearby Bayan...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Bonterra lifts Barry gold project value to $665M",
+   "link": "https://www.northernminer.com/news/new-pea-lifts-value-of-bonterras-quebec-gold-project-to-665m/1003895757/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T15:13:30.000Z",
+   "summary": "A new study raises the value of Bonterra Resources’ (TSXV: BTR; US-OTC: BONXF) past-producing Barry gold mine in Quebec almost 14 times under an expanded plan and a much higher...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Tectonic drilling points to ‘large-scale gold system’ at Flat project",
+   "link": "https://www.northernminer.com/news/tectonic-drilling-points-to-large-scale-gold-system-at-flat-project/1003895753/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T14:57:27.000Z",
+   "summary": "Drilling at Tectonic Metals’ (TSXV: TECT; US-OTC: TETOF) Flat project in southwest Alaska has identified significant high-grade gold mineralization near surface at the Alpha Bowl and Adit Main targets, suggesting...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Epiroc introduces Bio thread grease offering high performance &#038; verified sustainability",
+   "link": "https://im-mining.com/2026/10/15/epiroc-introduces-bio-thread-grease-offering-high-performance-verified-sustainability/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T14:35:51.000Z",
+   "summary": "Epiroc has announced the launch of Epiroc Bio thread grease, a high-performance thread grease developed for demanding rock drilling applications. Designed to protect drilling tools while helping customers reduce their environmental...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Haver &#038; Boecker Niagara taps Bryan Holt to lead northeast US sales",
    "link": "https://www.canadianminingjournal.com/news/haver-boecker-niagara-taps-bryan-holt-to-lead-northeast-us-sales/",
    "via": "",
@@ -249,9 +369,12 @@
    "summary": "Haver &#38; Boecker Niagara has named Bryan Holt as its new certified sales manager for the northeast territory in the U.S.&#160; In [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -263,9 +386,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Ilmenite market conditions remained challenging, zircon market continued to tighten in Q3 – ...",
    "link": "https://www.miningweekly.com/article/ilmenite-market-conditions-remained-challenging-zircon-market-continued-to-tighten-in-q3-kenmare-2026-10-15",
    "via": "",
@@ -274,9 +394,12 @@
    "summary": "While market conditions for titanium feedstocks remained challenging in the third quarter of this year, with prices continuing to be under pressure owing to oversupply, London-listed Kenmare Resources’ average ilmenite price, nevertheless,...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -288,9 +411,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Capital reports higher revenue, drilling platform gains momentum",
    "link": "https://www.miningweekly.com/article/capital-reports-higher-revenue-gains-momentum-on-drilling-platform-2026-10-15",
    "via": "",
@@ -299,20 +419,7 @@
    "summary": "London-listed Capital has delivered group revenue of $115.7-million for the third quarter – a 23.3% increase year-on-year but a 1.4% decrease quarter-on-quarter. Revenue for the first nine months of this year increased to $334.7-million,...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
    "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
