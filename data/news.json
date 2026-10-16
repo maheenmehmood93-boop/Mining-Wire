@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T13:54:39.931Z",
+ "updated": "2026-10-16T14:51:06.033Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 129
+   "seen": 137
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,19 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Estrella Resources secures approval for first Laleno Dome drilling",
    "link": "https://www.mining-technology.com/news/estrella-resources-approval-laleno-dome-drilling/",
    "via": "",
@@ -250,9 +263,12 @@
    "summary": "Estrella Resources has obtained approval from the Autoridade Nacional dos Minerais Timor-Leste (ANM) to begin its first drilling campaign at the Laleno Dome in Timor-Leste.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-16Oct26-shutterstock_1724220226.jpg",
    "source": "Mining Technology",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +280,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Moeve and Emerita Resources sign first agreement in Spain to supply renewable diesel to mining",
    "link": "https://im-mining.com/2026/10/16/moeve-and-emerita-resources-sign-first-agreement-in-spain-to-supply-renewable-diesel-to-mining/",
    "via": "",
@@ -275,11 +288,16 @@
    "summary": "Moeve and Emerita Resources recently signed the first agreement in Spain to deploy 100% renewable diesel (HVO) on an industrial scale within the mining sector. Through this partnership, Moeve has positioned itself as the preferred supplier...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Gold"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -289,9 +307,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "China steps up gold buying as jewellery demand fades",
    "link": "https://www.northernminer.com/news/china-steps-up-gold-buying-as-jewellery-demand-fades/1003895806/",
    "via": "",
@@ -300,13 +315,23 @@
    "summary": "China’s central bank bought more gold in September than in any month for almost three years, accelerating its bullion accumulation as the country’s jewellery market struggled. The People’s Bank of...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Seabed rocks catch fire during lab tests",
+   "link": "https://www.northernminer.com/regulatory-issues/seabed-rocks-catch-fire-during-lab-tests/1003895804/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T13:01:00.000Z",
+   "summary": "Metal-rich rocks recovered from the Pacific Ocean began smoking and heating when researchers broke them apart in a laboratory, highlighting a potential fire hazard for mining seafloor sulphide deposits. Two...",
+   "image": null,
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
    "region": "North America",
    "provinces": [],
-   "tags": [
-    "Gold"
-   ],
+   "tags": [],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -343,6 +368,31 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
+   "press": false
+  },
+  {
+   "title": "US Project Vault readies $1B loan blitz for industry",
+   "link": "https://www.mining.com/us-project-vault-readies-1b-loan-blitz-for-industry/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T12:39:00.000Z",
+   "summary": "Federal-backed financing aims to help US manufacturers secure essential metals and materials amid supply risks.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -500,17 +550,8 @@
    "press": false
   },
   {
-   "title": "Vale says soaring costs put 10% of iron ore in the red",
-   "link": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T11:08:00.000Z",
-   "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -524,6 +565,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Vale says soaring costs put 10% of iron ore in the red",
+   "link": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T11:08:00.000Z",
+   "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -681,17 +731,8 @@
    "press": false
   },
   {
-   "title": "CoTec, BMR plan partnership to boost Punitaqui copper production",
-   "link": "https://www.mining-technology.com/news/cotec-bmr-punitaqui-copper-production/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T10:02:47.000Z",
-   "summary": "CoTec and Battery Mineral Resources (BMR) have signed a non-binding framework agreement outlining a proposed partnership to explore ways to increase copper production at the latter’s Punitaqui mining district in Chile.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-16Oct26-shutterstock_2700344987-2.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -705,6 +746,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "CoTec, BMR plan partnership to boost Punitaqui copper production",
+   "link": "https://www.mining-technology.com/news/cotec-bmr-punitaqui-copper-production/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T10:02:47.000Z",
+   "summary": "CoTec and Battery Mineral Resources (BMR) have signed a non-binding framework agreement outlining a proposed partnership to explore ways to increase copper production at the latter’s Punitaqui mining district in Chile.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-3-16Oct26-shutterstock_2700344987-2.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
@@ -785,17 +835,8 @@
    "press": false
   },
   {
-   "title": "Mining finance rises 55% as biodiversity report flags risks",
-   "link": "https://www.mining-technology.com/news/mining-finance-rises-55-as-biodiversity-report-flags-risks/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T09:52:43.000Z",
-   "summary": "Report tracks rising mining finance in forest regions, highlighting biodiversity risks and the need for stronger environmental safeguards.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_2763654037.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -807,6 +848,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining finance rises 55% as biodiversity report flags risks",
+   "link": "https://www.mining-technology.com/news/mining-finance-rises-55-as-biodiversity-report-flags-risks/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T09:52:43.000Z",
+   "summary": "Report tracks rising mining finance in forest regions, highlighting biodiversity risks and the need for stronger environmental safeguards.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_2763654037.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
