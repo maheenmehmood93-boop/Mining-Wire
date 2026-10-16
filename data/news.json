@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T21:46:52.002Z",
+ "updated": "2026-10-16T22:47:19.929Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Greenland to introduce ban on seabed mining",
+   "link": "https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T22:19:25.000Z",
+   "summary": "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on the Danish Arctic island.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
