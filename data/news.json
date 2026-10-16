@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T19:44:30.883Z",
+ "updated": "2026-10-16T20:48:33.604Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -166,7 +166,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -194,7 +194,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Canada’s new foreign investment rules: What critical minerals miners need to know",
-   "link": "https://www.mining.com/canadas-new-foreign-investment-rules-what-critical-minerals-miners-need-to-know/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T18:57:02.000Z",
-   "summary": "New Investment Canada Act rules will require certain types of minority investments into a mandatory pre-closing filing regime.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Canada’s new foreign investment rules: What critical minerals miners need to know",
+   "link": "https://www.mining.com/canadas-new-foreign-investment-rules-what-critical-minerals-miners-need-to-know/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T18:57:02.000Z",
+   "summary": "New Investment Canada Act rules will require certain types of minority investments into a mandatory pre-closing filing regime.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
