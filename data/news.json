@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T03:50:32.940Z",
+ "updated": "2026-10-16T04:50:53.529Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 77
+   "seen": 81
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "World Bank's Banga sets goal of quintupling critical minerals financing in five years",
-   "link": "https://www.brecorder.com/news/40444511/world-banks-banga-sets-goal-of-quintupling-critical-minerals-financing-in-five-years",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T03:04:19.000Z",
-   "summary": "BANGKOK: World Bank President Ajay Banga on Friday said the development lender has set a goal of quintupling its critical minerals business ​in five years, and has identified 20 countries that it ‌can partner with on critical minerals...",
-   "image": "https://i.brecorder.com/large/2026/10/160800354762daa.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "World Bank's Banga sets goal of quintupling critical minerals financing in five years",
+   "link": "https://www.brecorder.com/news/40444511/world-banks-banga-sets-goal-of-quintupling-critical-minerals-financing-in-five-years",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T03:04:19.000Z",
+   "summary": "BANGKOK: World Bank President Ajay Banga on Friday said the development lender has set a goal of quintupling its critical minerals business ​in five years, and has identified 20 countries that it ‌can partner with on critical minerals...",
+   "image": "https://i.brecorder.com/large/2026/10/160800354762daa.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -1044,6 +1044,34 @@
    "image": null,
    "source": "International Mining",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Blue Lagoon confirms first finalised gold output from Dome Mountain",
+   "link": "https://www.mining-technology.com/news/blue-lagoon-first-finalised-gold-dome-mountain/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T13:39:02.000Z",
+   "summary": "Blue Lagoon Resources has completed its first finalised production of gold and silver concentrate from the Dome Mountain Gold and Silver Mine, located near Smithers, British Columbia, Canada.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-15Oct26-shutterstock_2841254329.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
