@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T22:47:19.929Z",
+ "updated": "2026-10-16T23:40:56.171Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -242,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Greenland to introduce ban on seabed mining",
-   "link": "https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/",
+   "title": "Buffalo clears potash permit hurdle in Saskatchewan",
+   "link": "https://www.mining.com/buffalo-clears-potash-permit-hurdle-in-saskatchewan/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-16T22:19:25.000Z",
-   "summary": "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on the Danish Arctic island.",
+   "date": "2026-10-16T22:48:00.000Z",
+   "summary": "The company has secured approval to complete construction and operate its Disley potash facility.",
    "image": null,
    "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Potash"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Greenland to introduce ban on seabed mining",
+   "link": "https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T22:19:25.000Z",
+   "summary": "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on the Danish Arctic island.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
