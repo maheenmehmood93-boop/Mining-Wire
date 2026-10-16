@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T23:42:09.459Z",
+ "updated": "2026-10-16T00:57:46.420Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Minnova maps $53M restart for Manitoba gold mine",
-   "link": "https://www.mining.com/minnova-maps-53m-restart-for-manitoba-gold-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-15T23:24:00.000Z",
-   "summary": "The site, formerly known as Puffy Lake, operated from 1987 to 1989.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Minnova maps $53M restart for Manitoba gold mine",
+   "link": "https://www.mining.com/minnova-maps-53m-restart-for-manitoba-gold-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-15T23:24:00.000Z",
+   "summary": "The site, formerly known as Puffy Lake, operated from 1987 to 1989.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
