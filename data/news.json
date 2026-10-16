@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T01:45:56.528Z",
+ "updated": "2026-10-16T02:49:09.485Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -242,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Magazine round up | 16 October 2026",
-   "link": "https://www.miningweekly.com/article/magazine-round-up-16-october-2026-2026-10-16",
+   "title": "Marble finishing, technology upgradation: Ministry forms four technical groups",
+   "link": "https://www.brecorder.com/news/40444500/marble-finishing-technology-upgradation-ministry-forms-four-technical-groups",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-16T01:15:00.000Z",
-   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
-   "image": null,
-   "source": "Mining Weekly",
+   "date": "2026-10-16T02:06:19.000Z",
+   "summary": "ISLAMABAD: The Ministry of Industries and Production has formed four technical groups tasked with making recommendations on marble finishing, technology upgradation, value addition and export promotion. These groups will work towards...",
+   "image": "https://i.brecorder.com/large/2026/10/16070610d08b867.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Marble & stone"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Magazine round up | 16 October 2026",
+   "link": "https://www.miningweekly.com/article/magazine-round-up-16-october-2026-2026-10-16",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T01:15:00.000Z",
+   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
