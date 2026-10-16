@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T16:50:17.377Z",
+ "updated": "2026-10-16T17:46:43.157Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -166,7 +166,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 2,
    "seen": 10
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 2,
-   "seen": 143
+   "seen": 144
   },
   {
    "source": "Pakistan Observer",
@@ -242,12 +242,37 @@
  ],
  "items": [
   {
-   "title": "Sponsored summit video: Montage targets first Koné gold by year-end",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-summit-video-montage-targets-first-kone-gold-by-year-end/1003895822/",
+   "title": "Khawaja Asif says Pakistan has awarded no mineral mine or contract to the US",
+   "link": "https://dailytimes.com.pk/1568247/khawaja-asif-says-pakistan-has-awarded-no-mineral-mine-or-contract-to-the-us/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-16T16:25:06.000Z",
-   "summary": "Montage Gold CEO Martino De Ciccio in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Montage Gold and produced in...",
+   "date": "2026-10-16T17:45:50.000Z",
+   "summary": "Defence Minister Khawaja Asif has clarified that Pakistan has not awarded any mineral mine or mining contract to the United States. He said discussions about mineral development remain at an initial stage. Asif added that the US, China,...",
+   "image": null,
+   "source": "Daily Times",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Buffalo clears potash permit hurdle in Saskatchewan",
+   "link": "https://www.northernminer.com/news/buffalo-clears-potash-permit-hurdle-in-saskatchewan/1003895833/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T17:20:44.000Z",
+   "summary": "Buffalo Potash (TSXV: BUFF; US-OTC: BLPTF) has secured Saskatchewan approval to complete construction and operate its first Disley potash facility, with first production still targeted for early 2027. The initial...",
    "image": null,
    "source": "The Northern Miner",
    "section": "",
@@ -255,7 +280,7 @@
    "region": "North America",
    "provinces": [],
    "tags": [
-    "Gold"
+    "Potash"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -269,17 +294,17 @@
    "press": false
   },
   {
-   "title": "Caterpillar announces leadership reshuffle",
-   "link": "https://www.canadianminingjournal.com/news/caterpillar-announces-leadership-reshuffle/",
+   "title": "Pakistan targets $8 billion in mineral exports as reserves estimated at $8 trillion",
+   "link": "https://dailytimes.com.pk/1568242/pakistan-targets-8-billion-in-mineral-exports-as-reserves-estimated-at-8-trillion/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-16T16:01:41.000Z",
-   "summary": "Caterpillar (NYSE: CAT) has announced Derrick York, who currently serves as president of solar turbines, will become group president of resource industries, [...]",
+   "date": "2026-10-16T17:18:38.000Z",
+   "summary": "Pakistan aims to increase its mineral exports from $3 billion to $8 billion through effective policies and investment in the mining sector. According to an Oil and Gas Development Company (OGDC) report, the country has discovered 92...",
    "image": null,
-   "source": "Canadian Mining Journal",
+   "source": "Daily Times",
    "section": "",
-   "scope": "International",
-   "region": "North America",
+   "scope": "National",
+   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,6 +316,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Caterpillar announces leadership reshuffle",
+   "link": "https://www.canadianminingjournal.com/news/caterpillar-announces-leadership-reshuffle/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T16:01:41.000Z",
+   "summary": "Caterpillar (NYSE: CAT) has announced Derrick York, who currently serves as president of solar turbines, will become group president of resource industries, [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -344,17 +394,8 @@
    "press": false
   },
   {
-   "title": "Exiro-led group takes control of Vale's Manitoba nickel complex",
-   "link": "https://www.mining.com/exiro-led-group-takes-control-of-vales-manitoba-nickel-complex/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T15:06:00.000Z",
-   "summary": "New owners pledge major investment in the Thompson nickel complex as Vale retains a minority stake and long-term supply deal.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -368,6 +409,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Exiro-led group takes control of Vale's Manitoba nickel complex",
+   "link": "https://www.mining.com/exiro-led-group-takes-control-of-vales-manitoba-nickel-complex/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T15:06:00.000Z",
+   "summary": "New owners pledge major investment in the Thompson nickel complex as Vale retains a minority stake and long-term supply deal.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -395,6 +445,34 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Summit video: Vizsla puts Palmer copper project first in Alaska growth plan",
+   "link": "https://www.northernminer.com/stock-markets-investing/summit-video-vizsla-puts-palmer-copper-project-first-in-alaska-growth-plan/1003895826/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T14:02:14.000Z",
+   "summary": "Vizsla Copper (TSXV: VCU; US-OTC: VCUFF) plans to move its Palmer copper-zinc project in Alaska toward prefeasibility over the next two to three years, while keeping proposed acquisitions as longer-term...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Zinc"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -469,6 +547,33 @@
    "viaUrl": "",
    "date": "2026-10-16T13:33:45.000Z",
    "summary": "China’s central bank bought more gold in September than in any month for almost three years, accelerating its bullion accumulation as the country’s jewellery market struggled. The People’s Bank of...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Summit video: Montage targets first Koné gold pour by year-end",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-summit-video-montage-targets-first-kone-gold-by-year-end/1003895822/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T13:25:06.000Z",
+   "summary": "Montage Gold (TSX: MAU; US-OTC: MAUTF) is targeting higher-grade satellite deposits to boost output at its Koné mine in Côte d’Ivoire, CEO Martino De Ciccio says. Koné, about 350 km...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
