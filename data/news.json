@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T12:53:19.599Z",
+ "updated": "2026-10-17T13:43:39.414Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 3,
-   "seen": 121
+   "seen": 124
   },
   {
    "source": "Pakistan Observer",
@@ -236,11 +236,38 @@
    "source": "Chitral Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   }
  ],
  "items": [
+  {
+   "title": "خیبر پختونخوا کے معدنی وسائل؛ احتساب یا نئی لوٹ مار؟ - قریش خٹک",
+   "link": "https://chitraltimes.com/khyber-pakhtunkhwas-mineral-resources-accountability-or-new-plunder-by-quresh-khattak",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T13:29:40.000Z",
+   "summary": "Chitral Times خیبر پختونخوا کے معدنی وسائل؛ احتساب یا نئی لوٹ مار؟ - قریش خٹک خیبر پختونخوا کے معدنی وسائل؛ احتساب یا نئی لوٹ مار؟ - قریش خٹک ۔ خیبر پختونخوا میں ایمرجنسی اور گورنر راج کی بحث کے ساتھ ہی صوبے کے قدرتی وسائل پر اختیار اور ان...",
+   "image": null,
+   "source": "Chitral Times",
+   "section": "",
+   "scope": "National",
+   "region": "Chitral",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
