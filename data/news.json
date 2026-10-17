@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T23:40:56.171Z",
+ "updated": "2026-10-17T00:59:31.091Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -214,9 +214,8 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": true,
-   "items": 1,
-   "seen": 10
+   "ok": false,
+   "error": "HTTP 502"
   },
   {
    "source": "The Frontier Post",
@@ -242,17 +241,8 @@
  ],
  "items": [
   {
-   "title": "Buffalo clears potash permit hurdle in Saskatchewan",
-   "link": "https://www.mining.com/buffalo-clears-potash-permit-hurdle-in-saskatchewan/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T22:48:00.000Z",
-   "summary": "The company has secured approval to complete construction and operate its Disley potash facility.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Potash"
@@ -266,6 +256,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Buffalo clears potash permit hurdle in Saskatchewan",
+   "link": "https://www.mining.com/buffalo-clears-potash-permit-hurdle-in-saskatchewan/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-16T22:48:00.000Z",
+   "summary": "The company has secured approval to complete construction and operate its Disley potash facility.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
