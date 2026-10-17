@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T20:43:28.666Z",
+ "updated": "2026-10-17T21:43:26.613Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Pakistan suspends Iran trade corridors over 'security, smuggling concerns'",
-   "link": "https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-17T20:25:14.000Z",
-   "summary": "GWADAR/QUETTA: Pakistan has suspended trade with Iran through the official Gabd-Rimdan (250) and Taftan border crossings, it emerged on Saturday. The Ministry of Commerce issued a memorandum on Friday, seen by Dawn , withdrawing its...",
-   "image": "https://i.dawn.com/large/2025/07/30075130aa73706.jpg",
-   "source": "Dawn",
    "section": "Business",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Pakistan suspends Iran trade corridors over 'security, smuggling concerns'",
+   "link": "https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T20:25:14.000Z",
+   "summary": "GWADAR/QUETTA: Pakistan has suspended trade with Iran through the official Gabd-Rimdan (250) and Taftan border crossings, it emerged on Saturday. The Ministry of Commerce issued a memorandum on Friday, seen by Dawn , withdrawing its...",
+   "image": "https://i.dawn.com/large/2025/07/30075130aa73706.jpg",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
