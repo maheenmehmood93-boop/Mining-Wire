@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:45:32.808Z",
+ "updated": "2026-10-17T10:44:24.140Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -166,7 +166,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 3,
-   "seen": 100
+   "seen": 109
   },
   {
    "source": "Pakistan Observer",
@@ -242,14 +242,14 @@
  ],
  "items": [
   {
-   "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards",
-   "link": "https://www.brecorder.com/news/40444666/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards",
+   "title": "Oil tanker catches fire after mine strike in Hormuz",
+   "link": "https://dailytimes.com.pk/1568660/oil-tanker-catches-fire-after-mine-strike-in-hormuz/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-17T09:07:25.000Z",
-   "summary": "TEHRAN: Iran’s Revolutionary Guards on Saturday said an oil tanker was on fire in the Strait of Hormuz after hitting a mine in the waterway at the heart of the Middle East war. Tehran seized control over Hormuz after the start of the war...",
-   "image": "https://i.brecorder.com/large/2026/10/171405587b00d73.gif",
-   "source": "Business Recorder",
+   "date": "2026-10-17T09:58:29.000Z",
+   "summary": "An oil tanker caught fire after striking a mine in the Strait of Hormuz, Iran’s Revolutionary Guards said Saturday. The incident adds to tensions in a vital global shipping route amid the ongoing Middle East war. The Guards accused the...",
+   "image": null,
+   "source": "Daily Times",
    "section": "",
    "scope": "National",
    "region": "Pakistan",
@@ -267,17 +267,33 @@
    "press": false
   },
   {
-   "title": "Khawaja Asif shares official figures on mining licences in KP",
-   "link": "https://arynews.tv/khawaja-asif-denies-military-seeking-mineral-licences-in-kp",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-17T08:53:51.000Z",
-   "summary": "Khawaja Asif shares official figures on mining licences in KP",
-   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/09/Khawaja-Asif-1.jpg",
-   "source": "ARY News",
    "section": "",
    "scope": "National",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Explosion / fire",
+   "country": "Iran",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Oil tanker on fire after hitting mine in Hormuz: Iran's Guards",
+   "link": "https://www.brecorder.com/news/40444666/oil-tanker-on-fire-after-hitting-mine-in-hormuz-irans-guards",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T09:07:25.000Z",
+   "summary": "TEHRAN: Iran’s Revolutionary Guards on Saturday said an oil tanker was on fire in the Strait of Hormuz after hitting a mine in the waterway at the heart of the Middle East war. Tehran seized control over Hormuz after the start of the war...",
+   "image": "https://i.brecorder.com/large/2026/10/171405587b00d73.gif",
+   "source": "Business Recorder",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -291,6 +307,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Khawaja Asif shares official figures on mining licences in KP",
+   "link": "https://arynews.tv/khawaja-asif-denies-military-seeking-mineral-licences-in-kp",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T08:53:51.000Z",
+   "summary": "Khawaja Asif shares official figures on mining licences in KP",
+   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/09/Khawaja-Asif-1.jpg",
+   "source": "ARY News",
+   "region": "Pakistan",
    "press": false
   },
   {
