@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T06:57:50.958Z",
+ "updated": "2026-10-17T07:45:16.439Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -152,7 +152,7 @@
    "source": "The Express Tribune",
    "section": "Balochistan",
    "ok": true,
-   "items": 2,
+   "items": 3,
    "seen": 19
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 2,
-   "seen": 88
+   "seen": 90
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,60 @@
   }
  ],
  "items": [
+  {
+   "title": "Security forces kill two terrorists in Balochistan operation",
+   "link": "https://en.dailypakistan.com.pk/17-Oct-2026/security-forces-kill-two-terrorists-in-balochistan-operation-2",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T07:06:12.000Z",
+   "summary": "DALBANDIN – Security forces have killed two wanted terrorists during an intelligence-based operation in Dalbandin, a town in Balochistan’s Chagai district. The operation was carried out as part of the ongoing campaign against militant...",
+   "image": null,
+   "source": "Daily Pakistan",
+   "section": "Chagai search",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Two terrorists killed in Balochistan IBO: state media",
+   "link": "https://tribune.com.pk/story/2635343/two-terrorists-killed-in-balochistan-ibo-state-media",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T00:41:18.000Z",
+   "summary": "Sources say terrorists were involved in harassing passengers along the Quetta–Taftan Highway",
+   "image": null,
+   "source": "The Express Tribune",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
