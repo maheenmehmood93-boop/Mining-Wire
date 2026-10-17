@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T19:40:43.356Z",
+ "updated": "2026-10-17T20:43:28.666Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,14 +124,14 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
    "source": "Dawn",
    "section": "Business",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 64
+   "seen": 66
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Pakistan suspends Iran trade corridors over 'security, smuggling concerns'",
+   "link": "https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T20:25:14.000Z",
+   "summary": "GWADAR/QUETTA: Pakistan has suspended trade with Iran through the official Gabd-Rimdan (250) and Taftan border crossings, it emerged on Saturday. The Ministry of Commerce issued a memorandum on Friday, seen by Dawn , withdrawing its...",
+   "image": "https://i.dawn.com/large/2025/07/30075130aa73706.jpg",
+   "source": "Dawn",
+   "section": "Business",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
