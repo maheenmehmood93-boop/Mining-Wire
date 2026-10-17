@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T07:45:16.439Z",
+ "updated": "2026-10-17T08:46:35.071Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 2,
-   "seen": 90
+   "seen": 94
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,21 @@
  ],
  "items": [
   {
+   "section": "Chagai search",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Security forces kill two terrorists in Balochistan operation",
    "link": "https://en.dailypakistan.com.pk/17-Oct-2026/security-forces-kill-two-terrorists-in-balochistan-operation-2",
    "via": "",
@@ -250,9 +265,12 @@
    "summary": "DALBANDIN – Security forces have killed two wanted terrorists during an intelligence-based operation in Dalbandin, a town in Balochistan’s Chagai district. The operation was carried out as part of the ongoing campaign against militant...",
    "image": null,
    "source": "Daily Pakistan",
-   "section": "Chagai search",
-   "scope": "National",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "Balochistan",
+   "scope": "National",
    "provinces": [
     "Balochistan"
    ],
@@ -266,9 +284,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Two terrorists killed in Balochistan IBO: state media",
    "link": "https://tribune.com.pk/story/2635343/two-terrorists-killed-in-balochistan-ibo-state-media",
    "via": "",
@@ -277,22 +292,7 @@
    "summary": "Sources say terrorists were involved in harassing passengers along the Quetta–Taftan Highway",
    "image": null,
    "source": "The Express Tribune",
-   "section": "Balochistan",
-   "scope": "National",
    "region": "Pakistan",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
