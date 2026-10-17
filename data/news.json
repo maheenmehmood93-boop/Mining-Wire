@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T11:43:18.715Z",
+ "updated": "2026-10-17T12:53:19.599Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 3,
-   "seen": 113
+   "seen": 121
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,21 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "National",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Khawaja Asif says PTI issued most KP mineral licences",
    "link": "https://dailytimes.com.pk/1568676/khawaja-asif-says-pti-issued-most-kp-mineral-licences/",
    "via": "",
@@ -250,9 +265,12 @@
    "summary": "Defence Minister Khawaja Asif has said Pakistan Tehreek-e-Insaf (PTI) issued most mineral licences in Khyber Pakhtunkhwa during its tenure. He also said military institutions had no direct role in the sector’s licensing process. Speaking...",
    "image": null,
    "source": "Daily Times",
+   "region": "Pakistan",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -266,9 +284,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "KP governor urges action to unlock mineral resources",
    "link": "https://dailytimes.com.pk/1568678/kp-governor-urges-action-to-unlock-mineral-resources/",
    "via": "",
@@ -277,22 +292,7 @@
    "summary": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi has pledged to extract and sell the province’s mineral resources. He said the government must take practical steps to promote development and benefit from its natural wealth. Speaking at a...",
    "image": null,
    "source": "Daily Times",
-   "section": "",
-   "scope": "National",
    "region": "Pakistan",
-   "provinces": [
-    "Khyber Pakhtunkhwa"
-   ],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
