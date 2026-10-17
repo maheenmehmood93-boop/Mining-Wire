@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T00:59:31.091Z",
+ "updated": "2026-10-17T01:45:09.275Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -214,8 +214,9 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": false,
-   "error": "HTTP 502"
+   "ok": true,
+   "items": 1,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
