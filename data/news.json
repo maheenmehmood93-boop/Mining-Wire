@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T07:44:44.362Z",
+ "updated": "2026-10-18T08:46:44.639Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 79
+   "seen": 83
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,33 @@
  ],
  "items": [
   {
+   "section": "Business",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Pakistan suspends Iran trade corridors over 'security, smuggling concerns'",
+   "link": "https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T07:57:39.000Z",
+   "summary": "GWADAR/QUETTA: Pakistan has suspended trade with Iran through the official Gabd-Rimdan (250) and Taftan border crossings, it emerged on Saturday. The Ministry of Commerce issued a memorandum on Friday, seen by Dawn , withdrawing its...",
+   "image": "https://i.dawn.com/large/2025/07/30075130aa73706.jpg",
+   "source": "Dawn",
+   "region": "Pakistan",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
    "provinces": [],
@@ -290,33 +317,6 @@
    "summary": "DUBAI: Iran’s Revolutionary Guards Navy said on Saturday that two oil tankers had caught fire after hitting naval mines while crossing the Strait of Hormuz, the official Iranian news agency IRNA reported. State media said both tankers were...",
    "image": "https://i.brecorder.com/large/2026/09/18140336315127a.webp",
    "source": "Business Recorder",
-   "region": "Pakistan",
-   "press": false
-  },
-  {
-   "section": "Business",
-   "scope": "National",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Pakistan suspends Iran trade corridors over 'security, smuggling concerns'",
-   "link": "https://www.dawn.com/news/2037865/pakistan-suspends-iran-trade-corridors-over-security-smuggling-concerns",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-17T20:25:14.000Z",
-   "summary": "GWADAR/QUETTA: Pakistan has suspended trade with Iran through the official Gabd-Rimdan (250) and Taftan border crossings, it emerged on Saturday. The Ministry of Commerce issued a memorandum on Friday, seen by Dawn , withdrawing its...",
-   "image": "https://i.dawn.com/large/2025/07/30075130aa73706.jpg",
-   "source": "Dawn",
    "region": "Pakistan",
    "press": false
   },
