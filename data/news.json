@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T00:59:57.847Z",
+ "updated": "2026-10-18T01:45:13.792Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Iran says two tankers hit mines in Hormuz",
-   "link": "https://www.brecorder.com/news/40444762/iran-says-two-tankers-hit-mines-in-hormuz",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-17T23:53:26.000Z",
-   "summary": "DUBAI: Iran’s Revolutionary Guards Navy said on Saturday that two oil tankers had caught fire after hitting naval mines while crossing the Strait of Hormuz, the official Iranian news agency IRNA reported. State media said both tankers were...",
-   "image": "https://i.brecorder.com/large/2026/09/18140336315127a.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Iran says two tankers hit mines in Hormuz",
+   "link": "https://www.brecorder.com/news/40444762/iran-says-two-tankers-hit-mines-in-hormuz",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T23:53:26.000Z",
+   "summary": "DUBAI: Iran’s Revolutionary Guards Navy said on Saturday that two oil tankers had caught fire after hitting naval mines while crossing the Strait of Hormuz, the official Iranian news agency IRNA reported. State media said both tankers were...",
+   "image": "https://i.brecorder.com/large/2026/09/18140336315127a.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
