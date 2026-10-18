@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:41:54.705Z",
+ "updated": "2026-10-18T18:48:01.647Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 108
+   "seen": 110
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Mining’s future hinges on global cooperation: report",
+   "link": "https://www.mining.com/minings-future-hinges-on-global-cooperation-report/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T17:31:14.000Z",
+   "summary": "Three potential paths to 2050 reveal how political divisions, technological advances, and regulation could impact the industry.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -20908,35 +20933,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
-  },
-  {
-   "section": "Assay results",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": false,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "83 m @ 1.74 g/t Au",
-   "exCountry": "Spain",
-   "exRegion": "",
-   "title": "Pan Global Intersects 83 Meters of 1.74 g/t Gold, Expanding New Gold Zone at Cármenes Project, Spain",
-   "link": "https://www.globenewswire.com/news-release/2026/09/17/3363870/0/en/pan-global-intersects-83-meters-of-1-74-g-t-gold-expanding-new-gold-zone-at-c%C3%A1rmenes-project-spain.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-17T11:25:00.000Z",
-   "summary": "Results from the on-going Phase 3 drill program increase our confidence that the mineralized zones remain open for expansion in several directions.",
-   "image": "https://ml.globenewswire.com/Resource/Download/1e63bbe6-0460-4105-b6a3-7322d28861cb",
-   "source": "GlobeNewswire",
-   "region": "Global",
-   "press": true
   }
  ]
 }
