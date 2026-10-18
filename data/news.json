@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T09:45:40.323Z",
+ "updated": "2026-10-18T10:44:46.537Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 88
+   "seen": 91
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Pakistan-Iran border temporarily closed over security, smuggling concerns, clarifies official",
-   "link": "https://www.geo.tv/latest/687116-pakistan-iran-border-temporarily-closed-over-security-smuggling-concerns-clarifies-official",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-18T09:19:00.000Z",
-   "summary": "Iranian tankers stand in a queue waiting at the Pakistan-Iran border at Taftan, Balochistan, June 18, 2025. &mdash; AFPBalochistan CM's aide says Pakistan-Iran border could reopen soon.Coordinated system being developed to improve border...",
-   "image": null,
-   "source": "Geo News",
    "section": "Pakistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Pakistan-Iran border temporarily closed over security, smuggling concerns, clarifies official",
+   "link": "https://www.geo.tv/latest/687116-pakistan-iran-border-temporarily-closed-over-security-smuggling-concerns-clarifies-official",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T09:19:00.000Z",
+   "summary": "Iranian tankers stand in a queue waiting at the Pakistan-Iran border at Taftan, Balochistan, June 18, 2025. &mdash; AFPBalochistan CM's aide says Pakistan-Iran border could reopen soon.Coordinated system being developed to improve border...",
+   "image": null,
+   "source": "Geo News",
+   "region": "Pakistan",
    "press": false
   },
   {
