@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T10:44:46.537Z",
+ "updated": "2026-10-18T11:42:37.817Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 91
+   "seen": 92
   },
   {
    "source": "Pakistan Observer",
@@ -215,7 +215,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Chagai: Abducted Police Officer, Tribal Leader Freed After Nearly a Month",
+   "link": "https://thebalochistanpost.net/2026/10/chagai-abducted-police-officer-tribal-leader-freed-after-nearly-a-month/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T11:40:32.000Z",
+   "summary": "A police officer and a tribal leader abducted by unidentified armed men in Balochistan’s Chagai district last month have been freed, local sources confirmed on Saturday. The men were identified as Gul Shah Muhammad Hasni, who was serving...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "Pakistan",
    "scope": "National",
