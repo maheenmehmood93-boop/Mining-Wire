@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T18:48:01.647Z",
+ "updated": "2026-10-18T19:40:19.675Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -180,8 +180,8 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 1,
-   "seen": 110
+   "items": 0,
+   "seen": 51
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Mining’s future hinges on global cooperation: report",
-   "link": "https://www.mining.com/minings-future-hinges-on-global-cooperation-report/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-18T17:31:14.000Z",
-   "summary": "Three potential paths to 2050 reveal how political divisions, technological advances, and regulation could impact the industry.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining’s future hinges on global cooperation: report",
+   "link": "https://www.mining.com/minings-future-hinges-on-global-cooperation-report/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T17:31:14.000Z",
+   "summary": "Three potential paths to 2050 reveal how political divisions, technological advances, and regulation could impact the industry.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -367,7 +367,7 @@
    "viaUrl": "",
    "date": "2026-10-18T07:57:39.000Z",
    "summary": "GWADAR/QUETTA: Pakistan has suspended trade with Iran through the official Gabd-Rimdan (250) and Taftan border crossings, it emerged on Saturday. The Ministry of Commerce issued a memorandum on Friday, seen by Dawn , withdrawing its...",
-   "image": "https://i.dawn.com/large/2025/07/30075130aa73706.jpg",
+   "image": "https://i.dawn.com/large/2025/07/01080210aa73706.jpg",
    "source": "Dawn",
    "region": "Pakistan",
    "press": false
