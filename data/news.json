@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T05:45:17.643Z",
+ "updated": "2026-10-18T06:56:58.068Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 71
+   "seen": 74
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Antofagasta's Centinela strike ends after deal with unions",
-   "link": "https://www.brecorder.com/news/40444787/antofagastas-centinela-strike-ends-after-deal-with-unions",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-18T05:23:48.000Z",
-   "summary": "SANTIAGO: Workers from two unions at Chile’s Centinela copper mine have ratified an agreement reached with Antofagasta Minerals on a new collective bargaining contract, ending ​a strike of more than a week, the unions ​and the company said...",
-   "image": "https://i.brecorder.com/large/2026/10/18102108da36bd2.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [
     "Copper"
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Antofagasta's Centinela strike ends after deal with unions",
+   "link": "https://www.brecorder.com/news/40444787/antofagastas-centinela-strike-ends-after-deal-with-unions",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T05:23:48.000Z",
+   "summary": "SANTIAGO: Workers from two unions at Chile’s Centinela copper mine have ratified an agreement reached with Antofagasta Minerals on a new collective bargaining contract, ending ​a strike of more than a week, the unions ​and the company said...",
+   "image": "https://i.brecorder.com/large/2026/10/18102108da36bd2.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
