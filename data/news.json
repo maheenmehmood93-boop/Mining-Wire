@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T23:37:34.045Z",
+ "updated": "2026-10-18T00:59:57.847Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Iran says two tankers hit mines in Hormuz",
+   "link": "https://www.brecorder.com/news/40444762/iran-says-two-tankers-hit-mines-in-hormuz",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-17T23:53:26.000Z",
+   "summary": "DUBAI: Iran’s Revolutionary Guards Navy said on Saturday that two oil tankers had caught fire after hitting naval mines while crossing the Strait of Hormuz, the official Iranian news agency IRNA reported. State media said both tankers were...",
+   "image": "https://i.brecorder.com/large/2026/09/18140336315127a.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Explosion / fire",
+   "country": "Iran",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "Business",
    "scope": "National",
