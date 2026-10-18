@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T22:42:04.572Z",
+ "updated": "2026-10-18T23:39:22.245Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -234,8 +235,9 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 1,
+   "seen": 10
   }
  ],
  "items": [
