@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T14:44:16.874Z",
+ "updated": "2026-10-18T15:43:27.471Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 101
+   "seen": 103
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Sweden-based Nordic Quick Systems to join the Can-Am family",
+   "link": "https://im-mining.com/2026/10/18/sweden-based-nordic-quick-systems-to-join-the-can-am-family/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T15:24:15.000Z",
+   "summary": "Can-Am Chains has acquired Nordic Quick Systems AB (NQS), a Sweden-based company specialising in sprocket systems and related solutions for industrial applications, such as mining. The acquisition brings together two complementary...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "Balochistan",
    "scope": "National",
@@ -20912,34 +20937,6 @@
    "source": "GlobeNewswire",
    "region": "Global",
    "press": true
-  },
-  {
-   "section": "Safety search",
-   "scope": "National",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [
-    "Coal"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "Explosion / fire",
-   "country": "Pakistan",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Four miners killed in Harnai coal mine gas explosion",
-   "link": "https://thefrontierpost.com/four-miners-killed-in-harnai-coal-mine-gas-explosion/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-13T17:54:15.000Z",
-   "summary": "F.P. Report HARNAI: At least four miners were killed and two others injured after a methane gas explosion in a coal mine in Harnai district of Balochistan, officials said on Sunday. Chief Mines Inspector Atif Ali said that the explosion...",
-   "image": null,
-   "source": "The Frontier Post",
-   "region": "Peshawar"
   }
  ]
 }
