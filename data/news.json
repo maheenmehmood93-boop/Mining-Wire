@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T06:56:58.068Z",
+ "updated": "2026-10-18T07:44:44.362Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 74
+   "seen": 79
   },
   {
    "source": "Pakistan Observer",
@@ -201,7 +201,7 @@
    "source": "The Frontier Post",
    "section": "Chagai search",
    "ok": true,
-   "items": 5,
+   "items": 4,
    "seen": 10
   },
   {
