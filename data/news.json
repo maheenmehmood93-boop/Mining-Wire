@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T04:47:45.965Z",
+ "updated": "2026-10-18T05:45:17.643Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 68
+   "seen": 71
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Antofagasta's Centinela strike ends after deal with unions",
+   "link": "https://www.brecorder.com/news/40444787/antofagastas-centinela-strike-ends-after-deal-with-unions",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-18T05:23:48.000Z",
+   "summary": "SANTIAGO: Workers from two unions at Chile’s Centinela copper mine have ratified an agreement reached with Antofagasta Minerals on a new collective bargaining contract, ending ​a strike of more than a week, the unions ​and the company said...",
+   "image": "https://i.brecorder.com/large/2026/10/18102108da36bd2.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
