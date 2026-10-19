@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T22:46:29.238Z",
+ "updated": "2026-10-19T23:46:42.968Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -104,7 +104,7 @@
    "source": "GlobeNewswire",
    "section": "Exploration update",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "fetch failed"
   },
   {
    "source": "MINING.COM",
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Westwin Elements, Traxys eye $3.9 billion, 22 year nickel offtake extension",
+   "link": "https://www.mining.com/westwin-elements-traxys-eye-3-9-billion-22-year-nickel-offtake-extension/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T23:38:46.000Z",
+   "summary": "Westwin operates a demonstration plant in Oklahoma, and has selected Natchez, Mississippi, for its upcoming commercial-scale class 1 nickel refinery, the first in the US.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -20993,34 +21020,6 @@
    "viaUrl": "",
    "date": "2026-10-02T15:25:50.000Z",
    "summary": "Brazil is trying to speed up mine approvals just as its Supreme Court weighs challenges that could undo parts of the country’s new environmental licensing system. The overhaul sets national...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Ecuador",
-   "exRegion": "",
-   "title": "TNM Drill Down: Lion One in Fiji leads gold assays for August-September",
-   "link": "https://www.northernminer.com/news/tnm-drill-down-lion-one-in-fiji-leads-assays-for-august-september/1003895388/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T14:15:40.000Z",
-   "summary": "Drilling in Fiji, Ecuador and the United States returned the top gold results for the Aug. 17 to Sept. 15 period, with assays from Lion One Metals (TSXV: LIO), Auro...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America"
