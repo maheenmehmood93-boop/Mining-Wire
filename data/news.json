@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T18:59:33.270Z",
+ "updated": "2026-10-19T19:50:01.311Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 123
+   "seen": 81
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Caterpillar gears up for launch of 22 t diesel-electric R3200 LHD",
-   "link": "https://im-mining.com/2026/10/19/caterpillar-gears-up-for-launch-of-22-t-diesel-electric-r3200-lhd/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T18:25:35.000Z",
-   "summary": "Caterpillar's R2900 XE has been a marked success - the diesel-electric 18.5 t loader is now being used in significant numbers globally; PT Freeport Indonesia this month took delivery of its 21st unit from Cat dealer Trakindo - quite a...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,20 +255,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Caterpillar gears up for launch of 22 t diesel-electric R3200 LHD",
+   "link": "https://im-mining.com/2026/10/19/caterpillar-gears-up-for-launch-of-22-t-diesel-electric-r3200-lhd/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T18:25:35.000Z",
+   "summary": "Caterpillar's R2900 XE has been a marked success - the diesel-electric 18.5 t loader is now being used in significant numbers globally; PT Freeport Indonesia this month took delivery of its 21st unit from Cat dealer Trakindo - quite a...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Copper Mark becomes Veramark Assurance, broadens horizons",
-   "link": "https://www.canadianminingjournal.com/news/copper-mark-becomes-veramark-assurance-broadens-horizons/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T17:52:47.000Z",
-   "summary": "The Copper Mark, an international framework that promotes responsible production and sourcing, has officially changed its name to Veramark Assurance. The organization [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -291,20 +282,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Copper Mark becomes Veramark Assurance, broadens horizons",
+   "link": "https://www.canadianminingjournal.com/news/copper-mark-becomes-veramark-assurance-broadens-horizons/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T17:52:47.000Z",
+   "summary": "The Copper Mark, an international framework that promotes responsible production and sourcing, has officially changed its name to Veramark Assurance. The organization [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "Ground View Pakistan: Same hall, different world",
-   "link": "https://www.mining.com/ground-view-pakistan-same-hall-different-world/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T17:50:38.000Z",
-   "summary": "Pakistan’s minerals forum returns to Islamabad in November, with Reko Diq delayed, trade routes disrupted and diplomacy reshaped.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "Pakistan",
    "scope": "International",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -318,6 +309,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Ground View Pakistan: Same hall, different world",
+   "link": "https://www.mining.com/ground-view-pakistan-same-hall-different-world/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T17:50:38.000Z",
+   "summary": "Pakistan’s minerals forum returns to Islamabad in November, with Reko Diq delayed, trade routes disrupted and diplomacy reshaped.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -398,17 +398,8 @@
    "press": false
   },
   {
-   "title": "Volvo to launch a mining division to meet global equipment demand",
-   "link": "https://www.canadianminingjournal.com/news/volvo-to-launch-a-mining-division-to-meet-global-equipment-demand/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T17:13:20.000Z",
-   "summary": "The new unit will supply equipment and autonomous technology to the industry, starting in 2027.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -420,6 +411,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Volvo to launch a mining division to meet global equipment demand",
+   "link": "https://www.canadianminingjournal.com/news/volvo-to-launch-a-mining-division-to-meet-global-equipment-demand/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T17:13:20.000Z",
+   "summary": "The new unit will supply equipment and autonomous technology to the industry, starting in 2027.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -558,17 +558,8 @@
    "press": false
   },
   {
-   "title": "Cambria’s Silver Coin assays back Premier feed plan",
-   "link": "https://www.northernminer.com/news/cambrias-silver-coin-assays-back-premier-feed-plan/1003895880/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T16:03:48.000Z",
-   "summary": "High-grade drill results at Cambria Gold Mines’ (TSXV: CAMB; US-OTC: CAMVF) Silver Coin bolster its plans to secure ore for the restart next year of the idled Premier mill in...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
@@ -585,6 +576,15 @@
    "exHighlight": "",
    "exCountry": "Unspecified",
    "exRegion": "",
+   "title": "Cambria’s Silver Coin assays back Premier feed plan",
+   "link": "https://www.northernminer.com/news/cambrias-silver-coin-assays-back-premier-feed-plan/1003895880/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T16:03:48.000Z",
+   "summary": "High-grade drill results at Cambria Gold Mines’ (TSXV: CAMB; US-OTC: CAMVF) Silver Coin bolster its plans to secure ore for the restart next year of the idled Premier mill in...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -615,17 +615,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Aris Mining maps path to a million ounces a year",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-aris-mining-maps-path-to-a-million-ounces-a-year/1003895871/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T15:47:41.000Z",
-   "summary": "Aris Mining Chair &#38; CEO Neil Woodyer in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Aris Mining and produced...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -637,6 +628,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Aris Mining maps path to a million ounces a year",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-aris-mining-maps-path-to-a-million-ounces-a-year/1003895871/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T15:47:41.000Z",
+   "summary": "Aris Mining Chair &#38; CEO Neil Woodyer in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Aris Mining and produced...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -667,17 +667,8 @@
    "press": false
   },
   {
-   "title": "Military Metals wins four-year Slovak licence lifeline",
-   "link": "https://www.northernminer.com/news/military-metals-wins-four-year-slovak-licence-lifeline/1003895882/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T15:07:20.000Z",
-   "summary": "Military Metals (CSE: MILI; US-OTC: MILIF) secured four more years to explore its Trojárová antimony-gold project in Slovakia after authorities reversed a decision to cancel its licence. Shares rose. The...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -691,6 +682,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Military Metals wins four-year Slovak licence lifeline",
+   "link": "https://www.northernminer.com/news/military-metals-wins-four-year-slovak-licence-lifeline/1003895882/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T15:07:20.000Z",
+   "summary": "Military Metals (CSE: MILI; US-OTC: MILIF) secured four more years to explore its Trojárová antimony-gold project in Slovakia after authorities reversed a decision to cancel its licence. Shares rose. The...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -722,17 +722,8 @@
    "press": false
   },
   {
-   "title": "Americas Gold’s record silver output misses forecasts",
-   "link": "https://www.mining.com/americas-golds-record-silver-output-misses-forecasts/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T14:59:00.000Z",
-   "summary": "Silver production in the three months ended Sept. 30 hit a record 800,458 oz., a 4.6% increase from the same quarter in 2025.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -747,6 +738,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Americas Gold’s record silver output misses forecasts",
+   "link": "https://www.mining.com/americas-golds-record-silver-output-misses-forecasts/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T14:59:00.000Z",
+   "summary": "Silver production in the three months ended Sept. 30 hit a record 800,458 oz., a 4.6% increase from the same quarter in 2025.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -858,17 +858,8 @@
    "press": false
   },
   {
-   "title": "Spain’s Andalucia courts miners with faster permits",
-   "link": "https://www.mining.com/spains-andalucia-courts-miners-with-faster-permits/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T14:04:28.000Z",
-   "summary": "Faster permits and public funding are intended to turn Andalucia’s mineral wealth into a broader industrial base.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -880,6 +871,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Spain’s Andalucia courts miners with faster permits",
+   "link": "https://www.mining.com/spains-andalucia-courts-miners-with-faster-permits/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T14:04:28.000Z",
+   "summary": "Faster permits and public funding are intended to turn Andalucia’s mineral wealth into a broader industrial base.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -960,17 +960,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Sitka Gold probes underground potential at Blackjack",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-sitka-gold-probes-underground-potential-at-blackjack/1003895869/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T13:00:16.000Z",
-   "summary": "Sitka Gold VP Mike Burke in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Sitka Gold and produced in co-operation...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -984,6 +975,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Sitka Gold probes underground potential at Blackjack",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-sitka-gold-probes-underground-potential-at-blackjack/1003895869/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T13:00:16.000Z",
+   "summary": "Sitka Gold VP Mike Burke in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Sitka Gold and produced in co-operation...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -1278,17 +1278,8 @@
    "press": false
   },
   {
-   "title": "Volta doubles Springer rare earths, eyes 2027 study",
-   "link": "https://www.canadianminingjournal.com/news/volta-doubles-springer-rare-earths-eyes-2027-study/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T10:49:00.000Z",
-   "summary": "Ontario project ranks fifth in North America by resource tonnage, with its first gallium estimate adding potential value.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -1302,6 +1293,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Volta doubles Springer rare earths, eyes 2027 study",
+   "link": "https://www.canadianminingjournal.com/news/volta-doubles-springer-rare-earths-eyes-2027-study/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T10:49:00.000Z",
+   "summary": "Ontario project ranks fifth in North America by resource tonnage, with its first gallium estimate adding potential value.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
