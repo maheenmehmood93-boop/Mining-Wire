@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T04:51:48.573Z",
+ "updated": "2026-10-19T05:48:53.084Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 30
   },
   {
@@ -153,7 +153,7 @@
    "section": "Balochistan",
    "ok": true,
    "items": 1,
-   "seen": 18
+   "seen": 19
   },
   {
    "source": "Business Recorder",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 51
+   "seen": 53
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,89 @@
  ],
  "items": [
   {
-   "title": "18 marble workers abducted in Khuzdar",
-   "link": "https://www.dawn.com/news/2038186/18-marble-workers-abducted-in-khuzdar",
+   "title": "Perenti in pole position for next growth phase, Torres says",
+   "link": "https://im-mining.com/2026/10/19/perenti-in-pole-position-for-next-growth-phase-torres-says/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-19T01:39:42.000Z",
-   "summary": "QUETTA: As many as 18 labourers working at a marble mine in the Naal area, about 40 kilometres from Khuzdar city, were kidnapped on Sunday, police said. A large group of armed men entered the mine premises, held the labourers at gunpoint...",
-   "image": "https://i.dawn.com/large/2020/03/5e758ef604607.jpg",
+   "date": "2026-10-19T05:25:37.000Z",
+   "summary": "Perenti CEO, Vanessa Torres, thinks the contract mining and drilling major is strongly positioned financially, geographically and culturally to attack a A$20 billion ($14 billion) pipeline of work that is increasingly copper lined, Richard...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Fortescue's &#8216;world-first' arsenic removal tech unlocks new copper processing potential",
+   "link": "https://im-mining.com/2026/10/19/fortescues-world-first-arsenic-removal-tech-unlocks-new-copper-processing-potential/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T05:11:42.000Z",
+   "summary": "Fortescue says it has sold more than 40 tonnes of copper concentrate cleaned using its new “world-first” arsenic removal technology, creating a solution for a complex problem facing the global copper industry. The patented Toowong Process...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Mining curbs leave thousands of workers jobless in Chitral",
+   "link": "https://www.dawn.com/news/2038077/mining-curbs-leave-thousands-of-workers-jobless-in-chitral",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T01:47:25.000Z",
+   "summary": "CHITRAL: Senior vice president of the Chitral Mine Owners Association, Bashir Ahmad Khan, has made a fervent appeal to top provincial authorities and military leadership to immediately remove stringent and “unnecessary” restrictions...",
+   "image": "https://i.dawn.com/large/2026/03/230523255c64e2a.webp",
    "source": "Dawn",
    "section": "Pakistan",
    "scope": "National",
    "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
    "provinces": [
     "Balochistan"
    ],
@@ -268,6 +340,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "18 marble workers abducted in Khuzdar",
+   "link": "https://www.dawn.com/news/2038186/18-marble-workers-abducted-in-khuzdar",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T01:39:42.000Z",
+   "summary": "QUETTA: As many as 18 labourers working at a marble mine in the Naal area, about 40 kilometres from Khuzdar city, were kidnapped on Sunday, police said. A large group of armed men entered the mine premises, held the labourers at gunpoint...",
+   "image": "https://i.dawn.com/large/2020/03/5e758ef604607.jpg",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -20855,85 +20936,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
-  },
-  {
-   "section": "Mineral resource",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": false,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Unspecified",
-   "exRegion": "",
-   "title": "Inventus Expands Shallow High-Grade Main Layer and Identifies Broad Bulk-Tonnage Gold Potential at Pardo",
-   "link": "https://www.globenewswire.com/news-release/2026/09/23/3367348/0/en/inventus-expands-shallow-high-grade-main-layer-and-identifies-broad-bulk-tonnage-gold-potential-at-pardo.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-23T11:00:00.000Z",
-   "summary": "Inventus reports results from 100 drill holes at Pardo, expanding shallow high-grade gold mineralization and identifying broader bulk-tonnage potential.",
-   "image": "https://ml.globenewswire.com/Resource/Download/b60ffb62-bdcd-4a06-8cbf-403a1fc2e987",
-   "source": "GlobeNewswire",
-   "region": "Global",
-   "press": true
-  },
-  {
-   "section": "Pakistan",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Attacks on mining operations on the rise in Pakistan: report",
-   "link": "https://www.mining.com/attacks-on-mining-operations-on-the-rise-in-pakistan-report/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-20T18:57:53.000Z",
-   "summary": "Rising violence around resource projects threatens Pakistan’s push to draw foreign capital into its mineral sector.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Pakistan"
-  },
-  {
-   "section": "Chagai search",
-   "scope": "National",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Security forces kill 11 terrorists in Balochistan’s Pangjur, Chagai",
-   "link": "https://en.dailypakistan.com.pk/19-Sep-2026/security-forces-kill-11-terrorists-in-balochistans-pangjur-chagai",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-19T05:53:35.000Z",
-   "summary": "QUETTA – Security forces have killed 11 terrorists in two separate operations in Balochistan under Operation Radd-ul-Fitna 3. The killed militants were affiliated with Fitna al-Hindustan as operations were conducted in Panjgur and Chagai...",
-   "image": null,
-   "source": "Daily Pakistan",
-   "region": "Pakistan"
   }
  ]
 }
