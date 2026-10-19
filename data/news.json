@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T21:47:25.208Z",
+ "updated": "2026-10-19T22:46:29.238Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Study nearly doubles value, lifts resource for Aclara’s Penco rare earths project",
-   "link": "https://www.mining.com/study-nearly-doubles-value-lifts-resource-for-aclaras-penco-rare-earths-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T21:45:00.000Z",
-   "summary": "Aclara attributes the higher NPV partly to a 55% increase in material processed to 30.8 million tonnes.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -266,9 +257,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Study nearly doubles value, lifts resource for Aclara’s Penco rare earths project",
+   "link": "https://www.mining.com/study-nearly-doubles-value-lifts-resource-for-aclaras-penco-rare-earths-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T21:45:00.000Z",
+   "summary": "Aclara attributes the higher NPV partly to a 55% increase in material processed to 30.8 million tonnes.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Brazil survey plan could give big miners first pick of claims",
    "link": "https://www.mining.com/brazil-survey-plan-could-give-big-miners-first-pick-of-claims/",
    "via": "",
@@ -277,9 +290,12 @@
    "summary": "The aim is to expand survey capacity, Geological Survey of Brazil said.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,9 +307,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Military Metals wins four-year Slovak licence lifeline",
    "link": "https://www.mining.com/military-metals-wins-four-year-slovak-licence-lifeline/",
    "via": "",
@@ -302,20 +315,7 @@
    "summary": "The exploration permit now runs to Oct. 18, 2030.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
