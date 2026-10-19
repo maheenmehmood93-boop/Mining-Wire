@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T14:54:05.560Z",
+ "updated": "2026-10-19T15:51:32.976Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 102
+   "seen": 111
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,36 @@
  ],
  "items": [
   {
-   "title": "Tsodilo advances strategic collaborations at Botswana project",
-   "link": "https://www.miningweekly.com/article/tsodilo-advances-strategic-collaborations-at-botswana-project-2026-10-19",
+   "title": "Americas Gold’s record silver output misses forecasts",
+   "link": "https://www.northernminer.com/news/americas-golds-record-silver-output-misses-forecasts/1003895857/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-19T14:26:00.000Z",
-   "summary": "TSX-V-listed Tsodilo Resources has progressed strategic collaborative research alliances supporting its critical minerals and rare earth element (REE) exploration at its 100%-owned Gcwihaba Metals project, in northwest Botswana. The...",
+   "date": "2026-10-19T14:59:00.000Z",
+   "summary": "Americas Gold and Silver (TSX: USA; NYSE-A: USAS) reported weaker-than-expected silver production in the third quarter amid ongoing infrastructure work at its main Galena complex in Idaho. Silver production in...",
    "image": null,
-   "source": "Mining Weekly",
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Silver"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -266,20 +285,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Tsodilo advances strategic collaborations at Botswana project",
+   "link": "https://www.miningweekly.com/article/tsodilo-advances-strategic-collaborations-at-botswana-project-2026-10-19",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T14:26:00.000Z",
+   "summary": "TSX-V-listed Tsodilo Resources has progressed strategic collaborative research alliances supporting its critical minerals and rare earth element (REE) exploration at its 100%-owned Gcwihaba Metals project, in northwest Botswana. The...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "TFR sets new world record with 696-wagon iron-ore train",
-   "link": "https://www.miningweekly.com/article/tfr-sets-new-world-record-with-696-wagon-iron-ore-train-2026-10-19",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T14:25:00.000Z",
-   "summary": "Transnet Freight Rail (TFR) says it has achieved a global freight rail milestone, safely operating a 696-wagon empty train on the Iron Ore Export Line from Saldanha Bay, in the Western Cape, to the Northern Cape. The train reached Loop 18...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -293,20 +312,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "TFR sets new world record with 696-wagon iron-ore train",
+   "link": "https://www.miningweekly.com/article/tfr-sets-new-world-record-with-696-wagon-iron-ore-train-2026-10-19",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T14:25:00.000Z",
+   "summary": "Transnet Freight Rail (TFR) says it has achieved a global freight rail milestone, safely operating a 696-wagon empty train on the Iron Ore Export Line from Saldanha Bay, in the Western Cape, to the Northern Cape. The train reached Loop 18...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Kodal to explore Ghana lithium project",
-   "link": "https://www.miningweekly.com/article/kodal-to-explore-ghana-lithium-project-2026-10-19",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T14:13:00.000Z",
-   "summary": "Aim-listed Kodal Minerals has entered into a binding agreement with Ghanaian mining consultancy GH Geo-Consult Limited (GGCL) in relation to the Asamankese lithium project, in Ghana. Under the terms of the agreement, Kodal has the right to...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -320,20 +339,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Kodal to explore Ghana lithium project",
+   "link": "https://www.miningweekly.com/article/kodal-to-explore-ghana-lithium-project-2026-10-19",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T14:13:00.000Z",
+   "summary": "Aim-listed Kodal Minerals has entered into a binding agreement with Ghanaian mining consultancy GH Geo-Consult Limited (GGCL) in relation to the Asamankese lithium project, in Ghana. Under the terms of the agreement, Kodal has the right to...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Gemfields’ latest ruby auction yields $52m",
-   "link": "https://www.miningweekly.com/article/gemfields-latest-ruby-auction-yields-52m-2026-10-19",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T14:10:00.000Z",
-   "summary": "Aim-listed Gemfields reports that its latest auction of mixed-quality rough rubies, recovered from Montepuez Ruby Mining (MRM), in Mozambique, generated total revenues of $52-million. The auction, which was held in Bangkok, Thailand, from...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gemstones"
@@ -347,6 +366,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gemfields’ latest ruby auction yields $52m",
+   "link": "https://www.miningweekly.com/article/gemfields-latest-ruby-auction-yields-52m-2026-10-19",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T14:10:00.000Z",
+   "summary": "Aim-listed Gemfields reports that its latest auction of mixed-quality rough rubies, recovered from Montepuez Ruby Mining (MRM), in Mozambique, generated total revenues of $52-million. The auction, which was held in Bangkok, Thailand, from...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -533,17 +561,8 @@
    "press": false
   },
   {
-   "title": "Copper-hungry US buyers circle Ivanhoe Electric mine",
-   "link": "https://www.mining.com/copper-hungry-us-buyers-circle-ivanhoe-electric-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T12:03:00.000Z",
-   "summary": "Advanced offtake talks could help finance the $1.4-billion Santa Cruz copper project in Arizona as AI and power grid demand accelerates.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -557,6 +576,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Copper-hungry US buyers circle Ivanhoe Electric mine",
+   "link": "https://www.mining.com/copper-hungry-us-buyers-circle-ivanhoe-electric-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T12:03:00.000Z",
+   "summary": "Advanced offtake talks could help finance the $1.4-billion Santa Cruz copper project in Arizona as AI and power grid demand accelerates.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -664,17 +692,8 @@
    "press": false
   },
   {
-   "title": "Volta doubles Springer rare earths, eyes 2027 study",
-   "link": "https://www.northernminer.com/news/volta-doubles-springer-rare-earths-eyes-2027-study/1003895847/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T10:49:00.000Z",
-   "summary": "Ontario project ranks fifth in North America by resource tonnage, with its first gallium estimate adding potential value.",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -688,6 +707,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Volta doubles Springer rare earths, eyes 2027 study",
+   "link": "https://www.northernminer.com/news/volta-doubles-springer-rare-earths-eyes-2027-study/1003895847/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T10:49:00.000Z",
+   "summary": "Ontario project ranks fifth in North America by resource tonnage, with its first gallium estimate adding potential value.",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -20952,30 +20980,6 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Mountain Province Diamonds gives De Beers 49% Gahcho Kué stake",
-   "link": "https://www.mining.com/mountain-province-gives-de-beers-49-gahcho-kue-stake/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-01T18:00:00.000Z",
-   "summary": "Diamond-market weakness pushes the Canadian miner to shed mine liabilities and seek fresh funding for its balance sheet.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global"
   }
  ]
 }
