@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T03:53:27.775Z",
+ "updated": "2026-10-19T04:51:48.573Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -123,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -234,11 +235,41 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 1,
+   "seen": 10
   }
  ],
  "items": [
+  {
+   "title": "18 marble workers abducted in Khuzdar",
+   "link": "https://www.dawn.com/news/2038186/18-marble-workers-abducted-in-khuzdar",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T01:39:42.000Z",
+   "summary": "QUETTA: As many as 18 labourers working at a marble mine in the Naal area, about 40 kilometres from Khuzdar city, were kidnapped on Sunday, police said. A large group of armed men entered the mine premises, held the labourers at gunpoint...",
+   "image": "https://i.dawn.com/large/2020/03/5e758ef604607.jpg",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [
+    "Marble & stone"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -20903,34 +20934,6 @@
    "image": null,
    "source": "Daily Pakistan",
    "region": "Pakistan"
-  },
-  {
-   "section": "Exploration search",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Discovery",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "United States",
-   "exRegion": "California",
-   "title": "Q&#038;A: K2 Gold assays build on California Mojave discovery",
-   "link": "https://www.mining.com/sponsored-content/qa-k2-gold-assays-build-on-california-mojave-discovery/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-09-17T17:06:17.000Z",
-   "summary": "K2 Gold’s (TSXV: KTO) Mojave project is back in focus after the company reported the first drill results from this year’s 14,000-metre [...]",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global"
   }
  ]
 }
