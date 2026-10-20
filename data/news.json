@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T22:47:32.663Z",
+ "updated": "2026-10-20T23:43:14.575Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Mauritania’s first uranium mine comes into view despite funding, security issues",
+   "link": "https://www.mining.com/mauritanias-first-uranium-mine-comes-into-view-despite-funding-security-issues/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T22:20:00.000Z",
+   "summary": "Aura Energy's bankable feasibility study outlined a $500-million valuation for its Tiris project.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21073,30 +21100,6 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_1902886648.jpg",
    "source": "Mining Technology",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Electra taps Garzon Duenas to lead refinery transition",
-   "link": "https://www.canadianminingjournal.com/news/electra-taps-garzon-duenas-to-lead-refinery-transition/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T16:23:24.000Z",
-   "summary": "Electra Battery Materials (TSXV: ELBM) has named Garzon Duenas as its general manager and commissioning leader, effective Monday.&#160; Duenas will lead operational [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America"
   }
  ]
 }
