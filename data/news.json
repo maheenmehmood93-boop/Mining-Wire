@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T19:49:07.232Z",
+ "updated": "2026-10-20T20:50:59.813Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -165,9 +165,8 @@
   {
    "source": "Daily Times",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "Geo News",
@@ -181,7 +180,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 80
+   "seen": 82
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +241,8 @@
  ],
  "items": [
   {
-   "title": "Iran Guards say three tankers hit mines crossing Hormuz strait",
-   "link": "https://thefrontierpost.com/iran-guards-say-three-tankers-hit-mines-crossing-hormuz-strait/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T19:44:11.000Z",
-   "summary": "TEHRAN (AFP) : Iranian Revolutionary Guards said on Tuesday that their naval mines halted three tankers attempting to travel the Strait of Hormuz via routes considered illegal by Tehran. “Two violating oil tankers were set ablaze and...",
-   "image": null,
-   "source": "The Frontier Post",
    "section": "",
    "scope": "National",
-   "region": "Peshawar",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +254,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Iran Guards say three tankers hit mines crossing Hormuz strait",
+   "link": "https://thefrontierpost.com/iran-guards-say-three-tankers-hit-mines-crossing-hormuz-strait/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T19:44:11.000Z",
+   "summary": "TEHRAN (AFP) : Iranian Revolutionary Guards said on Tuesday that their naval mines halted three tankers attempting to travel the Strait of Hormuz via routes considered illegal by Tehran. “Two violating oil tankers were set ablaze and...",
+   "image": null,
+   "source": "The Frontier Post",
+   "region": "Peshawar",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Cornish Metals faces costly financing hurdle",
    "link": "https://www.northernminer.com/news/cornish-metals-faces-costly-financing-hurdle/1003895911/",
    "via": "",
@@ -275,9 +287,21 @@
    "summary": "Cornish Metals (AIM: TIN) is seeking £135 million ($254 million) through a deeply discounted share sale to unlock financing for its South Crofty tin mine’s restart, warning it could be...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Cornish Metals faces costly financing hurdle",
+   "link": "https://www.mining.com/cornish-metals-faces-costly-financing-hurdle/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T18:51:13.000Z",
+   "summary": "The company is seeking to unlock financing for its South Crofty tin mine’s restart in the UK.",
+   "image": null,
+   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -21068,30 +21092,6 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "FMF 2027 to explore global collaboration for a resilient mineral supply",
-   "link": "https://im-mining.com/2026/10/05/fmf-2027-to-explore-global-collaboration-for-a-resilient-mineral-supply/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T15:32:19.000Z",
-   "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources (MIM) has announced that the sixth edition of the Future Minerals Forum (FMF), a global platform for shaping the future of minerals, will be held under the patronage of the...",
-   "image": null,
-   "source": "International Mining",
-   "region": "Global"
   }
  ]
 }
