@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T14:51:49.166Z",
+ "updated": "2026-10-20T15:49:53.001Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 127
+   "seen": 133
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,73 @@
  ],
  "items": [
   {
-   "title": "Metso to buy Italbronze to strengthen crushing tech aftermarket growth",
-   "link": "https://www.canadianminingjournal.com/news/metso-to-buy-italbronze-to-strengthen-crushing-tech-aftermarket-growth/",
+   "title": "Bravo buys Canaã copper property, plans drill program",
+   "link": "https://www.canadianminingjournal.com/news/bravo-buys-canaa-copper-property-plans-drill-program/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-20T14:07:44.000Z",
-   "summary": "The deal is expected to be completed by the end of 2026. The parties have agreed not to disclose the transaction value [...]",
+   "date": "2026-10-20T15:23:24.000Z",
+   "summary": "Bravo Mining (TSXV: BRVO) has added the Canaã copper property to its Carajás portfolio in northern Brazil.&#160; The company says its decision [...]",
    "image": null,
    "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
    "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Drilling update",
+   "exMetals": [
+    "Copper"
+   ],
+   "exHighlight": "",
+   "exCountry": "Brazil",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "South African rare earth mine targets first exports",
+   "link": "https://www.northernminer.com/news/south-african-rare-earth-mine-targets-first-exports/1003895889/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T14:56:42.000Z",
+   "summary": "South Africa’s Steenkampskraal mine is targeting its first rare earth concentrate exports before year-end following the opening of a processing plant, while plans to produce higher-value separated oxides locally remain...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Michelin launches XDR Wide Body Truck tyre to address boom in this truck segment in mining",
+   "link": "https://im-mining.com/2026/10/20/michelin-launches-xdr-wide-body-truck-tyre-to-address-boom-in-this-truck-segment-in-mining/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T14:52:55.000Z",
+   "summary": "The growth of the wide body truck market in mining in China has been unprecedented, and they are now increasingly being used in mining markets outside of China including South America, Indonesia, Southern and Central Africa, Central Asia,...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -267,17 +323,33 @@
    "press": false
   },
   {
-   "title": "MC Mining nonexecutive director steps down",
-   "link": "https://www.miningweekly.com/article/mc-mining-nonexecutive-director-steps-down-2026-10-20",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T14:05:00.000Z",
-   "summary": "Dr Steele West has resigned as coal miner MC Mining nonexecutive director, with effect from October 15. West was appointed as a nonexecutive director in September 2024 and served as a member of MC Mining’s safety, health, environment and...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Metso to buy Italbronze to strengthen crushing tech aftermarket growth",
+   "link": "https://www.canadianminingjournal.com/news/metso-to-buy-italbronze-to-strengthen-crushing-tech-aftermarket-growth/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T14:07:44.000Z",
+   "summary": "The deal is expected to be completed by the end of 2026. The parties have agreed not to disclose the transaction value [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Coal"
@@ -291,20 +363,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "MC Mining nonexecutive director steps down",
+   "link": "https://www.miningweekly.com/article/mc-mining-nonexecutive-director-steps-down-2026-10-20",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T14:05:00.000Z",
+   "summary": "Dr Steele West has resigned as coal miner MC Mining nonexecutive director, with effect from October 15. West was appointed as a nonexecutive director in September 2024 and served as a member of MC Mining’s safety, health, environment and...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Millennial Potash extends mineralisation at Gabon project",
-   "link": "https://www.miningweekly.com/article/millennial-potash-extends-mineralisation-at-gabon-project-2026-10-20",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T14:04:00.000Z",
-   "summary": "TSX-V-listed Millenial Potash Corporation has announced another significant drilling milestone at its Banio project, in Gabon, where the extension of drillhole BA-006 intersected a further about 40 m of potash mineralisation, bringing the...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Potash"
@@ -318,6 +390,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Millennial Potash extends mineralisation at Gabon project",
+   "link": "https://www.miningweekly.com/article/millennial-potash-extends-mineralisation-at-gabon-project-2026-10-20",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T14:04:00.000Z",
+   "summary": "TSX-V-listed Millenial Potash Corporation has announced another significant drilling milestone at its Banio project, in Gabon, where the extension of drillhole BA-006 intersected a further about 40 m of potash mineralisation, bringing the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -396,6 +477,33 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Copper surplus masks looming $332B mine shortfall",
+   "link": "https://www.mining.com/copper-surplus-masks-looming-332b-mine-shortfall/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T13:09:00.000Z",
+   "summary": "BNEF predicts enough refined metal until 2027, but lengthy mine development may cause a shortage by 2050.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -20961,110 +21069,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Rio Tinto, Founders Factory back five mining startups",
-   "link": "https://www.canadianminingjournal.com/news/rio-tinto-founders-factory-back-five-mining-startups/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T13:14:49.000Z",
-   "summary": "The mining tech accelerator selected copper exploration, geohazard monitoring and metals processing startups.",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Potash"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Millennial Potash targets 2029 production as US-backed Gabon project advances",
-   "link": "https://www.mining.com/millennial-potash-targets-2029-production-as-us-backed-gabon-project-advances/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T13:00:00.000Z",
-   "summary": "\"I don't want to replace Canadian potash,\" CEO said. \"Actually, I want to replace Russian potash.\"",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Sasol tops emerging market peers on oil-from-coal bonanza",
-   "link": "https://www.miningweekly.com/article/sasol-tops-emerging-market-peers-on-oil-from-coal-bonanza-2026-10-05",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T12:59:00.000Z",
-   "summary": "This year’s oil price rally has produced one clear winner: South Africa’s Sasol is the top-performing emerging-market stock outside Asia and many analysts are betting its bull run has further to go. Sasol has handed investors dollar a...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa"
-  },
-  {
-   "section": "Pakistan",
-   "scope": "National",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "'Political orphans' bringing 'Zionist politics' to Sindh, says Bilawal",
-   "link": "https://www.geo.tv/latest/685095-bilawal-says-political-orphans-bringing-zionist-politics-to-sindh",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T12:58:00.000Z",
-   "summary": "Pakistan Peoples Party Chairman Bilawal Bhutto Zardari addresses inauguration ceremony of Thar Coal Phase III in Thar on October 5, 2026. &mdash; Facebook/BilawalhouseMQM-P questions MDCAT's impartiality in Sindh.No Karachi candidates made...",
-   "image": null,
-   "source": "Geo News",
-   "region": "Pakistan"
   }
  ]
 }
