@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T11:49:03.642Z",
+ "updated": "2026-10-20T13:02:56.776Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,9 +32,8 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": true,
-   "items": 12,
-   "seen": 12
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "Mining Weekly",
@@ -138,7 +137,7 @@
    "source": "The Express Tribune",
    "section": "Pakistan",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "seen": 38
   },
   {
@@ -181,7 +180,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 113
+   "seen": 165
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +241,35 @@
  ],
  "items": [
   {
-   "title": "Anglo copper production down 5%, iron-ore down 4%, diamonds down 11%",
-   "link": "https://www.miningweekly.com/article/anglo-copper-production-down-5-iron-ore-down-4-diamonds-down-11-2026-10-20",
+   "title": "EU still committed to keeping oil, coal and gas in ground in Arctic, new strategy says",
+   "link": "https://www.miningweekly.com/article/eu-still-committed-to-keeping-oil-coal-and-gas-in-ground-in-arctic-new-strategy-says-2026-10-20",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-20T11:07:00.000Z",
-   "summary": "Diversified mining company Anglo American on Tuesday, October 20, reported 5% lower copper production, 4% lower iron-ore production, and 11% lower diamond production for the three months to September 30. Third-quarter copper production...",
+   "date": "2026-10-20T12:43:00.000Z",
+   "summary": "The European Union remains committed to \"ensuring that oil, coal and gas stay in the ground, including in Arctic regions,\" according to a new Arctic strategy presented by the European Commission and EU foreign policy chief Kaja Kallas on...",
    "image": null,
    "source": "Mining Weekly",
    "section": "",
    "scope": "International",
    "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Copper"
@@ -266,20 +283,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Anglo copper production down 5%, iron-ore down 4%, diamonds down 11%",
+   "link": "https://www.miningweekly.com/article/anglo-copper-production-down-5-iron-ore-down-4-diamonds-down-11-2026-10-20",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T11:07:00.000Z",
+   "summary": "Diversified mining company Anglo American on Tuesday, October 20, reported 5% lower copper production, 4% lower iron-ore production, and 11% lower diamond production for the three months to September 30. Third-quarter copper production...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Gold Dealer Assurance Programme designed to boost trust in global retail gold market",
-   "link": "https://www.miningweekly.com/article/gold-dealer-assurance-programme-designed-to-boost-trust-in-global-retail-gold-market-2026-10-20",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T10:36:00.000Z",
-   "summary": "The British Standards Institution (BSI) has launched the Gold Dealer Assurance Programme (GDAP) as an independently operated global programme designed to strengthen trust and transparency in the retail gold market. The programme aims to...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold"
@@ -293,20 +310,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold Dealer Assurance Programme designed to boost trust in global retail gold market",
+   "link": "https://www.miningweekly.com/article/gold-dealer-assurance-programme-designed-to-boost-trust-in-global-retail-gold-market-2026-10-20",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T10:36:00.000Z",
+   "summary": "The British Standards Institution (BSI) has launched the Gold Dealer Assurance Programme (GDAP) as an independently operated global programme designed to strengthen trust and transparency in the retail gold market. The programme aims to...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Lithium Africa receives sizable funding offers for Northern Cape project",
-   "link": "https://www.miningweekly.com/article/lithium-africa-receives-sizable-funding-offers-for-northern-cape-project-2026-10-20",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T10:23:00.000Z",
-   "summary": "TSX-V-listed Lithium Africa has received two nonbinding offers from entities to finance the development of its Springbok lithium project, in the Northern Cape. The offers include a prepayment facility with offtake from a major...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -320,6 +337,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lithium Africa receives sizable funding offers for Northern Cape project",
+   "link": "https://www.miningweekly.com/article/lithium-africa-receives-sizable-funding-offers-for-northern-cape-project-2026-10-20",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T10:23:00.000Z",
+   "summary": "TSX-V-listed Lithium Africa has received two nonbinding offers from entities to finance the development of its Springbok lithium project, in the Northern Cape. The offers include a prepayment facility with offtake from a major...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -350,17 +376,8 @@
    "press": false
   },
   {
-   "title": "Australia's Lithium Plus outlines simple, quick returns lithium operation for Bynoe",
-   "link": "https://www.miningweekly.com/article/australias-lithium-plus-outlines-simple-quick-returns-lithium-operation-for-bynoe-2026-10-20",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T10:01:00.000Z",
-   "summary": "ASX-listed Lithium Plus Minerals has outlined a rapid development pathway and high returns for the Bynoe lithium project, in Australia's Northern Territory. The company finds in a scoping study the viability of a direct shipping ore...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -374,6 +391,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Australia's Lithium Plus outlines simple, quick returns lithium operation for Bynoe",
+   "link": "https://www.miningweekly.com/article/australias-lithium-plus-outlines-simple-quick-returns-lithium-operation-for-bynoe-2026-10-20",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T10:01:00.000Z",
+   "summary": "ASX-listed Lithium Plus Minerals has outlined a rapid development pathway and high returns for the Bynoe lithium project, in Australia's Northern Territory. The company finds in a scoping study the viability of a direct shipping ore...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -21027,32 +21053,6 @@
    "viaUrl": "",
    "date": "2026-10-05T10:55:00.000Z",
    "summary": "Saudi Arabia’s Ministry of Industry and Mineral Resources has announced that the sixth edition of the Future Minerals Forum (FMF), a global platform for shaping the future of minerals, will be held under the patronage of the Custodian of...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Tanzanian govt renews mining licences for Barrick’s North Mara gold mine",
-   "link": "https://www.miningweekly.com/article/tanzanian-govt-renews-mining-licences-for-barricks-north-mara-gold-mine-2026-10-05",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T10:18:00.000Z",
-   "summary": "The government of Tanzania has renewed Canadian multinational company Barrick Mining Corporation’s special mining licences for the North Mara gold mine for another 15 years. The company has welcomed this decision by highlighting that the...",
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa"
