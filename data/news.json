@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T01:49:01.848Z",
+ "updated": "2026-10-20T02:50:50.757Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Along the Punjab-KP border: ‘Action is taken against irregularities involving mineral licences’",
+   "link": "https://www.brecorder.com/news/40445071/along-the-punjab-kp-border-action-is-taken-against-irregularities-involving-mineral-licences",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T02:42:07.000Z",
+   "summary": "LAHORE: Punjab Minister for Information and Culture Azma Bokhari has said that public welfare remains at the heart of the provincial government’s initiatives under the leadership of Chief Minister Maryam Nawaz. She said the Punjab cabinet...",
+   "image": "https://i.brecorder.com/large/2024/08/66ca35c66d9c9.jpg",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -20999,30 +21026,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Brazil mine licence system faces court test",
-   "link": "https://www.northernminer.com/news/brazil-mine-licence-system-faces-court-test/1003895404/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T15:25:50.000Z",
-   "summary": "Brazil is trying to speed up mine approvals just as its Supreme Court weighs challenges that could undo parts of the country’s new environmental licensing system. The overhaul sets national...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America"
   }
  ]
 }
