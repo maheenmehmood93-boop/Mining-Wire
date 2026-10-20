@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T02:50:50.757Z",
+ "updated": "2026-10-20T03:50:53.618Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "seen": 30
   },
   {
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 30
   },
   {
@@ -242,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Along the Punjab-KP border: ‘Action is taken against irregularities involving mineral licences’",
-   "link": "https://www.brecorder.com/news/40445071/along-the-punjab-kp-border-action-is-taken-against-irregularities-involving-mineral-licences",
+   "title": "14 dead, 7 injured in Colombia illegal gold mine collapse",
+   "link": "https://www.brecorder.com/news/40445081/14-dead-7-injured-in-colombia-illegal-gold-mine-collapse",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-20T02:42:07.000Z",
-   "summary": "LAHORE: Punjab Minister for Information and Culture Azma Bokhari has said that public welfare remains at the heart of the provincial government’s initiatives under the leadership of Chief Minister Maryam Nawaz. She said the Punjab cabinet...",
-   "image": "https://i.brecorder.com/large/2024/08/66ca35c66d9c9.jpg",
+   "date": "2026-10-20T03:11:34.000Z",
+   "summary": "BOGOTA: 14 people were killed and 7 others ​injured following the collapse of an ‌illegal gold mine in southwestern Colombia, local authorities said on Monday. The accident took ​place in the rural Chambero ​sector of the Santa Barbara de...",
+   "image": "https://i.brecorder.com/large/2022/12/2510315160ff478.jpg",
    "source": "Business Recorder",
    "section": "",
    "scope": "National",
    "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Collapse / cave-in",
+   "country": "Colombia",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -266,6 +284,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Along the Punjab-KP border: ‘Action is taken against irregularities involving mineral licences’",
+   "link": "https://www.brecorder.com/news/40445071/along-the-punjab-kp-border-action-is-taken-against-irregularities-involving-mineral-licences",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T02:42:07.000Z",
+   "summary": "LAHORE: Punjab Minister for Information and Culture Azma Bokhari has said that public welfare remains at the heart of the provincial government’s initiatives under the leadership of Chief Minister Maryam Nawaz. She said the Punjab cabinet...",
+   "image": "https://i.brecorder.com/large/2024/08/66ca35c66d9c9.jpg",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -21002,30 +21029,6 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "KGHM, South32 kick off $725M Sierra Gorda expansion",
-   "link": "https://www.mining.com/kghm-south32-kick-off-725m-sierra-gorda-expansion/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-02T15:43:00.000Z",
-   "summary": "A fourth grinding line will lift Sierra Gorda’s processing capacity by 26% with construction scheduled to begin in 2027.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global"
   }
  ]
 }
