@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T23:46:42.968Z",
+ "updated": "2026-10-20T01:02:42.354Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -104,7 +104,7 @@
    "source": "GlobeNewswire",
    "section": "Exploration update",
    "ok": false,
-   "error": "fetch failed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 2,
+   "items": 0,
    "seen": 30
   },
   {
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Westwin Elements, Traxys eye $3.9 billion, 22 year nickel offtake extension",
-   "link": "https://www.mining.com/westwin-elements-traxys-eye-3-9-billion-22-year-nickel-offtake-extension/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T23:38:46.000Z",
-   "summary": "Westwin operates a demonstration plant in Oklahoma, and has selected Natchez, Mississippi, for its upcoming commercial-scale class 1 nickel refinery, the first in the US.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Westwin Elements, Traxys eye $3.9 billion, 22 year nickel offtake extension",
+   "link": "https://www.mining.com/westwin-elements-traxys-eye-3-9-billion-22-year-nickel-offtake-extension/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-19T23:38:46.000Z",
+   "summary": "Westwin operates a demonstration plant in Oklahoma, and has selected Natchez, Mississippi, for its upcoming commercial-scale class 1 nickel refinery, the first in the US.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
