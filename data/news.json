@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T18:57:48.500Z",
+ "updated": "2026-10-20T19:49:07.232Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 148
+   "seen": 80
   },
   {
    "source": "Pakistan Observer",
@@ -194,7 +194,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -241,6 +241,56 @@
   }
  ],
  "items": [
+  {
+   "title": "Iran Guards say three tankers hit mines crossing Hormuz strait",
+   "link": "https://thefrontierpost.com/iran-guards-say-three-tankers-hit-mines-crossing-hormuz-strait/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T19:44:11.000Z",
+   "summary": "TEHRAN (AFP) : Iranian Revolutionary Guards said on Tuesday that their naval mines halted three tankers attempting to travel the Strait of Hormuz via routes considered illegal by Tehran. “Two violating oil tankers were set ablaze and...",
+   "image": null,
+   "source": "The Frontier Post",
+   "section": "",
+   "scope": "National",
+   "region": "Peshawar",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Cornish Metals faces costly financing hurdle",
+   "link": "https://www.northernminer.com/news/cornish-metals-faces-costly-financing-hurdle/1003895911/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T18:51:13.000Z",
+   "summary": "Cornish Metals (AIM: TIN) is seeking £135 million ($254 million) through a deeply discounted share sale to unlock financing for its South Crofty tin mine’s restart, warning it could be...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -400,17 +450,8 @@
    "press": false
   },
   {
-   "title": "Lithium Africa weighs $60M offer for Springbok lithium project",
-   "link": "https://www.canadianminingjournal.com/news/lithium-africa-weighs-60m-offer-for-springbok-lithium-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T16:37:18.000Z",
-   "summary": "Two financing proposals could accelerate South African lithium production and fund district-wide exploration and processing.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -424,6 +465,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lithium Africa weighs $60M offer for Springbok lithium project",
+   "link": "https://www.canadianminingjournal.com/news/lithium-africa-weighs-60m-offer-for-springbok-lithium-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T16:37:18.000Z",
+   "summary": "Two financing proposals could accelerate South African lithium production and fund district-wide exploration and processing.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -539,17 +589,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Amex prepares for Perron bulk sample",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-amex-prepares-for-perron-bulk-sample/1003895903/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T15:20:57.000Z",
-   "summary": "Amex Gold Mining President &#38; CEO Victor Cantore in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Amex Gold Mining...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -563,6 +604,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Amex prepares for Perron bulk sample",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-amex-prepares-for-perron-bulk-sample/1003895903/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T15:20:57.000Z",
+   "summary": "Amex Gold Mining President &#38; CEO Victor Cantore in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Amex Gold Mining...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -750,17 +800,8 @@
    "press": false
   },
   {
-   "title": "Sponsored video: Atex eyes Valeriano starter mine",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-atex-eyes-valeriano-starter-mine/1003895905/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T13:24:31.000Z",
-   "summary": "Atex Resources President &#38; CEO Chris Beer in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Atex Resources and produced...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -772,6 +813,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored video: Atex eyes Valeriano starter mine",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-video-atex-eyes-valeriano-starter-mine/1003895905/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T13:24:31.000Z",
+   "summary": "Atex Resources President &#38; CEO Chris Beer in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Atex Resources and produced...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -827,17 +877,8 @@
    "press": false
   },
   {
-   "title": "Copper surplus masks looming $332B mine shortfall",
-   "link": "https://www.canadianminingjournal.com/news/copper-surplus-masks-looming-332b-mine-shortfall/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T13:09:00.000Z",
-   "summary": "BNEF predicts enough refined metal until 2027, but lengthy mine development may cause a shortage by 2050.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -851,6 +892,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Copper surplus masks looming $332B mine shortfall",
+   "link": "https://www.canadianminingjournal.com/news/copper-surplus-masks-looming-332b-mine-shortfall/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T13:09:00.000Z",
+   "summary": "BNEF predicts enough refined metal until 2027, but lengthy mine development may cause a shortage by 2050.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -21042,58 +21092,6 @@
    "image": null,
    "source": "International Mining",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Greenland government approves Tanbreez rare earth mine plan",
-   "link": "https://www.mining.com/greenland-government-approves-tanbreez-mine-plan/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T15:18:29.000Z",
-   "summary": "Tanbreez ranks among the larger undeveloped heavy rare earth projects outside China.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Greenland advances Tanbreez rare earths project",
-   "link": "https://www.canadianminingjournal.com/news/greenland-advances-tanbreez-rare-earths-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T15:18:29.000Z",
-   "summary": "Critical Metals (Nasdaq: CRML) has won Greenland government approval for the mining and closure plans at its Tanbreez rare earths project, clearing [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America"
   }
  ]
 }
