@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T05:48:06.003Z",
+ "updated": "2026-10-20T07:02:53.877Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 81
+   "seen": 89
   },
   {
    "source": "Pakistan Observer",
@@ -1343,7 +1343,7 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "title": "Sale of South African aluminium assets to Alcoa of US on track, South32 reports",
+   "title": "South African aluminium assets' sale to Alcoa on track, South32 reports",
    "link": "https://www.miningweekly.com/article/sale-of-south-african-aluminium-assets-to-alcoa-of-us-on-track-south32-reports-2026-10-19",
    "via": "",
    "viaUrl": "",
