@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:48:53.876Z",
+ "updated": "2026-10-20T22:47:32.663Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -292,17 +292,8 @@
    "press": false
   },
   {
-   "title": "Mining industry entering largest investment supercycle in history, Canada’s energy minister says",
-   "link": "https://www.mining.com/mining-industry-entering-largest-investment-supercycle-in-history-canadas-energy-minister-says/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T20:58:56.000Z",
-   "summary": "At an event in London, Hodgson told attendees, “critical minerals are no longer simply industrial commodities,” the Financial Post reported.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -314,6 +305,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining industry entering largest investment supercycle in history, Canada’s energy minister says",
+   "link": "https://www.mining.com/mining-industry-entering-largest-investment-supercycle-in-history-canadas-energy-minister-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T20:58:56.000Z",
+   "summary": "At an event in London, Hodgson told attendees, “critical minerals are no longer simply industrial commodities,” the Financial Post reported.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -373,17 +373,8 @@
    "press": false
   },
   {
-   "title": "Phoenix Tailings to build $375M rare earth plant in New York",
-   "link": "https://www.northernminer.com/news/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/1003895914/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T20:46:29.000Z",
-   "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region.",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -397,6 +388,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Phoenix Tailings to build $375M rare earth plant in New York",
+   "link": "https://www.northernminer.com/news/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/1003895914/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T20:46:29.000Z",
+   "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region.",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
