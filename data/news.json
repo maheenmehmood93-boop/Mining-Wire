@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T03:51:18.183Z",
+ "updated": "2026-10-21T04:49:49.406Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -166,7 +166,7 @@
    "source": "Daily Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -241,6 +241,60 @@
   }
  ],
  "items": [
+  {
+   "title": "Illegal mining continues on govt land in Nowshera",
+   "link": "https://dailytimes.com.pk/1569978/illegal-mining-continues-on-govt-land-in-nowshera/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T04:46:34.000Z",
+   "summary": "Allegations of illegal mining on government land belonging to the Provincial Housing Authority (PHA) in Mian Essa area of Nowshera have raised concerns over potential losses of millions of rupees to the national exchequer. According to...",
+   "image": null,
+   "source": "Daily Times",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Mine owners seek lifting of explosives ban in KP",
+   "link": "https://www.dawn.com/news/2038596/mine-owners-seek-lifting-of-explosives-ban-in-kp",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T04:10:30.000Z",
+   "summary": "PESHAWAR: The Frontier Mine Owners Association has urged the officials of relevant departments to resolve the mining sector’s genuine problems instead of making the provincial minerals department a target of political criticism. They said...",
+   "image": "https://i.dawn.com/large/2026/10/21091007596b990.webp",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21043,61 +21097,6 @@
    "viaUrl": "",
    "date": "2026-10-05T17:32:38.000Z",
    "summary": "Although some of its holes returned encouraging grades, the results did not demonstrate strong continuity.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Canada",
-   "exRegion": "Quebec",
-   "title": "Swanson results fall short despite 6.05-g/t gold highlight",
-   "link": "https://www.canadianminingjournal.com/news/swanson-results-fall-short-despite-6-05-g-t-highlight/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T17:27:33.000Z",
-   "summary": "LaFleur Minerals (CSE: LFLR) reported additional drill results from its program on the Swanson Gold project in northwestern Quebec. The stock dropped. [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Silver shortage could flip to surplus in 2027: Deutsche",
-   "link": "https://www.mining.com/silver-shortage-could-flip-to-surplus-in-2027-deutsche/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T17:10:59.000Z",
-   "summary": "A drop in the metal’s scarcity could result in silver struggling to keep pace with gold even as they benefit from a stronger precious metals market.",
    "image": null,
    "source": "MINING.COM",
    "region": "Global"
