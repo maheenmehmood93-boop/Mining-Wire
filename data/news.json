@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T23:43:14.575Z",
+ "updated": "2026-10-21T01:02:27.955Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Mauritania’s first uranium mine comes into view despite funding, security issues",
-   "link": "https://www.mining.com/mauritanias-first-uranium-mine-comes-into-view-despite-funding-security-issues/",
+   "title": "Vulcan Elements teams up with North Carolina researchers to advance rare earth magnets tech",
+   "link": "https://www.mining.com/vulcan-elements-teams-up-with-north-carolina-researchers-to-advance-rare-earth-magnets-tech/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-20T22:20:00.000Z",
-   "summary": "Aura Energy's bankable feasibility study outlined a $500-million valuation for its Tiris project.",
+   "date": "2026-10-20T23:45:22.000Z",
+   "summary": "The company said the partnership converges two research fields that are foundational to national security: rare earth magnets and quantum mechanics.",
    "image": null,
    "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -266,6 +284,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mauritania’s first uranium mine comes into view despite funding, security issues",
+   "link": "https://www.mining.com/mauritanias-first-uranium-mine-comes-into-view-despite-funding-security-issues/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-20T22:20:00.000Z",
+   "summary": "Aura Energy's bankable feasibility study outlined a $500-million valuation for its Tiris project.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21073,32 +21100,6 @@
    "summary": "A drop in the metal’s scarcity could result in silver struggling to keep pace with gold even as they benefit from a stronger precious metals market.",
    "image": null,
    "source": "MINING.COM",
-   "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Coal"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Coal’s 2026 shock came from outside the coal market",
-   "link": "https://www.mining-technology.com/analysis/coals-2026-shock-came-from-outside-the-coal-market/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-05T16:42:17.000Z",
-   "summary": "The Strait of Hormuz disruption has reshaped coal markets in 2026, and the outlook remains uncertain as 2027 approaches.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/shutterstock_1902886648.jpg",
-   "source": "Mining Technology",
    "region": "Global"
   }
  ]
