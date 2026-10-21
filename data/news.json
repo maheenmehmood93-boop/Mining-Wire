@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T21:51:30.339Z",
+ "updated": "2026-10-21T22:48:34.481Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "US Department of Energy grants $42M for gas pipeline from Pennsylvania to New York",
-   "link": "https://www.mining.com/us-department-of-energy-grants-42m-for-gas-pipeline-from-pennsylvania-to-new-york/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T21:27:29.000Z",
-   "summary": "Constitution Pipeline project will transport natural gas to markets across the Northeast that currently experience limited access to the fuel.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "US Department of Energy grants $42M for gas pipeline from Pennsylvania to New York",
+   "link": "https://www.mining.com/us-department-of-energy-grants-42m-for-gas-pipeline-from-pennsylvania-to-new-york/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T21:27:29.000Z",
+   "summary": "Constitution Pipeline project will transport natural gas to markets across the Northeast that currently experience limited access to the fuel.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
