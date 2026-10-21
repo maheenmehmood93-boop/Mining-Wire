@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T22:48:34.481Z",
+ "updated": "2026-10-21T23:46:08.926Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -214,9 +214,8 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "The Frontier Post",
@@ -241,6 +240,60 @@
   }
  ],
  "items": [
+  {
+   "title": "Fortuna targets deeper Lindero pit after gold hits",
+   "link": "https://www.mining.com/fortuna-targets-deeper-lindero-pit-after-gold-hits/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T23:22:00.000Z",
+   "summary": "“Broad intersections strengthen the case for including below-pit material in a revised pit and reserve estimate,” National Bank analyst said.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Lithium's $100B question: Who will build 134 new mines?",
+   "link": "https://www.mining.com/lithiums-100b-question-who-will-build-134-new-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T23:01:00.000Z",
+   "summary": "BMI forecasts lithium demand will more than triple by 2050, requiring a massive mining expansion to meet EV growth.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21126,56 +21179,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Komatsu marks 25 years of manufacturing at South Carolina facility",
-   "link": "https://www.canadianminingjournal.com/news/komatsu-marks-25-years-of-manufacturing-at-south-carolina-facility/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T13:40:05.000Z",
-   "summary": "Employees, partners and community members gathered on Friday at Komatsu’s (OTC: KMTUY) Newberry Manufacturing Operation (NMO) in South Carolina to celebrate 25 [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America"
-  },
-  {
-   "section": "Balochistan",
-   "scope": "National",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": true,
-   "safetyType": "Explosion / fire",
-   "country": "Pakistan",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Balochistan: Chagai Drone Strike, Railway Track Blast and Quetta Surveillance Expansion Reflect Security Concerns",
-   "link": "https://thebalochistanpost.net/2026/10/balochistan-chagai-drone-strike-railway-track-blast-and-quetta-surveillance-expansion-reflect-security-concerns/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T13:08:25.000Z",
-   "summary": "Authorities in Balochistan are investigating a reported drone strike on a mining site in Chagai and an explosion on a railway track in Bakhtiarabad, while the government has simultaneously announced new security measures, including the...",
-   "image": null,
-   "source": "The Balochistan Post",
-   "region": "Balochistan"
   }
  ]
 }
