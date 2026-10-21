@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T18:59:15.087Z",
+ "updated": "2026-10-21T19:48:25.169Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 149
+   "seen": 78
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Armstrong says pump overhaul saved Metso project $47K annually",
-   "link": "https://www.canadianminingjournal.com/news/armstrong-says-pump-overhaul-saved-metso-project-47k-annually/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T18:05:04.000Z",
-   "summary": "Armstrong Industrial says its fluid technology division has helped Metso Minerals (HEL: METS) reduce processing power consumption by 40% on a recent [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +255,33 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Armstrong says pump overhaul saved Metso project $47K annually",
+   "link": "https://www.canadianminingjournal.com/news/armstrong-says-pump-overhaul-saved-metso-project-47k-annually/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T18:05:04.000Z",
+   "summary": "Armstrong Industrial says its fluid technology division has helped Metso Minerals (HEL: METS) reduce processing power consumption by 40% on a recent [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Mining Forum video: Stöferle spots gold bargains but keeps cash ready",
    "link": "https://www.mining.com/mining-forum-video-stoferle-spots-gold-bargains-but-keeps-cash-ready/",
    "via": "",
@@ -275,9 +290,12 @@
    "summary": "Liechtenstein-based Incrementum gold fund manager Ronald-Peter Stöferle sees bargains in mining shares after gold’s pullback.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -291,9 +309,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Brazil court halts Belo Sun's $300M gold project",
    "link": "https://www.mining.com/brazil-court-halts-belo-suns-300m-gold-project/",
    "via": "",
@@ -302,22 +317,7 @@
    "summary": "Canadian miner awaits court approval of an Indigenous agreement as a temporary licence suspension stalls construction in Pará.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -789,17 +789,8 @@
    "press": false
   },
   {
-   "title": "Hudbay, Mitsubishi approve Copper World construction",
-   "link": "https://www.mining.com/hudbay-mitsubishi-approve-copper-world-construction/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T14:23:33.000Z",
-   "summary": "The move clears the way for one of the largest new copper mines in the US to start producing in the second half of 2029.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -813,6 +804,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Hudbay, Mitsubishi approve Copper World construction",
+   "link": "https://www.mining.com/hudbay-mitsubishi-approve-copper-world-construction/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T14:23:33.000Z",
+   "summary": "The move clears the way for one of the largest new copper mines in the US to start producing in the second half of 2029.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -921,17 +921,8 @@
    "press": false
   },
   {
-   "title": "Magna targets late-2027 ore sales at Crean Hill",
-   "link": "https://www.northernminer.com/news/magna-targets-late-2027-ore-sales-at-crean-hill/1003895957/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T13:43:54.000Z",
-   "summary": "Magna Mining (TSX: NICU; US-OTC: MGMNF) on Tuesday approved construction to start next year at its past-producing Crean Hill project in Ontario, advancing plans to become a three-mine producer in...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -943,6 +934,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Magna targets late-2027 ore sales at Crean Hill",
+   "link": "https://www.northernminer.com/news/magna-targets-late-2027-ore-sales-at-crean-hill/1003895957/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T13:43:54.000Z",
+   "summary": "Magna Mining (TSX: NICU; US-OTC: MGMNF) on Tuesday approved construction to start next year at its past-producing Crean Hill project in Ontario, advancing plans to become a three-mine producer in...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -973,17 +973,8 @@
    "press": false
   },
   {
-   "title": "Fortuna targets deeper Lindero pit after gold hits",
-   "link": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T13:22:02.000Z",
-   "summary": "Fortuna Mining (TSX: FVI; NYSE: FSM) has drilled gold beneath the planned bottom of its Lindero open pit in Argentina’s high-Andes, strengthening its case for adding reserves at the operating...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -997,6 +988,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Fortuna targets deeper Lindero pit after gold hits",
+   "link": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T13:22:02.000Z",
+   "summary": "Fortuna Mining (TSX: FVI; NYSE: FSM) has drilled gold beneath the planned bottom of its Lindero open pit in Argentina’s high-Andes, strengthening its case for adding reserves at the operating...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
