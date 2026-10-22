@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T19:49:40.890Z",
+ "updated": "2026-10-22T20:49:18.240Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 77
+   "seen": 78
   },
   {
    "source": "Pakistan Observer",
@@ -637,17 +637,8 @@
    "press": false
   },
   {
-   "title": "Questcorp to acquire final 49% in North Island Project, Canada",
-   "link": "https://www.mining-technology.com/news/questcorp-acquire-final-49-north-island/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T14:51:41.000Z",
-   "summary": "Questcorp Mining has signed an agreement to acquire the remaining 49% interest in the North Island Copper Project near Port Hardy, Vancouver Island, British Columbia, Canada.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-22Oct26-shutterstock_2375878259.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -661,6 +652,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Questcorp to acquire final 49% in North Island Project, Canada",
+   "link": "https://www.mining-technology.com/news/questcorp-acquire-final-49-north-island/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T14:51:41.000Z",
+   "summary": "Questcorp Mining has signed an agreement to acquire the remaining 49% interest in the North Island Copper Project near Port Hardy, Vancouver Island, British Columbia, Canada.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-22Oct26-shutterstock_2375878259.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
