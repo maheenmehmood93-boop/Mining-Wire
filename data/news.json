@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T01:50:16.941Z",
+ "updated": "2026-10-22T02:57:24.572Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Explosives ban renders 4,000 mining projects inoperative in KP: FMOA",
+   "link": "https://www.brecorder.com/news/40445400/explosives-ban-renders-4000-mining-projects-inoperative-in-kp-fmoa",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T01:48:52.000Z",
+   "summary": "PESHAWAR: Frontier Mine Owners Association office bearers have urged the officials of relevant departments to focus on resolving the genuine problems of the mining sector instead of making the provincial minerals department a target of...",
+   "image": "https://i.brecorder.com/large/2023/05/646aabd1716b4.jpg",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21154,32 +21181,6 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-6Oct26-shutterstock_1983261650-1.jpg",
    "source": "Mining Technology",
    "region": "Global"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Iron ore"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Saldanha Iron Ore Terminal undergoes scheduled maintenance programme",
-   "link": "https://www.miningweekly.com/article/saldanha-iron-ore-terminal-undergoes-scheduled-maintenance-programme-2026-10-06",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T13:54:00.000Z",
-   "summary": "State-owned freight transport and logistics company Transnet has announced that the Saldanha Iron Ore Terminal (IOT) has begun its yearly maintenance shutdown, which will run for 16 days from October 6 to 21. As part of its ‘Reinvent for...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa"
   }
  ]
 }
