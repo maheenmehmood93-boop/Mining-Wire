@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:48:16.962Z",
+ "updated": "2026-10-22T22:47:12.263Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -240,6 +240,58 @@
   }
  ],
  "items": [
+  {
+   "title": "Boroo signs $100M deal for Yukon Eagle gold mine",
+   "link": "https://www.mining.com/boroo-signs-100m-deal-for-yukon-eagle-gold-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T22:06:00.000Z",
+   "summary": "Private entity has agreed to acquire Victoria Gold, advancing plans to potentially rehabilitate and restart its Eagle gold mine.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Vivox AI, beSirius partner on mining supply chain compliance",
+   "link": "https://www.mining.com/vivox-ai-besirius-partner-on-mining-supply-chain-compliance/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:49:19.000Z",
+   "summary": "Partnership will bring supplier evidence assessments alongside financial crime checks, the companies said.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21157,58 +21209,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "ZCCM-IH gives its approval for $498m tailings leach plant at KCM in Zambia",
-   "link": "https://www.miningweekly.com/article/zccm-ih-gives-its-approval-for-498m-tailings-leach-plant-at-kcm-in-zambia-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:49:00.000Z",
-   "summary": "Aim-listed ZCCM Investment Holdings (ZCCM-IH) has given its shareholder approval for a new $498-million new tailings leach plant (TLP) at Konkola Copper Mines (KCM), in Zambia, in which ZCCM-IH holds a 20.6% stake. The TLP will reprocess...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Next-generation geothermal: borrowing oil and gas tech for the data centre boom",
-   "link": "https://www.mining-technology.com/news/next-generation-geothermal-oil-gas-tech-data-centre-boom/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:45:53.000Z",
-   "summary": "Energy Technology’s new episode examines Big Tech’s interest in geothermal, and the nascent sector’s need for oil and gas equipment and expertise.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Geothermal-drilling-data-centres-Thumbnail.png",
-   "source": "Mining Technology",
-   "region": "Global",
    "press": false
   }
  ]
