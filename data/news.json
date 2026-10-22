@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T04:50:18.124Z",
+ "updated": "2026-10-22T05:48:07.427Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 78
+   "seen": 82
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Komatsu HM460-6 ADT ready for K-Tec 1237 ADT scraper integration",
+   "link": "https://im-mining.com/2026/10/22/komatsu-hm460-6-adt-ready-for-k-tec-1237-adt-scraper-integration/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T05:11:06.000Z",
+   "summary": "Komatsu has approved the use of the K-Tec 1237 ADT scraper with its new HM460-6 articulated dump truck – delivering, it says, a powerful new mass earthmoving combination to Komatsu dealers throughout North America. The 518 hp (386 kWh)...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
@@ -21155,32 +21180,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa"
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Macmahon obtains two-year Daisy Milano contract extension",
-   "link": "https://www.mining-technology.com/news/macmahon-two-year-daisy-milano-extension/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-06T13:57:20.000Z",
-   "summary": "Macmahon has announced that its subsidiary, Macmahon Underground, secured a two-year contract extension from Vault Minerals for mining services at the Daisy Milano Gold Mine in Western Australia.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-4-6Oct26-shutterstock_1983261650-1.jpg",
-   "source": "Mining Technology",
-   "region": "Global"
   }
  ]
 }
