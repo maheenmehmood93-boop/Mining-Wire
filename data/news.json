@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T22:47:12.263Z",
+ "updated": "2026-10-22T23:44:20.145Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -241,39 +241,12 @@
  ],
  "items": [
   {
-   "title": "Boroo signs $100M deal for Yukon Eagle gold mine",
-   "link": "https://www.mining.com/boroo-signs-100m-deal-for-yukon-eagle-gold-mine/",
+   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
+   "link": "https://www.mining.com/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-22T22:06:00.000Z",
-   "summary": "Private entity has agreed to acquire Victoria Gold, advancing plans to potentially rehabilitate and restart its Eagle gold mine.",
-   "image": null,
-   "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "Vivox AI, beSirius partner on mining supply chain compliance",
-   "link": "https://www.mining.com/vivox-ai-besirius-partner-on-mining-supply-chain-compliance/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T21:49:19.000Z",
-   "summary": "Partnership will bring supplier evidence assessments alongside financial crime checks, the companies said.",
+   "date": "2026-10-22T23:28:54.000Z",
+   "summary": "Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades.",
    "image": null,
    "source": "MINING.COM",
    "section": "",
@@ -290,6 +263,58 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Boroo signs $100M deal for Yukon Eagle gold mine",
+   "link": "https://www.mining.com/boroo-signs-100m-deal-for-yukon-eagle-gold-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T22:06:00.000Z",
+   "summary": "Private entity has agreed to acquire Victoria Gold, advancing plans to potentially rehabilitate and restart its Eagle gold mine.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Vivox AI, beSirius partner on mining supply chain compliance",
+   "link": "https://www.mining.com/vivox-ai-besirius-partner-on-mining-supply-chain-compliance/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:49:19.000Z",
+   "summary": "Partnership will bring supplier evidence assessments alongside financial crime checks, the companies said.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21183,33 +21208,6 @@
    "source": "GlobeNewswire",
    "region": "Global",
    "press": true
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Platinum"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Wesizwe places Bakubung concentrator plant on care and maintenance",
-   "link": "https://www.miningweekly.com/article/wesizwe-places-bakubung-concentrator-plant-on-care-and-maintenance-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:55:00.000Z",
-   "summary": "JSE-listed Wesizwe Platinum has informed shareholders that the Bakubung platinum mine concentrator plant, in the North West, has been placed on care and maintenance while the company prioritises underground infrastructure development and...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
   }
  ]
 }
