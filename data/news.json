@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T11:49:33.475Z",
+ "updated": "2026-10-22T13:03:44.356Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,9 +32,8 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": true,
-   "items": 12,
-   "seen": 12
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "Mining Weekly",
@@ -181,7 +180,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 109
+   "seen": 114
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +241,21 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Hudbay, Mitsubishi greenlight Copper World project development in Arizona",
    "link": "https://im-mining.com/2026/10/22/hudbay-mitsubishi-greenlight-copper-world-project-development-in-arizona/",
    "via": "",
@@ -250,9 +264,12 @@
    "summary": "Hudbay Minerals Inc and its partner Mitsubishi Corporation have approved the development of what they say will be one of the largest open-pit copper mines in the US. The news came when announcing the results of the definitive feasibility...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -266,9 +283,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Spain: Pan Global eyes copper riches in ancient belt",
    "link": "https://www.northernminer.com/news/spain-pan-global-eyes-copper-riches-in-ancient-belt/1003895963/",
    "via": "",
@@ -277,22 +291,7 @@
    "summary": "Pan Global Resources (TSXV: PGZ; US-OTC: PGZFF), led by former Rio Tinto (ASX, LSE, NYSE: RIO) exploration director Tim Moody, sees neighbouring plants as a potential route to copper production...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -323,6 +322,19 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Thiess wins long-term mining services contracts in Mongolia",
    "link": "https://im-mining.com/2026/10/22/thiess-wins-long-term-mining-services-contracts-in-mongolia/",
    "via": "",
@@ -331,9 +343,12 @@
    "summary": "Global mining services provider Thiess has been awarded two five-year contracts in Mongolia, strengthening its presence in the country, the company says. Under the two contracts, Thiess will deliver underground mining services at the Rio...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -345,9 +360,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Afrimat’s revenue falls, but group cuts debt, grows aggregates business",
    "link": "https://www.miningweekly.com/article/afrimats-revenue-falls-but-group-cuts-debt-grows-aggregates-business-2026-10-22",
    "via": "",
@@ -356,9 +368,12 @@
    "summary": "Multicommodity, midtier mining and materials company Afrimat faced its most challenging trading conditions since it listed in 2006, during the six months to August 31, with revenue having decreased by 4.3% year-on-year to R5.1-billion,...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -370,9 +385,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Martin Engineering on belt cleaner positioning on high volume conveyors",
    "link": "https://im-mining.com/2026/10/22/martin-engineering-on-belt-cleaner-positioning-on-high-volume-conveyors/",
    "via": "",
@@ -381,20 +393,7 @@
    "summary": "A common conveyor efficiency consideration is the ability to position belt cleaners in the optimal locations. Structural design, spatial limitations and safe access can be barriers to effective belt cleaning. This article from R. Todd...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -476,6 +475,33 @@
    "summary": "PT Pani Industri Nusantara, a fully-owned subsidiary of PT Merdeka Copper Gold Tbk, has chosen Doppelmayr’s cutting-edge RopeCon® technology to transport crushed gold ore from its mine site on Sulawesi Island, Indonesia, directly to its...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Lithium's $100B question: Who will build 134 new mines?",
+   "link": "https://www.mining.com/lithiums-100b-question-who-will-build-134-new-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T09:01:00.000Z",
+   "summary": "BMI forecasts lithium demand will more than triple by 2050, requiring a massive mining expansion to meet EV growth.",
+   "image": null,
+   "source": "MINING.COM",
    "region": "Global",
    "press": false
   },
@@ -1096,33 +1122,6 @@
    "viaUrl": "",
    "date": "2026-10-21T23:22:00.000Z",
    "summary": "“Broad intersections strengthen the case for including below-pit material in a revised pit and reserve estimate,” National Bank analyst said.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Lithium's $100B question: Who will build 134 new mines?",
-   "link": "https://www.mining.com/lithiums-100b-question-who-will-build-134-new-mines/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T23:01:00.000Z",
-   "summary": "BMI forecasts lithium demand will more than triple by 2050, requiring a massive mining expansion to meet EV growth.",
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
