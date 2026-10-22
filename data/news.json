@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T18:58:47.568Z",
+ "updated": "2026-10-22T19:49:40.890Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 149
+   "seen": 77
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Boroo signs $140M deal for Yukon Eagle gold mine",
-   "link": "https://www.northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T18:06:45.000Z",
-   "summary": "Private entity Boroo has agreed to acquire Victoria Gold for up to $140 million (about US$100 million), advancing plans to potentially rehabilitate and restart its Eagle gold mine more than...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -266,20 +257,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Boroo signs $140M deal for Yukon Eagle gold mine",
+   "link": "https://www.northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T18:06:45.000Z",
+   "summary": "Private entity Boroo has agreed to acquire Victoria Gold for up to $140 million (about US$100 million), advancing plans to potentially rehabilitate and restart its Eagle gold mine more than...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "Suncrest College opens mechanics training facilities, expands scholarship programs",
-   "link": "https://www.canadianminingjournal.com/news/suncrest-college-opens-mechanics-training-facilities-expands-scholarship-programs/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T18:00:32.000Z",
-   "summary": "Suncrest College has officially opened its enhanced industrial mechanics training facilities in Esterhazy. Sask. The space has officially been named the Mosaic Industrial [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Suncrest College opens mechanics training facilities, expands scholarship programs",
+   "link": "https://www.canadianminingjournal.com/news/suncrest-college-opens-mechanics-training-facilities-expands-scholarship-programs/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T18:00:32.000Z",
+   "summary": "Suncrest College has officially opened its enhanced industrial mechanics training facilities in Esterhazy. Sask. The space has officially been named the Mosaic Industrial [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -448,17 +448,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
-   "link": "https://www.northernminer.com/news/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/1003895983/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T16:01:19.000Z",
-   "summary": "Commodity Discovery Fund founder Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades. The Netherlands-based fund,...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -470,6 +461,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
+   "link": "https://www.northernminer.com/news/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/1003895983/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T16:01:19.000Z",
+   "summary": "Commodity Discovery Fund founder Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades. The Netherlands-based fund,...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -610,6 +610,21 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Liberty Gold stretches Black Pine’s reach in Idaho",
    "link": "https://www.canadianminingjournal.com/news/liberty-gold-stretches-black-pines-reach-in-idaho/",
    "via": "",
@@ -618,12 +633,24 @@
    "summary": "Liberty Gold (TSX: LGD; US-OTC: LGDTF) has drilled gold beyond the resource boundary at its Black Pine project in Idaho, outlining an [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Questcorp to acquire final 49% in North Island Project, Canada",
+   "link": "https://www.mining-technology.com/news/questcorp-acquire-final-49-north-island/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T14:51:41.000Z",
+   "summary": "Questcorp Mining has signed an agreement to acquire the remaining 49% interest in the North Island Copper Project near Port Hardy, Vancouver Island, British Columbia, Canada.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-22Oct26-shutterstock_2375878259.jpg",
+   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "North America",
+   "region": "Global",
    "provinces": [],
    "tags": [
-    "Gold"
+    "Copper"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -21184,32 +21211,6 @@
    "source": "Mining Technology",
    "region": "Global",
    "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Uranium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Belmont launches gravity survey at Crackingstone uranium site",
-   "link": "https://www.mining-technology.com/news/belmont-gravity-survey-crackingstone-site/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T09:42:29.000Z",
-   "summary": "Belmont Resources has launched a high-resolution ground gravity survey at its wholly owned Crackingstone Uranium Project situated around 6km from Uranium City, Saskatchewan, Canada.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-3-7Oct26-shutterstock_2701153385-1.jpg",
-   "source": "Mining Technology",
-   "region": "Global"
   }
  ]
 }
