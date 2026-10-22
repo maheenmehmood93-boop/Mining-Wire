@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T23:46:08.926Z",
+ "updated": "2026-10-22T01:00:59.294Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -214,8 +214,9 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
@@ -241,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Fortuna targets deeper Lindero pit after gold hits",
-   "link": "https://www.mining.com/fortuna-targets-deeper-lindero-pit-after-gold-hits/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T23:22:00.000Z",
-   "summary": "“Broad intersections strengthen the case for including below-pit material in a revised pit and reserve estimate,” National Bank analyst said.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -265,20 +257,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Fortuna targets deeper Lindero pit after gold hits",
+   "link": "https://www.mining.com/fortuna-targets-deeper-lindero-pit-after-gold-hits/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T23:22:00.000Z",
+   "summary": "“Broad intersections strengthen the case for including below-pit material in a revised pit and reserve estimate,” National Bank analyst said.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Lithium's $100B question: Who will build 134 new mines?",
-   "link": "https://www.mining.com/lithiums-100b-question-who-will-build-134-new-mines/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T23:01:00.000Z",
-   "summary": "BMI forecasts lithium demand will more than triple by 2050, requiring a massive mining expansion to meet EV growth.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -292,6 +284,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lithium's $100B question: Who will build 134 new mines?",
+   "link": "https://www.mining.com/lithiums-100b-question-who-will-build-134-new-mines/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T23:01:00.000Z",
+   "summary": "BMI forecasts lithium demand will more than triple by 2050, requiring a massive mining expansion to meet EV growth.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
