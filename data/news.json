@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T01:05:25.114Z",
+ "updated": "2026-10-23T01:52:27.476Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -179,9 +179,8 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 79
+   "ok": false,
+   "error": "HTTP 500"
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +240,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Magazine round up | 23 October 2026",
+   "link": "https://www.miningweekly.com/article/magazine-round-up-23-october-2026-2026-10-23",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T01:15:00.000Z",
+   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21180,35 +21204,6 @@
    "source": "International Mining",
    "region": "Global",
    "press": false
-  },
-  {
-   "section": "Drill results",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": false,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Copper"
-   ],
-   "exHighlight": "94 m @ 1.47% Cu",
-   "exCountry": "Canada",
-   "exRegion": "",
-   "title": "Osisko Intersects 94 Metres Averaging 1.47% Cu at Gaspé",
-   "link": "https://www.globenewswire.com/news-release/2026/10/07/3376274/0/en/osisko-intersects-94-metres-averaging-1-47-cu-at-gasp%C3%A9.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T10:00:00.000Z",
-   "summary": "Osisko Metals announces additional new analytical results from the ongoing 2026 drill program at the Gaspé Copper Project in Québec.",
-   "image": "https://ml.globenewswire.com/Resource/Download/b953d22f-24c1-454d-9f93-860dcd8f6e94",
-   "source": "GlobeNewswire",
-   "region": "Global",
-   "press": true
   }
  ]
 }
