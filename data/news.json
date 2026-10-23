@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T03:51:15.103Z",
+ "updated": "2026-10-23T04:49:48.290Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 0,
+   "seen": 79
   },
   {
    "source": "Pakistan Observer",
@@ -241,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Rio Tinto to boost Weipa Operations with Kangwinan bauxite project development",
-   "link": "https://im-mining.com/2026/10/23/rio-tinto-to-boost-weipa-operations-with-kangwinan-bauxite-project-development/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T03:43:28.000Z",
-   "summary": "Rio Tinto says it will invest $1.9 billion to develop the Kangwinan bauxite project on Western Cape York Peninsula in Queensland, Australia, underpinning the long-term future of its Weipa Operations and continued supply to its...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -263,20 +255,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rio Tinto to boost Weipa Operations with Kangwinan bauxite project development",
+   "link": "https://im-mining.com/2026/10/23/rio-tinto-to-boost-weipa-operations-with-kangwinan-bauxite-project-development/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T03:43:28.000Z",
+   "summary": "Rio Tinto says it will invest $1.9 billion to develop the Kangwinan bauxite project on Western Cape York Peninsula in Queensland, Australia, underpinning the long-term future of its Weipa Operations and continued supply to its...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Labour federations oppose Pakistan Mineral Development Corporation's privatisation",
-   "link": "https://www.dawn.com/news/2039143/labour-federations-oppose-pakistan-mineral-development-corporations-privatisation",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T03:18:11.000Z",
-   "summary": "QUETTA: Lala Muhammad Sultan, president of the All Pakistan Labour Federation and the Pakistan Central Mines Labour Federation, has rejected the proposed privatisation of the Pakistan Mineral Development Corporation (PMDC) and cancellation...",
-   "image": "https://i.dawn.com/large/2019/03/5c90753757b50.jpg",
-   "source": "Dawn",
    "section": "Pakistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -290,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Labour federations oppose Pakistan Mineral Development Corporation's privatisation",
+   "link": "https://www.dawn.com/news/2039143/labour-federations-oppose-pakistan-mineral-development-corporations-privatisation",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T03:18:11.000Z",
+   "summary": "QUETTA: Lala Muhammad Sultan, president of the All Pakistan Labour Federation and the Pakistan Central Mines Labour Federation, has rejected the proposed privatisation of the Pakistan Mineral Development Corporation (PMDC) and cancellation...",
+   "image": "https://i.dawn.com/large/2019/03/5c90753757b50.jpg",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
