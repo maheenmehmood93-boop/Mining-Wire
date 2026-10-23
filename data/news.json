@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:47:03.531Z",
+ "updated": "2026-10-23T18:57:43.771Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 128
+   "seen": 132
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Newmont prices Red Chris expansion at up to $4.8B",
-   "link": "https://www.mining.com/newmont-prices-red-chris-expansion-at-up-to-4-8b/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T17:15:00.000Z",
-   "summary": "The project in British Columbia would produce an annual average of 275,000–325,000 oz. gold and 65,000–85,000 tonnes copper from 2035 through 2040.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -267,9 +258,33 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Newmont prices Red Chris expansion at up to $4.8B",
+   "link": "https://www.mining.com/newmont-prices-red-chris-expansion-at-up-to-4-8b/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T17:15:00.000Z",
+   "summary": "The project in British Columbia would produce an annual average of 275,000–325,000 oz. gold and 65,000–85,000 tonnes copper from 2035 through 2040.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Moon River lifts Davidson value to $1.2B, tungsten output jumps",
    "link": "https://www.northernminer.com/news/moon-river-lifts-davidson-value-to-1-2b-tungsten-output-jumps/1003896021/",
    "via": "",
@@ -278,12 +293,24 @@
    "summary": "A new study from Moon River Moly (TSXV: MOO; US-OTC: MRIVF) raises the estimated value of its Davidson molybdenum-copper-tungsten project in British Columbia by 20% and more than quadruples tungsten...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Mining Forum video: B2Gold looks beyond Goose setbacks to cash growth",
+   "link": "https://www.northernminer.com/news/mining-forum-video-b2gold-looks-beyond-goose-setbacks-to-cash-growth/1003896024/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T16:17:31.000Z",
+   "summary": "B2Gold (TSX: BTO; NYSE-A: BTG) aims to turn its troubled Goose mine in Nunavut into a 300,000-oz.-a-year gold producer once crushing upgrades are complete, President and CEO Mike Cinnamond says....",
+   "image": null,
+   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
    "region": "North America",
    "provinces": [],
    "tags": [
-    "Copper"
+    "Gold"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -321,6 +348,33 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Mining Forum video: Garofalo’s Gold Royalty seeks growth without dilution",
+   "link": "https://www.northernminer.com/news/mining-forum-video-garofalos-gold-royalty-seeks-growth-without-dilution/1003896026/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T14:56:47.000Z",
+   "summary": "Gold Royalty (NYSE: GROY) aims to use growing income from its existing portfolio to finance acquisitions without fresh share sales, Chairman and CEO David Garofalo says. Ten assets now generate...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -407,17 +461,8 @@
    "press": false
   },
   {
-   "title": "New Found Gold doubles Queensway valuation to $1.2B",
-   "link": "https://www.mining.com/new-found-gold-doubles-queensway-valuation-to-1-2b/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T13:42:07.000Z",
-   "summary": "A revised PEA shows the Newfoundland gold project’s resources increased by 38%.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -431,6 +476,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "New Found Gold doubles Queensway valuation to $1.2B",
+   "link": "https://www.mining.com/new-found-gold-doubles-queensway-valuation-to-1-2b/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T13:42:07.000Z",
+   "summary": "A revised PEA shows the Newfoundland gold project’s resources increased by 38%.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21172,56 +21226,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Titan Mining, US Army advance strategic graphite processing plant in Alabama",
-   "link": "https://www.mining.com/titan-mining-us-army-advance-strategic-graphite-processing-plant-in-alabama/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T21:01:04.000Z",
-   "summary": "Titan Mining's subsidiary, Empire State Mines, has agreed to terms on a framework to lease roughly 97 acres at Anniston Army Depot.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Canada’s miners must seize political opening: Gratton",
-   "link": "https://www.northernminer.com/news/canadas-miners-must-seize-political-opening-gratton/1003895518/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T20:30:05.000Z",
-   "summary": "Canada’s mining industry has won the political support needed to reverse years of decline, outgoing Mining Association of Canada (MAC) president and CEO Pierre Gratton said Tuesday. Companies now need...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
    "press": false
   }
  ]
