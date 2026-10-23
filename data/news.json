@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T15:53:49.959Z",
+ "updated": "2026-10-23T16:52:44.798Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 1,
+   "seen": 125
   },
   {
    "source": "Pakistan Observer",
@@ -241,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Lithium’s $100B question: Who will build 134 new mines?",
-   "link": "https://www.northernminer.com/news/lithiums-100b-question-who-will-build-134-new-mines/1003896015/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T15:17:21.000Z",
-   "summary": "Global lithium demand is expected to more than triple by 2050, equivalent to the output of 134 new mines and more than $100 billion (C$139.8 billion) in investment before accounting...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -265,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lithium’s $100B question: Who will build 134 new mines?",
+   "link": "https://www.northernminer.com/news/lithiums-100b-question-who-will-build-134-new-mines/1003896015/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T15:17:21.000Z",
+   "summary": "Global lithium demand is expected to more than triple by 2050, equivalent to the output of 134 new mines and more than $100 billion (C$139.8 billion) in investment before accounting...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -405,17 +406,8 @@
    "press": false
   },
   {
-   "title": "Central banks pile into gold as China leads buying spree",
-   "link": "https://www.mining.com/central-banks-pile-into-gold-as-china-leads-buying-spree/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T13:10:00.000Z",
-   "summary": "Central banks accelerate bullion purchases as China expands reserves, reinforcing gold's role in global monetary strategy.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -429,20 +421,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Central banks pile into gold as China leads buying spree",
+   "link": "https://www.mining.com/central-banks-pile-into-gold-as-china-leads-buying-spree/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T13:10:00.000Z",
+   "summary": "Central banks accelerate bullion purchases as China expands reserves, reinforcing gold's role in global monetary strategy.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Southern Copper weighs $680M Cuajone expansion",
-   "link": "https://www.northernminer.com/news/southern-copper-weighs-680m-cuajone-expansion/1003896008/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T13:08:00.000Z",
-   "summary": "Southern Copper (NYSE, BVL: SCCO) is evaluating a $680-million (C$950.6 million) expansion of its Cuajone mine in southern Peru to counter declining ore grades and improve efficiency as the copper...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -456,20 +448,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Southern Copper weighs $680M Cuajone expansion",
+   "link": "https://www.northernminer.com/news/southern-copper-weighs-680m-cuajone-expansion/1003896008/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T13:08:00.000Z",
+   "summary": "Southern Copper (NYSE, BVL: SCCO) is evaluating a $680-million (C$950.6 million) expansion of its Cuajone mine in southern Peru to counter declining ore grades and improve efficiency as the copper...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "Sandvik to deliver 25 underground units to Northern Star in Australia",
-   "link": "https://www.mining-technology.com/news/sandvik-underground-units-northern-star/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T12:27:39.000Z",
-   "summary": "",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Sandvik-Project.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -481,6 +473,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sandvik to deliver 25 underground units to Northern Star in Australia",
+   "link": "https://www.mining-technology.com/news/sandvik-underground-units-northern-star/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T12:27:39.000Z",
+   "summary": "",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Sandvik-Project.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
