@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T18:57:43.771Z",
+ "updated": "2026-10-23T19:46:29.721Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 403"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 132
+   "seen": 60
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,58 @@
  ],
  "items": [
   {
+   "title": "Bannerman pulls trigger on $353M uranium mine",
+   "link": "https://www.northernminer.com/news/bannerman-pulls-trigger-on-353m-uranium-mine/1003896039/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T19:39:13.000Z",
+   "summary": "Bannerman Energy (ASX, NSX: BMN; US-OTC: BNNLF) and its Chinese partner CNNC Overseas have approved construction of the Etango uranium project in Namibia, with funding secured without project debt and...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Uranium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Op-Ed: Nicaragua mining – the golden bridgehead threatening US national security",
+   "link": "https://www.mining.com/op-ed-nicaragua-mining-the-golden-bridgehead-threatening-us-national-security/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T19:09:48.000Z",
+   "summary": "The critical minerals debate has become obsessed with pure geology, but mineral security is not determined by geology alone, writes Nicholas Vafeas.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -297,17 +349,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: B2Gold looks beyond Goose setbacks to cash growth",
-   "link": "https://www.northernminer.com/news/mining-forum-video-b2gold-looks-beyond-goose-setbacks-to-cash-growth/1003896024/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T16:17:31.000Z",
-   "summary": "B2Gold (TSX: BTO; NYSE-A: BTG) aims to turn its troubled Goose mine in Nunavut into a 300,000-oz.-a-year gold producer once crushing upgrades are complete, President and CEO Mike Cinnamond says....",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -321,6 +364,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: B2Gold looks beyond Goose setbacks to cash growth",
+   "link": "https://www.northernminer.com/news/mining-forum-video-b2gold-looks-beyond-goose-setbacks-to-cash-growth/1003896024/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T16:17:31.000Z",
+   "summary": "B2Gold (TSX: BTO; NYSE-A: BTG) aims to turn its troubled Goose mine in Nunavut into a 300,000-oz.-a-year gold producer once crushing upgrades are complete, President and CEO Mike Cinnamond says....",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -351,17 +403,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Garofalo’s Gold Royalty seeks growth without dilution",
-   "link": "https://www.northernminer.com/news/mining-forum-video-garofalos-gold-royalty-seeks-growth-without-dilution/1003896026/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T14:56:47.000Z",
-   "summary": "Gold Royalty (NYSE: GROY) aims to use growing income from its existing portfolio to finance acquisitions without fresh share sales, Chairman and CEO David Garofalo says. Ten assets now generate...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -375,6 +418,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Garofalo’s Gold Royalty seeks growth without dilution",
+   "link": "https://www.northernminer.com/news/mining-forum-video-garofalos-gold-royalty-seeks-growth-without-dilution/1003896026/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T14:56:47.000Z",
+   "summary": "Gold Royalty (NYSE: GROY) aims to use growing income from its existing portfolio to finance acquisitions without fresh share sales, Chairman and CEO David Garofalo says. Ten assets now generate...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -512,6 +564,33 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "Integra needs production jump to hit gold target",
+   "link": "https://www.northernminer.com/news/integra-needs-production-jump-to-hit-gold-target/1003896035/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T13:20:56.000Z",
+   "summary": "Integra Resources (TSXV: ITR; NYSE-A: ITRG) needs fourth-quarter gold production to rise at least 32% from the previous three months to meet its annual target, even after reporting a second...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -21147,85 +21226,6 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "AME report sees $23B economic boost from new Canadian mines",
-   "link": "https://www.mining.com/ame-report-sees-23b-economic-boost-from-new-canadian-mines/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T23:25:30.000Z",
-   "summary": "Federal govt's commitment to expand eligible activities under CEE will create as many as 34,000 full time jobs, report found.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Workers at Chile's Centinela copper mine strike after talks fail",
-   "link": "https://www.miningweekly.com/article/workers-at-chiles-centinela-copper-mine-strike-after-talks-fail-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T21:44:00.000Z",
-   "summary": "Two unions at Chile's Centinela copper mine rejected further contract talks with Antofagasta Minerals on Wednesday and decided to strike after government-mediated negotiations failed to produce a deal. The risk of a strike in Chile, the...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Savannah Resource close to second offtake deal for Portugal lithium project",
-   "link": "https://www.miningweekly.com/article/savannah-resource-close-to-second-offtake-deal-for-portugal-lithium-project-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T21:36:00.000Z",
-   "summary": "London-listed Savannah Resources SAVS.L is close to signing a key second offtake deal for future output from its flagship Barroso lithium project in northern Portugal, with an agreement expected this quarter, CEO Emanuel Proenca said on an...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
    "press": false
   }
  ]
