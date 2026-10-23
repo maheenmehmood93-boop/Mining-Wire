@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T01:52:27.476Z",
+ "updated": "2026-10-23T02:50:49.245Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -241,17 +241,8 @@
  ],
  "items": [
   {
-   "title": "Magazine round up | 23 October 2026",
-   "link": "https://www.miningweekly.com/article/magazine-round-up-23-october-2026-2026-10-23",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T01:15:00.000Z",
-   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -263,6 +254,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Magazine round up | 23 October 2026",
+   "link": "https://www.miningweekly.com/article/magazine-round-up-23-october-2026-2026-10-23",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T01:15:00.000Z",
+   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
