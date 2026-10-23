@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T02:50:49.245Z",
+ "updated": "2026-10-23T03:51:15.103Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -240,6 +240,58 @@
   }
  ],
  "items": [
+  {
+   "title": "Rio Tinto to boost Weipa Operations with Kangwinan bauxite project development",
+   "link": "https://im-mining.com/2026/10/23/rio-tinto-to-boost-weipa-operations-with-kangwinan-bauxite-project-development/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T03:43:28.000Z",
+   "summary": "Rio Tinto says it will invest $1.9 billion to develop the Kangwinan bauxite project on Western Cape York Peninsula in Queensland, Australia, underpinning the long-term future of its Weipa Operations and continued supply to its...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Labour federations oppose Pakistan Mineral Development Corporation's privatisation",
+   "link": "https://www.dawn.com/news/2039143/labour-federations-oppose-pakistan-mineral-development-corporations-privatisation",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T03:18:11.000Z",
+   "summary": "QUETTA: Lala Muhammad Sultan, president of the All Pakistan Labour Federation and the Pakistan Central Mines Labour Federation, has rejected the proposed privatisation of the Pakistan Mineral Development Corporation (PMDC) and cancellation...",
+   "image": "https://i.dawn.com/large/2019/03/5c90753757b50.jpg",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21151,58 +21203,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "New determination opens way for public procurement of large-scale battery storage and gas-to-power",
-   "link": "https://www.miningweekly.com/article/new-determination-opens-way-for-public-procurement-of-large-scale-battery-storage-and-gas-to-power-2026-10-07",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T10:30:00.000Z",
-   "summary": "Electricity and Energy Minister Dr Kgosientsho Ramokgopa says 4 600 MW of battery energy storage systems (BESS) and 5 000 MW of gas-to-power (GtP) have been prioritised in a new Ministerial determination that opens the way for new...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Iron ore"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "ABB's power conversion system for Fortescue's North Star Junction hub",
-   "link": "https://im-mining.com/2026/10/07/abbs-power-conversion-system-for-fortescues-north-star-junction-hub/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-07T10:14:36.000Z",
-   "summary": "Fortescue is one of the world’s largest producers of iron ore, so when its emerging power network in the Pilbara, Western Australia required a power conversion system (PCS) to support a consistent, stable and reliable power supply for its...",
-   "image": null,
-   "source": "International Mining",
-   "region": "Global",
    "press": false
   }
  ]
