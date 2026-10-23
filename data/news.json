@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T23:44:20.145Z",
+ "updated": "2026-10-23T01:05:25.114Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 0,
+   "seen": 79
   },
   {
    "source": "Pakistan Observer",
@@ -241,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
-   "link": "https://www.mining.com/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T23:28:54.000Z",
-   "summary": "Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -263,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
+   "link": "https://www.mining.com/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T23:28:54.000Z",
+   "summary": "Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
