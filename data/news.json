@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:43:44.035Z",
+ "updated": "2026-10-24T18:50:08.379Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 1,
+   "seen": 120
   },
   {
    "source": "Pakistan Observer",
