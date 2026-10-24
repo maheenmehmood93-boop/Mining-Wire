@@ -1,17 +1,19 @@
 {
- "updated": "2026-10-24T07:48:06.999Z",
+ "updated": "2026-10-24T08:49:40.628Z",
  "sources": [
   {
    "source": "MINING.COM",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "MINING.COM",
    "section": "Pakistan",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "Mining Technology",
@@ -63,14 +65,16 @@
   {
    "source": "MINING.COM",
    "section": "Safety search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "MINING.COM",
    "section": "Safety search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "GlobeNewswire",
@@ -105,14 +109,16 @@
   {
    "source": "MINING.COM",
    "section": "Exploration search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "MINING.COM",
    "section": "Exploration search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "Dawn",
@@ -173,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 1,
+   "seen": 78
   },
   {
    "source": "Pakistan Observer",
