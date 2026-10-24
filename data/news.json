@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T23:44:31.186Z",
+ "updated": "2026-10-24T01:07:29.171Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 1,
+   "seen": 61
   },
   {
    "source": "Pakistan Observer",
@@ -241,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "US Department of Energy names helium to critical materials list",
-   "link": "https://www.mining.com/us-department-of-energy-names-helium-to-critical-materials-list/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T22:50:19.000Z",
-   "summary": "Global demand for helium is growing faster than production, increasing supply risks for American manufacturers, DOE said.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -263,20 +255,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "US Department of Energy names helium to critical materials list",
+   "link": "https://www.mining.com/us-department-of-energy-names-helium-to-critical-materials-list/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T22:50:19.000Z",
+   "summary": "Global demand for helium is growing faster than production, increasing supply risks for American manufacturers, DOE said.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Bannerman pulls trigger on $353M uranium mine",
-   "link": "https://www.mining.com/bannerman-pulls-trigger-on-353m-uranium-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T22:39:00.000Z",
-   "summary": "Construction on the Etango uranium project in Namibia approved, with funding secured without project debt and first production targeted for 2028.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -290,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Bannerman pulls trigger on $353M uranium mine",
+   "link": "https://www.mining.com/bannerman-pulls-trigger-on-353m-uranium-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T22:39:00.000Z",
+   "summary": "Construction on the Etango uranium project in Namibia approved, with funding secured without project debt and first production targeted for 2028.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -402,17 +403,8 @@
    "press": false
   },
   {
-   "title": "Moon River lifts Davidson value to $879M, tungsten output jumps",
-   "link": "https://www.mining.com/moon-river-lifts-davidson-value-to-879m-tungsten-output-jumps/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T19:55:00.000Z",
-   "summary": "The project remains at the preliminary assessment stage, with no mineral reserves.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -424,6 +416,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Moon River lifts Davidson value to $879M, tungsten output jumps",
+   "link": "https://www.mining.com/moon-river-lifts-davidson-value-to-879m-tungsten-output-jumps/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T19:55:00.000Z",
+   "summary": "The project remains at the preliminary assessment stage, with no mineral reserves.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
