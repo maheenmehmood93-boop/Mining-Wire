@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T12:56:53.121Z",
+ "updated": "2026-10-24T13:45:21.968Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 1,
+   "seen": 105
   },
   {
    "source": "Pakistan Observer",
@@ -213,8 +214,9 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
@@ -240,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Zijin Longking to bring its battery electric mining trucks to Australia",
-   "link": "https://im-mining.com/2026/10/24/zijin-longking-to-bring-its-battery-electric-mining-trucks-to-australia/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-24T12:03:59.000Z",
-   "summary": "Things move fast in mining technology in China, especially when backed by one of the world's largest mining companies. Back in January 2026, IM reported that Zijin Mining had begun producing its own battery electric mining trucks through a...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -262,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Zijin Longking to bring its battery electric mining trucks to Australia",
+   "link": "https://im-mining.com/2026/10/24/zijin-longking-to-bring-its-battery-electric-mining-trucks-to-australia/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-24T12:03:59.000Z",
+   "summary": "Things move fast in mining technology in China, especially when backed by one of the world's largest mining companies. Back in January 2026, IM reported that Zijin Mining had begun producing its own battery electric mining trucks through a...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
