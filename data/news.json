@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T22:44:47.717Z",
+ "updated": "2026-10-24T23:40:31.973Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -137,8 +137,9 @@
   {
    "source": "The Express Tribune",
    "section": "Pakistan",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 1,
+   "seen": 38
   },
   {
    "source": "The Express Tribune",
@@ -150,9 +151,8 @@
   {
    "source": "The Express Tribune",
    "section": "Balochistan",
-   "ok": true,
-   "items": 1,
-   "seen": 19
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "Business Recorder",
@@ -178,8 +178,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 0,
+   "seen": 64
   },
   {
    "source": "Pakistan Observer",
@@ -212,8 +213,9 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
