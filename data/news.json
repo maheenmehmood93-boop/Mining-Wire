@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T01:45:54.364Z",
+ "updated": "2026-10-25T02:49:46.722Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -137,9 +137,8 @@
   {
    "source": "The Express Tribune",
    "section": "Pakistan",
-   "ok": true,
-   "items": 1,
-   "seen": 38
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "The Express Tribune",
