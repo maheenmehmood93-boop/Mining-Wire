@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:45:33.851Z",
+ "updated": "2026-10-25T12:56:42.927Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -173,14 +173,15 @@
    "source": "Geo News",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 20
   },
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 0,
+   "seen": 86
   },
   {
    "source": "Pakistan Observer",
@@ -241,17 +242,33 @@
  ],
  "items": [
   {
-   "title": "Gold mining project worth $20 million launched in Kunduz",
-   "link": "https://thefrontierpost.com/gold-mining-project-worth-20-million-launched-in-kunduz/",
+   "title": "Iran says border with Pakistan open, LPG exports face no restrictions",
+   "link": "https://www.geo.tv/latest/688233-iran-says-border-with-pakistan-open-lpg-exports-face-no-restrictions",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-25T10:50:20.000Z",
-   "summary": "KUNDUZ (TOLONews): Work on a gold mining project worth $20 million has begun in Qala-e-Zal district of Kunduz province. Officials said the mining contract has been signed for five years, with the Islamic Emirate set to receive 30 percent...",
+   "date": "2026-10-25T12:26:00.000Z",
+   "summary": "Pakistani pilgrims walk with their belongings after they returned from Iran, following the Israeli strikes in Iran, at the Pakistan-Iran border crossing in Taftan, Pakistan June 19, 2025. &mdash; ReutersIran says borders with neighbouring...",
    "image": null,
-   "source": "The Frontier Post",
+   "source": "Geo News",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
-   "region": "Peshawar",
    "provinces": [],
    "tags": [
     "Gold"
@@ -265,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold mining project worth $20 million launched in Kunduz",
+   "link": "https://thefrontierpost.com/gold-mining-project-worth-20-million-launched-in-kunduz/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-25T10:50:20.000Z",
+   "summary": "KUNDUZ (TOLONews): Work on a gold mining project worth $20 million has begun in Qala-e-Zal district of Kunduz province. Officials said the mining contract has been signed for five years, with the Islamic Emirate set to receive 30 percent...",
+   "image": null,
+   "source": "The Frontier Post",
+   "region": "Peshawar",
    "press": false
   },
   {
@@ -21193,33 +21219,6 @@
    "viaUrl": "",
    "date": "2026-10-08T06:58:00.000Z",
    "summary": "Millions of hectares of protected tropical ecosystems are at risk from overlapping mining concessions and oil and gas blocks, researchers said on Thursday, potentially weakening a global treaty aimed at conserving 30% of the world's land,...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Iron ore"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Miners drag Australian shares lower as Fortescue slides on CMRG uncertainty",
-   "link": "https://www.miningweekly.com/article/miners-drag-australian-shares-lower-as-fortescue-slides-on-cmrg-uncertainty-2026-10-08",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T06:54:00.000Z",
-   "summary": "Australian shares fell on Thursday, led by miners after Fortescue warned of a drop in its cash balance and said its forecasts hinged on talks with Chinese state-backed iron ore buyer China Mineral Resources Group. The S&P/ASX 200 0.8% to...",
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
