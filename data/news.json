@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T17:44:06.490Z",
+ "updated": "2026-10-25T18:52:08.751Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 101
+   "seen": 105
   },
   {
    "source": "Pakistan Observer",
@@ -267,17 +267,8 @@
    "press": false
   },
   {
-   "title": "China's Argentina mining footprint smaller than it looks",
-   "link": "https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-25T12:00:00.000Z",
-   "summary": "Equity-based calculations put Beijing's share of approved mining investment at 9.2%, with new lithium projects poised to lift it.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -291,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "China's Argentina mining footprint smaller than it looks",
+   "link": "https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-25T12:00:00.000Z",
+   "summary": "Equity-based calculations put Beijing's share of approved mining investment at 9.2%, with new lithium projects poised to lift it.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
