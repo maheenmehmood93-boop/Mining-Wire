@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:48:25.288Z",
+ "updated": "2026-10-25T17:44:06.490Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 0,
+   "seen": 101
   },
   {
    "source": "Pakistan Observer",
@@ -263,6 +264,33 @@
    "image": null,
    "source": "Geo News",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "title": "China's Argentina mining footprint smaller than it looks",
+   "link": "https://www.mining.com/chinas-argentina-mining-footprint-smaller-than-it-looks/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-25T12:00:00.000Z",
+   "summary": "Equity-based calculations put Beijing's share of approved mining investment at 9.2%, with new lithium projects poised to lift it.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -21196,31 +21224,6 @@
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/09/shutterstock_2464270839.jpg",
    "source": "Mining Technology",
    "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Encroaching energy, mine concessions threaten protected ecosystems, research shows",
-   "link": "https://www.miningweekly.com/article/encroaching-energy-mine-concessions-threaten-protected-ecosystems-research-shows-2026-10-08",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T06:58:00.000Z",
-   "summary": "Millions of hectares of protected tropical ecosystems are at risk from overlapping mining concessions and oil and gas blocks, researchers said on Thursday, potentially weakening a global treaty aimed at conserving 30% of the world's land,...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
    "press": false
   }
  ]
