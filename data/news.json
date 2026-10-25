@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T03:51:04.959Z",
+ "updated": "2026-10-25T04:49:38.413Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -137,20 +137,23 @@
   {
    "source": "The Express Tribune",
    "section": "Pakistan",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 1,
+   "seen": 38
   },
   {
    "source": "The Express Tribune",
    "section": "Business",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 0,
+   "seen": 25
   },
   {
    "source": "The Express Tribune",
    "section": "Balochistan",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 1,
+   "seen": 19
   },
   {
    "source": "Business Recorder",
