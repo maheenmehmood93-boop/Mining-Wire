@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T23:41:08.795Z",
+ "updated": "2026-10-26T01:12:58.328Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,9 +25,8 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "International Mining",
@@ -241,6 +240,31 @@
  ],
  "items": [
   {
+   "title": "Metso's Nielsen ready to showcase innovative comminution options to IMARC crowd",
+   "link": "https://im-mining.com/2026/10/26/metsos-nielsen-ready-to-showcase-innovative-comminution-options-to-imarc-crowd/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T00:11:09.000Z",
+   "summary": "A 20-year-plus veteran of the mineral comminution business, Bjorn Nielsen is excited about what lies ahead for the industry and for Metso, Richard Roberts* writes. “We are seeing more and more interest in new mineral processing technology...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "Pakistan",
    "scope": "National",
    "provinces": [],
@@ -425,17 +449,8 @@
    "press": false
   },
   {
-   "title": "Newmont prices Red Chris expansion at up to $4.8B",
-   "link": "https://northernminer.com/news/newmont-prices-red-chris-expansion-at-up-to-4-8b/1003896004/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T20:30:36.000Z",
-   "summary": "Newmont (NYSE, ASX: NEM) put a price of up to $4.8 billion (C$6.4 billion) on taking its Red Chris copper-gold mine underground in British Columbia, with commercial production targeted for...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
@@ -450,6 +465,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Newmont prices Red Chris expansion at up to $4.8B",
+   "link": "https://northernminer.com/news/newmont-prices-red-chris-expansion-at-up-to-4-8b/1003896004/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T20:30:36.000Z",
+   "summary": "Newmont (NYSE, ASX: NEM) put a price of up to $4.8 billion (C$6.4 billion) on taking its Red Chris copper-gold mine underground in British Columbia, with commercial production targeted for...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -480,17 +504,8 @@
    "press": false
   },
   {
-   "title": "Lithium’s $100B question: Who will build 134 new mines?",
-   "link": "https://northernminer.com/news/lithiums-100b-question-who-will-build-134-new-mines/1003896015/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T20:26:21.000Z",
-   "summary": "Global lithium demand is expected to more than triple by 2050, equivalent to the output of 134 new mines and more than $100 billion (C$139.8 billion) in investment before accounting...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -504,6 +519,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Lithium’s $100B question: Who will build 134 new mines?",
+   "link": "https://northernminer.com/news/lithiums-100b-question-who-will-build-134-new-mines/1003896015/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T20:26:21.000Z",
+   "summary": "Global lithium demand is expected to more than triple by 2050, equivalent to the output of 134 new mines and more than $100 billion (C$139.8 billion) in investment before accounting...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -534,17 +558,8 @@
    "press": false
   },
   {
-   "title": "New Found Gold doubles Queensway valuation to $1.7B",
-   "link": "https://northernminer.com/news/new-found-gold-doubles-queensway-valuation-to-1-7b/1003896000/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T20:20:14.000Z",
-   "summary": "New Found Gold (TSX, NYSE-A: NFGC) has more than doubled the projected value of its Queensway gold project in Newfoundland to C$1.73 billion while expanding measured and indicated resources by...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -558,6 +573,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "New Found Gold doubles Queensway valuation to $1.7B",
+   "link": "https://northernminer.com/news/new-found-gold-doubles-queensway-valuation-to-1-7b/1003896000/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T20:20:14.000Z",
+   "summary": "New Found Gold (TSX, NYSE-A: NFGC) has more than doubled the projected value of its Queensway gold project in Newfoundland to C$1.73 billion while expanding measured and indicated resources by...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -588,17 +612,8 @@
    "press": false
   },
   {
-   "title": "Southern Copper weighs $680M Cuajone expansion",
-   "link": "https://northernminer.com/news/southern-copper-weighs-680m-cuajone-expansion/1003896008/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T20:00:00.000Z",
-   "summary": "Southern Copper (NYSE, BVL: SCCO) is evaluating a $680-million (C$950.6 million) expansion of its Cuajone mine in southern Peru to counter declining ore grades and improve efficiency as the copper...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -612,6 +627,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Southern Copper weighs $680M Cuajone expansion",
+   "link": "https://northernminer.com/news/southern-copper-weighs-680m-cuajone-expansion/1003896008/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T20:00:00.000Z",
+   "summary": "Southern Copper (NYSE, BVL: SCCO) is evaluating a $680-million (C$950.6 million) expansion of its Cuajone mine in southern Peru to counter declining ore grades and improve efficiency as the copper...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -667,17 +691,8 @@
    "press": false
   },
   {
-   "title": "Bannerman pulls trigger on $353M uranium mine",
-   "link": "https://northernminer.com/news/bannerman-pulls-trigger-on-353m-uranium-mine/1003896039/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T19:39:13.000Z",
-   "summary": "Bannerman Energy (ASX, NSX: BMN; US-OTC: BNNLF) and its Chinese partner CNNC Overseas have approved construction of the Etango uranium project in Namibia, with funding secured without project debt and...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -691,6 +706,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Bannerman pulls trigger on $353M uranium mine",
+   "link": "https://northernminer.com/news/bannerman-pulls-trigger-on-353m-uranium-mine/1003896039/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T19:39:13.000Z",
+   "summary": "Bannerman Energy (ASX, NSX: BMN; US-OTC: BNNLF) and its Chinese partner CNNC Overseas have approved construction of the Etango uranium project in Namibia, with funding secured without project debt and...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -774,17 +798,8 @@
    "press": false
   },
   {
-   "title": "Moon River lifts Davidson value to $1.2B, tungsten output jumps",
-   "link": "https://northernminer.com/news/moon-river-lifts-davidson-value-to-1-2b-tungsten-output-jumps/1003896021/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T16:55:13.000Z",
-   "summary": "A new study from Moon River Moly (TSXV: MOO; US-OTC: MRIVF) raises the estimated value of its Davidson molybdenum-copper-tungsten project in British Columbia by 20% and more than quadruples tungsten...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -798,6 +813,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Moon River lifts Davidson value to $1.2B, tungsten output jumps",
+   "link": "https://northernminer.com/news/moon-river-lifts-davidson-value-to-1-2b-tungsten-output-jumps/1003896021/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T16:55:13.000Z",
+   "summary": "A new study from Moon River Moly (TSXV: MOO; US-OTC: MRIVF) raises the estimated value of its Davidson molybdenum-copper-tungsten project in British Columbia by 20% and more than quadruples tungsten...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -828,17 +852,8 @@
    "press": false
   },
   {
-   "title": "Integra needs production jump to hit gold target",
-   "link": "https://northernminer.com/news/integra-needs-production-jump-to-hit-gold-target/1003896035/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T16:30:56.000Z",
-   "summary": "Integra Resources (TSXV: ITR; NYSE-A: ITRG) needs fourth-quarter gold production to rise at least 32% from the previous three months to meet its annual target, even after reporting a second...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -852,6 +867,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Integra needs production jump to hit gold target",
+   "link": "https://northernminer.com/news/integra-needs-production-jump-to-hit-gold-target/1003896035/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T16:30:56.000Z",
+   "summary": "Integra Resources (TSXV: ITR; NYSE-A: ITRG) needs fourth-quarter gold production to rise at least 32% from the previous three months to meet its annual target, even after reporting a second...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -882,17 +906,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: B2Gold looks beyond Goose setbacks to cash growth",
-   "link": "https://northernminer.com/news/mining-forum-video-b2gold-looks-beyond-goose-setbacks-to-cash-growth/1003896024/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T16:17:31.000Z",
-   "summary": "B2Gold (TSX: BTO; NYSE-A: BTG) aims to turn its troubled Goose mine in Nunavut into a 300,000-oz.-a-year gold producer once crushing upgrades are complete, President and CEO Mike Cinnamond says....",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -906,6 +921,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: B2Gold looks beyond Goose setbacks to cash growth",
+   "link": "https://northernminer.com/news/mining-forum-video-b2gold-looks-beyond-goose-setbacks-to-cash-growth/1003896024/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T16:17:31.000Z",
+   "summary": "B2Gold (TSX: BTO; NYSE-A: BTG) aims to turn its troubled Goose mine in Nunavut into a 300,000-oz.-a-year gold producer once crushing upgrades are complete, President and CEO Mike Cinnamond says....",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -936,17 +960,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Garofalo’s Gold Royalty seeks growth without dilution",
-   "link": "https://northernminer.com/news/mining-forum-video-garofalos-gold-royalty-seeks-growth-without-dilution/1003896026/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T14:56:47.000Z",
-   "summary": "Gold Royalty (NYSE: GROY) aims to use growing income from its existing portfolio to finance acquisitions without fresh share sales, Chairman and CEO David Garofalo says. Ten assets now generate...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -960,6 +975,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Garofalo’s Gold Royalty seeks growth without dilution",
+   "link": "https://northernminer.com/news/mining-forum-video-garofalos-gold-royalty-seeks-growth-without-dilution/1003896026/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T14:56:47.000Z",
+   "summary": "Gold Royalty (NYSE: GROY) aims to use growing income from its existing portfolio to finance acquisitions without fresh share sales, Chairman and CEO David Garofalo says. Ten assets now generate...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2277,17 +2301,8 @@
    "press": false
   },
   {
-   "title": "Boroo signs $140M deal for Yukon Eagle gold mine",
-   "link": "https://northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T21:25:45.000Z",
-   "summary": "Private entity Boroo has agreed to acquire Victoria Gold for up to $140 million (about US$100 million), advancing plans to potentially rehabilitate and restart its Eagle gold mine more than...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -2301,6 +2316,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Boroo signs $140M deal for Yukon Eagle gold mine",
+   "link": "https://northernminer.com/news/boroo-signs-140m-deal-for-yukon-eagle-gold-mine/1003895985/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:25:45.000Z",
+   "summary": "Private entity Boroo has agreed to acquire Victoria Gold for up to $140 million (about US$100 million), advancing plans to potentially rehabilitate and restart its Eagle gold mine more than...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2329,17 +2353,8 @@
    "press": false
   },
   {
-   "title": "Ottawa finally matches $1B Ring of Fire funds",
-   "link": "https://northernminer.com/news/ottawa-finally-matches-1b-ring-of-fire-funds/1003895976/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T21:20:57.000Z",
-   "summary": "Ottawa has pledged up to $1 billion (US$712 million) to help build roads into Ontario’s Ring of Fire, backing a long-delayed route to undeveloped critical mineral deposits. The three-year commitment,...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -2351,6 +2366,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Ottawa finally matches $1B Ring of Fire funds",
+   "link": "https://northernminer.com/news/ottawa-finally-matches-1b-ring-of-fire-funds/1003895976/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:20:57.000Z",
+   "summary": "Ottawa has pledged up to $1 billion (US$712 million) to help build roads into Ontario’s Ring of Fire, backing a long-delayed route to undeveloped critical mineral deposits. The three-year commitment,...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2381,17 +2405,8 @@
    "press": false
   },
   {
-   "title": "Liberty Gold stretches Black Pine’s reach in Idaho",
-   "link": "https://northernminer.com/news/liberty-gold-stretches-black-pines-reach-in-idaho/1003895972/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T21:15:51.000Z",
-   "summary": "Liberty Gold (TSX: LGD; US-OTC: LGDTF) has drilled gold beyond the resource boundary at its Black Pine project in Idaho, outlining an extension that could increase the site’s resources. Drill...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -2405,6 +2420,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Liberty Gold stretches Black Pine’s reach in Idaho",
+   "link": "https://northernminer.com/news/liberty-gold-stretches-black-pines-reach-in-idaho/1003895972/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:15:51.000Z",
+   "summary": "Liberty Gold (TSX: LGD; US-OTC: LGDTF) has drilled gold beyond the resource boundary at its Black Pine project in Idaho, outlining an extension that could increase the site’s resources. Drill...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2435,17 +2459,8 @@
    "press": false
   },
   {
-   "title": "Spain: Pan Global eyes copper riches in ancient belt",
-   "link": "https://northernminer.com/news/spain-pan-global-eyes-copper-riches-in-ancient-belt/1003895963/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T21:15:45.000Z",
-   "summary": "Pan Global Resources (TSXV: PGZ; US-OTC: PGZFF), led by former Rio Tinto (ASX, LSE, NYSE: RIO) exploration director Tim Moody, sees neighbouring plants as a potential route to copper production...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -2459,6 +2474,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Spain: Pan Global eyes copper riches in ancient belt",
+   "link": "https://northernminer.com/news/spain-pan-global-eyes-copper-riches-in-ancient-belt/1003895963/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:15:45.000Z",
+   "summary": "Pan Global Resources (TSXV: PGZ; US-OTC: PGZFF), led by former Rio Tinto (ASX, LSE, NYSE: RIO) exploration director Tim Moody, sees neighbouring plants as a potential route to copper production...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2487,17 +2511,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
-   "link": "https://northernminer.com/news/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/1003895983/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T21:01:19.000Z",
-   "summary": "Commodity Discovery Fund founder Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades. The Netherlands-based fund,...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -2509,6 +2524,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Majors are waking up to discoveries, fund manager says",
+   "link": "https://northernminer.com/news/mining-forum-video-majors-are-waking-up-to-discoveries-fund-manager-says/1003895983/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T21:01:19.000Z",
+   "summary": "Commodity Discovery Fund founder Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades. The Netherlands-based fund,...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2539,17 +2563,8 @@
    "press": false
   },
   {
-   "title": "South African rare earth mine targets China sales",
-   "link": "https://northernminer.com/news/south-african-rare-earth-mine-targets-first-exports/1003895889/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T20:55:42.000Z",
-   "summary": "South Africa’s Steenkampskraal mine expects its first rare earth concentrate sales in early 2027 to buyers in China, as commissioning continues at a processing plant opened this month. The Western...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -2563,6 +2578,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "South African rare earth mine targets China sales",
+   "link": "https://northernminer.com/news/south-african-rare-earth-mine-targets-first-exports/1003895889/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T20:55:42.000Z",
+   "summary": "South Africa’s Steenkampskraal mine expects its first rare earth concentrate sales in early 2027 to buyers in China, as commissioning continues at a processing plant opened this month. The Western...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -2772,17 +2796,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Bunker Hill seeks cheaper debt to fund growth",
-   "link": "https://northernminer.com/news/mining-forum-video-bunker-hill-seeks-cheaper-debt-to-fund-growth/1003895979/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T15:37:24.000Z",
-   "summary": "Bunker Hill Mining (TSX: BNKR; US-OTC: BHLL) aims to expand processing capacity at its restarted Idaho mine by nearly 40% in the second half of next year, executive chairman Richard...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -2794,6 +2809,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Bunker Hill seeks cheaper debt to fund growth",
+   "link": "https://northernminer.com/news/mining-forum-video-bunker-hill-seeks-cheaper-debt-to-fund-growth/1003895979/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T15:37:24.000Z",
+   "summary": "Bunker Hill Mining (TSX: BNKR; US-OTC: BHLL) aims to expand processing capacity at its restarted Idaho mine by nearly 40% in the second half of next year, executive chairman Richard...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -3114,17 +3138,8 @@
    "press": false
   },
   {
-   "title": "Serabi cuts gold outlook as Coringa permits stall growth",
-   "link": "https://northernminer.com/news/serabi-cuts-gold-outlook-as-coringa-permits-stall-growth/1003895969/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T12:33:37.000Z",
-   "summary": "Serabi Gold (TSX: SBI; AIM: SRB) cut its annual production outlook about 17% after permit delays blocked a planned increase in gold output from its Coringa mine in Brazil. The...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -3138,6 +3153,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Serabi cuts gold outlook as Coringa permits stall growth",
+   "link": "https://northernminer.com/news/serabi-cuts-gold-outlook-as-coringa-permits-stall-growth/1003895969/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-22T12:33:37.000Z",
+   "summary": "Serabi Gold (TSX: SBI; AIM: SRB) cut its annual production outlook about 17% after permit delays blocked a planned increase in gold output from its Coringa mine in Brazil. The...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -4051,17 +4075,8 @@
    "press": false
   },
   {
-   "title": "Hudbay, Mitsubishi OK $2.1B Copper World project",
-   "link": "https://northernminer.com/news/hudbay-mitsubishi-ok-2-1b-copper-world-project/1003895931/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:55:33.000Z",
-   "summary": "Hudbay Minerals (TSX, NYSE: HBM) and Japan’s Mitsubishi have approved construction of the $2.1-billion (C$2.9 billion) Copper World project in southern Arizona despite a 59% surge in construction costs. Scope...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -4075,6 +4090,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Hudbay, Mitsubishi OK $2.1B Copper World project",
+   "link": "https://northernminer.com/news/hudbay-mitsubishi-ok-2-1b-copper-world-project/1003895931/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T20:55:33.000Z",
+   "summary": "Hudbay Minerals (TSX, NYSE: HBM) and Japan’s Mitsubishi have approved construction of the $2.1-billion (C$2.9 billion) Copper World project in southern Arizona despite a 59% surge in construction costs. Scope...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -4105,17 +4129,8 @@
    "press": false
   },
   {
-   "title": "Fortuna targets deeper Lindero pit after gold hits",
-   "link": "https://northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:50:02.000Z",
-   "summary": "Fortuna Mining (TSX: FVI; NYSE: FSM) has drilled gold beneath the planned bottom of its Lindero open pit in Argentina’s high-Andes, strengthening its case for adding reserves at the operating...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -4129,6 +4144,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Fortuna targets deeper Lindero pit after gold hits",
+   "link": "https://northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T20:50:02.000Z",
+   "summary": "Fortuna Mining (TSX: FVI; NYSE: FSM) has drilled gold beneath the planned bottom of its Lindero open pit in Argentina’s high-Andes, strengthening its case for adding reserves at the operating...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -4157,17 +4181,8 @@
    "press": false
   },
   {
-   "title": "Seville MMH: Spain’s next mines hinge on funding",
-   "link": "https://northernminer.com/news/seville-mmh-spains-next-mines-hinge-on-funding/1003895954/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:45:48.000Z",
-   "summary": "Financing Spain’s next mines depends on giving investors credible development schedules, yet uncertain approvals make it difficult to plan major spending, developers told the Mining and Minerals Hall conference. The...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -4179,6 +4194,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Seville MMH: Spain’s next mines hinge on funding",
+   "link": "https://northernminer.com/news/seville-mmh-spains-next-mines-hinge-on-funding/1003895954/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-21T20:45:48.000Z",
+   "summary": "Financing Spain’s next mines depends on giving investors credible development schedules, yet uncertain approvals make it difficult to plan major spending, developers told the Mining and Minerals Hall conference. The...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -21205,33 +21229,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "CleanTech Lithium expands foothold in Argentina",
-   "link": "https://www.mining.com/cleantech-lithium-expands-foothold-in-argentina/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-08T12:03:00.000Z",
-   "summary": "New lithium brine properties near Laguna Verde offer growth potential as the developer targets exploration in 2027.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
