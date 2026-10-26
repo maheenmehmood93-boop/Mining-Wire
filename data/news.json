@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T19:05:19.004Z",
+ "updated": "2026-10-26T19:54:40.017Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 77
+   "seen": 79
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Redpath Africa advances underground development at Mogalakwena Sandsloot",
-   "link": "https://im-mining.com/2026/10/26/redpath-africa-advances-underground-development-at-mogalakwena-sandsloot/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T18:28:20.000Z",
-   "summary": "Underground development at the Mogalakwena Sandsloot project in Limpopo, South Africa, is advancing thanks to Redpath Africa Limited, which is demonstrating its expertise in complex lateral development while contributing to the development...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +256,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Redpath Africa advances underground development at Mogalakwena Sandsloot",
+   "link": "https://im-mining.com/2026/10/26/redpath-africa-advances-underground-development-at-mogalakwena-sandsloot/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T18:28:20.000Z",
+   "summary": "Underground development at the Mogalakwena Sandsloot project in Limpopo, South Africa, is advancing thanks to Redpath Africa Limited, which is demonstrating its expertise in complex lateral development while contributing to the development...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -405,17 +405,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Tech stocks retreat could fuel massive mining gains, Sarmaya fund manager says",
-   "link": "https://www.northernminer.com/news/mining-forum-video-tech-stocks-retreat-could-fuel-massive-mining-gains-sarmaya-fund-manager-says/1003896075/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T16:40:42.000Z",
-   "summary": "Mining shares could deliver outsized gains if investors shift even a small portion of their technology holdings into resource companies, Sarmaya Partners Fund Manager Wasif Latif says. A slowdown in...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -427,6 +418,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Tech stocks retreat could fuel massive mining gains, Sarmaya fund manager says",
+   "link": "https://www.northernminer.com/news/mining-forum-video-tech-stocks-retreat-could-fuel-massive-mining-gains-sarmaya-fund-manager-says/1003896075/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T16:40:42.000Z",
+   "summary": "Mining shares could deliver outsized gains if investors shift even a small portion of their technology holdings into resource companies, Sarmaya Partners Fund Manager Wasif Latif says. A slowdown in...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -668,17 +668,8 @@
    "press": false
   },
   {
-   "title": "Local miner outbids Freeport for Colombia exploration",
-   "link": "https://www.canadianminingjournal.com/news/local-miner-outbids-freeport-for-colombia-exploration/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T15:21:20.000Z",
-   "summary": "Colombia’s OP Gold Capital outbid U.S. copper giant Freeport-McMoRan (NYSE: FCX) for exploration rights in the country’s north, raising its offer to [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
@@ -693,6 +684,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Local miner outbids Freeport for Colombia exploration",
+   "link": "https://www.canadianminingjournal.com/news/local-miner-outbids-freeport-for-colombia-exploration/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T15:21:20.000Z",
+   "summary": "Colombia’s OP Gold Capital outbid U.S. copper giant Freeport-McMoRan (NYSE: FCX) for exploration rights in the country’s north, raising its offer to [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -854,17 +854,8 @@
    "press": false
   },
   {
-   "title": "Mining Forum video: Apollo pit potential broadens Collective’s Colombian options",
-   "link": "https://www.northernminer.com/news/mining-forum-video-apollo-pit-potential-broadens-collectives-colombian-options/1003896073/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T13:36:53.000Z",
-   "summary": "Collective Mining (TSX, Nasdaq: CNL) aims to submit an environmental licence application for its Apollo deposit in Colombia by mid-2027 while continuing to drill beyond its initial resource, Executive Chairman...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -876,6 +867,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mining Forum video: Apollo pit potential broadens Collective’s Colombian options",
+   "link": "https://www.northernminer.com/news/mining-forum-video-apollo-pit-potential-broadens-collectives-colombian-options/1003896073/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T13:36:53.000Z",
+   "summary": "Collective Mining (TSX, Nasdaq: CNL) aims to submit an environmental licence application for its Apollo deposit in Colombia by mid-2027 while continuing to drill beyond its initial resource, Executive Chairman...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -956,6 +956,31 @@
    "press": false
   },
   {
+   "title": "US Energy Department adds helium to critical list",
+   "link": "https://www.northernminer.com/news/us-energy-department-adds-helium-to-critical-list/1003896084/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T12:28:07.000Z",
+   "summary": "The U.S. Department of Energy has designated helium a critical material, citing its importance to semiconductor manufacturing and growing risks to supply. The designation, announced Friday under the Energy Act...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -981,6 +1006,21 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Lula's Brazil win puts rare earths in Trump's crosshairs",
    "link": "https://www.northernminer.com/news/lulas-brazil-win-puts-rare-earths-in-trumps-crosshairs/1003896069/",
    "via": "",
@@ -989,9 +1029,12 @@
    "summary": "Brazilian President Luiz Inácio Lula da Silva’s election victory is set to sustain the country’s push to process more of its vast rare earth reserves at home, with mining investors...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -1005,9 +1048,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Lula's Brazil win puts rare earths in Trump's crosshairs",
    "link": "https://www.canadianminingjournal.com/news/lulas-brazil-win-puts-rare-earths-in-trumps-crosshairs/",
    "via": "",
@@ -1016,22 +1056,7 @@
    "summary": "Foreign miners face tighter scrutiny as Brasília pursues domestic processing and resists Washington's trade pressure.",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -21208,33 +21233,6 @@
    "summary": "Guanajuato Silver has completed a 267m long underground production ramp that connects the San Ignacio mine with the Bolanitos mining complex in central Mexico.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-9Oct26-shutterstock_2804974037.jpg",
    "source": "Mining Technology",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Lithium Triangle’s vast resources face unsolved extraction hurdles",
-   "link": "https://www.mining.com/lithium-triangles-vast-resources-face-unsolved-extraction-hurdles/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T13:53:00.000Z",
-   "summary": "A review of 43 Andean salt flats highlights how brine chemistry and water availability shape lithium development prospects.",
-   "image": null,
-   "source": "MINING.COM",
    "region": "Global",
    "press": false
   }
