@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T20:52:19.107Z",
+ "updated": "2026-10-26T21:48:57.343Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,8 +59,9 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": false,
-   "error": "no items found in feed"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "MINING.COM",
@@ -241,6 +242,31 @@
   }
  ],
  "items": [
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Collapse / cave-in",
+   "country": "Canada",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "British Columbia Conservative landslide raises mining hopes, Indigenous rights fears",
+   "link": "https://www.mining.com/bc-tory-landslide-raises-mining-hopes-rights-fears/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T21:35:00.000Z",
+   "summary": "The Conservatives’ landslide election victory in British Columbia has raised mining industry hopes for faster permits and stronger exploration incentives.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -561,31 +587,6 @@
    "press": false
   },
   {
-   "title": "BC Tory landslide raises mining hopes, rights fears",
-   "link": "https://www.mining.com/bc-tory-landslide-raises-mining-hopes-rights-fears/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T16:45:15.000Z",
-   "summary": "The test is whether the new government can turn campaign promises into predictable approvals without deepening disputes.",
-   "image": null,
-   "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "Collapse / cave-in",
-   "country": "Unspecified",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -638,17 +639,8 @@
    "press": false
   },
   {
-   "title": "Canada Nickel, Swiss Steel plan transatlantic partnership",
-   "link": "https://www.mining.com/canada-nickel-swiss-steel-plan-transatlantic-partnership/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T16:38:25.000Z",
-   "summary": "Canada Nickel would provide Swiss Steel with access to about one million tonnes of semi-finished steel products per year starting in 2030.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -662,6 +654,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Canada Nickel, Swiss Steel plan transatlantic partnership",
+   "link": "https://www.mining.com/canada-nickel-swiss-steel-plan-transatlantic-partnership/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T16:38:25.000Z",
+   "summary": "Canada Nickel would provide Swiss Steel with access to about one million tonnes of semi-finished steel products per year starting in 2030.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
