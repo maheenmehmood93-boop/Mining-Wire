@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T01:12:58.328Z",
+ "updated": "2026-10-26T01:58:54.768Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,8 +25,9 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "International Mining",
@@ -178,8 +179,9 @@
   {
    "source": "ARY News",
    "section": "",
-   "ok": false,
-   "error": "HTTP 500"
+   "ok": true,
+   "items": 0,
+   "seen": 48
   },
   {
    "source": "Pakistan Observer",
@@ -240,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Metso's Nielsen ready to showcase innovative comminution options to IMARC crowd",
-   "link": "https://im-mining.com/2026/10/26/metsos-nielsen-ready-to-showcase-innovative-comminution-options-to-imarc-crowd/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T00:11:09.000Z",
-   "summary": "A 20-year-plus veteran of the mineral comminution business, Bjorn Nielsen is excited about what lies ahead for the industry and for Metso, Richard Roberts* writes. “We are seeing more and more interest in new mineral processing technology...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -262,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Metso's Nielsen ready to showcase innovative comminution options to IMARC crowd",
+   "link": "https://im-mining.com/2026/10/26/metsos-nielsen-ready-to-showcase-innovative-comminution-options-to-imarc-crowd/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T00:11:09.000Z",
+   "summary": "A 20-year-plus veteran of the mineral comminution business, Bjorn Nielsen is excited about what lies ahead for the industry and for Metso, Richard Roberts* writes. “We are seeing more and more interest in new mineral processing technology...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
