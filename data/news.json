@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T23:46:32.692Z",
+ "updated": "2026-10-27T01:06:30.074Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,9 +59,8 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -243,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Ministers promote New South Wales, Australia mineral wealth to IMARC 2026 crowd",
-   "link": "https://im-mining.com/2026/10/26/ministers-promote-new-south-wales-australia-mineral-wealth-to-imarc-2026-crowd/",
+   "title": "Eldorado Gold starts up first two Metso tailings filter presses at Skouries",
+   "link": "https://im-mining.com/2026/10/26/eldorado-gold-starts-up-first-two-metso-tailings-filter-presses-at-skouries/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-26T23:21:58.000Z",
-   "summary": "Critical minerals, global supply chains, mining investment and the race to develop new projects dominated early presentations as the International Mining and Resources Conference + Expo (IMARC) 2026 event opened in Sydney this morning. New...",
+   "date": "2026-10-26T23:53:38.000Z",
+   "summary": "Eldorado Gold says the first two tailings filter presses at its Skouries mine in northern Greece are now operational, marking another important milestone toward commercial production. With these filter presses online, the plant is...",
    "image": null,
    "source": "International Mining",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Ministers promote New South Wales, Australia mineral wealth to IMARC 2026 crowd",
+   "link": "https://im-mining.com/2026/10/26/ministers-promote-new-south-wales-australia-mineral-wealth-to-imarc-2026-crowd/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-26T23:21:58.000Z",
+   "summary": "Critical minerals, global supply chains, mining investment and the race to develop new projects dominated early presentations as the International Mining and Resources Conference + Expo (IMARC) 2026 event opened in Sydney this morning. New...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -21205,31 +21231,6 @@
    "viaUrl": "",
    "date": "2026-10-09T15:45:00.000Z",
    "summary": "Discovery Mining will acquire two Timmins-area properties as McEwen redirects capital toward its expanding mine portfolio.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Tax breaks could spur $1.1B more in exploration: AME",
-   "link": "https://www.mining.com/tax-breaks-could-spur-1-1b-more-in-exploration-ame/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-09T15:30:00.000Z",
-   "summary": "Expanding Canada’s mining tax incentives may boost exploration spending by $1.1 billion, EY estimates.",
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
