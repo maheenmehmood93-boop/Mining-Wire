@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T04:50:31.048Z",
+ "updated": "2026-10-27T05:50:12.473Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,9 +59,8 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -168,7 +167,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 10
+   "seen": 9
   },
   {
    "source": "Geo News",
@@ -243,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "FireFly makes new copper-gold VMS discovery",
-   "link": "https://mining.com.au/firefly-makes-new-copper-gold-vms-discovery/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T04:37:07.000Z",
-   "summary": "FireFly Metals (ASX:FFM) expects assays within four weeks from follow-up drilling at its Mount Joy discovery in Newfoundland, Canada, following wide copper-gold volcanogenic massive sulphide (VMS) intercepts. Mount Joy sits within the...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold",
@@ -271,20 +261,20 @@
    "exHighlight": "",
    "exCountry": "Canada",
    "exRegion": "Newfoundland and Labrador",
+   "title": "FireFly makes new copper-gold VMS discovery",
+   "link": "https://mining.com.au/firefly-makes-new-copper-gold-vms-discovery/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T04:37:07.000Z",
+   "summary": "FireFly Metals (ASX:FFM) expects assays within four weeks from follow-up drilling at its Mount Joy discovery in Newfoundland, Canada, following wide copper-gold volcanogenic massive sulphide (VMS) intercepts. Mount Joy sits within the...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Xali Gold lines up a 20,000m drilling opportunity at Pico Machay",
-   "link": "https://mining.com.au/xali-gold-lines-up-a-20000m-drilling-opportunity-at-pico-machay/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T04:30:00.000Z",
-   "summary": "Permits submitted, drill rigs lined up, and gold in the sights! Xali Gold (TSX-V:XGC) is closing in on its next exploration milestone at the Pico Machay Gold Project in Peru, having submitted its environmental drilling permit application...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -298,9 +288,33 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Xali Gold lines up a 20,000m drilling opportunity at Pico Machay",
+   "link": "https://mining.com.au/xali-gold-lines-up-a-20000m-drilling-opportunity-at-pico-machay/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T04:30:00.000Z",
+   "summary": "Permits submitted, drill rigs lined up, and gold in the sights! Xali Gold (TSX-V:XGC) is closing in on its next exploration milestone at the Pico Machay Gold Project in Peru, having submitted its environmental drilling permit application...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Lithium"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Tambourah flags Pilbara lithium pegmatites",
    "link": "https://mining.com.au/tambourah-flags-pilbara-lithium-pegmatites/",
    "via": "",
@@ -309,12 +323,15 @@
    "summary": "Tambourah Metals (ASX:TMB) is planning follow-up sampling at its Coondina and Eleys projects in the Pilbara after rock chips returned lithium and tantalum anomalies. The company collected 79 rock samples across the Eleys-Coondina Project,...",
    "image": null,
    "source": "Mining.com.au",
+   "region": "Asia-Pacific",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
-    "Lithium"
+    "Rare earths"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -325,9 +342,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Astron gets conditional approval for $180 million Donald Project debt",
    "link": "https://mining.com.au/astron-gets-conditional-approval-for-180-million-donald-project-debt/",
    "via": "",
@@ -336,9 +350,12 @@
    "summary": "Astron (ASX:ATR) is one step closer to a final investment decision (FID) on its Victorian rare earths project after securing conditional approval for up to $180 million in debt. Export Finance Australia (EFA) and the National...",
    "image": null,
    "source": "Mining.com.au",
+   "region": "Asia-Pacific",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -352,9 +369,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Vulcan Elements partners with collaboratory for magnet development",
    "link": "https://mining.com.au/vulcan-elements-partners-with-collaboratory-for-magnet-development/",
    "via": "",
@@ -363,36 +377,12 @@
    "summary": "American rare earth magnet manufacturer Vulcan Elements has partnered with the North Carolina (NC) Collaboratory to advance high-performance magnet development for defence and commercial applications. NC Collaboratory is backing the...",
    "image": null,
    "source": "Mining.com.au",
-   "section": "",
-   "scope": "International",
    "region": "Asia-Pacific",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "PLS Group looks beyond lithium’s latest slump",
-   "link": "https://mining.com.au/pls-group-looks-beyond-lithiums-latest-slump/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T03:40:31.000Z",
-   "summary": "Few stocks have had a rougher time lately than PLS Group (ASX:PLS).&#160; The ASX-listed lithium producer fell 50% between 1 September and 23 October, following a sharp and unexpected sell-off across the lithium sector.&#160; PLS got some...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -406,20 +396,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "PLS Group looks beyond lithium’s latest slump",
+   "link": "https://mining.com.au/pls-group-looks-beyond-lithiums-latest-slump/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T03:40:31.000Z",
+   "summary": "Few stocks have had a rougher time lately than PLS Group (ASX:PLS).&#160; The ASX-listed lithium producer fell 50% between 1 September and 23 October, following a sharp and unexpected sell-off across the lithium sector.&#160; PLS got some...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "American Uranium clears key testing hurdle at Lo Herma",
-   "link": "https://mining.com.au/american-uranium-clears-key-testing-hurdle-at-lo-herma/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T03:30:00.000Z",
-   "summary": "Water works! And that’s good news for American Uranium’s production ambitions! American Uranium (ASX:AMU) has reported positive aquifer test results at its flagship Lo Herma Uranium Project in Wyoming, US, supporting key assumptions for...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -433,20 +423,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "American Uranium clears key testing hurdle at Lo Herma",
+   "link": "https://mining.com.au/american-uranium-clears-key-testing-hurdle-at-lo-herma/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T03:30:00.000Z",
+   "summary": "Water works! And that’s good news for American Uranium’s production ambitions! American Uranium (ASX:AMU) has reported positive aquifer test results at its flagship Lo Herma Uranium Project in Wyoming, US, supporting key assumptions for...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Randy Smallwood joins Snowline Gold: Talent Tuesday",
-   "link": "https://mining.com.au/randy-smallwood-joins-snowline-gold-talent-tuesday/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T03:27:48.000Z",
-   "summary": "In this week’s Talent Tuesday, Randy Smallwood joins the board of Snowline Gold (TSX:SGD) as an independent director. Snowline Gold is a gold exploration and development company focused on advancing the wholly owned Valley gold deposit on...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -460,20 +450,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Randy Smallwood joins Snowline Gold: Talent Tuesday",
+   "link": "https://mining.com.au/randy-smallwood-joins-snowline-gold-talent-tuesday/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T03:27:48.000Z",
+   "summary": "In this week’s Talent Tuesday, Randy Smallwood joins the board of Snowline Gold (TSX:SGD) as an independent director. Snowline Gold is a gold exploration and development company focused on advancing the wholly owned Valley gold deposit on...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Lundin reports ‘record-grade’ gold at Bonza Sur",
-   "link": "https://mining.com.au/lundin-reports-record-grade-gold-at-bonza-sur/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T03:23:07.000Z",
-   "summary": "Lundin Gold (TSX:LUG) has commenced conversion drilling at Fruta del Norte East (FDN East) in Ecuador, as the Bonza Sur deposit returned its ‘highest-grade’ interval to date. Hole BLP-2026-559 at Bonza Sur intersected 3.3m @ 242.64 grams...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -489,20 +479,20 @@
    "exHighlight": "",
    "exCountry": "Ecuador",
    "exRegion": "",
+   "title": "Lundin reports ‘record-grade’ gold at Bonza Sur",
+   "link": "https://mining.com.au/lundin-reports-record-grade-gold-at-bonza-sur/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T03:23:07.000Z",
+   "summary": "Lundin Gold (TSX:LUG) has commenced conversion drilling at Fruta del Norte East (FDN East) in Ecuador, as the Bonza Sur deposit returned its ‘highest-grade’ interval to date. Hole BLP-2026-559 at Bonza Sur intersected 3.3m @ 242.64 grams...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Thiess bags two mining contracts in Mongolia",
-   "link": "https://mining.com.au/thiess-bags-two-mining-contracts-in-mongolia/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T03:17:49.000Z",
-   "summary": "Global mining services provider Thiess has secured two five-year contracts to deliver underground mining and asset management services in Mongolia. At the Oyu Tolgoi Mine, Thiess will deliver underground mining services via the...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -514,6 +504,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Thiess bags two mining contracts in Mongolia",
+   "link": "https://mining.com.au/thiess-bags-two-mining-contracts-in-mongolia/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T03:17:49.000Z",
+   "summary": "Global mining services provider Thiess has secured two five-year contracts to deliver underground mining and asset management services in Mongolia. At the Oyu Tolgoi Mine, Thiess will deliver underground mining services via the...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
