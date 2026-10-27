@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T10:54:09.821Z",
+ "updated": "2026-10-27T11:51:38.096Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,8 +59,9 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": false,
-   "error": "no items found in feed"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "MINING.COM",
@@ -159,7 +160,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 98
+   "seen": 104
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +243,21 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Potash"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Millennial Potash targets Gabon project build start by end-2027",
    "link": "https://www.miningweekly.com/article/millennial-potash-targets-gabon-project-build-start-by-end-2027-2026-10-27",
    "via": "",
@@ -250,9 +266,12 @@
    "summary": "JOHANNESBURG – Millennial Potash aims to start construction of its US-backed Banio potash project in Gabon by the end of 2027, with annual output potentially exceeding an initial estimate of 800 000 metric tons amid growing buyer interest,...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Potash"
@@ -266,9 +285,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Fertiliser maker Intrepid Potash awarded $139m US funding for planned sulphate of potash project",
    "link": "https://www.miningweekly.com/article/fertiliser-maker-intrepid-potash-awarded-139m-us-funding-for-planned-sulphate-of-potash-project-2026-10-27",
    "via": "",
@@ -277,36 +293,12 @@
    "summary": "NYSE-listed potash developer Intrepid Potash has been selected for US Department of Agriculture funding of $139-million for construction of its planned sulphate of potash (SoP) project, including a manufacturing facility in New Mexico. The...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
    "region": "Africa",
-   "provinces": [],
-   "tags": [
-    "Potash"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "September inflation tightens squeeze on South African mining",
-   "link": "https://www.miningweekly.com/article/september-inflation-tightens-squeeze-on-south-african-mining-2026-10-27",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T10:06:00.000Z",
-   "summary": "South Africa’s headline consumer price inflation rose to 4.5% in September, from 4.4% in August, staying above the South African Reserve Bank’s 3% plus-minus 1% target range. September’s consumer price index data showed inflationary...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -318,20 +310,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "September inflation tightens squeeze on South African mining",
+   "link": "https://www.miningweekly.com/article/september-inflation-tightens-squeeze-on-south-african-mining-2026-10-27",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T10:06:00.000Z",
+   "summary": "South Africa’s headline consumer price inflation rose to 4.5% in September, from 4.4% in August, staying above the South African Reserve Bank’s 3% plus-minus 1% target range. September’s consumer price index data showed inflationary...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Central Asia Metals completes acquisition of Cygnus, adds former Cygnus MD to board",
-   "link": "https://www.miningweekly.com/article/central-asia-metals-completes-acquisition-of-cygnus-adds-former-cygnus-md-to-board-2026-10-27",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T09:58:00.000Z",
-   "summary": "Aim- and now TSX-listed Central Asia Metals has concluded its acquisition of Cygnus Metals, which adds the Chibougamau copper/gold project to the enlarged Central Asia Metals group. Cygnus shareholders were entitled to receive 0.06 new...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold",
@@ -346,6 +338,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Central Asia Metals completes acquisition of Cygnus, adds former Cygnus MD to board",
+   "link": "https://www.miningweekly.com/article/central-asia-metals-completes-acquisition-of-cygnus-adds-former-cygnus-md-to-board-2026-10-27",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T09:58:00.000Z",
+   "summary": "Aim- and now TSX-listed Central Asia Metals has concluded its acquisition of Cygnus Metals, which adds the Chibougamau copper/gold project to the enlarged Central Asia Metals group. Cygnus shareholders were entitled to receive 0.06 new...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -686,17 +687,8 @@
    "press": false
   },
   {
-   "title": "Mine-to-magnet developer Energy Fuels secures Australian gov debt for first rare earths mine",
-   "link": "https://www.miningweekly.com/article/mine-to-magnet-developer-energy-fuels-secures-australian-gov-debt-for-first-rare-earths-mine-2026-10-27",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T07:54:00.000Z",
-   "summary": "Two major Australian government financing institutions have committed A$180-million, or $126-million, in project finance debt facilities for TSX- and NYSE-listed rare earths developer Energy Fuels' Donald rare earths and mineral sands...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -710,6 +702,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Mine-to-magnet developer Energy Fuels secures Australian gov debt for first rare earths mine",
+   "link": "https://www.miningweekly.com/article/mine-to-magnet-developer-energy-fuels-secures-australian-gov-debt-for-first-rare-earths-mine-2026-10-27",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T07:54:00.000Z",
+   "summary": "Two major Australian government financing institutions have committed A$180-million, or $126-million, in project finance debt facilities for TSX- and NYSE-listed rare earths developer Energy Fuels' Donald rare earths and mineral sands...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
