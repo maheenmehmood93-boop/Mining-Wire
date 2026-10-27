@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T19:54:11.379Z",
+ "updated": "2026-10-27T20:52:24.179Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,9 +59,8 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -182,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 58
+   "seen": 59
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Perpetua Resources gets $40M US Army funding to advance tungsten production",
+   "link": "https://www.mining.com/perpetua-resources-gets-40m-us-army-funding-to-advance-tungsten-production-in-idaho/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T19:59:26.000Z",
+   "summary": "The award will fund a program to evaluate the technical and economic feasibility of producing tungsten concentrate at its project in the historical Stibnite mining district in Idaho.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -516,17 +540,8 @@
    "press": false
   },
   {
-   "title": "China Gold restarts mine after instability halt",
-   "link": "https://www.northernminer.com/news/china-gold-restarts-mine-after-instability-halt/1003896168/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T18:00:47.000Z",
-   "summary": "China Gold International Resources (TSX: CGG; HKEX: 2099) has resumed open-pit mining at its Chang Shan Hao (CSH) gold mine in Inner Mongolia after a slope instability halted mining for...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -540,6 +555,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "China Gold restarts mine after instability halt",
+   "link": "https://www.northernminer.com/news/china-gold-restarts-mine-after-instability-halt/1003896168/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T18:00:47.000Z",
+   "summary": "China Gold International Resources (TSX: CGG; HKEX: 2099) has resumed open-pit mining at its Chang Shan Hao (CSH) gold mine in Inner Mongolia after a slope instability halted mining for...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -592,6 +616,37 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "FireFly finds copper-gold system near idle mill",
+   "link": "https://www.mining.com/firefly-finds-copper-gold-system-near-idle-mill/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T16:59:33.000Z",
+   "summary": "The discovery gives FireFly another target to test alongside its proposed Ming restart and expansion.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Discovery",
+   "exMetals": [
+    "Copper",
+    "Gold"
+   ],
+   "exHighlight": "",
+   "exCountry": "Unspecified",
+   "exRegion": "",
    "press": false
   },
   {
@@ -1016,17 +1071,8 @@
    "press": false
   },
   {
-   "title": "Sponsored: Spartan targets US tungsten supply",
-   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-spartan-targets-us-tungsten-supply/1003896175/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-27T13:02:41.000Z",
-   "summary": "Spartan Metals CEO Brett Marsh in conversation with The Northern Miner video host Devan Murugan. This sponsored video is PROMOTED CONTENT paid for by Spartan Metals and produced in co-operation...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -1038,6 +1084,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored: Spartan targets US tungsten supply",
+   "link": "https://www.northernminer.com/stock-markets-investing/sponsored-spartan-targets-us-tungsten-supply/1003896175/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-27T13:02:41.000Z",
+   "summary": "Spartan Metals CEO Brett Marsh in conversation with The Northern Miner video host Devan Murugan. This sponsored video is PROMOTED CONTENT paid for by Spartan Metals and produced in co-operation...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -21204,61 +21259,6 @@
    "viaUrl": "",
    "date": "2026-10-13T19:15:24.000Z",
    "summary": "Cash-rich gold producers should put reserve replacement first and avoid diluting shareholders as they invest in growth, Sprott Asset Management Managing Partner John Hathaway says. Hathaway favours share buybacks when...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "Fatality / injury",
-   "country": "Chile",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Avalanche adds to Chile’s copper supply pressures",
-   "link": "https://www.northernminer.com/news/avalanche-adds-to-chiles-copper-supply-pressures/1003895663/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T19:10:00.000Z",
-   "summary": "A snow avalanche that killed two subcontractor workers at Codelco’s El Teniente mine on Sunday has added to mounting supply concerns in Chile, as extreme weather, labour disputes and operational...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Sponsored video: Skeena targets January commissioning at Eskay Creek",
-   "link": "https://www.northernminer.com/news/sponsored-video-skeena-targets-january-commissioning-at-eskay-creek/1003895692/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-13T19:05:05.000Z",
-   "summary": "Skeena Gold and Silver President &#38; CEO Randy Reichertin conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Skeena Gold and...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
