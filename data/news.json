@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T21:55:29.261Z",
+ "updated": "2026-10-28T22:54:10.365Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,9 +59,8 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -243,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Veramark launches platform for responsible metals sourcing",
-   "link": "https://www.mining.com/veramark-launches-platform-for-responsible-metals-sourcing/",
+   "title": "Green Manganese trials deliver high recovery rates alongside zinc extraction",
+   "link": "https://www.mining.com/green-manganese-trials-deliver-high-recovery-rates-alongside-zinc-extraction/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-28T21:18:10.000Z",
-   "summary": "Network is designed to connect companies and stakeholders across the minerals and metals value chain.",
+   "date": "2026-10-28T22:06:46.000Z",
+   "summary": "The company said results address two connected challenges for smelters: treating hazardous industrial residues and recovering valuable metals that would otherwise remain in sludge settling ponds or be lost to disposal.",
    "image": null,
    "source": "MINING.COM",
    "section": "",
    "scope": "International",
    "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Zinc"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Veramark launches platform for responsible metals sourcing",
+   "link": "https://www.mining.com/veramark-launches-platform-for-responsible-metals-sourcing/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-28T21:18:10.000Z",
+   "summary": "Network is designed to connect companies and stakeholders across the minerals and metals value chain.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -322,17 +348,8 @@
    "press": false
   },
   {
-   "title": "Coordinated application of mining technologies crucial for sector resilience, summit hears",
-   "link": "https://www.miningweekly.com/article/coordinated-application-of-mining-technologies-crucial-for-sector-resilience-summit-hears-2026-10-28",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-28T21:06:00.000Z",
-   "summary": "The integration of data and technology across the mining value chain has the potential to improve predictability, consistency and safety across mines in Africa, BME technology and marketing GM Nishen Hariparsad said during the company’s...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -344,6 +361,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Coordinated application of mining technologies crucial for sector resilience, summit hears",
+   "link": "https://www.miningweekly.com/article/coordinated-application-of-mining-technologies-crucial-for-sector-resilience-summit-hears-2026-10-28",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-28T21:06:00.000Z",
+   "summary": "The integration of data and technology across the mining value chain has the potential to improve predictability, consistency and safety across mines in Africa, BME technology and marketing GM Nishen Hariparsad said during the company’s...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -374,17 +400,8 @@
    "press": false
   },
   {
-   "title": "World Bank lifts copper price outlook by 18%",
-   "link": "https://www.mining.com/world-bank-lifts-copper-price-outlook-by-18/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-28T21:00:00.000Z",
-   "summary": "The bank’s upward revisions extend beyond copper.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -398,6 +415,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "World Bank lifts copper price outlook by 18%",
+   "link": "https://www.mining.com/world-bank-lifts-copper-price-outlook-by-18/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-28T21:00:00.000Z",
+   "summary": "The bank’s upward revisions extend beyond copper.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21269,35 +21295,6 @@
    "viaUrl": "",
    "date": "2026-10-15T14:50:48.000Z",
    "summary": "Evolve Royalties President &#38; CEO Joseph de la Plante in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by Evolve Royalties...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Copper"
-   ],
-   "exHighlight": "",
-   "exCountry": "Peru",
-   "exRegion": "",
-   "title": "TNM Drill Down: Pecoy leads recent copper assays",
-   "link": "https://www.northernminer.com/news/tnm-drill-down-pecoy-leads-recent-copper-assays/1003895729/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-15T14:45:24.000Z",
-   "summary": "Peru, Canada and Colombia yielded the best copper drill results from Aug. 17 to Sept. 15, according to data compiled by The Northern Miner. Intervals from Pecoy Copper (TSXV: PCU),...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
