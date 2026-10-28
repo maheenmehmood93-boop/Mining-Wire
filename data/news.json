@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T05:00:00.986Z",
+ "updated": "2026-10-28T05:56:55.711Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -160,7 +160,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 59
+   "seen": 62
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,58 @@
   }
  ],
  "items": [
+  {
+   "title": "PLS to become Fortescue's first external Green Grid customer",
+   "link": "https://im-mining.com/2026/10/28/pls-to-become-fortescues-first-external-green-grid-customer/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-28T05:35:34.000Z",
+   "summary": "PLS has signed a 20-year power purchase agreement with Fortescue that is expected to lower operating costs, reduce power-related emissions intensity and provide additional power capacity as the Pilgangoora Operation grows, it says. The...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Miners lift Australian shares ahead of inflation data",
+   "link": "https://www.brecorder.com/news/40446289/miners-lift-australian-shares-ahead-of-inflation-data",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-28T05:28:51.000Z",
+   "summary": "Australian shares are heading into their fourth consecutive session of gains on Wednesday , as heavyweight miners rose on stronger copper prices, while investors await the key inflation print due shortly. The S&P/ASX 200 index rose 0.9% to...",
+   "image": "https://i.brecorder.com/large/2026/04/08103429d64d92f.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21232,56 +21284,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Ferrexpo's quarterly output falls on production halt, export constraints",
-   "link": "https://www.miningweekly.com/article/ferrexpos-quarterly-output-falls-on-production-halt-export-constraints-2026-10-14",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T08:47:00.000Z",
-   "summary": "Iron-ore pellet producer Ferrexpo reported a 19% sequential drop in third-quarter output on Wednesday, pressured by a production halt and constrained export capacity as access to Ukrainian ports remained severely restricted. Total...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Orica celebrates production of 15,000th AXIS Champ Ori unit",
-   "link": "https://im-mining.com/2026/10/14/orica-celebrates-production-of-15000th-axis-champ-ori-unit/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-14T08:32:48.000Z",
-   "summary": "Orica Digital Solutions says it has reached a major milestone with the production of the 15,000th AXIS Champ™ Ori unit, marking a significant achievement for the integrated core orientation technology and highlighting growing global...",
-   "image": null,
-   "source": "International Mining",
-   "region": "Global",
    "press": false
   }
  ]
