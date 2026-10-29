@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:09:04.468Z",
+ "updated": "2026-10-29T17:08:03.933Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 112
+   "seen": 117
   },
   {
    "source": "Pakistan Observer",
@@ -243,12 +243,12 @@
  ],
  "items": [
   {
-   "title": "Draslovka secures key IPs to strengthen sodium-ion supply chain",
-   "link": "https://www.canadianminingjournal.com/news/draslovka-secures-key-ips-to-strengthen-sodium-ion-supply-chain/",
+   "title": "Angola mining conference to highlight full sector value chain",
+   "link": "https://www.canadianminingjournal.com/news/angola-mining-conference-to-highlight-full-sector-value-chain/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-29T15:04:48.000Z",
-   "summary": "Draslovka, through its US-based subsidiary Draslovka Mining, is set to acquire Natron Energy’s intellectual property (IP) for its Prussian Blue Analogue (PBA) [...]",
+   "date": "2026-10-29T17:06:46.000Z",
+   "summary": "High-ranking members of Angola’s government will be in the capital city next month for the Angola International Mining Conference (AIMC) 2026. Organized [...]",
    "image": null,
    "source": "Canadian Mining Journal",
    "section": "",
@@ -268,17 +268,60 @@
    "press": false
   },
   {
-   "title": "Eldorado falls as Skouries woes cut gold outlook 18%",
-   "link": "https://www.northernminer.com/news/eldorado-drops-as-skouries-setbacks-cut-gold-outlook-18/1003896247/",
+   "title": "AFEX lands MSHA approval for underground coal-mine equipment",
+   "link": "https://www.canadianminingjournal.com/news/afex-lands-msha-approval-for-underground-coal-mine-equipment/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-29T14:56:43.000Z",
-   "summary": "Eldorado Gold (TSX: ELD; NYSE: EGO) shares sank after the company slashed its annual production outlook and raised spending estimates as the Skouries copper-gold operation in Greece takes longer than...",
+   "date": "2026-10-29T16:36:39.000Z",
+   "summary": "Following five years of engineering and testing, AFEX Fire Suppression Systems has achieved Mine Safety and Health Administration (MSHA) certification for its [...]",
    "image": null,
-   "source": "The Northern Miner",
+   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
    "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Coal"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Safety alert / enforcement",
+   "country": "United States",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Draslovka secures key IPs to strengthen sodium-ion supply chain",
+   "link": "https://www.canadianminingjournal.com/news/draslovka-secures-key-ips-to-strengthen-sodium-ion-supply-chain/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T15:04:48.000Z",
+   "summary": "Draslovka, through its US-based subsidiary Draslovka Mining, is set to acquire Natron Energy’s intellectual property (IP) for its Prussian Blue Analogue (PBA) [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold",
@@ -293,20 +336,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Eldorado falls as Skouries woes cut gold outlook 18%",
+   "link": "https://www.northernminer.com/news/eldorado-drops-as-skouries-setbacks-cut-gold-outlook-18/1003896247/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T14:56:43.000Z",
+   "summary": "Eldorado Gold (TSX: ELD; NYSE: EGO) shares sank after the company slashed its annual production outlook and raised spending estimates as the Skouries copper-gold operation in Greece takes longer than...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "South African rand slips as weaker gold and platinum add pressure",
-   "link": "https://www.miningweekly.com/article/south-african-rand-slips-as-weaker-gold-and-platinum-add-pressure-2026-10-29",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T14:16:00.000Z",
-   "summary": "South Africa's rand weakened on Thursday, pressured by falling gold and platinum prices after the US Federal Reserve held interest rates steady, while faster producer inflation added to concerns about domestic outlook. The rand traded at...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold",
@@ -321,6 +364,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "South African rand slips as weaker gold and platinum add pressure",
+   "link": "https://www.miningweekly.com/article/south-african-rand-slips-as-weaker-gold-and-platinum-add-pressure-2026-10-29",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T14:16:00.000Z",
+   "summary": "South Africa's rand weakened on Thursday, pressured by falling gold and platinum prices after the US Federal Reserve held interest rates steady, while faster producer inflation added to concerns about domestic outlook. The rand traded at...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -374,17 +426,8 @@
    "press": false
   },
   {
-   "title": "Rio Tinto assesses new lithium plant in Argentina, copper opportunities",
-   "link": "https://www.miningweekly.com/article/rio-tinto-assesses-new-lithium-plant-in-argentina-copper-opportunities-2026-10-29",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T13:57:00.000Z",
-   "summary": "Rio Tinto is evaluating the construction of a new lithium plant in Argentina that would require about $1-billion in additional investment, Chief Executive Simon Trott said. Trott said the mining company plans to submit the Fenix II...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper",
@@ -399,20 +442,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rio Tinto assesses new lithium plant in Argentina, copper opportunities",
+   "link": "https://www.miningweekly.com/article/rio-tinto-assesses-new-lithium-plant-in-argentina-copper-opportunities-2026-10-29",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T13:57:00.000Z",
+   "summary": "Rio Tinto is evaluating the construction of a new lithium plant in Argentina that would require about $1-billion in additional investment, Chief Executive Simon Trott said. Trott said the mining company plans to submit the Fenix II...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Further resource expansion potential highlighted during Phase 2 drilling at Jubilee’s Molefe mine",
-   "link": "https://www.miningweekly.com/article/further-resource-expansion-potential-highlighted-during-phase-2-drilling-at-jubilees-molefe-mine-2026-10-29",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T13:51:00.000Z",
-   "summary": "Integrated copper producer and resource developer Jubilee Metals Group reports that there is further expansion potential at its Molefe openpit copper mining operation, in Zambia. This was confirmed following the company’s Phase 2 drilling...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper"
@@ -426,6 +469,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Further resource expansion potential highlighted during Phase 2 drilling at Jubilee’s Molefe mine",
+   "link": "https://www.miningweekly.com/article/further-resource-expansion-potential-highlighted-during-phase-2-drilling-at-jubilees-molefe-mine-2026-10-29",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T13:51:00.000Z",
+   "summary": "Integrated copper producer and resource developer Jubilee Metals Group reports that there is further expansion potential at its Molefe openpit copper mining operation, in Zambia. This was confirmed following the company’s Phase 2 drilling...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -508,6 +560,21 @@
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Cobalt"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Glencore cobalt output sinks 52% under DRC quotas",
    "link": "https://www.mining.com/glencore-cobalt-output-sinks-52-under-drc-quotas/",
    "via": "",
@@ -516,9 +583,12 @@
    "summary": "Export curbs have left the miner holding the battery metal in solution, deferring processing costs while protecting future sales.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Cobalt"
@@ -532,9 +602,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Glencore cobalt output halves as Congo quotas bite",
    "link": "https://www.northernminer.com/news/glencore-cobalt-output-halves-as-congo-quotas-bite/1003896253/",
    "via": "",
@@ -543,22 +610,7 @@
    "summary": "Glencore (LSE: GLEN), one of the world’s largest cobalt producers, reported a 52% drop in output during the first nine months of 2026 as export quotas in the Democratic Republic...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [
-    "Cobalt"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -616,17 +668,8 @@
    "press": false
   },
   {
-   "title": "Nelson Resources mobilises Bazooka rig to Orleans Mine in Nevada",
-   "link": "https://www.mining-technology.com/news/nelson-mobilises-bazooka-rig-orleans-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T12:31:24.000Z",
-   "summary": "Nelson Resources has mobilised a specialised Bazooka diamond drill rig to the Orleans Mine site, part of its Gold Point Gold-Silver Project located in Nevada, US.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-29Oct26-shutterstock_2503406229.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -641,6 +684,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Nelson Resources mobilises Bazooka rig to Orleans Mine in Nevada",
+   "link": "https://www.mining-technology.com/news/nelson-mobilises-bazooka-rig-orleans-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T12:31:24.000Z",
+   "summary": "Nelson Resources has mobilised a specialised Bazooka diamond drill rig to the Orleans Mine site, part of its Gold Point Gold-Silver Project located in Nevada, US.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-4-29Oct26-shutterstock_2503406229.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
@@ -802,17 +854,8 @@
    "press": false
   },
   {
-   "title": "Teck beats forecasts as copper costs fall",
-   "link": "https://www.northernminer.com/news/teck-beats-forecasts-as-copper-costs-fall/1003896250/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T10:46:00.000Z",
-   "summary": "Teck Resources (TSX: TECK.B; NYSE: TECK) beat third-quarter earnings expectations as record copper prices, stronger production and lower costs boosted returns ahead of its planned merger with Anglo American (LSE:...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -826,6 +869,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Teck beats forecasts as copper costs fall",
+   "link": "https://www.northernminer.com/news/teck-beats-forecasts-as-copper-costs-fall/1003896250/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T10:46:00.000Z",
+   "summary": "Teck Resources (TSX: TECK.B; NYSE: TECK) beat third-quarter earnings expectations as record copper prices, stronger production and lower costs boosted returns ahead of its planned merger with Anglo American (LSE:...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -21285,60 +21337,6 @@
    "date": "2026-10-19T07:00:00.000Z",
    "summary": "Future of mineral processing depends less on choosing the “best” tech and more on placing the right tech, says Steve Benyo of Flottweg.",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/09/shutterstock_2715809581.jpg",
-   "source": "Mining Technology",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Shenghe Resources says to sell majority stakes in some businesses",
-   "link": "https://www.miningweekly.com/article/shenghe-resources-says-to-sell-majority-stakes-in-some-businesses-2026-10-19",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T07:00:00.000Z",
-   "summary": "Shenghe Resources said it would sell majority stakes for its smelting and separation business for between 1.66-billion and 1.81-billion yuan ($248.44-million and $270.89-million) to a subsidiary of State-owned China Rare Earth Group....",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Fortescue sells copper concentrate cleaned with arsenic removal process",
-   "link": "https://www.mining-technology.com/news/fortescue-copper-cleaned-arsenic-removal/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T06:58:25.000Z",
-   "summary": "Fortescue has completed the commercial sale of over 40 tonnes (t) of copper concentrate that underwent arsenic removal using the company's Toowong Process technology at its demonstration plant in Brisbane, Australia.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Fortescue.jpg",
    "source": "Mining Technology",
    "region": "Global",
    "press": false
