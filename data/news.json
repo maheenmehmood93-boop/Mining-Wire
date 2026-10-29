@@ -1,17 +1,19 @@
 {
- "updated": "2026-10-29T11:00:49.249Z",
+ "updated": "2026-10-29T11:58:05.774Z",
  "sources": [
   {
    "source": "MINING.COM",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "MINING.COM",
    "section": "Pakistan",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "Mining Technology",
@@ -57,21 +59,22 @@
   {
    "source": "Mining.com.au",
    "section": "",
+   "ok": false,
+   "error": "no items found in feed"
+  },
+  {
+   "source": "MINING.COM",
+   "section": "Safety search",
    "ok": true,
-   "items": 20,
-   "seen": 20
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "MINING.COM",
    "section": "Safety search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
-  },
-  {
-   "source": "MINING.COM",
-   "section": "Safety search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "GlobeNewswire",
@@ -106,14 +109,16 @@
   {
    "source": "MINING.COM",
    "section": "Exploration search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "MINING.COM",
    "section": "Exploration search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 36,
+   "seen": 36
   },
   {
    "source": "Dawn",
@@ -176,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 82
+   "seen": 87
   },
   {
    "source": "Pakistan Observer",
@@ -189,7 +194,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -237,25 +242,23 @@
  ],
  "items": [
   {
-   "title": "Chad gold clashes reportedly wound 72 amid peace appeals",
-   "link": "https://mining.com.au/chad-gold-clashes-reportedly-wound-72-amid-peace-appeals/",
+   "title": "Iran’s Revolutionary Guards say three oil tankers hit mines in Strait of Hormuz",
+   "link": "https://thefrontierpost.com/irans-revolutionary-guards-say-three-oil-tankers-hit-mines-in-strait-of-hormuz/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-29T10:58:15.000Z",
-   "summary": "At least 72 Chadian soldiers have reportedly been wounded during two weeks of fighting between government forces and a local armed group in the northern Tibesti region, where control of gold mining remains disputed. An unnamed military...",
+   "date": "2026-10-29T11:51:39.000Z",
+   "summary": "DUBAI (Reuters /AFP): Three tankers exploded ​and caught fire after hitting sea mines while attempting to cross an unauthorized ‌route ‌south ​of ‌the ⁠Strait ​of Hormuz ⁠over the past 24 hours, Iran’s Revolutionary Guards said ⁠in a...",
    "image": null,
-   "source": "Mining.com.au",
+   "source": "The Frontier Post",
    "section": "",
-   "scope": "International",
-   "region": "Asia-Pacific",
+   "scope": "National",
+   "region": "Peshawar",
    "provinces": [],
-   "tags": [
-    "Gold"
-   ],
+   "tags": [],
    "mining": true,
    "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
+   "safetyType": "Explosion / fire",
+   "country": "Iran",
    "exType": "",
    "exMetals": [],
    "exHighlight": "",
@@ -264,12 +267,12 @@
    "press": false
   },
   {
-   "title": "Teck reports profitable third quarter as Anglo merger nears completion",
-   "link": "https://www.miningweekly.com/article/teck-reports-profitable-third-quarter-as-anglo-merger-nears-completion-2026-10-29",
+   "title": "Customers reaffirm increased 2027 demand for Implats’ products",
+   "link": "https://www.miningweekly.com/article/customers-reaffirm-increased-2027-demand-for-implats-products-2026-10-29",
    "via": "",
    "viaUrl": "",
-   "date": "2026-10-29T10:40:00.000Z",
-   "summary": "TSX-listed diversified mining and mineral development company Teck Resources has delivered strong results for the third quarter, with the company’s adjusted earnings before interest, taxes, depreciation and amortisation (Ebitda) having...",
+   "date": "2026-10-29T11:14:00.000Z",
+   "summary": "Annual contractual negotiations with core customers has reaffirmed increased 2027 demand for the sustainable and responsible supply of all the precious and base metal products of Implats, CEO Nico Muller made clear on Thursday, October 29,...",
    "image": null,
    "source": "Mining Weekly",
    "section": "",
@@ -289,17 +292,60 @@
    "press": false
   },
   {
-   "title": "Battery Mineral Resources seeks current for Chile copper",
-   "link": "https://mining.com.au/battery-mineral-resources-seeks-current-for-chile-copper/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T10:25:00.000Z",
-   "summary": "Battery Mineral Resources (TSX-V:BMR) plans to raise about C$17 million ($17.2 million) to support operations at its Punitaqui Mining Complex in Chile. The non-brokered private placement prices common shares at C$0.20 each, issuing about...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Chad gold clashes reportedly wound 72 amid peace appeals",
+   "link": "https://mining.com.au/chad-gold-clashes-reportedly-wound-72-amid-peace-appeals/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T10:58:15.000Z",
+   "summary": "At least 72 Chadian soldiers have reportedly been wounded during two weeks of fighting between government forces and a local armed group in the northern Tibesti region, where control of gold mining remains disputed. An unnamed military...",
+   "image": null,
+   "source": "Mining.com.au",
    "region": "Asia-Pacific",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Teck reports profitable third quarter as Anglo merger nears completion",
+   "link": "https://www.miningweekly.com/article/teck-reports-profitable-third-quarter-as-anglo-merger-nears-completion-2026-10-29",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T10:40:00.000Z",
+   "summary": "TSX-listed diversified mining and mineral development company Teck Resources has delivered strong results for the third quarter, with the company’s adjusted earnings before interest, taxes, depreciation and amortisation (Ebitda) having...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Copper"
@@ -313,20 +359,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Battery Mineral Resources seeks current for Chile copper",
+   "link": "https://mining.com.au/battery-mineral-resources-seeks-current-for-chile-copper/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T10:25:00.000Z",
+   "summary": "Battery Mineral Resources (TSX-V:BMR) plans to raise about C$17 million ($17.2 million) to support operations at its Punitaqui Mining Complex in Chile. The non-brokered private placement prices common shares at C$0.20 each, issuing about...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Agnico posts strong third-quarter free cash flow",
-   "link": "https://www.miningweekly.com/article/agnico-posts-strong-third-quarter-free-cash-flow-2026-10-29",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T10:15:00.000Z",
-   "summary": "Canada-based gold miner Agnico Eagle generated strong free cash flow for the third quarter ended September 30, driven by a solid operational performance, led by strong performances at the Detour Lake, Fosterville and Kittilla mines, and a...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Gold"
@@ -340,20 +386,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Agnico posts strong third-quarter free cash flow",
+   "link": "https://www.miningweekly.com/article/agnico-posts-strong-third-quarter-free-cash-flow-2026-10-29",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T10:15:00.000Z",
+   "summary": "Canada-based gold miner Agnico Eagle generated strong free cash flow for the third quarter ended September 30, driven by a solid operational performance, led by strong performances at the Detour Lake, Fosterville and Kittilla mines, and a...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Coal for Indonesian off-grid power plants no longer subject to 'domestic market obligation', ...",
-   "link": "https://www.miningweekly.com/article/coal-for-indonesian-off-grid-power-plants-no-longer-subject-to-domestic-market-obligation-official-says-2026-10-29",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T10:12:00.000Z",
-   "summary": "Coal supply to Indonesia's off-grid power plants will no longer be considered part of the so-called 'domestic market obligation' for miners, an energy and mineral resources ministry official said on Thursday. Details about the...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Coal"
@@ -367,9 +413,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Coal for Indonesian off-grid power plants no longer subject to 'domestic market obligation', ...",
+   "link": "https://www.miningweekly.com/article/coal-for-indonesian-off-grid-power-plants-no-longer-subject-to-domestic-market-obligation-official-says-2026-10-29",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T10:12:00.000Z",
+   "summary": "Coal supply to Indonesia's off-grid power plants will no longer be considered part of the so-called 'domestic market obligation' for miners, an energy and mineral resources ministry official said on Thursday. Details about the...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Eramet advances $790 million raise as turnover grows",
    "link": "https://mining.com.au/eramet-advances-790-million-raise-as-turnover-grows/",
    "via": "",
@@ -378,9 +446,12 @@
    "summary": "French miner Eramet (EPA:ERA) has advanced plans for a €500 million ($790 million) capital raising while reporting a 4% increase in third-quarter adjusted turnover to €746 million. The company says completing the raising before the end of...",
    "image": null,
    "source": "Mining.com.au",
+   "region": "Asia-Pacific",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -392,9 +463,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Blake, Cassels & Graydon leads Q1-Q3 2026 M&A legal advice in mining by value",
    "link": "https://www.mining-technology.com/news/q1-q3-2026-ma-legal-advice-mining-value/",
    "via": "",
@@ -403,20 +471,7 @@
    "summary": "Blake, Cassels & Graydon and Cassels Brock & Blackwell emerged as the leading legal advisers for metals and mining sector mergers and acquisitions (M&A) during the first three quarters (Q1-Q3) of 2026 in terms of value and volume,...",
    "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Mining-legal-advisers-Q1-Q3-2026.jpg",
    "source": "Mining Technology",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -445,17 +500,8 @@
    "press": false
   },
   {
-   "title": "New study dates Spanish copper mine to Bronze Age",
-   "link": "https://mining.com.au/new-study-dates-spanish-copper-mine-to-bronze-age/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T09:39:40.000Z",
-   "summary": "New research dates mining activity at the Las Minillas copper mine in southwestern Spain from about 1300 BCE until as late as 700 BCE, strengthening the case that southern Iberia was a Bronze Age copper-producing hub. The study, published...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Copper"
@@ -469,6 +515,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "New study dates Spanish copper mine to Bronze Age",
+   "link": "https://mining.com.au/new-study-dates-spanish-copper-mine-to-bronze-age/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T09:39:40.000Z",
+   "summary": "New research dates mining activity at the Las Minillas copper mine in southwestern Spain from about 1300 BCE until as late as 700 BCE, strengthening the case that southern Iberia was a Bronze Age copper-producing hub. The study, published...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
@@ -21281,58 +21336,6 @@
    "image": null,
    "source": "The Express Tribune",
    "region": "Pakistan",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Potash"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Buffalo clears potash permit hurdle in Saskatchewan",
-   "link": "https://www.mining.com/buffalo-clears-potash-permit-hurdle-in-saskatchewan/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T22:48:00.000Z",
-   "summary": "The company has secured approval to complete construction and operate its Disley potash facility.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Greenland to introduce ban on seabed mining",
-   "link": "https://www.mining.com/greenland-to-introduce-ban-on-seabed-mining/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T22:19:25.000Z",
-   "summary": "The news comes a day after US President Donald Trump announced “massive oil, gas and mineral exploration” was set to begin on the Danish Arctic island.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
