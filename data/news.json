@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T22:55:28.924Z",
+ "updated": "2026-10-29T23:52:00.329Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Vale's profit falls 53% in Q3 on lower iron-ore prices, higher costs",
-   "link": "https://www.miningweekly.com/article/vale-posts-53-decline-in-third-quarter-net-profit-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:39:00.000Z",
-   "summary": "Brazilian miner Vale reported on Thursday a 53% decline in its third-quarter net profit from a year earlier, hit by lower iron ore prices and higher costs, including freight. Vale, one of the largest iron ore producers in the world, posted...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -266,20 +257,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Vale's profit falls 53% in Q3 on lower iron-ore prices, higher costs",
+   "link": "https://www.miningweekly.com/article/vale-posts-53-decline-in-third-quarter-net-profit-2026-10-30",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T22:39:00.000Z",
+   "summary": "Brazilian miner Vale reported on Thursday a 53% decline in its third-quarter net profit from a year earlier, hit by lower iron ore prices and higher costs, including freight. Vale, one of the largest iron ore producers in the world, posted...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Chile's Codelco fires eight amid probe into over-reported output",
-   "link": "https://www.miningweekly.com/article/chiles-codelco-fires-eight-amid-probe-into-over-reported-output-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:37:00.000Z",
-   "summary": "Chile's State-owned miner Codelco said on Thursday it had dismissed eight people, including executives, amid its investigation into over-reported copper production during 2024 and 2025. The people include managers at its Chuquicamata,...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper"
@@ -293,9 +284,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Chile's Codelco fires eight amid probe into over-reported output",
+   "link": "https://www.miningweekly.com/article/chiles-codelco-fires-eight-amid-probe-into-over-reported-output-2026-10-30",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T22:37:00.000Z",
+   "summary": "Chile's State-owned miner Codelco said on Thursday it had dismissed eight people, including executives, amid its investigation into over-reported copper production during 2024 and 2025. The people include managers at its Chuquicamata,...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Industry hails reforms but further recovery hinges on well-executed strategy",
    "link": "https://www.miningweekly.com/article/industry-hails-reforms-but-further-recovery-hinges-on-well-executed-strategy-2026-10-30-1",
    "via": "",
@@ -304,9 +317,12 @@
    "summary": "The Department of Transport’s efforts to open the freight rail network to private operators is gaining momentum, but restoring capacity, securing investments and translating policy changes into reliable services remain critical to...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -318,9 +334,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Critical One Energy, SICC ink $303 million antimony offtake deal for Howells Lake project in Ontario",
    "link": "https://www.mining.com/critical-one-energy-sicc-ink-303-million-antimony-offtake-deal-for-howells-lake-project-in-ontario/",
    "via": "",
@@ -329,20 +342,7 @@
    "summary": "Howells Lake is Canada’s largest undeveloped antimony deposit.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
