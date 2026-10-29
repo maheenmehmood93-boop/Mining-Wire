@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T01:16:36.912Z",
+ "updated": "2026-10-29T02:11:06.098Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,9 +59,8 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -243,6 +242,21 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Following the basalts: North Stawell's pursuit of the next Stawell",
    "link": "https://mining.com.au/following-the-basalts-north-stawells-pursuit-of-the-next-stawell/",
    "via": "",
@@ -251,9 +265,12 @@
    "summary": "This article is a sponsored feature from Mining.com.au partner North Stawell Minerals. It is not financial advice. Talk to a registered financial expert before making investment decisions. Since its spinout from Stawell Gold Mines in 2020,...",
    "image": null,
    "source": "Mining.com.au",
+   "region": "Asia-Pacific",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -267,9 +284,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Forrestania inks Mt Fisher ore deal",
    "link": "https://mining.com.au/forrestania-inks-mt-fisher-ore-deal/",
    "via": "",
@@ -278,36 +292,12 @@
    "summary": "Forrestania Resources (ASX:FRS) may process up to 400,000 tonnes of ore under a binding agreement with High-Tech Metals (ASX:HTM) in Western Australia. The ore purchase agreement covers gold-bearing material from High-Tech Metals’ Mt...",
    "image": null,
    "source": "Mining.com.au",
-   "section": "",
-   "scope": "International",
    "region": "Asia-Pacific",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "PC Gold defines 37 targets at Spring Hill",
-   "link": "https://mining.com.au/pc-gold-defines-37-targets-at-spring-hill/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T01:01:44.000Z",
-   "summary": "PC Gold (ASX:PC2) plans to start drilling at Steve’s Gully within three weeks, following a targeting review that defined 37 prospects at its Spring Hill Gold Project in the Northern Territory. The review compiled 175 historical exploration...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -323,20 +313,20 @@
    "exHighlight": "",
    "exCountry": "Australia",
    "exRegion": "Northern Territory",
+   "title": "PC Gold defines 37 targets at Spring Hill",
+   "link": "https://mining.com.au/pc-gold-defines-37-targets-at-spring-hill/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T01:01:44.000Z",
+   "summary": "PC Gold (ASX:PC2) plans to start drilling at Steve’s Gully within three weeks, following a targeting review that defined 37 prospects at its Spring Hill Gold Project in the Northern Territory. The review compiled 175 historical exploration...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Turaco secures $120 million to own Afema",
-   "link": "https://mining.com.au/turaco-secures-120-million-to-own-afema/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T00:53:59.000Z",
-   "summary": "Turaco Gold (ASX:TCG) is planning to complete the buyout of its Afema Gold Project after securing firm commitments for a $120 million placement. The placement comprises roughly 200 million shares priced at $0.60 each — representing a 12.4%...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -350,20 +340,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Turaco secures $120 million to own Afema",
+   "link": "https://mining.com.au/turaco-secures-120-million-to-own-afema/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T00:53:59.000Z",
+   "summary": "Turaco Gold (ASX:TCG) is planning to complete the buyout of its Afema Gold Project after securing firm commitments for a $120 million placement. The placement comprises roughly 200 million shares priced at $0.60 each — representing a 12.4%...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "QMines returns copper-gold beneath Mt Chalmers pit",
-   "link": "https://mining.com.au/qmines-returns-copper-gold-beneath-mt-chalmers-pit/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T00:49:24.000Z",
-   "summary": "QMines (ASX:QML) will test new copper-gold intersections beneath the Mt Chalmers pit in Queensland against its resource model ahead of a mineral resource estimate (MRE) update. Pontoon hole 26MCDD053, drilled from a barge on the pit lake,...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold",
@@ -381,20 +371,20 @@
    "exHighlight": "",
    "exCountry": "Australia",
    "exRegion": "Queensland",
+   "title": "QMines returns copper-gold beneath Mt Chalmers pit",
+   "link": "https://mining.com.au/qmines-returns-copper-gold-beneath-mt-chalmers-pit/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T00:49:24.000Z",
+   "summary": "QMines (ASX:QML) will test new copper-gold intersections beneath the Mt Chalmers pit in Queensland against its resource model ahead of a mineral resource estimate (MRE) update. Pontoon hole 26MCDD053, drilled from a barge on the pit lake,...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
-   "title": "Tesoro raises $40 million for El Zorro",
-   "link": "https://mining.com.au/tesoro-raises-40-million-for-el-zorro/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T00:41:48.000Z",
-   "summary": "Tesoro Gold (ASX:TSO) has received firm commitments to raise $40 million via a two-tranche placement to advance its El Zorro Gold Project in Chile, with a Definitive Feasibility Study (DFS) due by year-end. The placement comprises roughly...",
-   "image": null,
-   "source": "Mining.com.au",
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [
     "Gold"
@@ -408,9 +398,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Tesoro raises $40 million for El Zorro",
+   "link": "https://mining.com.au/tesoro-raises-40-million-for-el-zorro/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T00:41:48.000Z",
+   "summary": "Tesoro Gold (ASX:TSO) has received firm commitments to raise $40 million via a two-tranche placement to advance its El Zorro Gold Project in Chile, with a Definitive Feasibility Study (DFS) due by year-end. The placement comprises roughly...",
+   "image": null,
+   "source": "Mining.com.au",
+   "region": "Asia-Pacific",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Alphabet doubles down on AI",
    "link": "https://mining.com.au/alphabet-doubles-down-on-ai/",
    "via": "",
@@ -419,9 +431,12 @@
    "summary": "Alphabet (NASDAQ:GOOG) reported its third-quarter results overnight, revealing continued heavy investment in artificial intelligence (AI). The company spent US$51.4 billion ($72.9 billion) on capital expenditure during the quarter, a...",
    "image": null,
    "source": "Mining.com.au",
+   "region": "Asia-Pacific",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -433,9 +448,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Impact Minerals beefs up financial expertise with new board appointment",
    "link": "https://mining.com.au/impact-minerals-beefs-up-financial-expertise-with-new-board-appointment/",
    "via": "",
@@ -444,9 +456,12 @@
    "summary": "Impact Minerals (ASX:IPT) has appointed Lana Weldon as an independent non-executive director, effective 28 October 2026, as the company shifts its focus to materials processing. The appointment follows a board renewal initiative under the...",
    "image": null,
    "source": "Mining.com.au",
+   "region": "Asia-Pacific",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Asia-Pacific",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -458,9 +473,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Black Canyon appoints marketing and technical services specialists for Wandanya",
    "link": "https://mining.com.au/black-canyon-appoints-marketing-and-technical-services-specialists-for-wandanya/",
    "via": "",
@@ -469,20 +481,7 @@
    "summary": "Black Canyon (ASX:BCA) aims to complete its Wandanya Scoping Study this quarter after appointing Brett Suann as marketing consultant and Rathy Brandes de Roos as principal technical services consultant. Suann brings 30 years of marketing,...",
    "image": null,
    "source": "Mining.com.au",
-   "section": "",
-   "scope": "International",
    "region": "Asia-Pacific",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
