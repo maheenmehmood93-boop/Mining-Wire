@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:01:42.474Z",
+ "updated": "2026-10-29T05:00:52.490Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,8 +59,9 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": false,
-   "error": "no items found in feed"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "MINING.COM",
@@ -241,6 +242,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Orica out to integrate geotechnical monitoring data in one environment with GEOExplorerIQ",
+   "link": "https://im-mining.com/2026/10/29/orica-out-to-integrate-geotechnical-monitoring-data-in-one-environment-with-geoexploreriq/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-29T04:48:07.000Z",
+   "summary": "Orica has announced the launch of GEOExplorerIQ™, a cloud-native geotechnical intelligence platform that brings geotechnical monitoring data together in one environment, helping customers detect change earlier and make more informed...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21290,31 +21316,6 @@
    "viaUrl": "",
    "date": "2026-10-16T06:44:00.000Z",
    "summary": "Australia on Friday designated the West Peron undersea rock formation, off the country's north coast, as a storage site for an 8-million metric ton-per-year Bonaparte carbon capture and storage project proposed by Japan's Inpex. The...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "World Bank's Banga sets goal of quintupling critical minerals financing in five years",
-   "link": "https://www.miningweekly.com/article/world-banks-banga-sets-goal-of-quintupling-critical-minerals-financing-in-five-years-2026-10-16",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-16T06:40:00.000Z",
-   "summary": "World Bank President Ajay Banga on Friday said the development lender has set a goal of quintupling its critical minerals business in five years, and has identified 20 countries that it can partner with on critical minerals development...",
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
