@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T16:59:43.383Z",
+ "updated": "2026-10-30T17:55:25.691Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 123
+   "seen": 127
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Gold price slumps to one-year low, silver price breaks $50 as mining stocks tank",
-   "link": "https://www.mining.com/gold-price-slumps-to-one-year-low-silver-price-breaks-50-as-mining-stocks-tank/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T16:31:19.000Z",
-   "summary": "Bullion is headed for its worst October since 2008, dragging down gold and silver producers as much as 8% on Friday.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold",
@@ -267,20 +258,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gold price slumps to one-year low, silver price breaks $50 as mining stocks tank",
+   "link": "https://www.mining.com/gold-price-slumps-to-one-year-low-silver-price-breaks-50-as-mining-stocks-tank/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T16:31:19.000Z",
+   "summary": "Bullion is headed for its worst October since 2008, dragging down gold and silver producers as much as 8% on Friday.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Perseus Mining secures backup power for Nyanzaga gold project",
-   "link": "https://www.mining.com/perseus-mining-secures-backup-power-for-nyanzaga-gold-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T16:22:09.000Z",
-   "summary": "A 28-generator system aims to keep operations running safely as the Tanzanian project targets first production in 2027.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -294,20 +285,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Perseus Mining secures backup power for Nyanzaga gold project",
+   "link": "https://www.mining.com/perseus-mining-secures-backup-power-for-nyanzaga-gold-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T16:22:09.000Z",
+   "summary": "A 28-generator system aims to keep operations running safely as the Tanzanian project targets first production in 2027.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Uranium shares slide even as analysts see tighter supply",
-   "link": "https://www.northernminer.com/news/uranium-shares-slide-even-as-analysts-see-tighter-supply/1003896397/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T15:05:28.000Z",
-   "summary": "Stocks of uranium companies are falling despite the strongest long-term fuel prices in more than 18 years, as investors weigh an expected tightening of supply against rising costs and the...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -321,6 +312,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Uranium shares slide even as analysts see tighter supply",
+   "link": "https://www.northernminer.com/news/uranium-shares-slide-even-as-analysts-see-tighter-supply/1003896397/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T15:05:28.000Z",
+   "summary": "Stocks of uranium companies are falling despite the strongest long-term fuel prices in more than 18 years, as investors weigh an expected tightening of supply against rising costs and the...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -346,6 +346,33 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
+   "press": false
+  },
+  {
+   "title": "Rio begins Oyu Tolgoi copper restart after rockfall",
+   "link": "https://www.northernminer.com/news/rio-begins-oyu-tolgoi-copper-restart-after-rockfall/1003896401/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T14:21:17.000Z",
+   "summary": "Rio Tinto (ASX, LSE, NYSE: RIO) said it’s progressively restarting underground operations at Mongolia’s Oyu Tolgoi mine a day after a seismic event triggered a rockfall, stopping production at a...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -21313,33 +21340,6 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Lithium Africa weighs $60M offer for Springbok lithium project",
-   "link": "https://www.mining.com/lithium-africa-weighs-60m-offer-for-springbok-lithium-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T16:37:18.000Z",
-   "summary": "Two financing proposals could accelerate South African lithium production and fund district-wide exploration and processing.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
