@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T03:02:42.511Z",
+ "updated": "2026-10-30T04:02:16.888Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,9 +59,8 @@
   {
    "source": "Mining.com.au",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -160,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -182,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 66
+   "seen": 67
   },
   {
    "source": "Pakistan Observer",
@@ -243,6 +242,31 @@
  ],
  "items": [
   {
+   "title": "Appian in talks with EBRD, others, on critical minerals funds",
+   "link": "https://www.brecorder.com/news/40446652/appian-in-talks-with-ebrd-others-on-critical-minerals-funds",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T03:07:15.000Z",
+   "summary": "SYDNEY: Appian Capital Advisory, a London-based private equity ​firm, is in talks with the European Bank for Reconstruction and Development (EBRD) and others for funds ‌to invest in critical minerals projects, an executive at the firm told...",
+   "image": "https://i.brecorder.com/large/2025/05/1310493183b324f.jpg",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -273,17 +297,8 @@
    "press": false
   },
   {
-   "title": "Magazine round up | 30 October 2026",
-   "link": "https://www.miningweekly.com/article/magazine-round-up-30-october-2026-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T01:16:00.000Z",
-   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -295,6 +310,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Magazine round up | 30 October 2026",
+   "link": "https://www.miningweekly.com/article/magazine-round-up-30-october-2026-2026-10-30",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T01:16:00.000Z",
+   "summary": "A video round up of this week’s magazine, highlighting our cover story, features and Business Leader.",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -21331,33 +21355,6 @@
    "viaUrl": "",
    "date": "2026-10-19T20:30:53.000Z",
    "summary": "The Andalucia region in Spain wants to attract mining investors with faster approvals and access to hundreds of areas covered by expired mineral rights, as Europe seeks the capacity to...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Volta doubles Springer rare earths, eyes 2027 study",
-   "link": "https://www.northernminer.com/news/volta-doubles-springer-rare-earths-eyes-2027-study/1003895847/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-19T20:20:00.000Z",
-   "summary": "Ontario project ranks fifth in North America by resource tonnage, with its first gallium estimate adding potential value.",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
