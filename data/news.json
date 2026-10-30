@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T17:55:25.691Z",
+ "updated": "2026-10-30T19:02:15.149Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,9 +25,8 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "International Mining",
@@ -181,7 +180,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 127
+   "seen": 70
   },
   {
    "source": "Pakistan Observer",
@@ -214,9 +213,8 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "The Frontier Post",
@@ -349,17 +347,8 @@
    "press": false
   },
   {
-   "title": "Rio begins Oyu Tolgoi copper restart after rockfall",
-   "link": "https://www.northernminer.com/news/rio-begins-oyu-tolgoi-copper-restart-after-rockfall/1003896401/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T14:21:17.000Z",
-   "summary": "Rio Tinto (ASX, LSE, NYSE: RIO) said it’s progressively restarting underground operations at Mongolia’s Oyu Tolgoi mine a day after a seismic event triggered a rockfall, stopping production at a...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -373,6 +362,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rio begins Oyu Tolgoi copper restart after rockfall",
+   "link": "https://www.northernminer.com/news/rio-begins-oyu-tolgoi-copper-restart-after-rockfall/1003896401/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T14:21:17.000Z",
+   "summary": "Rio Tinto (ASX, LSE, NYSE: RIO) said it’s progressively restarting underground operations at Mongolia’s Oyu Tolgoi mine a day after a seismic event triggered a rockfall, stopping production at a...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
