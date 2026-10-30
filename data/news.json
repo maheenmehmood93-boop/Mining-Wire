@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T19:02:15.149Z",
+ "updated": "2026-10-30T19:57:08.462Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,8 +25,9 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "International Mining",
@@ -180,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 70
+   "seen": 73
   },
   {
    "source": "Pakistan Observer",
@@ -213,8 +214,9 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": false,
-   "error": "fetch failed"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
@@ -239,6 +241,87 @@
   }
  ],
  "items": [
+  {
+   "title": "Abenojar raises €170M for Spanish tungsten project",
+   "link": "https://www.northernminer.com/financing/abenojar-raises-e170m-for-spanish-tungsten-project/1003896419/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T19:45:41.000Z",
+   "summary": "Spain’s Abenojar Tungsten (LSE: ABT) has raised €170 million ($189.6 million) to help build its El Moto tungsten and gold project, joining London’s main market Friday as Europe seeks new...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Lynas locks in price floors as revenue jumps 55%",
+   "link": "https://www.northernminer.com/news/lynas-locks-in-price-floors-as-revenue-jumps-55/1003896438/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T19:10:47.000Z",
+   "summary": "Australia’s Lynas Rare Earths (ASX: LYC; US-OTC: LYSCF, LYSDY) has secured minimum-price agreements covering more than half its production as manufacturers pay premiums for supplies outside China. Average selling prices...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Five workers die at Implats yet injuries fall",
+   "link": "https://www.northernminer.com/news/five-workers-die-at-implats-yet-injuries-fall/1003896425/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T18:55:06.000Z",
+   "summary": "Impala Platinum (JSE: IMP; US-OTC: IMPUY) reported five worker deaths at its South African operations in the quarter to Sept. 30 despite lower overall injury rates. Four fatal incidents occurred...",
+   "image": null,
+   "source": "The Northern Miner",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Platinum"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Fatality / injury",
+   "country": "South Africa",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21254,87 +21337,6 @@
    "viaUrl": "",
    "date": "2026-10-20T17:33:28.000Z",
    "summary": "TimberMAX, a Quebec-based heavy machinery manufacturer, has launched TRAKX, its new line of remote-controlled mobile equipment. The new brand is led by [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Fortune Bay weighs off-site gold production at Goldfields",
-   "link": "https://www.canadianminingjournal.com/news/fortune-bay-weighs-off-site-gold-production-at-goldfields/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T17:15:30.000Z",
-   "summary": "Fortune Bay (TSXV: FOR) has completed a processing trade-off study prepared by Ausenco Engineering at its Goldfields gold project in northern Saskatchewan. [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Phoenix Tailings to build $375M rare earth plant in New York",
-   "link": "https://www.mining.com/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T16:56:43.000Z",
-   "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Fortescue arsenic-removal tech hits commercial milestone",
-   "link": "https://www.canadianminingjournal.com/news/fortescue-arsenic-removal-tech-hits-commercial-milestone/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T16:38:50.000Z",
-   "summary": "Fortescue (ASX: FMG) says it has sold more than 40 tonnes of copper concentrate cleaned using its patented arsenic removal technology. The [...]",
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
