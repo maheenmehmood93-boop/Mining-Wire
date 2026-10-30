@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T07:17:11.617Z",
+ "updated": "2026-10-30T08:17:40.831Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -182,7 +182,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 77
+   "seen": 82
   },
   {
    "source": "Pakistan Observer",
@@ -243,17 +243,8 @@
  ],
  "items": [
   {
-   "title": "Appian in talks with EBRD, others, on critical minerals funds",
-   "link": "https://www.miningweekly.com/article/appian-in-talks-with-ebrd-others-on-critical-minerals-funds-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T06:08:00.000Z",
-   "summary": "Appian Capital Advisory, a London-based private equity firm, is in talks with the European Bank for Reconstruction and Development (EBRD) and others for funds to invest in critical minerals projects, an executive at the firm told Reuters....",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -265,20 +256,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Appian in talks with EBRD, others, on critical minerals funds",
+   "link": "https://www.miningweekly.com/article/appian-in-talks-with-ebrd-others-on-critical-minerals-funds-2026-10-30",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T06:08:00.000Z",
+   "summary": "Appian Capital Advisory, a London-based private equity firm, is in talks with the European Bank for Reconstruction and Development (EBRD) and others for funds to invest in critical minerals projects, an executive at the firm told Reuters....",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
-   "link": "https://www.mining-technology.com/news/a2gold-bolo-gold-project-nevada/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T06:03:21.000Z",
-   "summary": "A2Gold has signed an agreement to sell its Bolo Gold project in Nye County, Nevada, US to Super Gold Mining for shares valued at C$1.5m ($1.07m).",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Gold-shutterstock_2192623475.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -292,20 +283,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "A2Gold signs agreement to sell Bolo Gold project in Nevada",
+   "link": "https://www.mining-technology.com/news/a2gold-bolo-gold-project-nevada/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T06:03:21.000Z",
+   "summary": "A2Gold has signed an agreement to sell its Bolo Gold project in Nye County, Nevada, US to Super Gold Mining for shares valued at C$1.5m ($1.07m).",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/Gold-shutterstock_2192623475.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Tanzania and Angola agree to link ocean corridors by rail",
-   "link": "https://www.miningweekly.com/article/tanzania-and-angola-agree-to-link-ocean-corridors-by-rail-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-30T06:03:00.000Z",
-   "summary": "Tanzania and Angola have agreed to connect their Indian Ocean and Atlantic Ocean transport corridors with a railway link via Zambia and the Democratic Republic of Congo, Tanzanian President Samia Suluhu Hassan said. The Benguela railway in...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -317,6 +308,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Tanzania and Angola agree to link ocean corridors by rail",
+   "link": "https://www.miningweekly.com/article/tanzania-and-angola-agree-to-link-ocean-corridors-by-rail-2026-10-30",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-30T06:03:00.000Z",
+   "summary": "Tanzania and Angola have agreed to connect their Indian Ocean and Atlantic Ocean transport corridors with a railway link via Zambia and the Democratic Republic of Congo, Tanzanian President Samia Suluhu Hassan said. The Benguela railway in...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
