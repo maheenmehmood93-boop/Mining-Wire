@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T19:50:32.902Z",
+ "updated": "2026-10-31T20:51:29.795Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 75
+   "seen": 76
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Pakistani Forces’ Convoys and Posts Targeted in Attacks Across Balochistan",
-   "link": "https://thebalochistanpost.net/2026/10/pakistani-forces-convoys-and-posts-targeted-in-attacks-across-balochistan/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-31T17:56:19.000Z",
-   "summary": "Pakistani forces’ convoys and posts were targeted in attacks across Balochistan, while armed fighters seized military supplies and commercial vehicles on the Quetta–Taftan highway, according to local sources and statements issued by Baloch...",
-   "image": null,
-   "source": "The Balochistan Post",
    "section": "Balochistan",
    "scope": "National",
-   "region": "Balochistan",
    "provinces": [
     "Balochistan"
    ],
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Pakistani Forces’ Convoys and Posts Targeted in Attacks Across Balochistan",
+   "link": "https://thebalochistanpost.net/2026/10/pakistani-forces-convoys-and-posts-targeted-in-attacks-across-balochistan/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-31T17:56:19.000Z",
+   "summary": "Pakistani forces’ convoys and posts were targeted in attacks across Balochistan, while armed fighters seized military supplies and commercial vehicles on the Quetta–Taftan highway, according to local sources and statements issued by Baloch...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "region": "Balochistan",
    "press": false
   },
   {
