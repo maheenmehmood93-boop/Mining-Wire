@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T18:59:52.114Z",
+ "updated": "2026-10-31T19:50:32.902Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,8 +25,9 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "International Mining",
@@ -179,8 +180,8 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 1,
-   "seen": 142
+   "items": 0,
+   "seen": 75
   },
   {
    "source": "Pakistan Observer",
@@ -193,7 +194,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -214,7 +215,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -240,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Pakistani Forces’ Convoys and Posts Targeted in Attacks Across Balochistan",
+   "link": "https://thebalochistanpost.net/2026/10/pakistani-forces-convoys-and-posts-targeted-in-attacks-across-balochistan/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-31T17:56:19.000Z",
+   "summary": "Pakistani forces’ convoys and posts were targeted in attacks across Balochistan, while armed fighters seized military supplies and commercial vehicles on the Quetta–Taftan highway, according to local sources and statements issued by Baloch...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
@@ -21307,35 +21335,6 @@
    "viaUrl": "",
    "date": "2026-10-20T20:55:50.000Z",
    "summary": "Aura Energy (ASX: AEE; AIM: AURA) is moving closer to building Mauritania’s first uranium mine after a bankable feasibility study outlined a $500-million (C$701.9 million) valuation for its Tiris project,...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Mexico",
-   "exRegion": "",
-   "title": "Heliostar drilling strengthens Ana Paula growth case",
-   "link": "https://www.northernminer.com/news/heliostar-drilling-strengthens-ana-paula-growth-case/1003895893/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T20:50:58.000Z",
-   "summary": "Heliostar Metals (TSX: HSTR; US-OTC: HSTXF) has intersected gold below the planned workings of its Ana Paula project in Mexico, pointing to expansion potential as it prepares a feasibility study...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
