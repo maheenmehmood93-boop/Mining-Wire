@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T14:51:20.710Z",
+ "updated": "2026-10-31T15:50:26.873Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -59,7 +59,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -158,7 +158,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -180,7 +180,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 127
+   "seen": 131
   },
   {
    "source": "Pakistan Observer",
@@ -193,7 +193,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -213,9 +213,8 @@
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "fetch failed"
   },
   {
    "source": "The Frontier Post",
@@ -240,6 +239,58 @@
   }
  ],
  "items": [
+  {
+   "title": "Tungsten’s sixfold surge: Pakistan’s mineral processing opportunity",
+   "link": "https://www.brecorder.com/news/40446811/tungstens-sixfold-surge-pakistans-mineral-processing-opportunity",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-31T15:43:24.000Z",
+   "summary": "A sixfold rise in tungsten prices says more about who refines critical minerals than who holds them. Pakistan ships concentrate abroad and buys the finished metal back - a gap that $1.3 billion of US financing does not by itself close. The...",
+   "image": "https://i.brecorder.com/large/2026/01/31002857c7c25ba.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "184M Afghanis in Gemstone sales, four Mining MoUs signed",
+   "link": "https://thefrontierpost.com/184m-afghanis-in-gemstone-sales-four-mining-mous-signed/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-31T14:57:19.000Z",
+   "summary": "KABUL (TOLONews): Afghanistan’s first specialized mining exhibition concluded in Kabul on Saturday after four days. At the closing ceremony, the Deputy Minister of Mines and Petroleum emphasized the importance of showcasing Afghanistan’s...",
+   "image": null,
+   "source": "The Frontier Post",
+   "section": "",
+   "scope": "National",
+   "region": "Peshawar",
+   "provinces": [],
+   "tags": [
+    "Gemstones"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21287,58 +21338,6 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Phoenix Tailings to build $375M rare earth plant in New York",
-   "link": "https://www.northernminer.com/news/phoenix-tailings-to-build-375m-rare-earth-plant-in-new-york/1003895914/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T20:46:29.000Z",
-   "summary": "The facility will produce over 4,400 tons of annual rare earths oxides by 2028 and will create at least 90 new jobs in the region.",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "National",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Iran Guards say three tankers hit mines crossing Hormuz strait",
-   "link": "https://thefrontierpost.com/iran-guards-say-three-tankers-hit-mines-crossing-hormuz-strait/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T19:44:11.000Z",
-   "summary": "TEHRAN (AFP) : Iranian Revolutionary Guards said on Tuesday that their naval mines halted three tankers attempting to travel the Strait of Hormuz via routes considered illegal by Tehran. “Two violating oil tankers were set ablaze and...",
-   "image": null,
-   "source": "The Frontier Post",
-   "region": "Peshawar",
    "press": false
   }
  ]
