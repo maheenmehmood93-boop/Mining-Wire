@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T11:50:09.958Z",
+ "updated": "2026-11-01T13:08:00.757Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,8 +25,9 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "International Mining",
@@ -180,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 100
+   "seen": 102
   },
   {
    "source": "Pakistan Observer",
@@ -240,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Cutifani warns mining sector's failure to innovate opens door to takeovers",
+   "link": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-01T12:00:00.000Z",
+   "summary": "Former Anglo American chief says slow technological progress and lengthy approvals threaten future mineral supplies and growth.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "Balochistan",
    "scope": "National",
@@ -21310,33 +21336,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Uranium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Mauritania’s first uranium mine comes into view despite funding, security issues",
-   "link": "https://www.northernminer.com/news/mauritanias-first-uranium-mine-comes-into-view-despite-funding-security-issues/1003895897/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T20:55:50.000Z",
-   "summary": "Aura Energy (ASX: AEE; AIM: AURA) is moving closer to building Mauritania’s first uranium mine after a bankable feasibility study outlined a $500-million (C$701.9 million) valuation for its Tiris project,...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
    "press": false
   }
  ]
