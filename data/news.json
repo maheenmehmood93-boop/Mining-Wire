@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T22:50:33.032Z",
+ "updated": "2026-11-01T23:48:12.019Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Cochilco cuts Chilean copper forecast for 2026, 2027",
-   "link": "https://www.miningweekly.com/article/cochilco-cuts-chilean-copper-forecast-for-2026-2027-2026-11-02",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-01T22:00:00.000Z",
-   "summary": "Chile's copper commission Cochilco on Friday sharply lowered its forecast for Chilean copper production this year and forecast a milder-than-expected recovery for 2027. The entity expects 2026 output to fall 8.4% versus a prior estimate of...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper"
@@ -266,20 +257,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "Vale sees extraordinary dividends as unlikely amid market uncertainty",
-   "link": "https://www.miningweekly.com/article/vale-sees-extraordinary-dividends-as-unlikely-amid-market-uncertainty-2026-11-02",
+   "title": "Cochilco cuts Chilean copper forecast for 2026, 2027",
+   "link": "https://www.miningweekly.com/article/cochilco-cuts-chilean-copper-forecast-for-2026-2027-2026-11-02",
    "via": "",
    "viaUrl": "",
    "date": "2026-11-01T22:00:00.000Z",
-   "summary": "Vale is unlikely to pay extraordinary dividends this year, the firm's CFO Marcelo Bacci said on Friday, after the Brazilian miner reported a 20% slump in third-quarter core profit, hit by lower iron ore prices and elevated fuel and freight...",
+   "summary": "Chile's copper commission Cochilco on Friday sharply lowered its forecast for Chilean copper production this year and forecast a milder-than-expected recovery for 2027. The entity expects 2026 output to fall 8.4% versus a prior estimate of...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -293,6 +284,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Vale sees extraordinary dividends as unlikely amid market uncertainty",
+   "link": "https://www.miningweekly.com/article/vale-sees-extraordinary-dividends-as-unlikely-amid-market-uncertainty-2026-11-02",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-01T22:00:00.000Z",
+   "summary": "Vale is unlikely to pay extraordinary dividends this year, the firm's CFO Marcelo Bacci said on Friday, after the Brazilian miner reported a 20% slump in third-quarter core profit, hit by lower iron ore prices and elevated fuel and freight...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
