@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T15:50:12.265Z",
+ "updated": "2026-11-01T16:51:46.859Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -26,7 +26,7 @@
    "source": "The Northern Miner",
    "section": "",
    "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "error": "HTTP 504"
   },
   {
    "source": "International Mining",
@@ -180,7 +180,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 110
+   "seen": 113
   },
   {
    "source": "Pakistan Observer",
