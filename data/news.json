@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T13:08:00.757Z",
+ "updated": "2026-11-01T13:57:40.100Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 102
+   "seen": 104
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Cutifani warns mining sector's failure to innovate opens door to takeovers",
-   "link": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-01T12:00:00.000Z",
-   "summary": "Former Anglo American chief says slow technological progress and lengthy approvals threaten future mineral supplies and growth.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Cutifani warns mining sector's failure to innovate opens door to takeovers",
+   "link": "https://www.mining.com/cutifani-warns-mining-sectors-failure-to-innovate-opens-door-to-takeovers/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-01T12:00:00.000Z",
+   "summary": "Former Anglo American chief says slow technological progress and lengthy approvals threaten future mineral supplies and growth.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
