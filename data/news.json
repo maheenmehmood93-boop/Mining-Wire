@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T17:47:32.305Z",
+ "updated": "2026-11-01T18:59:59.011Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 116
+   "seen": 118
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Global resource squeeze signals market shift: report",
+   "link": "https://www.mining.com/global-resource-squeeze-signals-market-shift-report/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-01T17:27:06.000Z",
+   "summary": "Mounting pressures for electrification, energy demand and food security can change the market dynamics of the past 20 years.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21311,31 +21336,6 @@
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Mining industry entering largest investment supercycle in history, Canada’s energy minister says",
-   "link": "https://www.mining.com/mining-industry-entering-largest-investment-supercycle-in-history-canadas-energy-minister-says/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-20T20:58:56.000Z",
-   "summary": "At an event in London, Hodgson told attendees, “critical minerals are no longer simply industrial commodities,” the Financial Post reported.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
