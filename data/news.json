@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:55:24.667Z",
+ "updated": "2026-11-02T23:50:14.938Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 502"
   },
   {
    "source": "MINING.COM",
@@ -242,6 +242,19 @@
  ],
  "items": [
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "British Columbia First Nation files court challenge over Pacific Link oil pipeline consultations",
    "link": "https://www.miningweekly.com/article/british-columbia-first-nation-files-court-challenge-over-pacific-link-oil-pipeline-consultations-2026-11-03",
    "via": "",
@@ -250,9 +263,12 @@
    "summary": "A First Nation in British Columbia has filed a court challenge against the Canadian government's decision to fast-track the review process for a new proposed crude oil pipeline to Canada's west coast. Cheam First Nation asked Canada's...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +280,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Blackstone, Canadian pension funds to invest $3.1bn in LNG Canada for Mitsubishi stake",
    "link": "https://www.miningweekly.com/article/blackstone-canadian-pension-funds-to-invest-31bn-in-lng-canada-for-mitsubishi-stake-2026-11-03",
    "via": "",
@@ -275,9 +288,12 @@
    "summary": "Blackstone and a group of Canadian pension funds will invest $3.1-billion to acquire a 49.9% interest in Japanese trading house Mitsubishi Corp's holding company that owns its stake in the LNG Canada project, the companies said on Monday....",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -289,9 +305,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "US strategy links Myanmar peace talks to rare-earth access",
    "link": "https://www.miningweekly.com/article/us-strategy-links-myanmar-peace-talks-to-rare-earth-access-2026-11-03",
    "via": "",
@@ -300,20 +313,7 @@
    "summary": "Washington aims to use peace diplomacy in Myanmar as a way to expand US influence and potentially gain access to the country's rare-earth deposits, according to a recently published State Department strategy document. Reuters reported last...",
    "image": null,
    "source": "Mining Weekly",
-   "section": "",
-   "scope": "International",
    "region": "Africa",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
