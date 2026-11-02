@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T20:04:05.928Z",
+ "updated": "2026-11-02T20:57:40.280Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 85
+   "seen": 88
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Chile copper outlook worsens as price forecast rises",
-   "link": "https://www.northernminer.com/news/chile-copper-outlook-worsens-as-price-forecast-rises/1003897135/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-02T19:19:18.000Z",
-   "summary": "Chile’s copper commission has cut its production forecasts for the world’s largest producer and raised its 2027 price outlook by 17% as mines struggle to recover lost output. Cochilco raised...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Chile copper outlook worsens as price forecast rises",
+   "link": "https://www.northernminer.com/news/chile-copper-outlook-worsens-as-price-forecast-rises/1003897135/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-02T19:19:18.000Z",
+   "summary": "Chile’s copper commission has cut its production forecasts for the world’s largest producer and raised its 2027 price outlook by 17% as mines struggle to recover lost output. Cochilco raised...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
