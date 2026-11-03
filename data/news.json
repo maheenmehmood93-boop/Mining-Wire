@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T23:50:14.938Z",
+ "updated": "2026-11-03T01:23:59.795Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,9 +25,8 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": true,
-   "items": 20,
-   "seen": 20
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "International Mining",
@@ -159,7 +158,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -241,6 +240,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Gordon Mining acquires Tungsten Tail project in New Mexico",
+   "link": "https://www.mining.com/gordon-mining-acquires-tungsten-tail-project-in-new-mexico/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-02T23:15:51.000Z",
+   "summary": "The project area has a documented history of small-scale tungsten production, with historical scheelite shipments recorded in 1942 and 1955.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21312,33 +21336,6 @@
    "exRegion": "",
    "title": "Fortuna targets deeper Lindero pit after gold hits",
    "link": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:50:02.000Z",
-   "summary": "Fortuna Mining (TSX: FVI; NYSE: FSM) has drilled gold beneath the planned bottom of its Lindero open pit in Argentina’s high-Andes, strengthening its case for adding reserves at the operating...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Fortuna targets deeper Lindero pit after gold hits",
-   "link": "https://northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
    "via": "",
    "viaUrl": "",
    "date": "2026-10-21T20:50:02.000Z",
