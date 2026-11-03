@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T05:10:36.809Z",
+ "updated": "2026-11-03T06:08:45.281Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,13 +181,14 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 93
+   "seen": 97
   },
   {
    "source": "Pakistan Observer",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
@@ -240,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
+   "link": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T05:50:00.000Z",
+   "summary": "Hong Kong-listed mining and metals company MMG said on Tuesday that it had agreed with Anglo American to extend the long-stop date for its proposed acquisition of the miner's nickel business in Brazil to December 31, from October 31...",
+   "image": null,
+   "source": "Mining Weekly",
+   "section": "",
+   "scope": "International",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21313,33 +21341,6 @@
    "viaUrl": "",
    "date": "2026-10-21T20:55:33.000Z",
    "summary": "Hudbay Minerals (TSX, NYSE: HBM) and Japan’s Mitsubishi have approved construction of the $2.1-billion (C$2.9 billion) Copper World project in southern Arizona despite a 59% surge in construction costs. Scope...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Fortuna targets deeper Lindero pit after gold hits",
-   "link": "https://www.northernminer.com/news/fortuna-targets-deeper-lindero-pit-after-gold-hits/1003895960/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:50:02.000Z",
-   "summary": "Fortuna Mining (TSX: FVI; NYSE: FSM) has drilled gold beneath the planned bottom of its Lindero open pit in Argentina’s high-Andes, strengthening its case for adding reserves at the operating...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
