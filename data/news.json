@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T20:04:39.813Z",
+ "updated": "2026-11-03T21:01:41.398Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 82
+   "seen": 84
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Pakistani Forces’ Convoys Attacked in Kharan and Mastung, Highway Blockaded in Dalbandin",
-   "link": "https://thebalochistanpost.net/2026/11/pakistani-forces-convoys-attacked-in-kharan-and-mastung-highway-blockaded-in-dalbandin/",
+   "title": "I-80 Gold’s growth faces Nevada labour squeeze",
+   "link": "https://www.mining.com/i-80-golds-growth-faces-nevada-labour-squeeze/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-03T19:36:25.000Z",
-   "summary": "Pakistani forces’ convoys came under attack in Balochistan’s Kharan and Mastung districts on Monday, while armed fighters blockaded the Quetta–Taftan highway in Dalbandin and set a vehicle on fire, according to sources. Armed fighters...",
+   "date": "2026-11-03T20:11:00.000Z",
+   "summary": "Toronto-based i-80 maintained its 40,000–50,000 oz. outlook but flagged delayed access to high-grade ore.",
    "image": null,
-   "source": "The Balochistan Post",
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "Balochistan",
    "scope": "National",
-   "region": "Balochistan",
    "provinces": [
     "Balochistan"
    ],
@@ -266,20 +284,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Pakistani Forces’ Convoys Attacked in Kharan and Mastung, Highway Blockaded in Dalbandin",
+   "link": "https://thebalochistanpost.net/2026/11/pakistani-forces-convoys-attacked-in-kharan-and-mastung-highway-blockaded-in-dalbandin/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T19:36:25.000Z",
+   "summary": "Pakistani forces’ convoys came under attack in Balochistan’s Kharan and Mastung districts on Monday, while armed fighters blockaded the Quetta–Taftan highway in Dalbandin and set a vehicle on fire, according to sources. Armed fighters...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "region": "Balochistan",
    "press": false
   },
   {
-   "title": "PDAC unveils 2027 award recipients",
-   "link": "https://www.canadianminingjournal.com/news/pdac-unveils-2027-award-recipients/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T19:15:17.000Z",
-   "summary": "The Prospectors and Developers Association of Canada (PDAC) announced on Tuesday the six recipients for its 2027 PDAC Awards. “The 2027 recipients [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,20 +309,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "PDAC unveils 2027 award recipients",
+   "link": "https://www.canadianminingjournal.com/news/pdac-unveils-2027-award-recipients/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T19:15:17.000Z",
+   "summary": "The Prospectors and Developers Association of Canada (PDAC) announced on Tuesday the six recipients for its 2027 PDAC Awards. “The 2027 recipients [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "MMG, Anglo American extend $500 million nickel deal deadline",
-   "link": "https://www.canadianminingjournal.com/news/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T18:43:38.000Z",
-   "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -318,6 +336,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "MMG, Anglo American extend $500 million nickel deal deadline",
+   "link": "https://www.canadianminingjournal.com/news/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T18:43:38.000Z",
+   "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -452,17 +479,8 @@
    "press": false
   },
   {
-   "title": "Chile copper outlook worsens as price forecast rises",
-   "link": "https://www.canadianminingjournal.com/news/chile-copper-outlook-worsens-as-price-forecast-rises/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T17:04:22.000Z",
-   "summary": "Chile’s copper commission has cut its production forecasts for the world’s largest producer and raised its 2027 price outlook by 17% as [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -476,6 +494,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Chile copper outlook worsens as price forecast rises",
+   "link": "https://www.canadianminingjournal.com/news/chile-copper-outlook-worsens-as-price-forecast-rises/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T17:04:22.000Z",
+   "summary": "Chile’s copper commission has cut its production forecasts for the world’s largest producer and raised its 2027 price outlook by 17% as [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -21331,35 +21358,6 @@
    "summary": "Bunker Hill Mining (TSX: BNKR; US-OTC: BHLL) aims to expand processing capacity at its restarted Idaho mine by nearly 40% in the second half of next year, executive chairman Richard...",
    "image": null,
    "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drilling update",
-   "exMetals": [
-    "Lithium"
-   ],
-   "exHighlight": "",
-   "exCountry": "Canada",
-   "exRegion": "Ontario",
-   "title": "Rock Tech kicks off exploration program at the Victory project",
-   "link": "https://www.canadianminingjournal.com/news/rock-tech-kicks-off-exploration-program-at-the-victory-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T15:10:50.000Z",
-   "summary": "Rock Tech Lithium (TSXV: RCK) has launched its exploration campaign at the Victory project in northwestern Ontario.&#160; The program will target two [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "region": "North America",
    "press": false
   }
