@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:59:24.654Z",
+ "updated": "2026-11-03T23:52:40.698Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -241,6 +241,33 @@
   }
  ],
  "items": [
+  {
+   "title": "Rare Earth Americas sees leach recovery boost at Alpha project in Brazil",
+   "link": "https://www.mining.com/rare-earth-americas-sees-leach-recovery-boost-at-alpha-project-in-brazil/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T22:26:29.000Z",
+   "summary": "Laboratory testing achieved approximately 40% rare earth leach recovery compared with the 27% recovery assumption in Alpha’s Technical Report Summary.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Rare earths"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21327,31 +21354,6 @@
    "exRegion": "",
    "title": "Mining Forum video: Bunker Hill seeks cheaper debt to fund growth",
    "link": "https://www.northernminer.com/news/mining-forum-video-bunker-hill-seeks-cheaper-debt-to-fund-growth/1003895979/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T15:37:24.000Z",
-   "summary": "Bunker Hill Mining (TSX: BNKR; US-OTC: BHLL) aims to expand processing capacity at its restarted Idaho mine by nearly 40% in the second half of next year, executive chairman Richard...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Mining Forum video: Bunker Hill seeks cheaper debt to fund growth",
-   "link": "https://northernminer.com/news/mining-forum-video-bunker-hill-seeks-cheaper-debt-to-fund-growth/1003895979/",
    "via": "",
    "viaUrl": "",
    "date": "2026-10-22T15:37:24.000Z",
