@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T06:08:45.281Z",
+ "updated": "2026-11-03T07:30:23.816Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 502"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 97
+   "seen": 107
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,87 @@
  ],
  "items": [
   {
-   "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
-   "link": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
+   "title": "Gold Fields wins Québec approval for Windfall project construction",
+   "link": "https://www.mining-technology.com/news/gold-fields-quebec-approval-windfall-construction/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-03T05:50:00.000Z",
-   "summary": "Hong Kong-listed mining and metals company MMG said on Tuesday that it had agreed with Anglo American to extend the long-stop date for its proposed acquisition of the miner's nickel business in Brazil to December 31, from October 31...",
+   "date": "2026-11-03T07:17:09.000Z",
+   "summary": "Gold Fields and its fully owned subsidiary Windfall Mining Group have secured Québec environmental approval to commence construction at the Windfall mining project in Eeyou Istchee Baie-James, Canada.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-1-3Nov26-Gold-Fields-Gold-Fields-secures-Quebec-environmental-approval-fo.jpg",
+   "source": "Mining Technology",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Weir helping African mines unlock greater value through aftermarket optimisation",
+   "link": "https://im-mining.com/2026/11/03/weir-helping-african-mines-unlock-greater-value-through-aftermarket-optimisation/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T06:58:31.000Z",
+   "summary": "As African mining companies focus on improving plant availability while controlling operating costs, aftermarket optimisation is emerging as an increasingly important strategy for extending equipment life and improving comminution...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Central bank buying, ETF inflows support third-quarter gold demand",
+   "link": "https://www.miningweekly.com/article/central-bank-buying-etf-inflows-support-third-quarter-gold-demand-2026-11-03",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T06:49:00.000Z",
+   "summary": "The World Gold Council's (WGC’s) 'Gold Demand Trends' report for the third quarter has revealed that total gold demand was 1% lower year-on-year at 1 369 t. The gold price averaged $4 262/oz for the quarter, while the value of demand rose...",
    "image": null,
    "source": "Mining Weekly",
    "section": "",
    "scope": "International",
    "region": "Africa",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -266,6 +336,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
+   "link": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T05:50:00.000Z",
+   "summary": "Hong Kong-listed mining and metals company MMG said on Tuesday that it had agreed with Anglo American to extend the long-stop date for its proposed acquisition of the miner's nickel business in Brazil to December 31, from October 31...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -21265,85 +21344,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "US Department of Energy grants $42M for gas pipeline from Pennsylvania to New York",
-   "link": "https://www.mining.com/us-department-of-energy-grants-42m-for-gas-pipeline-from-pennsylvania-to-new-york/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T21:27:29.000Z",
-   "summary": "Constitution Pipeline project will transport natural gas to markets across the Northeast that currently experience limited access to the fuel.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Hudbay, Mitsubishi OK $2.1B Copper World project",
-   "link": "https://www.northernminer.com/news/hudbay-mitsubishi-ok-2-1b-copper-world-project/1003895931/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:55:33.000Z",
-   "summary": "Hudbay Minerals (TSX, NYSE: HBM) and Japan’s Mitsubishi have approved construction of the $2.1-billion (C$2.9 billion) Copper World project in southern Arizona despite a 59% surge in construction costs. Scope...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Hudbay, Mitsubishi OK $2.1B Copper World project",
-   "link": "https://northernminer.com/news/hudbay-mitsubishi-ok-2-1b-copper-world-project/1003895931/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-21T20:55:33.000Z",
-   "summary": "Hudbay Minerals (TSX, NYSE: HBM) and Japan’s Mitsubishi have approved construction of the $2.1-billion (C$2.9 billion) Copper World project in southern Arizona despite a 59% surge in construction costs. Scope...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
    "press": false
   }
  ]
