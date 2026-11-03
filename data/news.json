@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T01:23:59.795Z",
+ "updated": "2026-11-03T03:05:25.723Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -25,8 +25,9 @@
   {
    "source": "The Northern Miner",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 20,
+   "seen": 20
   },
   {
    "source": "International Mining",
@@ -241,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Gordon Mining acquires Tungsten Tail project in New Mexico",
-   "link": "https://www.mining.com/gordon-mining-acquires-tungsten-tail-project-in-new-mexico/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-02T23:15:51.000Z",
-   "summary": "The project area has a documented history of small-scale tungsten production, with historical scheelite shipments recorded in 1942 and 1955.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -263,6 +255,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Gordon Mining acquires Tungsten Tail project in New Mexico",
+   "link": "https://www.mining.com/gordon-mining-acquires-tungsten-tail-project-in-new-mexico/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-02T23:15:51.000Z",
+   "summary": "The project area has a documented history of small-scale tungsten production, with historical scheelite shipments recorded in 1942 and 1955.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
