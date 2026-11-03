@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T19:11:58.894Z",
+ "updated": "2026-11-03T20:04:39.813Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -32,8 +32,9 @@
   {
    "source": "International Mining",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 12,
+   "seen": 12
   },
   {
    "source": "Mining Weekly",
@@ -180,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 79
+   "seen": 82
   },
   {
    "source": "Pakistan Observer",
@@ -214,7 +215,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 10
   },
   {
@@ -234,18 +235,46 @@
   {
    "source": "Chitral Times",
    "section": "",
-   "ok": false,
-   "error": "HTTP 415"
+   "ok": true,
+   "items": 1,
+   "seen": 10
   }
  ],
  "items": [
   {
-   "title": "Cypher Environmental, Weyerhaeuser partner with First Nations on northwestern Ontario road upgrade",
-   "link": "https://www.canadianminingjournal.com/news/cypher-environmental-weyerhaeuser-partner-with-first-nations-on-northwestern-ontario-road-upgrade/",
+   "title": "Pakistani Forces’ Convoys Attacked in Kharan and Mastung, Highway Blockaded in Dalbandin",
+   "link": "https://thebalochistanpost.net/2026/11/pakistani-forces-convoys-attacked-in-kharan-and-mastung-highway-blockaded-in-dalbandin/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-03T18:22:08.000Z",
-   "summary": "Cypher Environmental and Weyerhaeuser, in partnership with Niisaachewan Anishinaabe Nation and Miisun Integrated Resource Management company, have completed the Cypher Green Roads [...]",
+   "date": "2026-11-03T19:36:25.000Z",
+   "summary": "Pakistani forces’ convoys came under attack in Balochistan’s Kharan and Mastung districts on Monday, while armed fighters blockaded the Quetta–Taftan highway in Dalbandin and set a vehicle on fire, according to sources. Armed fighters...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "PDAC unveils 2027 award recipients",
+   "link": "https://www.canadianminingjournal.com/news/pdac-unveils-2027-award-recipients/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T19:15:17.000Z",
+   "summary": "The Prospectors and Developers Association of Canada (PDAC) announced on Tuesday the six recipients for its 2027 PDAC Awards. “The 2027 recipients [...]",
    "image": null,
    "source": "Canadian Mining Journal",
    "section": "",
@@ -265,44 +294,17 @@
    "press": false
   },
   {
-   "title": "Canada gold output jumps 22% as global supply slips",
-   "link": "https://www.mining.com/canada-gold-output-jumps-22-as-global-supply-slips/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T18:07:00.000Z",
-   "summary": "Growth shows how new operations are adding meaningful volumes while some established mining countries struggle with lower grades and changing mine plans.",
-   "image": null,
-   "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
    "title": "MMG, Anglo American extend $500 million nickel deal deadline",
-   "link": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
+   "link": "https://www.canadianminingjournal.com/news/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-03T17:43:38.000Z",
+   "date": "2026-11-03T18:43:38.000Z",
    "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production.",
    "image": null,
-   "source": "MINING.COM",
+   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "North America",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -316,6 +318,85 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Cypher Environmental, Weyerhaeuser partner with First Nations on northwestern Ontario road upgrade",
+   "link": "https://www.canadianminingjournal.com/news/cypher-environmental-weyerhaeuser-partner-with-first-nations-on-northwestern-ontario-road-upgrade/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T18:22:08.000Z",
+   "summary": "Cypher Environmental and Weyerhaeuser, in partnership with Niisaachewan Anishinaabe Nation and Miisun Integrated Resource Management company, have completed the Cypher Green Roads [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Canada gold output jumps 22% as global supply slips",
+   "link": "https://www.mining.com/canada-gold-output-jumps-22-as-global-supply-slips/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T18:07:00.000Z",
+   "summary": "Growth shows how new operations are adding meaningful volumes while some established mining countries struggle with lower grades and changing mine plans.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Nickel"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "MMG, Anglo American extend $500 million nickel deal deadline",
+   "link": "https://www.mining.com/mmg-anglo-american-extend-500-million-nickel-deal-deadline/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T17:43:38.000Z",
+   "summary": "The extension comes as European regulators continue to investigate the deal and its impact on steel production.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -368,6 +449,33 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
+   "press": false
+  },
+  {
+   "title": "Chile copper outlook worsens as price forecast rises",
+   "link": "https://www.canadianminingjournal.com/news/chile-copper-outlook-worsens-as-price-forecast-rises/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T17:04:22.000Z",
+   "summary": "Chile’s copper commission has cut its production forecasts for the world’s largest producer and raised its 2027 price outlook by 17% as [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "section": "",
+   "scope": "International",
+   "region": "North America",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "press": false
   },
   {
@@ -450,17 +558,8 @@
    "press": false
   },
   {
-   "title": "JPMorgan sees US copper output more than doubling",
-   "link": "https://www.mining.com/jpmorgan-sees-us-copper-output-more-than-doubling/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T16:33:00.000Z",
-   "summary": "New mine developments and expansions could transform American supply, but high costs and permitting remain major hurdles.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -474,6 +573,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "JPMorgan sees US copper output more than doubling",
+   "link": "https://www.mining.com/jpmorgan-sees-us-copper-output-more-than-doubling/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T16:33:00.000Z",
+   "summary": "New mine developments and expansions could transform American supply, but high costs and permitting remain major hurdles.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21253,117 +21361,6 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "United States",
-   "exRegion": "Idaho",
-   "title": "Liberty Gold stretches Black Pine’s reach in Idaho",
-   "link": "https://www.mining.com/liberty-gold-stretches-black-pines-reach-in-idaho/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T14:54:51.000Z",
-   "summary": "Drilling results come as Liberty advances Black Pine towards a potential 2028 construction decision.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Liberty Gold stretches Black Pine’s reach in Idaho",
-   "link": "https://www.canadianminingjournal.com/news/liberty-gold-stretches-black-pines-reach-in-idaho/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T14:54:51.000Z",
-   "summary": "Liberty Gold (TSX: LGD; US-OTC: LGDTF) has drilled gold beyond the resource boundary at its Black Pine project in Idaho, outlining an [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Questcorp to acquire final 49% in North Island Project, Canada",
-   "link": "https://www.mining-technology.com/news/questcorp-acquire-final-49-north-island/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T14:51:41.000Z",
-   "summary": "Questcorp Mining has signed an agreement to acquire the remaining 49% interest in the North Island Copper Project near Port Hardy, Vancouver Island, British Columbia, Canada.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/10/MT-5-22Oct26-shutterstock_2375878259.jpg",
-   "source": "Mining Technology",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Nickel",
-    "Platinum"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "URU signs drilling contract for Limpopo project",
-   "link": "https://www.miningweekly.com/article/uru-signs-drilling-contract-for-limpopo-project-2026-10-22",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T14:22:00.000Z",
-   "summary": "London-listed URU Metals’ subsidiary Lesego Platinum Uitloop (LPU) has signed the drilling contract for the next phase of work at its Zeb nickel project, in Limpopo, South Africa. The appointed drilling contractor is scheduled to mobilise...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
    "press": false
   }
  ]
