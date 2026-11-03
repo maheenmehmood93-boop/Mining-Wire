@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T11:09:44.311Z",
+ "updated": "2026-11-03T12:00:39.065Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 125
+   "seen": 126
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,33 @@
  ],
  "items": [
   {
-   "title": "ACG Metals adds Nussir copper development project to portfolio",
-   "link": "https://im-mining.com/2026/11/03/acg-metals-adds-nussir-copper-development-project-to-portfolio/",
+   "title": "Fortescue hails successful ammonia-powered bulk carrier trial in Western Australia",
+   "link": "https://www.miningweekly.com/article/fortescue-hails-successful-ammonia-powered-bulk-carrier-trial-in-western-australia-2026-11-03",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-03T10:38:50.000Z",
-   "summary": "ACG Metals Limited has agreed to acquire 100% of Blue Moon Norway AS from Blue Moon Metals Inc, including its 94.52% interest in the construction-stage Nussir copper mine and other Norwegian development interests, for $220 million in...",
+   "date": "2026-11-03T10:45:00.000Z",
+   "summary": "Global mining, metals and energy company Fortescue says green ammonia was successfully transferred to an ammonia-powered dry bulk carrier at Port Hedland, in the Pilbara region of Western Australia, marking a major step towards...",
    "image": null,
-   "source": "International Mining",
+   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Global",
+   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Copper"
@@ -266,9 +282,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "ACG Metals adds Nussir copper development project to portfolio",
+   "link": "https://im-mining.com/2026/11/03/acg-metals-adds-nussir-copper-development-project-to-portfolio/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T10:38:50.000Z",
+   "summary": "ACG Metals Limited has agreed to acquire 100% of Blue Moon Norway AS from Blue Moon Metals Inc, including its 94.52% interest in the construction-stage Nussir copper mine and other Norwegian development interests, for $220 million in...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Sunrise Energy Metals Board gives the go ahead for Syerston scandium project development",
    "link": "https://im-mining.com/2026/11/03/sunrise-energy-metals-board-gives-the-go-ahead-for-syerston-scandium-project-development/",
    "via": "",
@@ -277,9 +315,12 @@
    "summary": "Sunrise Energy Metals Limited Chairman, Robert Friedland, and Chief Executive Officer, Sam Riggall, have announced that the company has approved the Final Investment Decision (FID) to proceed with development of the Syerston scandium...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -291,9 +332,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Wiluna settles key legal disputes",
    "link": "https://www.miningweekly.com/article/wiluna-settles-key-legal-disputes-2026-11-03",
    "via": "",
@@ -302,11 +340,16 @@
    "summary": "Australia-listed Wiluna Mining Corporation reports that a deed of settlement and release has been entered into between Wiluna and all of its subsidiaries (the group), AIM Mining Corporation, Milan Jerkovic, the company’s former...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Copper"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -316,9 +359,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Pecoy Copper secures C$49.8m strategic financing from Hudbay, another investor",
    "link": "https://www.miningweekly.com/article/pecoy-copper-secures-c498m-strategic-financing-from-hudbay-another-investor-2026-11-03",
    "via": "",
@@ -327,12 +367,24 @@
    "summary": "TSX-V-listed Pecoy Copper Corp has entered into subscription agreements with TSX- and NYSE-listed Hudbay Minerals and another strategic investor, which have agreed to subscribe for 14.91-million and 9.76-million Pecoy shares, respectively,...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
+   "title": "Uranium One begins exploration at its Yuty project in Paraguay",
+   "link": "https://www.mining-technology.com/news/uranium-one-begins-exploration-yuty-project/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T09:49:37.000Z",
+   "summary": "Uranium One Mining has begun its first exploration programme at the 90,000ha (222,395 acres) Yuty Prometeo–San Jose uranium project located in the Paraná Basin, southeast of Paraguay.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/Yuty-Prometeo-Project.jpg",
+   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "region": "Global",
    "provinces": [],
    "tags": [
-    "Copper"
+    "Uranium"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -21299,60 +21351,6 @@
    "viaUrl": "",
    "date": "2026-10-22T07:06:00.000Z",
    "summary": "Malaysia has given the go-ahead for a batch of unprocessed rare earths to be exported, the first approval under a new framework designed to permit testing and potentially encourage investments in local capacity. A single export application...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Teck receives strike notice at Highland Valley Copper operation",
-   "link": "https://www.miningweekly.com/article/teck-receives-strike-notice-at-highland-valley-copper-operation-2026-10-22",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T07:01:00.000Z",
-   "summary": "Canadian miner Teck Resources said on Wednesday it received strike notice from United Steelworkers Local 7619 at its Highland Valley Copper operations in British Columbia. The notice entitles the union to begin strike action as early as...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Platinum"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Northam faces binding vote on pay after a decade of dissent",
-   "link": "https://www.miningweekly.com/article/northam-faces-binding-vote-on-pay-after-a-decade-of-dissent-2026-10-22",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T06:59:00.000Z",
-   "summary": "Northam Platinum Holdings faces a binding shareholder vote on executive pay for the first time following years of investor opposition to its remuneration policies. The October 26 vote at the South African miner’s annual general meeting is...",
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
