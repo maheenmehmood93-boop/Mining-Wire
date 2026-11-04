@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T23:52:40.698Z",
+ "updated": "2026-11-04T01:24:13.852Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Rare Earth Americas sees leach recovery boost at Alpha project in Brazil",
-   "link": "https://www.mining.com/rare-earth-americas-sees-leach-recovery-boost-at-alpha-project-in-brazil/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T22:26:29.000Z",
-   "summary": "Laboratory testing achieved approximately 40% rare earth leach recovery compared with the 27% recovery assumption in Alpha’s Technical Report Summary.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -266,6 +257,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Rare Earth Americas sees leach recovery boost at Alpha project in Brazil",
+   "link": "https://www.mining.com/rare-earth-americas-sees-leach-recovery-boost-at-alpha-project-in-brazil/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T22:26:29.000Z",
+   "summary": "Laboratory testing achieved approximately 40% rare earth leach recovery compared with the 27% recovery assumption in Alpha’s Technical Report Summary.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
