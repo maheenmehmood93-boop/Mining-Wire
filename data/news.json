@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T08:26:16.697Z",
+ "updated": "2026-11-04T10:22:22.702Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -79,32 +79,37 @@
   {
    "source": "GlobeNewswire",
    "section": "Drill results",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 11,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Intersects",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 2,
+   "seen": 2
   },
   {
    "source": "GlobeNewswire",
    "section": "Mineral resource",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 11,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Assay results",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 10,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Exploration update",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 13,
+   "seen": 17
   },
   {
    "source": "MINING.COM",
@@ -159,7 +164,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -181,7 +186,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 100
+   "seen": 109
   },
   {
    "source": "Pakistan Observer",
@@ -242,22 +247,20 @@
  ],
  "items": [
   {
-   "title": "Perseverance Metals expands Voyageur land by 13,000 acres in Michigan",
-   "link": "https://www.mining-technology.com/news/perseverance-expands-voyageur-land-13000-acres/",
+   "title": "Bradken Liebherr R996B undercarriage solution showcased at Queensland coal mine",
+   "link": "https://im-mining.com/2026/11/04/bradken-liebherr-r996b-undercarriage-solution-showcased-at-queensland-coal-mine/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-04T07:40:21.000Z",
-   "summary": "Perseverance Metals has expanded its land position at the Voyageur nickel-copper-platinum group elements (Ni-Cu-PGE) project in Michigan’s Upper Peninsula, US, by adding approximately 13,000 acres through new agreements.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-1-4Nov26-shutterstock_2832353107.jpg",
-   "source": "Mining Technology",
+   "date": "2026-11-04T10:08:25.000Z",
+   "summary": "Bradken’s excavator undercarriage solution for the Liebherr R996B has been going head to head with “a low-cost competitor” at a Queensland coal mine, with the benchmarking revealing a “significant performance gap”, the company says. The...",
+   "image": null,
+   "source": "International Mining",
    "section": "",
    "scope": "International",
    "region": "Global",
    "provinces": [],
    "tags": [
-    "Copper",
-    "Nickel",
-    "Platinum"
+    "Coal"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -271,13 +274,13 @@
    "press": false
   },
   {
-   "title": "Barton Gold begins scoping study for Challenger mine feed",
-   "link": "https://www.mining-technology.com/news/barton-gold-scoping-study-challenger-mine/",
+   "title": "Dynacor Group secures $20m facility for Svetlana plant",
+   "link": "https://www.mining-technology.com/news/dynacor-20m-facility-svetlana-plant/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-04T07:40:19.000Z",
-   "summary": "Barton Gold initiated a scoping study to examine the potential for underground mine feed at its Challenger Gold Project in South Australia.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-2-4Nov26-shutterstock_2559267735.jpg",
+   "date": "2026-11-04T10:07:10.000Z",
+   "summary": "Dynacor Group agreed to an unsecured $20m Gold Purchase and Prepayment Facility with Auramet International for its Svetlana plant in Ecuador.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-3-4Nov26-shutterstock_2775636387.jpg",
    "source": "Mining Technology",
    "section": "",
    "scope": "International",
@@ -295,6 +298,62 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Nickel",
+    "Platinum"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Perseverance Metals expands Voyageur land by 13,000 acres in Michigan",
+   "link": "https://www.mining-technology.com/news/perseverance-expands-voyageur-land-13000-acres/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T07:40:21.000Z",
+   "summary": "Perseverance Metals has expanded its land position at the Voyageur nickel-copper-platinum group elements (Ni-Cu-PGE) project in Michigan’s Upper Peninsula, US, by adding approximately 13,000 acres through new agreements.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-1-4Nov26-shutterstock_2832353107.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Barton Gold begins scoping study for Challenger mine feed",
+   "link": "https://www.mining-technology.com/news/barton-gold-scoping-study-challenger-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T07:40:19.000Z",
+   "summary": "Barton Gold initiated a scoping study to examine the potential for underground mine feed at its Challenger Gold Project in South Australia.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-2-4Nov26-shutterstock_2559267735.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
@@ -1222,17 +1281,8 @@
    "press": false
   },
   {
-   "title": "Silver One adds two drill rigs at Candelaria Project in Nevada",
-   "link": "https://www.mining-technology.com/news/silver-one-adds-two-drill-rigs-candelaria/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T11:52:49.000Z",
-   "summary": "Canada-based Silver One Resources has mobilised two additional drill rigs to its wholly owned Candelaria project located in Nevada, US.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-5-3Nov26-shutterstock_2552238099-1.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Silver"
@@ -1246,20 +1296,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Silver One adds two drill rigs at Candelaria Project in Nevada",
+   "link": "https://www.mining-technology.com/news/silver-one-adds-two-drill-rigs-candelaria/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T11:52:49.000Z",
+   "summary": "Canada-based Silver One Resources has mobilised two additional drill rigs to its wholly owned Candelaria project located in Nevada, US.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-5-3Nov26-shutterstock_2552238099-1.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "Blue Moon agrees to sell Norwegian unit to ACG for $220m",
-   "link": "https://www.mining-technology.com/news/blue-moon-sell-norwegian-unit-acg/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T11:47:12.000Z",
-   "summary": "Blue Moon Metals has agreed to sell its Norwegian subsidiary, which holds the Nussir copper mine, to ACG Metals in an all-share deal valued at $220m.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-4-3Nov26-shutterstock_2758670511.jpg",
-   "source": "Mining Technology",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -1273,6 +1323,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Blue Moon agrees to sell Norwegian unit to ACG for $220m",
+   "link": "https://www.mining-technology.com/news/blue-moon-sell-norwegian-unit-acg/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-03T11:47:12.000Z",
+   "summary": "Blue Moon Metals has agreed to sell its Norwegian subsidiary, which holds the Nussir copper mine, to ACG Metals in an all-share deal valued at $220m.",
+   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-4-3Nov26-shutterstock_2758670511.jpg",
+   "source": "Mining Technology",
+   "region": "Global",
    "press": false
   },
   {
@@ -3117,6 +3176,35 @@
    "source": "Mining Weekly",
    "region": "Africa",
    "press": false
+  },
+  {
+   "title": "Fortuna intersects 1.9 g/t gold over 64 meters, confirming broad gold mineralization at Kabewest, Bambadji Project, Senegal",
+   "link": "https://www.globenewswire.com/news-release/2026/11/02/3392913/0/en/fortuna-intersects-1-9-g-t-gold-over-64-meters-confirming-broad-gold-mineralization-at-kabewest-bambadji-project-senegal.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-02T10:00:00.000Z",
+   "summary": "Fortuna intersects 1.9 g/t gold over 64 meters at Kabewest, Bambadji, supporting Diamba Sud’s growth potential in Senegal.",
+   "image": "https://ml.globenewswire.com/Resource/Download/153e4b2e-460a-405b-bc7e-f746b40923c1",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": false,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Drill results",
+   "exMetals": [
+    "Gold"
+   ],
+   "exHighlight": "64 m @ 1.9 g/t Au",
+   "exCountry": "Unspecified",
+   "exRegion": "",
+   "press": true
   },
   {
    "section": "",
@@ -11076,6 +11164,35 @@
    "source": "Business Recorder",
    "region": "Pakistan",
    "press": false
+  },
+  {
+   "title": "Inventus Reports Final Phase 2 Drilling Results at Pardo Ahead of Maiden Resource Estimate",
+   "link": "https://www.globenewswire.com/news-release/2026/10/28/3390011/0/en/inventus-reports-final-phase-2-drilling-results-at-pardo-ahead-of-maiden-resource-estimate.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-28T11:00:00.000Z",
+   "summary": "Inventus reports final 89 Phase 2 drill results at Pardo, including 4.47 g/t gold over 2.19 m, ahead of its maiden resource estimate.",
+   "image": "https://ml.globenewswire.com/Resource/Download/bd5e9027-f149-4ecd-bb1c-68c8009f7fc9",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold"
+   ],
+   "mining": false,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Resource estimate",
+   "exMetals": [
+    "Gold"
+   ],
+   "exHighlight": "2.19 m @ 4.47 g/t Au",
+   "exCountry": "Unspecified",
+   "exRegion": "",
+   "press": true
   },
   {
    "section": "",
@@ -19876,6 +19993,37 @@
    "press": false
   },
   {
+   "title": "Viridian Intersects 15m of 1.1% CuEq in 1.5km Step-Out Drilling at Kraken Main",
+   "link": "https://www.globenewswire.com/news-release/2026/10/23/3387203/0/en/viridian-intersects-15m-of-1-1-cueq-in-1-5km-step-out-drilling-at-kraken-main.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-10-23T11:59:00.000Z",
+   "summary": "Viridian intersects 40.8m at 0.63% CuEq incl. 15.05m at 1.09% CuEq in first southern step-out assays at Kraken copper-nickel-cobalt project, Labrador.",
+   "image": "https://ml.globenewswire.com/Resource/Download/fb77b648-4f21-444f-81c8-0527144b0b46",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper",
+    "Nickel",
+    "Cobalt"
+   ],
+   "mining": false,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Drill results",
+   "exMetals": [
+    "Copper"
+   ],
+   "exHighlight": "15 m @ 1.1% CuEq",
+   "exCountry": "Canada",
+   "exRegion": "",
+   "press": true
+  },
+  {
    "section": "",
    "scope": "International",
    "provinces": [],
@@ -21235,137 +21383,6 @@
    "summary": "Commodity Discovery Fund founder Willem Middelkoop is targeting new discoveries and mines nearing production to capture gains from a commodities rally he says could last for decades. The Netherlands-based fund,...",
    "image": null,
    "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "South African rare earth mine targets China sales",
-   "link": "https://www.northernminer.com/news/south-african-rare-earth-mine-targets-first-exports/1003895889/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T20:55:42.000Z",
-   "summary": "South Africa’s Steenkampskraal mine expects its first rare earth concentrate sales in early 2027 to buyers in China, as commissioning continues at a processing plant opened this month. The Western...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "South African rare earth mine targets China sales",
-   "link": "https://northernminer.com/news/south-african-rare-earth-mine-targets-first-exports/1003895889/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T20:55:42.000Z",
-   "summary": "South Africa’s Steenkampskraal mine expects its first rare earth concentrate sales in early 2027 to buyers in China, as commissioning continues at a processing plant opened this month. The Western...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Suncrest College opens mechanics training facilities, expands scholarship programs",
-   "link": "https://www.canadianminingjournal.com/news/suncrest-college-opens-mechanics-training-facilities-expands-scholarship-programs/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T18:00:32.000Z",
-   "summary": "Suncrest College has officially opened its enhanced industrial mechanics training facilities in Esterhazy. Sask. The space has officially been named the Mosaic Industrial [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "US permitting: Environmental review overhaul could speed mine approvals, but hurdles remain",
-   "link": "https://www.mining.com/us-permitting-environmental-review-overhaul-could-speed-mine-approvals-but-hurdles-remain/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T17:24:54.000Z",
-   "summary": "Sweeping bipartisan legislation targeting environmental reviews, litigation deadlines and water permits could reshape how mining projects are developed in the US.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Caudalosa mine restart evaluated as as Silver Mountain reports 569 g/t silver hit",
-   "link": "https://www.canadianminingjournal.com/news/caudalosa-mine-restart-evaluated-as-as-silver-mountain-reports-569-g-t-silver-hit/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T17:22:53.000Z",
-   "summary": "Silver Mountain resources (TSX: AGMR) says drill results from its Caudalosa underground silver-polymetallic mine in Peru indicate potential mineralization beyond the area [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "region": "North America",
    "press": false
   }
