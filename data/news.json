@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T19:16:02.437Z",
+ "updated": "2026-11-04T20:13:14.067Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 80
+   "seen": 87
   },
   {
    "source": "Pakistan Observer",
@@ -242,6 +242,46 @@
  ],
  "items": [
   {
+   "title": "Freeport approves Bagdad expansion including enlarged AHS fleet &#038; new overland conveyor",
+   "link": "https://im-mining.com/2026/11/04/freeport-approves-bagdad-expansion-including-enlarged-ahs-fleet-new-overland-conveyor/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T20:06:55.000Z",
+   "summary": "Freeport announced today that its Board of Directors approved a US$4.5 billion expansion and modernisation program for its wholly owned Bagdad copper and molybdenum operation in northwest Arizona. The brownfield project is designed to...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Fortuna advances Diamba Sud permitting in Senegal",
    "link": "https://www.canadianminingjournal.com/news/fortuna-advances-diamba-sud-permitting-in-senegal/",
    "via": "",
@@ -250,9 +290,12 @@
    "summary": "Fortuna Mining (TSX: FVI, NYSE: FSM) says it has reached a milestone on the exploration permit process for its Diamba Sud project [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,9 +307,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Agnico, Vale warn of Ontario mining labour squeeze",
    "link": "https://www.northernminer.com/news/agnico-vale-warn-of-ontario-mining-labour-squeeze/1003897400/",
    "via": "",
@@ -275,9 +315,12 @@
    "summary": "Ontario’s push to accelerate mine approvals risks running into a shortage of skilled workers that could inflate construction costs and stall investment, executives from Agnico...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -289,9 +332,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Greenland Mines backs parliamentary approval of US-Denmark security deal",
    "link": "https://www.canadianminingjournal.com/news/greenland-mines-backs-parliamentary-approval-of-us-denmark-security-deal/",
    "via": "",
@@ -300,9 +340,12 @@
    "summary": "Greenland Mines (Nasdaq: GRML; FSE: HK6) says it welcomes Greenland’s parliamentary approval of a security agreement with the United States and Denmark. [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -314,9 +357,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Western tungsten prices nearly quadruple China’s: report",
    "link": "https://www.canadianminingjournal.com/news/western-tungsten-prices-nearly-quadruple-chinas-report/",
    "via": "",
@@ -325,20 +365,7 @@
    "summary": "MetalMiner’s new tungsten report shows how restrictions and geography have changed the tungsten market.",
    "image": null,
    "source": "Canadian Mining Journal",
-   "section": "",
-   "scope": "International",
    "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -369,17 +396,8 @@
    "press": false
   },
   {
-   "title": "Western tungsten prices nearly quadruple China’s: report",
-   "link": "https://www.mining.com/western-tungsten-prices-nearly-quadruple-chinas-report/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T17:18:21.000Z",
-   "summary": "MetalMiner’s new report shows how restrictions and geography have changed the tungsten market.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -391,6 +409,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Western tungsten prices nearly quadruple China’s: report",
+   "link": "https://www.mining.com/western-tungsten-prices-nearly-quadruple-chinas-report/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T17:18:21.000Z",
+   "summary": "MetalMiner’s new report shows how restrictions and geography have changed the tungsten market.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -554,17 +581,8 @@
    "press": false
   },
   {
-   "title": "Freeport approves $4.5 billion Bagdad copper expansion",
-   "link": "https://www.mining.com/freeport-approves-4-5-billion-bagdad-copper-expansion/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T15:57:49.000Z",
-   "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -578,6 +596,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Freeport approves $4.5 billion Bagdad copper expansion",
+   "link": "https://www.mining.com/freeport-approves-4-5-billion-bagdad-copper-expansion/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T15:57:49.000Z",
+   "summary": "By greenlighting the Arizona mine expansion Freeport-McMoRan aims to double copper production amid rising demand.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -608,17 +635,8 @@
    "press": false
   },
   {
-   "title": "Friedland’s Ivanhoe slashes copper outlook again",
-   "link": "https://www.canadianminingjournal.com/news/friedlands-ivanhoe-slashes-copper-outlook-again/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T15:38:38.000Z",
-   "summary": "Robert Friedland’s Ivanhoe Mines (TSX: IVN; US-OTC: IVPAF) has cut next year’s copper production outlook at Kamoa-Kakula by 19% as recovery work [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -632,6 +650,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Friedland’s Ivanhoe slashes copper outlook again",
+   "link": "https://www.canadianminingjournal.com/news/friedlands-ivanhoe-slashes-copper-outlook-again/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T15:38:38.000Z",
+   "summary": "Robert Friedland’s Ivanhoe Mines (TSX: IVN; US-OTC: IVPAF) has cut next year’s copper production outlook at Kamoa-Kakula by 19% as recovery work [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -662,17 +689,8 @@
    "press": false
   },
   {
-   "title": "Democrats’ win puts US mining agenda under scrutiny",
-   "link": "https://www.mining.com/democrats-win-puts-us-mining-agenda-under-scrutiny/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T15:13:08.000Z",
-   "summary": "Democrats’ capture of Congress raises the prospect of greater scrutiny of President Donald Trump’s mining and energy agenda, even as pressure to [...]",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -684,6 +702,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Democrats’ win puts US mining agenda under scrutiny",
+   "link": "https://www.mining.com/democrats-win-puts-us-mining-agenda-under-scrutiny/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T15:13:08.000Z",
+   "summary": "Democrats’ capture of Congress raises the prospect of greater scrutiny of President Donald Trump’s mining and energy agenda, even as pressure to [...]",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21354,33 +21381,6 @@
    "viaUrl": "",
    "date": "2026-10-23T08:26:01.000Z",
    "summary": "While already well known as one of the world's leading mineral processing equipment companies - supplying AG, SAG and ball mills, mining crushers and vertical mills, amongst other equipment, as well as mine hoists, CITIC Heavy Industries...",
-   "image": null,
-   "source": "International Mining",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Sandvik to supply trucks, loaders and jumbo drill to Northern Star Resources",
-   "link": "https://im-mining.com/2026/10/23/sandvik-to-supply-trucks-loaders-and-jumbo-drill-to-northern-star-resources/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T08:21:57.000Z",
-   "summary": "Northern Star Resources, one of Australia’s leading gold producers, has selected Sandvik to supply 25 units of underground equipment to support its operations in Western Australia. The order, which was booked in the September quarter of...",
    "image": null,
    "source": "International Mining",
    "region": "Global",
