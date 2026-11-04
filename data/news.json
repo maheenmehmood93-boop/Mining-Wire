@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T05:14:23.552Z",
+ "updated": "2026-11-04T06:17:27.373Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 88
+   "seen": 91
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Australian shares close at lowest in over a week; miners, banks weigh",
+   "link": "https://www.brecorder.com/news/40447355/australian-shares-close-at-lowest-in-over-a-week-miners-banks-weigh",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T05:48:46.000Z",
+   "summary": "Australian shares closed lower on Wednesday , with miners and banks weighing the most as investors assessed the impact of high interest rates on the economy after signals that the central bank’s tightening cycle may have run its course....",
+   "image": "https://i.brecorder.com/large/2026/04/08103429d64d92f.webp",
+   "source": "Business Recorder",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21336,31 +21361,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Mining Forum video: Bunker Hill seeks cheaper debt to fund growth",
-   "link": "https://www.northernminer.com/news/mining-forum-video-bunker-hill-seeks-cheaper-debt-to-fund-growth/1003895979/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-22T15:37:24.000Z",
-   "summary": "Bunker Hill Mining (TSX: BNKR; US-OTC: BHLL) aims to expand processing capacity at its restarted Idaho mine by nearly 40% in the second half of next year, executive chairman Richard...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
    "press": false
   }
  ]
