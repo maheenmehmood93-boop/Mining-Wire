@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T05:15:00.520Z",
+ "updated": "2026-11-05T06:19:26.126Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -145,7 +145,7 @@
    "source": "The Express Tribune",
    "section": "Business",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 25
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 92
+   "seen": 95
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "Fluor to act as EPCM contractor for new grinding line expansion at Sierra Gorda",
+   "link": "https://im-mining.com/2026/11/05/fluor-to-act-as-epcm-contractor-for-new-grinding-line-expansion-at-sierra-gorda/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-05T06:04:28.000Z",
+   "summary": "Fluor Corporation says it has received full notice to proceed under its engineering, procurement and construction management (EPCM) contract with Sierra Gorda Sociedad Contractual Minera (SGSCM) for the Fourth Grinding Line Expansion...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -21359,31 +21384,6 @@
    "viaUrl": "",
    "date": "2026-10-23T10:58:20.000Z",
    "summary": "Hitachi Construction Machinery Co Ltd has announced that an EX5500-6 ultra-large hydraulic excavator manufactured by the company has passed 100,000 hours of operation at the Moatize Coal Mine in Tete Province in the Republic of Mozambique....",
-   "image": null,
-   "source": "International Mining",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Epiroc unifies reverse circulation portfolio under AirDrill",
-   "link": "https://im-mining.com/2026/10/23/epiroc-unifies-reverse-circulation-portfolio-under-airdrill/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-23T10:38:49.000Z",
-   "summary": "Epiroc is introducing a unified reverse circulation (RC) portfolio, bringing together the established Epiroc RC range and the renowned AirDrill hammers and bits under a single, streamlined offering. The new AirDrill portfolio combines the...",
    "image": null,
    "source": "International Mining",
    "region": "Global",
