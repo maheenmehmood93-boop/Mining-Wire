@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T03:06:00.284Z",
+ "updated": "2026-11-05T04:11:48.126Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 87
+   "seen": 89
   },
   {
    "source": "Pakistan Observer",
@@ -194,7 +194,7 @@
    "source": "The Frontier Post",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Carbon offset benefits highlighted at Minerals Council climate day",
-   "link": "https://www.miningweekly.com/article/cutting-tax-while-funding-rural-development-highlighted-at-minerals-council-climate-day-2026-11-04",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-05T02:21:00.000Z",
-   "summary": "Carbon offsets can connect mining competitiveness with rural development, The African Stove Company (TASC) commercial director Dr Storm Patel highlighted at the launch of Mineral Council South Africa’s inaugural Climate Change Day of...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,20 +255,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Carbon offset benefits highlighted at Minerals Council climate day",
+   "link": "https://www.miningweekly.com/article/cutting-tax-while-funding-rural-development-highlighted-at-minerals-council-climate-day-2026-11-04",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-05T02:21:00.000Z",
+   "summary": "Carbon offsets can connect mining competitiveness with rural development, The African Stove Company (TASC) commercial director Dr Storm Patel highlighted at the launch of Mineral Council South Africa’s inaugural Climate Change Day of...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Uplift of local areas in Thar: Sindh will utilise royalties from coal projects: Soomro",
-   "link": "https://www.brecorder.com/news/40447515/uplift-of-local-areas-in-thar-sindh-will-utilise-royalties-from-coal-projects-soomro",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-05T02:08:33.000Z",
-   "summary": "KARACHI: Sindh Parliamentary Secretary for Local Government and Housing and Town Planning Qasim Siraj Soomro has said the provincial government will utilise royalties generated from coal projects for the development of local areas in Thar,...",
-   "image": "https://i.brecorder.com/large/2026/08/07044156ee3929c.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [
     "Coal"
@@ -291,6 +282,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Uplift of local areas in Thar: Sindh will utilise royalties from coal projects: Soomro",
+   "link": "https://www.brecorder.com/news/40447515/uplift-of-local-areas-in-thar-sindh-will-utilise-royalties-from-coal-projects-soomro",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-05T02:08:33.000Z",
+   "summary": "KARACHI: Sindh Parliamentary Secretary for Local Government and Housing and Town Planning Qasim Siraj Soomro has said the provincial government will utilise royalties generated from coal projects for the development of local areas in Thar,...",
+   "image": "https://i.brecorder.com/large/2026/08/07044156ee3929c.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
