@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T23:55:27.944Z",
+ "updated": "2026-11-05T01:26:36.904Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -242,17 +242,33 @@
  ],
  "items": [
   {
-   "title": "Sherritt announces temporary layoff of nearly half of its Canadian workforce",
-   "link": "https://www.miningweekly.com/article/sherritt-announces-temporary-layoff-of-nearly-half-ot-its-canadian-workforce-2026-11-05",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T22:54:00.000Z",
-   "summary": "Nickel and cobalt miner and refiner Sherritt International Corporation will temporarily lay off about 280 employees, representing 47% of its Canadian workforce, as part of ongoing measures to preserve liquidity while it works to restore...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Michigan mining push tests Lake Superior safeguards",
+   "link": "https://www.mining.com/michigan-mining-push-tests-lake-superior-safeguards/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T23:30:00.000Z",
+   "summary": "With exploration accelerating and proposed mines advancing near a lake that holds nearly 10% of the world’s surface fresh water, Michigan’s rules for modern mines could soon face a test across an entire district.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Nickel",
@@ -267,6 +283,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sherritt announces temporary layoff of nearly half of its Canadian workforce",
+   "link": "https://www.miningweekly.com/article/sherritt-announces-temporary-layoff-of-nearly-half-ot-its-canadian-workforce-2026-11-05",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T22:54:00.000Z",
+   "summary": "Nickel and cobalt miner and refiner Sherritt International Corporation will temporarily lay off about 280 employees, representing 47% of its Canadian workforce, as part of ongoing measures to preserve liquidity while it works to restore...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
@@ -297,17 +322,8 @@
    "press": false
   },
   {
-   "title": "Eagle Nuclear Energy to acquire Noble Plains Uranium",
-   "link": "https://www.mining.com/eagle-nuclear-energy-to-acquire-noble-plains-uranium/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T22:13:21.000Z",
-   "summary": "The deal will expand Eagle's resource footprint beyond Oregon, where it is advancing its Aurora project,",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Uranium"
@@ -321,6 +337,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Eagle Nuclear Energy to acquire Noble Plains Uranium",
+   "link": "https://www.mining.com/eagle-nuclear-energy-to-acquire-noble-plains-uranium/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-04T22:13:21.000Z",
+   "summary": "The deal will expand Eagle's resource footprint beyond Oregon, where it is advancing its Aurora project,",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -928,31 +953,6 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
-   "press": false
-  },
-  {
-   "title": "Michigan mining push tests Lake Superior safeguards",
-   "link": "https://www.mining.com/michigan-mining-push-tests-lake-superior-safeguards/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-04T16:00:00.000Z",
-   "summary": "With exploration accelerating and proposed mines advancing near a lake that holds nearly 10% of the world’s surface fresh water, Michigan’s rules for modern mines could soon face a test across an entire district.",
-   "image": null,
-   "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
