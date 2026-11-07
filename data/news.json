@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:54:07.817Z",
+ "updated": "2026-11-07T10:21:34.762Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -145,7 +145,7 @@
    "source": "The Express Tribune",
    "section": "Business",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 25
   },
   {
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 58
+   "seen": 75
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Thar coal being developed beyond power generation: Sharjeel",
-   "link": "https://www.brecorder.com/news/40447815/thar-coal-being-developed-beyond-power-generation-sharjeel",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-07T01:34:43.000Z",
-   "summary": "KARACHI: Sindh Senior Minister and Provincial Minister for Information, Transport and Mass Transit Sharjeel Inam Memon has said that Thar coal is being developed beyond electricity generation and is being made a source of industrial...",
-   "image": "https://i.brecorder.com/large/2025/12/240207489faf8e5.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [
     "Coal"
@@ -266,20 +257,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Thar coal being developed beyond power generation: Sharjeel",
+   "link": "https://www.brecorder.com/news/40447815/thar-coal-being-developed-beyond-power-generation-sharjeel",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-07T01:34:43.000Z",
+   "summary": "KARACHI: Sindh Senior Minister and Provincial Minister for Information, Transport and Mass Transit Sharjeel Inam Memon has said that Thar coal is being developed beyond electricity generation and is being made a source of industrial...",
+   "image": "https://i.brecorder.com/large/2025/12/240207489faf8e5.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
-   "title": "Copper faces further slide after US vote: TD",
-   "link": "https://www.mining.com/copper-faces-further-slide-after-us-vote-td/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T23:54:00.000Z",
-   "summary": "Copper could fall further as Democratic Party gains in the United States midterm elections weaken expectations for import tariffs.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Copper"
@@ -293,20 +284,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Copper faces further slide after US vote: TD",
+   "link": "https://www.mining.com/copper-faces-further-slide-after-us-vote-td/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-06T23:54:00.000Z",
+   "summary": "Copper could fall further as Democratic Party gains in the United States midterm elections weaken expectations for import tariffs.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "DLA commits $2 billion to acquire critical materials for National Defense Stockpile",
-   "link": "https://www.mining.com/us-dla-commits-2-billion-to-acquire-critical-materials-for-national-defense-stockpile/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T23:30:00.000Z",
-   "summary": "US National Defense Strategy calls for reshoring strategic industries and expanding domestic production.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -318,6 +309,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "DLA commits $2 billion to acquire critical materials for National Defense Stockpile",
+   "link": "https://www.mining.com/us-dla-commits-2-billion-to-acquire-critical-materials-for-national-defense-stockpile/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-06T23:30:00.000Z",
+   "summary": "US National Defense Strategy calls for reshoring strategic industries and expanding domestic production.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -373,17 +373,8 @@
    "press": false
   },
   {
-   "title": "MP Materials posts surprise adjusted profit",
-   "link": "https://www.mining.com/mp-materials-posts-surprise-adjusted-profit/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T18:09:29.000Z",
-   "summary": "MP Materials (NYSE: MP), America’s only rare earth miner, earned an unexpected adjusted quarterly profit as sales volumes of magnet-making rare earths [...]",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Rare earths"
@@ -397,6 +388,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "MP Materials posts surprise adjusted profit",
+   "link": "https://www.mining.com/mp-materials-posts-surprise-adjusted-profit/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-06T18:09:29.000Z",
+   "summary": "MP Materials (NYSE: MP), America’s only rare earth miner, earned an unexpected adjusted quarterly profit as sales volumes of magnet-making rare earths [...]",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
