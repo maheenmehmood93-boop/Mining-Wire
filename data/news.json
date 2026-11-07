@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T16:52:57.754Z",
+ "updated": "2026-11-07T20:56:38.770Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "no items found in feed"
+   "error": "HTTP 502"
   },
   {
    "source": "MINING.COM",
@@ -180,8 +180,8 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 1,
-   "seen": 101
+   "items": 0,
+   "seen": 56
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +242,8 @@
  ],
  "items": [
   {
-   "title": "Oil tanker hits naval mine in Strait of Hormuz",
-   "link": "https://dailytimes.com.pk/1578160/oil-tanker-hits-naval-mine-in-strait-of-hormuz/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-07T14:06:44.000Z",
-   "summary": "An oil tanker caught fire after striking a naval mine in the Strait of Hormuz. Iran's navy reported the incident on Saturday, according to Iranian media. The explosion occurred in the eastern section of the strategic waterway. The incident...",
-   "image": null,
-   "source": "Daily Times",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,20 +255,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Oil tanker hits naval mine in Strait of Hormuz",
+   "link": "https://dailytimes.com.pk/1578160/oil-tanker-hits-naval-mine-in-strait-of-hormuz/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-07T14:06:44.000Z",
+   "summary": "An oil tanker caught fire after striking a naval mine in the Strait of Hormuz. Iran's navy reported the incident on Saturday, according to Iranian media. The explosion occurred in the eastern section of the strategic waterway. The incident...",
+   "image": null,
+   "source": "Daily Times",
+   "region": "Pakistan",
    "press": false
   },
   {
-   "title": "Beyond extraction: turning Pakistan's mineral wealth into national prosperity",
-   "link": "https://www.brecorder.com/news/40447902/beyond-extraction-turning-pakistans-mineral-wealth-into-national-prosperity",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-07T13:21:39.000Z",
-   "summary": "As Pakistan prepares to welcome international investors, mining companies and industry experts at the Pakistan Minerals Investment Forum in Islamabad next week, it is important to look beyond the immediate objective of attracting...",
-   "image": "https://i.brecorder.com/large/2026/11/07181247f8d8704.webp",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -289,6 +280,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Beyond extraction: turning Pakistan's mineral wealth into national prosperity",
+   "link": "https://www.brecorder.com/news/40447902/beyond-extraction-turning-pakistans-mineral-wealth-into-national-prosperity",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-07T13:21:39.000Z",
+   "summary": "As Pakistan prepares to welcome international investors, mining companies and industry experts at the Pakistan Minerals Investment Forum in Islamabad next week, it is important to look beyond the immediate objective of attracting...",
+   "image": "https://i.brecorder.com/large/2026/11/07181247f8d8704.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
