@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T07:26:58.148Z",
+ "updated": "2026-11-08T15:18:53.627Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 67
+   "seen": 94
   },
   {
    "source": "Pakistan Observer",
@@ -215,7 +215,7 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -242,17 +242,35 @@
  ],
  "items": [
   {
-   "title": "Iran says two tankers caught fire in Hormuz after hitting mines",
-   "link": "https://arynews.tv/iran-two-tankers-caught-fire-hormuz-hitting-mines",
+   "title": "Two Pakistani Personnel Killed as Convoys Attacked Across Balochistan",
+   "link": "https://thebalochistanpost.net/2026/11/two-pakistani-personnel-killed-as-convoys-attacked-across-balochistan/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-08T05:59:01.000Z",
-   "summary": "Iran says two tankers caught fire in Hormuz after hitting mines",
-   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/Iran-1.jpg",
-   "source": "ARY News",
+   "date": "2026-11-08T11:51:14.000Z",
+   "summary": "Two Pakistani military personnel were reportedly killed and another wounded in an attack on a convoy in Balochistan’s Kech district on Saturday, while armed fighters also targeted a convoy carrying minerals from the Saindak project in...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": true,
+   "safetyType": "Fatality / injury",
+   "country": "Pakistan",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,20 +282,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Iran says two tankers caught fire in Hormuz after hitting mines",
+   "link": "https://arynews.tv/iran-two-tankers-caught-fire-hormuz-hitting-mines",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-08T05:59:01.000Z",
+   "summary": "Iran says two tankers caught fire in Hormuz after hitting mines",
+   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/Iran-1.jpg",
+   "source": "ARY News",
+   "region": "Pakistan",
    "press": false
   },
   {
-   "title": "Governor invites Chinese investors to explore KP’s potential",
-   "link": "https://www.dawn.com/news/2042888/governor-invites-chinese-investors-to-explore-kps-potential",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-08T05:29:37.000Z",
-   "summary": "PESHAWAR: Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Saturday said the province was rich in natural resources and mineral reserves, offering investment opportunities in the minerals sector and other fields. “Hold consultations with...",
-   "image": "https://i.dawn.com/large/2026/11/0810275699eafa1.webp",
-   "source": "Dawn",
    "section": "Pakistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -291,6 +309,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Governor invites Chinese investors to explore KP’s potential",
+   "link": "https://www.dawn.com/news/2042888/governor-invites-chinese-investors-to-explore-kps-potential",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-08T05:29:37.000Z",
+   "summary": "PESHAWAR: Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Saturday said the province was rich in natural resources and mineral reserves, offering investment opportunities in the minerals sector and other fields. “Hold consultations with...",
+   "image": "https://i.dawn.com/large/2026/11/0810275699eafa1.webp",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -21322,31 +21349,6 @@
    "image": null,
    "source": "Mining.com.au",
    "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Ministers promote New South Wales, Australia mineral wealth to IMARC 2026 crowd",
-   "link": "https://im-mining.com/2026/10/26/ministers-promote-new-south-wales-australia-mineral-wealth-to-imarc-2026-crowd/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T23:21:58.000Z",
-   "summary": "Critical minerals, global supply chains, mining investment and the race to develop new projects dominated early presentations as the International Mining and Resources Conference + Expo (IMARC) 2026 event opened in Sydney this morning. New...",
-   "image": null,
-   "source": "International Mining",
-   "region": "Global",
    "press": false
   }
  ]
