@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T00:42:43.535Z",
+ "updated": "2026-11-08T07:26:58.148Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -180,8 +180,8 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 0,
-   "seen": 56
+   "items": 1,
+   "seen": 67
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,58 @@
   }
  ],
  "items": [
+  {
+   "title": "Iran says two tankers caught fire in Hormuz after hitting mines",
+   "link": "https://arynews.tv/iran-two-tankers-caught-fire-hormuz-hitting-mines",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-08T05:59:01.000Z",
+   "summary": "Iran says two tankers caught fire in Hormuz after hitting mines",
+   "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/10/Iran-1.jpg",
+   "source": "ARY News",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "Explosion / fire",
+   "country": "Iran",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Governor invites Chinese investors to explore KP’s potential",
+   "link": "https://www.dawn.com/news/2042888/governor-invites-chinese-investors-to-explore-kps-potential",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-08T05:29:37.000Z",
+   "summary": "PESHAWAR: Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Saturday said the province was rich in natural resources and mineral reserves, offering investment opportunities in the minerals sector and other fields. “Hold consultations with...",
+   "image": "https://i.dawn.com/large/2026/11/0810275699eafa1.webp",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
@@ -21294,56 +21346,6 @@
    "summary": "Critical minerals, global supply chains, mining investment and the race to develop new projects dominated early presentations as the International Mining and Resources Conference + Expo (IMARC) 2026 event opened in Sydney this morning. New...",
    "image": null,
    "source": "International Mining",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Miner news: Real-time intelligence for mining investors and industry professionals",
-   "link": "https://mining.com.au/miner-news-real-time-intelligence-for-mining-investors-and-industry-professionals/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T22:35:07.000Z",
-   "summary": "Stay ahead of the drill bit with miner news from Mining.com.au Miner news provides fast, verified reporting on the companies and projects shaping the resources sector, from ASX-listed explorers drilling their first holes to global majors...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Avanti Helium advances construction at Sweetgrass project in Montana",
-   "link": "https://www.mining.com/avanti-helium-advances-construction-at-sweetgrass-project-in-montana/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-26T22:31:48.000Z",
-   "summary": "News comes just days after the US Department of Energy formally designated helium as a critical material,",
-   "image": null,
-   "source": "MINING.COM",
    "region": "Global",
    "press": false
   }
