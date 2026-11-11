@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T23:28:21.527Z",
+ "updated": "2026-11-11T06:36:05.109Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,13 +181,13 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 79
+   "seen": 91
   },
   {
    "source": "Pakistan Observer",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
@@ -242,17 +242,37 @@
  ],
  "items": [
   {
-   "title": "US critical minerals funding to withstand congressional shift, advisers say",
-   "link": "https://www.mining.com/us-critical-minerals-funding-to-withstand-congressional-shift-advisers-say/",
+   "title": "KOHAT ADMINISTRATION CLEARS 94-KM INDUS RIVER STRETCH, ARRESTS 21 IN CRACKDOWN ON ILLEGAL GOLD MINING",
+   "link": "https://pakobserver.net/kohat-administration-clears-94-km-indus-river-stretch-arrests-21-in-crackdown-on-illegal-gold-mining/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-10T23:16:18.000Z",
-   "summary": "Momentum will likely continue under a Democratic-controlled Congress, Clark Street Associates says.",
+   "date": "2026-11-11T06:07:37.000Z",
+   "summary": "DC KOHAT TIGHTENS NOOSE AROUND ILLEGAL GOLD MINERS; 5,000 TOLA ANNUAL GOLD EXTRACTION UNDER SCRUTINY, EXCAVATORS FLEE MINING SITES 60-day…",
    "image": null,
-   "source": "MINING.COM",
+   "source": "Pakistan Observer",
+   "section": "",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +284,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "US critical minerals funding to withstand congressional shift, advisers say",
+   "link": "https://www.mining.com/us-critical-minerals-funding-to-withstand-congressional-shift-advisers-say/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T23:16:18.000Z",
+   "summary": "Momentum will likely continue under a Democratic-controlled Congress, Clark Street Associates says.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -326,17 +355,8 @@
    "press": false
   },
   {
-   "title": "Xplor video: Quebec miners push to end duplicate project reviews",
-   "link": "https://www.northernminer.com/news/xplor-video-quebec-miners-push-to-end-duplicate-reviews/1003897654/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T21:32:35.000Z",
-   "summary": "Quebec’s miners are pressing Ottawa and the province to coordinate environmental reviews and shorten approval timelines to help restore the industry’s competitiveness, Quebec Mining Association...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -348,20 +368,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Xplor video: Quebec miners push to end duplicate project reviews",
+   "link": "https://www.northernminer.com/news/xplor-video-quebec-miners-push-to-end-duplicate-reviews/1003897654/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T21:32:35.000Z",
+   "summary": "Quebec’s miners are pressing Ottawa and the province to coordinate environmental reviews and shorten approval timelines to help restore the industry’s competitiveness, Quebec Mining Association...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "American Barrick files for proposed IPO",
-   "link": "https://www.mining.com/american-barrick-files-for-proposed-ipo/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T21:30:28.000Z",
-   "summary": "Barrick Mining announced Tuesday that its planned new publicly listed company will be named American Barrick Gold Corporation.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -375,6 +395,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "American Barrick files for proposed IPO",
+   "link": "https://www.mining.com/american-barrick-files-for-proposed-ipo/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T21:30:28.000Z",
+   "summary": "Barrick Mining announced Tuesday that its planned new publicly listed company will be named American Barrick Gold Corporation.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -510,17 +539,8 @@
    "press": false
   },
   {
-   "title": "Q2 maps 28-year lithium operation at Cisco",
-   "link": "https://www.northernminer.com/news/q2-maps-28-year-lithium-operation-at-cisco/1003897652/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T21:05:51.000Z",
-   "summary": "Q2 Metals (TSXV: QTWO; US-OTC: QUEXF) estimates that developing its Cisco lithium project in Quebec would require $2.93 billion (US$2.11 billion) in initial capital, according...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -534,6 +554,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Q2 maps 28-year lithium operation at Cisco",
+   "link": "https://www.northernminer.com/news/q2-maps-28-year-lithium-operation-at-cisco/1003897652/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T21:05:51.000Z",
+   "summary": "Q2 Metals (TSXV: QTWO; US-OTC: QUEXF) estimates that developing its Cisco lithium project in Quebec would require $2.93 billion (US$2.11 billion) in initial capital, according...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -618,17 +647,8 @@
    "press": false
   },
   {
-   "title": "Aston Bay’s Storm copper study puts capex at $165M",
-   "link": "https://www.northernminer.com/news/aston-bays-storm-copper-study-puts-capex-at-165m/1003897661/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T20:45:35.000Z",
-   "summary": "Aston Bay Holdings (TSXV: BAY; US-OTC: ATBHF) estimates developing and expanding its Storm copper project in Nunavut would cost C$164.7 million ($118.5 million), according to...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -642,9 +662,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Aston Bay’s Storm copper study puts capex at $165M",
+   "link": "https://www.northernminer.com/news/aston-bays-storm-copper-study-puts-capex-at-165m/1003897661/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T20:45:35.000Z",
+   "summary": "Aston Bay Holdings (TSXV: BAY; US-OTC: ATBHF) estimates developing and expanding its Storm copper project in Nunavut would cost C$164.7 million ($118.5 million), according to...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "TruSilver eyes European investors with Frankfurt listing",
    "link": "https://www.canadianminingjournal.com/news/trusilver-eyes-european-investors-with-frankfurt-listing/",
    "via": "",
@@ -653,9 +695,12 @@
    "summary": "Following its October listing on the Toronto Stock Exchange Venture (TSXV), TruSilver Metals (TSXV: TAG) has announced that its common shares have [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -667,9 +712,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Market volatility adds new hurdle to critical minerals investment: report",
    "link": "https://www.mining.com/market-volatility-adds-new-hurdle-to-critical-minerals-investment-report/",
    "via": "",
@@ -678,20 +720,7 @@
    "summary": "Unpredictable commodity markets are delaying projects, raising financing costs and pushing developers to rethink supply chains.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
@@ -798,17 +827,8 @@
    "press": false
   },
   {
-   "title": "Dispatch from the ground: Pakistan, day one",
-   "link": "https://www.mining.com/dispatch-from-the-ground-pakistan-day-one/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T16:02:00.000Z",
-   "summary": "The first day in Islamabad showed the race for Pakistan's minerals hinges on transport routes, not just resources.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "Pakistan",
    "scope": "International",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -820,6 +840,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Dispatch from the ground: Pakistan, day one",
+   "link": "https://www.mining.com/dispatch-from-the-ground-pakistan-day-one/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T16:02:00.000Z",
+   "summary": "The first day in Islamabad showed the race for Pakistan's minerals hinges on transport routes, not just resources.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -903,17 +932,8 @@
    "press": false
   },
   {
-   "title": "Sponsored Xplor video: XXIX Metal launches 65,000-metre copper drill push",
-   "link": "https://www.northernminer.com/precious-metals/sponsored-xplor-video-xxix-metal-launches-65000-metre-copper-drill-push/1003897648/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T15:00:10.000Z",
-   "summary": "XXIX Metal CEO Guy Le Bel in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Copper"
@@ -927,6 +947,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored Xplor video: XXIX Metal launches 65,000-metre copper drill push",
+   "link": "https://www.northernminer.com/precious-metals/sponsored-xplor-video-xxix-metal-launches-65000-metre-copper-drill-push/1003897648/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T15:00:10.000Z",
+   "summary": "XXIX Metal CEO Guy Le Bel in conversation with The Northern Miner Western Editor Henry Lazenby. This sponsored video is PROMOTED CONTENT paid for by...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -1139,17 +1168,8 @@
    "press": false
   },
   {
-   "title": "Discovery beats forecasts despite higher gold costs",
-   "link": "https://www.mining.com/discovery-beats-forecasts-despite-higher-gold-costs/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T13:53:42.000Z",
-   "summary": "Discovery is aiming to more than double Porcupine’s annual gold output by expanding existing mines and restarting Dome as an open-pit deposit.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "Exploration search",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Gold"
@@ -1165,6 +1185,15 @@
    "exHighlight": "",
    "exCountry": "Unspecified",
    "exRegion": "",
+   "title": "Discovery beats forecasts despite higher gold costs",
+   "link": "https://www.mining.com/discovery-beats-forecasts-despite-higher-gold-costs/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T13:53:42.000Z",
+   "summary": "Discovery is aiming to more than double Porcupine’s annual gold output by expanding existing mines and restarting Dome as an open-pit deposit.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21282,37 +21311,6 @@
    "viaUrl": "",
    "date": "2026-10-28T01:05:00.000Z",
    "summary": "New state, new project and some serious uranium history! Orpheus Uranium (ASX:ORP) has completed its acquisition of the Oobagooma Uranium Project in Western Australia’s Canning Basin, adding a historically explored uranium asset to its...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Copper",
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Australia",
-   "exRegion": "Western Australia",
-   "title": "Antipa strikes ‘thick, high-grade’ gold at Minyari",
-   "link": "https://mining.com.au/antipa-strikes-thick-high-grade-gold-at-minyari/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-28T00:53:48.000Z",
-   "summary": "Antipa Minerals (ASX:AZY) continues to progress drilling with two rigs at its Minyari Gold-Copper Project in Western Australia, reporting ‘high-grade’ gold at the Minyari deposit and ‘strong’ gold intersections at Tim’s Dome. Assays from...",
    "image": null,
    "source": "Mining.com.au",
    "region": "Asia-Pacific",
