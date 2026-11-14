@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T14:13:36.510Z",
+ "updated": "2026-11-14T19:14:05.829Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -123,22 +123,20 @@
   {
    "source": "Dawn",
    "section": "Pakistan",
-   "ok": true,
-   "items": 1,
-   "seen": 30
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "Dawn",
    "section": "Business",
-   "ok": true,
-   "items": 3,
-   "seen": 30
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "The Express Tribune",
    "section": "Pakistan",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "seen": 38
   },
   {
@@ -180,14 +178,14 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 5,
-   "seen": 116
+   "items": 3,
+   "seen": 64
   },
   {
    "source": "Pakistan Observer",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 10
   },
   {
@@ -236,12 +234,56 @@
    "source": "Chitral Times",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   }
  ],
  "items": [
   {
+   "title": "خیبرپختونخوا میں سونے کی کان کنی کی تمام سرگرمیاں فوری معطل، خلاف ورزی پر مشینری ضبط ہوگی، غیر قانونی مائننگ کی تحقیقات کے لیے جوڈیشل کمیشن بنانے کا اعلان",
+   "link": "https://chitraltimes.com/governor-announces-suspension-of-illegal-gold-mining-in-kp-after-kohat-incident",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-14T16:02:51.000Z",
+   "summary": "Chitral Times خیبرپختونخوا میں سونے کی کان کنی کی تمام سرگرمیاں فوری معطل، خلاف ورزی پر مشینری ضبط ہوگی، غیر قانونی مائننگ کی تحقیقات کے لیے جوڈیشل کمیشن بنانے کا اعلان خیبرپختونخوا میں سونے کی کان کنی کی تمام سرگرمیاں فوری معطل، خلاف ورزی...",
+   "image": null,
+   "source": "Chitral Times",
+   "section": "",
+   "scope": "National",
+   "region": "Chitral",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [
+    "Gold"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "KP Governor Kundi announces suspension of gold mining across province",
    "link": "https://www.dawn.com/news/2044485/kp-governor-kundi-announces-suspension-of-gold-mining-across-province",
    "via": "",
@@ -250,9 +292,12 @@
    "summary": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi on Saturday announced a ban on gold mining across the province and the revocation of all mining leases as part of measures to curb illegal mining. Addressing a press conference in Peshawar,...",
    "image": "https://i.dawn.com/large/2026/11/14135301e83d9a0.webp",
    "source": "Dawn",
-   "section": "Pakistan",
-   "scope": "National",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -268,9 +313,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Governor Kundi suspends all gold mining activities over illegal extraction in Khyber Pakhtunkhwa",
    "link": "https://pakobserver.net/governor-kundi-suspends-all-gold-mining-activities-over-illegal-extraction-in-khyber-pakhtunkhwa/",
    "via": "",
@@ -279,9 +321,12 @@
    "summary": "PESHAWAR - Khyber Pakhtunkhwa Governor Faisal Karim Kundi ordered the immediate suspension of all gold mining activities across the province…",
    "image": null,
    "source": "Pakistan Observer",
+   "region": "Pakistan",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -297,9 +342,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "KP governor announces suspension of gold mining, cancellation of leases across province",
    "link": "https://arynews.tv/kp-governor-announces-suspension-of-gold-mining-cancellation-of-leases-across-province",
    "via": "",
@@ -308,9 +350,12 @@
    "summary": "KP governor announces suspension of gold mining, cancellation of leases across province",
    "image": "https://static.arynews.tv/zip-archives/wp-content/uploads/2026/11/governor-kp.jpg",
    "source": "ARY News",
-   "section": "",
-   "scope": "National",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -326,9 +371,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "KP governor suspends gold mining across province, cancels leases",
    "link": "https://www.geo.tv/latest/691067-kp-governor-suspends-gold-mining-across-province-cancels-leases",
    "via": "",
@@ -337,38 +379,12 @@
    "summary": "Khyber Pakhtunkhwa Governor Faisal Karim Kundi addresses the press conference in Peshawar, November 14, 2026. &mdash; Screengrab via YouTube/Geo NewsKP governor vows zero tolerance for illegal mining across province.Illegal mining...",
    "image": null,
    "source": "Geo News",
-   "section": "Pakistan",
-   "scope": "National",
    "region": "Pakistan",
-   "provinces": [
-    "Khyber Pakhtunkhwa"
-   ],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "Iran reports three incidents of oil tankers hit by mines in Hormuz",
-   "link": "https://www.brecorder.com/news/40448900/iran-reports-three-incidents-of-oil-tankers-hit-by-mines-in-hormuz",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-14T07:24:35.000Z",
-   "summary": "TEHRAN: Iran’s navy and Revolutionary Guards said on Saturday that fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz , where Tehran has restricted navigation. Tehran has insisted that vessels...",
-   "image": "https://i.brecorder.com/large/2024/01/06130556f44ead7.jpg",
-   "source": "Business Recorder",
    "section": "",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -380,6 +396,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Iran reports three incidents of oil tankers hit by mines in Hormuz",
+   "link": "https://www.brecorder.com/news/40448900/iran-reports-three-incidents-of-oil-tankers-hit-by-mines-in-hormuz",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-14T07:24:35.000Z",
+   "summary": "TEHRAN: Iran’s navy and Revolutionary Guards said on Saturday that fires had broken out on a total of three oil tankers that struck mines in the Strait of Hormuz , where Tehran has restricted navigation. Tehran has insisted that vessels...",
+   "image": "https://i.brecorder.com/large/2024/01/06130556f44ead7.jpg",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -483,17 +508,8 @@
    "press": false
   },
   {
-   "title": "K-P Governor Kundi suspends provincial gold mining leases amid illegal mining concerns",
-   "link": "https://tribune.com.pk/story/2640284/kundi-says-illegal-gold-mining-in-kohat-funded-terrorism-names-politicians",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-14T04:12:05.000Z",
-   "summary": "Says new gold mining policy to be introduced in province within three weeks",
-   "image": null,
-   "source": "The Express Tribune",
    "section": "Pakistan",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Khyber Pakhtunkhwa"
    ],
@@ -509,6 +525,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "K-P Governor Kundi suspends provincial gold mining leases amid illegal mining concerns",
+   "link": "https://tribune.com.pk/story/2640284/kundi-says-illegal-gold-mining-in-kohat-funded-terrorism-names-politicians",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-14T04:12:05.000Z",
+   "summary": "Says new gold mining policy to be introduced in province within three weeks",
+   "image": null,
+   "source": "The Express Tribune",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -21296,34 +21321,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Silver",
-    "Zinc"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "BP Silver expands shallow silver-zinc zones at Cosuño",
-   "link": "https://mining.com.au/bp-silver-expands-shallow-silver-zinc-zones-at-cosuno/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T21:53:55.000Z",
-   "summary": "BP Silver (TSX-V:BPAG) will continue drilling at Jalsuri North after two step-out holes at its Cosuño Silver Project in Bolivia ended in mineralisation. The company reports assays from holes CO-0016 and CO-0019, part of its phase-two...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
    "press": false
   }
  ]
