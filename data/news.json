@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T11:05:26.972Z",
+ "updated": "2026-11-15T17:47:44.025Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -173,7 +173,7 @@
    "source": "Geo News",
    "section": "Pakistan",
    "ok": true,
-   "items": 4,
+   "items": 3,
    "seen": 20
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 3,
-   "seen": 87
+   "seen": 112
   },
   {
    "source": "Pakistan Observer",
@@ -193,16 +193,14 @@
   {
    "source": "The Frontier Post",
    "section": "",
-   "ok": true,
-   "items": 0,
-   "seen": 10
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "The Frontier Post",
    "section": "Chagai search",
-   "ok": true,
-   "items": 4,
-   "seen": 10
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "Daily Pakistan",
@@ -221,9 +219,8 @@
   {
    "source": "The Frontier Post",
    "section": "Safety search",
-   "ok": true,
-   "items": 1,
-   "seen": 10
+   "ok": false,
+   "error": "The operation was aborted due to timeout"
   },
   {
    "source": "Daily Pakistan",
@@ -242,47 +239,18 @@
  ],
  "items": [
   {
-   "title": "Dalbandin Airport saved from Major Terror Attack as Security Forces eliminate Two Militants",
-   "link": "https://en.dailypakistan.com.pk/15-Nov-2026/dalbandin-airport-saved-from-major-terror-attack-as-security-forces-eliminate-two-militants",
+   "title": "Ontario Government backing local growth plans of Caron Equipment, Becker Varis and more",
+   "link": "https://im-mining.com/2026/11/15/ontario-government-backing-local-growth-plans-of-caron-equipment-becker-varis-and-more/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-15T05:49:55.000Z",
-   "summary": "QUETTA – A terror attack targeting Dalbandin Airport, religious pilgrims and commercial transport facilities in Balochistan was reportedly prevented after security forces intercepted and killed two suspected militants during a late-night...",
+   "date": "2026-11-15T16:53:00.000Z",
+   "summary": "The Ontario government is investing C$2.63 million ($1.83 million) through the Northern Ontario Heritage Fund Corporation (NOHFC) to help eight northern companies expand or launch operations, purchase equipment and create jobs in the...",
    "image": null,
-   "source": "Daily Pakistan",
-   "section": "Chagai search",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [
-    "Balochistan"
-   ],
-   "tags": [],
-   "mining": false,
-   "chagaiSecurity": true,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "Tehreek-i-Insaf warns against federal control of KP’s minerals",
-   "link": "https://www.dawn.com/news/2044558/tehreek-i-insaf-warns-against-federal-control-of-kps-minerals",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-15T02:45:33.000Z",
-   "summary": "PESHAWAR: The Pakistan Tehreek-i-Insaf’s Khyber Pakhtunkhwa chapter on Saturday warned against placing the province’s mineral resources under federal or other external authority or control during the current emergency and governor’s rule,...",
-   "image": "https://i.dawn.com/large/2026/01/24095113b740e1d.webp",
-   "source": "Dawn",
-   "section": "Pakistan",
-   "scope": "National",
-   "region": "Pakistan",
-   "provinces": [
-    "Khyber Pakhtunkhwa"
-   ],
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
    "tags": [],
    "mining": true,
    "chagaiSecurity": false,
@@ -296,17 +264,87 @@
    "press": false
   },
   {
-   "title": "Economic future linked to political stability: PTI",
-   "link": "https://www.dawn.com/news/2044601/economic-future-linked-to-political-stability-pti",
+   "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
+   "link": "https://www.brecorder.com/news/40449028/gulf-bourses-slide-as-hormuz-tensions-and-houthi-strikes-rattle-traders",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-15T02:36:59.000Z",
-   "summary": "ISLAMABAD: The PTI on Saturday expressed concern over the deteriorating security situation in the country, particularly in Khyber Pakhtunkhwa and Balochistan, questioning how Pakistan could attract foreign investment in its mineral sector...",
-   "image": "https://i.dawn.com/large/2026/05/041953199310cb9.webp",
-   "source": "Dawn",
-   "section": "Pakistan",
+   "date": "2026-11-15T14:06:46.000Z",
+   "summary": "Most Gulf bourses closed lower on Sunday, with traders weighing the disruption in the Strait of Hormuz alongside Houthi attacks on Saudi Arabia. The Iranian navy has confirmed that a Saturday mine strike in the Strait of Hormuz set three...",
+   "image": "https://i.brecorder.com/large/2026/11/15190432517edae.jpg",
+   "source": "Business Recorder",
+   "section": "",
    "scope": "National",
    "region": "Pakistan",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "Chagai search",
+   "scope": "National",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Dalbandin Airport saved from Major Terror Attack as Security Forces eliminate Two Militants",
+   "link": "https://en.dailypakistan.com.pk/15-Nov-2026/dalbandin-airport-saved-from-major-terror-attack-as-security-forces-eliminate-two-militants",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T05:49:55.000Z",
+   "summary": "QUETTA – A terror attack targeting Dalbandin Airport, religious pilgrims and commercial transport facilities in Balochistan was reportedly prevented after security forces intercepted and killed two suspected militants during a late-night...",
+   "image": null,
+   "source": "Daily Pakistan",
+   "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Tehreek-i-Insaf warns against federal control of KP’s minerals",
+   "link": "https://www.dawn.com/news/2044558/tehreek-i-insaf-warns-against-federal-control-of-kps-minerals",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T02:45:33.000Z",
+   "summary": "PESHAWAR: The Pakistan Tehreek-i-Insaf’s Khyber Pakhtunkhwa chapter on Saturday warned against placing the province’s mineral resources under federal or other external authority or control during the current emergency and governor’s rule,...",
+   "image": "https://i.dawn.com/large/2026/01/24095113b740e1d.webp",
+   "source": "Dawn",
+   "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "National",
    "provinces": [
     "Balochistan",
     "Khyber Pakhtunkhwa"
@@ -321,20 +359,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Economic future linked to political stability: PTI",
+   "link": "https://www.dawn.com/news/2044601/economic-future-linked-to-political-stability-pti",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T02:36:59.000Z",
+   "summary": "ISLAMABAD: The PTI on Saturday expressed concern over the deteriorating security situation in the country, particularly in Khyber Pakhtunkhwa and Balochistan, questioning how Pakistan could attract foreign investment in its mineral sector...",
+   "image": "https://i.dawn.com/large/2026/05/041953199310cb9.webp",
+   "source": "Dawn",
+   "region": "Pakistan",
    "press": false
   },
   {
-   "title": "Govt defers ML-3 for third time",
-   "link": "https://tribune.com.pk/story/2640346/govt-defers-ml-3-for-third-time",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-14T16:32:18.000Z",
-   "summary": "Funding woes stall $1b Reko Diq rail project amid renewed focus on minerals",
-   "image": null,
-   "source": "The Express Tribune",
    "section": "Business",
    "scope": "National",
-   "region": "Pakistan",
    "provinces": [
     "Balochistan"
    ],
@@ -348,6 +386,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Govt defers ML-3 for third time",
+   "link": "https://tribune.com.pk/story/2640346/govt-defers-ml-3-for-third-time",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-14T16:32:18.000Z",
+   "summary": "Funding woes stall $1b Reko Diq rail project amid renewed focus on minerals",
+   "image": null,
+   "source": "The Express Tribune",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -21270,63 +21317,6 @@
    "viaUrl": "",
    "date": "2026-10-29T22:38:08.000Z",
    "summary": "Amex Gold Mining (TSX-V:AMX) is planning more drilling in the Beaupré Block after potentially extending the Denise Zone about 320m east at Perron. The company reports first results from its resource conversion program at the Perron Gold...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Chile's Codelco fires eight amid probe into over-reported output",
-   "link": "https://www.miningweekly.com/article/chiles-codelco-fires-eight-amid-probe-into-over-reported-output-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:37:00.000Z",
-   "summary": "Chile's State-owned miner Codelco said on Thursday it had dismissed eight people, including executives, amid its investigation into over-reported copper production in 2024 and 2025. Those dismissed include managers at its Chuquicamata,...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold",
-    "Silver"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drilling update",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Mexico",
-   "exRegion": "",
-   "title": "Pinnacle targets Topia system extension at El Potrero",
-   "link": "https://mining.com.au/pinnacle-targets-topia-system-extension-at-el-potrero/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:29:41.000Z",
-   "summary": "Pinnacle Silver and Gold (TSX-V:PINN) has designed a 16-hole diamond drilling program to test a potential extension of the Topia mine system at its El Potrero Project in Durango, Mexico. The proposed 1,876.5m campaign targets...",
    "image": null,
    "source": "Mining.com.au",
    "region": "Asia-Pacific",
