@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T02:45:02.335Z",
+ "updated": "2026-11-15T11:05:26.972Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -79,37 +79,32 @@
   {
    "source": "GlobeNewswire",
    "section": "Drill results",
-   "ok": true,
-   "items": 11,
-   "seen": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Intersects",
-   "ok": true,
-   "items": 2,
-   "seen": 2
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Mineral resource",
-   "ok": true,
-   "items": 11,
-   "seen": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Assay results",
-   "ok": true,
-   "items": 10,
-   "seen": 20
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "GlobeNewswire",
    "section": "Exploration update",
-   "ok": true,
-   "items": 13,
-   "seen": 17
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "MINING.COM",
@@ -129,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 1,
+   "items": 2,
    "seen": 30
   },
   {
@@ -186,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 3,
-   "seen": 66
+   "seen": 87
   },
   {
    "source": "Pakistan Observer",
@@ -213,7 +208,7 @@
    "source": "Daily Pakistan",
    "section": "Chagai search",
    "ok": true,
-   "items": 5,
+   "items": 6,
    "seen": 10
   },
   {
@@ -246,6 +241,115 @@
   }
  ],
  "items": [
+  {
+   "title": "Dalbandin Airport saved from Major Terror Attack as Security Forces eliminate Two Militants",
+   "link": "https://en.dailypakistan.com.pk/15-Nov-2026/dalbandin-airport-saved-from-major-terror-attack-as-security-forces-eliminate-two-militants",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T05:49:55.000Z",
+   "summary": "QUETTA – A terror attack targeting Dalbandin Airport, religious pilgrims and commercial transport facilities in Balochistan was reportedly prevented after security forces intercepted and killed two suspected militants during a late-night...",
+   "image": null,
+   "source": "Daily Pakistan",
+   "section": "Chagai search",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Tehreek-i-Insaf warns against federal control of KP’s minerals",
+   "link": "https://www.dawn.com/news/2044558/tehreek-i-insaf-warns-against-federal-control-of-kps-minerals",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T02:45:33.000Z",
+   "summary": "PESHAWAR: The Pakistan Tehreek-i-Insaf’s Khyber Pakhtunkhwa chapter on Saturday warned against placing the province’s mineral resources under federal or other external authority or control during the current emergency and governor’s rule,...",
+   "image": "https://i.dawn.com/large/2026/01/24095113b740e1d.webp",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Economic future linked to political stability: PTI",
+   "link": "https://www.dawn.com/news/2044601/economic-future-linked-to-political-stability-pti",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T02:36:59.000Z",
+   "summary": "ISLAMABAD: The PTI on Saturday expressed concern over the deteriorating security situation in the country, particularly in Khyber Pakhtunkhwa and Balochistan, questioning how Pakistan could attract foreign investment in its mineral sector...",
+   "image": "https://i.dawn.com/large/2026/05/041953199310cb9.webp",
+   "source": "Dawn",
+   "section": "Pakistan",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan",
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "Govt defers ML-3 for third time",
+   "link": "https://tribune.com.pk/story/2640346/govt-defers-ml-3-for-third-time",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-14T16:32:18.000Z",
+   "summary": "Funding woes stall $1b Reko Diq rail project amid renewed focus on minerals",
+   "image": null,
+   "source": "The Express Tribune",
+   "section": "Business",
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "National",
@@ -7914,17 +8018,8 @@
    "press": false
   },
   {
-   "title": "Canterra Intersects 18.75 m of 5.35% CuEq, including 5.15 m of 8.83% CuEq, at the Lemarchant Deposit – Demonstrating High-Grade Potential Beyond Lundberg in Newfoundland’s Buchans District",
-   "link": "https://www.globenewswire.com/news-release/2026/11/10/3399304/0/en/canterra-intersects-18-75-m-of-5-35-cueq-including-5-15-m-of-8-83-cueq-at-the-lemarchant-deposit-demonstrating-high-grade-potential-beyond-lundberg-in-newfoundland-s-buchans-distri.html",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-10T12:00:00.000Z",
-   "summary": "Canterra reports 18.75 m of 5.35% CuEq, including 5.15 m of 8.83% CuEq, in hole LM-26-172 at the Lemarchant Deposit in Newfoundland's Buchans District.",
-   "image": "https://ml.globenewswire.com/Resource/Download/9dade776-9aab-47ed-9f18-ddeae49f4cbe",
-   "source": "GlobeNewswire",
    "section": "Drill results",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": false,
@@ -7938,6 +8033,15 @@
    "exHighlight": "18.75 m @ 5.35% CuEq",
    "exCountry": "Canada",
    "exRegion": "Newfoundland and Labrador",
+   "title": "Canterra Intersects 18.75 m of 5.35% CuEq, including 5.15 m of 8.83% CuEq, at the Lemarchant Deposit – Demonstrating High-Grade Potential Beyond Lundberg in Newfoundland’s Buchans District",
+   "link": "https://www.globenewswire.com/news-release/2026/11/10/3399304/0/en/canterra-intersects-18-75-m-of-5-35-cueq-including-5-15-m-of-8-83-cueq-at-the-lemarchant-deposit-demonstrating-high-grade-potential-beyond-lundberg-in-newfoundland-s-buchans-distri.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T12:00:00.000Z",
+   "summary": "Canterra reports 18.75 m of 5.35% CuEq, including 5.15 m of 8.83% CuEq, in hole LM-26-172 at the Lemarchant Deposit in Newfoundland's Buchans District.",
+   "image": "https://ml.globenewswire.com/Resource/Download/9dade776-9aab-47ed-9f18-ddeae49f4cbe",
+   "source": "GlobeNewswire",
+   "region": "Global",
    "press": true
   },
   {
@@ -21223,110 +21327,6 @@
    "viaUrl": "",
    "date": "2026-10-29T22:29:41.000Z",
    "summary": "Pinnacle Silver and Gold (TSX-V:PINN) has designed a 16-hole diamond drilling program to test a potential extension of the Topia mine system at its El Potrero Project in Durango, Mexico. The proposed 1,876.5m campaign targets...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Philippines plans pivot to domestic processing",
-   "link": "https://mining.com.au/philippines-plans-pivot-to-domestic-processing/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:16:00.000Z",
-   "summary": "The Philippine Government is moving to transition from raw mineral extraction and export towards local downstream processing and industrialisation, Philippine News Agency reports. Speaking at the Mining Philippines 2026 International...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "Drill results",
-   "exMetals": [
-    "Gold"
-   ],
-   "exHighlight": "",
-   "exCountry": "Unspecified",
-   "exRegion": "",
-   "title": "Talisker expands Bralorne West gold footprint",
-   "link": "https://mining.com.au/talisker-expands-bralorne-west-gold-footprint/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:15:16.000Z",
-   "summary": "Talisker Resources (TSX:TSK) is continuing underground infill drilling at Bralorne West after 17 additional holes returned up to 301.88 grams per tonne gold. The drilling forms part of the company’s 2026 Bralorne Gold Project resource...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Rail industry hails reforms but further recovery hinges on well-executed strategy",
-   "link": "https://www.miningweekly.com/article/industry-hails-reforms-but-further-recovery-hinges-on-well-executed-strategy-2026-10-30-1",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:00:00.000Z",
-   "summary": "The Department of Transport’s efforts to open the freight rail network to private operators is gaining momentum, but restoring capacity, securing investments and translating policy changes into reliable services remain critical to...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Sweden offers underground mining equipment, green tech to Philippines",
-   "link": "https://mining.com.au/sweden-offers-underground-mining-equipment-green-tech-to-philippines/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:00:00.000Z",
-   "summary": "Sweden is offering underground mining equipment, green technology, and a low-carbon model to modernise the Philippines’ mining sector, BusinessMirror reports. Speaking at the Mining Philippines 2026 International Conference and Exhibition,...",
    "image": null,
    "source": "Mining.com.au",
    "region": "Asia-Pacific",
