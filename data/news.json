@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T23:03:42.646Z",
+ "updated": "2026-11-15T02:45:02.335Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -79,32 +79,37 @@
   {
    "source": "GlobeNewswire",
    "section": "Drill results",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 11,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Intersects",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 2,
+   "seen": 2
   },
   {
    "source": "GlobeNewswire",
    "section": "Mineral resource",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 11,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Assay results",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 10,
+   "seen": 20
   },
   {
    "source": "GlobeNewswire",
    "section": "Exploration update",
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "items": 13,
+   "seen": 17
   },
   {
    "source": "MINING.COM",
@@ -193,14 +198,16 @@
   {
    "source": "The Frontier Post",
    "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 0,
+   "seen": 10
   },
   {
    "source": "The Frontier Post",
    "section": "Chagai search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 4,
+   "seen": 10
   },
   {
    "source": "Daily Pakistan",
@@ -219,8 +226,9 @@
   {
    "source": "The Frontier Post",
    "section": "Safety search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 1,
+   "seen": 10
   },
   {
    "source": "Daily Pakistan",
@@ -7904,6 +7912,33 @@
    "source": "Mining Technology",
    "region": "Global",
    "press": false
+  },
+  {
+   "title": "Canterra Intersects 18.75 m of 5.35% CuEq, including 5.15 m of 8.83% CuEq, at the Lemarchant Deposit – Demonstrating High-Grade Potential Beyond Lundberg in Newfoundland’s Buchans District",
+   "link": "https://www.globenewswire.com/news-release/2026/11/10/3399304/0/en/canterra-intersects-18-75-m-of-5-35-cueq-including-5-15-m-of-8-83-cueq-at-the-lemarchant-deposit-demonstrating-high-grade-potential-beyond-lundberg-in-newfoundland-s-buchans-distri.html",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-10T12:00:00.000Z",
+   "summary": "Canterra reports 18.75 m of 5.35% CuEq, including 5.15 m of 8.83% CuEq, in hole LM-26-172 at the Lemarchant Deposit in Newfoundland's Buchans District.",
+   "image": "https://ml.globenewswire.com/Resource/Download/9dade776-9aab-47ed-9f18-ddeae49f4cbe",
+   "source": "GlobeNewswire",
+   "section": "Drill results",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": false,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Drill results",
+   "exMetals": [
+    "Copper"
+   ],
+   "exHighlight": "18.75 m @ 5.35% CuEq",
+   "exCountry": "Canada",
+   "exRegion": "Newfoundland and Labrador",
+   "press": true
   },
   {
    "section": "",
@@ -21295,31 +21330,6 @@
    "image": null,
    "source": "Mining.com.au",
    "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Critical One Energy, SICC ink $303 million antimony offtake deal for Howells Lake project in Ontario",
-   "link": "https://www.mining.com/critical-one-energy-sicc-ink-303-million-antimony-offtake-deal-for-howells-lake-project-in-ontario/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T21:59:40.000Z",
-   "summary": "Howells Lake is Canada’s largest undeveloped antimony deposit.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
