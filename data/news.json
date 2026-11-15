@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T17:47:44.025Z",
+ "updated": "2026-11-15T22:54:49.053Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -180,11 +180,18 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 3,
-   "seen": 112
+   "items": 0,
+   "seen": 59
   },
   {
    "source": "Pakistan Observer",
+   "section": "",
+   "ok": true,
+   "items": 1,
+   "seen": 10
+  },
+  {
+   "source": "The Frontier Post",
    "section": "",
    "ok": true,
    "items": 0,
@@ -192,15 +199,10 @@
   },
   {
    "source": "The Frontier Post",
-   "section": "",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
-  },
-  {
-   "source": "The Frontier Post",
    "section": "Chagai search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 4,
+   "seen": 10
   },
   {
    "source": "Daily Pakistan",
@@ -213,14 +215,15 @@
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 10
   },
   {
    "source": "The Frontier Post",
    "section": "Safety search",
-   "ok": false,
-   "error": "The operation was aborted due to timeout"
+   "ok": true,
+   "items": 1,
+   "seen": 10
   },
   {
    "source": "Daily Pakistan",
@@ -239,19 +242,23 @@
  ],
  "items": [
   {
-   "title": "Ontario Government backing local growth plans of Caron Equipment, Becker Varis and more",
-   "link": "https://im-mining.com/2026/11/15/ontario-government-backing-local-growth-plans-of-caron-equipment-becker-varis-and-more/",
+   "title": "Curbing illegal mining",
+   "link": "https://pakobserver.net/curbing-illegal-mining/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-15T16:53:00.000Z",
-   "summary": "The Ontario government is investing C$2.63 million ($1.83 million) through the Northern Ontario Heritage Fund Corporation (NOHFC) to help eight northern companies expand or launch operations, purchase equipment and create jobs in the...",
+   "date": "2026-11-15T22:07:25.000Z",
+   "summary": "Khyber-Pakhtunkhwa Governor’s Faisal Karim Kundi decision to suspend all gold mining leases in the province was a necessary step in…",
    "image": null,
-   "source": "International Mining",
+   "source": "Pakistan Observer",
    "section": "",
-   "scope": "International",
-   "region": "Global",
-   "provinces": [],
-   "tags": [],
+   "scope": "National",
+   "region": "Pakistan",
+   "provinces": [
+    "Khyber Pakhtunkhwa"
+   ],
+   "tags": [
+    "Gold"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -264,17 +271,36 @@
    "press": false
   },
   {
-   "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
-   "link": "https://www.brecorder.com/news/40449028/gulf-bourses-slide-as-hormuz-tensions-and-houthi-strikes-rattle-traders",
+   "title": "BHP completes underground materials handling system at Prominent Hill expansion",
+   "link": "https://im-mining.com/2026/11/15/bhp-completes-underground-materials-handling-system-at-prominent-hill-expansion/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-15T14:06:46.000Z",
-   "summary": "Most Gulf bourses closed lower on Sunday, with traders weighing the disruption in the Strait of Hormuz alongside Houthi attacks on Saudi Arabia. The Iranian navy has confirmed that a Saturday mine strike in the Strait of Hormuz set three...",
-   "image": "https://i.brecorder.com/large/2026/11/15190432517edae.jpg",
-   "source": "Business Recorder",
+   "date": "2026-11-15T18:02:16.000Z",
+   "summary": "BHP's Prominent Hill Expansion Project (PHOX) is an upgrade to the existing Prominent Hill copper-gold mining operations, part of its Copper South Australia portfolio, and located approximately 130 km southeast of Coober Pedy and 150 km...",
+   "image": null,
+   "source": "International Mining",
    "section": "",
-   "scope": "National",
-   "region": "Pakistan",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -286,6 +312,73 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Ontario Government backing local growth plans of Caron Equipment, Becker Varis and more",
+   "link": "https://im-mining.com/2026/11/15/ontario-government-backing-local-growth-plans-of-caron-equipment-becker-varis-and-more/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T16:53:00.000Z",
+   "summary": "The Ontario government is investing C$2.63 million ($1.83 million) through the Northern Ontario Heritage Fund Corporation (NOHFC) to help eight northern companies expand or launch operations, purchase equipment and create jobs in the...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
+   "title": "NRL Announces Copper and Gold Finds at Eight Sites in Chagai",
+   "link": "https://thebalochistanpost.net/2026/11/nrl-announces-copper-and-gold-finds-at-eight-sites-in-chagai/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T16:26:19.000Z",
+   "summary": "National Resources Limited (NRL) has announced copper and gold discoveries at eight sites in Balochistan’s Chagai district after nearly 25,000 metres of drilling, as the company works towards its first formal estimate of the mineral...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
+   "mining": false,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "Discovery",
+   "exMetals": [
+    "Copper",
+    "Gold"
+   ],
+   "exHighlight": "",
+   "exCountry": "Pakistan",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Gulf bourses slide as Hormuz tensions and houthi strikes rattle traders",
+   "link": "https://www.brecorder.com/news/40449028/gulf-bourses-slide-as-hormuz-tensions-and-houthi-strikes-rattle-traders",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-15T14:06:46.000Z",
+   "summary": "Most Gulf bourses closed lower on Sunday, with traders weighing the disruption in the Strait of Hormuz alongside Houthi attacks on Saudi Arabia. The Iranian navy has confirmed that a Saturday mine strike in the Strait of Hormuz set three...",
+   "image": "https://i.brecorder.com/large/2026/11/15190432517edae.jpg",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -21238,85 +21331,6 @@
    "viaUrl": "",
    "date": "2026-10-29T22:46:52.000Z",
    "summary": "Chile's state-owned miner Codelco said on Thursday it had dismissed eight people, including executives, amid its investigation into over-reported copper production in 2024 and 2025. Those dismissed include managers at its Chuquicamata,...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Italian court orders shutdown of Taranto steelworks blast furnaces",
-   "link": "https://mining.com.au/italian-court-orders-shutdown-of-taranto-steelworks-blast-furnaces/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:40:44.000Z",
-   "summary": "Italy’s Supreme Court of Cassation has upheld a ruling ordering the shutdown of blast furnaces at the former Ilva steelworks in Taranto on health and environmental grounds, Reuters reports. The decision complicates efforts by the Italian...",
-   "image": null,
-   "source": "Mining.com.au",
-   "region": "Asia-Pacific",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Iron ore"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Vale's profit falls 53% in Q3 on lower iron-ore prices, higher costs",
-   "link": "https://www.miningweekly.com/article/vale-posts-53-decline-in-third-quarter-net-profit-2026-10-30",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:39:00.000Z",
-   "summary": "Brazilian miner Vale reported on Thursday a 53% decline in its third-quarter net profit from a year earlier, hit by lower iron ore prices and higher costs, including freight. Vale, one of the largest iron ore producers in the world, posted...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Amex Gold extends Denise Zone at Perron",
-   "link": "https://mining.com.au/amex-gold-extends-denise-zone-at-perron/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-10-29T22:38:08.000Z",
-   "summary": "Amex Gold Mining (TSX-V:AMX) is planning more drilling in the Beaupré Block after potentially extending the Denise Zone about 320m east at Perron. The company reports first results from its resource conversion program at the Perron Gold...",
    "image": null,
    "source": "Mining.com.au",
    "region": "Asia-Pacific",
