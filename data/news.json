@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T22:56:39.764Z",
+ "updated": "2026-11-18T04:28:47.453Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -124,7 +124,7 @@
    "source": "Dawn",
    "section": "Pakistan",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -173,7 +173,7 @@
    "source": "Geo News",
    "section": "Pakistan",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 20
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 83
+   "seen": 87
   },
   {
    "source": "Pakistan Observer",
@@ -242,70 +242,20 @@
  ],
  "items": [
   {
-   "title": "Canada widens tariff relief on Chinese metals",
-   "link": "https://www.northernminer.com/news/canada-widens-tariff-relief-on-chinese-metals/1003897890/",
+   "title": "Govt aims to increase gemstone exports to USD 1bn: SAPM",
+   "link": "https://www.brecorder.com/news/40449491/govt-aims-to-increase-gemstone-exports-to-usd-1bn-sapm",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-17T22:10:49.000Z",
-   "summary": "Canada will expand tariff relief on Chinese steel and aluminum products in short supply at home and extend existing exemptions through 2028, as Prime Minister...",
-   "image": null,
-   "source": "The Northern Miner",
+   "date": "2026-11-18T02:20:14.000Z",
+   "summary": "ISLAMABAD: Pakistan aims to increase its gemstone exports to USD 1 billion within the next five years through value addition, international certification, modern mining techniques and the promotion of Brand Pakistan. Special Assistant to...",
+   "image": "https://i.brecorder.com/large/2025/12/230500084994da2.webp",
+   "source": "Business Recorder",
    "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "Panama authorizes First Quantum restart talks",
-   "link": "https://www.northernminer.com/regulatory-issues/panama-authorizes-first-quantum-restart-talks/1003897888/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T22:05:00.000Z",
-   "summary": "Panama has authorized formal negotiations with First Quantum Minerals (TSX: FM) over a potential restart of mining at Cobre Panamá, advancing efforts to resolve a...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "press": false
-  },
-  {
-   "title": "Chile copper output nears 23-year low",
-   "link": "https://www.northernminer.com/news/chile-copper-output-nears-23-year-low/1003897900/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T22:00:29.000Z",
-   "summary": "Chile’s copper production is forecast to fall below five million tonnes this year for the first time since 2003, as lower ore grades and operational...",
-   "image": null,
-   "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
-   "region": "North America",
+   "scope": "National",
+   "region": "Pakistan",
    "provinces": [],
    "tags": [
-    "Copper"
+    "Gemstones"
    ],
    "mining": true,
    "chagaiSecurity": false,
@@ -319,17 +269,110 @@
    "press": false
   },
   {
-   "title": "Li-FT cuts high-grade lithium ahead of Quebec study",
-   "link": "https://www.northernminer.com/news/li-ft-cuts-high-grade-lithium-ahead-of-quebec-study/1003897896/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T21:55:48.000Z",
-   "summary": "Li-FT Power (TSXV: LIFT; ASX: LFT) has intersected 45 metres at 2.71% lithium oxide at its Adina project in Quebec, strengthening the case for adding...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Canada widens tariff relief on Chinese metals",
+   "link": "https://www.northernminer.com/news/canada-widens-tariff-relief-on-chinese-metals/1003897890/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T22:10:49.000Z",
+   "summary": "Canada will expand tariff relief on Chinese steel and aluminum products in short supply at home and extend existing exemptions through 2028, as Prime Minister...",
+   "image": null,
+   "source": "The Northern Miner",
    "region": "North America",
+   "press": false
+  },
+  {
+   "title": "General Flash raises $128 million to scale US critical metals production",
+   "link": "https://www.mining.com/general-flash-raises-128-million-to-scale-us-critical-metals-production/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T22:09:15.000Z",
+   "summary": "The company said its process for metallization will scale from its pilot line near MIT to 1,000 metric tons per year of commercial production in 2027.",
+   "image": null,
+   "source": "MINING.COM",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Panama authorizes First Quantum restart talks",
+   "link": "https://www.northernminer.com/regulatory-issues/panama-authorizes-first-quantum-restart-talks/1003897888/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T22:05:00.000Z",
+   "summary": "Panama has authorized formal negotiations with First Quantum Minerals (TSX: FM) over a potential restart of mining at Cobre Panamá, advancing efforts to resolve a...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Chile copper output nears 23-year low",
+   "link": "https://www.northernminer.com/news/chile-copper-output-nears-23-year-low/1003897900/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T22:00:29.000Z",
+   "summary": "Chile’s copper production is forecast to fall below five million tonnes this year for the first time since 2003, as lower ore grades and operational...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -345,9 +388,31 @@
    "exHighlight": "45 m @ 2.71% lithiu",
    "exCountry": "Canada",
    "exRegion": "Quebec",
+   "title": "Li-FT cuts high-grade lithium ahead of Quebec study",
+   "link": "https://www.northernminer.com/news/li-ft-cuts-high-grade-lithium-ahead-of-quebec-study/1003897896/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T21:55:48.000Z",
+   "summary": "Li-FT Power (TSXV: LIFT; ASX: LFT) has intersected 45 metres at 2.71% lithium oxide at its Adina project in Quebec, strengthening the case for adding...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Greenland Energy bids £74M for 80 Mile",
    "link": "https://www.northernminer.com/news/greenland-energy-bids-74m-for-80-mile/1003897899/",
    "via": "",
@@ -356,9 +421,12 @@
    "summary": "Greenland Energy (Nasdaq: GLND) agreed to acquire 80 Mile (LSE-A: 80M) on Nov. 12 in an all-share deal valued at about £74 million (US$98 million),...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -370,9 +438,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Perpetua eyes $56M deal to unlock US tungsten supply",
    "link": "https://www.northernminer.com/news/perpetua-eyes-56m-deal-to-unlock-us-tungsten-supply/1003897928/",
    "via": "",
@@ -381,11 +446,17 @@
    "summary": "Perpetua Resources (Nasdaq, TSX: PPTA) signed a non-binding agreement with an unnamed aerospace and defence company based in the United States to explore funding for...",
    "image": null,
    "source": "The Northern Miner",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -395,9 +466,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Druckenmiller exits copper, steel to buy gold miners",
    "link": "https://www.northernminer.com/news/druckenmiller-exits-copper-steel-to-buy-gold-miners/1003897930/",
    "via": "",
@@ -406,9 +474,12 @@
    "summary": "Billionaire investor Stanley Druckenmiller said Tuesday he was betting on a drop in copper prices, a day after his family office disclosed new stakes in...",
    "image": null,
    "source": "The Northern Miner",
-   "section": "",
-   "scope": "International",
    "region": "North America",
+   "press": false
+  },
+  {
+   "section": "Pakistan",
+   "scope": "International",
    "provinces": [],
    "tags": [
     "Gold",
@@ -423,9 +494,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Robert Friedland sees mining as a path to prosperity and stability in Pakistan",
    "link": "https://www.mining.com/video/robert-friedland-sees-mining-as-a-path-to-prosperity-and-stability-in-pakistan/",
    "via": "",
@@ -434,14 +502,14 @@
    "summary": "Mining billionaire Robert Friedland believes Pakistan’s largely unexplored copper and gold resources could transform its economy. Speaking at the Pakistan Minerals Investment [...]",
    "image": null,
    "source": "MINING.COM",
-   "section": "Pakistan",
-   "scope": "International",
    "region": "Pakistan",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
    "provinces": [],
-   "tags": [
-    "Gold",
-    "Copper"
-   ],
+   "tags": [],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -451,9 +519,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Epiroc to bring live remote blasthole drilling technology to CES 2027",
    "link": "https://im-mining.com/2026/11/17/epiroc-to-bring-live-remote-blasthole-drilling-technology-to-ces-2027/",
    "via": "",
@@ -462,9 +527,12 @@
    "summary": "Epiroc will exhibit at CES 2027 in Las Vegas, January 6-9, 2027, with live daily shifts that link the show floor to a working quarry more than 2,000 miles away. Partnering with Luck Stone, a Virginia-based producer of crushed stone, sand...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -476,9 +544,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Elysia BESS Copilot - managing more mine GWh with less effort",
    "link": "https://im-mining.com/2026/11/17/elysia-bess-copilot-managing-more-mine-gwh-with-less-effort/",
    "via": "",
@@ -487,9 +552,12 @@
    "summary": "Battery energy storage system (BESS) portfolios at mines are arguably growing faster than the teams and operating models that run them. This gap Elysia says leads to chronic asset underperformance, revenue loss and operational complexity...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -501,9 +569,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Luck Stone, Epiroc to showcase remote-controlled drilling live at CES",
    "link": "https://www.canadianminingjournal.com/news/luck-stone-epiroc-to-showcase-remote-controlled-drilling-live-at-ces/",
    "via": "",
@@ -512,11 +577,16 @@
    "summary": "Epiroc (STO: EPI-A) is set to make its debut appearance at the Consumer Electronics Show (CES) to showcase its automated and digital [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Lithium"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -526,9 +596,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Satellite application tracks changes at Argentina lithium salt flat",
    "link": "https://www.canadianminingjournal.com/news/satellite-application-tracks-changes-at-argentina-lithium-salt-flat/",
    "via": "",
@@ -537,13 +604,14 @@
    "summary": "An Argentine geospatial intelligence company has developed a satellite-monitoring tool to track surface changes at Salar del Hombre Muerto, a lithium-producing salt [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
-   "tags": [
-    "Lithium"
-   ],
+   "tags": [],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -553,9 +621,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Perpetua eyes $55.5 million deal to unlock US tungsten supply",
    "link": "https://www.mining.com/perpetua-eyes-55-5-million-deal-to-unlock-us-tungsten-supply/",
    "via": "",
@@ -564,34 +629,12 @@
    "summary": "Perpetua is exploring a funding and supply arrangement with a major aerospace and defence company to assess tungsten deposits in Idaho.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "Satellite application tracks changes at Argentina lithium salt flat",
-   "link": "https://www.mining.com/satellite-application-tracks-changes-at-argentina-lithium-salt-flat/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T17:31:35.000Z",
-   "summary": "The monitoring comes amid ongoing security of lithium development and water usage at Salar del Hombre Muerto in Catamarca.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -605,9 +648,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Satellite application tracks changes at Argentina lithium salt flat",
+   "link": "https://www.mining.com/satellite-application-tracks-changes-at-argentina-lithium-salt-flat/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T17:31:35.000Z",
+   "summary": "The monitoring comes amid ongoing security of lithium development and water usage at Salar del Hombre Muerto in Catamarca.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "New IntelliSense Strategic Advisory Board looks at where AI is delivering value in real-world mining",
    "link": "https://im-mining.com/2026/11/17/new-intellisense-strategic-advisory-board-looks-at-where-ai-is-delivering-value-in-real-world-mining/",
    "via": "",
@@ -616,9 +681,12 @@
    "summary": "IntelliSense.io, a leader in Industrial Decision Intelligence for mining and minerals processing, recently detailed the mandate of its Strategic Advisory Board, first announced alongside its investment partnership with SEP, Mitsubishi...",
    "image": null,
    "source": "International Mining",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -630,9 +698,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Petro-Canada Lubricants looks to maximise uptime, extend engine life and reduce TCO with new DURON engine oils",
    "link": "https://im-mining.com/2026/11/17/petro-canada-looks-to-maximise-uptime-extend-engine-life-and-reduce-tco-with-new-duron-engine-oils/",
    "via": "",
@@ -641,34 +706,12 @@
    "summary": "Petro-Canada Lubricants, an HF Sinclair brand, has unveiled its next generation of DURON heavy-duty engine oils, engineered to help fleets maximise uptime, extend engine life and reduce total operating costs. Designed to exceed the...",
    "image": null,
    "source": "International Mining",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "Electra adds nickel to Positive Materials partnership",
-   "link": "https://www.canadianminingjournal.com/news/electra-adds-nickel-to-positive-materials-partnership/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T16:27:23.000Z",
-   "summary": "Electra Battery Metals (TSXV: ELBM) has amended its supply agreement with Positive Materials to include Electra’s future production of nickel sulfate and [...]",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Nickel"
@@ -682,20 +725,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Electra adds nickel to Positive Materials partnership",
+   "link": "https://www.canadianminingjournal.com/news/electra-adds-nickel-to-positive-materials-partnership/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T16:27:23.000Z",
+   "summary": "Electra Battery Metals (TSXV: ELBM) has amended its supply agreement with Positive Materials to include Electra’s future production of nickel sulfate and [...]",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "Sponsored Resource Review video: Iron Bear pitches a 44-year iron ore mine",
-   "link": "https://www.northernminer.com/video/sponsored-resource-review-video-iron-bear-pitches-a-44-year-iron-ore-mine/1003897909/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T15:22:09.000Z",
-   "summary": "Iron Bear Resources Managing Director Paul Berend in conversation with The Northern Miner video host Devan Murugan. This sponsored video is PROMOTED CONTENT paid for...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Iron ore"
@@ -709,9 +752,33 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored Resource Review video: Iron Bear pitches a 44-year iron ore mine",
+   "link": "https://www.northernminer.com/video/sponsored-resource-review-video-iron-bear-pitches-a-44-year-iron-ore-mine/1003897909/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T15:22:09.000Z",
+   "summary": "Iron Bear Resources Managing Director Paul Berend in conversation with The Northern Miner video host Devan Murugan. This sponsored video is PROMOTED CONTENT paid for...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Chile copper output nears 23-year low as mines struggle",
    "link": "https://www.canadianminingjournal.com/news/chile-copper-output-nears-23-year-low-as-mines-struggle/",
    "via": "",
@@ -720,13 +787,14 @@
    "summary": "Ageing deposits, uneven mine performance and dependence on imported sulfuric acid complicate Chile's copper recovery.",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
-   "tags": [
-    "Copper"
-   ],
+   "tags": [],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -736,9 +804,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Aramine enters a new chapter, joins Epiroc",
    "link": "https://www.canadianminingjournal.com/news/aramine-enters-a-new-chapter-joins-epiroc/",
    "via": "",
@@ -747,9 +812,12 @@
    "summary": "Aramine, a spare-parts supplier serving underground operations, has officially joined Epiroc (STO: EPI-A) following its acquisition. Based in Aix-en-Provence, France, Aramine has [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -761,9 +829,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Greenland Energy, 80 Mile merge in $97M all share deal",
    "link": "https://www.canadianminingjournal.com/news/greenland-energy-80-mile-merge-in-97m-all-share-deal/",
    "via": "",
@@ -772,9 +837,12 @@
    "summary": "The combination will consolidate 100% ownership of the Jameson Land Basin licences within a single Nasdaq-listed vehicle.",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -786,9 +854,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "IDC confirms mutual separation agreement with CEO Lekhethe",
    "link": "https://www.miningweekly.com/article/idc-confirms-mutual-separation-agreement-with-ceo-lekhethe-2026-11-17",
    "via": "",
@@ -797,11 +862,17 @@
    "summary": "South Africa’s Industrial Development Corporation (IDC) has confirmed that a mutual separation agreement has been reached between the board and its CEO, Mmakgoshi Lekhethe, who will leave the organisation effective February 28, 2027, “to...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
-   "tags": [],
+   "tags": [
+    "Gold",
+    "Copper"
+   ],
    "mining": true,
    "chagaiSecurity": false,
    "safetyType": "",
@@ -811,9 +882,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Troilus taps Metso for $90M equipment order, eyes broader partnership",
    "link": "https://www.canadianminingjournal.com/news/troilus-taps-metso-for-90m-equipment-order-eyes-broader-partnership/",
    "via": "",
@@ -822,9 +890,12 @@
    "summary": "Troilus Mining (TSX: TLG) has ordered comminution and screening technologies from Metso (HEL: METSO) to support its Troilus gold-copper project in Quebec. [...]",
    "image": null,
    "source": "Canadian Mining Journal",
+   "region": "North America",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold",
@@ -839,9 +910,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Druckenmiller exits copper, steel and chip stocks to buy gold miners",
    "link": "https://www.mining.com/druckenmiller-exits-copper-steel-and-chip-stocks-to-buy-gold-miners/",
    "via": "",
@@ -850,12 +918,14 @@
    "summary": "Latest filing reveals a shift away from industrial metals and semiconductors as the billionaire refocuses his portfolio on gold.",
    "image": null,
    "source": "MINING.COM",
+   "region": "Global",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
-    "Gold",
     "Copper"
    ],
    "mining": true,
@@ -867,9 +937,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Codelco’s $866 million Gabriela Mistral extension clears key hurdle",
    "link": "https://www.mining.com/codelcos-866m-gabriela-mistral-extension-clears-key-hurdle/",
    "via": "",
@@ -878,36 +945,12 @@
    "summary": "Chile’s state miner has secured environmental approval for a plan to sustain copper output at the mine through 2055.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "Need for acceleration of local PGM hydrogen value addition emphasised at Mistra roundtable",
-   "link": "https://www.miningweekly.com/article/need-for-acceleration-of-local-pgm-hydrogen-value-addition-emphasised-at-mistra-roundtable-2026-11-17",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T14:21:00.000Z",
-   "summary": "To accelerate South Africa’s platinum group metals- (PGMs-) powered hydrogen economy, South Africa can set the terms of its own partnerships that are mutually beneficial for both South Africa and its counterparts, Valterra Platinum...",
-   "image": null,
-   "source": "Mining Weekly",
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Platinum"
@@ -921,20 +964,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Need for acceleration of local PGM hydrogen value addition emphasised at Mistra roundtable",
+   "link": "https://www.miningweekly.com/article/need-for-acceleration-of-local-pgm-hydrogen-value-addition-emphasised-at-mistra-roundtable-2026-11-17",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T14:21:00.000Z",
+   "summary": "To accelerate South Africa’s platinum group metals- (PGMs-) powered hydrogen economy, South Africa can set the terms of its own partnerships that are mutually beneficial for both South Africa and its counterparts, Valterra Platinum...",
+   "image": null,
+   "source": "Mining Weekly",
+   "region": "Africa",
    "press": false
   },
   {
-   "title": "Sponsored Resource Review video: Newfoundland prospectors seek fresh support",
-   "link": "https://www.northernminer.com/video/sponsored-resource-review-video-newfoundland-prospectors-seek-fresh-support/1003897907/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T14:17:36.000Z",
-   "summary": "Newfoundland and Labrador Prospectors Association President Norm Mercer in conversation with The Northern Miner video host Devan Murugan. This sponsored video is PROMOTED CONTENT paid...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -946,20 +989,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored Resource Review video: Newfoundland prospectors seek fresh support",
+   "link": "https://www.northernminer.com/video/sponsored-resource-review-video-newfoundland-prospectors-seek-fresh-support/1003897907/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T14:17:36.000Z",
+   "summary": "Newfoundland and Labrador Prospectors Association President Norm Mercer in conversation with The Northern Miner video host Devan Murugan. This sponsored video is PROMOTED CONTENT paid...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
-   "title": "Li-FT cuts high-grade lithium ahead of Quebec study",
-   "link": "https://www.mining.com/li-ft-cuts-high-grade-lithium-ahead-of-quebec-study/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T14:12:48.000Z",
-   "summary": "The drilling will feed into a resource update and preliminary economic assessment targeted for early 2027.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [
     "Lithium"
@@ -975,9 +1018,33 @@
    "exHighlight": "",
    "exCountry": "Canada",
    "exRegion": "Quebec",
+   "title": "Li-FT cuts high-grade lithium ahead of Quebec study",
+   "link": "https://www.mining.com/li-ft-cuts-high-grade-lithium-ahead-of-quebec-study/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T14:12:48.000Z",
+   "summary": "The drilling will feed into a resource update and preliminary economic assessment targeted for early 2027.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [
+    "Copper"
+   ],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
    "title": "Haib PFS results exceed Koryx' expectations",
    "link": "https://www.miningweekly.com/article/haib-pfs-results-exceed-koryx-expectations-2026-11-17",
    "via": "",
@@ -986,9 +1053,12 @@
    "summary": "The positive results of a preliminary feasibility study (PFS) into Koryx Copper's Haib copper project, in Namibia, has exceeded the company's expectations, says president and CEO Heye Daun. Haib is a porphyry copper deposit with associated...",
    "image": null,
    "source": "Mining Weekly",
+   "region": "Africa",
+   "press": false
+  },
+  {
    "section": "",
    "scope": "International",
-   "region": "Africa",
    "provinces": [],
    "tags": [
     "Copper"
@@ -1002,9 +1072,6 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "press": false
-  },
-  {
    "title": "Chile copper output nears 23-year low as mines struggle",
    "link": "https://www.mining.com/chile-copper-output-nears-23-year-low-as-mines-struggle/",
    "via": "",
@@ -1013,36 +1080,12 @@
    "summary": "Ageing deposits, uneven mine performance and dependence on imported sulfuric acid complicate Chile's copper recovery.",
    "image": null,
    "source": "MINING.COM",
-   "section": "",
-   "scope": "International",
    "region": "Global",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
    "press": false
   },
   {
-   "title": "Canada widens tariff relief on Chinese metals",
-   "link": "https://www.mining.com/canada-widens-tariff-relief-on-chinese-metals/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T13:48:33.000Z",
-   "summary": "The agreement eases import costs for Canadian manufacturers that cannot source enough of the specified metals domestically.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -1054,6 +1097,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Canada widens tariff relief on Chinese metals",
+   "link": "https://www.mining.com/canada-widens-tariff-relief-on-chinese-metals/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T13:48:33.000Z",
+   "summary": "The agreement eases import costs for Canadian manufacturers that cannot source enough of the specified metals domestically.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -2104,17 +2156,8 @@
    "press": false
   },
   {
-   "title": "Perenti inks $670M contract with AngloGold Ashanti at Geita gold mine",
-   "link": "https://www.canadianminingjournal.com/news/perenti-inks-670m-contract-with-anglogold-ashanti-at-geita-gold-mine/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-17T03:16:09.000Z",
-   "summary": "The deal has a 60-month term until October 31 2031.",
-   "image": null,
-   "source": "Canadian Mining Journal",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [
     "Gold"
@@ -2128,6 +2171,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Perenti inks $670M contract with AngloGold Ashanti at Geita gold mine",
+   "link": "https://www.canadianminingjournal.com/news/perenti-inks-670m-contract-with-anglogold-ashanti-at-geita-gold-mine/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-17T03:16:09.000Z",
+   "summary": "The deal has a 60-month term until October 31 2031.",
+   "image": null,
+   "source": "Canadian Mining Journal",
+   "region": "North America",
    "press": false
   },
   {
@@ -2347,17 +2399,8 @@
    "press": false
   },
   {
-   "title": "Sponsored Resource Review video: Industry needs workers, power, CIM says",
-   "link": "https://www.northernminer.com/latest-videos/resource-review-video-industry-needs-workers-power-cmi-says/1003897833/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-16T21:30:25.000Z",
-   "summary": "Canada’s push to accelerate mining development risks running ahead of its workforce, with too few people available to meet demand over the next decade, Canadian...",
-   "image": null,
-   "source": "The Northern Miner",
    "section": "",
    "scope": "International",
-   "region": "North America",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -2369,6 +2412,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Sponsored Resource Review video: Industry needs workers, power, CIM says",
+   "link": "https://www.northernminer.com/latest-videos/resource-review-video-industry-needs-workers-power-cmi-says/1003897833/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-16T21:30:25.000Z",
+   "summary": "Canada’s push to accelerate mining development risks running ahead of its workforce, with too few people available to meet demand over the next decade, Canadian...",
+   "image": null,
+   "source": "The Northern Miner",
+   "region": "North America",
    "press": false
   },
   {
@@ -21276,58 +21328,6 @@
    "image": null,
    "source": "Mining Weekly",
    "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Nickel"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "MMG extends long-stop date for Anglo American Brazil nickel deal to Dec 31",
-   "link": "https://www.miningweekly.com/article/mmg-extends-long-stop-date-for-anglo-american-brazil-nickel-deal-to-dec-31-2026-11-03",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-03T05:50:00.000Z",
-   "summary": "Hong Kong-listed mining and metals company MMG said on Tuesday that it had agreed with Anglo American to extend the long-stop date for its proposed acquisition of the miner's nickel business in Brazil to December 31, from October 31...",
-   "image": null,
-   "source": "Mining Weekly",
-   "region": "Africa",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Gordon Mining acquires Tungsten Tail project in New Mexico",
-   "link": "https://www.mining.com/gordon-mining-acquires-tungsten-tail-project-in-new-mexico/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-02T23:15:51.000Z",
-   "summary": "The project area has a documented history of small-scale tungsten production, with historical scheelite shipments recorded in 1942 and 1955.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
