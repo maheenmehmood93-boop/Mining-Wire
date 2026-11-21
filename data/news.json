@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T18:04:03.216Z",
+ "updated": "2026-11-21T23:25:08.564Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -60,7 +60,7 @@
    "source": "Mining.com.au",
    "section": "",
    "ok": false,
-   "error": "HTTP 502"
+   "error": "no items found in feed"
   },
   {
    "source": "MINING.COM",
@@ -123,16 +123,14 @@
   {
    "source": "Dawn",
    "section": "Pakistan",
-   "ok": true,
-   "items": 1,
-   "seen": 30
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "Dawn",
    "section": "Business",
-   "ok": true,
-   "items": 1,
-   "seen": 30
+   "ok": false,
+   "error": "HTTP 403"
   },
   {
    "source": "The Express Tribune",
@@ -159,7 +157,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 1,
+   "items": 0,
    "seen": 30
   },
   {
@@ -180,8 +178,8 @@
    "source": "ARY News",
    "section": "",
    "ok": true,
-   "items": 1,
-   "seen": 133
+   "items": 0,
+   "seen": 66
   },
   {
    "source": "Pakistan Observer",
@@ -242,17 +240,17 @@
  ],
  "items": [
   {
-   "title": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
-   "link": "https://www.brecorder.com/news/40450111/uk-maritime-agency-reports-two-tanker-incidents-near-oman-iran-says-vessel-hit-mine-east-of-hormuz",
+   "title": "Stone Three on the role of MPC and RTO in modern milling operations",
+   "link": "https://im-mining.com/2026/11/21/stone-three-on-the-role-of-mpc-and-rto-in-modern-milling-operations/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-21T13:51:37.000Z",
-   "summary": "A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United Kingdom Maritime Trade Operations (UKMTO) said on Saturday. UKMTO later...",
-   "image": "https://i.brecorder.com/large/2026/06/2320381304a4585.webp",
-   "source": "Business Recorder",
+   "date": "2026-11-21T19:19:50.000Z",
+   "summary": "Somerset West, South Africa-headquartered Stone Three helps mining concentrators increase productivity by solving difficult real-time measurement problems through industrial AI-enabled machine vision systems. To further enhance this, it...",
+   "image": null,
+   "source": "International Mining",
    "section": "",
-   "scope": "National",
-   "region": "Pakistan",
+   "scope": "International",
+   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +262,58 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "title": "BLA Claims 11 Operations Across Balochistan, Says Seven Detained at Dalbandin Mining Site",
+   "link": "https://thebalochistanpost.net/2026/11/bla-claims-11-operations-across-balochistan-says-seven-detained-at-dalbandin-mining-site/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-21T18:34:32.000Z",
+   "summary": "The Baloch Liberation Army (BLA) on Saturday claimed responsibility for 11 operations across Balochistan between November 18 and 21, including ground and drone attacks on Pakistani military camps, highway blockades and a raid on a mining...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "section": "Balochistan",
+   "scope": "National",
+   "region": "Balochistan",
+   "provinces": [
+    "Balochistan"
+   ],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": true,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "National",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
+   "link": "https://www.brecorder.com/news/40450111/uk-maritime-agency-reports-two-tanker-incidents-near-oman-iran-says-vessel-hit-mine-east-of-hormuz",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-21T13:51:37.000Z",
+   "summary": "A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United Kingdom Maritime Trade Operations (UKMTO) said on Saturday. UKMTO later...",
+   "image": "https://i.brecorder.com/large/2026/06/2320381304a4585.webp",
+   "source": "Business Recorder",
+   "region": "Pakistan",
    "press": false
   },
   {
@@ -21256,58 +21306,6 @@
    "image": null,
    "source": "Canadian Mining Journal",
    "region": "North America",
-   "press": false
-  },
-  {
-   "section": "Safety search",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Gold"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "Fatality / injury",
-   "country": "Australia",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Regis Resources reports fatal accident at Duketon South gold operation in Western Australia",
-   "link": "https://www.mining.com/regis-resources-reports-fatal-accident-at-duketon-south-gold-operation-in-western-australia/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T17:11:51.000Z",
-   "summary": "Operations at Duketon have been temporarily suspended and the incident is under investigation.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Canada's budget extends tax relief but leaves mineral explorers wanting",
-   "link": "https://www.mining.com/budget-extends-tax-relief-but-leaves-explorers-wanting/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T16:33:43.000Z",
-   "summary": "The renewed critical minerals strategy would support mining and processing technology, research, and funding for projects.",
-   "image": null,
-   "source": "MINING.COM",
-   "region": "Global",
    "press": false
   }
  ]
