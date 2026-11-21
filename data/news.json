@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:25:24.317Z",
+ "updated": "2026-11-21T11:15:21.099Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 78
+   "seen": 104
   },
   {
    "source": "Pakistan Observer",
@@ -242,14 +242,14 @@
  ],
  "items": [
   {
-   "title": "Niron Magnetics to build $1.8 billion manufacturing plant in Alabama",
-   "link": "https://www.mining.com/niron-magnetics-to-build-1-8-billion-manufacturing-plant-in-alabama/",
+   "title": "Landmark Harbour survey addresses Chinese versus Western mining tech &#038; equipment confidence gap",
+   "link": "https://im-mining.com/2026/11/21/landmark-harbour-survey-addresses-chinese-versus-western-mining-tech-equipment-confidence-gap/",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-20T21:31:00.000Z",
-   "summary": "The Minneapolis – based company is working towards commercializing the world’s first rare-earth-free Iron Nitride permanent magnets.",
+   "date": "2026-11-21T10:34:13.000Z",
+   "summary": "With bauma CHINA set to kick off next week on November 23, with IM Editorial Director Paul Moore in attendance, it is a good opportunity to consider the position of Chinese OEMs in the mining industry - and especially in the overseas...",
    "image": null,
-   "source": "MINING.COM",
+   "source": "International Mining",
    "section": "",
    "scope": "International",
    "region": "Global",
@@ -264,6 +264,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Niron Magnetics to build $1.8 billion manufacturing plant in Alabama",
+   "link": "https://www.mining.com/niron-magnetics-to-build-1-8-billion-manufacturing-plant-in-alabama/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-20T21:31:00.000Z",
+   "summary": "The Minneapolis – based company is working towards commercializing the world’s first rare-earth-free Iron Nitride permanent magnets.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -294,17 +319,8 @@
    "press": false
   },
   {
-   "title": "ElementUSA, Geophysx partner to advance Jamaica’s critical minerals sector",
-   "link": "https://www.mining.com/elementusa-geophysx-partner-to-advance-jamaicas-critical-minerals-sector/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-20T20:41:07.000Z",
-   "summary": "MOU builds on ElementUSA’s work to turn bauxite residue into critical minerals and pig iron.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -316,6 +332,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "ElementUSA, Geophysx partner to advance Jamaica’s critical minerals sector",
+   "link": "https://www.mining.com/elementusa-geophysx-partner-to-advance-jamaicas-critical-minerals-sector/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-20T20:41:07.000Z",
+   "summary": "MOU builds on ElementUSA’s work to turn bauxite residue into critical minerals and pig iron.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21282,33 +21307,6 @@
    "viaUrl": "",
    "date": "2026-11-06T16:05:16.000Z",
    "summary": "MP Materials (NYSE: MP), America’s only rare earth miner, earned an unexpected adjusted quarterly profit as sales volumes of magnet-making rare earths nearly doubled and...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Copper"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "Tailings / dam failure",
-   "country": "Chile",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "Codelco faces production scandal, tailings probe",
-   "link": "https://www.northernminer.com/news/codelco-faces-production-scandal-tailings-probe/1003897486/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T15:15:00.000Z",
-   "summary": "Chilean State miner Codelco disclosed a 42,100-tonne copper production overstatement Thursday, the same day a tailings spill halted processing at its Andina operation. The miner...",
    "image": null,
    "source": "The Northern Miner",
    "region": "North America",
