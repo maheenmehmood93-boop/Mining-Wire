@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T11:15:21.099Z",
+ "updated": "2026-11-21T18:04:03.216Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -159,7 +159,7 @@
    "source": "Business Recorder",
    "section": "",
    "ok": true,
-   "items": 0,
+   "items": 1,
    "seen": 30
   },
   {
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 1,
-   "seen": 104
+   "seen": 133
   },
   {
    "source": "Pakistan Observer",
@@ -208,14 +208,14 @@
    "source": "Daily Pakistan",
    "section": "Chagai search",
    "ok": true,
-   "items": 6,
+   "items": 5,
    "seen": 10
   },
   {
    "source": "The Balochistan Post",
    "section": "Balochistan",
    "ok": true,
-   "items": 2,
+   "items": 1,
    "seen": 10
   },
   {
@@ -229,7 +229,7 @@
    "source": "Daily Pakistan",
    "section": "Safety search",
    "ok": true,
-   "items": 3,
+   "items": 9,
    "seen": 10
   },
   {
@@ -242,17 +242,17 @@
  ],
  "items": [
   {
-   "title": "Landmark Harbour survey addresses Chinese versus Western mining tech &#038; equipment confidence gap",
-   "link": "https://im-mining.com/2026/11/21/landmark-harbour-survey-addresses-chinese-versus-western-mining-tech-equipment-confidence-gap/",
+   "title": "UK maritime agency reports two tanker incidents near Oman; Iran says vessel hit mine east of Hormuz",
+   "link": "https://www.brecorder.com/news/40450111/uk-maritime-agency-reports-two-tanker-incidents-near-oman-iran-says-vessel-hit-mine-east-of-hormuz",
    "via": "",
    "viaUrl": "",
-   "date": "2026-11-21T10:34:13.000Z",
-   "summary": "With bauma CHINA set to kick off next week on November 23, with IM Editorial Director Paul Moore in attendance, it is a good opportunity to consider the position of Chinese OEMs in the mining industry - and especially in the overseas...",
-   "image": null,
-   "source": "International Mining",
+   "date": "2026-11-21T13:51:37.000Z",
+   "summary": "A tanker sailing outbound through the Strait of Hormuz was hit on its stern by an unidentified projectile about 11 nautical miles north of Oman’s Khasab, the United Kingdom Maritime Trade Operations (UKMTO) said on Saturday. UKMTO later...",
+   "image": "https://i.brecorder.com/large/2026/06/2320381304a4585.webp",
+   "source": "Business Recorder",
    "section": "",
-   "scope": "International",
-   "region": "Global",
+   "scope": "National",
+   "region": "Pakistan",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -264,6 +264,31 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "press": false
+  },
+  {
+   "section": "",
+   "scope": "International",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "title": "Landmark Harbour survey addresses Chinese versus Western mining tech &#038; equipment confidence gap",
+   "link": "https://im-mining.com/2026/11/21/landmark-harbour-survey-addresses-chinese-versus-western-mining-tech-equipment-confidence-gap/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-21T10:34:13.000Z",
+   "summary": "With bauma CHINA set to kick off next week on November 23, with IM Editorial Director Paul Moore in attendance, it is a good opportunity to consider the position of Chinese OEMs in the mining industry - and especially in the overseas...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
@@ -694,7 +719,7 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
-   "title": "Angola plans US$180 million for De Beers stake",
+   "title": "Angola plans $180M for De Beers stake",
    "link": "https://www.northernminer.com/news/angola-plans-us180-million-for-de-beers-stake/1003898116/",
    "via": "",
    "viaUrl": "",
@@ -21283,33 +21308,6 @@
    "image": null,
    "source": "MINING.COM",
    "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [
-    "Rare earths"
-   ],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "MP Materials posts surprise adjusted profit",
-   "link": "https://www.northernminer.com/news/mp-materials-posts-surprise-adjusted-profit/1003897520/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-06T16:05:16.000Z",
-   "summary": "MP Materials (NYSE: MP), America’s only rare earth miner, earned an unexpected adjusted quarterly profit as sales volumes of magnet-making rare earths nearly doubled and...",
-   "image": null,
-   "source": "The Northern Miner",
-   "region": "North America",
    "press": false
   }
  ]
