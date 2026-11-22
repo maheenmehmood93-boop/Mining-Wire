@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:25:08.564Z",
+ "updated": "2026-11-22T06:58:47.603Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -179,7 +179,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 66
+   "seen": 71
   },
   {
    "source": "Pakistan Observer",
@@ -240,17 +240,8 @@
  ],
  "items": [
   {
-   "title": "Stone Three on the role of MPC and RTO in modern milling operations",
-   "link": "https://im-mining.com/2026/11/21/stone-three-on-the-role-of-mpc-and-rto-in-modern-milling-operations/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-21T19:19:50.000Z",
-   "summary": "Somerset West, South Africa-headquartered Stone Three helps mining concentrators increase productivity by solving difficult real-time measurement problems through industrial AI-enabled machine vision systems. To further enhance this, it...",
-   "image": null,
-   "source": "International Mining",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -262,20 +253,20 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Stone Three on the role of MPC and RTO in modern milling operations",
+   "link": "https://im-mining.com/2026/11/21/stone-three-on-the-role-of-mpc-and-rto-in-modern-milling-operations/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-21T19:19:50.000Z",
+   "summary": "Somerset West, South Africa-headquartered Stone Three helps mining concentrators increase productivity by solving difficult real-time measurement problems through industrial AI-enabled machine vision systems. To further enhance this, it...",
+   "image": null,
+   "source": "International Mining",
+   "region": "Global",
    "press": false
   },
   {
-   "title": "BLA Claims 11 Operations Across Balochistan, Says Seven Detained at Dalbandin Mining Site",
-   "link": "https://thebalochistanpost.net/2026/11/bla-claims-11-operations-across-balochistan-says-seven-detained-at-dalbandin-mining-site/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-21T18:34:32.000Z",
-   "summary": "The Baloch Liberation Army (BLA) on Saturday claimed responsibility for 11 operations across Balochistan between November 18 and 21, including ground and drone attacks on Pakistani military camps, highway blockades and a raid on a mining...",
-   "image": null,
-   "source": "The Balochistan Post",
    "section": "Balochistan",
    "scope": "National",
-   "region": "Balochistan",
    "provinces": [
     "Balochistan"
    ],
@@ -289,6 +280,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "BLA Claims 11 Operations Across Balochistan, Says Seven Detained at Dalbandin Mining Site",
+   "link": "https://thebalochistanpost.net/2026/11/bla-claims-11-operations-across-balochistan-says-seven-detained-at-dalbandin-mining-site/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-21T18:34:32.000Z",
+   "summary": "The Baloch Liberation Army (BLA) on Saturday claimed responsibility for 11 operations across Balochistan between November 18 and 21, including ground and drone attacks on Pakistani military camps, highway blockades and a raid on a mining...",
+   "image": null,
+   "source": "The Balochistan Post",
+   "region": "Balochistan",
    "press": false
   },
   {
