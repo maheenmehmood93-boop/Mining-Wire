@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:57:22.463Z",
+ "updated": "2026-11-28T13:09:00.416Z",
  "sources": [
   {
    "source": "MINING.COM",
@@ -181,7 +181,7 @@
    "section": "",
    "ok": true,
    "items": 0,
-   "seen": 62
+   "seen": 89
   },
   {
    "source": "Pakistan Observer",
@@ -241,6 +241,31 @@
   }
  ],
  "items": [
+  {
+   "title": "SDHI's LOVOL, Shantui &#038; Weichai mining capabilities come together at bauma CHINA",
+   "link": "https://im-mining.com/2026/11/28/sdhis-lovol-shantui-weichai-mining-capabilities-come-together-at-bauma-china/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-28T08:37:29.000Z",
+   "summary": "To Western observers, the scale of offering of some of the major Chinese companies is not always appreciated until you see them all in one place. This was certainly the case for SDHI (Shandong Heavy Industry Group), which had a huge booth...",
+   "image": null,
+   "source": "International Mining",
+   "section": "",
+   "scope": "International",
+   "region": "Global",
+   "provinces": [],
+   "tags": [],
+   "mining": true,
+   "chagaiSecurity": false,
+   "safetyType": "",
+   "country": "",
+   "exType": "",
+   "exMetals": [],
+   "exHighlight": "",
+   "exCountry": "",
+   "exRegion": "",
+   "press": false
+  },
   {
    "section": "",
    "scope": "International",
@@ -371,17 +396,8 @@
    "press": false
   },
   {
-   "title": "Entrée, Mongolia target March 31 for Oyu Tolgoi deal",
-   "link": "https://www.mining.com/entree-mongolia-target-march-31-for-oyu-tolgoi-deal/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-27T20:50:00.000Z",
-   "summary": "At issue is whether the state takes a stake of up to 34% in Entrée LLC, the subsidiary that holds the Shivee Tolgoi and Javkhlant mining licences.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -393,6 +409,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Entrée, Mongolia target March 31 for Oyu Tolgoi deal",
+   "link": "https://www.mining.com/entree-mongolia-target-march-31-for-oyu-tolgoi-deal/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-27T20:50:00.000Z",
+   "summary": "At issue is whether the state takes a stake of up to 34% in Entrée LLC, the subsidiary that holds the Shivee Tolgoi and Javkhlant mining licences.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -450,17 +475,8 @@
    "press": false
   },
   {
-   "title": "Barrick gives mine managers more say on targets",
-   "link": "https://www.mining.com/barrick-gives-mine-managers-more-say-on-targets/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-27T20:38:00.000Z",
-   "summary": "Barrick has given mine managers more responsibility in setting and meeting production targets after years of missed forecasts eroded investor confidence.",
-   "image": null,
-   "source": "MINING.COM",
    "section": "",
    "scope": "International",
-   "region": "Global",
    "provinces": [],
    "tags": [],
    "mining": true,
@@ -472,6 +488,15 @@
    "exHighlight": "",
    "exCountry": "",
    "exRegion": "",
+   "title": "Barrick gives mine managers more say on targets",
+   "link": "https://www.mining.com/barrick-gives-mine-managers-more-say-on-targets/",
+   "via": "",
+   "viaUrl": "",
+   "date": "2026-11-27T20:38:00.000Z",
+   "summary": "Barrick has given mine managers more responsibility in setting and meeting production targets after years of missed forecasts eroded investor confidence.",
+   "image": null,
+   "source": "MINING.COM",
+   "region": "Global",
    "press": false
   },
   {
@@ -21232,31 +21257,6 @@
    "summary": "The rate of growth of autonomous driving technology in the Chinese mining industry is nothing short of remarkable - market leader EACON has just announced that it has passed the milestone of 4,000 mining trucks running with its ORCASTRA...",
    "image": null,
    "source": "International Mining",
-   "region": "Global",
-   "press": false
-  },
-  {
-   "section": "",
-   "scope": "International",
-   "provinces": [],
-   "tags": [],
-   "mining": true,
-   "chagaiSecurity": false,
-   "safetyType": "",
-   "country": "",
-   "exType": "",
-   "exMetals": [],
-   "exHighlight": "",
-   "exCountry": "",
-   "exRegion": "",
-   "title": "GoldHaven finds high-grade tungsten skarn at Magno Project in Canada",
-   "link": "https://www.mining-technology.com/news/goldhaven-tungsten-skarn-magno-project/",
-   "via": "",
-   "viaUrl": "",
-   "date": "2026-11-13T12:15:19.000Z",
-   "summary": "GoldHaven Resources has identified a new high-grade tungsten-bearing skarn at its Magno Project in northwestern British Columbia (BC), Canada.",
-   "image": "https://www.mining-technology.com/wp-content/uploads/sites/19/2026/11/MT-5-13Nov26-927be91e-fbc0-4bec-93a1-53c91405adc7.jpg",
-   "source": "Mining Technology",
    "region": "Global",
    "press": false
   }
